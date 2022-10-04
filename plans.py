@@ -2,8 +2,11 @@ from mimetypes import guess_extension
 import os
 import requests
 import json
+from multiprocessing.pool import ThreadPool as Pool
 
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36', 'x-v': '1'}
+
+brand_size = 10
 
 def get_data(url):
     r = requests.get(url, headers=headers)
@@ -21,6 +24,7 @@ def get_data(url):
 
     return response
 
+
 # https://stackoverflow.com/a/25851972/9389353
 def ordered(obj):
     if isinstance(obj, dict):
@@ -30,11 +34,7 @@ def ordered(obj):
     else:
         return obj
 
-raw_file = open("brands/brands.json", "r")
-brands = json.load(raw_file)
-raw_file.close()
-
-for brand in brands:
+def process_brand(brand):
     try:
         response = get_data(brands[brand]['publicBaseUri'].rstrip('/') + "/cds-au/v1/energy/plans")
 
@@ -63,3 +63,16 @@ for brand in brands:
 
     except Exception as e:
         print(e)
+
+
+raw_file = open("brands/brands.json", "r")
+brands = json.load(raw_file)
+raw_file.close()
+
+brand_pool = Pool(brand_size)
+for brand in brands:
+    brand_pool.apply_async(process_brand, (brand,))
+
+brand_pool.close()
+brand_pool.join()
+
