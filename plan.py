@@ -3,7 +3,6 @@ import os
 import requests
 import json
 from multiprocessing.pool import ThreadPool as Pool
-import traceback
 
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36', 'x-v': '1'}
 
@@ -114,7 +113,6 @@ for root, dirs, files in os.walk("brands/plan/"):
             found = False
 
             for plan in plans['data']['plans']:
-                print(plan['planId'])
                 if plan['planId'] == id:
                     found = True
             
