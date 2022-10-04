@@ -1,0 +1,321 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "energyaustralia",
+        "planId": "ENE480879MRE1@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "EnergyAustralia",
+        "geography": {
+            "distributors": [
+                "Endeavour"
+            ],
+            "includedPostcodes": [
+                "2113",
+                "2114",
+                "2115",
+                "2116",
+                "2117",
+                "2118",
+                "2119",
+                "2120",
+                "2121",
+                "2122",
+                "2125",
+                "2126",
+                "2142",
+                "2145",
+                "2146",
+                "2147",
+                "2148",
+                "2150",
+                "2151",
+                "2152",
+                "2153",
+                "2154",
+                "2155",
+                "2156",
+                "2157",
+                "2158",
+                "2159",
+                "2160",
+                "2161",
+                "2162",
+                "2163",
+                "2164",
+                "2165",
+                "2166",
+                "2167",
+                "2168",
+                "2170",
+                "2171",
+                "2172",
+                "2173",
+                "2174",
+                "2175",
+                "2176",
+                "2177",
+                "2178",
+                "2179",
+                "2198",
+                "2200",
+                "2213",
+                "2214",
+                "2233",
+                "2250",
+                "2257",
+                "2283",
+                "2304",
+                "2323",
+                "2325",
+                "2328",
+                "2329",
+                "2330",
+                "2500",
+                "2502",
+                "2505",
+                "2506",
+                "2508",
+                "2515",
+                "2516",
+                "2517",
+                "2518",
+                "2519",
+                "2525",
+                "2526",
+                "2527",
+                "2528",
+                "2529",
+                "2530",
+                "2533",
+                "2534",
+                "2535",
+                "2536",
+                "2537",
+                "2538",
+                "2539",
+                "2540",
+                "2541",
+                "2555",
+                "2556",
+                "2557",
+                "2558",
+                "2559",
+                "2560",
+                "2563",
+                "2564",
+                "2565",
+                "2566",
+                "2567",
+                "2568",
+                "2569",
+                "2570",
+                "2571",
+                "2572",
+                "2573",
+                "2574",
+                "2575",
+                "2576",
+                "2577",
+                "2578",
+                "2579",
+                "2580",
+                "2622",
+                "2745",
+                "2747",
+                "2748",
+                "2749",
+                "2750",
+                "2751",
+                "2752",
+                "2753",
+                "2754",
+                "2756",
+                "2757",
+                "2758",
+                "2759",
+                "2760",
+                "2761",
+                "2762",
+                "2763",
+                "2765",
+                "2766",
+                "2767",
+                "2768",
+                "2769",
+                "2770",
+                "2773",
+                "2774",
+                "2775",
+                "2776",
+                "2777",
+                "2778",
+                "2779",
+                "2780",
+                "2782",
+                "2783",
+                "2784",
+                "2785",
+                "2786",
+                "2787",
+                "2790",
+                "2795",
+                "2800",
+                "2845",
+                "2846",
+                "2847",
+                "2848",
+                "2849",
+                "2850"
+            ]
+        },
+        "displayName": "Balance Plan - Third Party",
+        "lastUpdated": "2022-09-06T14:05:54.413Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-09-07T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "Disconnection fee may apply when vacating your property and disconnecting electricity to your property (or reading your meter where applicable). Fees may vary and see additional fee information for more details."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "description": "Reconnection fee may apply when moving into your property and connecting electricity to your property (or reading your meter where applicable). Fees may vary and see additional fee information for details."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "Connection fee may apply when moving into your property and connecting electricity to your property (or reading your meter where applicable). Fees may vary and see additional fee information for details."
+                },
+                {
+                    "rate": "0.36",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit card merchant service fee of 0.36% for all payments with Visa or Mastercard."
+                },
+                {
+                    "rate": "1.5",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit card merchant service fee of 1.5% for all payments with American Express."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "description": "$12.00 (GST does not currently apply to late payment fees)."
+                }
+            ],
+            "terms": "Please refer to our website www.energyaustralia.com.au for full terms and conditions.",
+            "isFixed": false,
+            "termType": "ONGOING",
+            "timeZone": "LOCAL",
+            "variation": "Prices may be varied in line with your terms and conditions. We will give you notice before any new prices take effect.",
+            "meterTypes": [
+                "Type 4",
+                "Type 4a",
+                "Type 5",
+                "Type 6"
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": null,
+                                "unitPrice": "27.69"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "Anytime",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "All year",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "87.50"
+                }
+            ],
+            "benefitPeriod": "1 Year",
+            "billFrequency": [
+                "P3M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL",
+                "DIRECT_DEBIT",
+                "BPAY",
+                "CREDIT_CARD"
+            ],
+            "controlledLoad": {
+                "rates": [
+                    {
+                        "unitPrice": "17.09"
+                    }
+                ],
+                "period": "P1D",
+                "dailyCharge": "0.00",
+                "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                "displayName": "Controlled Load 1"
+            },
+            "coolingOffDays": "10",
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.05",
+                            "percentGreen": "10"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "PureEnergy 10% = $0.0495 x (10% x total usage)",
+                    "displayName": "PureEnergy 10%"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.05",
+                            "percentGreen": "20"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "PureEnergy 20% = $0.0495 x (20% x total usage)",
+                    "displayName": "PureEnergy 20%"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.05",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "PureEnergy 100% = $0.0495 per kWh",
+                    "displayName": "PureEnergy 100%"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "EnergyAustralia Retailer Feed-in Tariff (excl. GST if any)",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "7.60"
+                    }
+                }
+            ],
+            "onExpiryDescription": "The Benefit Period for this plan is 12 months. We will provide you with notice of your options prior to the end of the Benefit Period. Your contract will continue until it is ended by either party."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1/energy/plans/ENE480879MRE1@EME"
+    }
+}

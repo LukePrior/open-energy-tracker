@@ -1,0 +1,285 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "agl",
+        "planId": "AGD395279MS@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "AGL",
+        "geography": {
+            "distributors": [
+                "Jemena"
+            ],
+            "includedPostcodes": [
+                "3011",
+                "3012",
+                "3013",
+                "3015",
+                "3016",
+                "3019",
+                "3020",
+                "3023",
+                "3025",
+                "3031",
+                "3032",
+                "3033",
+                "3034",
+                "3036",
+                "3037",
+                "3038",
+                "3039",
+                "3040",
+                "3041",
+                "3042",
+                "3043",
+                "3044",
+                "3045",
+                "3046",
+                "3047",
+                "3048",
+                "3049",
+                "3051",
+                "3052",
+                "3058",
+                "3059",
+                "3060",
+                "3061",
+                "3062",
+                "3063",
+                "3064",
+                "3068",
+                "3070",
+                "3072",
+                "3073",
+                "3074",
+                "3076",
+                "3078",
+                "3079",
+                "3081",
+                "3083",
+                "3084",
+                "3085",
+                "3086",
+                "3087",
+                "3335",
+                "3336",
+                "3337",
+                "3340",
+                "3427",
+                "3428",
+                "3429",
+                "3430",
+                "3431",
+                "3437",
+                "3750",
+                "3753"
+            ]
+        },
+        "displayName": "Business Flexible Saver",
+        "lastUpdated": "2022-07-01T00:47:31Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-06-30T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "rate": "0.45",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "The amount is GST inclusive and applies to card payments made at Australia Post outlets"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "2.00",
+                    "description": "An over the counter payment fee may apply for payments made in-person at a Post Office. Includes GST"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "1.75",
+                    "description": "A paper bill fee may apply for each bill sent by post. Includes GST"
+                },
+                {
+                    "rate": "0.17",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "The amount is GST inclusive and applies to payments made by debit cards."
+                },
+                {
+                    "rate": "0.66",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "The amount is GST inclusive and applies to payments made by credit cards."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "56.73",
+                    "description": "Fee may be charged when reconnecting or reading your meter when you move into a property or change retailer. Includes GST. Fees may vary.\nAdditional fees and charges may apply. Please see the energy offer terms and conditions at agl.com.au"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "81.35",
+                    "description": "Fee may be charged when disconnecting or reading your meter when you move out of a property or change retailer. Includes GST. Fees may vary."
+                }
+            ],
+            "terms": "Offer only available in areas where AGL operates. For further information about the terms and conditions applicable to this energy offer, please contact AGL on 131 245 or visit agl.com.au",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "This plan also includes variable rates, retail fees and charges, which can change at any time with notice to you. If we vary your rates, we will give you at least 5 business days prior notice of the variation. Other charges may be varied with notice",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer applies to customers with an applicable network tariff. For solar feed-in tariff eligibility, or for further information about the terms and conditions applicable to this energy offer, please contact AGL on 131 245 or visit agl.com.au."
+                }
+            ],
+            "pricingModel": "TIME_OF_USE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "Period",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "25.63"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "2100",
+                                    "startTime": "0900"
+                                }
+                            ],
+                            "displayName": "Two Rate - Time of Use"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "13.93"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "2100"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "0900",
+                                    "startTime": "0000"
+                                },
+                                {
+                                    "days": [
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "0000"
+                                }
+                            ],
+                            "displayName": "Tariff 2"
+                        }
+                    ],
+                    "dailySupplyCharges": "148.62"
+                }
+            ],
+            "billFrequency": [
+                "P3M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0044",
+                            "percentGreen": "10"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "For .44c / kWh inc. GST we ensure energy equal to 10% of your consumption will be fed into the grid from Accredited GreenPower generators.",
+                    "displayName": "GreenPower 10"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0088",
+                            "percentGreen": "20"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "For 0.88c / kWh inc. GST we ensure energy equal to 20% of your consumption will be fed into the grid from Accredited GreenPower generators.",
+                    "displayName": "GreenPower 20"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.044",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "For 4.4c / kWh inc. GST we ensure energy equal to 100% of your consumption will be fed into the grid from Accredited GreenPower generators.",
+                    "displayName": "GreenPower 100"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "AGL Retailer Feed-in Tariff (RFiT)",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.20"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "Solar bonus scheme pre 30 December 2011 60 cent PFiT",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "Your market contract is ongoing. From time to time, AGL reviews its offers and this offer will be reviewed with consideration to AGLu2019s generally available market offers"
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/agl/cds-au/v1/energy/plans/AGD395279MS@VEC"
+    }
+}

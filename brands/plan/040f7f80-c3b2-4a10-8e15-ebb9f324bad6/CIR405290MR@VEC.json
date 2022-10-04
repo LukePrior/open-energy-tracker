@@ -1,0 +1,170 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "circular",
+        "planId": "CIR405290MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Circular Energy",
+        "geography": {
+            "distributors": [
+                "Jemena"
+            ],
+            "includedPostcodes": [
+                "3011",
+                "3012",
+                "3013",
+                "3015",
+                "3016",
+                "3019",
+                "3020",
+                "3023",
+                "3025",
+                "3031",
+                "3032",
+                "3033",
+                "3034",
+                "3036",
+                "3037",
+                "3038",
+                "3039",
+                "3040",
+                "3041",
+                "3042",
+                "3043",
+                "3044",
+                "3045",
+                "3046",
+                "3047",
+                "3048",
+                "3049",
+                "3051",
+                "3052",
+                "3058",
+                "3059",
+                "3060",
+                "3061",
+                "3062",
+                "3063",
+                "3064",
+                "3068",
+                "3070",
+                "3072",
+                "3073",
+                "3074",
+                "3076",
+                "3078",
+                "3079",
+                "3081",
+                "3083",
+                "3084",
+                "3085",
+                "3086",
+                "3087",
+                "3335",
+                "3336",
+                "3337",
+                "3340",
+                "3427",
+                "3428",
+                "3429",
+                "3430",
+                "3431",
+                "3437",
+                "3750",
+                "3753"
+            ]
+        },
+        "displayName": "Zero Member Fee Anytime with Controlled Load",
+        "lastUpdated": "2022-06-30T06:55:17Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-07-03T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "55.00",
+                    "description": ""
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "55.00",
+                    "description": ""
+                },
+                {
+                    "rate": "1.87",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": ""
+                }
+            ],
+            "terms": "Full Terms & Conditions can be obtained from www.circularenergy.net.au or by contacting our Customer CareTeam on 1300 204 462.",
+            "isFixed": true,
+            "timeZone": "LOCAL",
+            "variation": "",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Applicable to a Residential Customer in the AusNet Services distribution zone & verification of meter type. ContactCircular Energy for other Eligible criteria."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "21.109"
+                            }
+                        ],
+                        "displayName": "Rate 1"
+                    },
+                    "displayName": "Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "105.191"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "16.009"
+                            }
+                        ],
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "",
+                    "rateBlockUType": "singleRate"
+                }
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Solar Feed-in Tariff",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "7.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your Terms & Conditions."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/circular/cds-au/v1/energy/plans/CIR405290MR@VEC"
+    }
+}

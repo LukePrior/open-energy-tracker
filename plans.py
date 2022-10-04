@@ -34,32 +34,23 @@ raw_file = open("brands/brands.json", "r")
 brands = json.load(raw_file)
 raw_file.close()
 
-changed_plans = 0
-
 for brand in brands:
     try:
         response = get_data(brands[brand]['publicBaseUri'].rstrip('/') + "/cds-au/v1/energy/plans")
 
-        flag = False
         skip_update = False
 
         try:
             for file in os.listdir('brands/plans/'):
                 if file == (brand + ".json"):
-                    flag = True
                     raw_file = open("brands/plans/"+file, "r")
                     response_compare = json.load(raw_file)
                     raw_file.close()
-                    if ordered(response) != ordered(response_compare):
-                        changed_plans += 1
-                    else:
+                    if ordered(response) == ordered(response_compare):
                         skip_update = True
 
         except Exception as e:
             print(e)
-
-        if flag == False:
-            changed_plans += 1
 
         path = 'brands/plans/' + brand + ".json"
 
@@ -72,10 +63,3 @@ for brand in brands:
 
     except Exception as e:
         print(e)
-
-stats = {}
-stats['changed_files'] = changed_plans
-
-raw_file = open("stats.json", "w")
-json.dump(stats, raw_file, indent = 4)
-raw_file.close()

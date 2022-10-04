@@ -1,0 +1,165 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "energyaustralia",
+        "planId": "TRU416943MR@VEC",
+        "fuelType": "GAS",
+        "brandName": "EnergyAustralia",
+        "geography": {
+            "distributors": [
+                "Multinet"
+            ],
+            "includedPostcodes": [
+                "3797",
+                "3799"
+            ]
+        },
+        "displayName": "Flexi Plan (R7)",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "50.79",
+                    "description": "Reconnection - Business hours"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "7.72",
+                    "description": "Special Meter Read"
+                },
+                {
+                    "rate": "0.36",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit card merchant service fee of 0.36% for all payments with Visa or Mastercard."
+                },
+                {
+                    "rate": "1.5",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit card merchant service fee of 1.5% for all payments with American Express."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "1.69",
+                    "description": "Paper bill fee incl. GST per bill effective from 6 April 2020.  Refer to www.energyaustralia.com.au/home/help-and-support/faqs/paper-bill-fee for details."
+                }
+            ],
+            "terms": "For full terms and conditions, please refer to our website www.energyaustralia.com.au.",
+            "isFixed": false,
+            "termType": "1_YEAR",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "category": "OTHER",
+                    "description": "Guaranteed total energy bill discount. Discount applies to GST exclusive usage and supply charges, and not to fees and other charges such as late payment fees or Greenpower",
+                    "displayName": "Guaranteed Whole of Bill Discount",
+                    "methodUType": "percentOfBill",
+                    "percentOfBill": {
+                        "rate": "12"
+                    }
+                },
+                {
+                    "type": "CONDITIONAL",
+                    "category": "OTHER",
+                    "description": "Offer available to eligible residential customers who sign up to an electricity or gas offer via energyaustralia.com.au. Limit of one $25 credit per new energy account, per customer address. We may change or end this offer at any time. Credit will be applied to your first bill and is not transferable or redeemable for cash.",
+                    "displayName": "Online Sign Up Credit",
+                    "fixedAmount": {
+                        "amount": "22.7272"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "Prices may be varied in line with your terms and conditions. We will give you notice before any new prices take effect.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "The details presented in this fact sheet are for a residential customer located in the distribution area outlined with a metering configuration as described. Unless otherwise specified, 'Peak Only' is the default meter type."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "10-31",
+                    "startDate": "05-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "3.08"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.70"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.38"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.18"
+                            },
+                            {
+                                "unitPrice": "2.11"
+                            }
+                        ],
+                        "displayName": "R7"
+                    },
+                    "displayName": "Winter Rates",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "74.80"
+                },
+                {
+                    "endDate": "04-30",
+                    "startDate": "11-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.92"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.60"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.34"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.16"
+                            },
+                            {
+                                "unitPrice": "2.09"
+                            }
+                        ],
+                        "displayName": "Rate"
+                    },
+                    "displayName": "Non-Winter Rates",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "74.80"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "The Benefit Period for this plan is for 1 year. We will provide you with notice of your options prior to the end of the Benefit Period. Your contract will continue until it is ended by either party."
+        },
+        "lastUpdated": "2022-08-03T02:06:36Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-08-09T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1/energy/plans/TRU416943MR@VEC"
+    }
+}

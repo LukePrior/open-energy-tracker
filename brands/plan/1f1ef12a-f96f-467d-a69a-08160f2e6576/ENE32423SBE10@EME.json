@@ -1,0 +1,221 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "energyaustralia",
+        "planId": "ENE32423SBE10@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "EnergyAustralia",
+        "geography": {
+            "distributors": [
+                "Evoenergy"
+            ],
+            "includedPostcodes": [
+                "2600",
+                "2601",
+                "2602",
+                "2603",
+                "2604",
+                "2605",
+                "2606",
+                "2607",
+                "2609",
+                "2611",
+                "2612",
+                "2614",
+                "2615",
+                "2617",
+                "2618",
+                "2620",
+                "2900",
+                "2902",
+                "2903",
+                "2904",
+                "2905",
+                "2906",
+                "2911",
+                "2912",
+                "2913",
+                "2914"
+            ]
+        },
+        "displayName": "Basic Business",
+        "lastUpdated": "2022-07-31T14:06:53.576Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-08-01T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "description": "$10.90 (GST does not currently apply to late payment fees)."
+                },
+                {
+                    "rate": "0.36",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "amount": "0.00",
+                    "description": "Credit card merchant service fee of 0.36% for all payments with Visa or Mastercard."
+                },
+                {
+                    "rate": "1.5",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "amount": "0.00",
+                    "description": "Credit card merchant service fee of 1.5% for all payments with American Express."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "A disconnection fee may apply when you move into a property.  Fees may vary and see additional fee information for more details."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "description": "A reconnection fee may apply (incl. moving or reading your meter). Fees may vary and see additional fee information for details."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "A connection fee may apply when you move into a property.  Fees may vary and see additional fee information for more details."
+                }
+            ],
+            "terms": "Please refer to our website www.energyaustralia.com.au for full terms and conditions.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "The rates for Basic Business may vary, either when the AER changes the reference price, or when we review our rates each year. We\u2019ll notify you before any rate change occurs.",
+            "meterTypes": [
+                "Type 4",
+                "Type 4a",
+                "Type 5",
+                "Type 6"
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 330,
+                                "unitPrice": "33.45"
+                            },
+                            {
+                                "volume": null,
+                                "unitPrice": "37.40"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "Anytime",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "All year",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "134.56"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL",
+                "DIRECT_DEBIT",
+                "BPAY",
+                "CREDIT_CARD"
+            ],
+            "controlledLoad": {
+                "rates": [
+                    {
+                        "unitPrice": "19.45"
+                    }
+                ],
+                "period": "P1D",
+                "dailyCharge": "0.00",
+                "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                "displayName": "Controlled Load 2"
+            },
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.05",
+                            "percentGreen": "10"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "PureEnergy 10% = $0.0495 x (10% x total usage)"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.05",
+                            "percentGreen": "25"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "PureEnergy 25% = $0.0495 x (25% x total usage)"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.05",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "PureEnergy 100% = $0.0495 per kWh"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "GOVERNMENT",
+                    "description": "ACT Government Feed-in-Tariff Scheme <10kW 1/3/2009 to 30/6/2011",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "50.05"
+                    }
+                },
+                {
+                    "scheme": "OTHER",
+                    "payerType": "GOVERNMENT",
+                    "description": "ACT Government Feed-in-Tariff Scheme 10-30kW 1/3/2009 to 30/6/2010",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "40.04"
+                    }
+                },
+                {
+                    "scheme": "OTHER",
+                    "payerType": "GOVERNMENT",
+                    "description": "ACT Government Feed-in-Tariff Scheme <30kW 1/7/2010 to 31/5/2011",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "45.70"
+                    }
+                },
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "EnergyAustralia Retailer Feed-in Tariff (incl. GST if any)",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "8.36"
+                    }
+                }
+            ],
+            "onExpiryDescription": "This contract continues for as long as you remain on the plan."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1/energy/plans/ENE32423SBE10@EME"
+    }
+}

@@ -1,0 +1,373 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "energyaustralia",
+        "planId": "TRU424403MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "EnergyAustralia",
+        "geography": {
+            "distributors": [
+                "United Energy"
+            ],
+            "includedPostcodes": [
+                "3104",
+                "3105",
+                "3106",
+                "3107",
+                "3108",
+                "3109",
+                "3111",
+                "3114",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3127",
+                "3128",
+                "3129",
+                "3130",
+                "3131",
+                "3132",
+                "3133",
+                "3144",
+                "3145",
+                "3146",
+                "3147",
+                "3148",
+                "3149",
+                "3150",
+                "3151",
+                "3152",
+                "3161",
+                "3162",
+                "3163",
+                "3165",
+                "3166",
+                "3167",
+                "3168",
+                "3169",
+                "3170",
+                "3171",
+                "3172",
+                "3173",
+                "3174",
+                "3175",
+                "3177",
+                "3178",
+                "3179",
+                "3182",
+                "3183",
+                "3184",
+                "3185",
+                "3186",
+                "3187",
+                "3188",
+                "3189",
+                "3190",
+                "3191",
+                "3192",
+                "3193",
+                "3194",
+                "3195",
+                "3196",
+                "3197",
+                "3198",
+                "3199",
+                "3200",
+                "3201",
+                "3202",
+                "3204",
+                "3800",
+                "3802",
+                "3803",
+                "3910",
+                "3911",
+                "3912",
+                "3913",
+                "3915",
+                "3916",
+                "3918",
+                "3919",
+                "3920",
+                "3926",
+                "3927",
+                "3928",
+                "3929",
+                "3930",
+                "3931",
+                "3933",
+                "3934",
+                "3936",
+                "3937",
+                "3938",
+                "3939",
+                "3940",
+                "3941",
+                "3942",
+                "3943",
+                "3944",
+                "3975",
+                "3976",
+                "3977"
+            ]
+        },
+        "displayName": "Balance Plan - Time of Use with Controlled Load",
+        "lastUpdated": "2022-09-19T05:17:21Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-09-20T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "57.37",
+                    "description": "Disconnecting electricity to your property or reading your meter where applicable - Business hours"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "57.37",
+                    "description": "Reconnection fee - Business hours"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "0.00",
+                    "description": "Remote Disconnection fee - Business hours"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "0.00",
+                    "description": "Remote Reconnection fee - Business hours"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "76.48",
+                    "description": "Solar meter installation fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "26.94",
+                    "description": "Special Meter Read fee"
+                },
+                {
+                    "rate": "0.36",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit card merchant service fee of 0.36% for all payments with Visa or Mastercard."
+                },
+                {
+                    "rate": "1.5",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit card merchant service fee of 1.5% for all payments with American Express."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "1.69",
+                    "description": "Paper bill fee incl. GST per bill effective from 6 April 2020.  Refer to www.energyaustralia.com.au/home/help-and-support/faqs/paper-bill-fee for details."
+                }
+            ],
+            "terms": "Please refer to our website www.energyaustralia.com.au for solar feed-in eligibility and full terms and conditions.",
+            "isFixed": false,
+            "termType": "1_YEAR",
+            "timeZone": "LOCAL",
+            "discounts": [
+                {
+                    "type": "CONDITIONAL",
+                    "category": "OTHER",
+                    "description": "Offer available to eligible residential customers who sign up to an electricity or gas offer via energyaustralia.com.au. Limit of one $25 credit per new energy account, per customer address. We may change or end this offer at any time.",
+                    "displayName": "Online Sign Up Credit",
+                    "fixedAmount": {
+                        "amount": "22.7272"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "Prices may be varied in line with your terms and conditions. We will give you notice before any new prices take effect.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "PowerResponse program rebate",
+                    "displayName": "PowerResponse program rebate",
+                    "eligibility": "You may be eligible for our PowerResponse program, and by participating in events, you may be eligible for rebates which may change over time. See website energyaustralia.com.au/power-response for details on eligibility criteria, T&Cu2019s and rebates."
+                },
+                {
+                    "category": "OTHER",
+                    "description": "Online Sign Up Credit",
+                    "displayName": "Online Sign Up Credit",
+                    "eligibility": "Credit will be applied to your first bill and is not transferable or redeemable for cash."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "The details in this"
+                }
+            ],
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "Period",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "29.5545"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "2100",
+                                    "startTime": "1500"
+                                }
+                            ],
+                            "displayName": "Peak Consumption"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "16.6454"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "1500",
+                                    "startTime": "0000"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "2100"
+                                }
+                            ],
+                            "displayName": "Off-Peak Consumption"
+                        }
+                    ],
+                    "dailySupplyCharges": "97.754"
+                }
+            ],
+            "billFrequency": [
+                "P3M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "14.8272"
+                            }
+                        ],
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "",
+                    "rateBlockUType": "singleRate"
+                }
+            ],
+            "coolingOffDays": 10,
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0495",
+                            "percentGreen": "10"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "PureEnergy 10% = $0.0495 x (10% x total usage)",
+                    "displayName": "GreenPower 10"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0495",
+                            "percentGreen": "20"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "PureEnergy 20% = $0.0495 x (20% x total usage)",
+                    "displayName": "GreenPower 20"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0495",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "PureEnergy 100% = $0.0495 per kWh",
+                    "displayName": "GreenPower 100"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Retailer voluntary",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.40"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "Eligible customers only, already registered for Premium FiT Scheme",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "66.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "The Benefit Period for this plan is for 1 year. We will provide you with notice of your options prior to the end of the Benefit Period. Your contract will continue until it is ended by either party."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1/energy/plans/TRU424403MR@VEC"
+    }
+}

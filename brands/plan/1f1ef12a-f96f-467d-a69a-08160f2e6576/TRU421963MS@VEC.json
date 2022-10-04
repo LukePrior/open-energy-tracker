@@ -1,0 +1,172 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "energyaustralia",
+        "planId": "TRU421963MS@VEC",
+        "fuelType": "GAS",
+        "brandName": "EnergyAustralia",
+        "geography": {
+            "distributors": [
+                "Australian Gas Networks"
+            ],
+            "includedPostcodes": [
+                "3139",
+                "3198",
+                "3199",
+                "3200",
+                "3201",
+                "3755",
+                "3760",
+                "3761",
+                "3777",
+                "3803",
+                "3804",
+                "3805",
+                "3806",
+                "3807",
+                "3808",
+                "3809",
+                "3810",
+                "3816",
+                "3818",
+                "3820",
+                "3822",
+                "3823",
+                "3824",
+                "3825",
+                "3840",
+                "3842",
+                "3844",
+                "3847",
+                "3850",
+                "3851",
+                "3860",
+                "3916",
+                "3918",
+                "3919",
+                "3920",
+                "3921",
+                "3926",
+                "3927",
+                "3928",
+                "3929",
+                "3930",
+                "3931",
+                "3933",
+                "3934",
+                "3936",
+                "3937",
+                "3938",
+                "3939",
+                "3940",
+                "3941",
+                "3942",
+                "3943",
+                "3944",
+                "3975",
+                "3976",
+                "3977",
+                "3978",
+                "3980",
+                "3981",
+                "3987"
+            ]
+        },
+        "displayName": "Business Balance Plan 24 (R5)",
+        "gasContract": {
+            "fees": [
+                {
+                    "rate": "0.36",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit card merchant service fee of 0.36% for all payments with Visa or Mastercard."
+                },
+                {
+                    "rate": "1.5",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit card merchant service fee of 1.5% for all payments with American Express."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "83.60",
+                    "description": ""
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "96.80",
+                    "description": ""
+                }
+            ],
+            "terms": "For full terms and conditions, please refer to our website www.energyaustralia.com.au.",
+            "isFixed": false,
+            "termType": "2_YEAR",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "category": "OTHER",
+                    "description": "2% Guaranteed total energy bill discount. Discount applies to GST exclusive usage and supply charges, and not to fees and other charges such as late payment fees or Greenpower",
+                    "displayName": "Guaranteed Whole of Bill Discount",
+                    "methodUType": "percentOfBill",
+                    "percentOfBill": {
+                        "rate": "2"
+                    }
+                }
+            ],
+            "variation": "The rates for Business Balance Plan may vary, either when we change regulated rates, or when we review our rates each year. Weu2019ll notify you before any rate change occurs.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "The details presented in this fact sheet are for a small business customer located in the distribution area outlined with a metering configuration as described. Unless otherwise specified, 'Peak Only' is the default meter type."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "3.10"
+                            },
+                            {
+                                "volume": 500,
+                                "unitPrice": "2.30"
+                            },
+                            {
+                                "volume": 820,
+                                "unitPrice": "2.10"
+                            },
+                            {
+                                "unitPrice": "1.79"
+                            }
+                        ],
+                        "displayName": "Rate"
+                    },
+                    "displayName": "All year",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "111.40"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "The Benefit Period for this plan is for 2 years. We will provide you with notice of your options prior to the end of the Benefit Period. Your contract will continue until it is ended by either party."
+        },
+        "lastUpdated": "2022-08-29T00:32:54Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-09-13T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1/energy/plans/TRU421963MS@VEC"
+    }
+}

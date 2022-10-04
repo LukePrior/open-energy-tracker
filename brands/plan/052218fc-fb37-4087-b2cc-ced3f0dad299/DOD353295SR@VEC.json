@@ -1,0 +1,149 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "dodo",
+        "planId": "DOD353295SR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Dodo",
+        "geography": {
+            "distributors": [
+                "AusNet Services (gas)"
+            ],
+            "includedPostcodes": [
+                "3024",
+                "3029",
+                "3030",
+                "3211",
+                "3212",
+                "3214",
+                "3215",
+                "3216",
+                "3217",
+                "3218",
+                "3219",
+                "3220",
+                "3221",
+                "3222",
+                "3223",
+                "3224",
+                "3225",
+                "3226",
+                "3228",
+                "3335",
+                "3337",
+                "3338",
+                "3427",
+                "3429",
+                "3336",
+                "3003",
+                "3008",
+                "3073",
+                "3213"
+            ]
+        },
+        "displayName": "Residential Standing - AusNet Services Central 2",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "19.00",
+                    "description": "A reconnection fee may apply each time we request to energise  a property, or if you require a meter reading for any purpose.\nOther charges that may be applicable are specified in the Additional Retail Charges schedule which can be viewed on our website at www.dodo.com/energy/terms-prices-and-regulatory-information."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "19.00",
+                    "description": "A disconnection fee may apply each time we request to  de-energise a property, or if you require a meter reading for any purpose"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "9.50",
+                    "description": "A dishonoured payment fee may apply to payments we attempt that are subsequently declined."
+                }
+            ],
+            "terms": "Standing offer or Standard Retail contracts are electricity or gas contracts with terms and conditions that are prescribed by law and designed to protect your rights.  Standard Retail contracts start without you have to sign a document agreeing to terms and conditions.  See our Standard Retail terms and conditions at www.dodo.com/energy/terms-prices-and-regulatory-information.",
+            "isFixed": false,
+            "variation": "We may vary these prices no more than once every 6 months, and provide you notice of any changes at least 5 business days before the change is effective. We will publish variations on our website and in a newspaper at least 10 business days prior.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "The details presented in this Price Fact Sheet are for a Residential customer located in the AusNet gas distribution zone where Dodo Power and Gas is the designated retailer, and we are already responsible for the gas supplied to the premise."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.4402"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.1508"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "1.7295"
+                            },
+                            {
+                                "unitPrice": "1.7219"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "83.4463"
+                },
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "1.9587"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "1.9069"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "1.728"
+                            },
+                            {
+                                "unitPrice": "1.6813"
+                            }
+                        ],
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Off Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "83.4463"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Standard contracts do not expire."
+        },
+        "lastUpdated": "2021-11-28T22:13:41Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2021-12-31T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/dodo/cds-au/v1/energy/plans/DOD353295SR@VEC"
+    }
+}

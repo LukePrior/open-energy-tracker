@@ -1,0 +1,169 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "energyaustralia",
+        "planId": "TRU424422MR@VEC",
+        "fuelType": "GAS",
+        "brandName": "EnergyAustralia",
+        "geography": {
+            "distributors": [
+                "Australian Gas Networks"
+            ],
+            "includedPostcodes": [
+                "3561",
+                "3564",
+                "3616",
+                "3618",
+                "3620",
+                "3621",
+                "3622",
+                "3623",
+                "3624",
+                "3629",
+                "3630",
+                "3631",
+                "3658",
+                "3659",
+                "3660",
+                "3662",
+                "3663",
+                "3664",
+                "3665",
+                "3666",
+                "3669",
+                "3672",
+                "3677",
+                "3678",
+                "3688",
+                "3690",
+                "3691",
+                "3694",
+                "3753",
+                "3756",
+                "3757",
+                "3758",
+                "3763",
+                "3764",
+                "3775"
+            ]
+        },
+        "displayName": "Balance Plan (R4)",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "96.80",
+                    "description": "Reconnection - Business hours"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "14.63",
+                    "description": "Special Meter Read - Non Metro"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "10.67",
+                    "description": "Special Meter Read - Metro"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "10.67",
+                    "description": "Special Meter Read"
+                },
+                {
+                    "rate": "0.36",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit card merchant service fee of 0.36% for all payments with Visa or Mastercard."
+                },
+                {
+                    "rate": "1.5",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit card merchant service fee of 1.5% for all payments with American Express."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "1.69",
+                    "description": "Paper bill fee incl. GST per bill effective from 6 April 2020.  Refer to www.energyaustralia.com.au/home/help-and-support/faqs/paper-bill-fee for details."
+                }
+            ],
+            "terms": "For full terms and conditions, please refer to our website www.energyaustralia.com.au.",
+            "isFixed": false,
+            "termType": "1_YEAR",
+            "discounts": [
+                {
+                    "type": "CONDITIONAL",
+                    "category": "OTHER",
+                    "description": "Offer available to eligible residential customers who sign up to an electricity or gas offer via energyaustralia.com.au. Limit of one $25 credit per new energy account, per customer address. We may change or end this offer at any time.",
+                    "displayName": "Online Sign Up Credit",
+                    "fixedAmount": {
+                        "amount": "22.7272"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "Prices may be varied in line with your terms and conditions. We will give you notice before any new prices take effect.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Online Sign Up Credit",
+                    "displayName": "Online Sign Up Credit",
+                    "eligibility": "Credit will be applied to your first bill and is not transferable or redeemable for cash."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "The details presented in this fact sheet are for a residential customer located in the distribution area outlined with a metering configuration as described. Unless otherwise specified, 'Peak Only' is the default meter type."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 27,
+                                "unitPrice": "3.48"
+                            },
+                            {
+                                "volume": 21,
+                                "unitPrice": "2.72"
+                            },
+                            {
+                                "unitPrice": "2.19"
+                            }
+                        ],
+                        "displayName": "R4"
+                    },
+                    "displayName": "All year",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "87.50"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "The Benefit Period for this plan is for 1 year. We will provide you with notice of your options prior to the end of the Benefit Period. Your contract will continue until it is ended by either party."
+        },
+        "lastUpdated": "2022-09-19T05:17:23Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-09-20T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1/energy/plans/TRU424422MR@VEC"
+    }
+}

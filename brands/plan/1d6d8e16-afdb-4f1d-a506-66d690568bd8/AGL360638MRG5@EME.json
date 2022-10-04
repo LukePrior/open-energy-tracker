@@ -1,0 +1,197 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "agl",
+        "planId": "AGL360638MRG5@EME",
+        "fuelType": "GAS",
+        "brandName": "AGL",
+        "geography": {
+            "distributors": [
+                "AGN - Brisbane and Riverview"
+            ],
+            "includedPostcodes": [
+                "4000",
+                "4005",
+                "4006",
+                "4007",
+                "4008",
+                "4009",
+                "4010",
+                "4011",
+                "4012",
+                "4013",
+                "4014",
+                "4017",
+                "4018",
+                "4019",
+                "4020",
+                "4021",
+                "4022",
+                "4029",
+                "4030",
+                "4031",
+                "4032",
+                "4034",
+                "4035",
+                "4036",
+                "4037",
+                "4051",
+                "4053",
+                "4054",
+                "4055",
+                "4059",
+                "4060",
+                "4061",
+                "4064",
+                "4065",
+                "4066",
+                "4067",
+                "4068",
+                "4069",
+                "4072",
+                "4114",
+                "4116",
+                "4172",
+                "4207",
+                "4209",
+                "4300",
+                "4301",
+                "4303",
+                "4304",
+                "4305",
+                "4306",
+                "4347",
+                "4500",
+                "4501",
+                "4502",
+                "4503",
+                "4504",
+                "4505",
+                "4506",
+                "4508",
+                "4509",
+                "4510",
+                "4511",
+                "4512",
+                "4516",
+                "4520",
+                "4551",
+                "4567"
+            ]
+        },
+        "displayName": "Residential Value Saver (Westpac Customers)",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "May be charged when manually reconnecting or reading your meter when you move into a property or change retailer. Incl GST. Fees may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECT_MOVE_OUT",
+                    "description": "May be charged when manually disconnecting or reading your meter when you move out of a property or change retailer. Incl GST. Fees may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECT_NON_PAY",
+                    "description": "Fee may be charged when manually disconnecting your meter in other circumstances, such as non-payment. Includes GST. Fees may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "description": "May be charged when manually reconnecting in other circumstances, such as after disconnection for non-payment. Includes GST. Fees may vary"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "description": "A late payment fee may be charged when full payment has not been received by the bill due date. This amount is not subject to GST"
+                },
+                {
+                    "rate": "0.17",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "The amount is GST inclusive and applies to payments made by debit cards."
+                },
+                {
+                    "rate": "0.45",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "The amount is GST inclusive and applies to card payments made at Australia Post outlets."
+                },
+                {
+                    "rate": "0.66",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "The amount is GST inclusive and applies to payments made by credit cards."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "PAPER_BILL",
+                    "description": "A paper bill fee may apply for each bill sent by post. Includes GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "description": "An over the counter payment fee may apply for payments made in-person at a Post Office. Includes GST."
+                }
+            ],
+            "terms": "This offer applies to customers with an applicable network tariff. For further information about the terms and conditions applicable to this energy offer, please contact AGL on 131 245 or visit agl.com.au",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "This plan also includes variable rates, retail fees and charges, which can change at any time with notice to you. If we vary your rates, we will give you at least 5 business days prior notice of the variation. Other charges may be varied with notice to you.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "description": "You must receive bills and other account related communications via your nominated email address for the duration of this Energy Plan.",
+                    "information": "Mandatory eBilling"
+                },
+                {
+                    "type": "OTHER",
+                    "description": "Offer available to Westpac credit or debit customers where AGL operates. Customers access offer via the Rewards & Offers hub from their Westpac online banking account (post login) or by calling 131 245 and quoting offer WESTPAC and remain on that plan for at least 30 days from sign up",
+                    "information": "You're a Westpac customer"
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": null,
+                                "unitPrice": "4.33"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "Gas Tariff",
+                        "displayName": "Residential"
+                    },
+                    "displayName": "Single Rate Tariff Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "64.33"
+                }
+            ],
+            "billFrequency": [
+                "P3M",
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL",
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY"
+            ],
+            "coolingOffDays": "10",
+            "onExpiryDescription": "Your market contract is ongoing. At the end of your 1 year benefit period, you will be placed on a new energy plan. We will notify you if there are any differences between these plans"
+        },
+        "lastUpdated": "2022-07-04T00:48:51.425Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-07-04T00:00:00.000Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/agl/cds-au/v1/energy/plans/AGL360638MRG5@EME"
+    }
+}

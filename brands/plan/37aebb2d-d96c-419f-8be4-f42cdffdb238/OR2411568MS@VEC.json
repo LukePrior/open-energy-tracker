@@ -1,0 +1,312 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "origin",
+        "planId": "OR2411568MS@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Origin Energy",
+        "geography": {
+            "distributors": [
+                "Citipower"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
+                "3011",
+                "3031",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3078",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
+            ]
+        },
+        "displayName": "Origin Business Solar Boost (TOU 5 Day)",
+        "lastUpdated": "2022-07-29T02:48:58Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-07-31T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "41.95",
+                    "description": "A $41.95 (GST Incl) fee may apply when your property is disconnected (including when you move). This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee.\nYou must pay us any charges your distributor imposes on us in relation to services performed by your distributor (or anyone else) at your supply address. For details on additional charges that may apply see www.originenergy.com.au/1612/Additional-charges"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "41.34",
+                    "description": "A $41.34 (GST Incl) fee may apply when your property is reconnected (including when you move). This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+                },
+                {
+                    "rate": "0.24",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A 0.24% fee (GST Incl) may apply to payments made by VISA debit card."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "PAYMENT_PROCESSING",
+                    "amount": "2.70",
+                    "description": "If you pay at an Australia Post outlet, a payment processing fee of the higher of $2.70 or 0.49% (incl GST) may apply."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "1.75",
+                    "description": "$1.75 (incl GST) applies for each paper bill."
+                },
+                {
+                    "rate": "0.56",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A 0.56% fee (GST Incl) may apply to payments made by VISA credit card."
+                },
+                {
+                    "rate": "0.28",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A 0.28% fee (GST Incl) may apply to payments made by Mastercard debit card."
+                },
+                {
+                    "rate": "0.64",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A 0.64% fee (GST Incl) may apply to payments made by Mastercard credit card."
+                }
+            ],
+            "terms": "When the Energy Plan ends, you'll receive our standard retailer feed-intariff published on our website. Not available in all areas or property types. SME customers only. See originenergy.com.au/2889/Terms-and-conditions for more",
+            "isFixed": false,
+            "timeZone": "AEST",
+            "variation": "We may vary the Charges (including their amount, nature and structure) by notice to you at any time. The notice will be at least 5 business days prior to the effective date of the variation.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Solar feed-in tariffs",
+                    "displayName": "Solar feed-in tariffs",
+                    "eligibility": "Origin offers 10 cents per kWh until a daily export limit of 14 kWh is reached. The daily export limit is averaged across your billing period (calculated by multiplying the number of days in your billing period by your daily export limit of 14 kWh)."
+                },
+                {
+                    "category": "OTHER",
+                    "description": "Solar feed-in tariffs",
+                    "displayName": "Solar feed-in tariffs",
+                    "eligibility": "For any amount above the daily export, you will receive our standard retailer feed-in tariff of 5.2 c/KWh. From 1 July 2022, the 10c/kWh is made of standard retailer feed-in tariff of 5.2c/kWh and additional feed-in tariff of 4.8c/kWh."
+                },
+                {
+                    "category": "OTHER",
+                    "description": "Solar feed-in tariffs",
+                    "displayName": "Solar feed-in tariffs",
+                    "eligibility": "The Terms and Conditions for Feed-in Tariffs u2013 Victoria applies to both additional and standard retailer feed-in tariff. When the benefit period ends youu2019ll receive our standard feed-in tariff available at the time as published on our website."
+                },
+                {
+                    "category": "OTHER",
+                    "description": "Solar feed-in tariffs",
+                    "displayName": "Solar feed-in tariffs",
+                    "eligibility": "Please contact us on 1300 791 468 to discuss your eligibility and available terms. Further information is also available at www.originenergy.com.au/2716/Feed-in-tariffs. All amounts are GST-inclusive (if any)."
+                },
+                {
+                    "category": "OTHER",
+                    "description": "Origin Go Zero",
+                    "displayName": "Origin Go Zero",
+                    "eligibility": "If you take up Origin Go Zero, we will offset 100% of the greenhouse gas emissions from your electricity or gas supply through Climate Active, a government-backed carbon neutral certification scheme. The cost is 1.5c/kWh."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "To be eligible for this offer your solar PV system must be net metered and must not be receiving a feed-in tariff under any Government scheme."
+                }
+            ],
+            "pricingModel": "TIME_OF_USE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "Period",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "25.5364"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "2300",
+                                    "startTime": "0700"
+                                }
+                            ],
+                            "displayName": "Peak"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "13.1637"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0700",
+                                    "startTime": "0000"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "2300"
+                                },
+                                {
+                                    "days": [
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "2300",
+                                    "startTime": "0700"
+                                }
+                            ],
+                            "displayName": "Off Peak"
+                        }
+                    ],
+                    "dailySupplyCharges": "131.20"
+                }
+            ],
+            "billFrequency": [
+                "P3M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.014",
+                            "percentGreen": "50"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "For 1.4 cents/kWh 50% of your electricity usage is matched with electricity from Government accredited GreenPower sources",
+                    "displayName": "GreenPower 50"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.028",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "For 2.8 cents/kWh 100% of your electricity usage will be matched with electricity from Government accredited wind GreenPower",
+                    "displayName": "GreenPower 100"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.007",
+                            "percentGreen": "25"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "For 0.7 cents/kWh 25% of your electricity usage is matched with electricity from Government accredited GreenPower sources",
+                    "displayName": "GreenPower 25"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Feed-In Tariff Scheme",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.20"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "Premium Feed-in Tariff Scheme (Closed)",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "66.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "Ongoing contract which continues until you or we end it. The benefit period is 12 or 24 months."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/origin/cds-au/v1/energy/plans/OR2411568MS@VEC"
+    }
+}

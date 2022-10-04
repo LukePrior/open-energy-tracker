@@ -1,0 +1,203 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "dodo",
+        "planId": "DOD391759MR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Dodo",
+        "geography": {
+            "distributors": [
+                "Multinet"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3008",
+                "3150",
+                "3152",
+                "3156",
+                "3158",
+                "3160",
+                "3161",
+                "3162",
+                "3163",
+                "3165",
+                "3166",
+                "3167",
+                "3168",
+                "3169",
+                "3170",
+                "3171",
+                "3172",
+                "3173",
+                "3174",
+                "3175",
+                "3177",
+                "3178",
+                "3179",
+                "3180",
+                "3182",
+                "3183",
+                "3184",
+                "3185",
+                "3186",
+                "3187",
+                "3188",
+                "3189",
+                "3190",
+                "3191",
+                "3192",
+                "3193",
+                "3194",
+                "3195",
+                "3196",
+                "3197",
+                "3201",
+                "3202",
+                "3204",
+                "3205",
+                "3206",
+                "3207",
+                "3783",
+                "3785",
+                "3786",
+                "3802",
+                "3020",
+                "3072",
+                "3805",
+                "3936"
+            ]
+        },
+        "displayName": "Residential Market - Multinet South",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "19.00",
+                    "description": "A disconnection fee may apply each time we request to  de-energise a property, or if you require a meter reading for any purpose\nFor further details on the information presented in this fact sheet, or the terms and conditions of the contract, please visit www.dodo.com/energy/terms-prices-and-regulatory-information."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "9.50",
+                    "description": "A dishonoured payment fee may apply to payments we attempt that are subsequently declined."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "2.20",
+                    "description": "A printed bill fee applies to each posted bill."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "19.00",
+                    "description": "A reconnection fee may apply each time we request to energise  a property, or if you require a meter reading for any purpose"
+                },
+                {
+                    "rate": "2.89",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A surcharge applies to all American Express and Diners Club card payments. Payments made via MasterCard or Visa do not incur any surcharge."
+                }
+            ],
+            "terms": "See our full terms & conditions at www.dodo.com/energy/terms-prices-and-regulatory-information.",
+            "isFixed": false,
+            "variation": "Dodo Power & Gas may vary your energy rates not more than once every 12 months by giving you notice of this change not less than five (5) business days before it comes into effect.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Promotional Offers",
+                    "displayName": "Promotional Offers",
+                    "eligibility": "From time to time, Dodo Power & Gas may provide promotional offers (including one-off payments and/or products) though promotional codes, which may be redeemed when signing up. These codes do not change the rates, fees or charges of this offer."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "The details presented in this Price Fact Sheet are for a Residential customer located in the Multinet gas distribution zone. Offers vary based on distribution zone, and may not be available in all areas in Victoria. Further eligibility criteria may apply."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "04-30",
+                    "startDate": "11-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.5446"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.2199"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "1.8622"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "1.7199"
+                            },
+                            {
+                                "unitPrice": "1.6838"
+                            }
+                        ],
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Off Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "53.9324"
+                },
+                {
+                    "endDate": "10-31",
+                    "startDate": "05-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.7053"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.3284"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "1.9129"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "1.7456"
+                            },
+                            {
+                                "unitPrice": "1.7013"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "53.9324"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "No Term Contracts apply in line with our Energy Market Terms and Conditions."
+        },
+        "lastUpdated": "2022-06-03T04:40:55Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-06-07T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/dodo/cds-au/v1/energy/plans/DOD391759MR@VEC"
+    }
+}

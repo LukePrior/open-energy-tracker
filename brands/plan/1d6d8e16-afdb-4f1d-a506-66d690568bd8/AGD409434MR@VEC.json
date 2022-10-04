@@ -1,0 +1,156 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "agl",
+        "planId": "AGD409434MR@VEC",
+        "fuelType": "GAS",
+        "brandName": "AGL",
+        "geography": {
+            "distributors": [
+                "Australian Gas Networks"
+            ],
+            "includedPostcodes": [
+                "3561",
+                "3564",
+                "3616",
+                "3618",
+                "3620",
+                "3621",
+                "3622",
+                "3623",
+                "3624",
+                "3629",
+                "3630",
+                "3631",
+                "3658",
+                "3659",
+                "3660",
+                "3662",
+                "3663",
+                "3664",
+                "3665",
+                "3666",
+                "3669",
+                "3672",
+                "3677",
+                "3678",
+                "3688",
+                "3690",
+                "3691",
+                "3694",
+                "3753",
+                "3756",
+                "3757",
+                "3758",
+                "3763",
+                "3764",
+                "3775"
+            ]
+        },
+        "displayName": "Residential Value Saver (Melbourne Victory)",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "10.67",
+                    "description": "Fee may be charged when reconnecting or reading your meter when you move into a property or change retailer. Includes GST. Fees may vary.\nAdditional fees and charges may apply. Please see the AGL fee schedules at agl.com.au/fees"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "10.67",
+                    "description": "Fee may be charged when disconnecting or reading your meter when you move out of a property or change retailer. Includes GST. Fees may vary."
+                },
+                {
+                    "rate": "0.45",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "The amount is GST inclusive and applies to card payments made at Australia Post outlets"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "1.75",
+                    "description": "A paper bill fee may apply for each bill sent by post. Includes GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "2.00",
+                    "description": "An over the counter payment fee may apply for payments made in-person at a Post Office. Includes GST."
+                },
+                {
+                    "rate": "0.17",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "The amount is GST inclusive and applies to payments made by debit cards."
+                },
+                {
+                    "rate": "0.66",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "The amount is GST inclusive and applies to payments made by credit cards."
+                }
+            ],
+            "terms": "Offer only available in areas where AGL operates. For further information about the terms and conditions applicable to this energy offer, please contact AGL on 131 245 or visit agl.com.au",
+            "isFixed": false,
+            "variation": "This plan also includes variable rates, retail fees and charges, which can change at any time with notice to you. If we vary your rates, we will give you at least 5 business days prior notice of the variation. Other charges may be varied with notice",
+            "incentives": [
+                {
+                    "category": "GIFT",
+                    "description": "Bonus $100 Victory Shop online voucher",
+                    "displayName": "Bonus $100 Victory Shop online voucher",
+                    "eligibility": "Sign up at agl.com.au/victory or by calling 131 245 & quoting 'VICTORY' at time of sign up. Remain on plan for 3 business days to receive one $100 Victory Shop online voucher to spend at victoryshop.com.au Limit of one voucher per residence, per 6 months"
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer applies to customers with an applicable network tariff. You must receive bills and other account related communications via your nominated email address for the duration of this Contract. Eligible customers will receive a $100 Victory Shop online voucher u2013 further details under Incentives"
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 1644,
+                                "unitPrice": "2.736"
+                            },
+                            {
+                                "volume": 2958,
+                                "unitPrice": "2.525"
+                            },
+                            {
+                                "unitPrice": "1.98"
+                            }
+                        ],
+                        "displayName": "All Consumption"
+                    },
+                    "displayName": "All Consumption",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "81.262"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "OTHER"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Your market contract is ongoing. From time to time, AGL reviews its offers and this offer will be reviewed with consideration to AGLu2019s generally available market offers"
+        },
+        "lastUpdated": "2022-07-29T02:48:06Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-08-01T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/agl/cds-au/v1/energy/plans/AGD409434MR@VEC"
+    }
+}

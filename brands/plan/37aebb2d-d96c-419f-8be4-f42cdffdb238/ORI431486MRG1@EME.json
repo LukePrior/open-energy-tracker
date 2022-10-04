@@ -1,0 +1,99 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "origin",
+        "planId": "ORI431486MRG1@EME",
+        "fuelType": "GAS",
+        "brandName": "Origin Energy",
+        "geography": {
+            "distributors": [
+                "AGN Whyalla"
+            ],
+            "includedPostcodes": [
+                "5600",
+                "5608",
+                "5609"
+            ]
+        },
+        "displayName": "Origin Value",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "A $12.65 (GST Incl) fee may apply when your property is reconnected (including when you move)."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "A $12.65 (GST Incl) fee may apply when your property is reconnected (including when you move)."
+                }
+            ],
+            "terms": "Offer not available in all areas or properties connecting for first time. Visit originenergy.com.au/2889/Terms-and-conditions to find out more. From 1 July 2019, we may vary the discount benefit by giving you 90 days notice and you accepting the change by not terminating the Agreement.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "description": "A 11% discount off our GST inclusive usage and supply charges.",
+                    "displayName": "Guaranteed Discount",
+                    "methodUType": "percentOfBill",
+                    "percentOfBill": {
+                        "rate": "11"
+                    }
+                }
+            ],
+            "variation": "We may vary the Charges (including their amount, nature and structure) by notice to you at any time. The notice will be at least 5 business days prior to the effective date of the variation.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "description": "Offer only avaliable to SA Concession card holders",
+                    "information": "SA Concessions only"
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 49.3151,
+                                "unitPrice": "4.72"
+                            },
+                            {
+                                "volume": null,
+                                "unitPrice": "2.41"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "All usage",
+                        "displayName": "Usage"
+                    },
+                    "displayName": "Single Rate Tariff Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "82.11"
+                }
+            ],
+            "billFrequency": [
+                "P3M"
+            ],
+            "paymentOption": [
+                "BPAY",
+                "CREDIT_CARD",
+                "DIRECT_DEBIT",
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": "10",
+            "onExpiryDescription": "At the end of the benefit period we may extend your current Energy Plan or set you up with a new Energy Plan but only if we have written to you first and you havent told us not to"
+        },
+        "lastUpdated": "2022-06-30T14:13:56.914Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-07-01T00:00:00.000Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/origin/cds-au/v1/energy/plans/ORI431486MRG1@EME"
+    }
+}

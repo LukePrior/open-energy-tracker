@@ -1,0 +1,485 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "agl",
+        "planId": "AGD395281MS@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "AGL",
+        "geography": {
+            "distributors": [
+                "AusNet Services (electricity)"
+            ],
+            "includedPostcodes": [
+                "3061",
+                "3062",
+                "3064",
+                "3074",
+                "3075",
+                "3076",
+                "3082",
+                "3083",
+                "3084",
+                "3085",
+                "3087",
+                "3088",
+                "3089",
+                "3090",
+                "3091",
+                "3093",
+                "3094",
+                "3095",
+                "3096",
+                "3097",
+                "3099",
+                "3106",
+                "3109",
+                "3111",
+                "3113",
+                "3114",
+                "3115",
+                "3116",
+                "3132",
+                "3133",
+                "3134",
+                "3135",
+                "3136",
+                "3137",
+                "3138",
+                "3139",
+                "3140",
+                "3152",
+                "3153",
+                "3154",
+                "3155",
+                "3156",
+                "3158",
+                "3159",
+                "3160",
+                "3175",
+                "3178",
+                "3179",
+                "3180",
+                "3434",
+                "3521",
+                "3522",
+                "3607",
+                "3608",
+                "3610",
+                "3612",
+                "3631",
+                "3646",
+                "3658",
+                "3659",
+                "3660",
+                "3662",
+                "3663",
+                "3664",
+                "3665",
+                "3666",
+                "3669",
+                "3670",
+                "3672",
+                "3673",
+                "3675",
+                "3677",
+                "3678",
+                "3682",
+                "3683",
+                "3685",
+                "3687",
+                "3688",
+                "3690",
+                "3691",
+                "3695",
+                "3697",
+                "3698",
+                "3699",
+                "3700",
+                "3701",
+                "3704",
+                "3705",
+                "3707",
+                "3708",
+                "3709",
+                "3711",
+                "3712",
+                "3713",
+                "3714",
+                "3715",
+                "3717",
+                "3718",
+                "3719",
+                "3720",
+                "3722",
+                "3723",
+                "3725",
+                "3726",
+                "3727",
+                "3728",
+                "3730",
+                "3732",
+                "3733",
+                "3735",
+                "3736",
+                "3737",
+                "3738",
+                "3739",
+                "3740",
+                "3741",
+                "3744",
+                "3746",
+                "3747",
+                "3749",
+                "3750",
+                "3751",
+                "3752",
+                "3753",
+                "3754",
+                "3755",
+                "3756",
+                "3757",
+                "3758",
+                "3759",
+                "3760",
+                "3761",
+                "3762",
+                "3763",
+                "3764",
+                "3765",
+                "3766",
+                "3767",
+                "3770",
+                "3775",
+                "3777",
+                "3778",
+                "3779",
+                "3781",
+                "3782",
+                "3783",
+                "3785",
+                "3786",
+                "3787",
+                "3788",
+                "3789",
+                "3791",
+                "3792",
+                "3793",
+                "3795",
+                "3796",
+                "3797",
+                "3799",
+                "3802",
+                "3803",
+                "3804",
+                "3805",
+                "3806",
+                "3807",
+                "3808",
+                "3809",
+                "3810",
+                "3812",
+                "3813",
+                "3814",
+                "3815",
+                "3816",
+                "3818",
+                "3820",
+                "3821",
+                "3822",
+                "3823",
+                "3824",
+                "3825",
+                "3831",
+                "3832",
+                "3833",
+                "3835",
+                "3840",
+                "3842",
+                "3844",
+                "3847",
+                "3850",
+                "3851",
+                "3852",
+                "3854",
+                "3856",
+                "3857",
+                "3858",
+                "3859",
+                "3860",
+                "3862",
+                "3864",
+                "3865",
+                "3869",
+                "3870",
+                "3871",
+                "3873",
+                "3874",
+                "3875",
+                "3878",
+                "3880",
+                "3882",
+                "3885",
+                "3886",
+                "3887",
+                "3888",
+                "3889",
+                "3890",
+                "3891",
+                "3892",
+                "3893",
+                "3895",
+                "3896",
+                "3898",
+                "3900",
+                "3902",
+                "3903",
+                "3904",
+                "3909",
+                "3912",
+                "3921",
+                "3922",
+                "3923",
+                "3925",
+                "3945",
+                "3946",
+                "3950",
+                "3951",
+                "3953",
+                "3954",
+                "3956",
+                "3957",
+                "3958",
+                "3959",
+                "3960",
+                "3962",
+                "3964",
+                "3965",
+                "3966",
+                "3967",
+                "3971",
+                "3975",
+                "3976",
+                "3977",
+                "3978",
+                "3979",
+                "3980",
+                "3981",
+                "3984",
+                "3987",
+                "3988",
+                "3990",
+                "3991",
+                "3992",
+                "3995",
+                "3996"
+            ]
+        },
+        "displayName": "Business Flexible Saver",
+        "lastUpdated": "2022-07-01T00:47:31Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-06-30T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "rate": "0.45",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "The amount is GST inclusive and applies to card payments made at Australia Post outlets"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "2.00",
+                    "description": "An over the counter payment fee may apply for payments made in-person at a Post Office. Includes GST"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "1.75",
+                    "description": "A paper bill fee may apply for each bill sent by post. Includes GST"
+                },
+                {
+                    "rate": "0.17",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "The amount is GST inclusive and applies to payments made by debit cards."
+                },
+                {
+                    "rate": "0.66",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "The amount is GST inclusive and applies to payments made by credit cards."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "39.89",
+                    "description": "Fee may be charged when reconnecting or reading your meter when you move into a property or change retailer. Includes GST. Fees may vary.\nAdditional fees and charges may apply. Please see the energy offer terms and conditions at agl.com.au"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "39.89",
+                    "description": "Fee may be charged when disconnecting or reading your meter when you move out of a property or change retailer. Includes GST. Fees may vary."
+                }
+            ],
+            "terms": "Offer only available in areas where AGL operates. For further information about the terms and conditions applicable to this energy offer, please contact AGL on 131 245 or visit agl.com.au",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "This plan also includes variable rates, retail fees and charges, which can change at any time with notice to you. If we vary your rates, we will give you at least 5 business days prior notice of the variation. Other charges may be varied with notice",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer applies to customers with an applicable network tariff. For solar feed-in tariff eligibility, or for further information about the terms and conditions applicable to this energy offer, please contact AGL on 131 245 or visit agl.com.au."
+                }
+            ],
+            "pricingModel": "TIME_OF_USE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "Period",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "31.68"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "2100",
+                                    "startTime": "0900"
+                                }
+                            ],
+                            "displayName": "Two Rate - Time of Use"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "16.35"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "2100"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "0900",
+                                    "startTime": "0000"
+                                },
+                                {
+                                    "days": [
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "0000"
+                                }
+                            ],
+                            "displayName": "Tariff 2"
+                        }
+                    ],
+                    "dailySupplyCharges": "116.94"
+                }
+            ],
+            "billFrequency": [
+                "P3M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0044",
+                            "percentGreen": "10"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "For .44c / kWh inc. GST we ensure energy equal to 10% of your consumption will be fed into the grid from Accredited GreenPower generators.",
+                    "displayName": "GreenPower 10"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0088",
+                            "percentGreen": "20"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "For 0.88c / kWh inc. GST we ensure energy equal to 20% of your consumption will be fed into the grid from Accredited GreenPower generators.",
+                    "displayName": "GreenPower 20"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.044",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "For 4.4c / kWh inc. GST we ensure energy equal to 100% of your consumption will be fed into the grid from Accredited GreenPower generators.",
+                    "displayName": "GreenPower 100"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "AGL Retailer Feed-in Tariff (RFiT)",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.20"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "Solar bonus scheme pre 30 December 2011 60 cent PFiT",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "Your market contract is ongoing. From time to time, AGL reviews its offers and this offer will be reviewed with consideration to AGLu2019s generally available market offers"
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/agl/cds-au/v1/energy/plans/AGD395281MS@VEC"
+    }
+}

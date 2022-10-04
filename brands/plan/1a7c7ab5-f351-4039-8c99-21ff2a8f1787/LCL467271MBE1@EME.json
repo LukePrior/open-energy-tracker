@@ -1,0 +1,389 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "energy-locals",
+        "planId": "LCL467271MBE1@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Energy Locals",
+        "geography": {
+            "distributors": [
+                "TasNetworks"
+            ],
+            "includedPostcodes": [
+                "7000",
+                "7004",
+                "7005",
+                "7007",
+                "7008",
+                "7009",
+                "7010",
+                "7011",
+                "7012",
+                "7015",
+                "7016",
+                "7017",
+                "7018",
+                "7019",
+                "7020",
+                "7021",
+                "7022",
+                "7023",
+                "7024",
+                "7025",
+                "7026",
+                "7027",
+                "7030",
+                "7050",
+                "7052",
+                "7053",
+                "7054",
+                "7055",
+                "7109",
+                "7112",
+                "7113",
+                "7116",
+                "7117",
+                "7119",
+                "7120",
+                "7139",
+                "7140",
+                "7150",
+                "7155",
+                "7162",
+                "7163",
+                "7170",
+                "7171",
+                "7172",
+                "7173",
+                "7174",
+                "7175",
+                "7176",
+                "7177",
+                "7178",
+                "7179",
+                "7180",
+                "7182",
+                "7183",
+                "7184",
+                "7185",
+                "7186",
+                "7187",
+                "7190",
+                "7209",
+                "7210",
+                "7211",
+                "7212",
+                "7213",
+                "7214",
+                "7215",
+                "7216",
+                "7248",
+                "7249",
+                "7250",
+                "7252",
+                "7253",
+                "7254",
+                "7258",
+                "7259",
+                "7260",
+                "7261",
+                "7262",
+                "7263",
+                "7264",
+                "7265",
+                "7267",
+                "7268",
+                "7270",
+                "7275",
+                "7276",
+                "7277",
+                "7290",
+                "7291",
+                "7292",
+                "7300",
+                "7301",
+                "7302",
+                "7303",
+                "7304",
+                "7305",
+                "7306",
+                "7307",
+                "7310",
+                "7315",
+                "7316",
+                "7320",
+                "7321",
+                "7322",
+                "7325",
+                "7330",
+                "7331",
+                "7466",
+                "7467",
+                "7468",
+                "7469",
+                "7470"
+            ]
+        },
+        "displayName": "Business Member EL",
+        "lastUpdated": "2022-07-31T14:06:05.270Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-08-01T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "ANNUAL",
+                    "type": "MEMBERSHIP",
+                    "description": "Access wholesale energy rates with $29.99/month membership fee. Your first six months membership total will be credited back to your account after six months"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "description": "Charged when full payment has not been received by the invoice due date. This charge is not subject to GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "description": "Charged when a direct debit payment has dishonoured or reversed. This charge is not subject to GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "PAPER_BILL",
+                    "description": "Charged for providing a paper bill"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "May be charged when you move into a property or change retailer. Actual fee may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECT_MOVE_OUT",
+                    "description": "May be charged when you move out and require a final meter read. Actual fee may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "description": "Additional metering fee COMMS type 3-4 $/day (inc GST), only if applicable"
+                },
+                {
+                    "rate": "1",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Energy Locals accepts payments from Visa and Mastercard. A processing fee is charged when using one of these payment methods."
+                }
+            ],
+            "terms": "Our energy prices are determined by a range of factors, including government rebates, network fees and wholesale market costs. These factors are outside of our control, and we may need to change the amount you are charged for energy in response to any changes.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "Due to changes in the market and economic conditions, we may update your tariff and/or fees. We will provide at least 5 business days' notice before the change takes place.",
+            "meterTypes": [
+                "Type 4",
+                "Type 4a",
+                "Type 5",
+                "Type 6"
+            ],
+            "pricingModel": "TIME_OF_USE",
+            "tariffPeriod": [
+                {
+                    "endDate": "09-30",
+                    "startDate": "04-01",
+                    "displayName": "Non-Summer Peak",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "name": "Non-Summer Peak",
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "25.45"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        null
+                                    ],
+                                    "endTime": "2159",
+                                    "startTime": "700"
+                                }
+                            ],
+                            "description": "Apr - Sep, Mon - Fri, 07:00 - 22:00"
+                        },
+                        {
+                            "name": "Non-Summer Off Peak",
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "16.82"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        null,
+                                        null,
+                                        null
+                                    ],
+                                    "endTime": "659",
+                                    "startTime": "2200"
+                                }
+                            ],
+                            "description": "Apr - Sep, 22:00 - 07:00"
+                        },
+                        {
+                            "name": "Non-Summer Shoulder",
+                            "type": "SHOULDER",
+                            "rates": [
+                                {
+                                    "unitPrice": "21.36"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        null,
+                                        null
+                                    ],
+                                    "endTime": "2159",
+                                    "startTime": "700"
+                                }
+                            ],
+                            "description": "Apr - Sep, Sat - Sun, 07:00 - 22:00"
+                        }
+                    ],
+                    "dailySupplyCharges": "293.64"
+                },
+                {
+                    "endDate": "03-31",
+                    "startDate": "10-01",
+                    "displayName": "Summer Shoulder",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "name": "Summer Off Peak",
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "16.82"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        null
+                                    ],
+                                    "endTime": "659",
+                                    "startTime": "2200"
+                                },
+                                {
+                                    "days": [
+                                        null,
+                                        null
+                                    ],
+                                    "endTime": "2359",
+                                    "startTime": "0"
+                                }
+                            ],
+                            "description": "Oct - Mar, Mon - Fri, 22:00 - 07:00; Oct - Mar, Sat - Sun"
+                        },
+                        {
+                            "name": "Summer Shoulder",
+                            "type": "SHOULDER",
+                            "rates": [
+                                {
+                                    "unitPrice": "21.36"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        null
+                                    ],
+                                    "endTime": "2159",
+                                    "startTime": "700"
+                                }
+                            ],
+                            "description": "Oct - Mar, Mon - Fri, 07:00 - 22:00"
+                        }
+                    ],
+                    "dailySupplyCharges": "293.64"
+                }
+            ],
+            "billFrequency": [
+                "P1M",
+                "P3M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY"
+            ],
+            "coolingOffDays": "10",
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.00",
+                            "percentGreen": "10"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "10% Greenpower option.",
+                    "displayName": "10% GreenPower option."
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.02",
+                            "percentGreen": "50"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "50% Greenpower option.",
+                    "displayName": "50% GreenPower option."
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.04",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "100% Greenpower option.",
+                    "displayName": "100% GreenPower option."
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Retailer Feed-in Tariff (inc. GST, if any) | First 10 kWh/day",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "8.90"
+                    }
+                },
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Retailer Feed-in Tariff (inc. GST, if any) | All Remaining kWh/day",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "8.90"
+                    }
+                }
+            ],
+            "onExpiryDescription": "No fixed contract."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/LCL467271MBE1@EME"
+    }
+}

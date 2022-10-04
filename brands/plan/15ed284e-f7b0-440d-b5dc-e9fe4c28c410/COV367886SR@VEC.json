@@ -1,0 +1,230 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "covau",
+        "planId": "COV367886SR@VEC",
+        "fuelType": "GAS",
+        "brandName": "CovaU",
+        "geography": {
+            "distributors": [
+                "AusNet Services (gas)"
+            ],
+            "includedPostcodes": [
+                "3011",
+                "3012",
+                "3013",
+                "3015",
+                "3016",
+                "3018",
+                "3019",
+                "3020",
+                "3021",
+                "3022",
+                "3023",
+                "3024",
+                "3025",
+                "3026",
+                "3027",
+                "3028",
+                "3029",
+                "3030",
+                "3031",
+                "3032",
+                "3033",
+                "3034",
+                "3036",
+                "3037",
+                "3038",
+                "3039",
+                "3040",
+                "3041",
+                "3042",
+                "3043",
+                "3044",
+                "3045",
+                "3046",
+                "3047",
+                "3048",
+                "3049",
+                "3055",
+                "3058",
+                "3059",
+                "3060",
+                "3061",
+                "3062",
+                "3063",
+                "3064",
+                "3211",
+                "3212",
+                "3214",
+                "3215",
+                "3216",
+                "3217",
+                "3218",
+                "3219",
+                "3220",
+                "3221",
+                "3222",
+                "3223",
+                "3224",
+                "3225",
+                "3226",
+                "3228",
+                "3335",
+                "3337",
+                "3338",
+                "3427",
+                "3428",
+                "3429",
+                "3336",
+                "3003",
+                "3008",
+                "3073",
+                "3213"
+            ]
+        },
+        "displayName": "Standing Offer Residential Ausnet Services - Central",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "68.95",
+                    "description": "Business Hours Rates. This fee is passed through from your distributor and may vary. Please contact your distributor to find out the current fee.\nYou must pay us any charges your distributor imposes on us in relation to services performed by your distributor (or anyone else) at your supply address. For details on additional charges that may apply, visit www.covau.com.au/additionalfees"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "68.95",
+                    "description": "Business Hours Rates. This fee is passed through from your distributor and may vary. Please contact your distributor to find out the current fee."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CHEQUE_DISHONOUR",
+                    "amount": "9.50",
+                    "description": ""
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "9.50",
+                    "description": ""
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "10.69",
+                    "description": "Special Meter Read Fee. Business Hours Rates. This fee is passed through from your distributor and may vary. Please contact your distributor to find out the current fee."
+                }
+            ],
+            "terms": "For full terms and conditions applicable to this energy offer, please visit www.covau.com.au/terms or contact CovaU on 1300 689 866.",
+            "isFixed": false,
+            "variation": "Our Standard Offer prices may vary but will not change more often than once every 6 months. We will notify customer in a newspaper, our website & by sending a notice, at least 5 business days prior to the variation.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is available to residential customers in the Ausnet Services Central zone. For more details about the eligibility criteria, please contact CovaU on 1300 689 866."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "05-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "1.83"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "1.76"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "1.57"
+                            },
+                            {
+                                "unitPrice": "1.50"
+                            }
+                        ],
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Off Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "85.00"
+                },
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.63"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.20"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "1.66"
+                            },
+                            {
+                                "unitPrice": "1.65"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "85.00"
+                },
+                {
+                    "endDate": "12-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "1.83"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "1.76"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "1.57"
+                            },
+                            {
+                                "unitPrice": "1.50"
+                            }
+                        ],
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Off Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "85.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with our Standard Retail Terms & Conditions"
+        },
+        "lastUpdated": "2022-01-07T05:57:58Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2021-12-31T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/covau/cds-au/v1/energy/plans/COV367886SR@VEC"
+    }
+}

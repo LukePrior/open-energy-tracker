@@ -1,0 +1,124 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "energyaustralia",
+        "planId": "TRU394419SS@VEC",
+        "fuelType": "GAS",
+        "brandName": "EnergyAustralia",
+        "geography": {
+            "distributors": [
+                "Multinet"
+            ],
+            "includedPostcodes": [
+                "3797",
+                "3799"
+            ]
+        },
+        "displayName": "Basic - Business (R7)",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "60.25",
+                    "description": ""
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "50.79",
+                    "description": ""
+                }
+            ],
+            "terms": "For full terms and conditions, please refer to our website www.energyaustralia.com.au.",
+            "isFixed": false,
+            "variation": "The rates for Basic Business may vary, either when we are directed to change regulated rates, or when we review our rates each year. We will notify you before any rate change occurs.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "The details presented in this fact sheet are for a small business customer located in the distribution area outlined with a metering configuration as described. Unless otherwise specified, 'Peak Only' is the default meter type."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "10-31",
+                    "startDate": "05-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 250,
+                                "unitPrice": "2.42"
+                            },
+                            {
+                                "volume": 750,
+                                "unitPrice": "2.20"
+                            },
+                            {
+                                "volume": 500,
+                                "unitPrice": "2.05"
+                            },
+                            {
+                                "volume": 3500,
+                                "unitPrice": "1.94"
+                            },
+                            {
+                                "unitPrice": "1.88"
+                            }
+                        ],
+                        "displayName": "Rate"
+                    },
+                    "displayName": "Winter Rates",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "99.30"
+                },
+                {
+                    "endDate": "04-30",
+                    "startDate": "11-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 250,
+                                "unitPrice": "2.33"
+                            },
+                            {
+                                "volume": 750,
+                                "unitPrice": "2.15"
+                            },
+                            {
+                                "volume": 500,
+                                "unitPrice": "2.01"
+                            },
+                            {
+                                "volume": 3500,
+                                "unitPrice": "1.93"
+                            },
+                            {
+                                "unitPrice": "1.87"
+                            }
+                        ],
+                        "displayName": "Rate"
+                    },
+                    "displayName": "Non-Winter Rates",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "99.30"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "This contract continues for as long as you remain on the plan."
+        },
+        "lastUpdated": "2022-06-09T05:47:38Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-06-21T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1/energy/plans/TRU394419SS@VEC"
+    }
+}
