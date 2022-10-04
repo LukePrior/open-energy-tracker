@@ -1,0 +1,64 @@
+{
+    "data": {
+        "plans": [
+            {
+                "type": "STANDING",
+                "brand": "tas-gas",
+                "planId": "TAS323879SS@VEC",
+                "fuelType": "GAS",
+                "brandName": "Tas Gas",
+                "geography": {
+                    "distributors": [
+                        "Gas Networks Victoria"
+                    ],
+                    "includedPostcodes": [
+                        "3579",
+                        "3549",
+                        "3585",
+                        "3638",
+                        "3888",
+                        "3909",
+                        "3463",
+                        "3523",
+                        "3515",
+                        "3264"
+                    ]
+                },
+                "displayName": "Commercial Standard Retail Offer",
+                "effectiveTo": "2022-12-30T13:00:00Z",
+                "lastUpdated": "2021-12-06T05:51:31Z",
+                "customerType": "BUSINESS",
+                "effectiveFrom": "2021-12-05T13:00:00Z"
+            },
+            {
+                "type": "STANDING",
+                "brand": "tas-gas",
+                "planId": "TAS351646SR@VEC",
+                "fuelType": "GAS",
+                "brandName": "Tas Gas",
+                "geography": {
+                    "distributors": [
+                        "Gas Networks Victoria"
+                    ],
+                    "includedPostcodes": [
+                        "3579",
+                        "3549",
+                        "3585",
+                        "3638",
+                        "3888",
+                        "3909",
+                        "3463",
+                        "3523",
+                        "3515",
+                        "3264"
+                    ]
+                },
+                "displayName": "Tas Gas Retail Standing Offer",
+                "effectiveTo": "2022-12-30T13:00:00Z",
+                "lastUpdated": "2021-12-01T03:22:03Z",
+                "customerType": "RESIDENTIAL",
+                "effectiveFrom": "2021-12-31T13:00:00Z"
+            }
+        ]
+    }
+}

@@ -1,0 +1,81 @@
+from mimetypes import guess_extension
+import os
+import requests
+import json
+
+headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36', 'x-v': '1'}
+
+def get_data(url):
+    r = requests.get(url, headers=headers)
+    response = r.json()
+
+    if 'links' in response and 'next' in response['links'] and response['links']['next'] != None:
+        temp = get_data(response['links']['next'])
+        response['data']['plans'].extend(temp['data']['plans'])
+    
+    if 'links' in response:
+        del response['links']
+
+    if 'meta' in response:
+        del response['meta']
+
+    return response
+
+# https://stackoverflow.com/a/25851972/9389353
+def ordered(obj):
+    if isinstance(obj, dict):
+        return sorted((k, ordered(v)) for k, v in obj.items())
+    if isinstance(obj, list):
+        return sorted(ordered(x) for x in obj)
+    else:
+        return obj
+
+raw_file = open("brands/brands.json", "r")
+brands = json.load(raw_file)
+raw_file.close()
+
+changed_plans = 0
+
+for brand in brands:
+    try:
+        response = get_data(brands[brand]['publicBaseUri'].rstrip('/') + "/cds-au/v1/energy/plans")
+
+        flag = False
+        skip_update = False
+
+        try:
+            for file in os.listdir('brands/plans/'):
+                if file == (brand + ".json"):
+                    flag = True
+                    raw_file = open("brands/plans/"+file, "r")
+                    response_compare = json.load(raw_file)
+                    raw_file.close()
+                    if ordered(response) != ordered(response_compare):
+                        changed_plans += 1
+                    else:
+                        skip_update = True
+
+        except Exception as e:
+            print(e)
+
+        if flag == False:
+            changed_plans += 1
+
+        path = 'brands/plans/' + brand + ".json"
+
+        if (skip_update == False):
+            raw_file = open(path, "w")
+            json.dump(response, raw_file, indent = 4)
+            raw_file.close()
+
+        print(path)
+
+    except Exception as e:
+        print(e)
+
+stats = {}
+stats['changed_files'] = changed_plans
+
+raw_file = open("stats.json", "w")
+json.dump(stats, raw_file, indent = 4)
+raw_file.close()
