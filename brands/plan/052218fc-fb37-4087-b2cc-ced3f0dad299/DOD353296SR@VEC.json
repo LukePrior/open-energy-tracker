@@ -1,0 +1,187 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "dodo",
+        "planId": "DOD353296SR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Dodo",
+        "geography": {
+            "distributors": [
+                "Australian Gas Networks"
+            ],
+            "includedPostcodes": [
+                "3113",
+                "3139",
+                "3175",
+                "3198",
+                "3199",
+                "3200",
+                "3751",
+                "3755",
+                "3760",
+                "3761",
+                "3777",
+                "3803",
+                "3804",
+                "3805",
+                "3806",
+                "3807",
+                "3808",
+                "3809",
+                "3810",
+                "3812",
+                "3813",
+                "3814",
+                "3815",
+                "3816",
+                "3818",
+                "3820",
+                "3821",
+                "3822",
+                "3823",
+                "3824",
+                "3825",
+                "3840",
+                "3842",
+                "3844",
+                "3847",
+                "3850",
+                "3851",
+                "3852",
+                "3860",
+                "3910",
+                "3911",
+                "3912",
+                "3913",
+                "3915",
+                "3916",
+                "3918",
+                "3919",
+                "3920",
+                "3921",
+                "3926",
+                "3927",
+                "3928",
+                "3929",
+                "3930",
+                "3931",
+                "3933",
+                "3934",
+                "3936",
+                "3937",
+                "3938",
+                "3939",
+                "3940",
+                "3941",
+                "3942",
+                "3943",
+                "3944",
+                "3975",
+                "3976",
+                "3977",
+                "3978",
+                "3980",
+                "3981",
+                "3984",
+                "3987",
+                "3757"
+            ]
+        },
+        "displayName": "Residential Standing - Australian Gas Networks Central 1",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "19.00",
+                    "description": "A reconnection fee may apply each time we request to energise  a property, or if you require a meter reading for any purpose\nOther charges that may be applicable are specified in the Additional Retail Charges schedule which can be viewed on our website at www.dodo.com/energy/terms-prices-and-regulatory-information."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "19.00",
+                    "description": "A disconnection fee may apply each time we request to  de-energise a property, or if you require a meter reading for any purpose"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "9.50",
+                    "description": "A dishonoured payment fee may apply to payments we attempt that are subsequently declined."
+                }
+            ],
+            "terms": "Standing offer or Standard Retail contracts are electricity or gas contracts with terms and conditions that are prescribed by law and designed to protect your rights. Standard Retail contracts start without you have to sign a document agreeing to terms and conditions. See our Standard Retail terms and conditions at www.dodo.com/energy/terms-prices-and-regulatory-information.",
+            "isFixed": false,
+            "variation": "We may vary these prices no more than once every 6 months, and provide you notice of any changes at least 5 business days before the change is effective. We will publish variations on our website and in a newspaper at least 10 business days prior.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "The details presented in this Price Fact Sheet are for a Residential customer located in the Australian Gas Networks gas distribution zone where Dodo Power and Gas is the designated retailer, and we are already responsible for the gas supplied to the premise."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 27,
+                                "unitPrice": "3.0983"
+                            },
+                            {
+                                "volume": 21,
+                                "unitPrice": "2.4612"
+                            },
+                            {
+                                "unitPrice": "2.0627"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "59.2774"
+                },
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 27,
+                                "unitPrice": "3.0983"
+                            },
+                            {
+                                "volume": 21,
+                                "unitPrice": "2.4612"
+                            },
+                            {
+                                "unitPrice": "2.0627"
+                            }
+                        ],
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Off Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "59.2774"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Standard contracts do not expire"
+        },
+        "lastUpdated": "2021-11-28T22:13:41Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2021-12-31T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/dodo/cds-au/v1/energy/plans/DOD353296SR@VEC"
+    }
+}

@@ -1,0 +1,401 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "energyaustralia",
+        "planId": "ENE360416MRE9@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "EnergyAustralia",
+        "geography": {
+            "distributors": [
+                "Energex"
+            ],
+            "includedPostcodes": [
+                "4000",
+                "4005",
+                "4006",
+                "4007",
+                "4008",
+                "4009",
+                "4010",
+                "4011",
+                "4012",
+                "4013",
+                "4014",
+                "4017",
+                "4018",
+                "4019",
+                "4020",
+                "4021",
+                "4022",
+                "4030",
+                "4031",
+                "4032",
+                "4034",
+                "4035",
+                "4036",
+                "4037",
+                "4051",
+                "4053",
+                "4054",
+                "4055",
+                "4059",
+                "4060",
+                "4061",
+                "4064",
+                "4065",
+                "4066",
+                "4067",
+                "4068",
+                "4069",
+                "4070",
+                "4073",
+                "4074",
+                "4075",
+                "4076",
+                "4077",
+                "4078",
+                "4101",
+                "4102",
+                "4103",
+                "4104",
+                "4105",
+                "4106",
+                "4107",
+                "4108",
+                "4109",
+                "4110",
+                "4111",
+                "4112",
+                "4113",
+                "4114",
+                "4115",
+                "4116",
+                "4117",
+                "4118",
+                "4119",
+                "4120",
+                "4121",
+                "4122",
+                "4123",
+                "4124",
+                "4125",
+                "4127",
+                "4128",
+                "4129",
+                "4130",
+                "4131",
+                "4132",
+                "4133",
+                "4151",
+                "4152",
+                "4153",
+                "4154",
+                "4155",
+                "4156",
+                "4157",
+                "4158",
+                "4159",
+                "4160",
+                "4161",
+                "4163",
+                "4164",
+                "4165",
+                "4169",
+                "4170",
+                "4171",
+                "4172",
+                "4173",
+                "4174",
+                "4178",
+                "4179",
+                "4183",
+                "4184",
+                "4205",
+                "4207",
+                "4208",
+                "4209",
+                "4210",
+                "4211",
+                "4212",
+                "4213",
+                "4214",
+                "4215",
+                "4216",
+                "4217",
+                "4218",
+                "4220",
+                "4221",
+                "4223",
+                "4224",
+                "4225",
+                "4226",
+                "4227",
+                "4228",
+                "4270",
+                "4271",
+                "4272",
+                "4275",
+                "4280",
+                "4285",
+                "4287",
+                "4300",
+                "4301",
+                "4303",
+                "4304",
+                "4305",
+                "4306",
+                "4307",
+                "4309",
+                "4310",
+                "4311",
+                "4312",
+                "4313",
+                "4340",
+                "4341",
+                "4342",
+                "4343",
+                "4344",
+                "4346",
+                "4347",
+                "4352",
+                "4359",
+                "4500",
+                "4501",
+                "4502",
+                "4503",
+                "4504",
+                "4505",
+                "4506",
+                "4507",
+                "4508",
+                "4509",
+                "4510",
+                "4511",
+                "4512",
+                "4514",
+                "4515",
+                "4516",
+                "4517",
+                "4518",
+                "4519",
+                "4520",
+                "4521",
+                "4550",
+                "4551",
+                "4552",
+                "4553",
+                "4554",
+                "4555",
+                "4556",
+                "4557",
+                "4558",
+                "4559",
+                "4560",
+                "4561",
+                "4562",
+                "4563",
+                "4564",
+                "4565",
+                "4566",
+                "4567",
+                "4568",
+                "4569",
+                "4570",
+                "4571",
+                "4572",
+                "4573",
+                "4574",
+                "4575",
+                "4580",
+                "4581"
+            ]
+        },
+        "displayName": "Solar Max - Demand",
+        "lastUpdated": "2022-07-31T14:07:10.405Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-08-01T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "Disconnection fee may apply when vacating your property and disconnecting electricity to your property (or reading your meter where applicable). Fees may vary and see additional fee information for more details."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "description": "Reconnection fee may apply when moving into your property and connecting electricity to your property (or reading your meter where applicable). Fees may vary and see additional fee information for details."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "Connection fee may apply when moving into your property and connecting electricity to your property (or reading your meter where applicable). Fees may vary and see additional fee information for details."
+                },
+                {
+                    "rate": "0.36",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit card merchant service fee of 0.36% for all payments with Visa or Mastercard."
+                },
+                {
+                    "rate": "1.5",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit card merchant service fee of 1.5% for all payments with American Express."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "description": "$12.00 (GST does not currently apply to late payment fees)."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "PAPER_BILL",
+                    "description": "Incl. GST effective from 6 April 2020. Refer to www.energyaustralia.com.au/home/help-and-support/faqs/paper-bill-fee for details."
+                }
+            ],
+            "terms": "Please refer to our website www.energyaustralia.com.au for full terms and conditions.",
+            "isFixed": false,
+            "termType": "ONGOING",
+            "timeZone": "LOCAL",
+            "discounts": [
+                {
+                    "type": "CONDITIONAL",
+                    "category": "OTHER",
+                    "description": "Offer available to eligible residential customers who sign up to an electricity or gas offer via energyaustralia.com.au. Limit of one $25 credit per new energy account, per customer address. We may change or end this offer at any time. Credit will be applied to your first bill and is not transferable or redeemable for cash.",
+                    "displayName": "Online Sign Up Credit",
+                    "fixedAmount": {
+                        "amount": "25.00"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "Prices may be varied in line with your terms and conditions. We will give you notice before any new prices take effect.",
+            "meterTypes": [
+                "Type 4",
+                "Type 4a",
+                "Type 5"
+            ],
+            "eligibility": [
+                {
+                    "type": "EXISTING_SOLAR",
+                    "description": "Solar Max is for electricity only and is available to eligible residential solar customers not receiving any Government feed-in-tariff. If your average solar export for your billing period is more than 15kWh per day, you may become ineligible for the Solar Max plan. If this happens, we will let you know your options. For further information see https://www.energyaustralia.com.au/home/electricity-and-gas/compare-electricity-and-gas-plans/solar-max."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": null,
+                                "unitPrice": "22.47"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "Anytime",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "All year",
+                    "demandCharges": [
+                        {
+                            "days": {
+                                "sunday": false,
+                                "saturday": false,
+                                "weekdays": false
+                            },
+                            "amount": "11.95",
+                            "endTime": "0000",
+                            "startTime": "0000",
+                            "description": "Demand charges are applied to the maximum half hourly kW power reading within the billing period. The chargeable kW reading occurs between 4pm to 9pm. The demand charge is in cents per KW per day and is calculated on the number of days in the billing period.",
+                            "displayName": "Residential Demand Charge",
+                            "chargePeriod": "TARIFF_PERIOD",
+                            "measurementPeriod": "TARIFF_PERIOD"
+                        }
+                    ],
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "101.70"
+                }
+            ],
+            "benefitPeriod": "1 Year",
+            "billFrequency": [
+                "P3M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL",
+                "DIRECT_DEBIT",
+                "BPAY",
+                "CREDIT_CARD"
+            ],
+            "controlledLoad": {
+                "rates": [
+                    {
+                        "unitPrice": "18.32"
+                    }
+                ],
+                "period": "P1D",
+                "dailyCharge": "0.00",
+                "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                "displayName": "Economy Tariff 33"
+            },
+            "coolingOffDays": "10",
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.05",
+                            "percentGreen": "10"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "PureEnergy 10% = $0.0495 x (10% x total usage)",
+                    "displayName": "PureEnergy 10%"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.05",
+                            "percentGreen": "20"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "PureEnergy 20% = $0.0495 x (20% x total usage)",
+                    "displayName": "PureEnergy 20%"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.05",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "PureEnergy 100% = $0.0495 per kWh",
+                    "displayName": "PureEnergy 100%"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "EnergyAustralia Retailer Feed-in Tariff (excl. GST if any)",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "10.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "The Benefit Period for this plan is 12 months. We will provide you with notice of your options prior to the end of the Benefit Period. Your contract will continue until it is ended by either party."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1/energy/plans/ENE360416MRE9@EME"
+    }
+}

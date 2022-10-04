@@ -1,0 +1,261 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "origin",
+        "planId": "ORI429360SRE3@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Origin Energy",
+        "geography": {
+            "distributors": [
+                "Essential Energy",
+                "Essential Energy Standard",
+                "Essential Energy Far West"
+            ],
+            "includedPostcodes": [
+                "2372",
+                "2406",
+                "4352",
+                "4357",
+                "4380",
+                "4382",
+                "4383",
+                "4384",
+                "4385",
+                "4387",
+                "4388",
+                "4390",
+                "4406",
+                "4422",
+                "4487",
+                "4494",
+                "4496",
+                "4497",
+                "4498"
+            ]
+        },
+        "displayName": "Origin Standing",
+        "lastUpdated": "2022-07-05T00:30:00.804Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-07-05T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "A $58.40 (GST Incl) fee may apply when your property is reconnected (including when you move). Fee may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "A $21.15 (GST Incl) fee may apply when your property is disconnected (including when you move). Fee may vary."
+                }
+            ],
+            "terms": "Visit originenergy.com.au/2889/Terms-and-conditions to find out more.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "We may vary the Charges (including their amount, nature and structure) by notice to you at any time. The notice will be at least 5 business days prior to the effective date of the variation.",
+            "meterTypes": [
+                "Type 4",
+                "Type 4a",
+                "Type 5",
+                "Type 6"
+            ],
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "02-28",
+                    "startDate": "12-01",
+                    "displayName": "Time of Use Tariff Period",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "name": "Peak",
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "55.29"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS",
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "2129",
+                                    "startTime": "1500"
+                                }
+                            ],
+                            "description": "Weekdays and Weekends (15:00-21:30)"
+                        },
+                        {
+                            "name": "Off peak",
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "19.74"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS",
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "2359",
+                                    "startTime": "2130"
+                                },
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS",
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "1459",
+                                    "startTime": "0"
+                                }
+                            ],
+                            "description": "Weekdays & Weekends (21:30 - 15:00)"
+                        }
+                    ],
+                    "dailySupplyCharges": "82.85"
+                },
+                {
+                    "endDate": "11-30",
+                    "startDate": "03-01",
+                    "displayName": "Time of Use Tariff Period",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "name": "Peak",
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "55.29"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS",
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "2129",
+                                    "startTime": "1500"
+                                }
+                            ],
+                            "description": "Weekdays and Weekends (15:00-21:30)"
+                        },
+                        {
+                            "name": "Off peak",
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "19.74"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS",
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "2359",
+                                    "startTime": "2130"
+                                },
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS",
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "1459",
+                                    "startTime": "0"
+                                }
+                            ],
+                            "description": "Weekdays & Weekends (21:30 - 15:00)"
+                        }
+                    ],
+                    "dailySupplyCharges": "82.85"
+                }
+            ],
+            "billFrequency": [
+                "P1M",
+                "P3M"
+            ],
+            "paymentOption": [
+                "BPAY",
+                "CREDIT_CARD",
+                "DIRECT_DEBIT",
+                "PAPER_BILL"
+            ],
+            "controlledLoad": {
+                "rates": [
+                    {
+                        "unitPrice": "17.40"
+                    }
+                ],
+                "period": "P1Y",
+                "dailyCharge": "3.15",
+                "description": "Controlled Supply (Economy)",
+                "displayName": "Controlled Load 2"
+            },
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_WEEK",
+                    "tiers": [
+                        {
+                            "amount": "0.65",
+                            "percentGreen": "25"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "For $0.65 per week 25% of your electricity usage is matched with electricity from Government accredited GreenPower sources"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.01",
+                            "percentGreen": "50"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "For 1.40 cents/kWh 50% of your electricity usage is matched with electricity from Government accredited GreenPower sources"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.03",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "For 2.80 cents/kWh 100% of your electricity usage will be matched with electricity from Government accredited wind GreenPower"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Origin offers 9.3 cents per kWh exported, subject to eligibility. All amounts are GST-inclusive (if any).",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "9.30"
+                    }
+                }
+            ],
+            "onExpiryDescription": "The agreement continues until you or we end it."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/origin/cds-au/v1/energy/plans/ORI429360SRE3@EME"
+    }
+}

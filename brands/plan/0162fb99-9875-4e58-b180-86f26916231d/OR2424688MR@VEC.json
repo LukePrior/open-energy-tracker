@@ -1,0 +1,181 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "origin",
+        "planId": "OR2424688MR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Origin Energy",
+        "geography": {
+            "distributors": [
+                "Australian Gas Networks"
+            ],
+            "includedPostcodes": [
+                "3139",
+                "3175",
+                "3198",
+                "3199",
+                "3200",
+                "3201",
+                "3755",
+                "3760",
+                "3761",
+                "3777",
+                "3803",
+                "3804",
+                "3805",
+                "3806",
+                "3807",
+                "3808",
+                "3809",
+                "3810",
+                "3816",
+                "3818",
+                "3820",
+                "3822",
+                "3823",
+                "3824",
+                "3825",
+                "3840",
+                "3842",
+                "3844",
+                "3847",
+                "3850",
+                "3851",
+                "3852",
+                "3860",
+                "3910",
+                "3911",
+                "3912",
+                "3913",
+                "3915",
+                "3916",
+                "3918",
+                "3919",
+                "3920",
+                "3921",
+                "3926",
+                "3927",
+                "3928",
+                "3929",
+                "3930",
+                "3931",
+                "3933",
+                "3934",
+                "3936",
+                "3937",
+                "3938",
+                "3939",
+                "3940",
+                "3941",
+                "3942",
+                "3943",
+                "3944",
+                "3975",
+                "3976",
+                "3977",
+                "3978",
+                "3980",
+                "3981",
+                "3984",
+                "3987"
+            ]
+        },
+        "displayName": "Origin Go",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "10.67",
+                    "description": "A $10.67 (GST Incl) fee may apply when your property is disconnected (including when you move).\nYou must pay us any charges your distributor imposes on us in relation to services performed by your distributor (or anyone else) at your supply address. For details on additional charges that may apply see www.originenergy.com.au/2402/Additional-charges"
+                },
+                {
+                    "rate": "0.24",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A 0.24% fee (GST Incl) may apply to payments made by VISA debit card."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "PAYMENT_PROCESSING",
+                    "amount": "2.70",
+                    "description": "If you pay at an Australia Post outlet, a payment processing fee of the higher of $2.70 or 0.49% (incl GST) may apply."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "1.75",
+                    "description": "$1.75 (incl GST) applies for each paper bill."
+                },
+                {
+                    "rate": "0.56",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A 0.56% fee (GST Incl) may apply to payments made by VISA credit card."
+                },
+                {
+                    "rate": "0.28",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A 0.28% fee (GST Incl) may apply to payments made by Mastercard debit card."
+                },
+                {
+                    "rate": "0.64",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A 0.64% fee (GST Incl) may apply to payments made by Mastercard credit card."
+                }
+            ],
+            "terms": "Not available all areas or property types. Residential customers only. See www.originenergy.com.au/2889/Terms-and-conditions for more.",
+            "isFixed": true,
+            "variation": "Your usage and supply Charges will not increase during the Energy Plan period. Other charges such as Green Gas Charges may change during the Energy Plan period.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Offer only available to residential customers."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "01-31",
+                    "startDate": "02-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.8637"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.7273"
+                            },
+                            {
+                                "unitPrice": "2.3637"
+                            }
+                        ],
+                        "displayName": "Rate"
+                    },
+                    "displayName": "Consumption",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "84.7273"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Ongoing contract which continues until you or we end it. The benefit period is 12 months."
+        },
+        "lastUpdated": "2022-09-30T00:52:13Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-10-03T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/origin/cds-au/v1/energy/plans/OR2424688MR@VEC"
+    }
+}

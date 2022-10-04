@@ -1,0 +1,112 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "energyaustralia",
+        "planId": "ENE32437SBG7@EME",
+        "fuelType": "GAS",
+        "brandName": "EnergyAustralia",
+        "geography": {
+            "distributors": [
+                "Evoenergy Queanbeyan"
+            ],
+            "includedPostcodes": [
+                "2619",
+                "2620",
+                "2621"
+            ]
+        },
+        "displayName": "Basic Business",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "description": "$10.90 (GST does not currently apply to late payment fees)."
+                },
+                {
+                    "rate": "0.36",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "amount": "0.00",
+                    "description": "Credit card merchant service fee of 0.36% for all payments with Visa or Mastercard."
+                },
+                {
+                    "rate": "1.5",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "amount": "0.00",
+                    "description": "Credit card merchant service fee of 1.5% for all payments with American Express."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "A disconnection fee may apply  (incl. moving or reading your meter). Fees may vary and see additional fee information for details."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "description": "A reconnection fee may apply (incl. moving or reading your meter). Fees may vary and see additional fee information for details."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "A connection fee may apply when you move into a property.  Fees may vary and see additional fee information for more details."
+                }
+            ],
+            "terms": "Please refer to our website www.energyaustralia.com.au for full terms and conditions.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "The rates for Basic Business may vary, either when the AER changes the reference price, or when we review our rates each year. We\u2019ll notify you before any rate change occurs.",
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 41.096,
+                                "unitPrice": "3.09"
+                            },
+                            {
+                                "volume": 2704.11,
+                                "unitPrice": "2.87"
+                            },
+                            {
+                                "volume": 10964.383,
+                                "unitPrice": "2.73"
+                            },
+                            {
+                                "volume": null,
+                                "unitPrice": "2.50"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "Anytime",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "All year",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "82.32"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL",
+                "DIRECT_DEBIT",
+                "BPAY",
+                "CREDIT_CARD"
+            ],
+            "onExpiryDescription": "This contract continues for as long as you remain on the plan."
+        },
+        "lastUpdated": "2022-07-31T14:06:53.198Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-08-01T00:00:00.000Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1/energy/plans/ENE32437SBG7@EME"
+    }
+}

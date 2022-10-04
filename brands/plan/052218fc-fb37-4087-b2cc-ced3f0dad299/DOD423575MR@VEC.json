@@ -1,0 +1,267 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "dodo",
+        "planId": "DOD423575MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Dodo",
+        "geography": {
+            "distributors": [
+                "Citipower"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
+                "3011",
+                "3031",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3078",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
+            ]
+        },
+        "displayName": "Residential Market - Time of Use with Controlled Load",
+        "lastUpdated": "2022-09-10T01:55:42Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-09-08T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "2.20",
+                    "description": "A printed bill fee applies to each posted bill.\nFor further details on the information presented in this fact sheet, or the terms and conditions of the contract, please visit www.dodo.com/energy/terms-prices-and-regulatory-information."
+                },
+                {
+                    "rate": "2.89",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A surcharge applies to all American Express and Diners Club card payments. Payments made via MasterCard or Visa do not incur any surcharge."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "9.50",
+                    "description": "Dishonoured Payment fee may apply to payments we attempt that are subsequently declined."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "39.00",
+                    "description": "Service fees may apply when we request to de-energise a property or if you require a meter reading for any purpose."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "39.00",
+                    "description": "Service fees may apply when we request to energise a property or if you require a meter reading for any purpose."
+                }
+            ],
+            "terms": "See our full terms and conditions at www.dodo.com/energy/terms-prices-and-regulatory-information. If you are eligible, you can apply to receive Victorian Government concessions.",
+            "isFixed": false,
+            "timeZone": "AEST",
+            "variation": "Dodo Power & Gas may vary your energy rates not more than once every 12 months by giving you notice of this change not less than five (5) business days before it comes into effect.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Promotional Offers",
+                    "displayName": "Promotional Offers",
+                    "eligibility": "From time to time, Dodo Power & Gas may provide promotional offers (including one-off payments and/or products) though promotional codes, which may be redeemed when signing up. These codes do not change the rates, fees or charges of this offer."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Applicable to a Residential Customer in the CitiPower distribution zone & verification of meter type. See terms & conditions for other eligibility criteria, including solar feed-in tariff eligibility."
+                }
+            ],
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "Period",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "31.7235"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "2100",
+                                    "startTime": "1500"
+                                }
+                            ],
+                            "displayName": "Peak Consumption"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "20.4729"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "2100"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "1500",
+                                    "startTime": "0000"
+                                }
+                            ],
+                            "displayName": "Off Peak Consumption"
+                        }
+                    ],
+                    "dailySupplyCharges": "85.5499"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "17.6904"
+                            }
+                        ],
+                        "description": "for hot water and/or storage space heaters (only on for a controlled period)",
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Controlled Load",
+                    "rateBlockUType": "singleRate"
+                }
+            ],
+            "coolingOffDays": 10,
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0099",
+                            "percentGreen": "10"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "$0.099 per kWh (inc GST) u2013 Electricity equal to 10% of your consumption is sourced from GreenPower. Discounts do not apply to GreenPower.",
+                    "displayName": "GreenPower 10"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.099",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "$0.099 per kWh (inc GST) u2013 Electricity equal to 100% of your consumption is sourced from GreenPower. Discounts do not apply to GreenPower.",
+                    "displayName": "GreenPower 100"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "General Feed-in Tariff (GFIT)",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.20"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "Premium Feed-in Tariff (PFIT)",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "No Term contracts do not expire"
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/dodo/cds-au/v1/energy/plans/DOD423575MR@VEC"
+    }
+}

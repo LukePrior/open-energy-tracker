@@ -1,0 +1,502 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "energyaustralia",
+        "planId": "TRU423305MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "EnergyAustralia",
+        "geography": {
+            "distributors": [
+                "AusNet Services (electricity)"
+            ],
+            "includedPostcodes": [
+                "3061",
+                "3062",
+                "3064",
+                "3074",
+                "3075",
+                "3076",
+                "3082",
+                "3083",
+                "3084",
+                "3085",
+                "3087",
+                "3088",
+                "3089",
+                "3090",
+                "3091",
+                "3093",
+                "3094",
+                "3095",
+                "3096",
+                "3097",
+                "3099",
+                "3106",
+                "3109",
+                "3111",
+                "3113",
+                "3114",
+                "3115",
+                "3116",
+                "3132",
+                "3133",
+                "3134",
+                "3135",
+                "3136",
+                "3137",
+                "3138",
+                "3139",
+                "3140",
+                "3152",
+                "3153",
+                "3154",
+                "3155",
+                "3156",
+                "3158",
+                "3159",
+                "3160",
+                "3175",
+                "3178",
+                "3179",
+                "3180",
+                "3434",
+                "3521",
+                "3522",
+                "3607",
+                "3608",
+                "3610",
+                "3612",
+                "3631",
+                "3646",
+                "3658",
+                "3659",
+                "3660",
+                "3662",
+                "3663",
+                "3664",
+                "3665",
+                "3666",
+                "3669",
+                "3670",
+                "3672",
+                "3673",
+                "3675",
+                "3677",
+                "3678",
+                "3682",
+                "3683",
+                "3685",
+                "3687",
+                "3688",
+                "3690",
+                "3691",
+                "3695",
+                "3697",
+                "3698",
+                "3699",
+                "3700",
+                "3701",
+                "3704",
+                "3705",
+                "3707",
+                "3708",
+                "3709",
+                "3711",
+                "3712",
+                "3713",
+                "3714",
+                "3715",
+                "3717",
+                "3718",
+                "3719",
+                "3720",
+                "3722",
+                "3723",
+                "3725",
+                "3726",
+                "3727",
+                "3728",
+                "3730",
+                "3732",
+                "3733",
+                "3735",
+                "3736",
+                "3737",
+                "3738",
+                "3739",
+                "3740",
+                "3741",
+                "3744",
+                "3746",
+                "3747",
+                "3749",
+                "3750",
+                "3751",
+                "3752",
+                "3753",
+                "3754",
+                "3755",
+                "3756",
+                "3757",
+                "3758",
+                "3759",
+                "3760",
+                "3761",
+                "3762",
+                "3763",
+                "3764",
+                "3765",
+                "3766",
+                "3767",
+                "3770",
+                "3775",
+                "3777",
+                "3778",
+                "3779",
+                "3781",
+                "3782",
+                "3783",
+                "3785",
+                "3786",
+                "3787",
+                "3788",
+                "3789",
+                "3791",
+                "3792",
+                "3793",
+                "3795",
+                "3796",
+                "3797",
+                "3799",
+                "3802",
+                "3803",
+                "3804",
+                "3805",
+                "3806",
+                "3807",
+                "3808",
+                "3809",
+                "3810",
+                "3812",
+                "3813",
+                "3814",
+                "3815",
+                "3816",
+                "3818",
+                "3820",
+                "3821",
+                "3822",
+                "3823",
+                "3824",
+                "3825",
+                "3831",
+                "3832",
+                "3833",
+                "3835",
+                "3840",
+                "3842",
+                "3844",
+                "3847",
+                "3850",
+                "3851",
+                "3852",
+                "3854",
+                "3856",
+                "3857",
+                "3858",
+                "3859",
+                "3860",
+                "3862",
+                "3864",
+                "3865",
+                "3869",
+                "3870",
+                "3871",
+                "3873",
+                "3874",
+                "3875",
+                "3878",
+                "3880",
+                "3882",
+                "3885",
+                "3886",
+                "3887",
+                "3888",
+                "3889",
+                "3890",
+                "3891",
+                "3892",
+                "3893",
+                "3895",
+                "3896",
+                "3898",
+                "3900",
+                "3902",
+                "3903",
+                "3904",
+                "3909",
+                "3912",
+                "3921",
+                "3922",
+                "3923",
+                "3925",
+                "3945",
+                "3946",
+                "3950",
+                "3951",
+                "3953",
+                "3954",
+                "3956",
+                "3957",
+                "3958",
+                "3959",
+                "3960",
+                "3962",
+                "3964",
+                "3965",
+                "3966",
+                "3967",
+                "3971",
+                "3975",
+                "3976",
+                "3977",
+                "3978",
+                "3979",
+                "3980",
+                "3981",
+                "3984",
+                "3987",
+                "3988",
+                "3990",
+                "3991",
+                "3992",
+                "3995",
+                "3996"
+            ]
+        },
+        "displayName": "Balance Plan - Peak with Controlled Load",
+        "lastUpdated": "2022-09-07T02:21:20Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-09-07T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "39.89",
+                    "description": "Disconnecting electricity to your property or reading your meter where applicable - Business hours"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "39.89",
+                    "description": "Reconnection fee - Business hours"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "0.00",
+                    "description": "Remote Disconnection fee - Business hours"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "0.00",
+                    "description": "Remote Reconnection fee - Business hours"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "650.27",
+                    "description": "Solar meter installation fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "39.89",
+                    "description": "Special Meter Read fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "0.00",
+                    "description": "Remote Special Meter Read fee"
+                },
+                {
+                    "rate": "0.36",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit card merchant service fee of 0.36% for all payments with Visa or Mastercard."
+                },
+                {
+                    "rate": "1.5",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit card merchant service fee of 1.5% for all payments with American Express."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "1.69",
+                    "description": "Paper bill fee incl. GST per bill effective from 6 April 2020.  Refer to www.energyaustralia.com.au/home/help-and-support/faqs/paper-bill-fee for details."
+                }
+            ],
+            "terms": "Please refer to our website www.energyaustralia.com.au for solar feed-in eligibility and full terms and conditions.",
+            "isFixed": false,
+            "termType": "1_YEAR",
+            "timeZone": "LOCAL",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "category": "OTHER",
+                    "description": "Guaranteed total energy bill discount. Discount applies to GST exclusive usage and supply charges, and not to fees and other charges such as late payment fees or Greenpower",
+                    "displayName": "Guaranteed Whole of Bill Discount",
+                    "methodUType": "percentOfBill",
+                    "percentOfBill": {
+                        "rate": "1"
+                    }
+                },
+                {
+                    "type": "CONDITIONAL",
+                    "category": "OTHER",
+                    "description": "Offer available to eligible residential customers who sign up to an electricity or gas offer via energyaustralia.com.au. Limit of one $25 credit per new energy account, per customer address. We may change or end this offer at any time.",
+                    "displayName": "Online Sign Up Credit",
+                    "fixedAmount": {
+                        "amount": "22.7272"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "Prices may be varied in line with your terms and conditions. We will give you notice before any new prices take effect.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "PowerResponse program rebate",
+                    "displayName": "PowerResponse program rebate",
+                    "eligibility": "You may be eligible for our PowerResponse program, and by participating in events, you may be eligible for rebates which may change over time. See website energyaustralia.com.au/power-response for details on eligibility criteria, T&Cu2019s and rebates."
+                },
+                {
+                    "category": "OTHER",
+                    "description": "Online Sign Up Credit",
+                    "displayName": "Online Sign Up Credit",
+                    "eligibility": "Credit will be applied to your first bill and is not transferable or redeemable for cash."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "The details in this fact sheet are for residential customers located in the distribution area outlined with the meter configuration described. Unless specified 'Peak Only' is the default meter type."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 11,
+                                "unitPrice": "26.30"
+                            },
+                            {
+                                "unitPrice": "27.909"
+                            }
+                        ],
+                        "displayName": "Rate"
+                    },
+                    "displayName": "Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "118.127"
+                }
+            ],
+            "billFrequency": [
+                "P3M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "17.8363"
+                            }
+                        ],
+                        "description": "Dedicated Circuit 1",
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "",
+                    "rateBlockUType": "singleRate"
+                }
+            ],
+            "coolingOffDays": 10,
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0495",
+                            "percentGreen": "10"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "PureEnergy 10% = $0.0495 x (10% x total usage)",
+                    "displayName": "GreenPower 10"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0495",
+                            "percentGreen": "20"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "PureEnergy 20% = $0.0495 x (20% x total usage)",
+                    "displayName": "GreenPower 20"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0495",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "PureEnergy 100% = $0.0495 per kWh",
+                    "displayName": "GreenPower 100"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Retailer voluntary",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.40"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "Eligible customers only, already registered for Premium FiT Scheme",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "66.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "The Benefit Period for this plan is for 1 year. We will provide you with notice of your options prior to the end of the Benefit Period. Your contract will continue until it is ended by either party."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1/energy/plans/TRU423305MR@VEC"
+    }
+}

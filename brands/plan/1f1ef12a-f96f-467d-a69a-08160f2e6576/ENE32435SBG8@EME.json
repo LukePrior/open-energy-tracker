@@ -1,0 +1,151 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "energyaustralia",
+        "planId": "ENE32435SBG8@EME",
+        "fuelType": "GAS",
+        "brandName": "EnergyAustralia",
+        "geography": {
+            "distributors": [
+                "Jemena Country Network"
+            ],
+            "includedPostcodes": [
+                "2571",
+                "2572",
+                "2573",
+                "2574",
+                "2575",
+                "2576",
+                "2577",
+                "2578",
+                "2579",
+                "2590",
+                "2663",
+                "2671",
+                "2680",
+                "2681",
+                "2700",
+                "2701",
+                "2702",
+                "2703",
+                "2705",
+                "2706",
+                "2787",
+                "2790",
+                "2794",
+                "2795",
+                "2798",
+                "2799",
+                "2800",
+                "2820",
+                "2821",
+                "2830",
+                "2831",
+                "2845",
+                "2870",
+                "2871"
+            ]
+        },
+        "displayName": "Basic Business",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "description": "$10.90 (GST does not currently apply to late payment fees)."
+                },
+                {
+                    "rate": "0.36",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "amount": "0.00",
+                    "description": "Credit card merchant service fee of 0.36% for all payments with Visa or Mastercard."
+                },
+                {
+                    "rate": "1.5",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "amount": "0.00",
+                    "description": "Credit card merchant service fee of 1.5% for all payments with American Express."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "A disconnection fee may apply  (incl. moving or reading your meter). Fees may vary and see additional fee information for details."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "description": "A reconnection fee may apply (incl. moving or reading your meter). Fees may vary and see additional fee information for details."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "A connection fee may apply when you move into a property.  Fees may vary and see additional fee information for more details."
+                }
+            ],
+            "terms": "Please refer to our website www.energyaustralia.com.au for full terms and conditions.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "The rates for Basic Business may vary, either when the AER changes the reference price, or when we review our rates each year. We\u2019ll notify you before any rate change occurs.",
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 20.712,
+                                "unitPrice": "4.25"
+                            },
+                            {
+                                "volume": 20.384,
+                                "unitPrice": "3.01"
+                            },
+                            {
+                                "volume": 49.315,
+                                "unitPrice": "2.84"
+                            },
+                            {
+                                "volume": 2654.79399,
+                                "unitPrice": "2.72"
+                            },
+                            {
+                                "volume": 10964.38401,
+                                "unitPrice": "2.57"
+                            },
+                            {
+                                "volume": null,
+                                "unitPrice": "2.34"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "Anytime",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "All year",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "75.32"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL",
+                "DIRECT_DEBIT",
+                "BPAY",
+                "CREDIT_CARD"
+            ],
+            "onExpiryDescription": "This contract continues for as long as you remain on the plan."
+        },
+        "lastUpdated": "2022-07-31T14:06:52.736Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-08-01T00:00:00.000Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1/energy/plans/ENE32435SBG8@EME"
+    }
+}
