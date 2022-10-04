@@ -1,0 +1,150 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "ovo-energy",
+        "planId": "OVO397189SR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "OVO Energy",
+        "geography": {
+            "distributors": [
+                "Jemena"
+            ],
+            "includedPostcodes": [
+                "3011",
+                "3012",
+                "3013",
+                "3015",
+                "3016",
+                "3019",
+                "3020",
+                "3023",
+                "3025",
+                "3031",
+                "3032",
+                "3033",
+                "3034",
+                "3036",
+                "3037",
+                "3038",
+                "3039",
+                "3040",
+                "3041",
+                "3042",
+                "3043",
+                "3044",
+                "3045",
+                "3046",
+                "3047",
+                "3048",
+                "3049",
+                "3051",
+                "3052",
+                "3058",
+                "3059",
+                "3060",
+                "3061",
+                "3062",
+                "3063",
+                "3064",
+                "3068",
+                "3070",
+                "3072",
+                "3073",
+                "3074",
+                "3076",
+                "3078",
+                "3079",
+                "3081",
+                "3083",
+                "3084",
+                "3085",
+                "3086",
+                "3087",
+                "3335",
+                "3336",
+                "3337",
+                "3340",
+                "3427",
+                "3428",
+                "3429",
+                "3430",
+                "3431",
+                "3437",
+                "3750",
+                "3753"
+            ]
+        },
+        "displayName": "Victorian Default Offer",
+        "lastUpdated": "2022-06-16T02:32:21Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-06-30T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "56.73",
+                    "description": "This is a charge from your distribution company. OVO Energy will only ever pass the exact cost through to you. Site attendance - A fee (inc GST) may be charged for the re-energisation of power to the site.\nOVO Energy reserves the right to and will notify you if it changes or imposes additional fees or charges in relation to your energy supply. Please refer to ovoenergy.com.au/fees for more information."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "81.35",
+                    "description": "This is a charge from your distribution company. OVO Energy will only ever pass the exact cost through to you. Site attendance - A fee (inc GST) may be charged for disconnection when you move out of your property. Fees may vary for some customers."
+                }
+            ],
+            "terms": "OVO Energy's terms and conditions are available at www.ovoenergy.com.au/terms",
+            "isFixed": false,
+            "timeZone": "AEST",
+            "variation": "OVO Energy may vary the rates at any time in accordance with the terms and conditions available at www.ovoenergy.com.au/terms",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Available to all single rate tariff customers in the Jemena network"
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "21.1091"
+                            }
+                        ],
+                        "displayName": "Anytime"
+                    },
+                    "displayName": "All-year",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "105.2455"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "OVO Energy Retailer Feed-in-Tariff (exclusive of GST)",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.20"
+                    }
+                }
+            ],
+            "onExpiryDescription": "Ongoing contract with no contract term"
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/ovo-energy/cds-au/v1/energy/plans/OVO397189SR@VEC"
+    }
+}

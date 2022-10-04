@@ -1,0 +1,176 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "reamped",
+        "planId": "REA401996SRE1@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "ReAmped Energy",
+        "geography": {
+            "distributors": [
+                "Essential Energy Far West"
+            ],
+            "includedPostcodes": [
+                "2648",
+                "2715",
+                "2717",
+                "2732",
+                "2733",
+                "2735",
+                "2736",
+                "2737",
+                "2738",
+                "2739",
+                "2790",
+                "2817",
+                "2818",
+                "2822",
+                "2826",
+                "2836",
+                "2838",
+                "2878",
+                "2879",
+                "2880"
+            ]
+        },
+        "displayName": "ReAmped Standard | Time of Use & CL1 & CL2",
+        "lastUpdated": "2022-06-30T14:09:05.089Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-07-01T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "Standard Move Out-Read Fee. Includes GST. Actual charges may vary. See www.reampedenergy.com.au/fees for more information."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "Standard Move In-Read Fee. Includes GST. Actual charges may vary. See www.reampedenergy.com.au/fees for more information."
+                }
+            ],
+            "terms": "This offer applies to customers with an applicable network tariff, where we have an obligation to supply. Please refer to our website www.reampedenergy.com.au for full terms and conditions.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "We will not vary your charges more than once per 6 months. We will publish the variation in a newspaper and on our website 10 business days prior to the effective date. We will also notify you at least 5 business days before the variation is to apply.",
+            "meterTypes": [
+                "Type 4",
+                "Type 5",
+                "Type 6"
+            ],
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "All Year",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "name": "Peak",
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "37.03"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "859",
+                                    "startTime": "700"
+                                },
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "1959",
+                                    "startTime": "1700"
+                                }
+                            ],
+                            "description": "Weekdays 7am-9am & 5pm-8pm"
+                        },
+                        {
+                            "name": "Shoulder",
+                            "type": "SHOULDER",
+                            "rates": [
+                                {
+                                    "unitPrice": "33.86"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "1659",
+                                    "startTime": "900"
+                                },
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "2159",
+                                    "startTime": "2000"
+                                }
+                            ],
+                            "description": "Weekdays 9am-5pm & 8pm-10pm"
+                        },
+                        {
+                            "name": "Off-peak",
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "26.19"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "659",
+                                    "startTime": "2200"
+                                },
+                                {
+                                    "days": [
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "2359",
+                                    "startTime": "0"
+                                }
+                            ],
+                            "description": "Weekdays 10pm-7am. Weekends 12am - 12pm"
+                        }
+                    ],
+                    "dailySupplyCharges": "135.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "CREDIT_CARD"
+            ],
+            "controlledLoad": {
+                "rates": [
+                    {
+                        "unitPrice": "18.10"
+                    }
+                ],
+                "period": "P1Y",
+                "dailyCharge": "0.00",
+                "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                "displayName": "Controlled Load 1"
+            }
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/reamped/cds-au/v1/energy/plans/REA401996SRE1@EME"
+    }
+}

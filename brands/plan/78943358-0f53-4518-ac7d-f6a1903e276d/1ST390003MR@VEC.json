@@ -1,0 +1,114 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "1st-energy",
+        "planId": "1ST390003MR@VEC",
+        "fuelType": "GAS",
+        "brandName": "1st Energy",
+        "geography": {
+            "distributors": [
+                "Australian Gas Networks"
+            ],
+            "includedPostcodes": [
+                "3636",
+                "3640",
+                "3641",
+                "3644",
+                "3646",
+                "3683",
+                "3685",
+                "3687",
+                "3730"
+            ]
+        },
+        "displayName": "1st Saver Plus, Residential",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CHEQUE_DISHONOUR",
+                    "amount": "15.00",
+                    "description": "Cheque dishonour fee\nAdditional fees may apply. For more information, please call 1300 426 594."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "7.50",
+                    "description": "Direct debit dishonour fee"
+                }
+            ],
+            "terms": "For futher details on the information presented in this fact sheet, or the terms and conditions of the offer, please visit www.1stenergy.com.au or call 1st Energy on 1300 426 594.",
+            "isFixed": false,
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "category": "OTHER",
+                    "description": "7% guaranteed discount off the market contract usage rates set out below.",
+                    "displayName": "7% guaranteed discount off usage charges",
+                    "methodUType": "percentOfUse",
+                    "percentOfUse": {
+                        "rate": "7"
+                    }
+                },
+                {
+                    "type": "CONDITIONAL",
+                    "category": "PAY_ON_TIME",
+                    "description": "3% discount off the market contract usage rates set out below for every bill paid on time.",
+                    "displayName": "3% Pay on time discount off usage charges",
+                    "methodUType": "percentOfUse",
+                    "percentOfUse": {
+                        "rate": "3"
+                    }
+                }
+            ],
+            "variation": "Prices may be varied in line with your terms and conditions. If your charges are increasing we will notify you at least 5 business days prior to the variation applying.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is available to customers within the Australian Gas Networks (AGN) Murray Valley distribution zone with the applicable network tariff and meter configuration."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 30,
+                                "unitPrice": "2.73"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.46"
+                            },
+                            {
+                                "unitPrice": "2.18"
+                            }
+                        ],
+                        "displayName": "Anytime"
+                    },
+                    "displayName": "All Year",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "77.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Your contract continues until terminated by you or us in accordance with our terms and conditions."
+        },
+        "lastUpdated": "2022-05-26T00:36:19Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-05-26T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/1st-energy/cds-au/v1/energy/plans/1ST390003MR@VEC"
+    }
+}

@@ -1,0 +1,262 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "agl",
+        "planId": "AGD397139MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "AGL",
+        "geography": {
+            "distributors": [
+                "Citipower"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
+                "3011",
+                "3031",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3078",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
+            ]
+        },
+        "displayName": "Residential Solar Savers",
+        "lastUpdated": "2022-07-01T00:48:05Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-06-30T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "41.34",
+                    "description": "Fee may be charged when reconnecting or reading your meter when you move into a property or change retailer. Includes GST. Fees may vary.\nAdditional fees and charges may apply. Please see the AGL fee schedules at agl.com.au/fees"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "41.95",
+                    "description": "Fee may be charged when disconnecting or reading your meter when you move out of a property or change retailer. Includes GST. Fees may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "1.75",
+                    "description": "A paper bill fee may apply for each bill sent by post. Includes GST"
+                },
+                {
+                    "rate": "0.45",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "The amount is GST inclusive and applies to card payments made at Australia Post outlets"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "2.00",
+                    "description": "An over the counter payment fee may apply for payments made in-person at a Post Office. Includes GST"
+                },
+                {
+                    "rate": "0.17",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "The amount is GST inclusive and applies to payments made by debit cards."
+                },
+                {
+                    "rate": "0.66",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "The amount is GST inclusive and applies to payments made by credit cards."
+                }
+            ],
+            "terms": "Amount of exported energy eligible for the higher feed-in tariff is calculated using the average energy exported daily over the relevant billing period. If we change the higher feed-in tariff, weu2019ll let you know. Only available in areas where AGL operates. Further info about the T&C applicable to this energy offer, contact AGL on 131 245 or visit agl.com.au. Solar terms also apply, see www.agl.com.au/vicsolarterms",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "Offer includes variable rates, Solar feed-in tariffs, retail fees & charges, which can change any time with notice to you. If we vary your rates, weu2019ll give you at least 5 business days prior notice of the variation. Other charges may vary with notice",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Solar Feed-in Tarriff",
+                    "displayName": "Solar Feed-in Tarriff",
+                    "eligibility": "This plan features a tiered feed-in tariff. For the first 14kWh exported each day, weu2019ll pay you a higher feed-in tariff of 10c/kWh. Then, weu2019ll pay 5.2c/kWh for the rest of that day"
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer applies to customers with an applicable network tariff. Only available to customers with a solar system with a total inverter capacity of 10kW or less who are not receiving a feed-in tariff under a government scheme. Further eligibility conditions apply, see www.agl.com.au/vicsolarterms for details"
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "03-31",
+                    "startDate": "12-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "16.33"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Summer",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "105.67"
+                },
+                {
+                    "endDate": "03-31",
+                    "startDate": "12-01",
+                    "displayName": "Summer",
+                    "demandCharges": [
+                        {
+                            "days": [
+                                "MON",
+                                "TUE",
+                                "WED",
+                                "THU",
+                                "FRI"
+                            ],
+                            "amount": "33.07",
+                            "endTime": "2100",
+                            "startTime": "1500",
+                            "description": "Summer Demand",
+                            "displayName": "Demand",
+                            "chargePeriod": "DAY",
+                            "measurementPeriod": "DAY"
+                        }
+                    ],
+                    "rateBlockUType": "demandCharges"
+                },
+                {
+                    "endDate": "11-30",
+                    "startDate": "04-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "16.33"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Non-Summer",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "105.67"
+                },
+                {
+                    "endDate": "11-30",
+                    "startDate": "04-01",
+                    "displayName": "Non-Summer",
+                    "demandCharges": [
+                        {
+                            "days": [
+                                "MON",
+                                "TUE",
+                                "WED",
+                                "THU",
+                                "FRI"
+                            ],
+                            "amount": "11.31",
+                            "endTime": "2100",
+                            "startTime": "1500",
+                            "description": "Non-Summer Demand",
+                            "displayName": "Demand",
+                            "chargePeriod": "DAY",
+                            "measurementPeriod": "DAY"
+                        }
+                    ],
+                    "rateBlockUType": "demandCharges"
+                }
+            ],
+            "billFrequency": [
+                "P3M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_WEEK",
+                    "tiers": [
+                        {
+                            "amount": "1.00",
+                            "percentGreen": "20"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "For $1 per week inc. GST we ensure energy equal to 20% of your consumption will be fed into the grid from Accredited GreenPower generators.",
+                    "displayName": "GreenPower 20"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.044",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "For 4.4c / kWh inc. GST we ensure energy equal to 100% of your consumption will be fed into the grid from Accredited GreenPower generators.",
+                    "displayName": "GreenPower 100"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "AGL Retailer Feed-in Tariff",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.20"
+                    }
+                }
+            ],
+            "onExpiryDescription": "Your market contract is ongoing. From time to time, AGL reviews its offers and this offer will be reviewed with consideration to AGLu2019s generally available market offers"
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/agl/cds-au/v1/energy/plans/AGD397139MR@VEC"
+    }
+}

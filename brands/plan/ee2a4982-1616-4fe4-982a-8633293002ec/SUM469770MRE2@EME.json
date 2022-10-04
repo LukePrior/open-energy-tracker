@@ -1,0 +1,281 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "sumo-power",
+        "planId": "SUM469770MRE2@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Sumo",
+        "geography": {
+            "distributors": [
+                "Endeavour"
+            ],
+            "includedPostcodes": [
+                "2113",
+                "2114",
+                "2115",
+                "2116",
+                "2117",
+                "2118",
+                "2119",
+                "2120",
+                "2121",
+                "2122",
+                "2125",
+                "2126",
+                "2142",
+                "2145",
+                "2146",
+                "2147",
+                "2148",
+                "2150",
+                "2151",
+                "2152",
+                "2153",
+                "2154",
+                "2155",
+                "2156",
+                "2157",
+                "2158",
+                "2159",
+                "2160",
+                "2161",
+                "2162",
+                "2163",
+                "2164",
+                "2165",
+                "2166",
+                "2167",
+                "2168",
+                "2170",
+                "2171",
+                "2172",
+                "2173",
+                "2174",
+                "2175",
+                "2176",
+                "2177",
+                "2178",
+                "2179",
+                "2198",
+                "2200",
+                "2213",
+                "2214",
+                "2233",
+                "2250",
+                "2257",
+                "2283",
+                "2304",
+                "2323",
+                "2325",
+                "2328",
+                "2329",
+                "2330",
+                "2500",
+                "2502",
+                "2505",
+                "2506",
+                "2508",
+                "2515",
+                "2516",
+                "2517",
+                "2518",
+                "2519",
+                "2525",
+                "2526",
+                "2527",
+                "2528",
+                "2529",
+                "2530",
+                "2533",
+                "2534",
+                "2535",
+                "2536",
+                "2537",
+                "2538",
+                "2539",
+                "2540",
+                "2541",
+                "2555",
+                "2556",
+                "2557",
+                "2558",
+                "2559",
+                "2560",
+                "2563",
+                "2564",
+                "2565",
+                "2566",
+                "2567",
+                "2568",
+                "2569",
+                "2570",
+                "2571",
+                "2572",
+                "2573",
+                "2574",
+                "2575",
+                "2576",
+                "2577",
+                "2578",
+                "2579",
+                "2580",
+                "2622",
+                "2745",
+                "2747",
+                "2748",
+                "2749",
+                "2750",
+                "2751",
+                "2752",
+                "2753",
+                "2754",
+                "2756",
+                "2757",
+                "2758",
+                "2759",
+                "2760",
+                "2761",
+                "2762",
+                "2763",
+                "2765",
+                "2766",
+                "2767",
+                "2768",
+                "2769",
+                "2770",
+                "2773",
+                "2774",
+                "2775",
+                "2776",
+                "2777",
+                "2778",
+                "2779",
+                "2780",
+                "2782",
+                "2783",
+                "2784",
+                "2785",
+                "2786",
+                "2787",
+                "2790",
+                "2795",
+                "2800",
+                "2845",
+                "2846",
+                "2847",
+                "2848",
+                "2849",
+                "2850"
+            ]
+        },
+        "displayName": "Sumo Lite Residential Demand Intro",
+        "effectiveTo": "2023-07-31T00:00:00.000Z",
+        "lastUpdated": "2022-09-10T14:05:48.420Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-09-11T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "description": "Dishonoured Payment Fee"
+                },
+                {
+                    "rate": "0.7",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "This fee is only applicable for payments made by credit card and debit card."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "Applied if you request a connection of your electricity supply when you move in. Subject to change."
+                }
+            ],
+            "terms": "Offer not available in all areas or properties. Residential customers only. Please refer to our website https://www.sumo.com.au/welcome-pack for full terms and conditions.",
+            "isFixed": false,
+            "timeZone": "AEST",
+            "variation": "Prices, fees and charges are subject to change. We will give you at least 5 business days prior notice.",
+            "meterTypes": [
+                "Type 5",
+                "Type 4"
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "07-31",
+                    "startDate": "08-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": null,
+                                "unitPrice": "22.50"
+                            }
+                        ],
+                        "period": "P1M",
+                        "description": "Peak",
+                        "displayName": "Single Rate Block"
+                    },
+                    "displayName": "Full Year",
+                    "demandCharges": [
+                        {
+                            "days": {
+                                "sunday": false,
+                                "saturday": false,
+                                "weekdays": false
+                            },
+                            "amount": "11.00",
+                            "endTime": "0000",
+                            "startTime": "0000",
+                            "description": "Summer Demand (Cents/KW/Day)",
+                            "displayName": "Demand",
+                            "chargePeriod": "TARIFF_PERIOD",
+                            "measurementPeriod": "TARIFF_PERIOD"
+                        },
+                        {
+                            "days": {
+                                "sunday": false,
+                                "saturday": false,
+                                "weekdays": false
+                            },
+                            "amount": "6.00",
+                            "endTime": "0000",
+                            "startTime": "0000",
+                            "description": "Winter Demand (Cents/KW/Day)",
+                            "displayName": "Demand",
+                            "chargePeriod": "TARIFF_PERIOD",
+                            "measurementPeriod": "TARIFF_PERIOD"
+                        }
+                    ],
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "130.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "BPAY",
+                "CREDIT_CARD"
+            ],
+            "coolingOffDays": "10",
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "If you have installed solar PV at the Premises, you may be eligible to be paid for excess electricity you feed back into the grid.",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "8.00"
+                    }
+                }
+            ]
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/sumo-power/cds-au/v1/energy/plans/SUM469770MRE2@EME"
+    }
+}

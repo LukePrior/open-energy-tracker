@@ -1,0 +1,104 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "actewagl",
+        "planId": "ACT64476SRG5@EME",
+        "fuelType": "GAS",
+        "brandName": "ActewAGL",
+        "geography": {
+            "distributors": [
+                "Evoenergy Shoalhaven"
+            ],
+            "includedPostcodes": [
+                "2540",
+                "2541"
+            ]
+        },
+        "displayName": "Home Gas Plan - Shoalhaven Region",
+        "effectiveTo": "2023-06-30T00:00:00.000Z",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "Disconnection fee - applicable when energy is disconnected to the property."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "description": "Reconnection fee - applicable when energy is reconnected to the property."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "description": "Special meter read (including moving in and moving out of your supply address)."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "description": "Late Payment Fee (GST is not applicable)."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "description": "Direct Debit Rejection Fee (GST is not applicable)."
+                },
+                {
+                    "rate": "0.5",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Payment processing fee may apply to payments made by credit card (GST inclusive)."
+                },
+                {
+                    "rate": "0.5",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "Payment processing fee may apply to payments made by debit card (GST inclusive)."
+                }
+            ],
+            "terms": "A copy of the Standard Retail Contract can be provided on request and can be seen on our website. Refer to https://www.actewagl.com.au/plans-and-connections/pricing-information/your-rights-and-obligations.",
+            "isFixed": false,
+            "timeZone": "AEST",
+            "variation": "If we vary our standing offer prices, we will publish the variation in a newspaper and on our website at least 10 business days before it starts. We will also: notify you at least five business days before the variation in the tariffs and charges are to apply to you; and deliver the notice by your preferred form of communication where you have communicated this to us, or otherwise by the same method as that used for delivery of your bill.",
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": null,
+                                "unitPrice": "3.20"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "Usage",
+                        "displayName": "General"
+                    },
+                    "displayName": "Usage Charges",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "89.30"
+                }
+            ],
+            "billFrequency": [
+                "P3M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "PAPER_BILL",
+                "BPAY"
+            ],
+            "coolingOffDays": "10",
+            "onExpiryDescription": "Ongoing"
+        },
+        "lastUpdated": "2022-07-01T10:24:51.741Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-07-01T00:00:00.000Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/actewagl/cds-au/v1/energy/plans/ACT64476SRG5@EME"
+    }
+}

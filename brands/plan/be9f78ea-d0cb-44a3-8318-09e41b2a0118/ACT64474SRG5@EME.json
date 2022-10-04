@@ -1,0 +1,126 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "actewagl",
+        "planId": "ACT64474SRG5@EME",
+        "fuelType": "GAS",
+        "brandName": "ActewAGL",
+        "geography": {
+            "distributors": [
+                "Jemena - Capital Region"
+            ],
+            "includedPostcodes": [
+                "2580",
+                "2582",
+                "2586",
+                "2594"
+            ]
+        },
+        "displayName": "Home Gas Plan - Capital Region",
+        "effectiveTo": "2023-06-30T00:00:00.000Z",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "Disconnection fee - applicable when energy is disconnected to the property."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "description": "Reconnection fee - applicable when energy is reconnected to the property."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "description": "Special meter read (including moving in and moving out of your supply address)."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "description": "Late Payment Fee (GST is not applicable)."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "description": "Direct Debit Rejection Fee (GST is not applicable)."
+                },
+                {
+                    "rate": "0.5",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Payment processing fee may apply to payments made by credit card (GST inclusive)."
+                },
+                {
+                    "rate": "0.5",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "Payment processing fee may apply to payments made by debit card (GST inclusive)."
+                }
+            ],
+            "terms": "A copy of the Standard Retail Contract can be provided on request and can be seen on our website. Refer to https://www.actewagl.com.au/plans-and-connections/pricing-information/your-rights-and-obligations.",
+            "isFixed": false,
+            "timeZone": "AEST",
+            "variation": "If we vary our standing offer prices, we will publish the variation in a newspaper and on our website at least 10 business days before it starts. We will also: notify you at least five business days before the variation in the tariffs and charges are to apply to you; and deliver the notice by your preferred form of communication where you have communicated this to us, or otherwise by the same method as that used for delivery of your bill.",
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 20.7123,
+                                "unitPrice": "3.89"
+                            },
+                            {
+                                "volume": 20.3836,
+                                "unitPrice": "2.72"
+                            },
+                            {
+                                "volume": 49.3151,
+                                "unitPrice": "2.68"
+                            },
+                            {
+                                "volume": 2654.7945,
+                                "unitPrice": "2.58"
+                            },
+                            {
+                                "volume": 10964.3836,
+                                "unitPrice": "2.29"
+                            },
+                            {
+                                "volume": null,
+                                "unitPrice": "0.50"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "Usage",
+                        "displayName": "General"
+                    },
+                    "displayName": "Usage Charges",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "58.75"
+                }
+            ],
+            "billFrequency": [
+                "P3M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "PAPER_BILL",
+                "BPAY"
+            ],
+            "coolingOffDays": "10",
+            "onExpiryDescription": "Ongoing"
+        },
+        "lastUpdated": "2022-07-01T04:51:48.079Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-07-01T00:00:00.000Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/actewagl/cds-au/v1/energy/plans/ACT64474SRG5@EME"
+    }
+}

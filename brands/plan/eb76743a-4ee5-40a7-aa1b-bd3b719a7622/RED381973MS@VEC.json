@@ -1,0 +1,90 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "red-energy",
+        "planId": "RED381973MS@VEC",
+        "fuelType": "GAS",
+        "brandName": "Red Energy",
+        "geography": {
+            "distributors": [
+                "Multinet"
+            ],
+            "includedPostcodes": [
+                "3950",
+                "3953",
+                "3984",
+                "3995",
+                "3996"
+            ]
+        },
+        "displayName": "Qantas Red Business Saver",
+        "gasContract": {
+            "terms": "For full terms and conditions applicable to this offer, please visit https://www.redenergy.com.au/termsandconditions",
+            "isFixed": false,
+            "variation": "We may vary your rates in line with our Terms and Conditions and in accordance with the Relevant Laws. We will give you written notice of at least 5 business days prior to the variation.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Qantas Points",
+                    "displayName": "Qantas Points",
+                    "eligibility": "5,000 bonus Qantas Points are applied once Red Energy becomes responsible for the supply of your Gas and 2 Qantas Points per $1 on your bill, when you pay in full. For full T&C see www.redenergy.com.au/qantas-business-terms-and-conditions"
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Only available to new business customers who provide an ABN and have a valid Qantas Business Rewards membership. To be eligible to earn Qantas Points the ABN on your energy account must match the ABN registered to your Qantas Business Rewards membership."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 250,
+                                "unitPrice": "2.16"
+                            },
+                            {
+                                "volume": 750,
+                                "unitPrice": "2.025"
+                            },
+                            {
+                                "volume": 500,
+                                "unitPrice": "1.98"
+                            },
+                            {
+                                "volume": 3500,
+                                "unitPrice": "1.935"
+                            },
+                            {
+                                "unitPrice": "1.89"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "80.55"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+        },
+        "lastUpdated": "2022-03-21T22:22:23Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-03-30T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1/energy/plans/RED381973MS@VEC"
+    }
+}

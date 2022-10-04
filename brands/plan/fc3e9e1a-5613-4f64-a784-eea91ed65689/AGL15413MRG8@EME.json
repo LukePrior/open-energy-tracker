@@ -1,0 +1,238 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "agl",
+        "planId": "AGL15413MRG8@EME",
+        "fuelType": "GAS",
+        "brandName": "AGL",
+        "geography": {
+            "distributors": [
+                "AGN Metro/Barossa/Peterborough"
+            ],
+            "includedPostcodes": [
+                "5000",
+                "5005",
+                "5006",
+                "5007",
+                "5008",
+                "5009",
+                "5010",
+                "5011",
+                "5012",
+                "5013",
+                "5014",
+                "5015",
+                "5016",
+                "5017",
+                "5018",
+                "5019",
+                "5020",
+                "5021",
+                "5022",
+                "5023",
+                "5024",
+                "5025",
+                "5031",
+                "5032",
+                "5033",
+                "5034",
+                "5035",
+                "5037",
+                "5038",
+                "5039",
+                "5040",
+                "5041",
+                "5042",
+                "5043",
+                "5044",
+                "5045",
+                "5046",
+                "5047",
+                "5048",
+                "5049",
+                "5050",
+                "5051",
+                "5052",
+                "5061",
+                "5062",
+                "5063",
+                "5064",
+                "5065",
+                "5066",
+                "5067",
+                "5068",
+                "5069",
+                "5070",
+                "5072",
+                "5073",
+                "5074",
+                "5075",
+                "5076",
+                "5081",
+                "5082",
+                "5083",
+                "5084",
+                "5085",
+                "5086",
+                "5087",
+                "5088",
+                "5089",
+                "5090",
+                "5091",
+                "5092",
+                "5093",
+                "5094",
+                "5095",
+                "5096",
+                "5097",
+                "5098",
+                "5106",
+                "5107",
+                "5108",
+                "5109",
+                "5110",
+                "5111",
+                "5112",
+                "5113",
+                "5114",
+                "5115",
+                "5116",
+                "5117",
+                "5118",
+                "5120",
+                "5121",
+                "5125",
+                "5126",
+                "5127",
+                "5157",
+                "5158",
+                "5159",
+                "5160",
+                "5161",
+                "5162",
+                "5163",
+                "5164",
+                "5165",
+                "5166",
+                "5167",
+                "5168",
+                "5169",
+                "5170",
+                "5173",
+                "5352",
+                "5353",
+                "5355",
+                "5372",
+                "5400",
+                "5422",
+                "5950"
+            ]
+        },
+        "displayName": "Residential Basics - No Exit Fee",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "May be charged when manually reconnecting or reading your meter when you move into a property or change retailer. Incl GST. Fees may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECT_MOVE_OUT",
+                    "description": "May be charged when manually disconnecting or reading your meter when you move out of a property or change retailer. Incl GST. Fees may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECT_NON_PAY",
+                    "description": "Fee may be charged when manually disconnecting your meter in other circumstances, such as non-payment. Includes GST. Fees may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "description": "May be charged when manually reconnecting in other circumstances, such as after disconnection for non-payment. Includes GST. Fees may vary"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "description": "A late payment fee may be charged when full payment has not been received by the bill due date. This amount is not subject to GST"
+                },
+                {
+                    "rate": "0.17",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "The amount is GST inclusive and applies to payments made by debit cards."
+                },
+                {
+                    "rate": "0.45",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "The amount is GST inclusive and applies to card payments made at Australia Post outlets."
+                },
+                {
+                    "rate": "0.66",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "The amount is GST inclusive and applies to payments made by credit cards."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "PAPER_BILL",
+                    "description": "A paper bill fee may apply for each bill sent by post. Includes GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "description": "An over the counter payment fee may apply for payments made in-person at a Post Office. Includes GST."
+                }
+            ],
+            "terms": "This offer applies to customers with an applicable network tariff. For further information about the terms and conditions applicable to this energy offer, please contact AGL on 131 245 or visit agl.com.au",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "This plan also includes variable rates, retail fees and charges, which can change at any time with notice to you. If we vary your rates, we will give you at least 5 business days prior notice of the variation. Other charges may be varied with notice to you.",
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 109.589,
+                                "unitPrice": "4.37"
+                            },
+                            {
+                                "volume": null,
+                                "unitPrice": "2.69"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "Gas Tariff",
+                        "displayName": "Residential"
+                    },
+                    "displayName": "Single Rate Tariff Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "82.12"
+                }
+            ],
+            "billFrequency": [
+                "P3M",
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL",
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY"
+            ],
+            "coolingOffDays": "10",
+            "onExpiryDescription": "Your market contract is ongoing. From time to time, AGL reviews its offers and this offer will be reviewed with consideration to AGL generally available market offers"
+        },
+        "lastUpdated": "2022-07-04T00:47:05.031Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-07-04T00:00:00.000Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/agl/cds-au/v1/energy/plans/AGL15413MRG8@EME"
+    }
+}

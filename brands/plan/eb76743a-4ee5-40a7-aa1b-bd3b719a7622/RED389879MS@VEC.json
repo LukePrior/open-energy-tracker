@@ -1,0 +1,120 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "red-energy",
+        "planId": "RED389879MS@VEC",
+        "fuelType": "GAS",
+        "brandName": "Red Energy",
+        "geography": {
+            "distributors": [
+                "Multinet"
+            ],
+            "includedPostcodes": [
+                "3139",
+                "3775",
+                "3797",
+                "3799"
+            ]
+        },
+        "displayName": "Red BCNA Saver",
+        "gasContract": {
+            "terms": "For full terms and conditions applicable to this offer, please visit https://www.redenergy.com.au/termsandconditions",
+            "isFixed": false,
+            "variation": "We may vary your rates in line with our Terms and Conditions and in accordance with the Relevant Laws. We will give you written notice of at least 5 business days prior to the variation.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Contributions to BCNA",
+                    "displayName": "Contributions to BCNA",
+                    "eligibility": "Red will contribute $5 to Breast Cancer Network Australia for each calendar month you are on the Red BCNA Saver gas plan, starting from the date we become responsible for your gas supply."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is available to small business customers within the Multinet Yarra Valley distribution zone. For more information contact 131806."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "04-30",
+                    "startDate": "11-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.151"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.052"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "1.935"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "1.845"
+                            },
+                            {
+                                "unitPrice": "1.80"
+                            }
+                        ],
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Summer",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "73.75"
+                },
+                {
+                    "endDate": "10-31",
+                    "startDate": "05-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.241"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.151"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.061"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "1.935"
+                            },
+                            {
+                                "unitPrice": "1.845"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Winter",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "73.75"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+        },
+        "lastUpdated": "2022-05-24T23:27:38Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-05-29T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1/energy/plans/RED389879MS@VEC"
+    }
+}

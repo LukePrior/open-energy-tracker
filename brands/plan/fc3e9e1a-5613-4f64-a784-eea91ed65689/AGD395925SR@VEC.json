@@ -1,0 +1,131 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "agl",
+        "planId": "AGD395925SR@VEC",
+        "fuelType": "GAS",
+        "brandName": "AGL",
+        "geography": {
+            "distributors": [
+                "Australian Gas Networks"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3005",
+                "3008",
+                "3050",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3072",
+                "3073",
+                "3074",
+                "3075",
+                "3076",
+                "3078",
+                "3079",
+                "3081",
+                "3083",
+                "3084",
+                "3085",
+                "3087",
+                "3088",
+                "3089",
+                "3090",
+                "3091",
+                "3093",
+                "3094",
+                "3095",
+                "3096",
+                "3097",
+                "3099",
+                "3121",
+                "3201",
+                "3750",
+                "3752",
+                "3754",
+                "3759",
+                "3770"
+            ]
+        },
+        "displayName": "Residential Standing Offer",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "10.67",
+                    "description": "Fee may be charged when reconnecting or reading your meter when you move into a property or change retailer. Includes GST. Fees may vary.\nAdditional fees and charges may apply. Please see the AGL fee schedules at agl.com.au/fees"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "10.67",
+                    "description": "Fee may be charged when disconnecting or reading your meter when you move out of a property or change retailer. Includes GST. Fees may vary."
+                }
+            ],
+            "terms": "Offer only available in areas where AGL operates. For further information about the terms and conditions applicable to this energy offer, please contact AGL on 131 245 or visit agl.com.au",
+            "isFixed": false,
+            "variation": "We may vary these prices no more than once every 6 months. Weu2019ll publish variations via a newspaper and our website at least 10 business days prior and give you written notice at least 5 business days prior. Other charges may be varied with notice",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer applies to customers with an applicable network tariff within the Australian Gas Networks Central 2 supply area."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 1644,
+                                "unitPrice": "3.20"
+                            },
+                            {
+                                "volume": 1314,
+                                "unitPrice": "3.05"
+                            },
+                            {
+                                "unitPrice": "2.08"
+                            }
+                        ],
+                        "displayName": "All Consumption"
+                    },
+                    "displayName": "All Consumption",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "86.20"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "This offer has no contract term."
+        },
+        "lastUpdated": "2022-07-01T00:47:57Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-06-30T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/agl/cds-au/v1/energy/plans/AGD395925SR@VEC"
+    }
+}

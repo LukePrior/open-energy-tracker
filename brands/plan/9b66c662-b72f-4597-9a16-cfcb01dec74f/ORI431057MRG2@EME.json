@@ -1,0 +1,113 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "origin",
+        "planId": "ORI431057MRG2@EME",
+        "fuelType": "GAS",
+        "brandName": "Origin Energy",
+        "geography": {
+            "distributors": [
+                "AGN Wagga Wagga"
+            ],
+            "includedPostcodes": [
+                "2650",
+                "2651",
+                "2652",
+                "2661"
+            ]
+        },
+        "displayName": "Origin Go Variable",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "A $59.18 (GST Incl) fee may apply when your property is reconnected (including when you move). Fee may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "A $59.18 (GST Incl) fee may apply when your property is reconnected (including when you move). Fee may vary."
+                },
+                {
+                    "rate": "0.24",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "amount": "0.00",
+                    "description": "A 0.24% fee (GST Incl) may apply to payments made by VISA debit card."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "description": "A fee of $12.00 (GST exempt) may apply if your bill is not paid by the due date."
+                },
+                {
+                    "rate": "0.56",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "amount": "0.00",
+                    "description": "A 0.56% fee (GST Incl) may apply to payments made by VISA credit card."
+                },
+                {
+                    "rate": "0.28",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "amount": "0.00",
+                    "description": "A 0.28% fee (GST Incl) may apply to payments made by Mastercard debit card."
+                },
+                {
+                    "rate": "0.64",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "amount": "0.00",
+                    "description": "A 0.64% fee (GST Incl) may apply to payments made by Mastercard credit card."
+                }
+            ],
+            "terms": "Offer not available in all areas or properties connecting for first time. Residential customers only. Visit originenergy.com.au/2889/Terms-and-conditions for more.",
+            "isFixed": false,
+            "termType": "ONGOING",
+            "timeZone": "LOCAL",
+            "variation": "We may vary the Charges (including their amount, nature and structure) by notice to you at any time. The notice will be at least 5 business days prior to the effective date of the variation.",
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": null,
+                                "unitPrice": "2.80"
+                            }
+                        ],
+                        "period": "P1Y",
+                        "description": "All usage",
+                        "displayName": "Usage"
+                    },
+                    "displayName": "Single Rate Tariff Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "93.32"
+                }
+            ],
+            "benefitPeriod": "12 months",
+            "billFrequency": [
+                "P3M"
+            ],
+            "paymentOption": [
+                "BPAY",
+                "CREDIT_CARD",
+                "DIRECT_DEBIT",
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": "10",
+            "onExpiryDescription": "At the end of the benefit period we may extend your current Energy Plan or set you up with a new Energy Plan but only if we have written to you first and you havent told us not to."
+        },
+        "lastUpdated": "2022-08-31T20:03:31.172Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-09-01T00:00:00.000Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/origin/cds-au/v1/energy/plans/ORI431057MRG2@EME"
+    }
+}

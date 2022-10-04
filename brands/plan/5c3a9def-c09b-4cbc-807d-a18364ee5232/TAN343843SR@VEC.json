@@ -1,0 +1,149 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "tango",
+        "planId": "TAN343843SR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Tango Energy",
+        "geography": {
+            "distributors": [
+                "AusNet Services (gas)"
+            ],
+            "includedPostcodes": [
+                "3227",
+                "3331"
+            ]
+        },
+        "displayName": "Standing Offer, AusNet Services (gas) Adjoining Central",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "66.396",
+                    "description": "$66.40 (inc. GST) Standard rates apply during business hours. Fees are set by your distributor or metering coordinator and will be quoted when requested.\nThere are no exit fees associated with this offer. We may vary the fees and charges by providing notice to you, including by message on your bill. Further information on our fees and charges is available at: http://tangoenergy.com/additional-charges"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "66.396",
+                    "description": "$66.40 (inc. GST) Standard rates apply during business hours. Fees are set by your distributor or metering coordinator and will be quoted when requested."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "10.296",
+                    "description": "Special Meter Read"
+                }
+            ],
+            "terms": "The full terms and conditions applicable to this offer are available at http://tangoenergy.com/terms-and-conditions.",
+            "isFixed": false,
+            "variation": "We may vary these prices not more than once every 6 months and we will publish the variation in a newspaper and on our website. We will notify you in advance before the variation takes effect in accordance with energy laws.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is only available to residential customers in the stated distribution area with an eligible meter type. If your meter is changed by your distributor, we may adjust your fees and charges at any time in accordance with our Standard Retail Contract Terms."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "05-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "1.52"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "1.49"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "1.41"
+                            },
+                            {
+                                "unitPrice": "1.38"
+                            }
+                        ],
+                        "displayName": "Rate"
+                    },
+                    "displayName": "Period 1",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "119.00"
+                },
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.00"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "1.75"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "1.45"
+                            },
+                            {
+                                "unitPrice": "1.43"
+                            }
+                        ],
+                        "displayName": "Rate"
+                    },
+                    "displayName": "Period 2",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "119.00"
+                },
+                {
+                    "endDate": "12-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "1.52"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "1.49"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "1.41"
+                            },
+                            {
+                                "unitPrice": "1.38"
+                            }
+                        ],
+                        "displayName": "Rate"
+                    },
+                    "displayName": "Period 3",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "119.00"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "No fixed term"
+        },
+        "lastUpdated": "2021-09-10T06:09:30Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2021-09-12T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/tango/cds-au/v1/energy/plans/TAN343843SR@VEC"
+    }
+}

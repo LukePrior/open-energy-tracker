@@ -1,0 +1,141 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "globird",
+        "planId": "GLO400753SS@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "GloBird Energy",
+        "geography": {
+            "distributors": [
+                "Citipower"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
+                "3011",
+                "3031",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3078",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
+            ]
+        },
+        "displayName": "GloBird  STANDING OFFER Small Business (Flat Rate  Without Controlled Load)-Citipower",
+        "effectiveTo": "2023-06-29T14:00:00Z",
+        "lastUpdated": "2022-06-29T01:09:18Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-06-30T14:00:00Z",
+        "electricityContract": {
+            "terms": "For further information about this offer call GloBird on 133456 or visit www.globirdenergy.com.au or see our full terms and conditions here: www.globirdenergy.com.au/legal/",
+            "isFixed": true,
+            "timeZone": "AEST",
+            "variation": "",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "No credit card processing fees",
+                    "displayName": "No credit card processing fees",
+                    "eligibility": "No sneaky credit card processing fees. Just great value."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This product is only available to Victorian customers in the Citipower distribution area."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "19.6909"
+                            }
+                        ],
+                        "description": "Anytime",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "01/07/2022-30/06/2023",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "126.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "The current Victorian Feed-in Tariff commenced on 1 January 2013",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.20"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "You can remain on the scheme until 31 December 2024",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "The standing offer contract continues without a fixed end date."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/globird/cds-au/v1/energy/plans/GLO400753SS@VEC"
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "lumo",
+        "planId": "LU2361393SR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Lumo Energy",
+        "geography": {
+            "distributors": [
+                "Australian Gas Networks"
+            ],
+            "includedPostcodes": [
+                "3862",
+                "3875",
+                "3878",
+                "3880"
+            ]
+        },
+        "displayName": "Standing Offer",
+        "gasContract": {
+            "terms": "For full terms and conditions applicable to this offer, please visit http://www.lumoenergy.com.au/help-centre/useful-docs.",
+            "isFixed": false,
+            "variation": "We may vary our rates no more than once per 6 months. We will publish any variation in a newspaper and on our website at least 10 business days before it starts. We also notify you of the variation by no later than your next bill.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "No contract term",
+                    "displayName": "No contract term",
+                    "eligibility": "The freedom of no contract term"
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is available to residential customers within the AGN Bairnsdale distribution zone and is subject to the identification of the network tariff and metering requirements."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 1667,
+                                "unitPrice": "3.771"
+                            },
+                            {
+                                "volume": 1332,
+                                "unitPrice": "3.095"
+                            },
+                            {
+                                "unitPrice": "2.445"
+                            }
+                        ],
+                        "displayName": "Anytime Usage"
+                    },
+                    "displayName": "Anytime",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "98.00"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+        },
+        "lastUpdated": "2021-12-17T05:58:13Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2021-12-31T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/lumo/cds-au/v1/energy/plans/LU2361393SR@VEC"
+    }
+}

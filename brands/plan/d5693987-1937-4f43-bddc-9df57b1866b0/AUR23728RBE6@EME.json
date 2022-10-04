@@ -1,0 +1,261 @@
+{
+    "data": {
+        "type": "REGULATED",
+        "brand": "aurora",
+        "planId": "AUR23728RBE6@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Aurora Energy",
+        "geography": {
+            "distributors": [
+                "TasNetworks"
+            ],
+            "includedPostcodes": [
+                "7000",
+                "7004",
+                "7005",
+                "7007",
+                "7008",
+                "7009",
+                "7010",
+                "7011",
+                "7012",
+                "7015",
+                "7016",
+                "7017",
+                "7018",
+                "7019",
+                "7020",
+                "7021",
+                "7022",
+                "7023",
+                "7024",
+                "7025",
+                "7026",
+                "7027",
+                "7030",
+                "7050",
+                "7052",
+                "7053",
+                "7054",
+                "7055",
+                "7109",
+                "7112",
+                "7113",
+                "7116",
+                "7117",
+                "7119",
+                "7120",
+                "7139",
+                "7140",
+                "7150",
+                "7155",
+                "7162",
+                "7163",
+                "7170",
+                "7171",
+                "7172",
+                "7173",
+                "7174",
+                "7175",
+                "7176",
+                "7177",
+                "7178",
+                "7179",
+                "7180",
+                "7182",
+                "7183",
+                "7184",
+                "7185",
+                "7186",
+                "7187",
+                "7190",
+                "7209",
+                "7210",
+                "7211",
+                "7212",
+                "7213",
+                "7214",
+                "7215",
+                "7216",
+                "7248",
+                "7249",
+                "7250",
+                "7252",
+                "7253",
+                "7254",
+                "7258",
+                "7259",
+                "7260",
+                "7261",
+                "7262",
+                "7263",
+                "7264",
+                "7265",
+                "7267",
+                "7268",
+                "7270",
+                "7275",
+                "7276",
+                "7277",
+                "7290",
+                "7291",
+                "7292",
+                "7300",
+                "7301",
+                "7302",
+                "7303",
+                "7304",
+                "7305",
+                "7306",
+                "7307",
+                "7310",
+                "7315",
+                "7316",
+                "7320",
+                "7321",
+                "7322",
+                "7325",
+                "7330",
+                "7331",
+                "7466",
+                "7467",
+                "7468",
+                "7469",
+                "7470"
+            ]
+        },
+        "displayName": "General Business with Hot Water",
+        "lastUpdated": "2022-06-30T14:08:13.167Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-07-01T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "This fee includes GST and applies when moving into an existing premise"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "inc. GST"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "description": "A late payment fee applies for accounts not paid in full by the fifth day past the due date (exemptions may apply). Fee inc. GST."
+                }
+            ],
+            "terms": "For full terms and conditions please visit www.auroraenergy.com.au",
+            "isFixed": true,
+            "timeZone": "AEST",
+            "discounts": [
+                {
+                    "type": "CONDITIONAL",
+                    "category": "DIRECT_DEBIT",
+                    "description": "Customers who pay by Direct Debit may be eligible to receive a Direct Debit discount of 5.5 cents per day inc. GST",
+                    "displayName": "Direct Debit Discount",
+                    "fixedAmount": {
+                        "amount": "20.00"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "meterTypes": [
+                "Type 4",
+                "Type 6"
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 5.48,
+                                "unitPrice": "30.83"
+                            },
+                            {
+                                "volume": null,
+                                "unitPrice": "22.81"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Single Rate Block"
+                    },
+                    "displayName": "Tariff 22 General Business",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "92.81"
+                }
+            ],
+            "billFrequency": [
+                "P3M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL",
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY"
+            ],
+            "controlledLoad": {
+                "rates": [
+                    {
+                        "unitPrice": "14.61"
+                    }
+                ],
+                "period": "P1D",
+                "dailyCharge": "16.64",
+                "description": "Heating & Hot Water",
+                "displayName": "Tariff 43"
+            },
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.01",
+                            "percentGreen": "10"
+                        },
+                        {
+                            "amount": "0.01",
+                            "percentGreen": "20"
+                        },
+                        {
+                            "amount": "0.03",
+                            "percentGreen": "50"
+                        },
+                        {
+                            "amount": "0.05",
+                            "percentGreen": "75"
+                        },
+                        {
+                            "amount": "0.06",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "AuroraGreen is renewable energy from Tasmanian wind generation, accredited by GreenPower.",
+                    "displayName": "AuroraGreen"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Feed-In Tariff",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "8.88"
+                    }
+                }
+            ],
+            "onExpiryDescription": "This is a Regulated Offer and does not have an expiry period"
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/aurora/cds-au/v1/energy/plans/AUR23728RBE6@EME"
+    }
+}

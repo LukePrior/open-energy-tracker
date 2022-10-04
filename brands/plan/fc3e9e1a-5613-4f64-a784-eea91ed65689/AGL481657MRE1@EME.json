@@ -1,0 +1,468 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "agl",
+        "planId": "AGL481657MRE1@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "AGL",
+        "geography": {
+            "distributors": [
+                "Energex"
+            ],
+            "includedPostcodes": [
+                "4000",
+                "4005",
+                "4006",
+                "4007",
+                "4008",
+                "4009",
+                "4010",
+                "4011",
+                "4012",
+                "4013",
+                "4014",
+                "4017",
+                "4018",
+                "4019",
+                "4020",
+                "4021",
+                "4022",
+                "4030",
+                "4031",
+                "4032",
+                "4034",
+                "4035",
+                "4036",
+                "4037",
+                "4051",
+                "4053",
+                "4054",
+                "4055",
+                "4059",
+                "4060",
+                "4061",
+                "4064",
+                "4065",
+                "4066",
+                "4067",
+                "4068",
+                "4069",
+                "4070",
+                "4073",
+                "4074",
+                "4075",
+                "4076",
+                "4077",
+                "4078",
+                "4101",
+                "4102",
+                "4103",
+                "4104",
+                "4105",
+                "4106",
+                "4107",
+                "4108",
+                "4109",
+                "4110",
+                "4111",
+                "4112",
+                "4113",
+                "4114",
+                "4115",
+                "4116",
+                "4117",
+                "4118",
+                "4119",
+                "4120",
+                "4121",
+                "4122",
+                "4123",
+                "4124",
+                "4125",
+                "4127",
+                "4128",
+                "4129",
+                "4130",
+                "4131",
+                "4132",
+                "4133",
+                "4151",
+                "4152",
+                "4153",
+                "4154",
+                "4155",
+                "4156",
+                "4157",
+                "4158",
+                "4159",
+                "4160",
+                "4161",
+                "4163",
+                "4164",
+                "4165",
+                "4169",
+                "4170",
+                "4171",
+                "4172",
+                "4173",
+                "4174",
+                "4178",
+                "4179",
+                "4183",
+                "4184",
+                "4205",
+                "4207",
+                "4208",
+                "4209",
+                "4210",
+                "4211",
+                "4212",
+                "4213",
+                "4214",
+                "4215",
+                "4216",
+                "4217",
+                "4218",
+                "4220",
+                "4221",
+                "4223",
+                "4224",
+                "4225",
+                "4226",
+                "4227",
+                "4228",
+                "4270",
+                "4271",
+                "4272",
+                "4275",
+                "4280",
+                "4285",
+                "4287",
+                "4300",
+                "4301",
+                "4303",
+                "4304",
+                "4305",
+                "4306",
+                "4307",
+                "4309",
+                "4310",
+                "4311",
+                "4312",
+                "4313",
+                "4340",
+                "4341",
+                "4342",
+                "4343",
+                "4344",
+                "4346",
+                "4347",
+                "4352",
+                "4359",
+                "4500",
+                "4501",
+                "4502",
+                "4503",
+                "4504",
+                "4505",
+                "4506",
+                "4507",
+                "4508",
+                "4509",
+                "4510",
+                "4511",
+                "4512",
+                "4514",
+                "4515",
+                "4516",
+                "4517",
+                "4518",
+                "4519",
+                "4520",
+                "4521",
+                "4550",
+                "4551",
+                "4552",
+                "4553",
+                "4554",
+                "4555",
+                "4556",
+                "4557",
+                "4558",
+                "4559",
+                "4560",
+                "4561",
+                "4562",
+                "4563",
+                "4564",
+                "4565",
+                "4566",
+                "4567",
+                "4568",
+                "4569",
+                "4570",
+                "4571",
+                "4572",
+                "4573",
+                "4574",
+                "4575",
+                "4580",
+                "4581"
+            ]
+        },
+        "displayName": "Electric Vehicle Plan (Residential)",
+        "lastUpdated": "2022-09-21T05:24:42.853Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-09-21T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "May be charged when manually reconnecting or reading your meter when you move into a property or change retailer. Incl GST. Fees may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECT_MOVE_OUT",
+                    "description": "May be charged when manually disconnecting or reading your meter when you move out of a property or change retailer. Incl GST. Fees may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECT_NON_PAY",
+                    "description": "Fee may be charged when manually disconnecting your meter in other circumstances, such as non-payment. Includes GST. Fees may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "description": "May be charged when manually reconnecting in other circumstances, such as after disconnection for non-payment. Includes GST. Fees may vary"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "description": "A late payment fee may be charged when full payment has not been received by the bill due date. This amount is not subject to GST"
+                },
+                {
+                    "rate": "0.17",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "The amount is GST inclusive and applies to payments made by debit cards."
+                },
+                {
+                    "rate": "0.45",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "The amount is GST inclusive and applies to card payments made at Australia Post outlets."
+                },
+                {
+                    "rate": "0.66",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "The amount is GST inclusive and applies to payments made by credit cards."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "PAPER_BILL",
+                    "description": "A paper bill fee may apply for each bill sent by post. Includes GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "description": "An over the counter payment fee may apply for payments made in-person at a Post Office. Includes GST."
+                },
+                {
+                    "term": "ANNUAL",
+                    "type": "OTHER",
+                    "description": "Solar Metering Service Charge is a daily charge of $ 0.077 (GST inclusive) and may apply if you have a solar PV system and a solar meter."
+                }
+            ],
+            "terms": "This offer applies to customers with an applicable network tariff. For solar feed-in tariff eligibility, or for further information about the terms and conditions applicable to this energy offer, please contact AGL on 131 245 or visit agl.com.au",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "discounts": [
+                {
+                    "type": "CONDITIONAL",
+                    "category": "OTHER",
+                    "description": "Receive a $30 (GST inclusive) credit every 3 months during your energy plan period.",
+                    "displayName": "Up to $120 in bonus credits per annum",
+                    "fixedAmount": {
+                        "amount": "120.00"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "This plan also includes variable rates, retail fees and charges, which can change at any time with notice to you. If we vary your rates, we will give you at least 5 business days prior notice of the variation. Other charges may be varied with notice to you.",
+            "meterTypes": [
+                "Type 4",
+                "Type 4a",
+                "Type 5",
+                "Type 6"
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "description": "This offer applies to customers where AGL operates who own an electric vehicle.",
+                    "information": "You own an electric vehicle"
+                }
+            ],
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "displayName": "Time of Use Tariff Period",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "name": "Domestic Time of Use - Tariff 12 Peak",
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "31.31"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "1959",
+                                    "startTime": "1600"
+                                }
+                            ],
+                            "description": "4pm - 8pm, Monday - Friday"
+                        },
+                        {
+                            "name": "Domestic Time of Use - Tariff 12 Off-Peak",
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "19.54"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS",
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "659",
+                                    "startTime": "2200"
+                                }
+                            ],
+                            "description": "10pm - 7am, Monday - Sunday"
+                        },
+                        {
+                            "name": "Domestic Time of Use - Tariff 12 Shoulder",
+                            "type": "SHOULDER",
+                            "rates": [
+                                {
+                                    "unitPrice": "21.03"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "1559",
+                                    "startTime": "700"
+                                },
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "2159",
+                                    "startTime": "2000"
+                                },
+                                {
+                                    "days": [
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "2159",
+                                    "startTime": "700"
+                                }
+                            ],
+                            "description": "7am - 4pm and 8pm - 10pm, Monday - Friday and 7am - 10pm on Weekends"
+                        }
+                    ],
+                    "dailySupplyCharges": "110.33"
+                }
+            ],
+            "billFrequency": [
+                "P3M",
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL",
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY"
+            ],
+            "controlledLoad": {
+                "rates": [
+                    {
+                        "unitPrice": "18.17"
+                    }
+                ],
+                "period": "P1D",
+                "dailyCharge": "0.00",
+                "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                "displayName": "Tariff 31"
+            },
+            "coolingOffDays": "10",
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_WEEK",
+                    "tiers": [
+                        {
+                            "amount": "1.00",
+                            "percentGreen": "20"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "For $1 per week inc. GST we ensure energy equal to 20% of your usage will be fed into the grid from Accredited GreenPower generators."
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.04",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "For 4.4c /kWh inc. GST we ensure energy equal to 100% of your usage will be fed into the grid from Accredited GreenPower generators."
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "GOVERNMENT",
+                    "description": "Solar bonus scheme pre 9 July 2012 44 cent scheme (exc. GST if any)",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "44.00"
+                    }
+                },
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "AGL Retailer Feed-in Tariff applies to all schemes pre and post 9 July 2012 (exc. GST if any)",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "Your market contract is ongoing. At the end of your 1 year benefit period, you will be placed on a new energy plan. We will notify you if there are any differences between these plans"
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/agl/cds-au/v1/energy/plans/AGL481657MRE1@EME"
+    }
+}

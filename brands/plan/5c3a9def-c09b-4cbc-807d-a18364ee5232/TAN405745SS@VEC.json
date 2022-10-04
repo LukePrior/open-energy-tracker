@@ -1,0 +1,169 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "tango",
+        "planId": "TAN405745SS@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Tango Energy",
+        "geography": {
+            "distributors": [
+                "Citipower"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
+                "3011",
+                "3031",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3078",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
+            ]
+        },
+        "displayName": "Business Victorian Default Offer",
+        "lastUpdated": "2022-07-01T00:48:18Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-06-30T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "0.00",
+                    "description": "There are no exit fees associated with this offer. We may vary the Charges and fees at any time by notice to you, including by message on your bill. Details about Charges and fees are set out under the terms and conditions of your Market Agreement.\nUsage aggregated according to Australian Eastern Standard Time (AEST). Your usage may be adjusted for local time (Australian Daylight Savings Time). Further information on our charges is available at: http://tangoenergy.com/additional-charges"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "7.50",
+                    "description": "$7.50 (exc. GST) if your payment is dishonoured or reversed."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "41.338",
+                    "description": "$41.34 (inc. GST) Standard rates apply during business hours. Fees may vary and will be quoted on request."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "41.954",
+                    "description": "$41.95 (inc. GST) Standard rates apply during business hours. Fees may vary and will be quoted on request."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "7.50",
+                    "description": "Dishonour fee. $7.50 (exc. GST) if your payment is dishonoured or reversed."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "2.75",
+                    "description": "Indicative COMMS Type 3-4 metering charge (if applicable) per meter per day. Additional fees may apply for the recovery of amounts connected with meter service provision and the installation of a new meter at your Supply Address."
+                }
+            ],
+            "terms": "The full terms and conditions applicable to this offer are available at http://tangoenergy.com/terms-and-conditions",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "We may vary these prices not more than once every 6 months and we will publish the variation on our website. We will notify you in advance before the variation takes effect in accordance with energy laws.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "The offer set out in this Victorian Energy Fact Sheet is only available to customers in the relevant distribution area with the necessary metering system/configuration."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "19.6909"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "126.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "PFiT",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                },
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "RFiT",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.20"
+                    }
+                }
+            ],
+            "onExpiryDescription": "No fixed term"
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/tango/cds-au/v1/energy/plans/TAN405745SS@VEC"
+    }
+}

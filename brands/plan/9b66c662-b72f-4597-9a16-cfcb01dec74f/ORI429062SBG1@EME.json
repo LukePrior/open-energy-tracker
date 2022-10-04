@@ -1,0 +1,151 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "origin",
+        "planId": "ORI429062SBG1@EME",
+        "fuelType": "GAS",
+        "brandName": "Origin Energy",
+        "geography": {
+            "distributors": [
+                "Evoenergy ACT"
+            ],
+            "includedPostcodes": [
+                "2600",
+                "2601",
+                "2602",
+                "2603",
+                "2604",
+                "2605",
+                "2606",
+                "2607",
+                "2609",
+                "2611",
+                "2612",
+                "2614",
+                "2615",
+                "2616",
+                "2617",
+                "2618",
+                "2620",
+                "2900",
+                "2902",
+                "2903",
+                "2904",
+                "2905",
+                "2906",
+                "2911",
+                "2912",
+                "2913",
+                "2914"
+            ]
+        },
+        "displayName": "Origin Standing",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "A $11.59 (GST Incl) fee may apply when your property is reconnected (including when you move). Fee may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "A $11.59 (GST Incl) fee may apply when your property is reconnected (including when you move). Fee may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "description": "A fee of $12.00 (GST exempt) may apply if your bill is not paid by the due date."
+                },
+                {
+                    "rate": "0.24",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "amount": "0.00",
+                    "description": "A 0.24% fee (GST Incl) may apply to payments made by VISA debit card."
+                },
+                {
+                    "rate": "0.56",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "amount": "0.00",
+                    "description": "A 0.56% fee (GST Incl) may apply to payments made by VISA credit card."
+                },
+                {
+                    "rate": "0.28",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "amount": "0.00",
+                    "description": "A 0.28% fee (GST Incl) may apply to payments made by Mastercard debit card."
+                },
+                {
+                    "rate": "0.64",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "amount": "0.00",
+                    "description": "A 0.64% fee (GST Incl) may apply to payments made by Mastercard credit card."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "PAPER_BILL",
+                    "description": "$1.75 (incl GST) may apply for each paper bill."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "If you pay at an Australia Post outlet, a payment processing fee of the higher of $2.70 or 0.49% (incl GST) may apply."
+                }
+            ],
+            "terms": "Visit originenergy.com.au/2889/Terms-and-conditions to find out more.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "We may vary the Charges (including their amount, nature and structure) by notice to you at any time. The notice will be at least 5 business days prior to the effective date of the variation.",
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "07-14",
+                    "startDate": "07-15",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 82.1918,
+                                "unitPrice": "3.49"
+                            },
+                            {
+                                "volume": 3123.2877,
+                                "unitPrice": "3.21"
+                            },
+                            {
+                                "volume": null,
+                                "unitPrice": "3.15"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "All Usage",
+                        "displayName": "Usage"
+                    },
+                    "displayName": "Single Rate Tariff Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "134.75"
+                }
+            ],
+            "billFrequency": [
+                "P3M"
+            ],
+            "paymentOption": [
+                "BPAY",
+                "CREDIT_CARD",
+                "DIRECT_DEBIT",
+                "PAPER_BILL"
+            ],
+            "onExpiryDescription": "The agreement continues until you or we end it."
+        },
+        "lastUpdated": "2022-06-30T14:07:00.466Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-07-01T00:00:00.000Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/origin/cds-au/v1/energy/plans/ORI429062SBG1@EME"
+    }
+}

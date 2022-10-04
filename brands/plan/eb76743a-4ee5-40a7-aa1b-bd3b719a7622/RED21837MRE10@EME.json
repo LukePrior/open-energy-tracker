@@ -1,0 +1,240 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "red-energy",
+        "planId": "RED21837MRE10@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Red Energy",
+        "geography": {
+            "distributors": [
+                "Evoenergy"
+            ],
+            "includedPostcodes": [
+                "2600",
+                "2601",
+                "2602",
+                "2603",
+                "2604",
+                "2605",
+                "2606",
+                "2607",
+                "2609",
+                "2611",
+                "2612",
+                "2614",
+                "2615",
+                "2617",
+                "2618",
+                "2620",
+                "2900",
+                "2902",
+                "2903",
+                "2904",
+                "2905",
+                "2906",
+                "2911",
+                "2912",
+                "2913",
+                "2914"
+            ]
+        },
+        "displayName": "Red EV Saver",
+        "lastUpdated": "2022-07-10T14:08:29.920Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-07-11T00:00:00.000Z",
+        "meteringCharges": [
+            {
+                "description": "Charges may vary, please contact us on 131 806 for specific metering charges.",
+                "displayName": "Metering Cost",
+                "minimumValue": "0.00"
+            }
+        ],
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "Connection fee (GST incl) for standard move in requests during business hours. Fees may vary. See Additional Fee Information for details."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "Disconnection fee (GST incl) generally applies for any move-out request. Fees may vary. See Additional Fee Information for details."
+                }
+            ],
+            "terms": "Red Energy may withdraw this offer at any time. For full terms and conditions applicable to this offer, please visit www.redenergy.com.au/terms. Solar Feed-In Terms and Conditions can be found at https://www.redenergy.com.au/solar-feed-in-tariffs",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "We may vary your rates in line with our Customer Charter at any time by written notice to you. Notice will be given at least 5 business day prior to the variation.",
+            "meterTypes": [
+                "Type 4",
+                "Type 4a"
+            ],
+            "eligibility": [
+                {
+                    "type": "ONLINE_ONLY",
+                    "description": "Offer only available for online sign-ups via www.redenergy.com.au."
+                },
+                {
+                    "type": "OTHER",
+                    "description": "Offer only available to residential customers who are the registered owner of an electric vehicle, which has the same address as the customers electricity supply address.",
+                    "information": "You own an electric vehicle"
+                }
+            ],
+            "pricingModel": "TIME_OF_USE",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "displayName": "Time of Use Tariff Period",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "name": "Peak",
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "28.00"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS",
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "859",
+                                    "startTime": "700"
+                                },
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS",
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "1959",
+                                    "startTime": "1700"
+                                }
+                            ],
+                            "description": "7am-9pm and 5pm-8pm, Mon-Sun AEST"
+                        },
+                        {
+                            "name": "Off-Peak",
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "14.00"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS",
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "659",
+                                    "startTime": "2200"
+                                }
+                            ],
+                            "description": "All Other Times"
+                        },
+                        {
+                            "name": "Shoulder",
+                            "type": "SHOULDER",
+                            "rates": [
+                                {
+                                    "unitPrice": "19.90"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS",
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "1659",
+                                    "startTime": "900"
+                                },
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS",
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "2159",
+                                    "startTime": "2000"
+                                }
+                            ],
+                            "description": "9am-5pm and 8pm-10pm Mon-Sun AEST"
+                        }
+                    ],
+                    "dailySupplyCharges": "85.00"
+                }
+            ],
+            "billFrequency": [
+                "P3M",
+                "P1M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY",
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": "10",
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.05",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "Red Energy offers 100% GreenPower for an extra 4.84 cents per kWh. Please contact us on 131 806 for more information."
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Retailer contribution (GST inc. if any)",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "6.00"
+                    }
+                },
+                {
+                    "scheme": "OTHER",
+                    "payerType": "GOVERNMENT",
+                    "description": "Government contribution - Feed-in scheme 10 2009-2029 (GST incl if any)",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "40.65"
+                    }
+                },
+                {
+                    "scheme": "OTHER",
+                    "payerType": "GOVERNMENT",
+                    "description": "Government contribution -Feed-in scheme 30 2010-2030 (GST incl if any)",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "36.30"
+                    }
+                }
+            ],
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1/energy/plans/RED21837MRE10@EME"
+    }
+}
