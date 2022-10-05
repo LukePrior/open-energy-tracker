@@ -60,7 +60,8 @@
             ]
         },
         "displayName": "Balance Plan - Time of Use with Controlled Load",
-        "lastUpdated": "2022-09-07T02:21:18Z",
+        "effectiveTo": "2022-10-04T13:00:00Z",
+        "lastUpdated": "2022-10-05T03:08:28Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-09-07T14:00:00Z",
         "electricityContract": {

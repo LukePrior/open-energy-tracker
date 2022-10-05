@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "Balance Plan - Peak Only",
-        "lastUpdated": "2022-09-07T02:21:19Z",
+        "effectiveTo": "2022-10-04T13:00:00Z",
+        "lastUpdated": "2022-10-05T03:08:29Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-09-07T14:00:00Z",
         "electricityContract": {
