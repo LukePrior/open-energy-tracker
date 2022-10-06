@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Basic Home - Demand",
-        "lastUpdated": "2022-07-31T14:06:28.004Z",
+        "effectiveTo": "2022-10-12T00:00:00.000Z",
+        "lastUpdated": "2022-10-05T04:45:55.148Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-01T00:00:00.000Z",
         "electricityContract": {

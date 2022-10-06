@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Balance Plan - Demand",
-        "lastUpdated": "2022-09-20T14:05:54.155Z",
+        "effectiveTo": "2022-10-12T00:00:00.000Z",
+        "lastUpdated": "2022-10-05T04:45:41.013Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-09-21T00:00:00.000Z",
         "electricityContract": {
