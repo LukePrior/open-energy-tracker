@@ -68,6 +68,7 @@
             ]
         },
         "displayName": "Origin Flexi Rate ePlus",
+        "effectiveTo": "2022-10-06T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -172,7 +173,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Ongoing contract which continues until you or we end it. The benefit period is 12 months."
         },
-        "lastUpdated": "2022-08-31T04:10:24Z",
+        "lastUpdated": "2022-10-06T20:54:44Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-31T14:00:00Z"
     },
