@@ -562,16 +562,16 @@
     "d3146a7f-bcdd-4f60-9c03-e4cf47ad3e89": {
         "interimId": "d3146a7f-bcdd-4f60-9c03-e4cf47ad3e89",
         "brandName": "Sumo Gas Pty Ltd",
-        "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
+        "logoUri": "https://sumo-public-share.s3.ap-southeast-2.amazonaws.com/SumoIT/URI/Sumo_Logo.png",
         "publicBaseUri": "https://cdr.energymadeeasy.gov.au/sumo-gas",
-        "lastUpdated": "2022-09-30T06:20:47Z"
+        "lastUpdated": "2022-10-07T02:45:13Z"
     },
     "ee2a4982-1616-4fe4-982a-8633293002ec": {
         "interimId": "ee2a4982-1616-4fe4-982a-8633293002ec",
         "brandName": "Sumo Power Pty Ltd",
-        "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
+        "logoUri": "https://sumo-public-share.s3.ap-southeast-2.amazonaws.com/SumoIT/URI/Sumo_Logo.png",
         "publicBaseUri": "https://cdr.energymadeeasy.gov.au/sumo-power",
-        "lastUpdated": "2022-09-30T06:20:47Z"
+        "lastUpdated": "2022-10-07T02:45:13Z"
     },
     "5c3a9def-c09b-4cbc-807d-a18364ee5232": {
         "interimId": "5c3a9def-c09b-4cbc-807d-a18364ee5232",
