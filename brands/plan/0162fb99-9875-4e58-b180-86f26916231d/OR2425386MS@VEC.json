@@ -327,7 +327,8 @@
             ]
         },
         "displayName": "Origin Business Go Variable - Retention (Single Rate)",
-        "lastUpdated": "2022-10-04T00:26:13Z",
+        "effectiveTo": "2022-10-09T13:00:00Z",
+        "lastUpdated": "2022-10-09T21:43:39Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {
