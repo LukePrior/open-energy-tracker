@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "Standing Offer_A120A180",
-        "lastUpdated": "2022-06-30T01:15:09Z",
+        "effectiveTo": "2022-10-09T13:00:00Z",
+        "lastUpdated": "2022-10-10T07:44:36Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {

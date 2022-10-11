@@ -2,7 +2,7 @@
     "data": {
         "type": "STANDING",
         "brand": "momentum",
-        "planId": "MOM403029SR@VEC",
+        "planId": "MOM425257SR@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "Momentum Energy",
         "geography": {
@@ -112,10 +112,9 @@
             ]
         },
         "displayName": "Standing Offer_LVS1RDED",
-        "effectiveTo": "2022-10-09T13:00:00Z",
-        "lastUpdated": "2022-10-10T07:44:36Z",
+        "lastUpdated": "2022-10-06T05:19:54Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2022-06-30T14:00:00Z",
+        "effectiveFrom": "2022-10-09T13:00:00Z",
         "electricityContract": {
             "fees": [
                 {
@@ -137,9 +136,9 @@
                     "description": ""
                 }
             ],
-            "terms": "Full terms and conditions can be obtained from www.momentumenergy.com.au/terms-and-conditions or by contacting our Customer Care Team on 1800 SWITCH.",
+            "terms": "Time of use charges are based on Australian Eastern Standard Time, except when daylight savings applies in which case interval meters are adjusted to Australian Eastern Daylight Time, unless indicated otherwise. Full terms and conditions can be obtained from www.momentumenergy.com.au/terms-and-conditions or by contacting our Customer Care Team on 1800 SWITCH.",
             "isFixed": false,
-            "timeZone": "AEST",
+            "timeZone": "LOCAL",
             "variation": "We will give you written notice of any variations to your rates & charges under your terms and conditions in accordance with applicable legal requirements.",
             "eligibility": [
                 {
@@ -215,6 +214,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/momentum/cds-au/v1/energy/plans/MOM403029SR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/momentum/cds-au/v1/energy/plans/MOM425257SR@VEC"
     }
 }

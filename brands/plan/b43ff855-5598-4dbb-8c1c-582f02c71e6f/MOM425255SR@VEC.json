@@ -2,7 +2,7 @@
     "data": {
         "type": "STANDING",
         "brand": "momentum",
-        "planId": "MOM402995SR@VEC",
+        "planId": "MOM425255SR@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "Momentum Energy",
         "geography": {
@@ -326,19 +326,12 @@
                 "3764"
             ]
         },
-        "displayName": "Standing Offer_PRTOU",
-        "effectiveTo": "2022-10-09T13:00:00Z",
-        "lastUpdated": "2022-10-10T07:44:32Z",
+        "displayName": "Standing Offer_D1DD1",
+        "lastUpdated": "2022-10-06T05:19:54Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2022-06-30T14:00:00Z",
+        "effectiveFrom": "2022-10-09T13:00:00Z",
         "electricityContract": {
             "fees": [
-                {
-                    "term": "FIXED",
-                    "type": "DISCONNECTION",
-                    "amount": "65.09",
-                    "description": ""
-                },
                 {
                     "term": "FIXED",
                     "type": "RECONNECTION",
@@ -347,14 +340,20 @@
                 },
                 {
                     "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "65.09",
+                    "description": ""
+                },
+                {
+                    "term": "FIXED",
                     "type": "CHEQUE_DISHONOUR",
                     "amount": "9.50",
-                    "description": "GST exempt"
+                    "description": ""
                 }
             ],
-            "terms": "Full terms and conditions can be obtained from www.momentumenergy.com.au/terms-and-conditions or by contacting our Customer Care Team on 1800 SWITCH.",
+            "terms": "Time of use charges are based on Australian Eastern Standard Time, except when daylight savings applies in which case interval meters are adjusted to Australian Eastern Daylight Time, unless indicated otherwise. Full terms and conditions can be obtained from www.momentumenergy.com.au/terms-and-conditions or by contacting our Customer Care Team on 1800 SWITCH.",
             "isFixed": false,
-            "timeZone": "AEST",
+            "timeZone": "LOCAL",
             "variation": "We will give you written notice of any variations to your rates & charges under your terms and conditions in accordance with applicable legal requirements.",
             "eligibility": [
                 {
@@ -362,76 +361,22 @@
                     "information": "Available to Residential customers in the Powercor distribution area. Offer subject to the having the necessary metering system configuration."
                 }
             ],
-            "pricingModel": "TIME_OF_USE",
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
             "tariffPeriod": [
                 {
                     "endDate": "12-31",
                     "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "21.209"
+                            }
+                        ],
+                        "description": "Anytime",
+                        "displayName": "Peak"
+                    },
                     "displayName": "Period",
-                    "rateBlockUType": "timeOfUseRates",
-                    "timeOfUseRates": [
-                        {
-                            "type": "PEAK",
-                            "rates": [
-                                {
-                                    "unitPrice": "29.709"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI",
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "2100",
-                                    "startTime": "1500"
-                                }
-                            ],
-                            "displayName": "Peak"
-                        },
-                        {
-                            "type": "OFF_PEAK",
-                            "rates": [
-                                {
-                                    "unitPrice": "16.8636"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI",
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "0000",
-                                    "startTime": "2100"
-                                },
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI",
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "1500",
-                                    "startTime": "0000"
-                                }
-                            ],
-                            "displayName": "Off Peak"
-                        }
-                    ],
+                    "rateBlockUType": "singleRate",
                     "dailySupplyCharges": "119.109"
                 }
             ],
@@ -440,6 +385,21 @@
             ],
             "paymentOption": [
                 "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "15.0545"
+                            }
+                        ],
+                        "description": "All Controlled Load usage",
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Controlled Load",
+                    "rateBlockUType": "singleRate"
+                }
             ],
             "coolingOffDays": 10,
             "solarFeedInTariff": [
@@ -469,6 +429,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/momentum/cds-au/v1/energy/plans/MOM402995SR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/momentum/cds-au/v1/energy/plans/MOM425255SR@VEC"
     }
 }
