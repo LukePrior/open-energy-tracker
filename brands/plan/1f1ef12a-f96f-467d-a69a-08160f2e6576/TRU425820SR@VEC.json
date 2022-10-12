@@ -1,0 +1,204 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "energyaustralia",
+        "planId": "TRU425820SR@VEC",
+        "fuelType": "GAS",
+        "brandName": "EnergyAustralia",
+        "geography": {
+            "distributors": [
+                "Multinet"
+            ],
+            "includedPostcodes": [
+                "3004",
+                "3006",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3105",
+                "3106",
+                "3107",
+                "3108",
+                "3109",
+                "3111",
+                "3113",
+                "3114",
+                "3115",
+                "3116",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3128",
+                "3129",
+                "3130",
+                "3131",
+                "3132",
+                "3133",
+                "3134",
+                "3135",
+                "3136",
+                "3137",
+                "3138",
+                "3140",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3145",
+                "3146",
+                "3147",
+                "3148",
+                "3149",
+                "3151",
+                "3153",
+                "3154",
+                "3155",
+                "3159",
+                "3181",
+                "3765",
+                "3766",
+                "3767",
+                "3770",
+                "3781",
+                "3782",
+                "3783",
+                "3787",
+                "3788",
+                "3789",
+                "3791",
+                "3792",
+                "3793",
+                "3795",
+                "3796"
+            ]
+        },
+        "displayName": "Basic Home (R2)",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "50.79",
+                    "description": "Reconnection - Business hours"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "7.72",
+                    "description": "Special Meter Read"
+                },
+                {
+                    "rate": "0.36",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit card merchant service fee of 0.36% for all payments with Visa or Mastercard."
+                },
+                {
+                    "rate": "1.5",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit card merchant service fee of 1.5% for all payments with American Express."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "1.69",
+                    "description": "Paper bill fee incl. GST per bill effective from 6 April 2020.  Refer to www.energyaustralia.com.au/home/help-and-support/faqs/paper-bill-fee for details."
+                }
+            ],
+            "terms": "For full terms and conditions, please refer to our website www.energyaustralia.com.au.",
+            "isFixed": false,
+            "variation": "The rates for Basic Home may vary, either when we are directed to change regulated rates, or when we review our rates each year. Weu2019ll notify you before any rate change occurs.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "The details presented in this fact sheet are for a residential customer located in the distribution area outlined with a metering configuration as described. Unless otherwise specified, 'Peak Only' is the default meter type."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "10-31",
+                    "startDate": "05-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "3.15"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.71"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.22"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "1.92"
+                            },
+                            {
+                                "unitPrice": "1.87"
+                            }
+                        ],
+                        "displayName": "R2"
+                    },
+                    "displayName": "Winter Rates",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "84.50"
+                },
+                {
+                    "endDate": "04-30",
+                    "startDate": "11-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "3.05"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.60"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.16"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "1.85"
+                            },
+                            {
+                                "unitPrice": "1.84"
+                            }
+                        ],
+                        "displayName": "Rate"
+                    },
+                    "displayName": "Non-Winter Rates",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "84.50"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "This contract continues for as long as you remain on the plan."
+        },
+        "lastUpdated": "2022-10-06T23:43:06Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-10-11T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1/energy/plans/TRU425820SR@VEC"
+    }
+}

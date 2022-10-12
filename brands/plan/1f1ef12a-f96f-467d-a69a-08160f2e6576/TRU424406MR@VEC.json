@@ -327,7 +327,8 @@
             ]
         },
         "displayName": "Balance Plan - Time of Use",
-        "lastUpdated": "2022-09-19T05:17:21Z",
+        "effectiveTo": "2022-10-11T13:00:00Z",
+        "lastUpdated": "2022-10-11T21:58:47Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-09-20T14:00:00Z",
         "electricityContract": {

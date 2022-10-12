@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "Flexi Plan - Peak Only",
-        "lastUpdated": "2022-08-19T04:06:41Z",
+        "effectiveTo": "2022-10-11T13:00:00Z",
+        "lastUpdated": "2022-10-11T22:01:38Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {

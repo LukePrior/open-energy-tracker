@@ -275,7 +275,8 @@
             ]
         },
         "displayName": "Flexi Plan - Time of Use with Controlled Load - Comparator",
-        "lastUpdated": "2022-08-19T04:06:50Z",
+        "effectiveTo": "2022-10-11T13:00:00Z",
+        "lastUpdated": "2022-10-11T21:54:35Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {

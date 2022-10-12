@@ -275,7 +275,8 @@
             ]
         },
         "displayName": "Balance Plan - Peak with Controlled Load",
-        "lastUpdated": "2022-09-19T05:17:22Z",
+        "effectiveTo": "2022-10-11T13:00:00Z",
+        "lastUpdated": "2022-10-11T21:58:48Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-09-20T14:00:00Z",
         "electricityContract": {

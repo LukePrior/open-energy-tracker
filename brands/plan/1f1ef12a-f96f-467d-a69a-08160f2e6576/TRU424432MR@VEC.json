@@ -77,6 +77,7 @@
             ]
         },
         "displayName": "Balance Plan (R2)",
+        "effectiveTo": "2022-10-11T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -214,7 +215,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "The Benefit Period for this plan is for 1 year. We will provide you with notice of your options prior to the end of the Benefit Period. Your contract will continue until it is ended by either party."
         },
-        "lastUpdated": "2022-09-19T05:17:23Z",
+        "lastUpdated": "2022-10-11T21:58:49Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-09-20T14:00:00Z"
     },

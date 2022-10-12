@@ -1,0 +1,107 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "energyaustralia",
+        "planId": "ENE19238SRG23@EME",
+        "fuelType": "GAS",
+        "brandName": "EnergyAustralia",
+        "geography": {
+            "distributors": [
+                "AGN Wagga Wagga"
+            ],
+            "includedPostcodes": [
+                "2650",
+                "2651",
+                "2652",
+                "2661"
+            ]
+        },
+        "displayName": "Basic Home",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "Disconnection fee may apply when vacating your property and disconnecting gas to your property (or reading your meter where applicable). Fees may vary and see additional fee information for more details."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "description": "Reconnection fee may apply when moving into your property and connecting gas to your property (or reading your meter where applicable). Fees may vary and see additional fee information for details."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "Connection fee may apply when moving into your property and connecting gas to your property (or reading your meter where applicable). Fees may vary and see additional fee information for details."
+                },
+                {
+                    "rate": "0.36",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit card merchant service fee of 0.36% for all payments with Visa or Mastercard."
+                },
+                {
+                    "rate": "1.5",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit card merchant service fee of 1.5% for all payments with American Express."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "description": "$10.90 (GST does not currently apply to late payment fees)."
+                }
+            ],
+            "terms": "Please refer to our website www.energyaustralia.com.au for full terms and conditions.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "The rates for Basic Home may vary, either when the AER changes the reference price, or when we review our rates each year. We will notify you before any rate change occurs.",
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 27.4,
+                                "unitPrice": "3.84"
+                            },
+                            {
+                                "volume": 21.9,
+                                "unitPrice": "3.07"
+                            },
+                            {
+                                "volume": null,
+                                "unitPrice": "2.46"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "Anytime",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "All year",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "96.46"
+                }
+            ],
+            "billFrequency": [
+                "P3M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL",
+                "DIRECT_DEBIT",
+                "BPAY",
+                "CREDIT_CARD"
+            ],
+            "onExpiryDescription": "This contract continues for as long as you remain on the plan."
+        },
+        "lastUpdated": "2022-10-11T14:06:01.822Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-10-12T00:00:00.000Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1/energy/plans/ENE19238SRG23@EME"
+    }
+}

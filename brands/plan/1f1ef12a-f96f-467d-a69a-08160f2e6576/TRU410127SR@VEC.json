@@ -17,6 +17,7 @@
             ]
         },
         "displayName": "Basic Home (R6)",
+        "effectiveTo": "2022-10-11T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -141,7 +142,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "This contract continues for as long as you remain on the plan."
         },
-        "lastUpdated": "2022-07-18T00:33:43Z",
+        "lastUpdated": "2022-10-11T21:50:25Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-31T14:00:00Z"
     },
