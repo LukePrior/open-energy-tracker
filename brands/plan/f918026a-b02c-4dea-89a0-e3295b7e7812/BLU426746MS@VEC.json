@@ -1,0 +1,187 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "blue-nrg",
+        "planId": "BLU426746MS@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Blue NRG",
+        "geography": {
+            "distributors": [
+                "Citipower"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
+                "3011",
+                "3031",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3078",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
+            ]
+        },
+        "displayName": "Blue Business Easy C1G|CDS",
+        "lastUpdated": "2022-10-18T22:13:49Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-10-18T13:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CHEQUE_DISHONOUR",
+                    "amount": "11.979",
+                    "description": "Cheque dishonour payment fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "11.979",
+                    "description": "Direct debit dishonour payment fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "PAYMENT_PROCESSING",
+                    "amount": "5.50",
+                    "description": "Paper bill fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "564.74",
+                    "description": "Connection fee - new connection"
+                },
+                {
+                    "rate": "1.39",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit card payment processing fee - AMEX"
+                },
+                {
+                    "rate": "0.97",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit card payment processing fee - Visa/Mastercard"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "42.317",
+                    "description": "Disconnection fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "41.69",
+                    "description": "Reconnection fee"
+                }
+            ],
+            "terms": "Full terms & conditions can be obtained from https://www.bluenrg.com.au/rates_and_pricing or by contacting us on 1300 599 888. This offer applies to business customers with an applicable network tariff. SOLAR: If you are GST-registered and provide your ABN, we will credit you an additional 10% on your FiT for GST for electricity exported to the distribution network (i.e. increase the FiT payable to you to cover GST payable on supply).",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "We may vary these prices if network prices change. We will notify you in advance if the variation affects you.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This product is only applicable to NMIs for Victorian business customers that consume less than or equal to 40MWh per annum in the Citipower distribution area. Offer subject to having the necessary metering system configuration. For solar feed-in tariffs and eligibility contact us on 1300 599 888."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "31.68"
+                            }
+                        ],
+                        "description": "All consumption",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "All year",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "103.49"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "21.88"
+                            }
+                        ],
+                        "description": "Controlled load is electricity supplied to specific appliances, such as hot water systems.",
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Controlled Load",
+                    "rateBlockUType": "singleRate"
+                }
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Retailer Feed In Tariff",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.20"
+                    }
+                }
+            ],
+            "onExpiryDescription": "There is no defined benefit period. However, any individual customer site NMI must consume less than or equal to 40MWh per annum to remain on this product."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/blue-nrg/cds-au/v1/energy/plans/BLU426746MS@VEC"
+    }
+}
