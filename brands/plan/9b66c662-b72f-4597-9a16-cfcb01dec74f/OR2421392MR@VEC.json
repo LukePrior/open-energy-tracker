@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "Origin Advantage Variable ePlus - FiftyUp Club (TOU with Dedicated Circuit)",
-        "lastUpdated": "2022-08-31T04:10:16Z",
+        "effectiveTo": "2022-10-20T13:00:00Z",
+        "lastUpdated": "2022-10-21T01:19:09Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {
