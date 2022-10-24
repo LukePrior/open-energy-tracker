@@ -60,7 +60,8 @@
             ]
         },
         "displayName": "VIC Citipower Residential Two Rate CRTOU",
-        "lastUpdated": "2022-07-25T23:09:07Z",
+        "effectiveTo": "2022-10-23T13:00:00Z",
+        "lastUpdated": "2022-10-23T23:49:47Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-24T14:00:00Z",
         "electricityContract": {
