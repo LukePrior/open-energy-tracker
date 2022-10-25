@@ -61,6 +61,7 @@
             ]
         },
         "displayName": "Residential Value Saver (Melbourne Victory) - New AGL customers only",
+        "effectiveTo": "2022-10-24T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -203,7 +204,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Your market contract is ongoing. From time to time, AGL reviews its offers and this offer will be reviewed with consideration to AGLu2019s generally available market offers"
         },
-        "lastUpdated": "2022-08-30T23:49:50Z",
+        "lastUpdated": "2022-10-25T00:13:19Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-31T14:00:00Z"
     },
