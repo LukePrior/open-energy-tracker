@@ -1,8 +1,8 @@
 {
     "data": {
-        "type": "MARKET",
+        "type": "STANDING",
         "brand": "momentum",
-        "planId": "MOM426765MR@VEC",
+        "planId": "MOM427810SS@VEC",
         "fuelType": "GAS",
         "brandName": "Momentum Energy",
         "geography": {
@@ -10,37 +10,12 @@
                 "AusNet Services (gas)"
             ],
             "includedPostcodes": [
-                "3249",
-                "3250",
-                "3266",
-                "3277",
-                "3280",
-                "3282",
-                "3300",
-                "3305",
-                "3340",
-                "3342",
-                "3350",
-                "3352",
-                "3355",
-                "3356",
-                "3357",
-                "3430",
-                "3437",
-                "3444",
-                "3450",
-                "3451",
-                "3460",
-                "3461",
-                "3464",
-                "3465",
-                "3550",
-                "3555",
-                "3556",
-                "3358"
+                "3213",
+                "3227",
+                "3331"
             ]
         },
-        "displayName": "Nothing Fancy Gas Ausnet West",
+        "displayName": "Standing Offer Gas Ausnet Adjoining Central",
         "gasContract": {
             "fees": [
                 {
@@ -48,12 +23,6 @@
                     "type": "OTHER",
                     "amount": "10.69",
                     "description": "Move-In/Move Out Meter Read fee\nFor information on additional fees, a full schedule of charges is available from www.momentumenergy.com.au/fees"
-                },
-                {
-                    "rate": "0.53",
-                    "term": "PERCENT_OF_BILL",
-                    "type": "CC_PROCESSING",
-                    "description": "A 0.53% fee (GST Incl) will apply to payments made by any credit or debit card."
                 }
             ],
             "terms": "Full terms and conditions can be obtained from www.momentumenergy.com.au/terms or by contacting our Customer Care Team on 1800 SWITCH.",
@@ -62,7 +31,7 @@
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "To be eligible for this plan you must pay your bills by direct debit; communicate with us and receive your bills electronically. Available with a Supply Address in Victoria in the Ausnet West distribution area and is subject to having the necessary metering system configuration."
+                    "information": "Available with a Supply Address in Victoria in the Ausnet Adjoining Central distribution area and is subject to having the necessary metering system configuration."
                 }
             ],
             "pricingModel": "SINGLE_RATE",
@@ -74,25 +43,25 @@
                         "rates": [
                             {
                                 "volume": 100,
-                                "unitPrice": "1.60"
+                                "unitPrice": "2.079"
                             },
                             {
                                 "volume": 100,
-                                "unitPrice": "1.60"
+                                "unitPrice": "2.056"
                             },
                             {
                                 "volume": 1200,
-                                "unitPrice": "1.60"
+                                "unitPrice": "2.036"
                             },
                             {
-                                "unitPrice": "1.50"
+                                "unitPrice": "2.016"
                             }
                         ],
                         "displayName": "Off-Peak"
                     },
                     "displayName": "Off-Peak",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "97.10"
+                    "dailySupplyCharges": "115.85"
                 },
                 {
                     "endDate": "09-30",
@@ -101,43 +70,42 @@
                         "rates": [
                             {
                                 "volume": 100,
-                                "unitPrice": "2.10"
+                                "unitPrice": "2.431"
                             },
                             {
                                 "volume": 100,
-                                "unitPrice": "2.00"
+                                "unitPrice": "2.405"
                             },
                             {
                                 "volume": 1200,
-                                "unitPrice": "1.80"
+                                "unitPrice": "2.38"
                             },
                             {
-                                "unitPrice": "1.80"
+                                "unitPrice": "2.355"
                             }
                         ],
                         "displayName": "Peak"
                     },
                     "displayName": "Peak",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "97.10"
+                    "dailySupplyCharges": "115.85"
                 }
             ],
             "billFrequency": [
                 "P2M"
             ],
             "paymentOption": [
-                "DIRECT_DEBIT",
-                "OTHER"
+                "PAPER_BILL"
             ],
             "coolingOffDays": 10,
             "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions."
         },
-        "lastUpdated": "2022-10-20T00:15:17Z",
-        "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2022-10-23T13:00:00Z"
+        "lastUpdated": "2022-10-27T03:48:37Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-10-27T13:00:00Z"
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/momentum/cds-au/v1/energy/plans/MOM426765MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/momentum/cds-au/v1/energy/plans/MOM427810SS@VEC"
     }
 }

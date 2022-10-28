@@ -2,7 +2,7 @@
     "data": {
         "type": "STANDING",
         "brand": "momentum",
-        "planId": "MOM364142SS@VEC",
+        "planId": "MOM427826SR@VEC",
         "fuelType": "GAS",
         "brandName": "Momentum Energy",
         "geography": {
@@ -130,7 +130,6 @@
             ]
         },
         "displayName": "Standing Offer Gas Multinet Metro",
-        "effectiveTo": "2022-10-27T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -146,7 +145,7 @@
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "Available to business customers with a Supply Address in Victoria in the Multinet Metro distribution area as determined by Momentum Energy using less than 1000 GJ p.a. of gas. To verify your distribution area please call us on 1800 SWITCH."
+                    "information": "Available with a Supply Address in Victoria in the Multinet Metro distribution area and is subject to having the necessary metering system configuration."
                 }
             ],
             "pricingModel": "SINGLE_RATE",
@@ -157,30 +156,30 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "volume": 250,
-                                "unitPrice": "2.124"
+                                "volume": 50,
+                                "unitPrice": "2.779"
                             },
                             {
-                                "volume": 750,
-                                "unitPrice": "2.014"
+                                "volume": 50,
+                                "unitPrice": "2.56"
                             },
                             {
-                                "volume": 500,
-                                "unitPrice": "1.929"
+                                "volume": 50,
+                                "unitPrice": "2.291"
                             },
                             {
-                                "volume": 3500,
-                                "unitPrice": "1.879"
+                                "volume": 100,
+                                "unitPrice": "2.148"
                             },
                             {
-                                "unitPrice": "1.824"
+                                "unitPrice": "2.114"
                             }
                         ],
                         "displayName": "Off-Peak"
                     },
                     "displayName": "Off-Peak",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "125.65"
+                    "dailySupplyCharges": "85.64"
                 },
                 {
                     "endDate": "10-31",
@@ -188,30 +187,30 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "volume": 250,
-                                "unitPrice": "2.487"
+                                "volume": 50,
+                                "unitPrice": "2.988"
                             },
                             {
-                                "volume": 750,
-                                "unitPrice": "2.332"
+                                "volume": 50,
+                                "unitPrice": "2.729"
                             },
                             {
-                                "volume": 500,
-                                "unitPrice": "2.225"
+                                "volume": 50,
+                                "unitPrice": "2.415"
                             },
                             {
-                                "volume": 3500,
-                                "unitPrice": "2.152"
+                                "volume": 100,
+                                "unitPrice": "2.249"
                             },
                             {
-                                "unitPrice": "2.093"
+                                "unitPrice": "2.206"
                             }
                         ],
                         "displayName": "Peak"
                     },
                     "displayName": "Peak",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "125.65"
+                    "dailySupplyCharges": "85.64"
                 }
             ],
             "billFrequency": [
@@ -221,14 +220,14 @@
                 "PAPER_BILL"
             ],
             "coolingOffDays": 10,
-            "onExpiryDescription": "The agreement continues until terminated by your or us in accordance with your terms and conditions."
+            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions."
         },
-        "lastUpdated": "2022-10-27T22:28:01Z",
-        "customerType": "BUSINESS",
-        "effectiveFrom": "2021-12-31T13:00:00Z"
+        "lastUpdated": "2022-10-27T03:48:38Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-10-27T13:00:00Z"
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/momentum/cds-au/v1/energy/plans/MOM364142SS@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/momentum/cds-au/v1/energy/plans/MOM427826SR@VEC"
     }
 }
