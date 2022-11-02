@@ -327,7 +327,8 @@
             ]
         },
         "displayName": "Origin Solar Boost (TOU 5 Day)",
-        "lastUpdated": "2022-07-29T02:48:48Z",
+        "effectiveTo": "2022-11-01T13:00:00Z",
+        "lastUpdated": "2022-11-01T23:18:23Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-31T14:00:00Z",
         "electricityContract": {

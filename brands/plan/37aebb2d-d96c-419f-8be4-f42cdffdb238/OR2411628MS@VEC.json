@@ -112,7 +112,8 @@
             ]
         },
         "displayName": "Origin Business Solar Boost (2 Period TOU with Dedicated Circuit)",
-        "lastUpdated": "2022-07-29T02:49:00Z",
+        "effectiveTo": "2022-11-01T13:00:00Z",
+        "lastUpdated": "2022-11-01T23:14:22Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-07-31T14:00:00Z",
         "electricityContract": {

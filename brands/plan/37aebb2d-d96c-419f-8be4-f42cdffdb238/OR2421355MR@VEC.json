@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "Origin Flexi Rate ePlus (Single Rate with Dedicated Circuit)",
-        "lastUpdated": "2022-08-31T04:10:14Z",
+        "effectiveTo": "2022-11-01T13:00:00Z",
+        "lastUpdated": "2022-11-01T23:28:45Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {

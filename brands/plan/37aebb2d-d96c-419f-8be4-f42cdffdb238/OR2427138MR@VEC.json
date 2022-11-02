@@ -1,0 +1,133 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "origin",
+        "planId": "OR2427138MR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Origin Energy",
+        "geography": {
+            "distributors": [
+                "Multinet"
+            ],
+            "includedPostcodes": [
+                "3139",
+                "3775",
+                "3797",
+                "3799"
+            ]
+        },
+        "displayName": "Origin Advantage Variable - Ten Ants",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "7.72",
+                    "description": "A $7.72 (GST Incl) fee may apply when your property is disconnected (including when you move).\nYou must pay us any charges your distributor imposes on us in relation to services performed by your distributor (or anyone else) at your supply address. For details on additional charges that may apply see www.originenergy.com.au/2402/Additional-charges"
+                },
+                {
+                    "rate": "0.24",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A 0.24% fee (GST Incl) may apply to payments made by VISA debit card."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "PAYMENT_PROCESSING",
+                    "amount": "2.70",
+                    "description": "If you pay at an Australia Post outlet, a payment processing fee of the higher of $2.70 or 0.49% (incl GST) may apply."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "1.75",
+                    "description": "$1.75 (incl GST) applies for each paper bill."
+                },
+                {
+                    "rate": "0.56",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A 0.56% fee (GST Incl) may apply to payments made by VISA credit card."
+                },
+                {
+                    "rate": "0.28",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A 0.28% fee (GST Incl) may apply to payments made by Mastercard debit card."
+                },
+                {
+                    "rate": "0.64",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A 0.64% fee (GST Incl) may apply to payments made by Mastercard credit card."
+                }
+            ],
+            "terms": "Not available all areas or property types. Residential customers only. See www.originenergy.com.au/2889/Terms-and-conditions for more.",
+            "isFixed": false,
+            "termType": "1_YEAR",
+            "variation": "We may vary the Charges (including their amount, nature and structure) by notice to you at any time. The notice will be at least 5 business days prior to the effective date of the variation.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Offer only available when signing up through Ten Ants."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "10-31",
+                    "startDate": "05-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "3.0819"
+                            },
+                            {
+                                "unitPrice": "2.1546"
+                            }
+                        ],
+                        "displayName": "Rate"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "75.391"
+                },
+                {
+                    "endDate": "04-30",
+                    "startDate": "11-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "3.0819"
+                            },
+                            {
+                                "unitPrice": "2.1546"
+                            }
+                        ],
+                        "displayName": "Rate"
+                    },
+                    "displayName": "Off Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "75.391"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "We'll give you notice before your contract ends. At the end of the contract term, we will continue to sell you energy and the terms and conditions of the Standard Retail Contract will apply, unless you tell us otherwise."
+        },
+        "lastUpdated": "2022-10-28T00:14:35Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-11-01T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/origin/cds-au/v1/energy/plans/OR2427138MR@VEC"
+    }
+}

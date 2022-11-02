@@ -112,7 +112,8 @@
             ]
         },
         "displayName": "Origin Everyday Rewards (2 Period TOU)",
-        "lastUpdated": "2022-09-30T00:52:09Z",
+        "effectiveTo": "2022-11-01T13:00:00Z",
+        "lastUpdated": "2022-11-01T23:23:11Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-10-03T13:00:00Z",
         "electricityContract": {
