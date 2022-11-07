@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "Energy Plan",
-        "lastUpdated": "2022-08-02T23:34:20Z",
+        "effectiveTo": "2022-11-06T13:00:00Z",
+        "lastUpdated": "2022-11-06T22:37:23Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-31T14:00:00Z",
         "electricityContract": {

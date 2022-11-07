@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "arcline",
-        "planId": "ARC416730MR@VEC",
+        "planId": "ARC423801MR@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "ARCLINE by RACV",
         "geography": {
@@ -274,10 +274,11 @@
                 "3996"
             ]
         },
-        "displayName": "Energy Plan",
-        "lastUpdated": "2022-08-02T23:34:20Z",
+        "displayName": "Energy Plan - RACV Member Exclusive Offer",
+        "effectiveTo": "2022-09-30T14:00:00Z",
+        "lastUpdated": "2022-09-30T14:04:09Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2022-07-31T14:00:00Z",
+        "effectiveFrom": "2022-09-11T14:00:00Z",
         "electricityContract": {
             "fees": [
                 {
@@ -317,7 +318,7 @@
                     "description": "May be charged when you move out and require a final meter read. Actual fee may vary."
                 }
             ],
-            "terms": "Arcline by RACV is provided by Energy Locals PTY LTD. Each paper bill will incur a $2 fee. For more information in relation to Arcline by RACV and this offer, see our full terms and conditions at energy.arcline.com.au/terms.",
+            "terms": "Arcline by RACV is provided by Energy Locals PTY LTD. We require a credit card or bank details for account setup and each paper bill will incur a $2 fee. For more information in relation to Arcline by RACV and this offer, see our full terms and conditions at energy.arcline.com.au/terms. For full RACV Resort $300 voucher terms and conditions please visit energy.arcline.com.au/voucher-terms",
             "isFixed": false,
             "timeZone": "LOCAL",
             "variation": "Due to changes in the market and economic conditions, we may update your tariff and/or fees. We will provide at least 5 business days' notice before the change takes place.",
@@ -327,15 +328,21 @@
                     "description": "8.3c/kWh Solar Export",
                     "displayName": "8.3c/kWh Solar Export",
                     "eligibility": "A feed-in tariff of 8.3c/kWh will apply to the first 10 kWh exported each day"
+                },
+                {
+                    "category": "OTHER",
+                    "description": "$300 RACV Resort Voucher",
+                    "displayName": "$300 RACV Resort Voucher",
+                    "eligibility": "Limit of one $300 voucher per new eligible electricity account. Offer available to the first 300 RACV members to sign up to the 'Energy Plan u2013 RACV Member Exclusive Offeru2019 between 2:00pm AEST 12 September 2022 and 11:59pm AEST 30 September 2022"
                 }
             ],
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "Available to customers in AusNet Services (electricity) distribution region Residential Time of Use Rate on network tariff(s) NAST11. Feed-In Tariffs are only valid if applicable."
+                    "information": "Available to customers in AusNet Services (electricity) distribution region Residential Time of Use Rate on network tariff(s) NAST13, NAST14, NAST15. Feed-In Tariffs are only valid if applicable."
                 }
             ],
-            "pricingModel": "TIME_OF_USE",
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
             "tariffPeriod": [
                 {
                     "endDate": "12-31",
@@ -347,7 +354,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "37.20"
+                                    "unitPrice": "37.10"
                                 }
                             ],
                             "timeOfUse": [
@@ -371,7 +378,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "19.10"
+                                    "unitPrice": "19.00"
                                 }
                             ],
                             "timeOfUse": [
@@ -405,7 +412,7 @@
                             "displayName": "Off Peak"
                         }
                     ],
-                    "dailySupplyCharges": "60.60"
+                    "dailySupplyCharges": "62.20"
                 }
             ],
             "billFrequency": [
@@ -413,6 +420,20 @@
             ],
             "paymentOption": [
                 "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "19.00"
+                            }
+                        ],
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Controlled Load",
+                    "rateBlockUType": "singleRate"
+                }
             ],
             "coolingOffDays": 10,
             "solarFeedInTariff": [
@@ -432,6 +453,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/arcline/cds-au/v1/energy/plans/ARC416730MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/arcline/cds-au/v1/energy/plans/ARC423801MR@VEC"
     }
 }
