@@ -1,6 +1,19 @@
 {
     "data": [
         {
+            "dataHolderBrandId": "244d8a80-3828-ed11-a832-000d3a8830d6",
+            "interimId": "37aebb2d-d96c-419f-8be4-f42cdffdb238",
+            "brandName": "Origin Energy",
+            "industries": [
+                "energy"
+            ],
+            "logoUri": "https://res.cloudinary.com/originenergy/image/upload/v1667947270/CDR/origin-energy-logo.png",
+            "publicBaseUri": "https://public.mydata.cdr.originenergy.com.au",
+            "abn": "30000051696",
+            "acn": "000051696",
+            "lastUpdated": "2022-11-08T23:12:40Z"
+        },
+        {
             "interimId": "78943358-0f53-4518-ac7d-f6a1903e276d",
             "brandName": "1st Energy",
             "industries": [
@@ -558,16 +571,6 @@
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/on-by-energyaustralia",
-            "lastUpdated": "2022-10-21T05:35:24Z"
-        },
-        {
-            "interimId": "37aebb2d-d96c-419f-8be4-f42cdffdb238",
-            "brandName": "Origin Energy",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/origin",
             "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
