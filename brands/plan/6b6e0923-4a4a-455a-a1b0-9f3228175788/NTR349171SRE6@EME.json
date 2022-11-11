@@ -175,17 +175,19 @@
                 "PAPER_BILL",
                 "BPAY"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "16.00"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "0.00",
-                "description": "Separately metered usage. The hours of application are determined by your Distributor, Evoenergy. Available for 6\u20138 hours per day between 2200 and 0700.",
-                "displayName": "Controlled Load 1"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "16.00"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. The hours of application are determined by your Distributor, Evoenergy. Available for 6\u20138 hours per day between 2200 and 0700.",
+                    "displayName": "Controlled Load 1"
+                }
+            ],
             "coolingOffDays": "10"
         }
     },

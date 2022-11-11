@@ -477,17 +477,41 @@
                 "CREDIT_CARD",
                 "BPAY"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "18.18"
-                    }
-                ],
-                "period": "P1Y",
-                "dailyCharge": "0.00",
-                "description": "Controlled Load Two - Peak Charge",
-                "displayName": "Controlled Load Two - Peak Charge"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "18.18"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Controlled Load Two - Peak Charge",
+                    "displayName": "Controlled Load Two - Peak Charge"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "18.18"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Controlled Load Two - Shoulder Charge",
+                    "displayName": "Controlled Load Two - Shoulder Charge"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "18.18"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Controlled Load Two - Off Peak Charge",
+                    "displayName": "Controlled Load Two - Off Peak Charge"
+                }
+            ],
             "onExpiryDescription": "This Powershop offer is an ongoing contract (until you or we end it) with no exit fees."
         }
     },

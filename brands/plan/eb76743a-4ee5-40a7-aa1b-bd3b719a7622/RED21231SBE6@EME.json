@@ -107,17 +107,19 @@
                 "BPAY",
                 "PAPER_BILL"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "15.61"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "0.00",
-                "description": "Dedicated appliances",
-                "displayName": "Controlled Load 1"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "15.61"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Dedicated appliances",
+                    "displayName": "Controlled Load 1"
+                }
+            ],
             "solarFeedInTariff": [
                 {
                     "scheme": "OTHER",
@@ -126,7 +128,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "6.00"
+                        "amount": "6.000000"
                     }
                 },
                 {
@@ -136,7 +138,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "40.65"
+                        "amount": "40.650000"
                     }
                 },
                 {
@@ -146,7 +148,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "36.30"
+                        "amount": "36.300000"
                     }
                 }
             ],

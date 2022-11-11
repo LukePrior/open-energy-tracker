@@ -369,17 +369,19 @@
                 "CREDIT_CARD",
                 "BPAY"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "12.87"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "0.00",
-                "description": "Separately metered usage. The applicable hours are determined by your distributor",
-                "displayName": "Controlled Load 1"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "12.87"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. The applicable hours are determined by your distributor",
+                    "displayName": "Controlled Load 1"
+                }
+            ],
             "solarFeedInTariff": [
                 {
                     "scheme": "OTHER",
@@ -388,7 +390,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "0.00"
+                        "amount": "0.000000"
                     }
                 }
             ],

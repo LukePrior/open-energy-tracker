@@ -607,17 +607,19 @@
                 "DIRECT_DEBIT",
                 "PAPER_BILL"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "18.07"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "0.00",
-                "description": "Controlled Load 1",
-                "displayName": "Controlled Load 1"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "18.07"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Controlled Load 1",
+                    "displayName": "Controlled Load 1"
+                }
+            ],
             "coolingOffDays": "10",
             "solarFeedInTariff": [
                 {
@@ -627,7 +629,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "8.00"
+                        "amount": "8.000000"
                     }
                 }
             ],

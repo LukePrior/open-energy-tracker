@@ -502,17 +502,19 @@
                 "CREDIT_CARD",
                 "BPAY"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "17.54"
-                    }
-                ],
-                "period": "P1M",
-                "dailyCharge": "0.00",
-                "description": "The hours of application are determined by your distributor.",
-                "displayName": "Controlled Load"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "17.54"
+                        }
+                    ],
+                    "period": "P1M",
+                    "dailyCharge": "0.00",
+                    "description": "The hours of application are determined by your distributor.",
+                    "displayName": "Controlled Load"
+                }
+            ],
             "onExpiryDescription": "This is an ongoing agreement with ongoing benefits and continues until you or we end it."
         }
     },

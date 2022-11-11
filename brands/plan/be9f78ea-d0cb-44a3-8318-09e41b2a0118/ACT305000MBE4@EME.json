@@ -138,32 +138,45 @@
                 "PAPER_BILL",
                 "BPAY"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "15.61"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "0.00",
-                "description": "For a minimum of 6 hours and a maximum of 8 hours in any one day, between 10pm and 7am.",
-                "displayName": "Controlled Load Night"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "15.61"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "For a minimum of 6 hours and a maximum of 8 hours in any one day, between 10pm and 7am.",
+                    "displayName": "Controlled Load Night"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "15.61"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "For a total of 13 hours in any one day. The 13 hours shall be comprised of 8 hours between 10pm to 7am, and 5 hours between 9am to 5pm.",
+                    "displayName": "Controlled Load Day & Night"
+                }
+            ],
             "coolingOffDays": "10",
             "greenPowerCharges": [
                 {
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.01",
+                            "amount": "0.005500",
                             "percentGreen": "10"
                         },
                         {
-                            "amount": "0.01",
+                            "amount": "0.013750",
                             "percentGreen": "25"
                         },
                         {
-                            "amount": "0.06",
+                            "amount": "0.055000",
                             "percentGreen": "100"
                         }
                     ],
@@ -180,7 +193,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "8.00"
+                        "amount": "8.000000"
                     }
                 }
             ],

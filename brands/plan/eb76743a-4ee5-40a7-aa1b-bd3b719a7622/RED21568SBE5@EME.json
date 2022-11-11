@@ -298,17 +298,19 @@
                 "BPAY",
                 "PAPER_BILL"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "19.00"
-                    }
-                ],
-                "period": "P1Y",
-                "dailyCharge": "0.00",
-                "description": "Generally available for restricted periods not exceeding 17 hours",
-                "displayName": "Controlled Load 2"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "19.00"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Generally available for restricted periods not exceeding 17 hours",
+                    "displayName": "Controlled Load 2"
+                }
+            ],
             "solarFeedInTariff": [
                 {
                     "scheme": "OTHER",
@@ -317,7 +319,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "6.00"
+                        "amount": "6.000000"
                     }
                 }
             ],

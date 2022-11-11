@@ -408,17 +408,19 @@
                 "DIRECT_DEBIT",
                 "CREDIT_CARD"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "19.00"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "0.00",
-                "description": "Controlled Load 1",
-                "displayName": "Controlled Load 1"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "19.00"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Controlled Load 1",
+                    "displayName": "Controlled Load 1"
+                }
+            ],
             "coolingOffDays": "10",
             "onExpiryDescription": "Ongoing contract with no contract term"
         }

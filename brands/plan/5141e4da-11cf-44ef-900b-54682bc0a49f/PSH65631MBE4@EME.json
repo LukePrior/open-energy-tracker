@@ -406,24 +406,26 @@
                 "CREDIT_CARD",
                 "BPAY"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "18.45"
-                    }
-                ],
-                "period": "P1Y",
-                "dailyCharge": "0.00",
-                "description": "Rate",
-                "displayName": "Controlled Load"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "18.45"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Rate",
+                    "displayName": "Controlled Load"
+                }
+            ],
             "coolingOffDays": "10",
             "greenPowerCharges": [
                 {
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.04",
+                            "amount": "0.037400",
                             "percentGreen": "100"
                         }
                     ],
@@ -439,7 +441,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "47.00"
+                        "amount": "47.000000"
                     }
                 },
                 {
@@ -449,7 +451,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "3.00"
+                        "amount": "3.000000"
                     }
                 }
             ],

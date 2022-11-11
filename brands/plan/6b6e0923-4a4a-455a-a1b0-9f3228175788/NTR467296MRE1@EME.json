@@ -553,24 +553,26 @@
                 "DIRECT_DEBIT",
                 "CREDIT_CARD"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "15.49"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "0.00",
-                "description": "Separately metered usage. The hours of application are determined by your Distributor, Ausgrid. Supply is usually available for 16 hour period including more than 6 hours between 2000 and 0700 and more than 4 hours between 0700 and 1700.",
-                "displayName": "Controlled Load 2"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "15.49"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. The hours of application are determined by your Distributor, Ausgrid. Supply is usually available for 16 hour period including more than 6 hours between 2000 and 0700 and more than 4 hours between 0700 and 1700.",
+                    "displayName": "Controlled Load 2"
+                }
+            ],
             "coolingOffDays": "10",
             "greenPowerCharges": [
                 {
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.00",
+                            "amount": "0.000000",
                             "percentGreen": "100"
                         }
                     ],
@@ -586,7 +588,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "0.00"
+                        "amount": "0.000000"
                     }
                 }
             ],

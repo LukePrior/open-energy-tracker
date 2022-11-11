@@ -295,24 +295,26 @@
             "paymentOption": [
                 "DIRECT_DEBIT"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "18.10"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "0.00",
-                "description": "Controlled Load 2",
-                "displayName": "Controlled Load 2"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "18.10"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Controlled Load 2",
+                    "displayName": "Controlled Load 2"
+                }
+            ],
             "coolingOffDays": "10",
             "greenPowerCharges": [
                 {
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.049500",
                             "percentGreen": "100"
                         }
                     ],
@@ -328,7 +330,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "7.00"
+                        "amount": "7.000000"
                     }
                 },
                 {
@@ -338,7 +340,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "44.00"
+                        "amount": "44.000000"
                     }
                 }
             ],

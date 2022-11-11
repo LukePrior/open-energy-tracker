@@ -419,17 +419,41 @@
                 "CREDIT_CARD",
                 "BPAY"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "34.89"
-                    }
-                ],
-                "period": "P1Y",
-                "dailyCharge": "0.00",
-                "description": "Controlled Load Two - Peak Charge",
-                "displayName": "Controlled Load Two - Peak Charge"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "34.89"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Controlled Load Two - Peak Charge",
+                    "displayName": "Controlled Load Two - Peak Charge"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "20.55"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Controlled Load Two - Shoulder Charge",
+                    "displayName": "Controlled Load Two - Shoulder Charge"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "23.92"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Controlled Load Two - Off Peak Charge",
+                    "displayName": "Controlled Load Two - Off Peak Charge"
+                }
+            ],
             "coolingOffDays": "10",
             "solarFeedInTariff": [
                 {
@@ -439,7 +463,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "2.06"
+                        "amount": "2.060000"
                     }
                 },
                 {
@@ -449,7 +473,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "46.06"
+                        "amount": "46.060000"
                     }
                 }
             ],

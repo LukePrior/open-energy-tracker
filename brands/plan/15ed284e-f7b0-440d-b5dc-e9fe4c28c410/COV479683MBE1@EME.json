@@ -211,7 +211,8 @@
             ]
         },
         "displayName": "Freedom Online Business Single (6000)",
-        "lastUpdated": "2022-09-07T14:06:15.205Z",
+        "effectiveTo": "2022-11-15T00:00:00.000Z",
+        "lastUpdated": "2022-10-31T02:31:24.940Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-09-08T00:00:00.000Z",
         "electricityContract": {
@@ -324,7 +325,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.01",
+                            "amount": "0.011000",
                             "percentGreen": "25"
                         }
                     ],
@@ -336,7 +337,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.02",
+                            "amount": "0.022000",
                             "percentGreen": "50"
                         }
                     ],
@@ -348,7 +349,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.04",
+                            "amount": "0.044000",
                             "percentGreen": "100"
                         }
                     ],

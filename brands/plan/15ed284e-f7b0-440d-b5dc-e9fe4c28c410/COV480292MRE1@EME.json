@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Freedom Online Residential Flex Demand (EA111)",
-        "lastUpdated": "2022-09-07T14:07:32.923Z",
+        "effectiveTo": "2022-11-15T00:00:00.000Z",
+        "lastUpdated": "2022-10-28T03:02:22.235Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-09-08T00:00:00.000Z",
         "electricityContract": {
@@ -731,7 +732,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.01",
+                            "amount": "0.011000",
                             "percentGreen": "25"
                         }
                     ],
@@ -743,7 +744,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.02",
+                            "amount": "0.022000",
                             "percentGreen": "50"
                         }
                     ],
@@ -755,7 +756,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.04",
+                            "amount": "0.044000",
                             "percentGreen": "100"
                         }
                     ],

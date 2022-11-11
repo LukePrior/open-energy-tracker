@@ -292,17 +292,30 @@
                 "PAPER_BILL",
                 "BPAY"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "16.01"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "6.19",
-                "description": "CL1",
-                "displayName": "Controlled load"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "16.01"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "6.19",
+                    "description": "CL1",
+                    "displayName": "Controlled load"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "16.68"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "6.19",
+                    "description": "CL2",
+                    "displayName": "Controlled load"
+                }
+            ],
             "coolingOffDays": "10",
             "solarFeedInTariff": [
                 {
@@ -312,7 +325,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "6.70"
+                        "amount": "6.700000"
                     }
                 }
             ],

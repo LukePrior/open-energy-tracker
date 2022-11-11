@@ -265,17 +265,19 @@
                 "CREDIT_CARD",
                 "BPAY"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "18.72"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "1.00",
-                "description": "Controlled Load eligibility and hours of operation are as set by your Distributor",
-                "displayName": "Controlled Load 1 - Tariff 31"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "18.72"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "1.00",
+                    "description": "Controlled Load eligibility and hours of operation are as set by your Distributor",
+                    "displayName": "Controlled Load 1 - Tariff 31"
+                }
+            ],
             "onExpiryDescription": "No fixed term. This agreement continues on a rolling monthly or quarterly basis as per the bill frequency"
         }
     },

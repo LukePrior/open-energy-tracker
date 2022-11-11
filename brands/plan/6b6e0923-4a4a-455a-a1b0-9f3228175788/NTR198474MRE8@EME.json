@@ -409,17 +409,19 @@
                 "PAPER_BILL",
                 "BPAY"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "18.40"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "0.00",
-                "description": "Separately metered usage. The hours of application are determined by your Distributor, SAPN. Supply is usually available between 2300 and 0700 and between 1000 and 1500.",
-                "displayName": "Controlled Load 1"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "18.40"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. The hours of application are determined by your Distributor, SAPN. Supply is usually available between 2300 and 0700 and between 1000 and 1500.",
+                    "displayName": "Controlled Load 1"
+                }
+            ],
             "coolingOffDays": "10"
         }
     },

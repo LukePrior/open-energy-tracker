@@ -487,17 +487,19 @@
                 "BPAY",
                 "CREDIT_CARD"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "16.18"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "0.00",
-                "description": "CL1",
-                "displayName": "Controlled load"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "16.18"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "CL1",
+                    "displayName": "Controlled load"
+                }
+            ],
             "coolingOffDays": "10",
             "solarFeedInTariff": [
                 {
@@ -507,7 +509,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "44.00"
+                        "amount": "44.000000"
                     }
                 },
                 {
@@ -517,7 +519,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "44.00"
+                        "amount": "44.000000"
                     }
                 },
                 {
@@ -527,7 +529,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "44.00"
+                        "amount": "44.000000"
                     }
                 },
                 {
@@ -537,7 +539,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "8.00"
+                        "amount": "8.000000"
                     }
                 }
             ],

@@ -370,7 +370,7 @@
                     "rate": "1",
                     "term": "PERCENT_OF_BILL",
                     "type": "CC_PROCESSING",
-                    "amount": "0.00",
+                    "amount": "0.000000",
                     "description": "A fee of 1% applies to payments made by credit card"
                 },
                 {
@@ -522,17 +522,41 @@
                 "BPAY",
                 "PAPER_BILL"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "28.30"
-                    }
-                ],
-                "period": "P1Y",
-                "dailyCharge": "0.00",
-                "description": "0630 to 0930 and 1530 to 2330 on all days",
-                "displayName": "Controlled Load Peak"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "28.30"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "0630 to 0930 and 1530 to 2330 on all days",
+                    "displayName": "Controlled Load Peak"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "19.99"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "2330 to 0630 on all days",
+                    "displayName": "Controlled Load Off Peak"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "15.00"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "0930 to 1530 on all days",
+                    "displayName": "Controlled Load Shoulder"
+                }
+            ],
             "coolingOffDays": "10",
             "solarFeedInTariff": [
                 {
@@ -542,7 +566,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "6.00"
+                        "amount": "6.000000"
                     }
                 },
                 {
@@ -552,7 +576,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "2.50"
+                        "amount": "2.500000"
                     }
                 }
             ]

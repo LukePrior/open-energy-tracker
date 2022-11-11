@@ -307,23 +307,25 @@
                 "BPAY",
                 "CREDIT_CARD"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "17.12"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "0.00",
-                "description": "Separately metered usage. The hours of application are determined by your Distributor.",
-                "displayName": "Super Economy Tariff 31"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "17.12"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                    "displayName": "Super Economy Tariff 31"
+                }
+            ],
             "greenPowerCharges": [
                 {
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.049500",
                             "percentGreen": "10"
                         }
                     ],
@@ -334,7 +336,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.049500",
                             "percentGreen": "25"
                         }
                     ],
@@ -345,7 +347,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.049500",
                             "percentGreen": "100"
                         }
                     ],
@@ -361,7 +363,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "44.00"
+                        "amount": "44.000000"
                     }
                 },
                 {
@@ -371,7 +373,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "7.26"
+                        "amount": "7.260000"
                     }
                 }
             ],

@@ -419,7 +419,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "5.50"
+                        "amount": "5.500000"
                     }
                 }
             ]

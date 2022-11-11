@@ -197,32 +197,34 @@
                 "PAPER_BILL",
                 "BPAY"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "17.18"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "10.30",
-                "description": "Available for restricted periods not exceeding a total of 17 hours in any period of 24 hours",
-                "displayName": "Controlled Load 2"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "17.18"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "10.30",
+                    "description": "Available for restricted periods not exceeding a total of 17 hours in any period of 24 hours",
+                    "displayName": "Controlled Load 2"
+                }
+            ],
             "coolingOffDays": "10",
             "greenPowerCharges": [
                 {
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.01",
+                            "amount": "0.005500",
                             "percentGreen": "10"
                         },
                         {
-                            "amount": "0.01",
+                            "amount": "0.013750",
                             "percentGreen": "25"
                         },
                         {
-                            "amount": "0.06",
+                            "amount": "0.055000",
                             "percentGreen": "100"
                         }
                     ],
@@ -239,7 +241,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "8.00"
+                        "amount": "8.000000"
                     }
                 }
             ],

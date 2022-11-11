@@ -358,17 +358,30 @@
                 "BPAY",
                 "PAPER_BILL"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "17.25"
-                    }
-                ],
-                "period": "P1Y",
-                "dailyCharge": "0.00",
-                "description": "Supply will be available for a minimum 8 hours per day, at the discretion of the distributor, generally between 10pm and 7am.",
-                "displayName": "Tariff 31"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "17.25"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Supply will be available for a minimum 8 hours per day, at the discretion of the distributor, generally between 10pm and 7am.",
+                    "displayName": "Tariff 31"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "18.07"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Supply will be available for a minimum 18 hours per day, at the absolute discretion of the distributor.",
+                    "displayName": "Tariff 33"
+                }
+            ],
             "solarFeedInTariff": [
                 {
                     "scheme": "OTHER",
@@ -377,7 +390,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "44.00"
+                        "amount": "44.000000"
                     }
                 },
                 {
@@ -387,7 +400,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "5.00"
+                        "amount": "5.000000"
                     }
                 }
             ],

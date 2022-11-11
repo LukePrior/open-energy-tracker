@@ -477,17 +477,41 @@
                 "CREDIT_CARD",
                 "BPAY"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "37.10"
-                    }
-                ],
-                "period": "P1Y",
-                "dailyCharge": "0.00",
-                "description": "Controlled Load Two - Peak Charge",
-                "displayName": "Controlled Load Two - Peak Charge"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "37.10"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Controlled Load Two - Peak Charge",
+                    "displayName": "Controlled Load Two - Peak Charge"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "19.65"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Controlled Load Two - Shoulder Charge",
+                    "displayName": "Controlled Load Two - Shoulder Charge"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "22.92"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Controlled Load Two - Off Peak Charge",
+                    "displayName": "Controlled Load Two - Off Peak Charge"
+                }
+            ],
             "coolingOffDays": "10",
             "onExpiryDescription": "This Kogan Energy offer is an ongoing contract (until you or we end it) with no exit fees."
         }

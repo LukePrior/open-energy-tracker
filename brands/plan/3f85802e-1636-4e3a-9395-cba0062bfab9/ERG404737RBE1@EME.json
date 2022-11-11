@@ -330,17 +330,30 @@
                 "PAPER_BILL",
                 "BPAY"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "15.70"
-                    }
-                ],
-                "period": "P1Y",
-                "dailyCharge": "0.00",
-                "description": "Night rate (super economy)",
-                "displayName": "Tariff 31"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "15.70"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Night rate (super economy)",
+                    "displayName": "Tariff 31"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "17.40"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Controlled supply (economy)",
+                    "displayName": "Tariff 33"
+                }
+            ],
             "greenPowerCharges": [
                 {
                     "type": "PERCENT_OF_USE",
@@ -363,7 +376,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "9.30"
+                        "amount": "9.300000"
                     }
                 }
             ],

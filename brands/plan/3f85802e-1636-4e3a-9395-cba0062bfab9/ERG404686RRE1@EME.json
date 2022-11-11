@@ -315,23 +315,25 @@
                 "PAPER_BILL",
                 "BPAY"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "17.40"
-                    }
-                ],
-                "period": "P1Y",
-                "dailyCharge": "0.00",
-                "description": "Controlled supply (economy)",
-                "displayName": "Tariff 33"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "17.40"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Controlled supply (economy)",
+                    "displayName": "Tariff 33"
+                }
+            ],
             "greenPowerCharges": [
                 {
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "10.00",
+                            "amount": "10.000000",
                             "percentGreen": "10"
                         }
                     ],
@@ -343,7 +345,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "25.00",
+                            "amount": "25.000000",
                             "percentGreen": "25"
                         }
                     ],
@@ -355,7 +357,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "50.00",
+                            "amount": "50.000000",
                             "percentGreen": "50"
                         }
                     ],
@@ -367,7 +369,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "75.00",
+                            "amount": "75.000000",
                             "percentGreen": "75"
                         }
                     ],
@@ -379,7 +381,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "100.00",
+                            "amount": "100.000000",
                             "percentGreen": "100"
                         }
                     ],
@@ -396,7 +398,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "9.30"
+                        "amount": "9.300000"
                     }
                 }
             ],

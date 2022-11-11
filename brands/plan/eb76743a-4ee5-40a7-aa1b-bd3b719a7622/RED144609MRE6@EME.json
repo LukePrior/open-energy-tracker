@@ -421,24 +421,48 @@
                 "BPAY",
                 "PAPER_BILL"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "39.90"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "0.00",
-                "description": "Dedicated appliances, Peak rates apply Monday to Sunday, 6:30am to 9:30am and 3:30pm to 11:30pm.",
-                "displayName": "Controlled Load Peak"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "39.90"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Dedicated appliances, Peak rates apply Monday to Sunday, 6:30am to 9:30am and 3:30pm to 11:30pm.",
+                    "displayName": "Controlled Load Peak"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "16.00"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Dedicated appliances, Shoulder rates apply Monday to Sunday 9:30am to 3:30pm.",
+                    "displayName": "Controlled Load Shoulder"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "20.50"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Dedicated appliances, Off Peak rates apply Monday to Sunday, 11:30pm to 6:30am.",
+                    "displayName": "Controlled Load Off Peak"
+                }
+            ],
             "coolingOffDays": "10",
             "greenPowerCharges": [
                 {
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.048400",
                             "percentGreen": "100"
                         }
                     ],
@@ -454,7 +478,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "3.00"
+                        "amount": "3.000000"
                     }
                 },
                 {
@@ -464,7 +488,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "44.00"
+                        "amount": "44.000000"
                     }
                 }
             ],

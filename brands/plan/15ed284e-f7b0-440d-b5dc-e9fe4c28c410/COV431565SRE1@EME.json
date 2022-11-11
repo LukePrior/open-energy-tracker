@@ -213,17 +213,19 @@
                 "CREDIT_CARD",
                 "BPAY"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "23.06"
-                    }
-                ],
-                "period": "P1M",
-                "dailyCharge": "0.00",
-                "description": "Off-Peak, night period only (10pm to 7am)",
-                "displayName": "Tariff 62"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "23.06"
+                        }
+                    ],
+                    "period": "P1M",
+                    "dailyCharge": "0.00",
+                    "description": "Off-Peak, night period only (10pm to 7am)",
+                    "displayName": "Tariff 62"
+                }
+            ],
             "solarFeedInTariff": [
                 {
                     "scheme": "OTHER",
@@ -232,7 +234,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "8.88"
+                        "amount": "8.883000"
                     }
                 }
             ],

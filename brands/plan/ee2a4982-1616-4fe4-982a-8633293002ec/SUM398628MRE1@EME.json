@@ -362,17 +362,30 @@
                 "CREDIT_CARD",
                 "PAPER_BILL"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "17.90"
-                    }
-                ],
-                "period": "P1M",
-                "dailyCharge": "5.00",
-                "description": "-",
-                "displayName": "Controlled Load 1"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "17.90"
+                        }
+                    ],
+                    "period": "P1M",
+                    "dailyCharge": "5.00",
+                    "description": "-",
+                    "displayName": "Controlled Load 1"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "17.90"
+                        }
+                    ],
+                    "period": "P1M",
+                    "dailyCharge": "5.00",
+                    "description": "-",
+                    "displayName": "Controlled Load 2"
+                }
+            ],
             "coolingOffDays": "10",
             "solarFeedInTariff": [
                 {
@@ -382,7 +395,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "12.00"
+                        "amount": "12.000000"
                     }
                 },
                 {
@@ -392,7 +405,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "7.00"
+                        "amount": "7.000000"
                     }
                 }
             ],

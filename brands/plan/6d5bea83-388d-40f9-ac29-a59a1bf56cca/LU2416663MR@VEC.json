@@ -1,0 +1,152 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "lumo",
+        "planId": "LU2416663MR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Lumo Energy",
+        "geography": {
+            "distributors": [
+                "AusNet Services (gas)"
+            ],
+            "includedPostcodes": [
+                "3011",
+                "3012",
+                "3013",
+                "3015",
+                "3016",
+                "3018",
+                "3019",
+                "3020",
+                "3021",
+                "3022",
+                "3023",
+                "3025",
+                "3026",
+                "3027",
+                "3028",
+                "3031",
+                "3032",
+                "3033",
+                "3034",
+                "3036",
+                "3037",
+                "3038",
+                "3039",
+                "3040",
+                "3041",
+                "3042",
+                "3043",
+                "3044",
+                "3045",
+                "3046",
+                "3047",
+                "3048",
+                "3049",
+                "3055",
+                "3058",
+                "3059",
+                "3060",
+                "3061",
+                "3062",
+                "3063",
+                "3064",
+                "3428"
+            ]
+        },
+        "displayName": "Lumo Value",
+        "effectiveTo": "2022-10-12T13:00:00Z",
+        "gasContract": {
+            "terms": "For full terms and conditions applicable to this offer, please visit https://www.lumoenergy.com.au/terms",
+            "isFixed": true,
+            "termType": "OTHER",
+            "variation": "",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Fixed Rates until 31 October 2023",
+                    "displayName": "Fixed Rates until 31 October 2023",
+                    "eligibility": "Rates are fixed for the duration of the contract"
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is available to residential customers within the Ausnet Services Central 2 distribution zone and is subject to the identification of the network tariff and metering requirements."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.332"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.29"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "2.191"
+                            },
+                            {
+                                "unitPrice": "2.152"
+                            }
+                        ],
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Off Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "78.60"
+                },
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.727"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.49"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "2.193"
+                            },
+                            {
+                                "unitPrice": "2.186"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "78.60"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Contract ends 31 October 2023. Before the end date, you will be notified that when your contract terminates we will continue to sell you energy under a Standard Retail Contract unless you enter into a new retail contract."
+        },
+        "lastUpdated": "2022-10-12T20:14:01Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-08-02T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/lumo/cds-au/v1/energy/plans/LU2416663MR@VEC"
+    }
+}

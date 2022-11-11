@@ -169,7 +169,8 @@
             ]
         },
         "displayName": "Freedom Solar Online Business Single Demand (N93) CL2",
-        "lastUpdated": "2022-09-07T14:06:51.902Z",
+        "effectiveTo": "2022-11-15T00:00:00.000Z",
+        "lastUpdated": "2022-10-28T03:01:36.606Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-09-08T00:00:00.000Z",
         "electricityContract": {
@@ -327,24 +328,26 @@
                 "CREDIT_CARD",
                 "BPAY"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "42.80"
-                    }
-                ],
-                "period": "P1M",
-                "dailyCharge": "0.00",
-                "description": "Controlled Load 2",
-                "displayName": "Controlled Load"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "42.80"
+                        }
+                    ],
+                    "period": "P1M",
+                    "dailyCharge": "0.00",
+                    "description": "Controlled Load 2",
+                    "displayName": "Controlled Load"
+                }
+            ],
             "coolingOffDays": "10",
             "greenPowerCharges": [
                 {
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.01",
+                            "amount": "0.011000",
                             "percentGreen": "25"
                         }
                     ],
@@ -356,7 +359,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.02",
+                            "amount": "0.022000",
                             "percentGreen": "50"
                         }
                     ],
@@ -368,7 +371,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.04",
+                            "amount": "0.044000",
                             "percentGreen": "100"
                         }
                     ],
@@ -385,7 +388,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "5.50"
+                        "amount": "5.500000"
                     }
                 }
             ],

@@ -409,17 +409,19 @@
                 "PAPER_BILL",
                 "BPAY"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "18.40"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "0.00",
-                "description": "Separately metered usage. The hours of application are determined by your Distributor, SAPN. Shoulder period is generally between 0930 and 1530, Off Peak is generally between 2330 and 0630, Peak is all other times.",
-                "displayName": "Controlled Load"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "18.40"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. The hours of application are determined by your Distributor, SAPN. Shoulder period is generally between 0930 and 1530, Off Peak is generally between 2330 and 0630, Peak is all other times.",
+                    "displayName": "Controlled Load"
+                }
+            ],
             "coolingOffDays": "10"
         }
     },

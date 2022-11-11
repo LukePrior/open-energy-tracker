@@ -89,6 +89,7 @@
             ]
         },
         "displayName": "Freedom Business Gas AGN",
+        "effectiveTo": "2022-11-15T00:00:00.000Z",
         "gasContract": {
             "fees": [
                 {
@@ -200,7 +201,7 @@
             "coolingOffDays": "10",
             "onExpiryDescription": "This agreement continues until you or we end it."
         },
-        "lastUpdated": "2022-09-07T14:06:50.816Z",
+        "lastUpdated": "2022-10-31T02:31:19.928Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-09-08T00:00:00.000Z"
     },

@@ -326,7 +326,7 @@
                     "rate": "0.42",
                     "term": "PERCENT_OF_BILL",
                     "type": "CC_PROCESSING",
-                    "amount": "0.00",
+                    "amount": "0.000000",
                     "description": "Credit Card payment fee: You may be charged credit card fees in all channels (other than direct debit) of 0.42% for Visa."
                 },
                 {

@@ -297,17 +297,19 @@
                 "PAPER_BILL",
                 "BPAY"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "15.49"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "0.00",
-                "description": "Separately metered usage. The hours of application are determined by your Distributor, Ausgrid. Supply is usually available for at least 16 hours duration within any 24 hour period \u2013 midnight to midnight, with more than 4 hours between 0700 and 1700.\u200b",
-                "displayName": "Controlled Load 2"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "15.49"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. The hours of application are determined by your Distributor, Ausgrid. Supply is usually available for at least 16 hours duration within any 24 hour period \u2013 midnight to midnight, with more than 4 hours between 0700 and 1700.\u200b",
+                    "displayName": "Controlled Load 2"
+                }
+            ],
             "coolingOffDays": "10"
         }
     },

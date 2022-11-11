@@ -191,17 +191,19 @@
                 "CREDIT_CARD",
                 "BPAY"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "16.10"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "16.60",
-                "description": "Heating and hot water",
-                "displayName": "Tariff 41"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "16.10"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "16.60",
+                    "description": "Heating and hot water",
+                    "displayName": "Tariff 41"
+                }
+            ],
             "coolingOffDays": "10",
             "solarFeedInTariff": [
                 {
@@ -211,7 +213,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "10.00"
+                        "amount": "10.000000"
                     }
                 }
             ],

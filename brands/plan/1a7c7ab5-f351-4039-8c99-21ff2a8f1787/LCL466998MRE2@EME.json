@@ -1,0 +1,280 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "energy-locals",
+        "planId": "LCL466998MRE2@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Energy Locals",
+        "geography": {
+            "distributors": [
+                "Evoenergy"
+            ],
+            "includedPostcodes": [
+                "2600",
+                "2601",
+                "2602",
+                "2603",
+                "2604",
+                "2605",
+                "2606",
+                "2607",
+                "2609",
+                "2611",
+                "2612",
+                "2614",
+                "2615",
+                "2617",
+                "2618",
+                "2620",
+                "2900",
+                "2902",
+                "2903",
+                "2904",
+                "2905",
+                "2906",
+                "2911",
+                "2912",
+                "2913",
+                "2914"
+            ]
+        },
+        "displayName": "Local Member",
+        "lastUpdated": "2022-11-07T00:35:14.715Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-11-07T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "ANNUAL",
+                    "type": "MEMBERSHIP",
+                    "description": "Access wholesale energy rates with $19.99/month membership fee."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "description": "Charged when full payment has not been received by the invoice due date. This charge is not subject to GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "description": "Charged when a direct debit payment has dishonoured or reversed. This charge is not subject to GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "PAPER_BILL",
+                    "description": "Charged for providing a paper bill"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "May be charged when you move into a property or change retailer. Actual fee may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECT_MOVE_OUT",
+                    "description": "May be charged when you move out and require a final meter read. Actual fee may vary."
+                }
+            ],
+            "terms": "Our energy prices are determined by a range of factors, including government rebates, network fees and wholesale market costs. These factors are outside of our control, and we may need to change the amount you are charged for energy in response to any changes.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "Due to changes in the market and economic conditions, we may update your tariff and/or fees. We will provide at least 5 business days' notice before the change takes place.",
+            "meterTypes": [
+                "Type 4",
+                "Type 4a",
+                "Type 5",
+                "Type 6"
+            ],
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "Time of Use Tariff Period",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "name": "Peak",
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "30.91"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        null,
+                                        null,
+                                        null
+                                    ],
+                                    "endTime": "859",
+                                    "startTime": "700"
+                                },
+                                {
+                                    "days": [
+                                        null,
+                                        null,
+                                        null
+                                    ],
+                                    "endTime": "1959",
+                                    "startTime": "1700"
+                                }
+                            ],
+                            "description": "07:00 - 09:00; 17:00 - 20:00"
+                        },
+                        {
+                            "name": "Off Peak",
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "19.09"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        null,
+                                        null,
+                                        null
+                                    ],
+                                    "endTime": "659",
+                                    "startTime": "0"
+                                },
+                                {
+                                    "days": [
+                                        null,
+                                        null,
+                                        null
+                                    ],
+                                    "endTime": "2359",
+                                    "startTime": "2200"
+                                }
+                            ],
+                            "description": "00:00 - 07:00; 22:00 - 24:00"
+                        },
+                        {
+                            "name": "Shoulder",
+                            "type": "SHOULDER",
+                            "rates": [
+                                {
+                                    "unitPrice": "23.18"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        null,
+                                        null,
+                                        null
+                                    ],
+                                    "endTime": "1659",
+                                    "startTime": "900"
+                                },
+                                {
+                                    "days": [
+                                        null,
+                                        null,
+                                        null
+                                    ],
+                                    "endTime": "2159",
+                                    "startTime": "2000"
+                                }
+                            ],
+                            "description": "09:00 - 17:00; 20:00 - 22:00"
+                        }
+                    ],
+                    "dailySupplyCharges": "64.55"
+                }
+            ],
+            "billFrequency": [
+                "P1M",
+                "P3M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY"
+            ],
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "15.91"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Seperately metered usage",
+                    "displayName": "Controlled Load 2"
+                }
+            ],
+            "coolingOffDays": "10",
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.003900",
+                            "percentGreen": "10"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "10% GreenPower option.",
+                    "displayName": "10% GreenPower option."
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.019500",
+                            "percentGreen": "50"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "50% GreenPower option.",
+                    "displayName": "50% GreenPower option."
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.039000",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "100% GreenPower option.",
+                    "displayName": "100% GreenPower option."
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Retailer Feed-in Tariff (inc. GST, if any) | First 10 kWh/day",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "6.600000"
+                    }
+                },
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Retailer Feed-in Tariff (inc. GST, if any) | All Remaining kWh/day",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "6.600000"
+                    }
+                }
+            ],
+            "onExpiryDescription": "No fixed contract."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/LCL466998MRE2@EME"
+    }
+}

@@ -522,7 +522,7 @@
                     "type": "FIXED_PER_DAY",
                     "tiers": [
                         {
-                            "amount": "1.50",
+                            "amount": "1.500000",
                             "percentGreen": "100"
                         }
                     ],
@@ -539,7 +539,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "8.00"
+                        "amount": "8.000000"
                     }
                 }
             ],

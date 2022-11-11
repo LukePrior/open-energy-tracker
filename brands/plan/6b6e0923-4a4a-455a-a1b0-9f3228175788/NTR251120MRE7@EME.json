@@ -553,17 +553,19 @@
                 "DIRECT_DEBIT",
                 "CREDIT_CARD"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "14.50"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "0.00",
-                "description": "Separately metered usage. The hours of application are determined by your Distributor, Ausgrid. Supply is usually available for at least 6 hours duration within any 24 hour period \u2013 midnight to midnight",
-                "displayName": "Controlled Load 1"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "14.50"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. The hours of application are determined by your Distributor, Ausgrid. Supply is usually available for at least 6 hours duration within any 24 hour period \u2013 midnight to midnight",
+                    "displayName": "Controlled Load 1"
+                }
+            ],
             "coolingOffDays": "10",
             "solarFeedInTariff": [
                 {
@@ -573,7 +575,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "4.40"
+                        "amount": "4.400000"
                     }
                 }
             ],

@@ -291,17 +291,19 @@
                 "DIRECT_DEBIT",
                 "CREDIT_CARD"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "15.00"
-                    }
-                ],
-                "period": "P1Y",
-                "dailyCharge": "0.00",
-                "description": "Separately metered usage. The hours of application are determined by your Distributor.",
-                "displayName": "Controlled Load 2"
-            }
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "15.00"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                    "displayName": "Controlled Load 2"
+                }
+            ]
         }
     },
     "meta": {},

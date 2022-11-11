@@ -624,17 +624,41 @@
                 "DIRECT_DEBIT",
                 "PAPER_BILL"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "40.00"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "0.00",
-                "description": "Controlled Load - Peak - 07:00-09:00 & 15:00-23:00",
-                "displayName": "Controlled Load - Peak"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "40.00"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Controlled Load - Peak - 07:00-09:00 & 15:00-23:00",
+                    "displayName": "Controlled Load - Peak"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "23.60"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Controlled Load - Off Peak - 23:00 - 07:00",
+                    "displayName": "Controlled Load - Off Peak"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "12.76"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Controlled Load - Solar Sponge 09:00 - 15:00",
+                    "displayName": "Controlled Load - Solar Sponge"
+                }
+            ],
             "coolingOffDays": "10",
             "solarFeedInTariff": [
                 {
@@ -644,7 +668,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "6.00"
+                        "amount": "6.000000"
                     }
                 },
                 {
@@ -654,7 +678,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "44.00"
+                        "amount": "44.000000"
                     }
                 }
             ],

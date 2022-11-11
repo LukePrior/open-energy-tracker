@@ -404,17 +404,19 @@
                 "CREDIT_CARD",
                 "PAPER_BILL"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "16.43"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "0.00",
-                "description": "The hours of application are determined by your Distributor",
-                "displayName": "Controlled Load"
-            }
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "16.43"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "The hours of application are determined by your Distributor",
+                    "displayName": "Controlled Load"
+                }
+            ]
         }
     },
     "meta": {},

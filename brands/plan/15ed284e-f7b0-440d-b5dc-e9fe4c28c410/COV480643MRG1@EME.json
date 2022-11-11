@@ -17,6 +17,7 @@
             ]
         },
         "displayName": "Freedom Online Residential Gas",
+        "effectiveTo": "2022-11-15T00:00:00.000Z",
         "gasContract": {
             "fees": [
                 {
@@ -118,7 +119,7 @@
             "coolingOffDays": "10",
             "onExpiryDescription": "This agreement continues until you or we end it."
         },
-        "lastUpdated": "2022-09-07T14:06:38.118Z",
+        "lastUpdated": "2022-10-28T03:01:30.392Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-09-08T00:00:00.000Z"
     },

@@ -194,39 +194,41 @@
                 "CREDIT_CARD",
                 "BPAY"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "13.13"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "20.73",
-                "description": "OffPeak - with afternoon boost period",
-                "displayName": "Tariff 61"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "13.13"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "20.73",
+                    "description": "OffPeak - with afternoon boost period",
+                    "displayName": "Tariff 61"
+                }
+            ],
             "greenPowerCharges": [
                 {
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.01",
+                            "amount": "0.006020",
                             "percentGreen": "10"
                         },
                         {
-                            "amount": "0.01",
+                            "amount": "0.012050",
                             "percentGreen": "20"
                         },
                         {
-                            "amount": "0.03",
+                            "amount": "0.030120",
                             "percentGreen": "50"
                         },
                         {
-                            "amount": "0.05",
+                            "amount": "0.045170",
                             "percentGreen": "75"
                         },
                         {
-                            "amount": "0.06",
+                            "amount": "0.060230",
                             "percentGreen": "100"
                         }
                     ],
@@ -243,7 +245,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "8.88"
+                        "amount": "8.883000"
                     }
                 }
             ],

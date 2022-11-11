@@ -336,17 +336,19 @@
                 "CREDIT_CARD",
                 "BPAY"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "17.81"
-                    }
-                ],
-                "period": "P1Y",
-                "dailyCharge": "4.45",
-                "description": "Rate",
-                "displayName": "Controlled Load Two"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "17.81"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "4.45",
+                    "description": "Rate",
+                    "displayName": "Controlled Load Two"
+                }
+            ],
             "onExpiryDescription": "This Powershop offer is an ongoing contract (until you or we end it) with no exit fees."
         }
     },

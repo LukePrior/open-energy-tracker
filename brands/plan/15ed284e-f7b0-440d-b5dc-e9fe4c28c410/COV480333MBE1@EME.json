@@ -315,7 +315,8 @@
             ]
         },
         "displayName": "Freedom Online Business Single CL2",
-        "lastUpdated": "2022-09-07T14:07:51.076Z",
+        "effectiveTo": "2022-11-15T00:00:00.000Z",
+        "lastUpdated": "2022-10-28T03:02:22.573Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-09-08T00:00:00.000Z",
         "electricityContract": {
@@ -423,24 +424,26 @@
                 "CREDIT_CARD",
                 "BPAY"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "45.67"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "0.00",
-                "description": "Controlled Load 2",
-                "displayName": "Controlled Load 2"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "45.67"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Controlled Load 2",
+                    "displayName": "Controlled Load 2"
+                }
+            ],
             "coolingOffDays": "10",
             "greenPowerCharges": [
                 {
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.01",
+                            "amount": "0.011000",
                             "percentGreen": "25"
                         }
                     ],
@@ -452,7 +455,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.02",
+                            "amount": "0.022000",
                             "percentGreen": "50"
                         }
                     ],
@@ -464,7 +467,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.04",
+                            "amount": "0.044000",
                             "percentGreen": "100"
                         }
                     ],
