@@ -2,7 +2,7 @@
     "data": {
         "type": "STANDING",
         "brand": "reamped",
-        "planId": "REA251071SBE3@EME",
+        "planId": "REA251071SBE4@EME",
         "fuelType": "ELECTRICITY",
         "brandName": "ReAmped Energy",
         "geography": {
@@ -346,9 +346,9 @@
             ]
         },
         "displayName": "ReAmped Standard Business | Anytime & CL1",
-        "lastUpdated": "2022-06-30T14:15:22.414Z",
+        "lastUpdated": "2022-11-11T02:49:09.589Z",
         "customerType": "BUSINESS",
-        "effectiveFrom": "2022-07-01T00:00:00.000Z",
+        "effectiveFrom": "2022-11-11T00:00:00.000Z",
         "electricityContract": {
             "fees": [
                 {
@@ -380,7 +380,7 @@
                         "rates": [
                             {
                                 "volume": null,
-                                "unitPrice": "47.13"
+                                "unitPrice": "38.85"
                             }
                         ],
                         "period": "P1Y",
@@ -388,7 +388,7 @@
                     },
                     "displayName": "Usage Charges",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "97.00"
+                    "dailySupplyCharges": "63.64"
                 }
             ],
             "billFrequency": [
@@ -415,6 +415,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/reamped/cds-au/v1/energy/plans/REA251071SBE3@EME"
+        "self": "https://cdr.energymadeeasy.gov.au/reamped/cds-au/v1/energy/plans/REA251071SBE4@EME"
     }
 }
