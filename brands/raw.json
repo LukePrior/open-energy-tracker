@@ -14,6 +14,18 @@
             "lastUpdated": "2022-11-08T23:12:40Z"
         },
         {
+            "dataHolderBrandId": "d177e382-b12d-ed11-a832-000d3a8830d6",
+            "interimId": "a94e942b-6d39-4b4d-9b31-88e7cb65f6d1",
+            "brandName": "AGL",
+            "industries": [
+                "energy"
+            ],
+            "logoUri": "https://www.agl.com.au/content/dam/digital/agl/icons/logo-secondary-color-small.png",
+            "publicBaseUri": "https://public.cdr.agl.com.au",
+            "abn": "74115061375",
+            "lastUpdated": "2022-11-14T23:08:09Z"
+        },
+        {
             "interimId": "78943358-0f53-4518-ac7d-f6a1903e276d",
             "brandName": "1st Energy",
             "industries": [
@@ -41,16 +53,6 @@
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/active-utilities",
-            "lastUpdated": "2022-10-21T05:35:24Z"
-        },
-        {
-            "interimId": "a94e942b-6d39-4b4d-9b31-88e7cb65f6d1",
-            "brandName": "AGL",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://www.agl.com.au/content/dam/digital/agl/icons/logo-secondary-color-small.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/agl",
             "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
