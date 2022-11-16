@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "Living Energy Saver",
-        "lastUpdated": "2022-07-07T04:42:24Z",
+        "effectiveTo": "2022-11-15T13:00:00Z",
+        "lastUpdated": "2022-11-15T20:23:27Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-10T14:00:00Z",
         "electricityContract": {

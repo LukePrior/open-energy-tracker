@@ -1,0 +1,182 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "lumo",
+        "planId": "LU2430106MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Lumo Energy",
+        "geography": {
+            "distributors": [
+                "Jemena"
+            ],
+            "includedPostcodes": [
+                "3011",
+                "3012",
+                "3013",
+                "3015",
+                "3016",
+                "3019",
+                "3020",
+                "3023",
+                "3025",
+                "3031",
+                "3032",
+                "3033",
+                "3034",
+                "3036",
+                "3037",
+                "3038",
+                "3039",
+                "3040",
+                "3041",
+                "3042",
+                "3043",
+                "3044",
+                "3045",
+                "3046",
+                "3047",
+                "3048",
+                "3049",
+                "3051",
+                "3052",
+                "3058",
+                "3059",
+                "3060",
+                "3061",
+                "3062",
+                "3063",
+                "3064",
+                "3068",
+                "3070",
+                "3072",
+                "3073",
+                "3074",
+                "3076",
+                "3078",
+                "3079",
+                "3081",
+                "3083",
+                "3084",
+                "3085",
+                "3086",
+                "3087",
+                "3335",
+                "3336",
+                "3337",
+                "3340",
+                "3427",
+                "3428",
+                "3429",
+                "3430",
+                "3431",
+                "3437",
+                "3750",
+                "3753"
+            ]
+        },
+        "displayName": "Lumo Basic",
+        "lastUpdated": "2022-11-07T04:01:26Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-11-15T13:00:00Z",
+        "electricityContract": {
+            "terms": "For full terms and conditions applicable to this offer, please visit https://www.lumoenergy.com.au/terms. Solar Feed-In Terms and Conditions can be found at https://www.lumoenergy.com.au/metering-and-solar/solar-energy",
+            "isFixed": false,
+            "timeZone": "AEST",
+            "variation": "We may vary your rates in line with our Terms and Conditions and in accordance with the Regulatory Requirements. We will give you written notice of at least 5 business days prior to the variation.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Free Standard Moves",
+                    "displayName": "Free Standard Moves",
+                    "eligibility": "We will cover the costs for standard connections and disconnections when you move and reconnect with Lumo in Victoria. Exclusions and conditions apply. See lumoenergy.com.au/freemoves for full details."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is available to Residential customers and is subject to the identification of the network tariff and metering requirements."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "19.35"
+                            }
+                        ],
+                        "displayName": "Rate"
+                    },
+                    "displayName": "Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "97.87"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "14.80"
+                            }
+                        ],
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Hot Water Usage",
+                    "rateBlockUType": "singleRate"
+                }
+            ],
+            "coolingOffDays": 10,
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0484",
+                            "percentGreen": "10"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "For an extra 4.84 cents per kWh Lumo will purchase 10% of your consumption from GreenPower accredited sources.",
+                    "displayName": "GreenPower 10"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Feed-In Tariff",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.20"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "Premium Feed-In Tariff (If eligible)",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "66.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us. No exit fees."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/lumo/cds-au/v1/energy/plans/LU2430106MR@VEC"
+    }
+}
