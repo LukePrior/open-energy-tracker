@@ -1,0 +1,215 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "energy-locals",
+        "planId": "LCL466991MRE3@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Energy Locals",
+        "geography": {
+            "distributors": [
+                "Evoenergy"
+            ],
+            "includedPostcodes": [
+                "2600",
+                "2601",
+                "2602",
+                "2603",
+                "2604",
+                "2605",
+                "2606",
+                "2607",
+                "2609",
+                "2611",
+                "2612",
+                "2614",
+                "2615",
+                "2617",
+                "2618",
+                "2620",
+                "2900",
+                "2902",
+                "2903",
+                "2904",
+                "2905",
+                "2906",
+                "2911",
+                "2912",
+                "2913",
+                "2914"
+            ]
+        },
+        "displayName": "Local Member",
+        "lastUpdated": "2022-11-22T21:31:18.693Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-11-23T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "ANNUAL",
+                    "type": "MEMBERSHIP",
+                    "description": "Access wholesale energy rates with $19.99/month membership fee."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "description": "Charged when full payment has not been received by the invoice due date. This charge is not subject to GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "description": "Charged when a direct debit payment has dishonoured or reversed. This charge is not subject to GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "PAPER_BILL",
+                    "description": "Charged for providing a paper bill"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "May be charged when you move into a property or change retailer. Actual fee may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECT_MOVE_OUT",
+                    "description": "May be charged when you move out and require a final meter read. Actual fee may vary."
+                }
+            ],
+            "terms": "Our energy prices are determined by a range of factors, including government rebates, network fees and wholesale market costs. These factors are outside of our control, and we may need to change the amount you are charged for energy in response to any changes.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "Due to changes in the market and economic conditions, we may update your tariff and/or fees. We will provide at least 5 business days' notice before the change takes place.",
+            "meterTypes": [
+                "Type 4",
+                "Type 4a",
+                "Type 5",
+                "Type 6"
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": null,
+                                "unitPrice": "19.090900"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "Any time",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Single Rate Tariff Period",
+                    "demandCharges": [
+                        {
+                            "days": {
+                                "sunday": false,
+                                "saturday": false,
+                                "weekdays": false
+                            },
+                            "amount": "19.55",
+                            "endTime": "0000",
+                            "startTime": "0000",
+                            "description": "Demand Charge  All kW (c/kW Daily). Uses the maximum kW consumption from the meter readings within the period Mon - Fri, 17:00 - 20:00.",
+                            "displayName": "Peak Demand",
+                            "chargePeriod": "TARIFF_PERIOD",
+                            "measurementPeriod": "TARIFF_PERIOD"
+                        }
+                    ],
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "77.27"
+                }
+            ],
+            "billFrequency": [
+                "P1M",
+                "P3M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY"
+            ],
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "18.18"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Seperately metered usage",
+                    "displayName": "Controlled Load 1"
+                }
+            ],
+            "coolingOffDays": "10",
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.003900",
+                            "percentGreen": "10"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "10% GreenPower option.",
+                    "displayName": "10% GreenPower option."
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.019500",
+                            "percentGreen": "50"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "50% GreenPower option.",
+                    "displayName": "50% GreenPower option."
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.039000",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "100% GreenPower option.",
+                    "displayName": "100% GreenPower option."
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Retailer Feed-in Tariff (inc. GST, if any) | First 10 kWh/day",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "6.600000"
+                    }
+                },
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Retailer Feed-in Tariff (inc. GST, if any) | All Remaining kWh/day",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "6.600000"
+                    }
+                }
+            ],
+            "onExpiryDescription": "No fixed contract."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/LCL466991MRE3@EME"
+    }
+}
