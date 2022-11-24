@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "sumo-power",
-        "planId": "SUM508267MRE1@EME",
+        "planId": "SUM508266MRE2@EME",
         "fuelType": "ELECTRICITY",
         "brandName": "Sumo",
         "geography": {
@@ -137,15 +137,80 @@
                 "2551",
                 "2577",
                 "2579",
+                "2650",
+                "2651",
+                "2652",
+                "2653",
+                "2655",
+                "2656",
+                "2658",
+                "2659",
+                "2660",
+                "2661",
+                "2663",
+                "2665",
+                "2666",
+                "2668",
+                "2669",
+                "2671",
+                "2672",
+                "2675",
+                "2678",
+                "2680",
+                "2681",
+                "2700",
+                "2701",
+                "2702",
+                "2703",
+                "2705",
+                "2706",
+                "2707",
+                "2710",
                 "2711",
                 "2712",
+                "2713",
                 "2714",
+                "2715",
                 "2716",
                 "2717",
+                "2720",
+                "2721",
+                "2722",
+                "2725",
+                "2726",
+                "2727",
+                "2729",
+                "2730",
+                "2731",
+                "2732",
+                "2733",
+                "2734",
+                "2735",
+                "2736",
+                "2737",
+                "2738",
+                "2739",
                 "2787",
                 "2790",
+                "2791",
+                "2792",
+                "2793",
+                "2794",
                 "2795",
+                "2797",
+                "2798",
+                "2799",
+                "2800",
+                "2803",
+                "2804",
+                "2805",
+                "2806",
+                "2807",
+                "2808",
+                "2809",
+                "2810",
                 "2817",
+                "2818",
                 "2820",
                 "2821",
                 "2822",
@@ -172,6 +237,22 @@
                 "2849",
                 "2850",
                 "2852",
+                "2864",
+                "2865",
+                "2866",
+                "2867",
+                "2868",
+                "2869",
+                "2870",
+                "2871",
+                "2873",
+                "2874",
+                "2875",
+                "2876",
+                "2877",
+                "2878",
+                "2879",
+                "2880",
                 "3644",
                 "3691",
                 "3707",
@@ -195,10 +276,10 @@
                 "4498"
             ]
         },
-        "displayName": "Sumo Assure Residential TOU",
-        "lastUpdated": "2022-11-15T14:09:30.964Z",
+        "displayName": "Sumo Assure Residential",
+        "lastUpdated": "2022-11-23T02:13:09.152Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2022-11-16T00:00:00.000Z",
+        "effectiveFrom": "2022-11-23T00:00:00.000Z",
         "electricityContract": {
             "fees": [
                 {
@@ -231,115 +312,25 @@
                 "Type 5",
                 "Type 4"
             ],
-            "pricingModel": "TIME_OF_USE",
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
             "tariffPeriod": [
                 {
                     "endDate": "11-15",
                     "startDate": "11-16",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": null,
+                                "unitPrice": "26.300000"
+                            }
+                        ],
+                        "period": "P1M",
+                        "description": "Peak",
+                        "displayName": "Single Rate Block"
+                    },
                     "displayName": "Full Year",
-                    "rateBlockUType": "timeOfUseRates",
-                    "timeOfUseRates": [
-                        {
-                            "name": "Peak",
-                            "type": "PEAK",
-                            "rates": [
-                                {
-                                    "unitPrice": "33.80"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MONDAY",
-                                        "TUESDAY",
-                                        "WEDNESDAY",
-                                        "THURSDAY",
-                                        "FRIDAY"
-                                    ],
-                                    "endTime": "1959",
-                                    "startTime": "1700"
-                                }
-                            ],
-                            "description": "Peak"
-                        },
-                        {
-                            "name": "Off Peak",
-                            "type": "OFF_PEAK",
-                            "rates": [
-                                {
-                                    "unitPrice": "19.00"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MONDAY",
-                                        "TUESDAY",
-                                        "WEDNESDAY",
-                                        "THURSDAY",
-                                        "FRIDAY"
-                                    ],
-                                    "endTime": "2359",
-                                    "startTime": "2200"
-                                },
-                                {
-                                    "days": [
-                                        "MONDAY",
-                                        "TUESDAY",
-                                        "WEDNESDAY",
-                                        "THURSDAY",
-                                        "FRIDAY"
-                                    ],
-                                    "endTime": "659",
-                                    "startTime": "0"
-                                },
-                                {
-                                    "days": [
-                                        "SATURDAY",
-                                        "SUNDAY"
-                                    ],
-                                    "endTime": "2359",
-                                    "startTime": "0"
-                                }
-                            ],
-                            "description": "Off Peak"
-                        },
-                        {
-                            "name": "Shoulder",
-                            "type": "SHOULDER",
-                            "rates": [
-                                {
-                                    "unitPrice": "28.50"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MONDAY",
-                                        "TUESDAY",
-                                        "WEDNESDAY",
-                                        "THURSDAY",
-                                        "FRIDAY"
-                                    ],
-                                    "endTime": "1659",
-                                    "startTime": "700"
-                                },
-                                {
-                                    "days": [
-                                        "MONDAY",
-                                        "TUESDAY",
-                                        "WEDNESDAY",
-                                        "THURSDAY",
-                                        "FRIDAY"
-                                    ],
-                                    "endTime": "2159",
-                                    "startTime": "2000"
-                                }
-                            ],
-                            "description": "Shoulder"
-                        }
-                    ],
-                    "dailySupplyCharges": "147.00"
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "130.00"
                 }
             ],
             "billFrequency": [
@@ -347,6 +338,30 @@
             ],
             "paymentOption": [
                 "DIRECT_DEBIT"
+            ],
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "18.50"
+                        }
+                    ],
+                    "period": "P1M",
+                    "dailyCharge": "10.00",
+                    "description": "-",
+                    "displayName": "Controlled Load 1"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "19.90"
+                        }
+                    ],
+                    "period": "P1M",
+                    "dailyCharge": "15.00",
+                    "description": "-",
+                    "displayName": "Controlled Load 2"
+                }
             ],
             "coolingOffDays": "10",
             "solarFeedInTariff": [
@@ -365,6 +380,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/sumo-power/cds-au/v1/energy/plans/SUM508267MRE1@EME"
+        "self": "https://cdr.energymadeeasy.gov.au/sumo-power/cds-au/v1/energy/plans/SUM508266MRE2@EME"
     }
 }

@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "sumo-power",
-        "planId": "SUM508258MRE1@EME",
+        "planId": "SUM508263MRE2@EME",
         "fuelType": "ELECTRICITY",
         "brandName": "Sumo",
         "geography": {
@@ -167,10 +167,10 @@
                 "2850"
             ]
         },
-        "displayName": "Sumo Assure Residential",
-        "lastUpdated": "2022-11-15T14:09:29.975Z",
+        "displayName": "Sumo Assure Residential Demand",
+        "lastUpdated": "2022-11-23T02:13:09.608Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2022-11-16T00:00:00.000Z",
+        "effectiveFrom": "2022-11-23T00:00:00.000Z",
         "electricityContract": {
             "fees": [
                 {
@@ -203,7 +203,7 @@
                 "Type 5",
                 "Type 4"
             ],
-            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "pricingModel": "SINGLE_RATE",
             "tariffPeriod": [
                 {
                     "endDate": "11-15",
@@ -212,7 +212,7 @@
                         "rates": [
                             {
                                 "volume": null,
-                                "unitPrice": "22.800000"
+                                "unitPrice": "20.000000"
                             }
                         ],
                         "period": "P1M",
@@ -220,8 +220,38 @@
                         "displayName": "Single Rate Block"
                     },
                     "displayName": "Full Year",
+                    "demandCharges": [
+                        {
+                            "days": {
+                                "sunday": false,
+                                "saturday": false,
+                                "weekdays": false
+                            },
+                            "amount": "16.00",
+                            "endTime": "0000",
+                            "startTime": "0000",
+                            "description": "Summer Demand (Cents/KW/Day)",
+                            "displayName": "Demand",
+                            "chargePeriod": "TARIFF_PERIOD",
+                            "measurementPeriod": "TARIFF_PERIOD"
+                        },
+                        {
+                            "days": {
+                                "sunday": false,
+                                "saturday": false,
+                                "weekdays": false
+                            },
+                            "amount": "6.00",
+                            "endTime": "0000",
+                            "startTime": "0000",
+                            "description": "Winter Demand (Cents/KW/Day)",
+                            "displayName": "Demand",
+                            "chargePeriod": "TARIFF_PERIOD",
+                            "measurementPeriod": "TARIFF_PERIOD"
+                        }
+                    ],
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "84.00"
+                    "dailySupplyCharges": "105.00"
                 }
             ],
             "billFrequency": [
@@ -229,30 +259,6 @@
             ],
             "paymentOption": [
                 "DIRECT_DEBIT"
-            ],
-            "controlledLoad": [
-                {
-                    "rates": [
-                        {
-                            "unitPrice": "14.10"
-                        }
-                    ],
-                    "period": "P1M",
-                    "dailyCharge": "5.00",
-                    "description": "-",
-                    "displayName": "Controlled Load 1"
-                },
-                {
-                    "rates": [
-                        {
-                            "unitPrice": "15.10"
-                        }
-                    ],
-                    "period": "P1M",
-                    "dailyCharge": "5.00",
-                    "description": "-",
-                    "displayName": "Controlled Load 2"
-                }
             ],
             "coolingOffDays": "10",
             "solarFeedInTariff": [
@@ -271,6 +277,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/sumo-power/cds-au/v1/energy/plans/SUM508258MRE1@EME"
+        "self": "https://cdr.energymadeeasy.gov.au/sumo-power/cds-au/v1/energy/plans/SUM508263MRE2@EME"
     }
 }

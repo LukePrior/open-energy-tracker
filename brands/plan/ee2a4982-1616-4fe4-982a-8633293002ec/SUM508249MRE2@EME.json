@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "sumo-power",
-        "planId": "SUM508247MRE1@EME",
+        "planId": "SUM508249MRE2@EME",
         "fuelType": "ELECTRICITY",
         "brandName": "Sumo",
         "geography": {
@@ -238,10 +238,10 @@
                 "2775"
             ]
         },
-        "displayName": "Sumo Assure Residential",
-        "lastUpdated": "2022-11-15T14:09:31.238Z",
+        "displayName": "Sumo Assure Residential Transitional TOU",
+        "lastUpdated": "2022-11-23T02:13:09.469Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2022-11-16T00:00:00.000Z",
+        "effectiveFrom": "2022-11-23T00:00:00.000Z",
         "electricityContract": {
             "fees": [
                 {
@@ -287,7 +287,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "41.70"
+                                    "unitPrice": "23.50"
                                 }
                             ],
                             "timeOfUse": [
@@ -310,7 +310,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "19.00"
+                                    "unitPrice": "23.50"
                                 }
                             ],
                             "timeOfUse": [
@@ -348,7 +348,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "21.00"
+                                    "unitPrice": "23.50"
                                 }
                             ],
                             "timeOfUse": [
@@ -386,7 +386,7 @@
                             "description": "Shoulder"
                         }
                     ],
-                    "dailySupplyCharges": "100.00"
+                    "dailySupplyCharges": "80.00"
                 }
             ],
             "billFrequency": [
@@ -412,6 +412,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/sumo-power/cds-au/v1/energy/plans/SUM508247MRE1@EME"
+        "self": "https://cdr.energymadeeasy.gov.au/sumo-power/cds-au/v1/energy/plans/SUM508249MRE2@EME"
     }
 }

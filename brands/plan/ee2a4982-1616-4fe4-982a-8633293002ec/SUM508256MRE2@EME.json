@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "sumo-power",
-        "planId": "SUM508246MRE1@EME",
+        "planId": "SUM508256MRE2@EME",
         "fuelType": "ELECTRICITY",
         "brandName": "Sumo",
         "geography": {
@@ -238,10 +238,10 @@
                 "2775"
             ]
         },
-        "displayName": "Sumo Assure Residential",
-        "lastUpdated": "2022-11-15T14:09:32.126Z",
+        "displayName": "Sumo Assure Residential Demand",
+        "lastUpdated": "2022-11-23T02:13:09.554Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2022-11-16T00:00:00.000Z",
+        "effectiveFrom": "2022-11-23T00:00:00.000Z",
         "electricityContract": {
             "fees": [
                 {
@@ -283,7 +283,7 @@
                         "rates": [
                             {
                                 "volume": null,
-                                "unitPrice": "23.500000"
+                                "unitPrice": "20.600000"
                             }
                         ],
                         "period": "P1M",
@@ -291,8 +291,38 @@
                         "displayName": "Single Rate Block"
                     },
                     "displayName": "Full Year",
+                    "demandCharges": [
+                        {
+                            "days": {
+                                "sunday": false,
+                                "saturday": false,
+                                "weekdays": false
+                            },
+                            "amount": "24.00",
+                            "endTime": "0000",
+                            "startTime": "0000",
+                            "description": "Summer Demand (Cents/KW/Day)",
+                            "displayName": "Demand",
+                            "chargePeriod": "TARIFF_PERIOD",
+                            "measurementPeriod": "TARIFF_PERIOD"
+                        },
+                        {
+                            "days": {
+                                "sunday": false,
+                                "saturday": false,
+                                "weekdays": false
+                            },
+                            "amount": "14.00",
+                            "endTime": "0000",
+                            "startTime": "0000",
+                            "description": "Winter Demand (Cents/KW/Day)",
+                            "displayName": "Demand",
+                            "chargePeriod": "TARIFF_PERIOD",
+                            "measurementPeriod": "TARIFF_PERIOD"
+                        }
+                    ],
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "80.00"
+                    "dailySupplyCharges": "97.00"
                 }
             ],
             "billFrequency": [
@@ -342,6 +372,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/sumo-power/cds-au/v1/energy/plans/SUM508246MRE1@EME"
+        "self": "https://cdr.energymadeeasy.gov.au/sumo-power/cds-au/v1/energy/plans/SUM508256MRE2@EME"
     }
 }

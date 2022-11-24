@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "sumo-power",
-        "planId": "SUM508253MRE1@EME",
+        "planId": "SUM508247MRE2@EME",
         "fuelType": "ELECTRICITY",
         "brandName": "Sumo",
         "geography": {
@@ -238,10 +238,10 @@
                 "2775"
             ]
         },
-        "displayName": "Sumo Assure Residential Demand TOU",
-        "lastUpdated": "2022-11-15T14:09:31.466Z",
+        "displayName": "Sumo Assure Residential",
+        "lastUpdated": "2022-11-23T02:13:09.257Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2022-11-16T00:00:00.000Z",
+        "effectiveFrom": "2022-11-23T00:00:00.000Z",
         "electricityContract": {
             "fees": [
                 {
@@ -280,36 +280,6 @@
                     "endDate": "11-15",
                     "startDate": "11-16",
                     "displayName": "Full Year",
-                    "demandCharges": [
-                        {
-                            "days": {
-                                "sunday": false,
-                                "saturday": false,
-                                "weekdays": false
-                            },
-                            "amount": "4.20",
-                            "endTime": "0000",
-                            "startTime": "0000",
-                            "description": "Summer Demand (Cents/KW/Day)",
-                            "displayName": "Demand",
-                            "chargePeriod": "TARIFF_PERIOD",
-                            "measurementPeriod": "TARIFF_PERIOD"
-                        },
-                        {
-                            "days": {
-                                "sunday": false,
-                                "saturday": false,
-                                "weekdays": false
-                            },
-                            "amount": "4.20",
-                            "endTime": "0000",
-                            "startTime": "0000",
-                            "description": "Winter Demand (Cents/KW/Day)",
-                            "displayName": "Demand",
-                            "chargePeriod": "TARIFF_PERIOD",
-                            "measurementPeriod": "TARIFF_PERIOD"
-                        }
-                    ],
                     "rateBlockUType": "timeOfUseRates",
                     "timeOfUseRates": [
                         {
@@ -317,7 +287,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "42.10"
+                                    "unitPrice": "41.70"
                                 }
                             ],
                             "timeOfUse": [
@@ -340,7 +310,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "19.50"
+                                    "unitPrice": "19.00"
                                 }
                             ],
                             "timeOfUse": [
@@ -378,7 +348,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "20.00"
+                                    "unitPrice": "21.00"
                                 }
                             ],
                             "timeOfUse": [
@@ -416,7 +386,7 @@
                             "description": "Shoulder"
                         }
                     ],
-                    "dailySupplyCharges": "108.00"
+                    "dailySupplyCharges": "100.00"
                 }
             ],
             "billFrequency": [
@@ -442,6 +412,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/sumo-power/cds-au/v1/energy/plans/SUM508253MRE1@EME"
+        "self": "https://cdr.energymadeeasy.gov.au/sumo-power/cds-au/v1/energy/plans/SUM508247MRE2@EME"
     }
 }

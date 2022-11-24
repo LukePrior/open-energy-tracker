@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "sumo-power",
-        "planId": "SUM508259MRE1@EME",
+        "planId": "SUM508257MRE2@EME",
         "fuelType": "ELECTRICITY",
         "brandName": "Sumo",
         "geography": {
@@ -167,10 +167,10 @@
                 "2850"
             ]
         },
-        "displayName": "Sumo Assure Residential TOU",
-        "lastUpdated": "2022-11-15T14:09:29.880Z",
+        "displayName": "Sumo Assure Residential",
+        "lastUpdated": "2022-11-23T02:13:08.826Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2022-11-16T00:00:00.000Z",
+        "effectiveFrom": "2022-11-23T00:00:00.000Z",
         "electricityContract": {
             "fees": [
                 {
@@ -203,115 +203,25 @@
                 "Type 5",
                 "Type 4"
             ],
-            "pricingModel": "TIME_OF_USE",
+            "pricingModel": "SINGLE_RATE",
             "tariffPeriod": [
                 {
                     "endDate": "11-15",
                     "startDate": "11-16",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": null,
+                                "unitPrice": "22.800000"
+                            }
+                        ],
+                        "period": "P1M",
+                        "description": "Peak",
+                        "displayName": "Single Rate Block"
+                    },
                     "displayName": "Full Year",
-                    "rateBlockUType": "timeOfUseRates",
-                    "timeOfUseRates": [
-                        {
-                            "name": "Peak",
-                            "type": "PEAK",
-                            "rates": [
-                                {
-                                    "unitPrice": "29.00"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MONDAY",
-                                        "TUESDAY",
-                                        "WEDNESDAY",
-                                        "THURSDAY",
-                                        "FRIDAY"
-                                    ],
-                                    "endTime": "1959",
-                                    "startTime": "1300"
-                                }
-                            ],
-                            "description": "Peak"
-                        },
-                        {
-                            "name": "Off Peak",
-                            "type": "OFF_PEAK",
-                            "rates": [
-                                {
-                                    "unitPrice": "23.40"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MONDAY",
-                                        "TUESDAY",
-                                        "WEDNESDAY",
-                                        "THURSDAY",
-                                        "FRIDAY"
-                                    ],
-                                    "endTime": "2359",
-                                    "startTime": "2200"
-                                },
-                                {
-                                    "days": [
-                                        "MONDAY",
-                                        "TUESDAY",
-                                        "WEDNESDAY",
-                                        "THURSDAY",
-                                        "FRIDAY"
-                                    ],
-                                    "endTime": "659",
-                                    "startTime": "0"
-                                },
-                                {
-                                    "days": [
-                                        "SATURDAY",
-                                        "SUNDAY"
-                                    ],
-                                    "endTime": "2359",
-                                    "startTime": "0"
-                                }
-                            ],
-                            "description": "Off Peak"
-                        },
-                        {
-                            "name": "Shoulder",
-                            "type": "SHOULDER",
-                            "rates": [
-                                {
-                                    "unitPrice": "24.20"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MONDAY",
-                                        "TUESDAY",
-                                        "WEDNESDAY",
-                                        "THURSDAY",
-                                        "FRIDAY"
-                                    ],
-                                    "endTime": "1259",
-                                    "startTime": "700"
-                                },
-                                {
-                                    "days": [
-                                        "MONDAY",
-                                        "TUESDAY",
-                                        "WEDNESDAY",
-                                        "THURSDAY",
-                                        "FRIDAY"
-                                    ],
-                                    "endTime": "2159",
-                                    "startTime": "2000"
-                                }
-                            ],
-                            "description": "Shoulder"
-                        }
-                    ],
-                    "dailySupplyCharges": "95.00"
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "84.00"
                 }
             ],
             "billFrequency": [
@@ -337,6 +247,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/sumo-power/cds-au/v1/energy/plans/SUM508259MRE1@EME"
+        "self": "https://cdr.energymadeeasy.gov.au/sumo-power/cds-au/v1/energy/plans/SUM508257MRE2@EME"
     }
 }
