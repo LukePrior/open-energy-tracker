@@ -287,23 +287,23 @@
         },
         {
             "interimId": "dd2dfd26-60e1-44a3-9c29-bc1530941ca3",
-            "brandName": "Arcstream",
+            "brandName": "Electricity in a Box",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/electricity-in-a-box",
-            "lastUpdated": "2022-10-21T05:35:24Z"
+            "lastUpdated": "2022-11-28T02:24:38Z"
         },
         {
             "interimId": "1a7c7ab5-f351-4039-8c99-21ff2a8f1787",
-            "brandName": "ARCLINE by RACV",
+            "brandName": "Energy Locals",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/energy-locals",
-            "lastUpdated": "2022-10-21T05:35:24Z"
+            "lastUpdated": "2022-11-28T02:24:38Z"
         },
         {
             "interimId": "1f1ef12a-f96f-467d-a69a-08160f2e6576",
@@ -567,13 +567,13 @@
         },
         {
             "interimId": "c5232022-a219-4892-a05d-01419c8a37cb",
-            "brandName": "EnergyAustralia",
+            "brandName": "On by EnergyAustralia",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/on-by-energyaustralia",
-            "lastUpdated": "2022-10-21T05:35:24Z"
+            "lastUpdated": "2022-11-28T02:24:38Z"
         },
         {
             "interimId": "59aabae5-18fa-4a69-a2ce-50d197716c33",
@@ -617,13 +617,13 @@
         },
         {
             "interimId": "5141e4da-11cf-44ef-900b-54682bc0a49f",
-            "brandName": "Kogan Energy",
+            "brandName": "Powershop",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/powershop",
-            "lastUpdated": "2022-10-21T05:35:24Z"
+            "lastUpdated": "2022-11-28T02:24:38Z"
         },
         {
             "interimId": "499d880c-ee78-44ba-9442-a275f9465290",
@@ -677,13 +677,13 @@
         },
         {
             "interimId": "eb76743a-4ee5-40a7-aa1b-bd3b719a7622",
-            "brandName": "Lumo Energy",
+            "brandName": "Red Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/red-energy",
-            "lastUpdated": "2022-10-21T05:35:24Z"
+            "lastUpdated": "2022-11-28T02:24:38Z"
         },
         {
             "interimId": "7de5cab6-0d84-464e-8181-950e265f3f7a",
@@ -747,13 +747,13 @@
         },
         {
             "interimId": "0e510b9e-6c17-44e9-b2c4-b287ec2842fb",
-            "brandName": "ARCLINE by RACV",
+            "brandName": "Sonnen",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/sonnen",
-            "lastUpdated": "2022-10-21T05:35:24Z"
+            "lastUpdated": "2022-11-28T02:24:38Z"
         },
         {
             "interimId": "58e05a48-1826-4adb-be5f-4d71af1494ca",
