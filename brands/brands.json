@@ -273,9 +273,9 @@
     "a259655d-31c2-4492-a5d9-2207f46c0713": {
         "interimId": "a259655d-31c2-4492-a5d9-2207f46c0713",
         "brandName": "GloBird Energy",
-        "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
+        "logoUri": "https://www.globirdenergy.com.au/wp-content/uploads/2017/09/GloBird_web_logo.svg",
         "publicBaseUri": "https://cdr.energymadeeasy.gov.au/globird",
-        "lastUpdated": "2022-10-21T05:35:24Z"
+        "lastUpdated": "2022-11-30T05:51:07Z"
     },
     "6fd3819d-4c31-4525-82cc-bd6f445af3d2": {
         "interimId": "6fd3819d-4c31-4525-82cc-bd6f445af3d2",
@@ -322,27 +322,6 @@
     "bc9c8ab7-5dc7-4b6b-ac48-2fe68fa781db": {
         "interimId": "bc9c8ab7-5dc7-4b6b-ac48-2fe68fa781db",
         "brandName": "Lumo Energy",
-        "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-        "publicBaseUri": "https://cdr.energymadeeasy.gov.au/lumo",
-        "lastUpdated": "2022-10-21T05:35:24Z"
-    },
-    "b146e24c-abbd-443c-a3fe-8cfa5c47ff8a": {
-        "interimId": "b146e24c-abbd-443c-a3fe-8cfa5c47ff8a",
-        "brandName": "Lumo Energy (NSW)",
-        "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-        "publicBaseUri": "https://cdr.energymadeeasy.gov.au/lumo",
-        "lastUpdated": "2022-10-21T05:35:24Z"
-    },
-    "6d5bea83-388d-40f9-ac29-a59a1bf56cca": {
-        "interimId": "6d5bea83-388d-40f9-ac29-a59a1bf56cca",
-        "brandName": "Lumo Energy (QLD)",
-        "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-        "publicBaseUri": "https://cdr.energymadeeasy.gov.au/lumo",
-        "lastUpdated": "2022-10-21T05:35:24Z"
-    },
-    "a8b3a112-24ff-4cc6-aaa4-1118ca58cc77": {
-        "interimId": "a8b3a112-24ff-4cc6-aaa4-1118ca58cc77",
-        "brandName": "Lumo Energy (SA)",
         "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
         "publicBaseUri": "https://cdr.energymadeeasy.gov.au/lumo",
         "lastUpdated": "2022-10-21T05:35:24Z"
