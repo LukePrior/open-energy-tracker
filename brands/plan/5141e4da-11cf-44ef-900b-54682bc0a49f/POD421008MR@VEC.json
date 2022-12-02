@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "powershop",
-        "planId": "POD407333MS@VEC",
+        "planId": "POD421008MR@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "Powershop",
         "geography": {
@@ -59,11 +59,10 @@
                 "3207"
             ]
         },
-        "displayName": "Powershop 100% Carbon Neutral",
-        "effectiveTo": "2023-07-16T14:00:00Z",
-        "lastUpdated": "2022-07-12T00:20:35Z",
-        "customerType": "BUSINESS",
-        "effectiveFrom": "2022-07-17T14:00:00Z",
+        "displayName": "Switch Saver",
+        "lastUpdated": "2022-08-19T04:06:13Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {
             "fees": [
                 {
@@ -76,7 +75,7 @@
                     "term": "FIXED",
                     "type": "CC_PROCESSING",
                     "amount": "0.00",
-                    "description": "Powershop do not charge credit card fees"
+                    "description": "Powershop do not charge credit card fees."
                 },
                 {
                     "term": "FIXED",
@@ -95,13 +94,21 @@
             "isFixed": false,
             "timeZone": "LOCAL",
             "variation": "We may vary your prices in accordance with our regulatory requirements. If we vary your prices weu2019ll give you advance notice, usually by email.",
+            "incentives": [
+                {
+                    "category": "ACCOUNT_CREDIT",
+                    "description": "$100 sign up credit",
+                    "displayName": "$100 sign up credit",
+                    "eligibility": "A one off $100 (inc GST) sign up credit will be applied to your first electricity bill. The credit cannot be refunded, transferred or redeemed for cash."
+                }
+            ],
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "Eligibility criteria may apply, contact Powershop for details."
+                    "information": "This offer is only available to new customers. Other eligibility criteria may apply, contact Powershop for details."
                 }
             ],
-            "pricingModel": "TIME_OF_USE",
+            "pricingModel": "FLEXIBLE_CONT_LOAD",
             "tariffPeriod": [
                 {
                     "endDate": "06-30",
@@ -113,7 +120,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "25.318"
+                                    "unitPrice": "27.257028"
                                 }
                             ],
                             "timeOfUse": [
@@ -123,19 +130,21 @@
                                         "TUE",
                                         "WED",
                                         "THU",
-                                        "FRI"
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
                                     ],
                                     "endTime": "2100",
-                                    "startTime": "0900"
+                                    "startTime": "1600"
                                 }
                             ],
                             "displayName": "Peak Usage"
                         },
                         {
-                            "type": "OFF_PEAK",
+                            "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "14.318"
+                                    "unitPrice": "15.65371"
                                 }
                             ],
                             "timeOfUse": [
@@ -145,7 +154,33 @@
                                         "TUE",
                                         "WED",
                                         "THU",
-                                        "FRI"
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "1500",
+                                    "startTime": "1000"
+                                }
+                            ],
+                            "displayName": "Shoulder Usage"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "15.65371"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
                                     ],
                                     "endTime": "0000",
                                     "startTime": "2100"
@@ -156,24 +191,31 @@
                                         "TUE",
                                         "WED",
                                         "THU",
-                                        "FRI"
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
                                     ],
-                                    "endTime": "0900",
+                                    "endTime": "1000",
                                     "startTime": "0000"
                                 },
                                 {
                                     "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "0000",
-                                    "startTime": "0000"
+                                    "endTime": "1600",
+                                    "startTime": "1500"
                                 }
                             ],
                             "displayName": "Off Peak Usage"
                         }
                     ],
-                    "dailySupplyCharges": "126.00"
+                    "dailySupplyCharges": "104.870528"
                 }
             ],
             "billFrequency": [
@@ -182,6 +224,21 @@
             "paymentOption": [
                 "DIRECT_DEBIT",
                 "OTHER"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "14.13"
+                            }
+                        ],
+                        "description": "Time switch controlled hotwater services, space heaters and other dedicated loads, generally controlled between 11pm and 7am.",
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Controlled Load Usage",
+                    "rateBlockUType": "singleRate"
+                }
             ],
             "coolingOffDays": 10,
             "greenPowerCharges": [
@@ -212,7 +269,7 @@
                 {
                     "scheme": "PREMIUM",
                     "payerType": "RETAILER",
-                    "description": "Premium FiT (PFiT)",
+                    "description": "PFiT",
                     "displayName": "Premium FIT [closed]",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
@@ -225,6 +282,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1/energy/plans/POD407333MS@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1/energy/plans/POD421008MR@VEC"
     }
 }

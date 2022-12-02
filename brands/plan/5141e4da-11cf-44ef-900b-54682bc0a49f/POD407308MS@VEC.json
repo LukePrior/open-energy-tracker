@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "powershop",
-        "planId": "POD407307MS@VEC",
+        "planId": "POD407308MS@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "Powershop",
         "geography": {
@@ -291,7 +291,7 @@
                     "term": "FIXED",
                     "type": "CC_PROCESSING",
                     "amount": "0.00",
-                    "description": "Powershop do not charge credit card fees"
+                    "description": "Powershop do not charge credit card fees."
                 },
                 {
                     "term": "FIXED",
@@ -316,23 +316,127 @@
                     "information": "Eligibility criteria may apply, contact Powershop for details."
                 }
             ],
-            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "pricingModel": "SINGLE_RATE",
             "tariffPeriod": [
                 {
-                    "endDate": "06-30",
+                    "endDate": "11-30",
                     "startDate": "07-01",
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "30.073"
+                                "unitPrice": "30.936"
                             }
                         ],
                         "description": "All times of the day",
                         "displayName": "Anytime Usage"
                     },
-                    "displayName": "Period",
+                    "displayName": "Non-Summer",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "118.127"
+                    "dailySupplyCharges": "117.627"
+                },
+                {
+                    "endDate": "11-30",
+                    "startDate": "07-01",
+                    "displayName": "Non-Summer",
+                    "demandCharges": [
+                        {
+                            "days": [
+                                "MON",
+                                "TUE",
+                                "WED",
+                                "THU",
+                                "FRI"
+                            ],
+                            "amount": "8.518",
+                            "endTime": "1800",
+                            "startTime": "1000",
+                            "description": "Non-Summer Demand Charge",
+                            "displayName": "Demand",
+                            "chargePeriod": "DAY",
+                            "measurementPeriod": "MONTH"
+                        }
+                    ],
+                    "rateBlockUType": "demandCharges"
+                },
+                {
+                    "endDate": "03-31",
+                    "startDate": "12-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "30.936"
+                            }
+                        ],
+                        "description": "All times of the day",
+                        "displayName": "Anytime Usage"
+                    },
+                    "displayName": "Summer",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "117.627"
+                },
+                {
+                    "endDate": "03-31",
+                    "startDate": "12-01",
+                    "displayName": "Summer",
+                    "demandCharges": [
+                        {
+                            "days": [
+                                "MON",
+                                "TUE",
+                                "WED",
+                                "THU",
+                                "FRI"
+                            ],
+                            "amount": "34.127",
+                            "endTime": "1800",
+                            "startTime": "1000",
+                            "description": "Summer Demand Charge",
+                            "displayName": "Demand",
+                            "chargePeriod": "DAY",
+                            "measurementPeriod": "MONTH"
+                        }
+                    ],
+                    "rateBlockUType": "demandCharges"
+                },
+                {
+                    "endDate": "06-30",
+                    "startDate": "04-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "30.936"
+                            }
+                        ],
+                        "description": "All times of the day",
+                        "displayName": "Anytime Usage"
+                    },
+                    "displayName": "Non-Summer",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "117.627"
+                },
+                {
+                    "endDate": "06-30",
+                    "startDate": "04-01",
+                    "displayName": "Non-Summer",
+                    "demandCharges": [
+                        {
+                            "days": [
+                                "MON",
+                                "TUE",
+                                "WED",
+                                "THU",
+                                "FRI"
+                            ],
+                            "amount": "8.518",
+                            "endTime": "1800",
+                            "startTime": "1000",
+                            "description": "Non-Summer Demand Charge",
+                            "displayName": "Demand",
+                            "chargePeriod": "DAY",
+                            "measurementPeriod": "MONTH"
+                        }
+                    ],
+                    "rateBlockUType": "demandCharges"
                 }
             ],
             "billFrequency": [
@@ -341,21 +445,6 @@
             "paymentOption": [
                 "DIRECT_DEBIT",
                 "OTHER"
-            ],
-            "controlledLoad": [
-                {
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "unitPrice": "17.70"
-                            }
-                        ],
-                        "description": "Time switch controlled hotwater services, space heaters and other dedicated loads, generally controlled between 11pm and 7am.",
-                        "displayName": "Controlled Load"
-                    },
-                    "displayName": "Controlled Load Usage",
-                    "rateBlockUType": "singleRate"
-                }
             ],
             "coolingOffDays": 10,
             "greenPowerCharges": [
@@ -386,7 +475,7 @@
                 {
                     "scheme": "PREMIUM",
                     "payerType": "RETAILER",
-                    "description": "Premium FiT (PFiT)",
+                    "description": "PFit",
                     "displayName": "Premium FIT [closed]",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
@@ -399,6 +488,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1/energy/plans/POD407307MS@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1/energy/plans/POD407308MS@VEC"
     }
 }

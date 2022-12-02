@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "powershop",
-        "planId": "POD407304MR@VEC",
+        "planId": "POD407305MR@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "Powershop",
         "geography": {
@@ -153,7 +153,7 @@
                     "information": "Eligibility criteria may apply, contact Powershop for details."
                 }
             ],
-            "pricingModel": "SINGLE_RATE",
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
             "tariffPeriod": [
                 {
                     "endDate": "06-30",
@@ -178,6 +178,21 @@
             "paymentOption": [
                 "DIRECT_DEBIT",
                 "OTHER"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "14.72"
+                            }
+                        ],
+                        "description": "Time switch controlled hotwater services, space heaters and other dedicated loads, generally controlled between 11pm and 7am.",
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Controlled Load Usage",
+                    "rateBlockUType": "singleRate"
+                }
             ],
             "coolingOffDays": 10,
             "greenPowerCharges": [
@@ -221,6 +236,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1/energy/plans/POD407304MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1/energy/plans/POD407305MR@VEC"
     }
 }
