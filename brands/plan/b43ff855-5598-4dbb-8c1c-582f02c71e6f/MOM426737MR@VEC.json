@@ -275,7 +275,8 @@
             ]
         },
         "displayName": "Suit Yourself Electricity_NASN11",
-        "lastUpdated": "2022-10-19T02:54:26Z",
+        "effectiveTo": "2022-12-04T13:00:00Z",
+        "lastUpdated": "2022-12-04T21:48:18Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-10-23T13:00:00Z",
         "electricityContract": {

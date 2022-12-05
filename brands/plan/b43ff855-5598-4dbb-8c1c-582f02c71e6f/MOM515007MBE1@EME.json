@@ -1,0 +1,291 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "momentum",
+        "planId": "MOM515007MBE1@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Momentum Energy",
+        "geography": {
+            "distributors": [
+                "Endeavour"
+            ],
+            "includedPostcodes": [
+                "2113",
+                "2114",
+                "2115",
+                "2116",
+                "2117",
+                "2118",
+                "2119",
+                "2120",
+                "2121",
+                "2122",
+                "2125",
+                "2126",
+                "2142",
+                "2145",
+                "2146",
+                "2147",
+                "2148",
+                "2150",
+                "2151",
+                "2152",
+                "2153",
+                "2154",
+                "2155",
+                "2156",
+                "2157",
+                "2158",
+                "2159",
+                "2160",
+                "2161",
+                "2162",
+                "2163",
+                "2164",
+                "2165",
+                "2166",
+                "2167",
+                "2168",
+                "2170",
+                "2171",
+                "2172",
+                "2173",
+                "2174",
+                "2175",
+                "2176",
+                "2177",
+                "2178",
+                "2179",
+                "2198",
+                "2200",
+                "2213",
+                "2214",
+                "2233",
+                "2250",
+                "2257",
+                "2283",
+                "2304",
+                "2323",
+                "2325",
+                "2328",
+                "2329",
+                "2330",
+                "2500",
+                "2502",
+                "2505",
+                "2506",
+                "2508",
+                "2515",
+                "2516",
+                "2517",
+                "2518",
+                "2519",
+                "2525",
+                "2526",
+                "2527",
+                "2528",
+                "2529",
+                "2530",
+                "2533",
+                "2534",
+                "2535",
+                "2536",
+                "2537",
+                "2538",
+                "2539",
+                "2540",
+                "2541",
+                "2555",
+                "2556",
+                "2557",
+                "2558",
+                "2559",
+                "2560",
+                "2563",
+                "2564",
+                "2565",
+                "2566",
+                "2567",
+                "2568",
+                "2569",
+                "2570",
+                "2571",
+                "2572",
+                "2573",
+                "2574",
+                "2575",
+                "2576",
+                "2577",
+                "2578",
+                "2579",
+                "2580",
+                "2622",
+                "2745",
+                "2747",
+                "2748",
+                "2749",
+                "2750",
+                "2751",
+                "2752",
+                "2753",
+                "2754",
+                "2756",
+                "2757",
+                "2758",
+                "2759",
+                "2760",
+                "2761",
+                "2762",
+                "2763",
+                "2765",
+                "2766",
+                "2767",
+                "2768",
+                "2769",
+                "2770",
+                "2773",
+                "2774",
+                "2775",
+                "2776",
+                "2777",
+                "2778",
+                "2779",
+                "2780",
+                "2782",
+                "2783",
+                "2784",
+                "2785",
+                "2786",
+                "2787",
+                "2790",
+                "2795",
+                "2800",
+                "2845",
+                "2846",
+                "2847",
+                "2848",
+                "2849",
+                "2850"
+            ]
+        },
+        "displayName": "Thrifty Business_N70N54",
+        "lastUpdated": "2022-12-04T14:08:10.004Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-12-05T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "Disconnection fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "description": "Reconnection fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "Connection fee"
+                },
+                {
+                    "rate": "0.53",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A 0.53% fee (GST Incl) will apply to payments made by any credit or debit card"
+                }
+            ],
+            "terms": "Time of use charges are based on Australian Eastern Standard Time, except when daylight savings applies in which case interval meters are adjusted to Australian Eastern Daylight Time, unless indicated otherwise. Full terms and conditions can be obtained from www.momentumenergy.com.au/customer-support/terms-and-conditions or by contacting our Customer Care Team on 1800 SWITCH.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "We will give you written notice of any variations to rates & charges under your contract in accordance with applicable legal requirements.",
+            "meterTypes": [
+                "Type 0"
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "description": "To be eligible for this plan you must have an ABN; communicate with us and receive your bills electronically, is subject to having the necessary metering system configuration. and other eligibility criteria.",
+                    "information": "You meet the criteria."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": null,
+                                "unitPrice": "27.9"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "Anytime",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Single Rate Tariff Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "133.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M",
+                "P3M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL",
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY"
+            ],
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "20.10"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. The applicable hours are determined by your distributor",
+                    "displayName": "Controlled Load 2"
+                }
+            ],
+            "coolingOffDays": "10",
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0495",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "For an added 4.95 c/kWh incl. GST, you can purchase GreenPower for either 10, 20, 25, 50, 75 or 100% of your usage.",
+                    "displayName": "10 to 100"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "General Feed-In-Tariff",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "7.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/momentum/cds-au/v1/energy/plans/MOM515007MBE1@EME"
+    }
+}
