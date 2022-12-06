@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "actewagl",
-        "planId": "ACT253126MBD4@EME",
+        "planId": "ACT514505MBD1@EME",
         "fuelType": "DUAL",
         "brandName": "ActewAGL",
         "geography": {
@@ -22,7 +22,7 @@
                 "2621"
             ]
         },
-        "displayName": "Business TOU Interval + CL - 19/8 offer (Queanbeyan)",
+        "displayName": "Business TOU Interval + CL - 14/8 offer (Queanbeyan)",
         "effectiveTo": "2023-06-30T00:00:00.000Z",
         "gasContract": {
             "fees": [
@@ -70,7 +70,7 @@
             "discounts": [
                 {
                     "type": "GUARANTEED",
-                    "description": "All customers will receive a 8% discount off their Gas supply and usage charges, applied to each quarterly Gas invoice for a benefit period of 12 months. Discount does not apply to any miscellaneous fees and charges; and will not apply to any government taxes, fees, levies or charges. For further information, refer to https://www.actewagl.com.au/nsw-gas-schedule-of-charges-July-2022.",
+                    "description": "All customers will receive a 8% discount off their gas supply and usage charges, applied to each quarterly gas invoice for a benefit period of 12 months. Discount does not apply to any miscellaneous fees and charges; and will not apply to any government taxes, fees, levies or charges. For further information, refer to https://www.actewagl.com.au/nsw-gas-schedule-of-charges-July-2022.",
                     "displayName": "Discount off supply and usage charges",
                     "methodUType": "percentOfBill",
                     "percentOfBill": {
@@ -124,9 +124,9 @@
             "coolingOffDays": "10",
             "onExpiryDescription": "The benefit period is 1 year. At the end of your benefit period you may be placed on a new pricing plan. We will notify you of any changes at least 20 business days before they take effect."
         },
-        "lastUpdated": "2022-08-01T14:05:42.734Z",
+        "lastUpdated": "2022-12-05T14:05:41.767Z",
         "customerType": "BUSINESS",
-        "effectiveFrom": "2022-08-02T00:00:00.000Z",
+        "effectiveFrom": "2022-12-06T00:00:00.000Z",
         "electricityContract": {
             "fees": [
                 {
@@ -174,11 +174,11 @@
             "discounts": [
                 {
                     "type": "GUARANTEED",
-                    "description": "All customers will receive a 19% discount off their Electricity supply and usage charges, applied to each quarterly Electricity invoice for a benefit period of 12 months. Discount does not apply to any Greenchoice electricity charges, or miscellaneous fees and charges; and will not apply to any government taxes, fees, levies or charges. For further information, refer to https://www.actewagl.com.au/nsw-electricity-schedule-of-charges-July-2022.",
+                    "description": "All customers will receive a 14% discount off their electricity supply and usage charges, applied to each quarterly electricity invoice for a benefit period of 12 months. Discount does not apply to any Greenchoice electricity charges, or miscellaneous fees and charges; and will not apply to any government taxes, fees, levies or charges. For further information, refer to https://www.actewagl.com.au/nsw-electricity-schedule-of-charges-July-2022.",
                     "displayName": "Discount off supply and usage charges",
                     "methodUType": "percentOfBill",
                     "percentOfBill": {
-                        "rate": "19"
+                        "rate": "14"
                     }
                 }
             ],
@@ -201,7 +201,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "39.40"
+                                    "unitPrice": "39.4"
                                 }
                             ],
                             "timeOfUse": [
@@ -220,7 +220,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "21.20"
+                                    "unitPrice": "21.2"
                                 }
                             ],
                             "timeOfUse": [
@@ -249,7 +249,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "34.70"
+                                    "unitPrice": "34.7"
                                 }
                             ],
                             "timeOfUse": [
@@ -314,15 +314,15 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.005500",
+                            "amount": "0.0055",
                             "percentGreen": "10"
                         },
                         {
-                            "amount": "0.013750",
+                            "amount": "0.01375",
                             "percentGreen": "25"
                         },
                         {
-                            "amount": "0.055000",
+                            "amount": "0.055",
                             "percentGreen": "100"
                         }
                     ],
@@ -339,7 +339,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "8.000000"
+                        "amount": "8.00"
                     }
                 }
             ],
@@ -348,6 +348,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/actewagl/cds-au/v1/energy/plans/ACT253126MBD4@EME"
+        "self": "https://cdr.energymadeeasy.gov.au/actewagl/cds-au/v1/energy/plans/ACT514505MBD1@EME"
     }
 }

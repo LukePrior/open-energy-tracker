@@ -41,6 +41,7 @@
             ]
         },
         "displayName": "Nothing Fancy Gas Ausnet West",
+        "effectiveTo": "2022-12-05T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -132,7 +133,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions."
         },
-        "lastUpdated": "2022-10-20T00:15:17Z",
+        "lastUpdated": "2022-12-05T21:53:32Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-10-23T13:00:00Z"
     },

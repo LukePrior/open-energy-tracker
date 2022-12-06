@@ -2,144 +2,36 @@
     "data": {
         "type": "MARKET",
         "brand": "actewagl",
-        "planId": "ACT79928MBD5@EME",
-        "fuelType": "DUAL",
+        "planId": "ACT514509MBE1@EME",
+        "fuelType": "ELECTRICITY",
         "brandName": "ActewAGL",
         "geography": {
             "distributors": [
-                "Essential Energy Standard",
-                "Jemena - Capital Region"
+                "Endeavour"
             ],
             "includedPostcodes": [
-                "2321",
-                "2337",
+                "2113",
+                "2120",
+                "2214",
+                "2323",
+                "2535",
+                "2535",
+                "2537",
+                "2538",
+                "2538",
                 "2539",
-                "2580",
-                "2580",
-                "2582",
-                "2582",
-                "2586",
-                "2586",
-                "2594",
-                "2594",
-                "2619",
-                "2620",
-                "2621"
+                "2539",
+                "2540",
+                "2540",
+                "2541",
+                "2541"
             ]
         },
-        "displayName": "Business TOU Interval - 19/8 offer (Capital)",
+        "displayName": "Business TOU + CL - 14% off supply and usage",
         "effectiveTo": "2023-06-30T00:00:00.000Z",
-        "gasContract": {
-            "fees": [
-                {
-                    "term": "FIXED",
-                    "type": "DISCONNECTION",
-                    "description": "Disconnection fee - applicable when energy is disconnected to the property."
-                },
-                {
-                    "term": "FIXED",
-                    "type": "RECONNECTION",
-                    "description": "Reconnection fee - applicable when energy is reconnected to the property."
-                },
-                {
-                    "term": "FIXED",
-                    "type": "OTHER",
-                    "description": "Special meter read (including moving in and moving out of your supply address)."
-                },
-                {
-                    "term": "FIXED",
-                    "type": "LATE_PAYMENT",
-                    "description": "Late Payment Fee (GST is not applicable)."
-                },
-                {
-                    "term": "FIXED",
-                    "type": "DD_DISHONOUR",
-                    "description": "Direct Debit Rejection Fee (GST is not applicable)."
-                },
-                {
-                    "rate": "0.5",
-                    "term": "PERCENT_OF_BILL",
-                    "type": "CC_PROCESSING",
-                    "description": "Payment processing fee may apply to payments made by credit card (GST inclusive)."
-                },
-                {
-                    "rate": "0.5",
-                    "term": "PERCENT_OF_BILL",
-                    "type": "PAYMENT_PROCESSING",
-                    "description": "Payment processing fee may apply to payments made by debit card (GST inclusive)."
-                }
-            ],
-            "terms": "A copy of the Market Retail Contract is provided and can be seen on our website. Refer to https://www.actewagl.com.au/plans-and-connections/pricing-information/your-rights-and-obligations.",
-            "isFixed": false,
-            "termType": "ONGOING",
-            "discounts": [
-                {
-                    "type": "GUARANTEED",
-                    "description": "All customers will receive a 8% discount off their Gas supply and usage charges, applied to each quarterly Gas invoice for a benefit period of 12 months. Discount does not apply to any miscellaneous fees and charges; and will not apply to any government taxes, fees, levies or charges. For further information, refer to https://www.actewagl.com.au/nsw-gas-schedule-of-charges-July-2022.",
-                    "displayName": "Discount off supply and usage charges",
-                    "methodUType": "percentOfBill",
-                    "percentOfBill": {
-                        "rate": "8"
-                    }
-                }
-            ],
-            "variation": "If we vary our market offer prices including your rates, fees, feed-in tariff or charges, we will notify you at least five business days before the variation in the tariffs and charges are to apply to you; and deliver the notice by your preferred form of communication where you have communicated this to us, or otherwise by the same method as that used for delivery of your bill.",
-            "tariffPeriod": [
-                {
-                    "endDate": "06-30",
-                    "startDate": "07-01",
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "volume": 20.7123,
-                                "unitPrice": "3.70"
-                            },
-                            {
-                                "volume": 20.3836,
-                                "unitPrice": "2.49"
-                            },
-                            {
-                                "volume": 49.3151,
-                                "unitPrice": "2.48"
-                            },
-                            {
-                                "volume": 2654.7945,
-                                "unitPrice": "2.43"
-                            },
-                            {
-                                "volume": 10964.3836,
-                                "unitPrice": "2.37"
-                            },
-                            {
-                                "volume": null,
-                                "unitPrice": "2.10"
-                            }
-                        ],
-                        "period": "P1D",
-                        "description": "Usage",
-                        "displayName": "General"
-                    },
-                    "displayName": "Single Rate Tariff Period",
-                    "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "79.00"
-                }
-            ],
-            "benefitPeriod": "12 months",
-            "billFrequency": [
-                "P3M"
-            ],
-            "paymentOption": [
-                "DIRECT_DEBIT",
-                "CREDIT_CARD",
-                "PAPER_BILL",
-                "BPAY"
-            ],
-            "coolingOffDays": "10",
-            "onExpiryDescription": "The benefit period is 1 year. At the end of your benefit period you may be placed on a new pricing plan. We will notify you of any changes at least 20 business days before they take effect."
-        },
-        "lastUpdated": "2022-08-01T14:05:48.112Z",
+        "lastUpdated": "2022-12-05T14:05:41.789Z",
         "customerType": "BUSINESS",
-        "effectiveFrom": "2022-08-02T00:00:00.000Z",
+        "effectiveFrom": "2022-12-06T00:00:00.000Z",
         "electricityContract": {
             "fees": [
                 {
@@ -187,11 +79,11 @@
             "discounts": [
                 {
                     "type": "GUARANTEED",
-                    "description": "All customers will receive a 19% discount off their Electricity supply and usage charges, applied to each quarterly Electricity invoice for a benefit period of 12 months. Discount does not apply to any Greenchoice electricity charges, or miscellaneous fees and charges; and will not apply to any government taxes, fees, levies or charges. For further information, refer to https://www.actewagl.com.au/nsw-electricity-schedule-of-charges-July-2022.",
+                    "description": "All customers will receive a 14% discount off their electricity supply and usage charges, applied to each quarterly electricity invoice for a benefit period of 12 months. Discount does not apply to any Greenchoice electricity charges, or miscellaneous fees and charges; and will not apply to any government taxes, fees, levies or charges. For further information, refer to https://www.actewagl.com.au/nsw-electricity-schedule-of-charges-July-2022.",
                     "displayName": "Discount off supply and usage charges",
                     "methodUType": "percentOfBill",
                     "percentOfBill": {
-                        "rate": "19"
+                        "rate": "14"
                     }
                 }
             ],
@@ -199,9 +91,10 @@
             "meterTypes": [
                 "Type 4",
                 "Type 4a",
-                "Type 5"
+                "Type 5",
+                "Type 6"
             ],
-            "pricingModel": "TIME_OF_USE",
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
             "tariffPeriod": [
                 {
                     "endDate": "06-30",
@@ -214,7 +107,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "39.40"
+                                    "unitPrice": "40.00"
                                 }
                             ],
                             "timeOfUse": [
@@ -223,17 +116,17 @@
                                         "BUSINESS_DAYS"
                                     ],
                                     "endTime": "1959",
-                                    "startTime": "1700"
+                                    "startTime": "1300"
                                 }
                             ],
-                            "description": "From 5pm to 8pm on weekdays"
+                            "description": "From 1pm to 8pm on business days"
                         },
                         {
                             "name": "Off-peak",
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "21.20"
+                                    "unitPrice": "17.5"
                                 }
                             ],
                             "timeOfUse": [
@@ -262,7 +155,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "34.70"
+                                    "unitPrice": "34.85"
                                 }
                             ],
                             "timeOfUse": [
@@ -270,7 +163,7 @@
                                     "days": [
                                         "BUSINESS_DAYS"
                                     ],
-                                    "endTime": "1659",
+                                    "endTime": "1259",
                                     "startTime": "700"
                                 },
                                 {
@@ -281,10 +174,10 @@
                                     "startTime": "2000"
                                 }
                             ],
-                            "description": "From 7am to 5pm and 8pm to 10pm on weekdays"
+                            "description": "From 7am to 1pm and 8pm to 10pm on business days"
                         }
                     ],
-                    "dailySupplyCharges": "235.00"
+                    "dailySupplyCharges": "118.00"
                 }
             ],
             "benefitPeriod": "12 months",
@@ -297,21 +190,45 @@
                 "PAPER_BILL",
                 "BPAY"
             ],
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "17.18"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "10.30",
+                    "description": "Only available between 10pm to 7am",
+                    "displayName": "Controlled Load 1"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "17.18"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "10.30",
+                    "description": "Available for restricted periods not exceeding a total of 17 hours in any period of 24 hours",
+                    "displayName": "Controlled Load 2"
+                }
+            ],
             "coolingOffDays": "10",
             "greenPowerCharges": [
                 {
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.005500",
+                            "amount": "0.0055",
                             "percentGreen": "10"
                         },
                         {
-                            "amount": "0.013750",
+                            "amount": "0.01375",
                             "percentGreen": "25"
                         },
                         {
-                            "amount": "0.055000",
+                            "amount": "0.055",
                             "percentGreen": "100"
                         }
                     ],
@@ -328,7 +245,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "8.000000"
+                        "amount": "8.00"
                     }
                 }
             ],
@@ -337,6 +254,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/actewagl/cds-au/v1/energy/plans/ACT79928MBD5@EME"
+        "self": "https://cdr.energymadeeasy.gov.au/actewagl/cds-au/v1/energy/plans/ACT514509MBE1@EME"
     }
 }

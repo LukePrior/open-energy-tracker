@@ -2,27 +2,32 @@
     "data": {
         "type": "MARKET",
         "brand": "actewagl",
-        "planId": "ACT79923MBD5@EME",
+        "planId": "ACT514494MBD1@EME",
         "fuelType": "DUAL",
         "brandName": "ActewAGL",
         "geography": {
             "distributors": [
                 "Essential Energy Standard",
-                "Evoenergy Queanbeyan"
+                "Jemena - Capital Region"
             ],
             "includedPostcodes": [
                 "2321",
                 "2337",
                 "2539",
-                "2619",
+                "2580",
+                "2580",
+                "2582",
+                "2582",
+                "2586",
+                "2586",
+                "2594",
+                "2594",
                 "2619",
                 "2620",
-                "2620",
-                "2621",
                 "2621"
             ]
         },
-        "displayName": "Business - 19/8 offer (Queanbeyan)",
+        "displayName": "Business - 14/8 offer (Capital)",
         "effectiveTo": "2023-06-30T00:00:00.000Z",
         "gasContract": {
             "fees": [
@@ -70,7 +75,7 @@
             "discounts": [
                 {
                     "type": "GUARANTEED",
-                    "description": "All customers will receive a 8% discount off their Gas supply and usage charges, applied to each quarterly Gas invoice for a benefit period of 12 months. Discount does not apply to any miscellaneous fees and charges; and will not apply to any government taxes, fees, levies or charges. For further information, refer to https://www.actewagl.com.au/nsw-gas-schedule-of-charges-July-2022.",
+                    "description": "All customers will receive a 8% discount off their gas supply and usage charges, applied to each quarterly gas invoice for a benefit period of 12 months. Discount does not apply to any miscellaneous fees and charges; and will not apply to any government taxes, fees, levies or charges. For further information, refer to https://www.actewagl.com.au/nsw-gas-schedule-of-charges-July-2022.",
                     "displayName": "Discount off supply and usage charges",
                     "methodUType": "percentOfBill",
                     "percentOfBill": {
@@ -86,20 +91,28 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "volume": 41.0959,
-                                "unitPrice": "2.96"
+                                "volume": 20.7123,
+                                "unitPrice": "3.7"
                             },
                             {
-                                "volume": 442.1918,
-                                "unitPrice": "2.69"
+                                "volume": 20.3836,
+                                "unitPrice": "2.49"
                             },
                             {
-                                "volume": 1489.3151,
-                                "unitPrice": "2.62"
+                                "volume": 49.3151,
+                                "unitPrice": "2.48"
+                            },
+                            {
+                                "volume": 2654.7945,
+                                "unitPrice": "2.43"
+                            },
+                            {
+                                "volume": 10964.3836,
+                                "unitPrice": "2.37"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "2.55"
+                                "unitPrice": "2.1"
                             }
                         ],
                         "period": "P1D",
@@ -108,7 +121,7 @@
                     },
                     "displayName": "Single Rate Tariff Period",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "98.00"
+                    "dailySupplyCharges": "79.00"
                 }
             ],
             "benefitPeriod": "12 months",
@@ -124,9 +137,9 @@
             "coolingOffDays": "10",
             "onExpiryDescription": "The benefit period is 1 year. At the end of your benefit period you may be placed on a new pricing plan. We will notify you of any changes at least 20 business days before they take effect."
         },
-        "lastUpdated": "2022-08-01T14:05:47.865Z",
+        "lastUpdated": "2022-12-05T14:05:41.731Z",
         "customerType": "BUSINESS",
-        "effectiveFrom": "2022-08-02T00:00:00.000Z",
+        "effectiveFrom": "2022-12-06T00:00:00.000Z",
         "electricityContract": {
             "fees": [
                 {
@@ -174,11 +187,11 @@
             "discounts": [
                 {
                     "type": "GUARANTEED",
-                    "description": "All customers will receive a 19% discount off their Electricity supply and usage charges, applied to each quarterly Electricity invoice for a benefit period of 12 months. Discount does not apply to any Greenchoice electricity charges, or miscellaneous fees and charges; and will not apply to any government taxes, fees, levies or charges. For further information, refer to https://www.actewagl.com.au/nsw-electricity-schedule-of-charges-July-2022.",
+                    "description": "All customers will receive a 14% discount off their electricity supply and usage charges, applied to each quarterly electricity invoice for a benefit period of 12 months. Discount does not apply to any Greenchoice electricity charges, or miscellaneous fees and charges; and will not apply to any government taxes, fees, levies or charges. For further information, refer to https://www.actewagl.com.au/nsw-electricity-schedule-of-charges-July-2022.",
                     "displayName": "Discount off supply and usage charges",
                     "methodUType": "percentOfBill",
                     "percentOfBill": {
-                        "rate": "19"
+                        "rate": "14"
                     }
                 }
             ],
@@ -198,7 +211,7 @@
                         "rates": [
                             {
                                 "volume": null,
-                                "unitPrice": "38.28"
+                                "unitPrice": "38.276"
                             }
                         ],
                         "period": "P1D",
@@ -226,15 +239,15 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.005500",
+                            "amount": "0.0055",
                             "percentGreen": "10"
                         },
                         {
-                            "amount": "0.013750",
+                            "amount": "0.01375",
                             "percentGreen": "25"
                         },
                         {
-                            "amount": "0.055000",
+                            "amount": "0.055",
                             "percentGreen": "100"
                         }
                     ],
@@ -251,7 +264,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "8.000000"
+                        "amount": "8.00"
                     }
                 }
             ],
@@ -260,6 +273,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/actewagl/cds-au/v1/energy/plans/ACT79923MBD5@EME"
+        "self": "https://cdr.energymadeeasy.gov.au/actewagl/cds-au/v1/energy/plans/ACT514494MBD1@EME"
     }
 }

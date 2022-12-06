@@ -2,36 +2,96 @@
     "data": {
         "type": "MARKET",
         "brand": "actewagl",
-        "planId": "ACT79932MBE5@EME",
+        "planId": "ACT514489MBE1@EME",
         "fuelType": "ELECTRICITY",
         "brandName": "ActewAGL",
         "geography": {
             "distributors": [
-                "Endeavour"
+                "Essential Energy Standard"
             ],
             "includedPostcodes": [
-                "2113",
-                "2120",
-                "2214",
-                "2323",
-                "2535",
-                "2535",
+                "2321",
+                "2337",
+                "2536",
+                "2536",
                 "2537",
-                "2538",
-                "2538",
+                "2537",
                 "2539",
-                "2539",
-                "2540",
-                "2540",
-                "2541",
-                "2541"
+                "2545",
+                "2545",
+                "2546",
+                "2546",
+                "2548",
+                "2548",
+                "2549",
+                "2549",
+                "2550",
+                "2550",
+                "2551",
+                "2551",
+                "2580",
+                "2580",
+                "2581",
+                "2581",
+                "2582",
+                "2582",
+                "2583",
+                "2583",
+                "2584",
+                "2584",
+                "2585",
+                "2585",
+                "2586",
+                "2586",
+                "2587",
+                "2587",
+                "2594",
+                "2594",
+                "2611",
+                "2611",
+                "2618",
+                "2618",
+                "2619",
+                "2619",
+                "2620",
+                "2620",
+                "2621",
+                "2621",
+                "2622",
+                "2622",
+                "2623",
+                "2623",
+                "2624",
+                "2624",
+                "2625",
+                "2625",
+                "2626",
+                "2626",
+                "2627",
+                "2627",
+                "2628",
+                "2628",
+                "2629",
+                "2629",
+                "2630",
+                "2630",
+                "2631",
+                "2631",
+                "2632",
+                "2632",
+                "2633",
+                "2633",
+                "2720",
+                "2720",
+                "2876",
+                "2877"
             ]
         },
-        "displayName": "Business - 19% off reference price",
+        "displayName": "Business + CL - 14% off supply and usage",
         "effectiveTo": "2023-06-30T00:00:00.000Z",
-        "lastUpdated": "2022-08-01T14:05:47.879Z",
+        "lastUpdated": "2022-12-05T14:05:41.968Z",
         "customerType": "BUSINESS",
-        "effectiveFrom": "2022-08-02T00:00:00.000Z",
+        "effectiveFrom": "2022-12-06T00:00:00.000Z",
         "electricityContract": {
             "fees": [
                 {
@@ -79,11 +139,11 @@
             "discounts": [
                 {
                     "type": "GUARANTEED",
-                    "description": "All customers will receive a 19% discount off their Electricity supply and usage charges, applied to each quarterly Electricity invoice for a benefit period of 12 months. Discount does not apply to any Greenchoice electricity charges, or miscellaneous fees and charges; and will not apply to any government taxes, fees, levies or charges. For further information, refer to https://www.actewagl.com.au/nsw-electricity-schedule-of-charges-July-2022.",
+                    "description": "All customers will receive a 14% discount off their electricity supply and usage charges, applied to each quarterly electricity invoice for a benefit period of 12 months. Discount does not apply to any Greenchoice electricity charges, or miscellaneous fees and charges; and will not apply to any government taxes, fees, levies or charges. For further information, refer to https://www.actewagl.com.au/nsw-electricity-schedule-of-charges-July-2022.",
                     "displayName": "Discount off supply and usage charges",
                     "methodUType": "percentOfBill",
                     "percentOfBill": {
-                        "rate": "19"
+                        "rate": "14"
                     }
                 }
             ],
@@ -94,7 +154,7 @@
                 "Type 5",
                 "Type 6"
             ],
-            "pricingModel": "SINGLE_RATE",
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
             "tariffPeriod": [
                 {
                     "endDate": "06-30",
@@ -102,12 +162,8 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "volume": 328.7671,
-                                "unitPrice": "30.36"
-                            },
-                            {
                                 "volume": null,
-                                "unitPrice": "32.60"
+                                "unitPrice": "38.276"
                             }
                         ],
                         "period": "P1D",
@@ -116,7 +172,7 @@
                     },
                     "displayName": "Usage Charges",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "110.00"
+                    "dailySupplyCharges": "172.00"
                 }
             ],
             "benefitPeriod": "12 months",
@@ -129,21 +185,45 @@
                 "PAPER_BILL",
                 "BPAY"
             ],
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "15.37"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "14.90",
+                    "description": "For 5 to 9 hours overnight on weekdays and extra hours on weekends",
+                    "displayName": "Controlled Load 1"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "15.37"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "14.90",
+                    "description": "For 10 to 18 hours per day on weekdays and extra hours on weekends",
+                    "displayName": "Controlled Load 2"
+                }
+            ],
             "coolingOffDays": "10",
             "greenPowerCharges": [
                 {
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.005500",
+                            "amount": "0.0055",
                             "percentGreen": "10"
                         },
                         {
-                            "amount": "0.013750",
+                            "amount": "0.01375",
                             "percentGreen": "25"
                         },
                         {
-                            "amount": "0.055000",
+                            "amount": "0.055",
                             "percentGreen": "100"
                         }
                     ],
@@ -160,7 +240,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "8.000000"
+                        "amount": "8.00"
                     }
                 }
             ],
@@ -169,6 +249,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/actewagl/cds-au/v1/energy/plans/ACT79932MBE5@EME"
+        "self": "https://cdr.energymadeeasy.gov.au/actewagl/cds-au/v1/energy/plans/ACT514489MBE1@EME"
     }
 }

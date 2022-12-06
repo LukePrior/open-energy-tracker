@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "actewagl",
-        "planId": "ACT79938MBE6@EME",
+        "planId": "ACT514493MBE1@EME",
         "fuelType": "ELECTRICITY",
         "brandName": "ActewAGL",
         "geography": {
@@ -87,11 +87,11 @@
                 "2877"
             ]
         },
-        "displayName": "Business TOU - 19% off supply and usage",
+        "displayName": "Business TOU Interval + CL - 14% off supply and usage",
         "effectiveTo": "2023-06-30T00:00:00.000Z",
-        "lastUpdated": "2022-08-01T14:05:48.039Z",
+        "lastUpdated": "2022-12-05T14:05:41.930Z",
         "customerType": "BUSINESS",
-        "effectiveFrom": "2022-08-02T00:00:00.000Z",
+        "effectiveFrom": "2022-12-06T00:00:00.000Z",
         "electricityContract": {
             "fees": [
                 {
@@ -139,11 +139,11 @@
             "discounts": [
                 {
                     "type": "GUARANTEED",
-                    "description": "All customers will receive a 19% discount off their Electricity supply and usage charges, applied to each quarterly Electricity invoice for a benefit period of 12 months. Discount does not apply to any Greenchoice electricity charges, or miscellaneous fees and charges; and will not apply to any government taxes, fees, levies or charges. For further information, refer to https://www.actewagl.com.au/nsw-electricity-schedule-of-charges-July-2022.",
+                    "description": "All customers will receive a 14% discount off their electricity supply and usage charges, applied to each quarterly electricity invoice for a benefit period of 12 months. Discount does not apply to any Greenchoice electricity charges, or miscellaneous fees and charges; and will not apply to any government taxes, fees, levies or charges. For further information, refer to https://www.actewagl.com.au/nsw-electricity-schedule-of-charges-July-2022.",
                     "displayName": "Discount off supply and usage charges",
                     "methodUType": "percentOfBill",
                     "percentOfBill": {
-                        "rate": "19"
+                        "rate": "14"
                     }
                 }
             ],
@@ -151,10 +151,9 @@
             "meterTypes": [
                 "Type 4",
                 "Type 4a",
-                "Type 5",
-                "Type 6"
+                "Type 5"
             ],
-            "pricingModel": "TIME_OF_USE",
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
             "tariffPeriod": [
                 {
                     "endDate": "06-30",
@@ -167,17 +166,10 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "38.75"
+                                    "unitPrice": "39.4"
                                 }
                             ],
                             "timeOfUse": [
-                                {
-                                    "days": [
-                                        "BUSINESS_DAYS"
-                                    ],
-                                    "endTime": "859",
-                                    "startTime": "700"
-                                },
                                 {
                                     "days": [
                                         "BUSINESS_DAYS"
@@ -186,14 +178,14 @@
                                     "startTime": "1700"
                                 }
                             ],
-                            "description": "From 7am to 9am and 5pm to 8pm on weekdays"
+                            "description": "From 5pm to 8pm on weekdays"
                         },
                         {
                             "name": "Off-peak",
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "21.50"
+                                    "unitPrice": "21.2"
                                 }
                             ],
                             "timeOfUse": [
@@ -222,7 +214,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "35.30"
+                                    "unitPrice": "34.7"
                                 }
                             ],
                             "timeOfUse": [
@@ -231,7 +223,7 @@
                                         "BUSINESS_DAYS"
                                     ],
                                     "endTime": "1659",
-                                    "startTime": "900"
+                                    "startTime": "700"
                                 },
                                 {
                                     "days": [
@@ -241,10 +233,10 @@
                                     "startTime": "2000"
                                 }
                             ],
-                            "description": "From 9am to 5pm and 8pm to 10pm on weekdays"
+                            "description": "From 7am to 5pm and 8pm to 10pm on weekdays"
                         }
                     ],
-                    "dailySupplyCharges": "515.00"
+                    "dailySupplyCharges": "235.00"
                 }
             ],
             "benefitPeriod": "12 months",
@@ -257,21 +249,45 @@
                 "PAPER_BILL",
                 "BPAY"
             ],
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "15.37"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "14.90",
+                    "description": "For 5 to 9 hours overnight on weekdays and extra hours on weekends",
+                    "displayName": "Controlled Load 1"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "15.37"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "14.90",
+                    "description": "For 10 to 18 hours per day on weekdays and extra hours on weekends",
+                    "displayName": "Controlled Load 2"
+                }
+            ],
             "coolingOffDays": "10",
             "greenPowerCharges": [
                 {
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.005500",
+                            "amount": "0.0055",
                             "percentGreen": "10"
                         },
                         {
-                            "amount": "0.013750",
+                            "amount": "0.01375",
                             "percentGreen": "25"
                         },
                         {
-                            "amount": "0.055000",
+                            "amount": "0.055",
                             "percentGreen": "100"
                         }
                     ],
@@ -288,7 +304,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "8.000000"
+                        "amount": "8.00"
                     }
                 }
             ],
@@ -297,6 +313,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/actewagl/cds-au/v1/energy/plans/ACT79938MBE6@EME"
+        "self": "https://cdr.energymadeeasy.gov.au/actewagl/cds-au/v1/energy/plans/ACT514493MBE1@EME"
     }
 }
