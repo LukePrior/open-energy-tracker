@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "Switch Saver",
-        "lastUpdated": "2022-08-19T04:06:13Z",
+        "effectiveTo": "2022-12-06T13:00:00Z",
+        "lastUpdated": "2022-12-07T03:52:03Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {
