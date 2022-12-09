@@ -187,15 +187,15 @@
                         "rates": [
                             {
                                 "volume": 27,
-                                "unitPrice": "6.570000"
+                                "unitPrice": "6.57"
                             },
                             {
                                 "volume": 22,
-                                "unitPrice": "4.070000"
+                                "unitPrice": "4.07"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "2.540000"
+                                "unitPrice": "2.54"
                             }
                         ],
                         "period": "P1D",

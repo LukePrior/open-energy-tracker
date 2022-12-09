@@ -174,27 +174,27 @@
                         "rates": [
                             {
                                 "volume": 200,
-                                "unitPrice": "3.60"
+                                "unitPrice": "3.6"
                             },
                             {
                                 "volume": 300,
-                                "unitPrice": "3.60"
+                                "unitPrice": "3.6"
                             },
                             {
                                 "volume": 500,
-                                "unitPrice": "3.60"
+                                "unitPrice": "3.6"
                             },
                             {
                                 "volume": 1000,
-                                "unitPrice": "3.60"
+                                "unitPrice": "3.6"
                             },
                             {
                                 "volume": 5000,
-                                "unitPrice": "3.60"
+                                "unitPrice": "3.6"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "3.60"
+                                "unitPrice": "3.6"
                             }
                         ],
                         "period": "P1D",

@@ -369,7 +369,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "44.80"
+                                    "unitPrice": "44.8"
                                 }
                             ],
                             "timeOfUse": [
@@ -415,7 +415,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "38.70"
+                                    "unitPrice": "38.7"
                                 }
                             ],
                             "timeOfUse": [

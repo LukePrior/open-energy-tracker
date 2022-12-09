@@ -125,23 +125,23 @@
                             },
                             {
                                 "volume": 300,
-                                "unitPrice": "5.90"
+                                "unitPrice": "5.9"
                             },
                             {
                                 "volume": 500,
-                                "unitPrice": "5.90"
+                                "unitPrice": "5.9"
                             },
                             {
                                 "volume": 1000,
-                                "unitPrice": "5.90"
+                                "unitPrice": "5.9"
                             },
                             {
                                 "volume": 5000,
-                                "unitPrice": "5.90"
+                                "unitPrice": "5.9"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "5.10"
+                                "unitPrice": "5.1"
                             }
                         ],
                         "period": "P1D",

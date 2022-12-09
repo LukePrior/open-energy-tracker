@@ -165,15 +165,15 @@
                         "rates": [
                             {
                                 "volume": 1700,
-                                "unitPrice": "6.270000"
+                                "unitPrice": "6.27"
                             },
                             {
                                 "volume": 8300,
-                                "unitPrice": "5.620000"
+                                "unitPrice": "5.62"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "5.620000"
+                                "unitPrice": "5.62"
                             }
                         ],
                         "period": "P1D",

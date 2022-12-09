@@ -314,7 +314,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "51.50"
+                                    "unitPrice": "51.5"
                                 }
                             ],
                             "timeOfUse": [
@@ -333,7 +333,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "25.70"
+                                    "unitPrice": "25.7"
                                 }
                             ],
                             "timeOfUse": [
@@ -395,7 +395,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "51.50"
+                                    "unitPrice": "51.5"
                                 }
                             ],
                             "timeOfUse": [
@@ -414,7 +414,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "25.70"
+                                    "unitPrice": "25.7"
                                 }
                             ],
                             "timeOfUse": [
@@ -495,7 +495,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "25.70"
+                                    "unitPrice": "25.7"
                                 }
                             ],
                             "timeOfUse": [
@@ -576,7 +576,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "25.70"
+                                    "unitPrice": "25.7"
                                 }
                             ],
                             "timeOfUse": [
@@ -648,7 +648,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "8.000000"
+                        "amount": "8.00"
                     }
                 }
             ],

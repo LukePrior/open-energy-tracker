@@ -226,15 +226,15 @@
                         "rates": [
                             {
                                 "volume": 1700,
-                                "unitPrice": "3.20"
+                                "unitPrice": "3.2"
                             },
                             {
                                 "volume": 8300,
-                                "unitPrice": "3.20"
+                                "unitPrice": "3.2"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "3.20"
+                                "unitPrice": "3.2"
                             }
                         ],
                         "period": "P1D",

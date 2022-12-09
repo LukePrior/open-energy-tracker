@@ -391,7 +391,7 @@
                         "rates": [
                             {
                                 "volume": null,
-                                "unitPrice": "30.06"
+                                "unitPrice": "30.059"
                             }
                         ],
                         "period": "P1D",
@@ -432,7 +432,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "44.000000"
+                        "amount": "44.00"
                     }
                 },
                 {
@@ -442,7 +442,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "5.000000"
+                        "amount": "5.00"
                     }
                 }
             ],

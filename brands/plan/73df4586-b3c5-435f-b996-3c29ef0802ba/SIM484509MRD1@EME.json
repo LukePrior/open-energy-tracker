@@ -651,7 +651,7 @@
                             },
                             {
                                 "volume": 2655,
-                                "unitPrice": "3.10"
+                                "unitPrice": "3.1"
                             },
                             {
                                 "volume": 10965,
@@ -753,7 +753,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "49.10"
+                                    "unitPrice": "49.1"
                                 }
                             ],
                             "timeOfUse": [
@@ -857,7 +857,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "12.000000"
+                        "amount": "12.00"
                     }
                 }
             ],

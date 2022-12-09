@@ -71,7 +71,7 @@
                         "rates": [
                             {
                                 "volume": 20.7123,
-                                "unitPrice": "3.70"
+                                "unitPrice": "3.7"
                             },
                             {
                                 "volume": 20.3836,
@@ -91,7 +91,7 @@
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "2.10"
+                                "unitPrice": "2.1"
                             }
                         ],
                         "period": "P1D",

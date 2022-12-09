@@ -310,7 +310,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "28.50"
+                                    "unitPrice": "28.5"
                                 }
                             ],
                             "timeOfUse": [
@@ -331,7 +331,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "28.50"
+                                    "unitPrice": "28.5"
                                 }
                             ],
                             "timeOfUse": [
@@ -361,7 +361,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "28.50"
+                                    "unitPrice": "28.5"
                                 }
                             ],
                             "timeOfUse": [
@@ -380,7 +380,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "28.50"
+                                    "unitPrice": "28.5"
                                 }
                             ],
                             "timeOfUse": [
@@ -401,7 +401,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "28.50"
+                                    "unitPrice": "28.5"
                                 }
                             ],
                             "timeOfUse": [
@@ -444,7 +444,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "28.50"
+                                    "unitPrice": "28.5"
                                 }
                             ],
                             "timeOfUse": [
@@ -465,7 +465,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "28.50"
+                                    "unitPrice": "28.5"
                                 }
                             ],
                             "timeOfUse": [
@@ -495,7 +495,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "28.50"
+                                    "unitPrice": "28.5"
                                 }
                             ],
                             "timeOfUse": [
@@ -514,7 +514,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "28.50"
+                                    "unitPrice": "28.5"
                                 }
                             ],
                             "timeOfUse": [
@@ -535,7 +535,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "28.50"
+                                    "unitPrice": "28.5"
                                 }
                             ],
                             "timeOfUse": [
@@ -599,7 +599,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "5.500000"
+                        "amount": "5.5"
                     }
                 }
             ],

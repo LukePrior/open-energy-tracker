@@ -408,7 +408,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "39.09"
+                                    "unitPrice": "39.090909"
                                 }
                             ],
                             "timeOfUse": [
@@ -447,7 +447,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "16.36"
+                                    "unitPrice": "16.363636"
                                 }
                             ],
                             "timeOfUse": [
@@ -468,7 +468,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "10.91"
+                                    "unitPrice": "10.909091"
                                 }
                             ],
                             "timeOfUse": [
@@ -506,7 +506,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "18.000000"
+                        "amount": "18.00"
                     }
                 },
                 {
@@ -516,7 +516,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "8.000000"
+                        "amount": "8.00"
                     }
                 },
                 {
@@ -526,7 +526,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "4.000000"
+                        "amount": "4.00"
                     }
                 }
             ],

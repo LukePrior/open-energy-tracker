@@ -220,11 +220,11 @@
                         "rates": [
                             {
                                 "volume": 500,
-                                "unitPrice": "28.50"
+                                "unitPrice": "28.5"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "33.60"
+                                "unitPrice": "33.6"
                             }
                         ],
                         "period": "P1M",

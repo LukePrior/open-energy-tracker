@@ -58,14 +58,14 @@
                     "rate": "0.36",
                     "term": "PERCENT_OF_BILL",
                     "type": "CC_PROCESSING",
-                    "amount": "0.000000",
+                    "amount": "0.00",
                     "description": "Credit card merchant service fee of 0.36% for all payments with Visa or Mastercard."
                 },
                 {
                     "rate": "1.5",
                     "term": "PERCENT_OF_BILL",
                     "type": "CC_PROCESSING",
-                    "amount": "0.000000",
+                    "amount": "0.00",
                     "description": "Credit card merchant service fee of 1.5% for all payments with American Express."
                 },
                 {
@@ -109,27 +109,27 @@
                         "rates": [
                             {
                                 "volume": 20.712,
-                                "unitPrice": "4.25"
+                                "unitPrice": "4.2473"
                             },
                             {
                                 "volume": 20.384,
-                                "unitPrice": "3.01"
+                                "unitPrice": "3.011"
                             },
                             {
                                 "volume": 49.315,
-                                "unitPrice": "2.84"
+                                "unitPrice": "2.8379"
                             },
                             {
                                 "volume": 2654.79399,
-                                "unitPrice": "2.72"
+                                "unitPrice": "2.7154"
                             },
                             {
                                 "volume": 10964.38401,
-                                "unitPrice": "2.57"
+                                "unitPrice": "2.5655"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "2.34"
+                                "unitPrice": "2.3448"
                             }
                         ],
                         "period": "P1D",

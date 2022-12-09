@@ -42,11 +42,11 @@
                         "rates": [
                             {
                                 "volume": 1644,
-                                "unitPrice": "2.70"
+                                "unitPrice": "2.7"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "2.70"
+                                "unitPrice": "2.7"
                             }
                         ],
                         "period": "P1D",

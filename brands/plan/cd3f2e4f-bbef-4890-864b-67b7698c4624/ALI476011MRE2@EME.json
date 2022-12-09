@@ -289,11 +289,11 @@
                         "rates": [
                             {
                                 "volume": 10.9589,
-                                "unitPrice": "21.70"
+                                "unitPrice": "21.7"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "21.70"
+                                "unitPrice": "21.7"
                             }
                         ],
                         "period": "P1D",
@@ -369,11 +369,11 @@
                         "rates": [
                             {
                                 "volume": 10.9589,
-                                "unitPrice": "21.70"
+                                "unitPrice": "21.7"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "21.70"
+                                "unitPrice": "21.7"
                             }
                         ],
                         "period": "P1D",
@@ -391,11 +391,11 @@
                         "rates": [
                             {
                                 "volume": 10.9589,
-                                "unitPrice": "21.70"
+                                "unitPrice": "21.7"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "21.70"
+                                "unitPrice": "21.7"
                             }
                         ],
                         "period": "P1D",
@@ -413,11 +413,11 @@
                         "rates": [
                             {
                                 "volume": 10.9589,
-                                "unitPrice": "21.70"
+                                "unitPrice": "21.7"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "21.70"
+                                "unitPrice": "21.7"
                             }
                         ],
                         "period": "P1D",
@@ -447,7 +447,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "6.700000"
+                        "amount": "6.7"
                     }
                 }
             ],

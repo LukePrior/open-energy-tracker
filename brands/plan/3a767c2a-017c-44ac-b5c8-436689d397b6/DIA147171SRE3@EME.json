@@ -295,7 +295,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "44.60"
+                                    "unitPrice": "44.6"
                                 }
                             ],
                             "timeOfUse": [
@@ -430,7 +430,7 @@
                             "rates": [
                                 {
                                     "volume": 340,
-                                    "unitPrice": "44.60"
+                                    "unitPrice": "44.6"
                                 },
                                 {
                                     "unitPrice": "59.00"
@@ -452,7 +452,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "15.90"
+                                    "unitPrice": "15.9"
                                 }
                             ],
                             "timeOfUse": [

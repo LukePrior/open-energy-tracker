@@ -405,7 +405,7 @@
                             },
                             {
                                 "volume": 2655,
-                                "unitPrice": "3.10"
+                                "unitPrice": "3.1"
                             },
                             {
                                 "volume": 10965,
@@ -526,7 +526,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "18.90"
+                                    "unitPrice": "18.9"
                                 }
                             ],
                             "timeOfUse": [
@@ -609,7 +609,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "18.90"
+                                    "unitPrice": "18.9"
                                 }
                             ],
                             "timeOfUse": [
@@ -692,7 +692,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "18.90"
+                                    "unitPrice": "18.9"
                                 }
                             ],
                             "timeOfUse": [
@@ -775,7 +775,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "18.90"
+                                    "unitPrice": "18.9"
                                 }
                             ],
                             "timeOfUse": [
@@ -862,7 +862,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "12.000000"
+                        "amount": "12.00"
                     }
                 }
             ],

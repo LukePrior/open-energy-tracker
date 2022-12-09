@@ -210,7 +210,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "18.18"
+                                    "unitPrice": "18.181818"
                                 }
                             ],
                             "timeOfUse": [
@@ -265,7 +265,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.003900",
+                            "amount": "0.0039",
                             "percentGreen": "10"
                         }
                     ],
@@ -276,7 +276,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.019500",
+                            "amount": "0.0195",
                             "percentGreen": "50"
                         }
                     ],
@@ -287,7 +287,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.039000",
+                            "amount": "0.039",
                             "percentGreen": "100"
                         }
                     ],
@@ -303,7 +303,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "8.900000"
+                        "amount": "8.9"
                     }
                 },
                 {
@@ -313,7 +313,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "8.900000"
+                        "amount": "8.9"
                     }
                 }
             ],

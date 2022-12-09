@@ -105,7 +105,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "37.20"
+                                    "unitPrice": "37.2"
                                 }
                             ],
                             "timeOfUse": [
@@ -124,7 +124,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "20.70"
+                                    "unitPrice": "20.7"
                                 }
                             ],
                             "timeOfUse": [
@@ -153,7 +153,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "28.90"
+                                    "unitPrice": "28.9"
                                 }
                             ],
                             "timeOfUse": [
@@ -186,15 +186,15 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.005500",
+                            "amount": "0.0055",
                             "percentGreen": "10"
                         },
                         {
-                            "amount": "0.013750",
+                            "amount": "0.01375",
                             "percentGreen": "25"
                         },
                         {
-                            "amount": "0.055000",
+                            "amount": "0.055",
                             "percentGreen": "100"
                         }
                     ],
@@ -211,7 +211,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "8.000000"
+                        "amount": "8.00"
                     }
                 }
             ],

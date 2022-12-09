@@ -360,14 +360,14 @@
                     "rate": "1.5",
                     "term": "PERCENT_OF_BILL",
                     "type": "CC_PROCESSING",
-                    "amount": "0.000000",
+                    "amount": "0.00",
                     "description": "Credit card merchant service fee of 1.5% for all payments with American Express."
                 },
                 {
                     "rate": "0.36",
                     "term": "PERCENT_OF_BILL",
                     "type": "CC_PROCESSING",
-                    "amount": "0.000000",
+                    "amount": "0.00",
                     "description": "Credit card merchant service fee of 0.36% for all payments with Visa or Mastercard."
                 },
                 {
@@ -408,7 +408,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "57.28"
+                                    "unitPrice": "57.284"
                                 }
                             ],
                             "timeOfUse": [
@@ -435,7 +435,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "30.57"
+                                    "unitPrice": "30.569"
                                 }
                             ],
                             "timeOfUse": [
@@ -462,7 +462,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "37.06"
+                                    "unitPrice": "37.057"
                                 }
                             ],
                             "timeOfUse": [
@@ -490,7 +490,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "30.57"
+                                    "unitPrice": "30.569"
                                 }
                             ],
                             "timeOfUse": [
@@ -517,7 +517,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "37.06"
+                                    "unitPrice": "37.057"
                                 }
                             ],
                             "timeOfUse": [
@@ -549,7 +549,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.049500",
+                            "amount": "0.0495",
                             "percentGreen": "10"
                         }
                     ],
@@ -560,7 +560,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.049500",
+                            "amount": "0.0495",
                             "percentGreen": "25"
                         }
                     ],
@@ -571,7 +571,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.049500",
+                            "amount": "0.0495",
                             "percentGreen": "100"
                         }
                     ],
@@ -587,7 +587,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "9.350000"
+                        "amount": "9.35"
                     }
                 },
                 {
@@ -597,7 +597,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "44.000000"
+                        "amount": "44.00"
                     }
                 },
                 {
@@ -607,7 +607,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "44.000000"
+                        "amount": "44.00"
                     }
                 }
             ],

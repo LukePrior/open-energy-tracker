@@ -411,7 +411,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "33.30"
+                                    "unitPrice": "33.3"
                                 }
                             ],
                             "timeOfUse": [
@@ -477,7 +477,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "33.30"
+                                    "unitPrice": "33.3"
                                 }
                             ],
                             "timeOfUse": [

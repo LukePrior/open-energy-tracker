@@ -407,11 +407,11 @@
                         "rates": [
                             {
                                 "volume": 42,
-                                "unitPrice": "37.520000"
+                                "unitPrice": "37.52"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "39.020000"
+                                "unitPrice": "39.02"
                             }
                         ],
                         "period": "P1D",
@@ -429,11 +429,11 @@
                         "rates": [
                             {
                                 "volume": 42,
-                                "unitPrice": "37.520000"
+                                "unitPrice": "37.52"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "39.020000"
+                                "unitPrice": "39.02"
                             }
                         ],
                         "period": "P1D",
@@ -462,7 +462,7 @@
                     "type": "FIXED_PER_DAY",
                     "tiers": [
                         {
-                            "amount": "1.500000",
+                            "amount": "1.5",
                             "percentGreen": "100"
                         }
                     ],
@@ -479,7 +479,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "6.000000"
+                        "amount": "6.00"
                     }
                 },
                 {
@@ -489,7 +489,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "44.000000"
+                        "amount": "44.00"
                     }
                 }
             ],

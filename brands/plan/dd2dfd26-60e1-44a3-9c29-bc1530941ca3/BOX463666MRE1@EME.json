@@ -244,7 +244,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "26.80"
+                                    "unitPrice": "26.8"
                                 }
                             ],
                             "timeOfUse": [
@@ -376,7 +376,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "5.000000"
+                        "amount": "5.00"
                     }
                 }
             ],

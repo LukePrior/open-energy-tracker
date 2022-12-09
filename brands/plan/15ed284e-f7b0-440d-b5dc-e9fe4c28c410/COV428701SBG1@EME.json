@@ -206,11 +206,11 @@
                             },
                             {
                                 "volume": 11178,
-                                "unitPrice": "3.60"
+                                "unitPrice": "3.6"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "3.50"
+                                "unitPrice": "3.5"
                             }
                         ],
                         "period": "P1D",

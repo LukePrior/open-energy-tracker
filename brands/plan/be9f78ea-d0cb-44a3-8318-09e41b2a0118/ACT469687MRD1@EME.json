@@ -94,19 +94,19 @@
                         "rates": [
                             {
                                 "volume": 41.0959,
-                                "unitPrice": "3.18"
+                                "unitPrice": "3.1773"
                             },
                             {
                                 "volume": 442.1918,
-                                "unitPrice": "2.65"
+                                "unitPrice": "2.6545"
                             },
                             {
                                 "volume": 1489.3151,
-                                "unitPrice": "2.41"
+                                "unitPrice": "2.4091"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "2.27"
+                                "unitPrice": "2.2727"
                             }
                         ],
                         "period": "P1D",
@@ -204,7 +204,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "27.80"
+                                    "unitPrice": "27.801"
                                 }
                             ],
                             "timeOfUse": [
@@ -234,7 +234,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "14.84"
+                                    "unitPrice": "14.835"
                                 }
                             ],
                             "timeOfUse": [
@@ -255,7 +255,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "19.60"
+                                    "unitPrice": "19.596"
                                 }
                             ],
                             "timeOfUse": [
@@ -324,15 +324,15 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.005500",
+                            "amount": "0.0055",
                             "percentGreen": "10"
                         },
                         {
-                            "amount": "0.013750",
+                            "amount": "0.01375",
                             "percentGreen": "25"
                         },
                         {
-                            "amount": "0.055000",
+                            "amount": "0.055",
                             "percentGreen": "100"
                         }
                     ],
@@ -349,7 +349,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "8.000000"
+                        "amount": "8.00"
                     }
                 }
             ],

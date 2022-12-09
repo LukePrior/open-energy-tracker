@@ -304,7 +304,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "43.30"
+                                    "unitPrice": "43.3"
                                 }
                             ],
                             "timeOfUse": [
@@ -323,7 +323,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "20.90"
+                                    "unitPrice": "20.9"
                                 }
                             ],
                             "timeOfUse": [
@@ -350,7 +350,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "23.20"
+                                    "unitPrice": "23.2"
                                 }
                             ],
                             "timeOfUse": [
@@ -405,7 +405,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "6.000000"
+                        "amount": "6.00"
                     }
                 }
             ],

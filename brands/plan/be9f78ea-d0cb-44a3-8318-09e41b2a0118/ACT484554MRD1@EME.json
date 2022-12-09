@@ -109,7 +109,7 @@
                             },
                             {
                                 "volume": 442.1918,
-                                "unitPrice": "3.20"
+                                "unitPrice": "3.2"
                             },
                             {
                                 "volume": 1489.3151,
@@ -236,7 +236,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "19.91"
+                                    "unitPrice": "19.911"
                                 }
                             ],
                             "timeOfUse": [
@@ -326,15 +326,15 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.005500",
+                            "amount": "0.0055",
                             "percentGreen": "10"
                         },
                         {
-                            "amount": "0.013750",
+                            "amount": "0.01375",
                             "percentGreen": "25"
                         },
                         {
-                            "amount": "0.055000",
+                            "amount": "0.055",
                             "percentGreen": "100"
                         }
                     ],
@@ -351,7 +351,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "12.000000"
+                        "amount": "12.00"
                     }
                 },
                 {
@@ -361,7 +361,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "8.000000"
+                        "amount": "8.00"
                     }
                 }
             ],

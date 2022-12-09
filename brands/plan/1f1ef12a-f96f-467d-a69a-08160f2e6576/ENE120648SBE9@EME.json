@@ -329,14 +329,14 @@
                     "rate": "0.36",
                     "term": "PERCENT_OF_BILL",
                     "type": "CC_PROCESSING",
-                    "amount": "0.000000",
+                    "amount": "0.00",
                     "description": "Credit card merchant service fee of 0.36% for all payments with Visa or Mastercard."
                 },
                 {
                     "rate": "1.5",
                     "term": "PERCENT_OF_BILL",
                     "type": "CC_PROCESSING",
-                    "amount": "0.000000",
+                    "amount": "0.00",
                     "description": "Credit card merchant service fee of 1.5% for all payments with American Express."
                 },
                 {
@@ -376,7 +376,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "43.69"
+                                    "unitPrice": "43.687"
                                 }
                             ],
                             "timeOfUse": [
@@ -395,7 +395,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "22.70"
+                                    "unitPrice": "22.697"
                                 }
                             ],
                             "timeOfUse": [
@@ -422,7 +422,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "32.61"
+                                    "unitPrice": "32.612"
                                 }
                             ],
                             "timeOfUse": [
@@ -485,7 +485,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.049500",
+                            "amount": "0.0495",
                             "percentGreen": "10"
                         }
                     ],
@@ -496,7 +496,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.049500",
+                            "amount": "0.0495",
                             "percentGreen": "25"
                         }
                     ],
@@ -507,7 +507,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.049500",
+                            "amount": "0.0495",
                             "percentGreen": "100"
                         }
                     ],
@@ -523,7 +523,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "8.360000"
+                        "amount": "8.36"
                     }
                 }
             ],

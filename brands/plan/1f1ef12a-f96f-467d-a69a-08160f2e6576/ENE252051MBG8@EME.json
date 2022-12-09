@@ -141,14 +141,14 @@
                     "rate": "0.36",
                     "term": "PERCENT_OF_BILL",
                     "type": "CC_PROCESSING",
-                    "amount": "0.000000",
+                    "amount": "0.00",
                     "description": "Credit card merchant service fee of 0.36% for all payments with Visa or Mastercard."
                 },
                 {
                     "rate": "1.5",
                     "term": "PERCENT_OF_BILL",
                     "type": "CC_PROCESSING",
-                    "amount": "0.000000",
+                    "amount": "0.00",
                     "description": "Credit card merchant service fee of 1.5% for all payments with American Express."
                 },
                 {
@@ -192,19 +192,19 @@
                         "rates": [
                             {
                                 "volume": 986.3,
-                                "unitPrice": "3.08"
+                                "unitPrice": "3.0765"
                             },
                             {
                                 "volume": 4274.000001,
-                                "unitPrice": "2.35"
+                                "unitPrice": "2.3484"
                             },
                             {
                                 "volume": 11177.9999,
-                                "unitPrice": "1.95"
+                                "unitPrice": "1.9489"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "1.87"
+                                "unitPrice": "1.8688"
                             }
                         ],
                         "period": "P1D",

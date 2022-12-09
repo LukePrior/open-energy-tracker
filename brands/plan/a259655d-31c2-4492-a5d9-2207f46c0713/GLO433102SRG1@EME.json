@@ -106,11 +106,11 @@
                         "rates": [
                             {
                                 "volume": 249,
-                                "unitPrice": "9.70"
+                                "unitPrice": "9.7"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "8.80"
+                                "unitPrice": "8.8"
                             }
                         ],
                         "period": "P1M",
@@ -128,11 +128,11 @@
                         "rates": [
                             {
                                 "volume": 249,
-                                "unitPrice": "9.70"
+                                "unitPrice": "9.7"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "8.80"
+                                "unitPrice": "8.8"
                             }
                         ],
                         "period": "P1M",

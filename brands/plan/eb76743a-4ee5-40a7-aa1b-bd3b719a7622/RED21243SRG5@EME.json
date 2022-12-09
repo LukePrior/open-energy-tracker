@@ -102,15 +102,15 @@
                         "rates": [
                             {
                                 "volume": 8.2,
-                                "unitPrice": "6.20"
+                                "unitPrice": "6.2"
                             },
                             {
                                 "volume": 19.2,
-                                "unitPrice": "4.40"
+                                "unitPrice": "4.4"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "2.80"
+                                "unitPrice": "2.8"
                             }
                         ],
                         "period": "P1D",

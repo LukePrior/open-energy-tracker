@@ -27,14 +27,14 @@
                     "rate": "0.36",
                     "term": "PERCENT_OF_BILL",
                     "type": "CC_PROCESSING",
-                    "amount": "0.000000",
+                    "amount": "0.00",
                     "description": "Credit card merchant service fee of 0.36% for all payments with Visa or Mastercard."
                 },
                 {
                     "rate": "1.5",
                     "term": "PERCENT_OF_BILL",
                     "type": "CC_PROCESSING",
-                    "amount": "0.000000",
+                    "amount": "0.00",
                     "description": "Credit card merchant service fee of 1.5% for all payments with American Express."
                 },
                 {
@@ -66,19 +66,19 @@
                         "rates": [
                             {
                                 "volume": 100,
-                                "unitPrice": "2.75"
+                                "unitPrice": "2.7512"
                             },
                             {
                                 "volume": 100,
-                                "unitPrice": "2.42"
+                                "unitPrice": "2.423"
                             },
                             {
                                 "volume": 1200,
-                                "unitPrice": "2.39"
+                                "unitPrice": "2.3927"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "2.28"
+                                "unitPrice": "2.2796"
                             }
                         ],
                         "period": "P1D",
@@ -96,19 +96,19 @@
                         "rates": [
                             {
                                 "volume": 100,
-                                "unitPrice": "2.75"
+                                "unitPrice": "2.7512"
                             },
                             {
                                 "volume": 100,
-                                "unitPrice": "2.42"
+                                "unitPrice": "2.423"
                             },
                             {
                                 "volume": 1200,
-                                "unitPrice": "2.39"
+                                "unitPrice": "2.3927"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "2.28"
+                                "unitPrice": "2.2796"
                             }
                         ],
                         "period": "P1D",

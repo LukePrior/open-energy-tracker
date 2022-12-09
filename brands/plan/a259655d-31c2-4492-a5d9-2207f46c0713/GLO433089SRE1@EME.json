@@ -236,10 +236,10 @@
                             "rates": [
                                 {
                                     "volume": 365,
-                                    "unitPrice": "23.80"
+                                    "unitPrice": "23.8"
                                 },
                                 {
-                                    "unitPrice": "63.80"
+                                    "unitPrice": "63.8"
                                 }
                             ],
                             "timeOfUse": [
@@ -274,10 +274,10 @@
                             "rates": [
                                 {
                                     "volume": 365,
-                                    "unitPrice": "23.80"
+                                    "unitPrice": "23.8"
                                 },
                                 {
-                                    "unitPrice": "63.80"
+                                    "unitPrice": "63.8"
                                 }
                             ],
                             "timeOfUse": [
@@ -320,7 +320,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "1.000000"
+                        "amount": "1.00"
                     }
                 }
             ],

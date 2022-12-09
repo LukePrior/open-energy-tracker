@@ -356,19 +356,19 @@
                             },
                             {
                                 "volume": 20.39,
-                                "unitPrice": "2.80"
+                                "unitPrice": "2.8"
                             },
                             {
                                 "volume": 49.31,
-                                "unitPrice": "2.60"
+                                "unitPrice": "2.6"
                             },
                             {
                                 "volume": 2654.8,
-                                "unitPrice": "2.50"
+                                "unitPrice": "2.5"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "2.40"
+                                "unitPrice": "2.4"
                             }
                         ],
                         "period": "P1D",

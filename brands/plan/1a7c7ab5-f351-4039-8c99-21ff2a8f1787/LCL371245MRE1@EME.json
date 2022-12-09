@@ -63,7 +63,7 @@
                     "rate": "1",
                     "term": "PERCENT_OF_BILL",
                     "type": "CC_PROCESSING",
-                    "amount": "0.000000",
+                    "amount": "0.00",
                     "description": "A fee of 1% applies to payments made by credit card"
                 },
                 {
@@ -177,7 +177,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "3.000000"
+                        "amount": "3.00"
                     }
                 }
             ]

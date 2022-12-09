@@ -444,11 +444,11 @@
                             },
                             {
                                 "volume": 10964.38,
-                                "unitPrice": "2.30"
+                                "unitPrice": "2.3"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "1.90"
+                                "unitPrice": "1.9"
                             }
                         ],
                         "period": "P1D",
