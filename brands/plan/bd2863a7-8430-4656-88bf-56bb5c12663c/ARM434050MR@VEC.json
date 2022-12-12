@@ -1,0 +1,143 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "arcstream",
+        "planId": "ARM434050MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Arcstream",
+        "geography": {
+            "distributors": [
+                "Citipower"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
+                "3011",
+                "3031",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3078",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
+            ]
+        },
+        "displayName": "Spark CR",
+        "lastUpdated": "2022-12-11T22:37:02Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-12-11T13:00:00Z",
+        "electricityContract": {
+            "terms": "standard terms and conditions apply as per our website terms and conditions.",
+            "isFixed": false,
+            "termType": "1_YEAR",
+            "timeZone": "LOCAL",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "category": "OTHER",
+                    "description": "",
+                    "displayName": "VPP Credit",
+                    "fixedAmount": {
+                        "amount": "327.27"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "Prices are variable and subject to change. For further details on the terms and conditions of the offer, please visit arcstream.solutions",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "To be eligible you must have >5kW Solar PV and a 5kW Inverter and >8kWh but <20kWh Battery. The battery must be a Qcells' Q.HOME battery.  For best outcomes we recommend you have 6.6kW solar PV. Please refer to arcstream.solutions or please email enquiries@arcstream.solutions with any questions or enquiries on the offer."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "09-30",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 200,
+                                "unitPrice": "0.000001"
+                            },
+                            {
+                                "unitPrice": "27.2727"
+                            }
+                        ],
+                        "description": "All Day Every Day",
+                        "displayName": "Anytime"
+                    },
+                    "displayName": "All Seasons",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "206.2267"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "OTHER"
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Solar FIT",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.20"
+                    }
+                }
+            ],
+            "intrinsicGreenPower": {
+                "greenPercentage": "100"
+            },
+            "onExpiryDescription": "Contract is for a 1 year term"
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/arcstream/cds-au/v1/energy/plans/ARM434050MR@VEC"
+    }
+}

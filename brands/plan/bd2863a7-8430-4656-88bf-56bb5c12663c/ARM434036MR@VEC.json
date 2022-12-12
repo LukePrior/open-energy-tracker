@@ -1,0 +1,195 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "arcstream",
+        "planId": "ARM434036MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Arcstream",
+        "geography": {
+            "distributors": [
+                "United Energy"
+            ],
+            "includedPostcodes": [
+                "3104",
+                "3105",
+                "3106",
+                "3107",
+                "3108",
+                "3109",
+                "3111",
+                "3114",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3127",
+                "3128",
+                "3129",
+                "3130",
+                "3131",
+                "3132",
+                "3133",
+                "3144",
+                "3145",
+                "3146",
+                "3147",
+                "3148",
+                "3149",
+                "3150",
+                "3151",
+                "3152",
+                "3161",
+                "3162",
+                "3163",
+                "3165",
+                "3166",
+                "3167",
+                "3168",
+                "3169",
+                "3170",
+                "3171",
+                "3172",
+                "3173",
+                "3174",
+                "3175",
+                "3177",
+                "3178",
+                "3179",
+                "3182",
+                "3183",
+                "3184",
+                "3185",
+                "3186",
+                "3187",
+                "3188",
+                "3189",
+                "3190",
+                "3191",
+                "3192",
+                "3193",
+                "3194",
+                "3195",
+                "3196",
+                "3197",
+                "3198",
+                "3199",
+                "3200",
+                "3201",
+                "3202",
+                "3204",
+                "3800",
+                "3802",
+                "3803",
+                "3910",
+                "3911",
+                "3912",
+                "3913",
+                "3915",
+                "3916",
+                "3918",
+                "3919",
+                "3920",
+                "3926",
+                "3927",
+                "3928",
+                "3929",
+                "3930",
+                "3931",
+                "3933",
+                "3934",
+                "3936",
+                "3937",
+                "3938",
+                "3939",
+                "3940",
+                "3941",
+                "3942",
+                "3943",
+                "3944",
+                "3975",
+                "3976",
+                "3977"
+            ]
+        },
+        "displayName": "Standard URTOU",
+        "lastUpdated": "2022-12-11T22:37:01Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-12-11T13:00:00Z",
+        "electricityContract": {
+            "terms": "standard terms and conditions apply as per our website terms and conditions.",
+            "isFixed": false,
+            "termType": "1_YEAR",
+            "timeZone": "LOCAL",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "category": "OTHER",
+                    "description": "",
+                    "displayName": "VPP Credit",
+                    "fixedAmount": {
+                        "amount": "327.27"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "Prices are variable and subject to change. For further details on the terms and conditions of the offer, please visit arcstream.solutions",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "To be eligible you must have >5kW Solar PV and a 5kW Inverter and >4kWh but <8kWh Battery. The battery must be a Qcells' Q.HOME battery.  For best outcomes we recommend you have 6.6kW solar PV. Please refer to arcstream.solutions or please email enquiries@arcstream.solutions with any questions or enquiries on the offer."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "09-30",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 200,
+                                "unitPrice": "0.000001"
+                            },
+                            {
+                                "unitPrice": "27.2727"
+                            }
+                        ],
+                        "description": "All Day Every Day",
+                        "displayName": "Anytime"
+                    },
+                    "displayName": "All Seasons",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "176.3387"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "OTHER"
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Solar FIT",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.20"
+                    }
+                }
+            ],
+            "intrinsicGreenPower": {
+                "greenPercentage": "100"
+            },
+            "onExpiryDescription": "Contract is for a 1 year term"
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/arcstream/cds-au/v1/energy/plans/ARM434036MR@VEC"
+    }
+}

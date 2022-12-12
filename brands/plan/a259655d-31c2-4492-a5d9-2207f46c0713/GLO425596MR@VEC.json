@@ -29,7 +29,7 @@
             ]
         },
         "displayName": "GloBird  ComboGLOSAVE Residential(Adjoining West)-AusNet Services (gas)",
-        "effectiveTo": "2023-10-04T13:00:00Z",
+        "effectiveTo": "2022-12-11T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -146,7 +146,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discount percentage or rates."
         },
-        "lastUpdated": "2022-10-05T02:42:47Z",
+        "lastUpdated": "2022-12-11T21:53:21Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-10-05T13:00:00Z"
     },
