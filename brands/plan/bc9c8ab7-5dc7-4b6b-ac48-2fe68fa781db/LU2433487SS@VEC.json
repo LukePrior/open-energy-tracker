@@ -1,0 +1,147 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "lumo",
+        "planId": "LU2433487SS@VEC",
+        "fuelType": "GAS",
+        "brandName": "Lumo Energy",
+        "geography": {
+            "distributors": [
+                "Australian Gas Networks"
+            ],
+            "includedPostcodes": [
+                "3198",
+                "3199",
+                "3200",
+                "3755",
+                "3760",
+                "3761",
+                "3777",
+                "3803",
+                "3805",
+                "3806",
+                "3807",
+                "3808",
+                "3809",
+                "3810",
+                "3816",
+                "3818",
+                "3820",
+                "3822",
+                "3823",
+                "3824",
+                "3825",
+                "3840",
+                "3842",
+                "3844",
+                "3847",
+                "3850",
+                "3851",
+                "3852",
+                "3860",
+                "3862",
+                "3910",
+                "3911",
+                "3912",
+                "3913",
+                "3915",
+                "3916",
+                "3918",
+                "3919",
+                "3920",
+                "3921",
+                "3926",
+                "3927",
+                "3928",
+                "3929",
+                "3930",
+                "3931",
+                "3933",
+                "3934",
+                "3936",
+                "3937",
+                "3938",
+                "3939",
+                "3940",
+                "3941",
+                "3942",
+                "3943",
+                "3944",
+                "3975",
+                "3976",
+                "3977",
+                "3978",
+                "3980",
+                "3981",
+                "3984",
+                "3987"
+            ]
+        },
+        "displayName": "Standing Offer",
+        "effectiveTo": "2022-12-30T13:00:00Z",
+        "gasContract": {
+            "terms": "For full terms and conditions applicable to this offer, please visit http://www.lumoenergy.com.au/help-centre/useful-docs.",
+            "isFixed": false,
+            "variation": "We may vary our rates no more than once per 6 months. We will publish any variation in a newspaper and on our website at least 10 business days before it starts. We also notify you of the variation by no later than your next bill.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "No Contract Term",
+                    "displayName": "No Contract Term",
+                    "eligibility": "The freedom of no contract term"
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is available to small business customers within the Australian Gas Network Central 1 distribution zone and is subject to the identification of the network tariff and metering requirements."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 3042,
+                                "unitPrice": "2.931"
+                            },
+                            {
+                                "volume": 30417,
+                                "unitPrice": "2.358"
+                            },
+                            {
+                                "volume": 49883,
+                                "unitPrice": "1.932"
+                            },
+                            {
+                                "unitPrice": "1.717"
+                            }
+                        ],
+                        "displayName": "Anytime"
+                    },
+                    "displayName": "Anytime",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "111.42"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+        },
+        "lastUpdated": "2022-12-05T06:00:38Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-12-12T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/lumo/cds-au/v1/energy/plans/LU2433487SS@VEC"
+    }
+}

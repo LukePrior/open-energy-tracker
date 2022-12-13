@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Red Taronga Flex (Demand - EA111, EA115, EA116)",
-        "lastUpdated": "2022-07-10T14:06:23.173Z",
+        "effectiveTo": "2022-12-20T00:00:00.000Z",
+        "lastUpdated": "2022-12-12T03:14:14.245Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-11T00:00:00.000Z",
         "meteringCharges": [

@@ -1,0 +1,120 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "lumo",
+        "planId": "LU2433484SS@VEC",
+        "fuelType": "GAS",
+        "brandName": "Lumo Energy",
+        "geography": {
+            "distributors": [
+                "AusNet Services (gas)"
+            ],
+            "includedPostcodes": [
+                "3260",
+                "3284",
+                "3363",
+                "3431",
+                "3434",
+                "3435",
+                "3437",
+                "3438",
+                "3440",
+                "3442",
+                "3551"
+            ]
+        },
+        "displayName": "Standing Offer",
+        "effectiveTo": "2022-12-30T13:00:00Z",
+        "gasContract": {
+            "terms": "For full terms and conditions applicable to this offer, please visit http://www.lumoenergy.com.au/help-centre/useful-docs.",
+            "isFixed": false,
+            "variation": "We may vary our rates no more than once per 6 months. We will publish any variation in a newspaper and on our website at least 10 business days before it starts. We also notify you of the variation by no later than your next bill.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "No Contract Term",
+                    "displayName": "No Contract Term",
+                    "eligibility": "The freedom of no contract term"
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is available to small business customers within the Ausnet Services Adjoining West distribution zone and is subject to the identification of the network tariff and metering requirements."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 6083,
+                                "unitPrice": "2.617"
+                            },
+                            {
+                                "volume": 6083,
+                                "unitPrice": "2.587"
+                            },
+                            {
+                                "volume": 73000,
+                                "unitPrice": "2.373"
+                            },
+                            {
+                                "unitPrice": "2.25"
+                            }
+                        ],
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Off Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "92.34"
+                },
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 6083,
+                                "unitPrice": "3.057"
+                            },
+                            {
+                                "volume": 6083,
+                                "unitPrice": "3.006"
+                            },
+                            {
+                                "volume": 73000,
+                                "unitPrice": "2.376"
+                            },
+                            {
+                                "unitPrice": "2.293"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "92.34"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+        },
+        "lastUpdated": "2022-12-05T06:00:37Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-12-12T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/lumo/cds-au/v1/energy/plans/LU2433484SS@VEC"
+    }
+}

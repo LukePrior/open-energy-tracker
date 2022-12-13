@@ -1,0 +1,138 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "lumo",
+        "planId": "LU2433485SS@VEC",
+        "fuelType": "GAS",
+        "brandName": "Lumo Energy",
+        "geography": {
+            "distributors": [
+                "AusNet Services (gas)"
+            ],
+            "includedPostcodes": [
+                "3241",
+                "3249",
+                "3250",
+                "3266",
+                "3277",
+                "3280",
+                "3282",
+                "3300",
+                "3305",
+                "3340",
+                "3342",
+                "3350",
+                "3352",
+                "3355",
+                "3356",
+                "3357",
+                "3358",
+                "3430",
+                "3444",
+                "3450",
+                "3451",
+                "3460",
+                "3461",
+                "3464",
+                "3465",
+                "3550",
+                "3551",
+                "3555",
+                "3556"
+            ]
+        },
+        "displayName": "Standing Offer",
+        "effectiveTo": "2022-12-30T13:00:00Z",
+        "gasContract": {
+            "terms": "For full terms and conditions applicable to this offer, please visit http://www.lumoenergy.com.au/help-centre/useful-docs.",
+            "isFixed": false,
+            "variation": "We may vary our rates no more than once per 6 months. We will publish any variation in a newspaper and on our website at least 10 business days before it starts. We also notify you of the variation by no later than your next bill.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "No Contract Term",
+                    "displayName": "No Contract Term",
+                    "eligibility": "The freedom of no contract term"
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is available to small business customers within the Ausnet Services West distribution zone and is subject to the identification of the network tariff and metering requirements."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 6083,
+                                "unitPrice": "1.921"
+                            },
+                            {
+                                "volume": 6083,
+                                "unitPrice": "1.905"
+                            },
+                            {
+                                "volume": 73000,
+                                "unitPrice": "1.762"
+                            },
+                            {
+                                "unitPrice": "1.602"
+                            }
+                        ],
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Off Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "92.34"
+                },
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 6083,
+                                "unitPrice": "2.318"
+                            },
+                            {
+                                "volume": 6083,
+                                "unitPrice": "2.258"
+                            },
+                            {
+                                "volume": 73000,
+                                "unitPrice": "1.849"
+                            },
+                            {
+                                "unitPrice": "1.756"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "92.34"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+        },
+        "lastUpdated": "2022-12-05T06:00:37Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-12-12T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/lumo/cds-au/v1/energy/plans/LU2433485SS@VEC"
+    }
+}

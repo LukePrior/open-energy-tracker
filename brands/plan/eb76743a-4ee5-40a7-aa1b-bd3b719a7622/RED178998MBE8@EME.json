@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Red Taronga Flex (DMD-EA251,EA255,EA256)",
-        "lastUpdated": "2022-07-10T14:06:01.927Z",
+        "effectiveTo": "2022-12-20T00:00:00.000Z",
+        "lastUpdated": "2022-12-12T03:14:49.076Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-07-11T00:00:00.000Z",
         "meteringCharges": [

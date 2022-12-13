@@ -315,7 +315,8 @@
             ]
         },
         "displayName": "Red Business Saver",
-        "lastUpdated": "2022-09-13T21:31:35.900Z",
+        "effectiveTo": "2022-12-20T00:00:00.000Z",
+        "lastUpdated": "2022-12-12T03:14:31.707Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-09-14T00:00:00.000Z",
         "meteringCharges": [

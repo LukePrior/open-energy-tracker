@@ -1,0 +1,225 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "covau",
+        "planId": "COV480652MRG3@EME",
+        "fuelType": "GAS",
+        "brandName": "CovaU",
+        "geography": {
+            "distributors": [
+                "Allgas Energy QLD"
+            ],
+            "includedPostcodes": [
+                "4068",
+                "4073",
+                "4074",
+                "4075",
+                "4076",
+                "4077",
+                "4078",
+                "4101",
+                "4102",
+                "4103",
+                "4104",
+                "4105",
+                "4106",
+                "4107",
+                "4108",
+                "4109",
+                "4110",
+                "4111",
+                "4112",
+                "4113",
+                "4114",
+                "4115",
+                "4116",
+                "4117",
+                "4118",
+                "4119",
+                "4120",
+                "4121",
+                "4122",
+                "4123",
+                "4124",
+                "4125",
+                "4127",
+                "4128",
+                "4129",
+                "4131",
+                "4132",
+                "4133",
+                "4151",
+                "4152",
+                "4153",
+                "4154",
+                "4155",
+                "4156",
+                "4157",
+                "4158",
+                "4159",
+                "4160",
+                "4161",
+                "4163",
+                "4164",
+                "4169",
+                "4170",
+                "4171",
+                "4172",
+                "4173",
+                "4174",
+                "4178",
+                "4179",
+                "4205",
+                "4207",
+                "4208",
+                "4209",
+                "4210",
+                "4211",
+                "4212",
+                "4213",
+                "4214",
+                "4215",
+                "4216",
+                "4217",
+                "4218",
+                "4220",
+                "4221",
+                "4223",
+                "4224",
+                "4225",
+                "4226",
+                "4227",
+                "4228",
+                "4280",
+                "4300",
+                "4303",
+                "4334",
+                "4350",
+                "4352",
+                "4356",
+                "4401",
+                "4718"
+            ]
+        },
+        "displayName": "Freedom Online Residential Gas",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "$66.97 (inc. GST) fee may apply when your property is disconnected. This fee is passed through from your distributor and may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "description": "$85.72 (inc. GST) fee may apply when your property is reconnected. This fee is passed through from your distributor and may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "description": "$9.50 (inc. GST) Direct debit dishonour payment fee"
+                },
+                {
+                    "rate": "0.82",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A 0.82% (inc. GST) fee may apply to payments made by debit and credit cards."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CHEQUE_DISHONOUR",
+                    "description": "$9.50 (inc. GST) Cheque dishonour payment fee"
+                },
+                {
+                    "rate": "0.8",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A 0.803% (inc. GST) applies to credit card payments via Australia Post."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "$24.39 (inc. GST) Special Meter Read fee. This fee is passed through from your distributor and may vary."
+                }
+            ],
+            "terms": "See our full terms and conditions to www.covau.com.au for details.",
+            "isFixed": false,
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "description": "Discounts applied to GST inclusive gas usage charges.",
+                    "displayName": "Guaranteed discount on usage charges",
+                    "methodUType": "percentOfUse",
+                    "percentOfUse": {
+                        "rate": "15"
+                    }
+                },
+                {
+                    "type": "CONDITIONAL",
+                    "category": "OTHER",
+                    "description": "$50 one-off sign-up credits (including GST) will be applied on your first invoice after switching to CovaU. This's applicable to new customer who sign up on CovaU's website only.",
+                    "displayName": "Online Signup Bonus",
+                    "fixedAmount": {
+                        "amount": "50.00"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "We may vary the charges of this plan (including their amount, nature and structure) at any time by giving you a notice at least 5 business days prior to the effective date of variation.All prices listed are inclusive of GST except where indicated.",
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 25.51,
+                                "unitPrice": "6.5"
+                            },
+                            {
+                                "volume": 25,
+                                "unitPrice": "6.19"
+                            },
+                            {
+                                "volume": 1649.49,
+                                "unitPrice": "6.19"
+                            },
+                            {
+                                "volume": 8300,
+                                "unitPrice": "6.19"
+                            },
+                            {
+                                "volume": null,
+                                "unitPrice": "6.19"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "Any time",
+                        "displayName": "General Usage Rate"
+                    },
+                    "displayName": "Single Rate Tariff Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "118.65"
+                }
+            ],
+            "billFrequency": [
+                "P3M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY"
+            ],
+            "coolingOffDays": "10",
+            "onExpiryDescription": "This agreement continues until you or we end it."
+        },
+        "lastUpdated": "2022-12-12T04:32:29.788Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-12-12T00:00:00.000Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/covau/cds-au/v1/energy/plans/COV480652MRG3@EME"
+    }
+}

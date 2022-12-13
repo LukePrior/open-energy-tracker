@@ -15,6 +15,7 @@
             ]
         },
         "displayName": "Red Taronga Flex",
+        "effectiveTo": "2022-12-20T00:00:00.000Z",
         "gasContract": {
             "fees": [
                 {
@@ -65,7 +66,7 @@
             "coolingOffDays": "10",
             "onExpiryDescription": "Your contract is ongoing until it is ended by you or us"
         },
-        "lastUpdated": "2022-08-10T14:06:27.005Z",
+        "lastUpdated": "2022-12-12T03:14:22.637Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-08-11T00:00:00.000Z"
     },

@@ -169,7 +169,8 @@
             ]
         },
         "displayName": "Living Energy Saver (TOU Seasonal - N71)",
-        "lastUpdated": "2022-09-13T21:31:37.523Z",
+        "effectiveTo": "2022-12-20T00:00:00.000Z",
+        "lastUpdated": "2022-12-12T03:14:29.106Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-09-14T00:00:00.000Z",
         "meteringCharges": [

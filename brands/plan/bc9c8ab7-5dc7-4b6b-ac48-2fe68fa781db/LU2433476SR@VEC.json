@@ -1,0 +1,125 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "lumo",
+        "planId": "LU2433476SR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Lumo Energy",
+        "geography": {
+            "distributors": [
+                "Australian Gas Networks"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3005",
+                "3008",
+                "3050",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3072",
+                "3073",
+                "3074",
+                "3075",
+                "3076",
+                "3078",
+                "3079",
+                "3081",
+                "3082",
+                "3083",
+                "3084",
+                "3085",
+                "3087",
+                "3088",
+                "3089",
+                "3090",
+                "3091",
+                "3093",
+                "3094",
+                "3095",
+                "3096",
+                "3099",
+                "3121",
+                "3750",
+                "3751",
+                "3752",
+                "3754",
+                "3759",
+                "3821"
+            ]
+        },
+        "displayName": "Standing Offer",
+        "effectiveTo": "2022-12-30T13:00:00Z",
+        "gasContract": {
+            "terms": "For full terms and conditions applicable to this offer, please visit http://www.lumoenergy.com.au/help-centre/useful-docs.",
+            "isFixed": false,
+            "variation": "We may vary our rates no more than once per 6 months. We will publish any variation in a newspaper and on our website at least 10 business days before it starts. We also notify you of the variation by no later than your next bill.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "No contract term",
+                    "displayName": "No contract term",
+                    "eligibility": "The freedom of no contract term"
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is available to residential customers within the Australian Gas Network Central 2 distribution zone and is subject to the identification of the network tariff and metering requirements."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 1667,
+                                "unitPrice": "2.841"
+                            },
+                            {
+                                "volume": 1332,
+                                "unitPrice": "2.388"
+                            },
+                            {
+                                "unitPrice": "1.995"
+                            }
+                        ],
+                        "displayName": "Anytime"
+                    },
+                    "displayName": "Anytime",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "78.00"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+        },
+        "lastUpdated": "2022-12-05T06:00:37Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-12-12T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/lumo/cds-au/v1/energy/plans/LU2433476SR@VEC"
+    }
+}
