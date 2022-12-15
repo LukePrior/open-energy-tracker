@@ -1,0 +1,95 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "kogan",
+        "planId": "PO2438166MR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Kogan Energy",
+        "geography": {
+            "distributors": [
+                "Multinet"
+            ],
+            "includedPostcodes": [
+                "3139",
+                "3775",
+                "3797",
+                "3799"
+            ]
+        },
+        "displayName": "Kogan Energy Basic",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "0.00",
+                    "description": "In addition to the applicable prices, you may incur other fees, including disconnection fees. Information regarding fees is set out on our fees page powershop.com.au/fees"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "58.01",
+                    "description": "Disconnection fees may apply to manually de-energise a property. The fee will be passed on from your distributor and may vary."
+                }
+            ],
+            "terms": "Kogan Energy is provided by Powershop Australia Pty Ltd. We offer bi-monthly bills and do not issue paper bills. We require a credit card or bank details. For further information in relation to Kogan Energy and this offer - see our full terms and conditions at: koganenergy.com.au/terms-conditions",
+            "isFixed": false,
+            "variation": "We may vary your prices at any time. If we vary your prices we'll give you advance notice, usually by email.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Eligibility criteria may apply, contact Kogan Energy for details."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "10-31",
+                    "startDate": "05-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "2.223"
+                            }
+                        ],
+                        "displayName": "Anytime"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "77.75"
+                },
+                {
+                    "endDate": "04-30",
+                    "startDate": "11-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "2.0038"
+                            }
+                        ],
+                        "displayName": "Anytime"
+                    },
+                    "displayName": "Off Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "77.75"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "OTHER"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "This Kogan Energy offer is an ongoing contract (until you or we end it) with no exit fees."
+        },
+        "lastUpdated": "2022-12-14T22:25:52Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-06-30T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/kogan/cds-au/v1/energy/plans/PO2438166MR@VEC"
+    }
+}

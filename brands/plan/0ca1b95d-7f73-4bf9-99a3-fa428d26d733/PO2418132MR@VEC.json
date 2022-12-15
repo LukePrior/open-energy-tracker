@@ -1,87 +1,107 @@
 {
     "data": {
         "type": "MARKET",
-        "brand": "powershop",
-        "planId": "POD407390MR@VEC",
+        "brand": "kogan",
+        "planId": "PO2418132MR@VEC",
         "fuelType": "ELECTRICITY",
-        "brandName": "Powershop",
+        "brandName": "Kogan Energy",
         "geography": {
             "distributors": [
-                "Citipower"
+                "Jemena"
             ],
             "includedPostcodes": [
-                "3000",
-                "3002",
-                "3003",
-                "3004",
-                "3005",
-                "3006",
-                "3008",
-                "3010",
                 "3011",
+                "3012",
+                "3013",
+                "3015",
+                "3016",
+                "3019",
+                "3020",
+                "3023",
+                "3025",
                 "3031",
+                "3032",
+                "3033",
+                "3034",
+                "3036",
+                "3037",
+                "3038",
+                "3039",
+                "3040",
+                "3041",
+                "3042",
+                "3043",
+                "3044",
+                "3045",
+                "3046",
+                "3047",
+                "3048",
+                "3049",
                 "3051",
                 "3052",
-                "3053",
-                "3054",
-                "3055",
-                "3056",
-                "3057",
-                "3065",
-                "3066",
-                "3067",
+                "3058",
+                "3059",
+                "3060",
+                "3061",
+                "3062",
+                "3063",
+                "3064",
                 "3068",
                 "3070",
-                "3071",
+                "3072",
+                "3073",
+                "3074",
+                "3076",
                 "3078",
-                "3101",
-                "3102",
-                "3103",
-                "3104",
-                "3121",
-                "3122",
-                "3123",
-                "3124",
-                "3125",
-                "3126",
-                "3127",
-                "3129",
-                "3141",
-                "3142",
-                "3143",
-                "3144",
-                "3161",
-                "3181",
-                "3182",
-                "3183",
-                "3205",
-                "3206",
-                "3207"
+                "3079",
+                "3081",
+                "3083",
+                "3084",
+                "3085",
+                "3086",
+                "3087",
+                "3335",
+                "3336",
+                "3337",
+                "3340",
+                "3427",
+                "3428",
+                "3429",
+                "3430",
+                "3431",
+                "3437",
+                "3750",
+                "3753"
             ]
         },
-        "displayName": "Powershop 100% Carbon Neutral",
-        "effectiveTo": "2023-07-16T14:00:00Z",
-        "lastUpdated": "2022-07-12T00:20:35Z",
+        "displayName": "Kogan Energy with free Kogan First",
+        "lastUpdated": "2022-08-05T00:21:16Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-17T14:00:00Z",
         "electricityContract": {
             "fees": [
                 {
                     "term": "FIXED",
-                    "type": "EXIT",
+                    "type": "OTHER",
                     "amount": "0.00",
-                    "description": "This Powershop offer has no exit fees\nIn addition to the applicable prices, you may incur other fees, including disconnection fees. Information regarding fees is set out on our fees page powershop.com.au/fees"
+                    "description": "Additional fees may apply, we'll endeavour to inform you of any fee that is to be applied and gain your consent before the service is provided. Information available at: koganenergy.com.au/terms-conditions"
                 },
                 {
                     "term": "FIXED",
-                    "type": "CC_PROCESSING",
+                    "type": "CONNECTION",
+                    "amount": "56.73",
+                    "description": "Connection fees may apply to manually energise a property. The fee will be passed on from your distributor and may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
                     "amount": "0.00",
-                    "description": "Powershop do not charge credit card fees."
+                    "description": "Connection fees may apply to remotely energise a property. The fee will be passed on from your distributor and may vary."
                 },
                 {
                     "term": "FIXED",
                     "type": "DISCONNECTION",
-                    "amount": "41.954",
+                    "amount": "81.35",
                     "description": "Disconnection fees may apply to manually de-energise a property. The fee will be passed on from your distributor and may vary."
                 },
                 {
@@ -91,21 +111,29 @@
                     "description": "Disconnection fees may apply to remotely de-energise a property. The fee will be passed on from your distributor and may vary."
                 }
             ],
-            "terms": "We do not issue paper bills and require a credit card or bank details. For more information in relation to Powershop and this offer, see full terms and conditions at: www.powershop.com.au/terms-and-conditions",
+            "terms": "Kogan Energy is provided by Powershop Australia Pty Ltd. We do not issue paper bills and require a credit card or bank details. For more information in relation to Kogan Energy and this offer, see full terms and conditions at: koganenergy.com.au/terms-conditions.",
             "isFixed": false,
             "timeZone": "LOCAL",
-            "variation": "We may vary your prices in accordance with our regulatory requirements. If we vary your prices weu2019ll give you advance notice, usually by email.",
+            "variation": "We may vary your prices in accordance with our regulatory requirements. If we vary your prices we'll give you advance notice, usually by email",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Kogan First",
+                    "displayName": "Kogan First",
+                    "eligibility": "You receive complimentary access to Kogan First membership for 12 months from when you switch to this offer"
+                }
+            ],
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "Eligibility criteria may apply, contact Powershop for details."
+                    "information": "You must agree to Kogan First membership T&Cs, available at koganenergy.com.au/terms-conditions. Offer not available to existing Kogan First members. If you're no longer eligible for this offer, we can end your energy plan."
                 }
             ],
-            "pricingModel": "FLEXIBLE_CONT_LOAD",
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
             "tariffPeriod": [
                 {
-                    "endDate": "06-30",
-                    "startDate": "07-01",
+                    "endDate": "02-13",
+                    "startDate": "02-14",
                     "displayName": "Period",
                     "rateBlockUType": "timeOfUseRates",
                     "timeOfUseRates": [
@@ -113,7 +141,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "27.2570275"
+                                    "unitPrice": "27.3316"
                                 }
                             ],
                             "timeOfUse": [
@@ -128,40 +156,16 @@
                                         "SUN"
                                     ],
                                     "endTime": "2100",
-                                    "startTime": "1600"
+                                    "startTime": "1500"
                                 }
                             ],
-                            "displayName": "Peak Usage"
-                        },
-                        {
-                            "type": "SHOULDER",
-                            "rates": [
-                                {
-                                    "unitPrice": "15.65371"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI",
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "1500",
-                                    "startTime": "1000"
-                                }
-                            ],
-                            "displayName": "Shoulder Usage"
+                            "displayName": "Peak"
                         },
                         {
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "15.65371"
+                                    "unitPrice": "17.5316"
                                 }
                             ],
                             "timeOfUse": [
@@ -188,27 +192,14 @@
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "1000",
+                                    "endTime": "1500",
                                     "startTime": "0000"
-                                },
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI",
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "1600",
-                                    "startTime": "1500"
                                 }
                             ],
-                            "displayName": "Off Peak Usage"
+                            "displayName": "Off Peak"
                         }
                     ],
-                    "dailySupplyCharges": "104.8705275"
+                    "dailySupplyCharges": "80.3384"
                 }
             ],
             "billFrequency": [
@@ -223,7 +214,7 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "14.13"
+                                "unitPrice": "16.5595"
                             }
                         ],
                         "description": "Time switch controlled hotwater services, space heaters and other dedicated loads, generally controlled between 11pm and 7am.",
@@ -234,20 +225,6 @@
                 }
             ],
             "coolingOffDays": 10,
-            "greenPowerCharges": [
-                {
-                    "type": "FIXED_PER_UNIT",
-                    "tiers": [
-                        {
-                            "amount": "0.0374",
-                            "percentGreen": "100"
-                        }
-                    ],
-                    "scheme": "GREENPOWER",
-                    "description": "100% GreenPower for 3.74c/kWh inc. GST (no discounts apply to GreenPower charges)",
-                    "displayName": "GreenPower 100"
-                }
-            ],
             "solarFeedInTariff": [
                 {
                     "scheme": "OTHER",
@@ -256,7 +233,7 @@
                     "displayName": "Current FIT policy",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "6.70"
+                        "amount": "5.20"
                     }
                 },
                 {
@@ -266,15 +243,15 @@
                     "displayName": "Premium FIT [closed]",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "66.70"
+                        "amount": "65.20"
                     }
                 }
             ],
-            "onExpiryDescription": "This Powershop offer is an ongoing contract (until you or we end it) with no exit fees."
+            "onExpiryDescription": "This Kogan Energy offer is an ongoing contract (until you or we end it) with no exit fees."
         }
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1/energy/plans/POD407390MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/kogan/cds-au/v1/energy/plans/PO2418132MR@VEC"
     }
 }

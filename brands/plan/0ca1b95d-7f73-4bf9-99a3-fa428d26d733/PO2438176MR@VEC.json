@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "kogan",
-        "planId": "PO2384021MR@VEC",
+        "planId": "PO2438176MR@VEC",
         "fuelType": "GAS",
         "brandName": "Kogan Energy",
         "geography": {
@@ -10,77 +10,8 @@
                 "AusNet Services (gas)"
             ],
             "includedPostcodes": [
-                "3011",
-                "3012",
-                "3013",
-                "3015",
-                "3016",
-                "3018",
-                "3019",
-                "3020",
-                "3021",
-                "3022",
-                "3023",
-                "3024",
-                "3025",
-                "3026",
-                "3027",
-                "3028",
-                "3029",
-                "3030",
-                "3031",
-                "3032",
-                "3033",
-                "3034",
-                "3036",
-                "3037",
-                "3038",
-                "3039",
-                "3040",
-                "3041",
-                "3042",
-                "3043",
-                "3044",
-                "3045",
-                "3046",
-                "3047",
-                "3048",
-                "3049",
-                "3055",
-                "3058",
-                "3059",
-                "3060",
-                "3061",
-                "3062",
-                "3063",
-                "3064",
-                "3211",
-                "3212",
-                "3214",
-                "3215",
-                "3216",
-                "3217",
-                "3218",
-                "3219",
-                "3220",
-                "3221",
-                "3222",
-                "3223",
-                "3224",
-                "3225",
-                "3226",
-                "3228",
-                "3335",
-                "3337",
-                "3338",
-                "3427",
-                "3428",
-                "3429",
-                "3336",
-                "3003",
-                "3008",
-                "3073",
-                "3213"
+                "3227",
+                "3331"
             ]
         },
         "displayName": "Kogan Energy - Kogan First",
@@ -122,7 +53,7 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "1.8399"
+                                "unitPrice": "2.1794"
                             }
                         ],
                         "displayName": "Anytime"
@@ -137,7 +68,7 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "1.8449"
+                                "unitPrice": "2.1844"
                             }
                         ],
                         "displayName": "Anytime"
@@ -157,12 +88,12 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "This Kogan Energy offer is an ongoing contract (until you or we end it) with no exit fees."
         },
-        "lastUpdated": "2022-04-07T04:56:09Z",
+        "lastUpdated": "2022-12-14T22:25:53Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2022-04-10T14:00:00Z"
+        "effectiveFrom": "2022-06-30T14:00:00Z"
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/kogan/cds-au/v1/energy/plans/PO2384021MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/kogan/cds-au/v1/energy/plans/PO2438176MR@VEC"
     }
 }

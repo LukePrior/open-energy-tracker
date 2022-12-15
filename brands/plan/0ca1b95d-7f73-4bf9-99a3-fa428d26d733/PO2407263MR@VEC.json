@@ -1,10 +1,10 @@
 {
     "data": {
         "type": "MARKET",
-        "brand": "powershop",
-        "planId": "POD407303MR@VEC",
+        "brand": "kogan",
+        "planId": "PO2407263MR@VEC",
         "fuelType": "ELECTRICITY",
-        "brandName": "Powershop",
+        "brandName": "Kogan Energy",
         "geography": {
             "distributors": [
                 "Powercor"
@@ -326,29 +326,35 @@
                 "3764"
             ]
         },
-        "displayName": "Powershop 100% Carbon Neutral",
-        "effectiveTo": "2023-07-16T14:00:00Z",
-        "lastUpdated": "2022-07-12T00:20:33Z",
+        "displayName": "Kogan Energy for current Kogan First members",
+        "effectiveTo": "2022-10-18T13:00:00Z",
+        "lastUpdated": "2022-10-19T00:38:25Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-17T14:00:00Z",
         "electricityContract": {
             "fees": [
                 {
                     "term": "FIXED",
-                    "type": "EXIT",
+                    "type": "OTHER",
                     "amount": "0.00",
-                    "description": "This Powershop offer has no exit fees\nIn addition to the applicable prices, you may incur other fees, including disconnection fees. Information regarding fees is set out on our fees page powershop.com.au/fees"
+                    "description": "Additional fees may apply, we'll endeavour to inform you of any fee that is to be applied and gain your consent before the service is provided. Information available at: koganenergy.com.au/terms-conditions"
                 },
                 {
                     "term": "FIXED",
-                    "type": "CC_PROCESSING",
+                    "type": "CONNECTION",
+                    "amount": "61.24",
+                    "description": "Connection fees may apply to manually energise a property. The fee will be passed on from your distributor and may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
                     "amount": "0.00",
-                    "description": "Powershop do not charge credit card fees."
+                    "description": "Connection fees may apply to remotely energise a property. The fee will be passed on from your distributor and may vary."
                 },
                 {
                     "term": "FIXED",
                     "type": "DISCONNECTION",
-                    "amount": "65.087",
+                    "amount": "65.09",
                     "description": "Disconnection fees may apply to manually de-energise a property. The fee will be passed on from your distributor and may vary."
                 },
                 {
@@ -358,25 +364,33 @@
                     "description": "Disconnection fees may apply to remotely de-energise a property. The fee will be passed on from your distributor and may vary."
                 }
             ],
-            "terms": "We do not issue paper bills and require a credit card or bank details. For more information in relation to Powershop and this offer, see full terms and conditions at: www.powershop.com.au/terms-and-conditions",
+            "terms": "Kogan Energy is provided by Powershop Australia Pty Ltd. We do not issue paper bills and require a credit card or bank details. For more information in relation to Kogan Energy and this offer, see full terms and conditions at: koganenergy.com.au/terms-conditions.",
             "isFixed": false,
             "timeZone": "LOCAL",
-            "variation": "We may vary your prices in accordance with our regulatory requirements. If we vary your prices weu2019ll give you advance notice, usually by email.",
+            "variation": "We may vary your prices in accordance with our regulatory requirements. If we vary your prices weu2019ll give you advance notice, usually by email",
+            "incentives": [
+                {
+                    "category": "ACCOUNT_CREDIT",
+                    "description": "$59 (incl GST) credit",
+                    "displayName": "$59 (incl GST) credit",
+                    "eligibility": "To be eligible for this offer you must be an existing Kogan First member. If youu2019re no longer eligible for this offer, we can end your energy plan"
+                }
+            ],
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "Eligibility criteria may apply, contact Powershop for details."
+                    "information": "To be eligible for this offer you must be an existing Kogan First member. If youu2019re no longer eligible for this offer, we can end your energy plan"
                 }
             ],
-            "pricingModel": "SINGLE_RATE",
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
             "tariffPeriod": [
                 {
-                    "endDate": "06-30",
-                    "startDate": "07-01",
+                    "endDate": "02-13",
+                    "startDate": "02-14",
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "21.045454545455"
+                                "unitPrice": "22.2119"
                             }
                         ],
                         "description": "All times of the day",
@@ -384,7 +398,7 @@
                     },
                     "displayName": "Period",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "118.21818181818"
+                    "dailySupplyCharges": "92.5418"
                 }
             ],
             "billFrequency": [
@@ -394,21 +408,22 @@
                 "DIRECT_DEBIT",
                 "OTHER"
             ],
-            "coolingOffDays": 10,
-            "greenPowerCharges": [
+            "controlledLoad": [
                 {
-                    "type": "FIXED_PER_UNIT",
-                    "tiers": [
-                        {
-                            "amount": "0.0374",
-                            "percentGreen": "100"
-                        }
-                    ],
-                    "scheme": "GREENPOWER",
-                    "description": "100% GreenPower for 3.74c/kWh inc. GST (no discounts apply to GreenPower charges)",
-                    "displayName": "GreenPower 100"
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "16.4529"
+                            }
+                        ],
+                        "description": "Time switch controlled hot water services, space heaters and other dedicated loads, generally controlled between 11pm and 7am.",
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Controlled Load Usage",
+                    "rateBlockUType": "singleRate"
                 }
             ],
+            "coolingOffDays": 10,
             "solarFeedInTariff": [
                 {
                     "scheme": "OTHER",
@@ -417,7 +432,7 @@
                     "displayName": "Current FIT policy",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "6.70"
+                        "amount": "5.20"
                     }
                 },
                 {
@@ -427,15 +442,15 @@
                     "displayName": "Premium FIT [closed]",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "66.70"
+                        "amount": "65.20"
                     }
                 }
             ],
-            "onExpiryDescription": "This Powershop offer is an ongoing contract (until you or we end it) with no exit fees."
+            "onExpiryDescription": "This Kogan Energy offer is an ongoing contract (until you or we end it) with no exit fees."
         }
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1/energy/plans/POD407303MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/kogan/cds-au/v1/energy/plans/PO2407263MR@VEC"
     }
 }
