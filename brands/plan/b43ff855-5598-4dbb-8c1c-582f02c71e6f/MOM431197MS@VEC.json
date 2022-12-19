@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "Strictly Business_A120A180",
-        "lastUpdated": "2022-11-28T05:32:19Z",
+        "effectiveTo": "2022-12-18T13:00:00Z",
+        "lastUpdated": "2022-12-18T22:09:12Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-12-04T13:00:00Z",
         "electricityContract": {

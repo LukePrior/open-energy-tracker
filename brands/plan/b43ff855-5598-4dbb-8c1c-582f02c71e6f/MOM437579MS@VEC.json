@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "momentum",
-        "planId": "MOM426728MR@VEC",
+        "planId": "MOM437579MS@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "Momentum Energy",
         "geography": {
@@ -111,11 +111,10 @@
                 "3977"
             ]
         },
-        "displayName": "Suit Yourself Electricity_LVS1RDED",
-        "effectiveTo": "2022-12-04T13:00:00Z",
-        "lastUpdated": "2022-12-04T21:48:17Z",
-        "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2022-10-23T13:00:00Z",
+        "displayName": "Thrifty Business_LVTOUDED",
+        "lastUpdated": "2022-12-15T17:46:54Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-12-18T13:00:00Z",
         "electricityContract": {
             "fees": [
                 {
@@ -129,6 +128,12 @@
                     "type": "RECONNECTION",
                     "amount": "57.37",
                     "description": ""
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "2.984",
+                    "description": "COMMS (type 1-4) daily metering charge if applicable"
                 },
                 {
                     "term": "FIXED",
@@ -150,26 +155,82 @@
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "To be eligible for this plan you must be a residential customer; communicate with us and receive your bills electronically; and is subject to having the necessary metering system configuration."
+                    "information": "To be eligible for this plan you must have an ABN; communicate with us and receive your bills electronically; and is subject to having the necessary metering system configuration."
                 }
             ],
-            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
             "tariffPeriod": [
                 {
                     "endDate": "12-31",
                     "startDate": "01-01",
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "unitPrice": "22.20"
-                            }
-                        ],
-                        "description": "Anytime",
-                        "displayName": "Peak"
-                    },
                     "displayName": "Period",
-                    "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "102.60"
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "25.60"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "2100",
+                                    "startTime": "0900"
+                                }
+                            ],
+                            "displayName": "Peak"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "13.80"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "2100"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "0900",
+                                    "startTime": "0000"
+                                },
+                                {
+                                    "days": [
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "0000"
+                                }
+                            ],
+                            "displayName": "Off Peak"
+                        }
+                    ],
+                    "dailySupplyCharges": "110.80"
                 }
             ],
             "billFrequency": [
@@ -183,7 +244,7 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "15.60"
+                                "unitPrice": "14.10"
                             }
                         ],
                         "description": "All Controlled Load usage",
@@ -200,12 +261,12 @@
                     "tiers": [
                         {
                             "amount": "0.0495",
-                            "percentGreen": "10"
+                            "percentGreen": "100"
                         }
                     ],
                     "scheme": "GREENPOWER",
-                    "description": "GreenPower comes free with this plan. That means you offset 10% of your electricity usage with renewable energy and we cover the cost",
-                    "displayName": "GreenPower 10"
+                    "description": "For an added 4.95 c/kWh incl. GST, you can purchase GreenPower for either 10, 20, 25, 50, 75 or 100% of your usage.",
+                    "displayName": "GreenPower 100"
                 }
             ],
             "solarFeedInTariff": [
@@ -235,6 +296,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/momentum/cds-au/v1/energy/plans/MOM426728MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/momentum/cds-au/v1/energy/plans/MOM437579MS@VEC"
     }
 }

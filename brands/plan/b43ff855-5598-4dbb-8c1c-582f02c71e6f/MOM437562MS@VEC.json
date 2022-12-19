@@ -2,81 +2,101 @@
     "data": {
         "type": "MARKET",
         "brand": "momentum",
-        "planId": "MOM426730MR@VEC",
+        "planId": "MOM437562MS@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "Momentum Energy",
         "geography": {
             "distributors": [
-                "Citipower"
+                "Jemena"
             ],
             "includedPostcodes": [
-                "3000",
-                "3002",
-                "3003",
-                "3004",
-                "3005",
-                "3006",
-                "3008",
-                "3010",
                 "3011",
+                "3012",
+                "3013",
+                "3015",
+                "3016",
+                "3019",
+                "3020",
+                "3023",
+                "3025",
                 "3031",
+                "3032",
+                "3033",
+                "3034",
+                "3036",
+                "3037",
+                "3038",
+                "3039",
+                "3040",
+                "3041",
+                "3042",
+                "3043",
+                "3044",
+                "3045",
+                "3046",
+                "3047",
+                "3048",
+                "3049",
                 "3051",
                 "3052",
-                "3053",
-                "3054",
-                "3055",
-                "3056",
-                "3057",
-                "3065",
-                "3066",
-                "3067",
+                "3058",
+                "3059",
+                "3060",
+                "3061",
+                "3062",
+                "3063",
+                "3064",
                 "3068",
                 "3070",
-                "3071",
+                "3072",
+                "3073",
+                "3074",
+                "3076",
                 "3078",
-                "3101",
-                "3102",
-                "3103",
-                "3104",
-                "3121",
-                "3122",
-                "3123",
-                "3124",
-                "3125",
-                "3126",
-                "3127",
-                "3129",
-                "3141",
-                "3142",
-                "3143",
-                "3144",
-                "3161",
-                "3181",
-                "3182",
-                "3183",
-                "3205",
-                "3206",
-                "3207"
+                "3079",
+                "3081",
+                "3083",
+                "3084",
+                "3085",
+                "3086",
+                "3087",
+                "3335",
+                "3336",
+                "3337",
+                "3340",
+                "3427",
+                "3428",
+                "3429",
+                "3430",
+                "3431",
+                "3437",
+                "3750",
+                "3753"
             ]
         },
-        "displayName": "Suit Yourself Electricity_C1RCDS",
-        "effectiveTo": "2022-12-04T13:00:00Z",
-        "lastUpdated": "2022-12-04T21:48:17Z",
-        "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2022-10-23T13:00:00Z",
+        "displayName": "Thrifty Business_A200",
+        "lastUpdated": "2022-12-15T17:46:53Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-12-18T13:00:00Z",
         "electricityContract": {
             "fees": [
                 {
                     "term": "FIXED",
                     "type": "DISCONNECTION",
-                    "amount": "41.95",
+                    "amount": "81.35",
                     "description": "\nFor information on additional fees, a full schedule of charges is available from http://www.momentumenergy.com.au/fees"
                 },
                 {
                     "term": "FIXED",
                     "type": "RECONNECTION",
-                    "amount": "41.34",
+                    "amount": "56.73",
                     "description": ""
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "2.984",
+                    "description": "COMMS (type 1-4) daily metering charge if applicable"
                 },
                 {
                     "term": "FIXED",
@@ -98,10 +118,10 @@
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "To be eligible for this plan you must be a residential customer; communicate with us and receive your bills electronically; and is subject to having the necessary metering system configuration."
+                    "information": "To be eligible for this plan you must have an ABN; communicate with us and receive your bills electronically; and is subject to having the necessary metering system configuration."
                 }
             ],
-            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "pricingModel": "SINGLE_RATE",
             "tariffPeriod": [
                 {
                     "endDate": "12-31",
@@ -109,7 +129,7 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "20.70"
+                                "unitPrice": "21.30"
                             }
                         ],
                         "description": "Anytime",
@@ -117,7 +137,7 @@
                     },
                     "displayName": "Period",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "110.90"
+                    "dailySupplyCharges": "119.00"
                 }
             ],
             "billFrequency": [
@@ -126,21 +146,6 @@
             "paymentOption": [
                 "OTHER"
             ],
-            "controlledLoad": [
-                {
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "unitPrice": "14.90"
-                            }
-                        ],
-                        "description": "All Controlled Load usage",
-                        "displayName": "Controlled Load"
-                    },
-                    "displayName": "Controlled Load",
-                    "rateBlockUType": "singleRate"
-                }
-            ],
             "coolingOffDays": 10,
             "greenPowerCharges": [
                 {
@@ -148,12 +153,12 @@
                     "tiers": [
                         {
                             "amount": "0.0495",
-                            "percentGreen": "10"
+                            "percentGreen": "100"
                         }
                     ],
                     "scheme": "GREENPOWER",
-                    "description": "GreenPower comes free with this plan. That means you offset 10% of your electricity usage with renewable energy and we cover the cost",
-                    "displayName": "GreenPower 10"
+                    "description": "For an added 4.95 c/kWh incl. GST, you can purchase GreenPower for either 10, 20, 25, 50, 75 or 100% of your usage.",
+                    "displayName": "GreenPower 100"
                 }
             ],
             "solarFeedInTariff": [
@@ -183,6 +188,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/momentum/cds-au/v1/energy/plans/MOM426730MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/momentum/cds-au/v1/energy/plans/MOM437562MS@VEC"
     }
 }
