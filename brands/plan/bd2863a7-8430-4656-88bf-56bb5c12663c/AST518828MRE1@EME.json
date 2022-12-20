@@ -1,0 +1,156 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "arcstream",
+        "planId": "AST518828MRE1@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Arcstream",
+        "geography": {
+            "distributors": [
+                "Essential Energy Far West"
+            ],
+            "includedPostcodes": [
+                "2648",
+                "2715",
+                "2717",
+                "2732",
+                "2733",
+                "2735",
+                "2736",
+                "2737",
+                "2738",
+                "2739",
+                "2790",
+                "2817",
+                "2818",
+                "2822",
+                "2826",
+                "2836",
+                "2838",
+                "2878",
+                "2879",
+                "2880"
+            ]
+        },
+        "displayName": "Standard BLNT3AL",
+        "lastUpdated": "2022-12-19T08:42:39.336Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-12-19T00:00:00.000Z",
+        "meteringCharges": [
+            {
+                "description": "Fees and charges charged by the distributor are published on the Distributors website and may change from time to time.",
+                "displayName": "Additional fees may apply. For more information, please refer to arcstream.solutions",
+                "minimumValue": "0.00"
+            },
+            {
+                "description": "Fees and charges charged by the distributor are published on the Distributors website and may change from time to time. For more information visit arcstream.solutions",
+                "displayName": "Additional fees may apply. For more information, visit arcstream.solutions",
+                "minimumValue": "0.00"
+            }
+        ],
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECT_MOVE_OUT",
+                    "description": "Disconnection fee (inc. GST), only applies for move-out requests"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "description": "Direct debit dishonour payment fee (inc. GST)"
+                },
+                {
+                    "term": "MONTHLY",
+                    "type": "OTHER",
+                    "description": "Recurring monthly fee"
+                },
+                {
+                    "term": "MONTHLY",
+                    "type": "PAPER_BILL",
+                    "description": "Paper Bill Fee"
+                },
+                {
+                    "rate": "2",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit Card Processing fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "Connection fee (inc. GST), applies for move-in requests"
+                }
+            ],
+            "terms": "For further details on the terms and conditions of the offer, please visit arcstream.solutions or email us at enquiries@arcstream.solutions",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "description": "This is a guaranteed credit applied at $30 per month",
+                    "displayName": "Arcstream VPP Credit",
+                    "fixedAmount": {
+                        "amount": "360.00"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "Prices are variable and subject to change.  For further details on the terms and conditions of the offer, please visit arcstream.solutions or email us at enquiries@arcstream.solutions",
+            "meterTypes": [
+                "Type 4"
+            ],
+            "eligibility": [
+                {
+                    "type": "REQ_EQUIP_SUPPLIER",
+                    "description": "To be eligible you must have >5kW Solar PV and acquire a 5kW Inverter and >4kWh but <8kWh Battery. The battery must be a Qcells' Q.HOME battery.  For best outcomes we recommend you have a 6.6kW solar PV. For more information please refer to arcstream.solutions",
+                    "information": "You have or acquire a Qcells' Q.HOME battery"
+                }
+            ],
+            "pricingModel": "QUOTA",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 200,
+                                "unitPrice": "53.64"
+                            },
+                            {
+                                "volume": 1,
+                                "unitPrice": "0.27"
+                            },
+                            {
+                                "volume": null,
+                                "unitPrice": "27.272728"
+                            }
+                        ],
+                        "period": "P1M",
+                        "description": "Flat rate all times",
+                        "displayName": "All time flat rate",
+                        "generalUnitPrice": "27.27"
+                    },
+                    "displayName": "All Seasons",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "0.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL",
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY"
+            ],
+            "coolingOffDays": "10"
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/arcstream/cds-au/v1/energy/plans/AST518828MRE1@EME"
+    }
+}

@@ -1,0 +1,290 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "1st-energy",
+        "planId": "1ST438392MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "1st Energy",
+        "geography": {
+            "distributors": [
+                "United Energy"
+            ],
+            "includedPostcodes": [
+                "3104",
+                "3105",
+                "3106",
+                "3107",
+                "3108",
+                "3109",
+                "3111",
+                "3114",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3127",
+                "3128",
+                "3129",
+                "3130",
+                "3131",
+                "3132",
+                "3133",
+                "3144",
+                "3145",
+                "3146",
+                "3147",
+                "3148",
+                "3149",
+                "3150",
+                "3151",
+                "3152",
+                "3161",
+                "3162",
+                "3163",
+                "3165",
+                "3166",
+                "3167",
+                "3168",
+                "3169",
+                "3170",
+                "3171",
+                "3172",
+                "3173",
+                "3174",
+                "3175",
+                "3177",
+                "3178",
+                "3179",
+                "3182",
+                "3183",
+                "3184",
+                "3185",
+                "3186",
+                "3187",
+                "3188",
+                "3189",
+                "3190",
+                "3191",
+                "3192",
+                "3193",
+                "3194",
+                "3195",
+                "3196",
+                "3197",
+                "3198",
+                "3199",
+                "3200",
+                "3201",
+                "3202",
+                "3204",
+                "3800",
+                "3802",
+                "3803",
+                "3910",
+                "3911",
+                "3912",
+                "3913",
+                "3915",
+                "3916",
+                "3918",
+                "3919",
+                "3920",
+                "3926",
+                "3927",
+                "3928",
+                "3929",
+                "3930",
+                "3931",
+                "3933",
+                "3934",
+                "3936",
+                "3937",
+                "3938",
+                "3939",
+                "3940",
+                "3941",
+                "3942",
+                "3943",
+                "3944",
+                "3975",
+                "3976",
+                "3977"
+            ]
+        },
+        "displayName": "1st Super Saver, Residential - Time of Use with Controlled Load",
+        "effectiveTo": "2023-06-29T14:00:00Z",
+        "lastUpdated": "2022-12-18T22:38:05Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-12-19T13:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CHEQUE_DISHONOUR",
+                    "amount": "15.00",
+                    "description": "Cheque dishonour fee\nAdditional fees may apply. For more information, please call 1300 426 594."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "7.50",
+                    "description": "Direct debit dishonour fee"
+                }
+            ],
+            "terms": "For further details on the information presented in this fact sheet, or the terms and conditions of the offer, please visit www.1stenergy.com.au or call 1st Energy on 1300 426 594.",
+            "isFixed": false,
+            "timeZone": "AEST",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "category": "OTHER",
+                    "description": "10% guaranteed discount off the market contract usage rates set out below.",
+                    "displayName": "10% guaranteed discount off usage charges",
+                    "methodUType": "percentOfUse",
+                    "percentOfUse": {
+                        "rate": "10"
+                    }
+                },
+                {
+                    "type": "GUARANTEED",
+                    "category": "OTHER",
+                    "description": "The $80 rebate is applied via two $40 credits, one on your 5th monthly bill and the second on your 11th. If your account closes prior to these bills being issued you will lose the credit(s).",
+                    "displayName": "$80 in rebates.",
+                    "fixedAmount": {
+                        "amount": "72.7272"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "Prices may be varied in line with your terms and conditions. If your charges are increasing we will notify you at least 5 business days prior to the variation applying.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is available to customers within the United Energy distribution zone with the applicable network tariff and meter configuration."
+                }
+            ],
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "Period",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "29.50"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "2100",
+                                    "startTime": "1500"
+                                }
+                            ],
+                            "displayName": "Peak"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "16.60"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "2100"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "1500",
+                                    "startTime": "0000"
+                                }
+                            ],
+                            "displayName": "Off Peak"
+                        }
+                    ],
+                    "dailySupplyCharges": "97.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "14.80"
+                            }
+                        ],
+                        "description": "Controlled Load",
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Controlled Load",
+                    "rateBlockUType": "singleRate"
+                }
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Solar feed-in",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.20"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "Premium feed-in tariff (if eligible)",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "Your contract continues until terminated by you or us in accordance with our terms and conditions."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/1st-energy/cds-au/v1/energy/plans/1ST438392MR@VEC"
+    }
+}
