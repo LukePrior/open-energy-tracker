@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "arcline",
-        "planId": "ARC427767MR@VEC",
+        "planId": "ARC438426MR@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "ARCLINE by RACV",
         "geography": {
@@ -74,11 +74,10 @@
                 "3753"
             ]
         },
-        "displayName": "Energy Plan Plus Voucher",
-        "effectiveTo": "2022-12-21T13:00:00Z",
-        "lastUpdated": "2022-12-22T00:09:13Z",
+        "displayName": "Energy Plan",
+        "lastUpdated": "2022-12-21T02:42:35Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2022-10-31T13:00:00Z",
+        "effectiveFrom": "2022-12-21T13:00:00Z",
         "electricityContract": {
             "fees": [
                 {
@@ -118,7 +117,7 @@
                     "description": "May be charged when you move out and require a final meter read. Actual fee may vary."
                 }
             ],
-            "terms": "Arcline by RACV is provided by Energy Locals PTY LTD. We require a credit card or bank details for account setup and each paper bill will incur a $2 fee. For more information in relation to Arcline by RACV and this offer, see our full terms and conditions at energy.arcline.com.au/terms. For full RACV Resort $250 voucher terms and conditions please visit energy.arcline.com.au/voucher-terms.",
+            "terms": "Arcline by RACV is provided by Energy Locals PTY LTD. Each paper bill will incur a $2 fee. For more information in relation to Arcline by RACV and this offer, see our full terms and conditions at energy.arcline.com.au/terms.",
             "isFixed": false,
             "timeZone": "LOCAL",
             "variation": "Due to changes in the market and economic conditions, we may update your tariff and/or fees. We will provide at least 5 business days' notice before the change takes place.",
@@ -128,37 +127,85 @@
                     "description": "8.3c/kWh Solar Export",
                     "displayName": "8.3c/kWh Solar Export",
                     "eligibility": "A feed-in tariff of 8.3c/kWh will apply to the first 10 kWh exported each day"
-                },
-                {
-                    "category": "OTHER",
-                    "description": "$250 RACV Resort Voucher",
-                    "displayName": "$250 RACV Resort Voucher",
-                    "eligibility": "Limit of one $250 voucher per new electricity account. Offer available to the first 400 accounts set up between 12:00am AEDT 7 NOV 2022 and 11:59pm AEDT 21 DEC 2022. See full plan terms and conditions at https://energy.arcline.com.au/voucher-terms"
                 }
             ],
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "Available to customers in Jemena distribution region Residential Single Rate on network tariff(s) A100, F100, T100. Feed-In Tariffs are only valid if applicable."
+                    "information": "Available to customers in Jemena distribution region Residential Time of Use Rate on network tariff(s) A120. Feed-In Tariffs are only valid if applicable."
                 }
             ],
-            "pricingModel": "SINGLE_RATE",
+            "pricingModel": "TIME_OF_USE",
             "tariffPeriod": [
                 {
-                    "endDate": "06-30",
-                    "startDate": "07-01",
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "unitPrice": "21.90"
-                            }
-                        ],
-                        "description": "Anytime Usage",
-                        "displayName": "Anytime Usage"
-                    },
+                    "endDate": "12-31",
+                    "startDate": "01-01",
                     "displayName": "Year-round",
-                    "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "49.00"
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "27.40"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "2100",
+                                    "startTime": "1500"
+                                }
+                            ],
+                            "displayName": "Peak"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "17.60"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "1500",
+                                    "startTime": "0000"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "2100"
+                                }
+                            ],
+                            "displayName": "Off Peak"
+                        }
+                    ],
+                    "dailySupplyCharges": "48.80"
                 }
             ],
             "billFrequency": [
@@ -185,6 +232,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/arcline/cds-au/v1/energy/plans/ARC427767MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/arcline/cds-au/v1/energy/plans/ARC438426MR@VEC"
     }
 }

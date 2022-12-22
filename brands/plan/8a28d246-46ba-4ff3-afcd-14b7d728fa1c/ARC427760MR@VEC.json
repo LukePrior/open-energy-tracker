@@ -275,7 +275,8 @@
             ]
         },
         "displayName": "Energy Plan Plus Voucher",
-        "lastUpdated": "2022-11-06T22:29:39Z",
+        "effectiveTo": "2022-12-21T13:00:00Z",
+        "lastUpdated": "2022-12-22T00:09:12Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-10-31T13:00:00Z",
         "electricityContract": {
