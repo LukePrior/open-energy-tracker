@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "VIC Simply New VPP elec",
-        "lastUpdated": "2022-11-22T05:04:41Z",
+        "effectiveTo": "2022-12-23T13:00:00Z",
+        "lastUpdated": "2022-12-23T22:32:37Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-11-22T13:00:00Z",
         "electricityContract": {
@@ -127,7 +128,7 @@
                     "category": "OTHER",
                     "description": "VPP New Battery Subsidy",
                     "displayName": "VPP New Battery Subsidy",
-                    "eligibility": "If you're eligible for the New Battery Subsidy, youu2019ll receive $2,000 (GST exempt) per Tesla Powerwall 2 up to a max of 3, applied as a credit on your first bill, or after we have received the required system information, whichever is later."
+                    "eligibility": "If you're eligible for the New Battery Subsidy, you\u2019ll receive $2,000 (GST exempt) per Tesla Powerwall 2 up to a max of 3, applied as a credit on your first bill, or after we have received the required system information, whichever is later."
                 }
             ],
             "eligibility": [

@@ -1,0 +1,219 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "blue-nrg",
+        "planId": "BLU520328MBE1@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Blue NRG",
+        "geography": {
+            "distributors": [
+                "Essential Energy Far West"
+            ],
+            "includedPostcodes": [
+                "2648",
+                "2715",
+                "2717",
+                "2732",
+                "2733",
+                "2735",
+                "2736",
+                "2737",
+                "2738",
+                "2739",
+                "2790",
+                "2817",
+                "2818",
+                "2822",
+                "2826",
+                "2836",
+                "2838",
+                "2878",
+                "2879",
+                "2880"
+            ]
+        },
+        "displayName": "Blue Biz Star BLNT2AU",
+        "lastUpdated": "2022-12-23T01:44:52.449Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-12-23T00:00:00.000Z",
+        "meteringCharges": [
+            {
+                "period": "P1D",
+                "description": "Metering charge costs can vary. Please contact Blue NRG for more details",
+                "displayName": "Metering charge",
+                "minimumValue": "0.66"
+            }
+        ],
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "Move In - Connection Fee,Includes GST. Fees may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "Move Out - Disconnection Fee,Includes GST. Fees may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "description": "Reconnection Fee (Business Hours),Includes GST. Fees may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "description": "DD Dishonour Fee"
+                },
+                {
+                    "rate": "0.97",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Merchant Fee - Visa / Mastercard"
+                },
+                {
+                    "rate": "1.39",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Merchant Fee - AMEX /JCB"
+                }
+            ],
+            "terms": "This offer applies to customers with an applicable network tariff. For full terms and conditions, visit our website at https://www.bluenrg.com.au/rates_and_pricing or contact Blue NRG on 1300 599 888.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "Rates may vary if a cost has or is expected to increase. It will reflect the increase and not exceed what we consider necessary. We may review and reset rates at our discretion with advance notice. For full terms and conditions, visit www.bluenrg.com.au.",
+            "meterTypes": [
+                "Type 4",
+                "Type 4a",
+                "Type 5",
+                "Type 6"
+            ],
+            "pricingModel": "TIME_OF_USE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "All year",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "name": "Peak",
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "38.63"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "859",
+                                    "startTime": "700"
+                                },
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "1959",
+                                    "startTime": "1700"
+                                }
+                            ],
+                            "description": "Peak"
+                        },
+                        {
+                            "name": "Shoulder",
+                            "type": "SHOULDER",
+                            "rates": [
+                                {
+                                    "unitPrice": "35.35"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "1659",
+                                    "startTime": "900"
+                                },
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "2159",
+                                    "startTime": "2000"
+                                }
+                            ],
+                            "description": "Shoulder"
+                        },
+                        {
+                            "name": "Off peak",
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "25.76"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "659",
+                                    "startTime": "0"
+                                },
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "2359",
+                                    "startTime": "2200"
+                                },
+                                {
+                                    "days": [
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "2359",
+                                    "startTime": "0"
+                                }
+                            ],
+                            "description": "Off peak"
+                        }
+                    ],
+                    "dailySupplyCharges": "604.77"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "BPAY",
+                "CREDIT_CARD",
+                "DIRECT_DEBIT",
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": "10",
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Solar FiT",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "You will be notified of a new plan 1 month before the expiry date."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/blue-nrg/cds-au/v1/energy/plans/BLU520328MBE1@EME"
+    }
+}
