@@ -2,21 +2,89 @@
     "data": {
         "type": "STANDING",
         "brand": "powershop",
-        "planId": "POD438196SR@VEC",
+        "planId": "POD358026SS@VEC",
         "fuelType": "GAS",
         "brandName": "Powershop",
         "geography": {
             "distributors": [
-                "Multinet"
+                "AusNet Services (gas)"
             ],
             "includedPostcodes": [
-                "3139",
-                "3775",
-                "3797",
-                "3799"
+                "3011",
+                "3012",
+                "3013",
+                "3015",
+                "3016",
+                "3018",
+                "3019",
+                "3020",
+                "3021",
+                "3022",
+                "3023",
+                "3024",
+                "3025",
+                "3026",
+                "3027",
+                "3028",
+                "3029",
+                "3030",
+                "3031",
+                "3032",
+                "3033",
+                "3034",
+                "3036",
+                "3037",
+                "3038",
+                "3039",
+                "3040",
+                "3041",
+                "3042",
+                "3043",
+                "3044",
+                "3045",
+                "3046",
+                "3047",
+                "3048",
+                "3049",
+                "3055",
+                "3058",
+                "3059",
+                "3060",
+                "3061",
+                "3062",
+                "3063",
+                "3064",
+                "3211",
+                "3212",
+                "3214",
+                "3215",
+                "3216",
+                "3217",
+                "3218",
+                "3219",
+                "3220",
+                "3221",
+                "3222",
+                "3223",
+                "3224",
+                "3225",
+                "3226",
+                "3228",
+                "3335",
+                "3337",
+                "3338",
+                "3427",
+                "3428",
+                "3429",
+                "3336",
+                "3003",
+                "3008",
+                "3073",
+                "3213"
             ]
         },
         "displayName": "Standing Offer",
+        "effectiveTo": "2022-12-13T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -28,7 +96,7 @@
                 {
                     "term": "FIXED",
                     "type": "DISCONNECTION",
-                    "amount": "58.01",
+                    "amount": "66.40",
                     "description": "Disconnection fees may apply to manually de-energise a property. The fee will be passed on from your distributor and may vary."
                 }
             ],
@@ -44,34 +112,34 @@
             "pricingModel": "SINGLE_RATE",
             "tariffPeriod": [
                 {
-                    "endDate": "10-31",
-                    "startDate": "05-01",
+                    "endDate": "09-30",
+                    "startDate": "06-01",
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "2.223"
+                                "unitPrice": "1.6818"
                             }
                         ],
                         "displayName": "Anytime"
                     },
                     "displayName": "Peak",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "77.75"
+                    "dailySupplyCharges": "111.7727"
                 },
                 {
-                    "endDate": "04-30",
-                    "startDate": "11-01",
+                    "endDate": "05-31",
+                    "startDate": "10-01",
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "2.0038"
+                                "unitPrice": "1.6818"
                             }
                         ],
                         "displayName": "Anytime"
                     },
                     "displayName": "Off Peak",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "77.75"
+                    "dailySupplyCharges": "111.7727"
                 }
             ],
             "billFrequency": [
@@ -84,12 +152,12 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "This Powershop offer is an ongoing contract (until you or we end it) with no exit fees."
         },
-        "lastUpdated": "2022-12-14T22:25:54Z",
-        "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2022-06-30T14:00:00Z"
+        "lastUpdated": "2022-12-14T05:54:06Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2021-12-31T13:00:00Z"
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1/energy/plans/POD438196SR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1/energy/plans/POD358026SS@VEC"
     }
 }

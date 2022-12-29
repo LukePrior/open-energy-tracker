@@ -2,18 +2,16 @@
     "data": {
         "type": "STANDING",
         "brand": "powershop",
-        "planId": "POD438190SR@VEC",
+        "planId": "POD438192SR@VEC",
         "fuelType": "GAS",
         "brandName": "Powershop",
         "geography": {
             "distributors": [
-                "Australian Gas Networks"
+                "AusNet Services (gas)"
             ],
             "includedPostcodes": [
-                "3812",
-                " 3813",
-                " 3814",
-                " 3815"
+                "3227",
+                "3331"
             ]
         },
         "displayName": "Standing Offer",
@@ -28,7 +26,7 @@
                 {
                     "term": "FIXED",
                     "type": "DISCONNECTION",
-                    "amount": "80.30",
+                    "amount": "66.40",
                     "description": "Disconnection fees may apply to manually de-energise a property. The fee will be passed on from your distributor and may vary."
                 }
             ],
@@ -44,19 +42,34 @@
             "pricingModel": "SINGLE_RATE",
             "tariffPeriod": [
                 {
-                    "endDate": "12-31",
-                    "startDate": "01-01",
+                    "endDate": "09-30",
+                    "startDate": "06-01",
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "2.0368"
+                                "unitPrice": "2.1455"
                             }
                         ],
-                        "displayName": "Rate"
+                        "displayName": "Anytime"
                     },
-                    "displayName": "Anytime",
+                    "displayName": "Peak",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "78.75"
+                    "dailySupplyCharges": "102.91"
+                },
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "2.1494"
+                            }
+                        ],
+                        "displayName": "Anytime"
+                    },
+                    "displayName": "Off Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "102.91"
                 }
             ],
             "billFrequency": [
@@ -75,6 +88,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1/energy/plans/POD438190SR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1/energy/plans/POD438192SR@VEC"
     }
 }

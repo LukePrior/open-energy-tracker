@@ -17,6 +17,7 @@
             ]
         },
         "displayName": "Powershop 100% Carbon Neutral",
+        "effectiveTo": "2022-12-28T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -84,7 +85,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "This Powershop offer is an ongoing contract (until you or we end it) with no exit fees."
         },
-        "lastUpdated": "2022-12-14T22:25:56Z",
+        "lastUpdated": "2022-12-28T23:57:34Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-06-30T14:00:00Z"
     },

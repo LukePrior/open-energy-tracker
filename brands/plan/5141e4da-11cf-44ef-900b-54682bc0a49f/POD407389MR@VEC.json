@@ -2,83 +2,68 @@
     "data": {
         "type": "MARKET",
         "brand": "powershop",
-        "planId": "POD421002MR@VEC",
+        "planId": "POD407389MR@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "Powershop",
         "geography": {
             "distributors": [
-                "Jemena"
+                "Citipower"
             ],
             "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
                 "3011",
-                "3012",
-                "3013",
-                "3015",
-                "3016",
-                "3019",
-                "3020",
-                "3023",
-                "3025",
                 "3031",
-                "3032",
-                "3033",
-                "3034",
-                "3036",
-                "3037",
-                "3038",
-                "3039",
-                "3040",
-                "3041",
-                "3042",
-                "3043",
-                "3044",
-                "3045",
-                "3046",
-                "3047",
-                "3048",
-                "3049",
                 "3051",
                 "3052",
-                "3058",
-                "3059",
-                "3060",
-                "3061",
-                "3062",
-                "3063",
-                "3064",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
                 "3068",
                 "3070",
-                "3072",
-                "3073",
-                "3074",
-                "3076",
+                "3071",
                 "3078",
-                "3079",
-                "3081",
-                "3083",
-                "3084",
-                "3085",
-                "3086",
-                "3087",
-                "3335",
-                "3336",
-                "3337",
-                "3340",
-                "3427",
-                "3428",
-                "3429",
-                "3430",
-                "3431",
-                "3437",
-                "3750",
-                "3753"
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
             ]
         },
-        "displayName": "Switch Saver",
-        "effectiveTo": "2022-12-06T13:00:00Z",
-        "lastUpdated": "2022-12-07T03:52:03Z",
+        "displayName": "Powershop 100% Carbon Neutral",
+        "effectiveTo": "2023-07-16T14:00:00Z",
+        "lastUpdated": "2022-07-12T00:20:35Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2022-08-31T14:00:00Z",
+        "effectiveFrom": "2022-07-17T14:00:00Z",
         "electricityContract": {
             "fees": [
                 {
@@ -96,7 +81,7 @@
                 {
                     "term": "FIXED",
                     "type": "DISCONNECTION",
-                    "amount": "81.35",
+                    "amount": "41.954",
                     "description": "Disconnection fees may apply to manually de-energise a property. The fee will be passed on from your distributor and may vary."
                 },
                 {
@@ -110,21 +95,13 @@
             "isFixed": false,
             "timeZone": "LOCAL",
             "variation": "We may vary your prices in accordance with our regulatory requirements. If we vary your prices weu2019ll give you advance notice, usually by email.",
-            "incentives": [
-                {
-                    "category": "ACCOUNT_CREDIT",
-                    "description": "$100 sign up credit",
-                    "displayName": "$100 sign up credit",
-                    "eligibility": "A one off $100 (inc GST) sign up credit will be applied to your first electricity bill. The credit cannot be refunded, transferred or redeemed for cash."
-                }
-            ],
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "This offer is only available to new customers. Other eligibility criteria may apply, contact Powershop for details."
+                    "information": "Eligibility criteria may apply, contact Powershop for details."
                 }
             ],
-            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "pricingModel": "FLEXIBLE",
             "tariffPeriod": [
                 {
                     "endDate": "06-30",
@@ -136,7 +113,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "26.76971"
+                                    "unitPrice": "27.2570275"
                                 }
                             ],
                             "timeOfUse": [
@@ -151,16 +128,40 @@
                                         "SUN"
                                     ],
                                     "endTime": "2100",
-                                    "startTime": "1500"
+                                    "startTime": "1600"
                                 }
                             ],
                             "displayName": "Peak Usage"
                         },
                         {
+                            "type": "SHOULDER",
+                            "rates": [
+                                {
+                                    "unitPrice": "15.65371"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "1500",
+                                    "startTime": "1000"
+                                }
+                            ],
+                            "displayName": "Shoulder Usage"
+                        },
+                        {
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "16.44771"
+                                    "unitPrice": "15.65371"
                                 }
                             ],
                             "timeOfUse": [
@@ -187,14 +188,27 @@
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "1500",
+                                    "endTime": "1000",
                                     "startTime": "0000"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "1600",
+                                    "startTime": "1500"
                                 }
                             ],
                             "displayName": "Off Peak Usage"
                         }
                     ],
-                    "dailySupplyCharges": "104.455663"
+                    "dailySupplyCharges": "104.8705275"
                 }
             ],
             "billFrequency": [
@@ -203,21 +217,6 @@
             "paymentOption": [
                 "DIRECT_DEBIT",
                 "OTHER"
-            ],
-            "controlledLoad": [
-                {
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "unitPrice": "15.89"
-                            }
-                        ],
-                        "description": "Time switch controlled hotwater services, space heaters and other dedicated loads, generally controlled between 11pm and 7am.",
-                        "displayName": "Controlled Load"
-                    },
-                    "displayName": "Controlled Load Usage",
-                    "rateBlockUType": "singleRate"
-                }
             ],
             "coolingOffDays": 10,
             "greenPowerCharges": [
@@ -261,6 +260,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1/energy/plans/POD421002MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1/energy/plans/POD407389MR@VEC"
     }
 }
