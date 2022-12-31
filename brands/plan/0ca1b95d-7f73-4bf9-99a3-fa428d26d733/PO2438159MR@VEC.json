@@ -22,6 +22,7 @@
             ]
         },
         "displayName": "Kogan Energy Basic",
+        "effectiveTo": "2022-12-29T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -74,7 +75,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "This Kogan Energy offer is an ongoing contract (until you or we end it) with no exit fees."
         },
-        "lastUpdated": "2022-12-14T22:25:52Z",
+        "lastUpdated": "2022-12-30T03:04:12Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-30T14:00:00Z"
     },

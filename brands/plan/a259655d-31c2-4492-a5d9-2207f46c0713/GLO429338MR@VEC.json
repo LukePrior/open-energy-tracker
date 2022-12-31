@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "globird",
-        "planId": "GLO425511MR@VEC",
+        "planId": "GLO429338MR@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "GloBird Energy",
         "geography": {
@@ -326,11 +326,11 @@
                 "3764"
             ]
         },
-        "displayName": "GloBird  Combo GREENLIGHT Residential (Two Rate) Powercor",
-        "effectiveTo": "2022-10-30T13:00:00Z",
-        "lastUpdated": "2022-10-31T06:56:46Z",
+        "displayName": "GloBird  GREENLIGHT Residential (Flat Rate With Controlled Load)-Powercor",
+        "effectiveTo": "2022-11-01T13:00:00Z",
+        "lastUpdated": "2022-11-01T22:52:48Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2022-10-04T13:00:00Z",
+        "effectiveFrom": "2022-10-31T13:00:00Z",
         "electricityContract": {
             "fees": [
                 {
@@ -358,29 +358,19 @@
                     "description": "0 Credit Card Payment Processing Fee"
                 }
             ],
-            "terms": "This contingent offer is for new residential customers when bundled with one of GloBird's eligible gas plans. For further information about this offer call GloBird on 133456 or visit www.globirdenergy.com.au or see our full terms and conditions here: www.globirdenergy.com.au/legal/",
+            "terms": "For further information about this offer call GloBird on 133456 or visit www.globirdenergy.com.au or see our full terms and conditions here: www.globirdenergy.com.au/legal/",
             "isFixed": false,
             "timeZone": "AEST",
             "discounts": [
                 {
                     "type": "CONDITIONAL",
                     "category": "PAY_ON_TIME",
-                    "description": "Discounts only apply when the condition is met. 2% when you pay the bill by the due date. 2% when you have both an active gas and electricity account for the same premises on one account when you pay the bill by the due date, and 1% when you pay the bill by the due date with direct debit.",
+                    "description": "Discounts only apply when the condition is met. 2% when you pay the bill by the due date. And 1% when you pay the bill by the due date with direct debit.",
                     "displayName": "PPD",
                     "methodUType": "percentOfBill",
                     "percentOfBill": {
-                        "rate": "5"
+                        "rate": "3"
                     }
-                },
-                {
-                    "type": "CONDITIONAL",
-                    "category": "OTHER",
-                    "description": "Sign up online to get a single $120 account credit applied on the 7th month after joining.",
-                    "displayName": "$120 Online Signup Bonus",
-                    "fixedAmount": {
-                        "amount": "109.09"
-                    },
-                    "methodUType": "fixedAmount"
                 }
             ],
             "variation": "We may update your rates from time to time, usually at the same time as the state Government reset the Victorian Default Offer, and review your solar feed-in when the minimum feed-in laws change. We'll always notify you in writing prior to any change",
@@ -401,80 +391,30 @@
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "This contingent product is for new Residential customers on flexible in Powercor area. Transacting via friendly Australian based customer care team or online and paying zero credit card processing fees."
+                    "information": "The offer for new Residential customers on single-rate tariff in Powercor area.Step 1 of 608.33kWh/month is based on accumulated daily allowance of 20.00kWh/day for the billing period. Eg: 30-day has a step 1 of 600.00 or a 31-day 620.00kWh."
                 }
             ],
-            "pricingModel": "TIME_OF_USE",
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
             "tariffPeriod": [
                 {
-                    "endDate": "10-04",
-                    "startDate": "10-05",
-                    "displayName": "05/10/2022-04/10/2023",
-                    "rateBlockUType": "timeOfUseRates",
-                    "timeOfUseRates": [
-                        {
-                            "type": "PEAK",
-                            "rates": [
-                                {
-                                    "unitPrice": "39.20"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI",
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "2100",
-                                    "startTime": "1500"
-                                }
-                            ],
-                            "displayName": "Time of Use"
-                        },
-                        {
-                            "type": "OFF_PEAK",
-                            "rates": [
-                                {
-                                    "unitPrice": "20.20"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI",
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "0000",
-                                    "startTime": "2100"
-                                },
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI",
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "1500",
-                                    "startTime": "0000"
-                                }
-                            ],
-                            "displayName": "Time of Use"
-                        }
-                    ],
-                    "dailySupplyCharges": "80.00"
+                    "endDate": "10-31",
+                    "startDate": "11-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 608,
+                                "unitPrice": "23.60"
+                            },
+                            {
+                                "unitPrice": "35.20"
+                            }
+                        ],
+                        "description": "First 608.33 kWh/Month",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "01/11/2022-31/10/2023",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "78.00"
                 }
             ],
             "billFrequency": [
@@ -482,6 +422,21 @@
             ],
             "paymentOption": [
                 "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "26.20"
+                            }
+                        ],
+                        "description": "Time switch controlled hot water services, space heaters and other dedicated loads",
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Controlled Load",
+                    "rateBlockUType": "singleRate"
+                }
             ],
             "coolingOffDays": 10,
             "solarFeedInTariff": [
@@ -514,6 +469,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/globird/cds-au/v1/energy/plans/GLO425511MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/globird/cds-au/v1/energy/plans/GLO429338MR@VEC"
     }
 }

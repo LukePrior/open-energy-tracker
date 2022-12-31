@@ -10,6 +10,8 @@
                 "AusNet Services (gas)"
             ],
             "includedPostcodes": [
+                "3003",
+                "3008",
                 "3011",
                 "3012",
                 "3013",
@@ -54,8 +56,10 @@
                 "3062",
                 "3063",
                 "3064",
+                "3073",
                 "3211",
                 "3212",
+                "3213",
                 "3214",
                 "3215",
                 "3216",
@@ -71,19 +75,16 @@
                 "3226",
                 "3228",
                 "3335",
+                "3336",
                 "3337",
                 "3338",
                 "3427",
                 "3428",
-                "3429",
-                "3336",
-                "3003",
-                "3008",
-                "3073",
-                "3213"
+                "3429"
             ]
         },
         "displayName": "Kogan Energy - Kogan First",
+        "effectiveTo": "2022-12-29T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -111,7 +112,7 @@
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "To be eligible, you must be an existing Kogan First member or agree to Kogan First membership T&Cs, available at koganenergy.com.au/terms-conditions.u00a0 If youu2019re no longer eligible for the offer, we can end your energy plan."
+                    "information": "To be eligible, you must be an existing Kogan First member or agree to Kogan First membership T&Cs, available at koganenergy.com.au/terms-conditions. If you\u2019re no longer eligible for the offer, we can end your energy plan."
                 }
             ],
             "pricingModel": "SINGLE_RATE",
@@ -157,7 +158,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "This Kogan Energy offer is an ongoing contract (until you or we end it) with no exit fees."
         },
-        "lastUpdated": "2022-12-14T22:25:53Z",
+        "lastUpdated": "2022-12-30T03:04:13Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-30T14:00:00Z"
     },

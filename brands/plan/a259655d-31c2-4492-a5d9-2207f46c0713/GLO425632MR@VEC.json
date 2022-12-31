@@ -22,20 +22,20 @@
             ]
         },
         "displayName": "GloBird GLOGREEN Residential(Murray)-Australian Gas Networks",
-        "effectiveTo": "2023-10-04T13:00:00Z",
+        "effectiveTo": "2022-12-29T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
                     "term": "FIXED",
                     "type": "CONNECTION",
                     "amount": "22.00",
-                    "description": "For move-in customers to get a start read to establish your account, at least three business daysu2019 notice required and meter access required. Fee does not cover unplugging a plugged gas meter."
+                    "description": "For move-in customers to get a start read to establish your account, at least three business days\u2019 notice required and meter access required. Fee does not cover unplugging a plugged gas meter."
                 },
                 {
                     "term": "FIXED",
                     "type": "DISCONNECTION",
                     "amount": "22.00",
-                    "description": "Fee for final read when you Move-Out. At least three business daysu2019 notice required and meter access required. There is no fee if you simply switch to another retailer."
+                    "description": "Fee for final read when you Move-Out. At least three business days\u2019 notice required and meter access required. There is no fee if you simply switch to another retailer."
                 },
                 {
                     "term": "FIXED",
@@ -145,7 +145,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discount percentage or rates."
         },
-        "lastUpdated": "2022-10-05T02:42:50Z",
+        "lastUpdated": "2022-12-30T06:36:02Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-10-05T13:00:00Z"
     },

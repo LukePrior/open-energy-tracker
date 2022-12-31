@@ -2,120 +2,83 @@
     "data": {
         "type": "MARKET",
         "brand": "globird",
-        "planId": "GLO424970MR@VEC",
+        "planId": "GLO425487MR@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "GloBird Energy",
         "geography": {
             "distributors": [
-                "United Energy"
+                "Jemena"
             ],
             "includedPostcodes": [
-                "3104",
-                "3105",
-                "3106",
-                "3107",
-                "3108",
-                "3109",
-                "3111",
-                "3114",
-                "3122",
-                "3123",
-                "3124",
-                "3125",
-                "3127",
-                "3128",
-                "3129",
-                "3130",
-                "3131",
-                "3132",
-                "3133",
-                "3144",
-                "3145",
-                "3146",
-                "3147",
-                "3148",
-                "3149",
-                "3150",
-                "3151",
-                "3152",
-                "3161",
-                "3162",
-                "3163",
-                "3165",
-                "3166",
-                "3167",
-                "3168",
-                "3169",
-                "3170",
-                "3171",
-                "3172",
-                "3173",
-                "3174",
-                "3175",
-                "3177",
-                "3178",
-                "3179",
-                "3182",
-                "3183",
-                "3184",
-                "3185",
-                "3186",
-                "3187",
-                "3188",
-                "3189",
-                "3190",
-                "3191",
-                "3192",
-                "3193",
-                "3194",
-                "3195",
-                "3196",
-                "3197",
-                "3198",
-                "3199",
-                "3200",
-                "3201",
-                "3202",
-                "3204",
-                "3800",
-                "3802",
-                "3803",
-                "3910",
-                "3911",
-                "3912",
-                "3913",
-                "3915",
-                "3916",
-                "3918",
-                "3919",
-                "3920",
-                "3926",
-                "3927",
-                "3928",
-                "3929",
-                "3930",
-                "3931",
-                "3933",
-                "3934",
-                "3936",
-                "3937",
-                "3938",
-                "3939",
-                "3940",
-                "3941",
-                "3942",
-                "3943",
-                "3944",
-                "3975",
-                "3976",
-                "3977"
+                "3011",
+                "3012",
+                "3013",
+                "3015",
+                "3016",
+                "3019",
+                "3020",
+                "3023",
+                "3025",
+                "3031",
+                "3032",
+                "3033",
+                "3034",
+                "3036",
+                "3037",
+                "3038",
+                "3039",
+                "3040",
+                "3041",
+                "3042",
+                "3043",
+                "3044",
+                "3045",
+                "3046",
+                "3047",
+                "3048",
+                "3049",
+                "3051",
+                "3052",
+                "3058",
+                "3059",
+                "3060",
+                "3061",
+                "3062",
+                "3063",
+                "3064",
+                "3068",
+                "3070",
+                "3072",
+                "3073",
+                "3074",
+                "3076",
+                "3078",
+                "3079",
+                "3081",
+                "3083",
+                "3084",
+                "3085",
+                "3086",
+                "3087",
+                "3335",
+                "3336",
+                "3337",
+                "3340",
+                "3427",
+                "3428",
+                "3429",
+                "3430",
+                "3431",
+                "3437",
+                "3750",
+                "3753"
             ]
         },
-        "displayName": "GloBird  GLOGREEN Residential (Flat Rate With Controlled Load)-United Energy",
+        "displayName": "GloBird  Combo GREENLIGHT Residential (Flat Rate Without Controlled Load)-Jemena",
         "effectiveTo": "2022-10-30T13:00:00Z",
-        "lastUpdated": "2022-10-31T06:53:30Z",
+        "lastUpdated": "2022-10-31T06:56:45Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2022-09-30T14:00:00Z",
+        "effectiveFrom": "2022-10-04T13:00:00Z",
         "electricityContract": {
             "fees": [
                 {
@@ -143,18 +106,18 @@
                     "description": "0 Credit Card Payment Processing Fee"
                 }
             ],
-            "terms": "For further information about this offer call GloBird on 133456 or visit www.globirdenergy.com.au or see our full terms and conditions here: www.globirdenergy.com.au/legal/",
+            "terms": "This contingent offer is for new residential customers when bundled with one of GloBird's eligible gas plans. For further information about this offer call GloBird on 133456 or visit www.globirdenergy.com.au or see our full terms and conditions here: www.globirdenergy.com.au/legal/",
             "isFixed": false,
             "timeZone": "AEST",
             "discounts": [
                 {
                     "type": "CONDITIONAL",
                     "category": "PAY_ON_TIME",
-                    "description": "Discounts only apply when the condition is met. 2% when you pay the bill by the due date. And 1% when you pay the bill by the due date with direct debit.",
+                    "description": "Discounts only apply when the condition is met. 2% when you pay the bill by the due date. 2% when you have both an active gas and electricity account for the same premises on one account when you pay the bill by the due date, and 1% when you pay the bill by the due date with direct debit.",
                     "displayName": "PPD",
                     "methodUType": "percentOfBill",
                     "percentOfBill": {
-                        "rate": "3"
+                        "rate": "5"
                     }
                 },
                 {
@@ -178,38 +141,38 @@
                 },
                 {
                     "category": "OTHER",
-                    "description": "100% Carbon Neutral",
-                    "displayName": "100% Carbon Neutral",
-                    "eligibility": "100% of the carbon emissions associated with this plan will be offset so you can enjoy guilt free energy."
+                    "description": "10% Carbon Offset",
+                    "displayName": "10% Carbon Offset",
+                    "eligibility": "10% of the carbon associated with your energy use on this energy plan is offset helping the planet."
                 }
             ],
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "The offer for new Residential customers on single-rate tariff in United Energy area.Step 1 of 608.33kWh/month is based on accumulated daily allowance of 20.00kWh/day for the billing period. Eg: 30-day has a step 1 of 600.00 or a 31-day 620.00kWh."
+                    "information": "This contingent product is for new Residential customers on single-rate in Jemena area. Transacting via friendly Australian based customer care team or online and paying zero credit card processing fees. Step 1 of 608.33kWh/month is based on accumulated daily allowance of 20.00kWh/day for the billing period."
                 }
             ],
-            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "pricingModel": "SINGLE_RATE",
             "tariffPeriod": [
                 {
-                    "endDate": "09-30",
-                    "startDate": "10-01",
+                    "endDate": "10-04",
+                    "startDate": "10-05",
                     "singleRate": {
                         "rates": [
                             {
                                 "volume": 608,
-                                "unitPrice": "28.00"
+                                "unitPrice": "26.80"
                             },
                             {
-                                "unitPrice": "36.60"
+                                "unitPrice": "34.80"
                             }
                         ],
                         "description": "First 608.33 kWh/Month",
                         "displayName": "Peak"
                     },
-                    "displayName": "01/10/2022-30/09/2023",
+                    "displayName": "05/10/2022-04/10/2023",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "67.00"
+                    "dailySupplyCharges": "66.00"
                 }
             ],
             "billFrequency": [
@@ -217,21 +180,6 @@
             ],
             "paymentOption": [
                 "PAPER_BILL"
-            ],
-            "controlledLoad": [
-                {
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "unitPrice": "27.00"
-                            }
-                        ],
-                        "description": "Time switch controlled hot water services, space heaters and other dedicated loads",
-                        "displayName": "Controlled Load"
-                    },
-                    "displayName": "Controlled Load",
-                    "rateBlockUType": "singleRate"
-                }
             ],
             "coolingOffDays": 10,
             "solarFeedInTariff": [
@@ -257,13 +205,13 @@
                 }
             ],
             "intrinsicGreenPower": {
-                "greenPercentage": "100"
+                "greenPercentage": "10"
             },
             "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discount percentage or rates."
         }
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/globird/cds-au/v1/energy/plans/GLO424970MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/globird/cds-au/v1/energy/plans/GLO425487MR@VEC"
     }
 }

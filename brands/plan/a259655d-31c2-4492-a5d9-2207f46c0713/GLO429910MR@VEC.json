@@ -275,8 +275,8 @@
             ]
         },
         "displayName": "GloBird  GLOSAVE Residential (Flat Rate Without Controlled Load)-AusNet Services (electricity)",
-        "effectiveTo": "2023-10-30T13:00:00Z",
-        "lastUpdated": "2022-11-02T02:12:01Z",
+        "effectiveTo": "2022-12-29T13:00:00Z",
+        "lastUpdated": "2022-12-30T06:30:27Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-10-31T13:00:00Z",
         "electricityContract": {

@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "globird",
-        "planId": "GLO424965MR@VEC",
+        "planId": "GLO425491MR@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "GloBird Energy",
         "geography": {
@@ -326,11 +326,11 @@
                 "3764"
             ]
         },
-        "displayName": "GloBird  Combo GLOGREEN Residential (Flat Rate With Controlled Load)-Powercor",
+        "displayName": "GloBird  Combo GREENLIGHT Residential (Flat Rate Without Controlled Load)-Powercor",
         "effectiveTo": "2022-10-30T13:00:00Z",
-        "lastUpdated": "2022-10-31T06:53:30Z",
+        "lastUpdated": "2022-10-31T06:56:45Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2022-09-30T14:00:00Z",
+        "effectiveFrom": "2022-10-04T13:00:00Z",
         "electricityContract": {
             "fees": [
                 {
@@ -393,38 +393,38 @@
                 },
                 {
                     "category": "OTHER",
-                    "description": "100% Carbon Neutral",
-                    "displayName": "100% Carbon Neutral",
-                    "eligibility": "100% of the carbon emissions associated with this plan will be offset so you can enjoy guilt free energy."
+                    "description": "10% Carbon Offset",
+                    "displayName": "10% Carbon Offset",
+                    "eligibility": "10% of the carbon associated with your energy use on this energy plan is offset helping the planet."
                 }
             ],
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "Contingent offer for new Residential customers on single-rate tariff in Powercor area. Transacting via friendly Australian based customer care team or online and paying zero credit card processing fees. Step 1 of 608.33kWh/month is based on accumulated daily allowance of 20.00kWh/day for the billing period."
+                    "information": "This contingent product is for new Residential customers on single-rate in Powercor area. Transacting via friendly Australian based customer care team or online and paying zero credit card processing fees. Step 1 of 608.33kWh/month is based on accumulated daily allowance of 20.00kWh/day for the billing period."
                 }
             ],
-            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "pricingModel": "SINGLE_RATE",
             "tariffPeriod": [
                 {
-                    "endDate": "09-30",
-                    "startDate": "10-01",
+                    "endDate": "10-04",
+                    "startDate": "10-05",
                     "singleRate": {
                         "rates": [
                             {
                                 "volume": 608,
-                                "unitPrice": "28.70"
+                                "unitPrice": "26.90"
                             },
                             {
-                                "unitPrice": "37.00"
+                                "unitPrice": "35.20"
                             }
                         ],
                         "description": "First 608.33 kWh/Month",
                         "displayName": "Peak"
                     },
-                    "displayName": "01/10/2022-30/09/2023",
+                    "displayName": "05/10/2022-04/10/2023",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "83.00"
+                    "dailySupplyCharges": "80.00"
                 }
             ],
             "billFrequency": [
@@ -432,21 +432,6 @@
             ],
             "paymentOption": [
                 "PAPER_BILL"
-            ],
-            "controlledLoad": [
-                {
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "unitPrice": "28.00"
-                            }
-                        ],
-                        "description": "Time switch controlled hot water services, space heaters and other dedicated loads",
-                        "displayName": "Controlled Load"
-                    },
-                    "displayName": "Controlled Load",
-                    "rateBlockUType": "singleRate"
-                }
             ],
             "coolingOffDays": 10,
             "solarFeedInTariff": [
@@ -472,13 +457,13 @@
                 }
             ],
             "intrinsicGreenPower": {
-                "greenPercentage": "100"
+                "greenPercentage": "10"
             },
             "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discount percentage or rates."
         }
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/globird/cds-au/v1/energy/plans/GLO424965MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/globird/cds-au/v1/energy/plans/GLO425491MR@VEC"
     }
 }
