@@ -1,0 +1,233 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "momentum",
+        "planId": "MOM437276SS@VEC",
+        "fuelType": "GAS",
+        "brandName": "Momentum Energy",
+        "geography": {
+            "distributors": [
+                "Multinet"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3004",
+                "3006",
+                "3008",
+                "3097",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3105",
+                "3106",
+                "3107",
+                "3108",
+                "3109",
+                "3111",
+                "3113",
+                "3114",
+                "3115",
+                "3116",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3128",
+                "3129",
+                "3130",
+                "3131",
+                "3132",
+                "3133",
+                "3134",
+                "3135",
+                "3136",
+                "3137",
+                "3138",
+                "3140",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3145",
+                "3146",
+                "3147",
+                "3148",
+                "3149",
+                "3150",
+                "3151",
+                "3152",
+                "3153",
+                "3154",
+                "3155",
+                "3156",
+                "3158",
+                "3159",
+                "3160",
+                "3161",
+                "3162",
+                "3163",
+                "3165",
+                "3166",
+                "3167",
+                "3168",
+                "3169",
+                "3170",
+                "3171",
+                "3172",
+                "3173",
+                "3174",
+                "3175",
+                "3177",
+                "3178",
+                "3179",
+                "3180",
+                "3181",
+                "3182",
+                "3183",
+                "3184",
+                "3185",
+                "3186",
+                "3187",
+                "3188",
+                "3189",
+                "3190",
+                "3191",
+                "3192",
+                "3193",
+                "3194",
+                "3195",
+                "3196",
+                "3197",
+                "3201",
+                "3202",
+                "3204",
+                "3205",
+                "3206",
+                "3207",
+                "3765",
+                "3766",
+                "3767",
+                "3770",
+                "3781",
+                "3782",
+                "3783",
+                "3785",
+                "3786",
+                "3787",
+                "3788",
+                "3789",
+                "3791",
+                "3792",
+                "3793",
+                "3795",
+                "3796",
+                "3802",
+                "3804",
+                "3976"
+            ]
+        },
+        "displayName": "Standing Offer Gas Multinet Metro",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "7.95",
+                    "description": "Move-In/Move Out Meter Read fee\nFor information on additional fees, a full schedule of charges is available from www.momentumenergy.com.au/fees"
+                }
+            ],
+            "terms": "Full terms and conditions can be obtained from www.momentumenergy.com.au/terms or by contacting our Customer Care Team on 1800 SWITCH.",
+            "isFixed": false,
+            "variation": "We will give you written notice of any variations to your rates & charges under your terms and conditions in accordance with applicable legal requirements.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Available with a Supply Address in Victoria in the Multinet Metro distribution area and is subject to having the necessary metering system configuration."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "04-30",
+                    "startDate": "11-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 250,
+                                "unitPrice": "3.30"
+                            },
+                            {
+                                "volume": 750,
+                                "unitPrice": "3.10"
+                            },
+                            {
+                                "volume": 500,
+                                "unitPrice": "2.90"
+                            },
+                            {
+                                "volume": 3500,
+                                "unitPrice": "2.80"
+                            },
+                            {
+                                "unitPrice": "2.80"
+                            }
+                        ],
+                        "displayName": "Off-Peak"
+                    },
+                    "displayName": "Off-Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "105.40"
+                },
+                {
+                    "endDate": "10-31",
+                    "startDate": "05-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 250,
+                                "unitPrice": "3.40"
+                            },
+                            {
+                                "volume": 750,
+                                "unitPrice": "3.10"
+                            },
+                            {
+                                "volume": 500,
+                                "unitPrice": "2.90"
+                            },
+                            {
+                                "volume": 3500,
+                                "unitPrice": "2.80"
+                            },
+                            {
+                                "unitPrice": "2.80"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "105.40"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions."
+        },
+        "lastUpdated": "2022-12-21T05:56:12Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-12-31T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/momentum/cds-au/v1/energy/plans/MOM437276SS@VEC"
+    }
+}
