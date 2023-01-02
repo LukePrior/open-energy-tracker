@@ -1,10 +1,10 @@
 {
     "data": {
         "type": "MARKET",
-        "brand": "alinta",
-        "planId": "ALI420531MR@VEC",
+        "brand": "blue-nrg",
+        "planId": "BLU426794MS@VEC",
         "fuelType": "ELECTRICITY",
-        "brandName": "Alinta",
+        "brandName": "Blue NRG",
         "geography": {
             "distributors": [
                 "Powercor"
@@ -326,130 +326,144 @@
                 "3764"
             ]
         },
-        "displayName": "Sports Pack Demand Single Rate + CL",
-        "lastUpdated": "2022-08-18T04:18:26Z",
-        "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2022-08-31T14:00:00Z",
+        "displayName": "Blue Business Easy NDTOU",
+        "lastUpdated": "2022-10-19T05:10:16Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-10-18T13:00:00Z",
         "electricityContract": {
             "fees": [
                 {
                     "term": "FIXED",
-                    "type": "DISCONNECTION",
-                    "amount": "65.09",
-                    "description": "Disconnection - On site. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee.\nWe reserve the right to and will notify you if we change or impose additional fees or charges in relation to your energy supply."
+                    "type": "CHEQUE_DISHONOUR",
+                    "amount": "11.979",
+                    "description": "Cheque dishonour payment fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "11.979",
+                    "description": "Direct debit dishonour payment fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "PAYMENT_PROCESSING",
+                    "amount": "5.50",
+                    "description": "Paper bill fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "550.517",
+                    "description": "Connection fee - new connection"
+                },
+                {
+                    "rate": "1.39",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit card payment processing fee - AMEX"
+                },
+                {
+                    "rate": "0.97",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit card payment processing fee - Visa/Mastercard"
                 },
                 {
                     "term": "FIXED",
                     "type": "DISCONNECTION",
-                    "amount": "0.00",
-                    "description": "Disconnection - Remote. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+                    "amount": "65.395",
+                    "description": "Disconnection fee"
                 },
                 {
                     "term": "FIXED",
                     "type": "RECONNECTION",
-                    "amount": "61.24",
-                    "description": "Reconnection - On site. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
-                },
-                {
-                    "term": "FIXED",
-                    "type": "RECONNECTION",
-                    "amount": "0.00",
-                    "description": "Reconnection - Remote. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+                    "amount": "100.254",
+                    "description": "Reconnection fee"
                 }
             ],
-            "terms": "You will receive access to a Kayo Basic Subscription for up to 12 months from redemption date, as long as you have an active Alinta Energy Sports Pack Electricity plan. Cannot be used with other Kayo Sports offers or subscriptions billed through Apple. Data charges apply for use of Kayo.  Conditions and eligibility criteria apply.",
+            "terms": "Full terms & conditions can be obtained from https://www.bluenrg.com.au/rates_and_pricing or by contacting us on 1300 599 888. This offer applies to business customers with an applicable network tariff. SOLAR: If you are GST-registered and provide your ABN, we will credit you an additional 10% on your FiT for GST for electricity exported to the distribution network (i.e. increase the FiT payable to you to cover GST payable on supply).",
             "isFixed": false,
             "timeZone": "LOCAL",
-            "variation": "Tariffs and charges may only be increased one month after your distribution network costs are finalised, but may be decreased at any time. We will give you at least 5 business days notice prior to any variation or in accordance with applicable laws.",
+            "variation": "We may vary these prices if network prices change. We will notify you in advance if the variation affects you.",
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "Available to residential customers who meet the eligibility criteria with an applicable network tariff. Kayo subscription eligibility includes but is not limited to: access to the internet that supports Kayo streaming; an active Alinta Energy Sports Pack Electricity plan; valid credit card and email."
+                    "information": "This product is only applicable to NMIs for Victorian business customers that consume less than or equal to 40MWh per annum in the Powercor distribution area. Offer subject to having the necessary metering system configuration. For solar feed-in tariffs and eligibility contact us on 1300 599 888."
                 }
             ],
-            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "pricingModel": "TIME_OF_USE",
             "tariffPeriod": [
                 {
-                    "endDate": "03-31",
-                    "startDate": "12-01",
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "unitPrice": "16.49"
-                            }
-                        ],
-                        "displayName": "Anytime"
-                    },
-                    "displayName": "Summer",
-                    "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "131.53"
-                },
-                {
-                    "endDate": "03-31",
-                    "startDate": "12-01",
-                    "displayName": "Summer",
-                    "demandCharges": [
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "All-year",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
                         {
-                            "days": [
-                                "MON",
-                                "TUE",
-                                "WED",
-                                "THU",
-                                "FRI",
-                                "SAT",
-                                "SUN"
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "40.63"
+                                }
                             ],
-                            "amount": "36.69",
-                            "endTime": "0000",
-                            "startTime": "0000",
-                            "description": "Capacity Demand Summer",
-                            "displayName": "Demand",
-                            "chargePeriod": "DAY",
-                            "measurementPeriod": "DAY"
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "2100",
+                                    "startTime": "0900"
+                                }
+                            ],
+                            "displayName": "Peak"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "23.74"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "2100"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "0900",
+                                    "startTime": "0000"
+                                },
+                                {
+                                    "days": [
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "0000"
+                                }
+                            ],
+                            "displayName": "Off-Peak"
                         }
                     ],
-                    "rateBlockUType": "demandCharges"
-                },
-                {
-                    "endDate": "11-30",
-                    "startDate": "04-01",
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "unitPrice": "16.49"
-                            }
-                        ],
-                        "displayName": "Anytime"
-                    },
-                    "displayName": "Non Summer",
-                    "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "131.53"
-                },
-                {
-                    "endDate": "11-30",
-                    "startDate": "04-01",
-                    "displayName": "Non Summer",
-                    "demandCharges": [
-                        {
-                            "days": [
-                                "MON",
-                                "TUE",
-                                "WED",
-                                "THU",
-                                "FRI",
-                                "SAT",
-                                "SUN"
-                            ],
-                            "amount": "11.18",
-                            "endTime": "0000",
-                            "startTime": "0000",
-                            "description": "Capacity Demand Non-Summer",
-                            "displayName": "Demand",
-                            "chargePeriod": "DAY",
-                            "measurementPeriod": "DAY"
-                        }
-                    ],
-                    "rateBlockUType": "demandCharges"
+                    "dailySupplyCharges": "111.19"
                 }
             ],
             "billFrequency": [
@@ -458,48 +472,24 @@
             "paymentOption": [
                 "PAPER_BILL"
             ],
-            "controlledLoad": [
-                {
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "unitPrice": "14.60"
-                            }
-                        ],
-                        "displayName": "Controlled Load"
-                    },
-                    "displayName": "",
-                    "rateBlockUType": "singleRate"
-                }
-            ],
             "coolingOffDays": 10,
             "solarFeedInTariff": [
                 {
                     "scheme": "OTHER",
                     "payerType": "RETAILER",
-                    "description": "Current FIT",
+                    "description": "Retailer Feed In Tariff",
                     "displayName": "Current FIT policy",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "6.70"
-                    }
-                },
-                {
-                    "scheme": "PREMIUM",
-                    "payerType": "RETAILER",
-                    "description": "PFIT",
-                    "displayName": "Premium FIT [closed]",
-                    "tariffUType": "singleTariff",
-                    "singleTariff": {
-                        "amount": "60.00"
+                        "amount": "5.20"
                     }
                 }
             ],
-            "onExpiryDescription": "This offer has no contract term."
+            "onExpiryDescription": "There is no defined benefit period. However, any individual customer site NMI must consume less than or equal to 40MWh per annum to remain on this product."
         }
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/alinta/cds-au/v1/energy/plans/ALI420531MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/blue-nrg/cds-au/v1/energy/plans/BLU426794MS@VEC"
     }
 }

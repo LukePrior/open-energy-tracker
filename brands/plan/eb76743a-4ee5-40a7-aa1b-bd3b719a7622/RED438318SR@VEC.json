@@ -2,7 +2,7 @@
     "data": {
         "type": "STANDING",
         "brand": "red-energy",
-        "planId": "RED438319SR@VEC",
+        "planId": "RED438318SR@VEC",
         "fuelType": "GAS",
         "brandName": "Red Energy",
         "geography": {
@@ -10,55 +10,9 @@
                 "Australian Gas Networks"
             ],
             "includedPostcodes": [
-                "3000",
-                "3002",
-                "3003",
-                "3008",
-                "3050",
-                "3051",
-                "3052",
-                "3053",
-                "3054",
-                "3055",
-                "3056",
-                "3057",
-                "3064",
-                "3065",
-                "3066",
-                "3067",
-                "3068",
-                "3070",
-                "3071",
-                "3072",
-                "3073",
-                "3074",
-                "3075",
-                "3076",
-                "3078",
-                "3079",
-                "3081",
-                "3082",
-                "3083",
-                "3084",
-                "3085",
-                "3087",
-                "3088",
-                "3089",
-                "3090",
-                "3091",
-                "3093",
-                "3094",
-                "3095",
-                "3096",
-                "3097",
-                "3099",
-                "3113",
-                "3121",
-                "3201",
-                "3750",
-                "3752",
-                "3754",
-                "3759"
+                "3812",
+                "3813",
+                "3814"
             ]
         },
         "displayName": "Standing Offer",
@@ -69,7 +23,7 @@
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "This offer is available to residential customers within the Australian Gas Network Central 2 distribution zone. For more information contact 131806."
+                    "information": "This offer is available to residential customers within the Australian Gas Network Cardinia distribution zone. For more information contact 131806."
                 }
             ],
             "pricingModel": "SINGLE_RATE",
@@ -81,17 +35,17 @@
                         "rates": [
                             {
                                 "volume": 27,
-                                "unitPrice": "3.68"
+                                "unitPrice": "3.85"
                             },
                             {
                                 "volume": 21,
-                                "unitPrice": "3.00"
+                                "unitPrice": "3.20"
                             },
                             {
-                                "unitPrice": "2.60"
+                                "unitPrice": "2.75"
                             }
                         ],
-                        "displayName": "Peak"
+                        "displayName": "Off Peak"
                     },
                     "displayName": "Period",
                     "rateBlockUType": "singleRate",
@@ -105,7 +59,7 @@
                 "PAPER_BILL"
             ],
             "coolingOffDays": 10,
-            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us"
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
         },
         "lastUpdated": "2022-12-16T10:24:43Z",
         "customerType": "RESIDENTIAL",
@@ -113,6 +67,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1/energy/plans/RED438319SR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1/energy/plans/RED438318SR@VEC"
     }
 }

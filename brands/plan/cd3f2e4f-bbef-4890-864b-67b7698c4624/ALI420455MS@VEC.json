@@ -1,10 +1,10 @@
 {
     "data": {
         "type": "MARKET",
-        "brand": "1st-energy",
-        "planId": "1ST411343MS@VEC",
+        "brand": "alinta",
+        "planId": "ALI420455MS@VEC",
         "fuelType": "ELECTRICITY",
-        "brandName": "1st Energy",
+        "brandName": "Alinta",
         "geography": {
             "distributors": [
                 "Powercor"
@@ -326,33 +326,53 @@
                 "3764"
             ]
         },
-        "displayName": "1st Saver, Business - Time of Use with Controlled Load",
-        "lastUpdated": "2022-07-18T00:33:28Z",
+        "displayName": "BusinessDeal Qantas - Demand TOU 5D Medium Opt Out + CL",
+        "lastUpdated": "2022-08-18T04:18:21Z",
         "customerType": "BUSINESS",
-        "effectiveFrom": "2022-07-17T14:00:00Z",
+        "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {
             "fees": [
                 {
                     "term": "FIXED",
-                    "type": "CHEQUE_DISHONOUR",
-                    "amount": "15.00",
-                    "description": "Cheque dishonour fee\nAdditional fees may apply. For more information, please call 1300 426 594."
+                    "type": "DISCONNECTION",
+                    "amount": "65.09",
+                    "description": "Disconnection - On site. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee.\nWe reserve the right to and will notify you if we change or impose additional fees or charges in relation to your energy supply."
                 },
                 {
                     "term": "FIXED",
-                    "type": "DD_DISHONOUR",
-                    "amount": "7.50",
-                    "description": "Direct debit dishonour fee"
+                    "type": "DISCONNECTION",
+                    "amount": "0.00",
+                    "description": "Disconnection - Remote. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "61.24",
+                    "description": "Reconnection - On site. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "0.00",
+                    "description": "Reconnection - Remote. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
                 }
             ],
-            "terms": "For further details on the information presented in this fact sheet, or the terms and conditions of the offer, please visit www.1stenergy.com.au or call 1st Energy on 1300 426 594.",
+            "terms": "This plan is only available to small business customers (excluding SOHO customers) signing up a new supply address in Victoria. Eligibility criteria applies. Full terms and conditions available at alintaenergy.com.au/qbr or by calling 13 39 08.",
             "isFixed": false,
-            "timeZone": "AEST",
-            "variation": "Prices may be varied in line with your terms and conditions. If your charges are increasing we will notify you at least 5 business days prior to the variation applying.",
+            "timeZone": "LOCAL",
+            "variation": "Tariffs and charges may only be increased one month after your distribution network costs are finalised, but may be decreased at any time. We will give you at least 5 business days notice prior to any variation or in accordance with applicable laws.",
+            "incentives": [
+                {
+                    "category": "GIFT",
+                    "description": "QANTAS Points",
+                    "displayName": "QANTAS Points",
+                    "eligibility": "Customers get the following Qantas Points after 90 days: Sign-up: 15,000, QPs Ongoing: 3 QPs per $1 of every fully paid bill. Bonus QP offers may apply. Full T&Cs: alintaenergy.com.au/qbr and qantas.com/au/en/business-rewards/terms-and-conditions"
+                }
+            ],
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "This offer is available to customers within the Powercor distribution zone with the applicable network tariff and meter configuration."
+                    "information": "Offer only available to small business customers (excluding SOHO customers) signing up a new supply address who have a Qantas Business Rewards membership, an active ABN, and an applicable network tariff. Refer to DELWP website at energy.vic.gov.au for Solar Feed-In Tariff scheme and eligibility. Creditworthiness eligibility applies."
                 }
             ],
             "pricingModel": "TIME_OF_USE_CONT_LOAD",
@@ -367,7 +387,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "28.50"
+                                    "unitPrice": "39.7418"
                                 }
                             ],
                             "timeOfUse": [
@@ -379,8 +399,8 @@
                                         "THU",
                                         "FRI"
                                     ],
-                                    "endTime": "2100",
-                                    "startTime": "0900"
+                                    "endTime": "2300",
+                                    "startTime": "0700"
                                 }
                             ],
                             "displayName": "Peak"
@@ -389,7 +409,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "15.10"
+                                    "unitPrice": "25.884"
                                 }
                             ],
                             "timeOfUse": [
@@ -401,8 +421,8 @@
                                         "THU",
                                         "FRI"
                                     ],
-                                    "endTime": "0000",
-                                    "startTime": "2100"
+                                    "endTime": "0700",
+                                    "startTime": "0000"
                                 },
                                 {
                                     "days": [
@@ -412,8 +432,8 @@
                                         "THU",
                                         "FRI"
                                     ],
-                                    "endTime": "0900",
-                                    "startTime": "0000"
+                                    "endTime": "0000",
+                                    "startTime": "2300"
                                 },
                                 {
                                     "days": [
@@ -427,7 +447,7 @@
                             "displayName": "Off Peak"
                         }
                     ],
-                    "dailySupplyCharges": "130.00"
+                    "dailySupplyCharges": "367.8137"
                 }
             ],
             "billFrequency": [
@@ -441,10 +461,9 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "15.00"
+                                "unitPrice": "15.05455"
                             }
                         ],
-                        "description": "Controlled Load",
                         "displayName": "Controlled Load"
                     },
                     "displayName": "Controlled Load",
@@ -456,17 +475,17 @@
                 {
                     "scheme": "OTHER",
                     "payerType": "RETAILER",
-                    "description": "Solar feed-in",
+                    "description": "Current FIT",
                     "displayName": "Current FIT policy",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "5.20"
+                        "amount": "6.70"
                     }
                 },
                 {
                     "scheme": "PREMIUM",
                     "payerType": "RETAILER",
-                    "description": "Premium feed-in tariff (if eligible)",
+                    "description": "PFIT",
                     "displayName": "Premium FIT [closed]",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
@@ -474,11 +493,11 @@
                     }
                 }
             ],
-            "onExpiryDescription": "Your contract continues until terminated by you or us in accordance with our terms and conditions."
+            "onExpiryDescription": "This offer has no contract term."
         }
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/1st-energy/cds-au/v1/energy/plans/1ST411343MS@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/alinta/cds-au/v1/energy/plans/ALI420455MS@VEC"
     }
 }

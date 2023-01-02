@@ -1,0 +1,126 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "alinta",
+        "planId": "ALI433824SS@VEC",
+        "fuelType": "GAS",
+        "brandName": "Alinta",
+        "geography": {
+            "distributors": [
+                "AusNet Services (gas)"
+            ],
+            "includedPostcodes": [
+                "3260",
+                "3284",
+                "3363",
+                "3431",
+                "3434",
+                "3435",
+                "3437",
+                "3438",
+                "3440",
+                "3441",
+                "3442",
+                "3551"
+            ]
+        },
+        "displayName": "Small Business Standing Offer Gas - Ausnet Adjoining West",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "68.95",
+                    "description": "This fee is set by your distributor and may vary. Please visit your distributor's website to find out the current fee.\nWe reserve the right to and will notify you if we change or impose additional fees or charges in relation to your energy supply."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "68.95",
+                    "description": "Next business day reconnection fee. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+                }
+            ],
+            "terms": "This plan is only available to small business customers in Victoria.  Eligibility criteria applies. Terms and conditions can be accessed at alintaenergy.com.au or by calling 13 39 08.",
+            "isFixed": false,
+            "variation": "Our Standing Tariffs may be varied in accordance with applicable laws and are published on our website. If we change the tariffs, we will write to you giving you at least 5 business days notice prior to the variation",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is only available to small business customers within the Ausnet Services distribution zone."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "3.45"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "3.43"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "3.40"
+                            },
+                            {
+                                "unitPrice": "3.39"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "122.03"
+                },
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.93"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.90"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "2.80"
+                            },
+                            {
+                                "unitPrice": "2.76"
+                            }
+                        ],
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "OFF PEAK",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "122.03"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "This offer has no contract term."
+        },
+        "lastUpdated": "2022-12-06T10:35:31Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2023-01-01T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/alinta/cds-au/v1/energy/plans/ALI433824SS@VEC"
+    }
+}

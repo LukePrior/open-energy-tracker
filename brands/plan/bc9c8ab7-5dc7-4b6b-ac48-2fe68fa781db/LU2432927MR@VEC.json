@@ -1,16 +1,15 @@
 {
     "data": {
         "type": "MARKET",
-        "brand": "red-energy",
-        "planId": "RED432883MR@VEC",
+        "brand": "lumo",
+        "planId": "LU2432927MR@VEC",
         "fuelType": "GAS",
-        "brandName": "Red Energy",
+        "brandName": "Lumo Energy",
         "geography": {
             "distributors": [
                 "AusNet Services (gas)"
             ],
             "includedPostcodes": [
-                "3008",
                 "3024",
                 "3029",
                 "3030",
@@ -31,30 +30,30 @@
                 "3226",
                 "3228",
                 "3335",
-                "3336",
                 "3337",
                 "3338",
                 "3427",
                 "3429"
             ]
         },
-        "displayName": "Qantas Red Saver (Bundled)",
+        "displayName": "Lumo Value",
         "gasContract": {
-            "terms": "For full terms and conditions applicable to this offer, please visit https://www.redenergy.com.au/terms",
-            "isFixed": false,
-            "variation": "We may vary your rates in line with our Terms and Conditions and in accordance with the Relevant Laws. We will give you written notice of at least 5 business days prior to the variation.",
+            "terms": "For full terms and conditions applicable to this offer, please visit https://www.lumoenergy.com.au/terms",
+            "isFixed": true,
+            "termType": "OTHER",
+            "variation": "",
             "incentives": [
                 {
                     "category": "OTHER",
-                    "description": "Qantas Points",
-                    "displayName": "Qantas Points",
-                    "eligibility": "Get 5,000 bonus Qantas Points when Red Energy becomes responsible for the supply of your electricity and 3 Qantas Points per $1 on every gas bill, when you pay on time. For T&Cs see redenergy.com.au/terms"
+                    "description": "Fixed Rates until 29 February 2024",
+                    "displayName": "Fixed Rates until 29 February 2024",
+                    "eligibility": "Rates are fixed for the duration of the contract"
                 }
             ],
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "Only available to Qantas Red business customers who are nominated as a Director or Authorised Person on a Qantas Red business plan who are also an account holder on a Qantas Red residential premises."
+                    "information": "This offer is available to residential customers within the Ausnet Services Central 1 distribution zone and is subject to the identification of the network tariff and metering requirements."
                 }
             ],
             "pricingModel": "SINGLE_RATE",
@@ -66,23 +65,23 @@
                         "rates": [
                             {
                                 "volume": 100,
-                                "unitPrice": "2.10"
+                                "unitPrice": "2.332"
                             },
                             {
                                 "volume": 100,
-                                "unitPrice": "2.05"
+                                "unitPrice": "2.29"
                             },
                             {
                                 "volume": 1200,
-                                "unitPrice": "2.00"
+                                "unitPrice": "2.191"
                             },
                             {
-                                "unitPrice": "1.90"
+                                "unitPrice": "2.152"
                             }
                         ],
                         "displayName": "Off Peak"
                     },
-                    "displayName": "Summer",
+                    "displayName": "Off Peak",
                     "rateBlockUType": "singleRate",
                     "dailySupplyCharges": "91.70"
                 },
@@ -93,23 +92,23 @@
                         "rates": [
                             {
                                 "volume": 100,
-                                "unitPrice": "2.60"
+                                "unitPrice": "2.727"
                             },
                             {
                                 "volume": 100,
-                                "unitPrice": "2.30"
+                                "unitPrice": "2.49"
                             },
                             {
                                 "volume": 1200,
-                                "unitPrice": "2.00"
+                                "unitPrice": "2.193"
                             },
                             {
-                                "unitPrice": "1.95"
+                                "unitPrice": "2.186"
                             }
                         ],
                         "displayName": "Peak"
                     },
-                    "displayName": "Winter",
+                    "displayName": "Peak",
                     "rateBlockUType": "singleRate",
                     "dailySupplyCharges": "91.70"
                 }
@@ -121,14 +120,14 @@
                 "PAPER_BILL"
             ],
             "coolingOffDays": 10,
-            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+            "onExpiryDescription": "Contract ends 29 February 2024. Before the end date, you will be notified that when your contract terminates we will continue to sell you energy under a Standard Retail Contract unless you enter into a new retail contract."
         },
-        "lastUpdated": "2022-11-24T05:22:10Z",
+        "lastUpdated": "2022-11-24T03:13:20Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-11-30T13:00:00Z"
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1/energy/plans/RED432883MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/lumo/cds-au/v1/energy/plans/LU2432927MR@VEC"
     }
 }

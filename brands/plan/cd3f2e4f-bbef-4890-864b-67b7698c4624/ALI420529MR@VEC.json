@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "alinta",
-        "planId": "ALI420555MS@VEC",
+        "planId": "ALI420529MR@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "Alinta",
         "geography": {
@@ -326,9 +326,9 @@
                 "3764"
             ]
         },
-        "displayName": "BusinessDeal Qantas - SR + CL",
-        "lastUpdated": "2022-08-18T04:18:28Z",
-        "customerType": "BUSINESS",
+        "displayName": "Sports Pack - Single Rate + CL",
+        "lastUpdated": "2022-08-18T04:18:26Z",
+        "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {
             "fees": [
@@ -357,22 +357,14 @@
                     "description": "Reconnection - Remote. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
                 }
             ],
-            "terms": "This plan is only available to small business customers (excluding SOHO customers) signing up a new supply address in Victoria. Eligibility criteria applies. Full terms and conditions available at alintaenergy.com.au/qbr or by calling 13 39 08.",
+            "terms": "You will receive access to a Kayo Basic Subscription for up to 12 months from redemption date, as long as you have an active Alinta Energy Sports Pack Electricity plan. Cannot be used with other Kayo Sports offers or subscriptions billed through Apple. Data charges apply for use of Kayo.  Conditions and eligibility criteria apply.",
             "isFixed": false,
             "timeZone": "LOCAL",
             "variation": "Tariffs and charges may only be increased one month after your distribution network costs are finalised, but may be decreased at any time. We will give you at least 5 business days notice prior to any variation or in accordance with applicable laws.",
-            "incentives": [
-                {
-                    "category": "GIFT",
-                    "description": "QANTAS Points",
-                    "displayName": "QANTAS Points",
-                    "eligibility": "Customers get the following Qantas Points after 90 days: Sign-up: 15,000, QPs Ongoing: 3 QPs per $1 of every fully paid bill. Bonus QP offers may apply. Full T&Cs: alintaenergy.com.au/qbr and qantas.com/au/en/business-rewards/terms-and-conditions"
-                }
-            ],
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "Offer only available to small business customers (excluding SOHO customers) signing up a new supply address who have a Qantas Business Rewards membership, an active ABN, and an applicable network tariff. Refer to DELWP website at energy.vic.gov.au for Solar Feed-In Tariff scheme and eligibility. Creditworthiness eligibility applies."
+                    "information": "Available to residential customers who meet the eligibility criteria with an applicable network tariff. Kayo subscription eligibility includes but is not limited to: access to the internet that supports Kayo streaming; an active Alinta Energy Sports Pack Electricity plan; valid credit card and email."
                 }
             ],
             "pricingModel": "SINGLE_RATE_CONT_LOAD",
@@ -383,18 +375,14 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "volume": 10,
-                                "unitPrice": "21.20909"
-                            },
-                            {
-                                "unitPrice": "21.20909"
+                                "unitPrice": "20.57"
                             }
                         ],
                         "displayName": "Rate"
                     },
                     "displayName": "Period",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "130.72727"
+                    "dailySupplyCharges": "115.54"
                 }
             ],
             "billFrequency": [
@@ -408,7 +396,7 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "15.05455"
+                                "unitPrice": "14.60"
                             }
                         ],
                         "displayName": "Controlled Load"
@@ -445,6 +433,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/alinta/cds-au/v1/energy/plans/ALI420555MS@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/alinta/cds-au/v1/energy/plans/ALI420529MR@VEC"
     }
 }

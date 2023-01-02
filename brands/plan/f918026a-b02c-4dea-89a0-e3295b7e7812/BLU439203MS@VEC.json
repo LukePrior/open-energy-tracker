@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "Blue Biz Star A210|A180",
-        "lastUpdated": "2022-12-23T02:25:43Z",
+        "effectiveTo": "2023-01-01T13:00:00Z",
+        "lastUpdated": "2023-01-02T00:44:58Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "0222-12-22T14:20:08Z",
         "electricityContract": {

@@ -24,7 +24,7 @@
             ]
         },
         "displayName": "Standing Offer",
-        "effectiveTo": "2022-12-30T13:00:00Z",
+        "effectiveTo": "2023-01-01T13:00:00Z",
         "gasContract": {
             "terms": "For full terms and conditions applicable to this offer, please visit http://www.lumoenergy.com.au/help-centre/useful-docs.",
             "isFixed": false,
@@ -109,7 +109,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
         },
-        "lastUpdated": "2022-12-05T06:00:37Z",
+        "lastUpdated": "2023-01-01T15:00:09Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-12-12T13:00:00Z"
     },

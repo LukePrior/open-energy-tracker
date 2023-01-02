@@ -16,7 +16,7 @@
             ]
         },
         "displayName": "Standing Offer",
-        "effectiveTo": "2022-12-30T13:00:00Z",
+        "effectiveTo": "2023-01-01T13:00:00Z",
         "gasContract": {
             "terms": "For full terms and conditions applicable to this offer, please visit https://www.redenergy.com.au/termsandconditions",
             "isFixed": false,
@@ -93,7 +93,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
         },
-        "lastUpdated": "2022-12-15T17:47:10Z",
+        "lastUpdated": "2023-01-01T15:00:10Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-12-19T13:00:00Z"
     },
