@@ -82,6 +82,7 @@
             ]
         },
         "displayName": "Standing Offer Gas Ausnet Central",
+        "effectiveTo": "2023-01-02T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -166,7 +167,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions."
         },
-        "lastUpdated": "2022-10-27T03:48:37Z",
+        "lastUpdated": "2023-01-02T22:50:17Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-10-27T13:00:00Z"
     },

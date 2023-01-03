@@ -10,8 +10,10 @@
                 "AusNet Services (gas)"
             ],
             "includedPostcodes": [
+                "3241",
                 "3260",
                 "3284",
+                "3352",
                 "3363",
                 "3364",
                 "3431",
@@ -22,12 +24,11 @@
                 "3440",
                 "3441",
                 "3442",
-                "3551",
-                "3352",
-                "3241"
+                "3551"
             ]
         },
         "displayName": "Standing Offer",
+        "effectiveTo": "2023-01-02T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -95,7 +96,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "This Powershop offer is an ongoing contract (until you or we end it) with no exit fees."
         },
-        "lastUpdated": "2022-12-14T22:25:54Z",
+        "lastUpdated": "2023-01-02T22:03:09Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-30T14:00:00Z"
     },

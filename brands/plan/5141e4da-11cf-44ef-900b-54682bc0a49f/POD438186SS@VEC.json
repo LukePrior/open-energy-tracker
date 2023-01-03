@@ -17,6 +17,7 @@
             ]
         },
         "displayName": "Standing Offer",
+        "effectiveTo": "2023-01-02T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -84,7 +85,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "This Powershop offer is an ongoing contract (until you or we end it) with no exit fees."
         },
-        "lastUpdated": "2022-12-14T22:25:54Z",
+        "lastUpdated": "2023-01-02T22:03:08Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-06-30T14:00:00Z"
     },

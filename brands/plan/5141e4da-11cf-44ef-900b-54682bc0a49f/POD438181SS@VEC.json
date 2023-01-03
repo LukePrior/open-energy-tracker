@@ -21,10 +21,12 @@
                 "3340",
                 "3342",
                 "3350",
+                "3351",
                 "3352",
                 "3355",
                 "3356",
                 "3357",
+                "3358",
                 "3430",
                 "3437",
                 "3444",
@@ -32,18 +34,17 @@
                 "3451",
                 "3460",
                 "3461",
+                "3462",
                 "3464",
                 "3465",
                 "3550",
                 "3551",
                 "3555",
-                "3556",
-                "3358",
-                "3351",
-                "3462"
+                "3556"
             ]
         },
         "displayName": "Standing Offer",
+        "effectiveTo": "2023-01-02T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -111,7 +112,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "This Powershop offer is an ongoing contract (until you or we end it) with no exit fees."
         },
-        "lastUpdated": "2022-12-14T22:25:53Z",
+        "lastUpdated": "2023-01-02T22:03:08Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-06-30T14:00:00Z"
     },
