@@ -112,7 +112,8 @@
             ]
         },
         "displayName": "VIC Simply Movie Perks 4% off Elec",
-        "lastUpdated": "2022-10-10T05:48:05Z",
+        "effectiveTo": "2023-01-03T13:00:00Z",
+        "lastUpdated": "2023-01-03T13:32:45Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-10-12T13:00:00Z",
         "electricityContract": {

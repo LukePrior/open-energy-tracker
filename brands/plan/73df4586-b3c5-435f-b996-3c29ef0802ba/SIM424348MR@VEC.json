@@ -63,6 +63,7 @@
             ]
         },
         "displayName": "VIC - Simply EV Night Time Saver gas",
+        "effectiveTo": "2023-01-03T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -273,7 +274,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Ongoing energy plan until you or we end it. We may end this energy plan at any time by giving you 20 Business Days notice."
         },
-        "lastUpdated": "2022-09-14T03:40:29Z",
+        "lastUpdated": "2023-01-03T13:35:27Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-09-15T14:00:00Z"
     },

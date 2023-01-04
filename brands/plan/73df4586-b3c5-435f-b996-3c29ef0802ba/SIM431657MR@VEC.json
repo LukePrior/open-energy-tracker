@@ -57,6 +57,7 @@
             ]
         },
         "displayName": "VIC - Simply Blue Perks 25% off gas",
+        "effectiveTo": "2023-01-03T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -201,7 +202,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Ongoing energy plan until you or we end it. We may end this energy plan at any time by giving you 20 Business Days notice."
         },
-        "lastUpdated": "2022-11-14T03:39:47Z",
+        "lastUpdated": "2023-01-03T13:31:17Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-11-15T13:00:00Z"
     },

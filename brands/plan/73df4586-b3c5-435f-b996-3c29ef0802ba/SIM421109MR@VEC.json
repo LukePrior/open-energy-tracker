@@ -275,7 +275,8 @@
             ]
         },
         "displayName": "VIC Simply Good Home Business by ENGIE Elec",
-        "lastUpdated": "2022-08-19T04:06:32Z",
+        "effectiveTo": "2023-01-03T13:00:00Z",
+        "lastUpdated": "2023-01-03T13:29:15Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-16T14:00:00Z",
         "electricityContract": {
