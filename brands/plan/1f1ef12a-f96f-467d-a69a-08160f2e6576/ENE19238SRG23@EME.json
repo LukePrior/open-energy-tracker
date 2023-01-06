@@ -17,6 +17,7 @@
             ]
         },
         "displayName": "Basic Home",
+        "effectiveTo": "2023-02-01T00:00:00.000Z",
         "gasContract": {
             "fees": [
                 {
@@ -96,7 +97,7 @@
             ],
             "onExpiryDescription": "This contract continues for as long as you remain on the plan."
         },
-        "lastUpdated": "2022-10-11T14:06:01.822Z",
+        "lastUpdated": "2023-01-05T23:50:45.552Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-10-12T00:00:00.000Z"
     },

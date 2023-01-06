@@ -14,6 +14,7 @@
             ]
         },
         "displayName": "Flexi Plan",
+        "effectiveTo": "2023-02-01T00:00:00.000Z",
         "gasContract": {
             "fees": [
                 {
@@ -111,7 +112,7 @@
             "coolingOffDays": "10",
             "onExpiryDescription": "The Benefit Period for this plan is 12 months. We will provide you with notice of your options prior to the end of the Benefit Period. Your contract will continue until it is ended by either party."
         },
-        "lastUpdated": "2022-10-11T14:06:40.955Z",
+        "lastUpdated": "2023-01-05T23:50:45.555Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-10-12T00:00:00.000Z"
     },

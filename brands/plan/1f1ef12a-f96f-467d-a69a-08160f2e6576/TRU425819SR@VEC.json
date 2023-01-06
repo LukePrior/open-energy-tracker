@@ -60,6 +60,7 @@
             ]
         },
         "displayName": "Basic Home (A2)",
+        "effectiveTo": "2023-01-04T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -95,7 +96,7 @@
             ],
             "terms": "For full terms and conditions, please refer to our website www.energyaustralia.com.au.",
             "isFixed": false,
-            "variation": "The rates for Basic Home may vary, either when we are directed to change regulated rates, or when we review our rates each year. Weu2019ll notify you before any rate change occurs.",
+            "variation": "The rates for Basic Home may vary, either when we are directed to change regulated rates, or when we review our rates each year. We\u2019ll notify you before any rate change occurs.",
             "eligibility": [
                 {
                     "type": "OTHER",
@@ -176,7 +177,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "This contract continues for as long as you remain on the plan."
         },
-        "lastUpdated": "2022-10-06T23:43:06Z",
+        "lastUpdated": "2023-01-05T04:05:10Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-10-11T13:00:00Z"
     },
