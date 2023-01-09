@@ -275,7 +275,8 @@
             ]
         },
         "displayName": "Thrifty Business_NEE12",
-        "lastUpdated": "2022-12-15T17:46:53Z",
+        "effectiveTo": "2023-01-08T13:00:00Z",
+        "lastUpdated": "2023-01-08T21:19:29Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-12-18T13:00:00Z",
         "electricityContract": {

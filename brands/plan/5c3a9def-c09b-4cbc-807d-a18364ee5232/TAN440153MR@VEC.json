@@ -1,0 +1,206 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "tango",
+        "planId": "TAN440153MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Tango Energy",
+        "geography": {
+            "distributors": [
+                "Jemena"
+            ],
+            "includedPostcodes": [
+                "3011",
+                "3012",
+                "3013",
+                "3015",
+                "3016",
+                "3019",
+                "3020",
+                "3023",
+                "3025",
+                "3031",
+                "3032",
+                "3033",
+                "3034",
+                "3036",
+                "3037",
+                "3038",
+                "3039",
+                "3040",
+                "3041",
+                "3042",
+                "3043",
+                "3044",
+                "3045",
+                "3046",
+                "3047",
+                "3048",
+                "3049",
+                "3051",
+                "3052",
+                "3058",
+                "3059",
+                "3060",
+                "3061",
+                "3062",
+                "3063",
+                "3064",
+                "3068",
+                "3070",
+                "3072",
+                "3073",
+                "3074",
+                "3076",
+                "3078",
+                "3079",
+                "3081",
+                "3083",
+                "3084",
+                "3085",
+                "3086",
+                "3087",
+                "3335",
+                "3336",
+                "3337",
+                "3340",
+                "3427",
+                "3428",
+                "3429",
+                "3430",
+                "3431",
+                "3437",
+                "3750",
+                "3753"
+            ]
+        },
+        "displayName": "eSelect",
+        "lastUpdated": "2023-01-05T00:16:41Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-01-08T13:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "0.00",
+                    "description": "There are no exit fees associated with this offer. We may vary the Charges and fees at any time by notice to you, including by message on your bill. Details about Charges and fees are set out under the terms and conditions of your Market Agreement.\nUsage aggregated according to Australian Eastern Standard Time (AEST). Your usage may be adjusted for local time (Australian Daylight Savings Time). Further information on our charges is available at: http://tangoenergy.com/additional-charges"
+                },
+                {
+                    "rate": "0.32",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "0.32% for debit card payments made by MasterCard or Visa where we incur a merchant services fee. Not applicable to direct debit payments by debit card."
+                },
+                {
+                    "rate": "0.78",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "0.78% for credit card payments made by MasterCard, Visa or AMEX where we incur a merchant services fee. Not applicable to direct debit payments by credit card. "
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "56.73",
+                    "description": "$56.73 (inc. GST) Standard rates apply during business hours. Fees may vary and will be quoted on request."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "81.35",
+                    "description": "$81.34 (inc. GST) Standard rates apply during business hours. Fees may vary and will be quoted on request."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "7.50",
+                    "description": "Dishonour fee. $7.50 (exc. GST) if your payment is dishonoured or reversed."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "2.00",
+                    "description": "Paper bill fee $2.00 (inc. GST) for each paper bill."
+                }
+            ],
+            "terms": "This contract is ongoing and may be terminated by you or us in accordance with the terms of our Market Agreement. The full terms and conditions applicable to this offer are available at http://tangoenergy.com/terms-and-conditions. For further information about this offer, our market terms or solar feed-in eligibility, call Tango Energy on 1800 010 648.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "Prices are variable and may be varied by notice to you. We will provide you with information about variations in accordance with Energy Laws",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Monthly electronic billing and direct debit are both required. Only available to small customers with an applicable network tariff. A network tariff change may be required if you have a solar system installed."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "20.50"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "80.40"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "OTHER"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "15.58"
+                            }
+                        ],
+                        "description": "Controlled Load",
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Controlled Load",
+                    "rateBlockUType": "singleRate"
+                }
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "PFiT",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                },
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "RFiT",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "6.70"
+                    }
+                }
+            ],
+            "onExpiryDescription": "Our Market Contract is ongoing and may be ended by you or us in accordance with the terms of the contract."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/tango/cds-au/v1/energy/plans/TAN440153MR@VEC"
+    }
+}
