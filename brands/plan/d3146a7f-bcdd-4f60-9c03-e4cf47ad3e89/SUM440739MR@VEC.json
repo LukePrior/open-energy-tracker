@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "sumo-gas",
-        "planId": "SUM440037MR@VEC",
+        "planId": "SUM440739MR@VEC",
         "fuelType": "GAS",
         "brandName": "Sumo",
         "geography": {
@@ -10,11 +10,45 @@
                 "AusNet Services (gas)"
             ],
             "includedPostcodes": [
-                "3008"
+                "3249",
+                "3250",
+                "3266",
+                "3277",
+                "3280",
+                "3282",
+                "3300",
+                "3305",
+                "3340",
+                "3342",
+                "3350",
+                "3351",
+                "3352",
+                "3355",
+                "3356",
+                "3357",
+                "3358",
+                "3377",
+                "3380",
+                "3400",
+                "3401",
+                "3430",
+                "3437",
+                "3444",
+                "3450",
+                "3451",
+                "3460",
+                "3461",
+                "3462",
+                "3464",
+                "3465",
+                "3550",
+                "3551",
+                "3555",
+                "3556"
             ]
         },
         "displayName": "Sumo Lite Gas",
-        "effectiveTo": "2023-01-09T13:00:00Z",
+        "effectiveTo": "2024-01-07T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -90,17 +124,17 @@
                         "rates": [
                             {
                                 "volume": 300,
-                                "unitPrice": "5.30"
+                                "unitPrice": "5.10"
                             },
                             {
-                                "unitPrice": "4.60"
+                                "unitPrice": "4.50"
                             }
                         ],
                         "displayName": "Peak"
                     },
                     "displayName": "Peak",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "110.00"
+                    "dailySupplyCharges": "105.00"
                 },
                 {
                     "endDate": "05-31",
@@ -109,17 +143,17 @@
                         "rates": [
                             {
                                 "volume": 300,
-                                "unitPrice": "4.00"
+                                "unitPrice": "3.90"
                             },
                             {
-                                "unitPrice": "3.40"
+                                "unitPrice": "3.30"
                             }
                         ],
                         "displayName": "Off Peak"
                     },
                     "displayName": "Off Peak",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "110.00"
+                    "dailySupplyCharges": "105.00"
                 }
             ],
             "billFrequency": [
@@ -131,12 +165,12 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "No contract term."
         },
-        "lastUpdated": "2023-01-10T05:38:26Z",
+        "lastUpdated": "2023-01-10T05:21:40Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-01-08T13:00:00Z"
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/sumo-gas/cds-au/v1/energy/plans/SUM440037MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/sumo-gas/cds-au/v1/energy/plans/SUM440739MR@VEC"
     }
 }

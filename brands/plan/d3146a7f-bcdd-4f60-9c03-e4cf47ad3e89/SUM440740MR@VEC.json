@@ -2,19 +2,66 @@
     "data": {
         "type": "MARKET",
         "brand": "sumo-gas",
-        "planId": "SUM440037MR@VEC",
+        "planId": "SUM440740MR@VEC",
         "fuelType": "GAS",
         "brandName": "Sumo",
         "geography": {
             "distributors": [
-                "AusNet Services (gas)"
+                "Australian Gas Networks"
             ],
             "includedPostcodes": [
-                "3008"
+                "3000",
+                "3002",
+                "3003",
+                "3008",
+                "3050",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3072",
+                "3073",
+                "3074",
+                "3075",
+                "3076",
+                "3078",
+                "3079",
+                "3081",
+                "3082",
+                "3083",
+                "3084",
+                "3085",
+                "3087",
+                "3088",
+                "3089",
+                "3090",
+                "3091",
+                "3093",
+                "3094",
+                "3095",
+                "3096",
+                "3097",
+                "3099",
+                "3121",
+                "3750",
+                "3751",
+                "3752",
+                "3754",
+                "3759",
+                "3770"
             ]
         },
         "displayName": "Sumo Lite Gas",
-        "effectiveTo": "2023-01-09T13:00:00Z",
+        "effectiveTo": "2024-01-07T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -89,18 +136,18 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "volume": 300,
-                                "unitPrice": "5.30"
+                                "volume": 50,
+                                "unitPrice": "5.40"
                             },
                             {
-                                "unitPrice": "4.60"
+                                "unitPrice": "4.70"
                             }
                         ],
                         "displayName": "Peak"
                     },
                     "displayName": "Peak",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "110.00"
+                    "dailySupplyCharges": "105.00"
                 },
                 {
                     "endDate": "05-31",
@@ -108,18 +155,18 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "volume": 300,
-                                "unitPrice": "4.00"
+                                "volume": 50,
+                                "unitPrice": "5.40"
                             },
                             {
-                                "unitPrice": "3.40"
+                                "unitPrice": "4.70"
                             }
                         ],
                         "displayName": "Off Peak"
                     },
                     "displayName": "Off Peak",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "110.00"
+                    "dailySupplyCharges": "105.00"
                 }
             ],
             "billFrequency": [
@@ -131,12 +178,12 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "No contract term."
         },
-        "lastUpdated": "2023-01-10T05:38:26Z",
+        "lastUpdated": "2023-01-10T05:21:40Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-01-08T13:00:00Z"
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/sumo-gas/cds-au/v1/energy/plans/SUM440037MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/sumo-gas/cds-au/v1/energy/plans/SUM440740MR@VEC"
     }
 }
