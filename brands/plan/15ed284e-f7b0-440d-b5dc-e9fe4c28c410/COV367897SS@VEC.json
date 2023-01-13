@@ -10,6 +10,7 @@
                 "Australian Gas Networks"
             ],
             "includedPostcodes": [
+                "3000",
                 "3002",
                 "3003",
                 "3005",
@@ -64,6 +65,7 @@
                 "3752",
                 "3754",
                 "3755",
+                "3757",
                 "3759",
                 "3760",
                 "3761",
@@ -131,12 +133,11 @@
                 "3980",
                 "3981",
                 "3984",
-                "3987",
-                "3757",
-                "3000"
+                "3987"
             ]
         },
         "displayName": "Standing Offer Business Australia Gas Network - Central",
+        "effectiveTo": "2023-01-11T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -218,7 +219,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with our Standard Retail Terms & Conditions"
         },
-        "lastUpdated": "2022-01-07T05:57:59Z",
+        "lastUpdated": "2023-01-12T04:24:37Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2021-12-31T13:00:00Z"
     },
