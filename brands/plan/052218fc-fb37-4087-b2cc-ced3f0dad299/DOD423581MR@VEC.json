@@ -112,7 +112,8 @@
             ]
         },
         "displayName": "Residential Market - Time of Use with Controlled Load",
-        "lastUpdated": "2022-09-10T01:55:42Z",
+        "effectiveTo": "2023-01-16T13:00:00Z",
+        "lastUpdated": "2023-01-16T17:32:53Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-09-08T14:00:00Z",
         "electricityContract": {
@@ -271,7 +272,7 @@
                         }
                     ],
                     "scheme": "GREENPOWER",
-                    "description": "$0.099 per kWh (inc GST) u2013 Electricity equal to 10% of your consumption is sourced from GreenPower. Discounts do not apply to GreenPower.",
+                    "description": "$0.099 per kWh (inc GST) \u2013 Electricity equal to 10% of your consumption is sourced from GreenPower. Discounts do not apply to GreenPower.",
                     "displayName": "GreenPower 10"
                 },
                 {
@@ -283,7 +284,7 @@
                         }
                     ],
                     "scheme": "GREENPOWER",
-                    "description": "$0.099 per kWh (inc GST) u2013 Electricity equal to 100% of your consumption is sourced from GreenPower. Discounts do not apply to GreenPower.",
+                    "description": "$0.099 per kWh (inc GST) \u2013 Electricity equal to 100% of your consumption is sourced from GreenPower. Discounts do not apply to GreenPower.",
                     "displayName": "GreenPower 100"
                 }
             ],
