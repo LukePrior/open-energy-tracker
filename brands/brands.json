@@ -109,13 +109,6 @@
         "publicBaseUri": "https://cdr.energymadeeasy.gov.au/blue-nrg",
         "lastUpdated": "2022-10-21T05:35:24Z"
     },
-    "0e60a93e-9544-4cc1-a552-4e1596089ee5": {
-        "interimId": "0e60a93e-9544-4cc1-a552-4e1596089ee5",
-        "brandName": "Bright Spark Power",
-        "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-        "publicBaseUri": "https://cdr.energymadeeasy.gov.au/bright-spark",
-        "lastUpdated": "2022-10-21T05:35:24Z"
-    },
     "736b2c27-aa4b-4554-987b-80101a93b728": {
         "interimId": "736b2c27-aa4b-4554-987b-80101a93b728",
         "brandName": "Brighte Energy",
