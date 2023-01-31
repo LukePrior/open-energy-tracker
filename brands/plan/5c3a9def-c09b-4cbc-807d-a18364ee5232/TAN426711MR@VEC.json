@@ -14,6 +14,8 @@
                 "3004",
                 "3006",
                 "3008",
+                "3020",
+                "3072",
                 "3097",
                 "3101",
                 "3102",
@@ -126,13 +128,12 @@
                 "3796",
                 "3802",
                 "3804",
-                "3020",
-                "3072",
                 "3805",
                 "3936"
             ]
         },
         "displayName": "Home Select",
+        "effectiveTo": "2023-01-29T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -267,7 +268,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Our Market Contract is ongoing and may be ended by you or us in accordance with the terms of the contract."
         },
-        "lastUpdated": "2022-10-17T22:27:28Z",
+        "lastUpdated": "2023-01-30T04:31:52Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-10-18T13:00:00Z"
     },

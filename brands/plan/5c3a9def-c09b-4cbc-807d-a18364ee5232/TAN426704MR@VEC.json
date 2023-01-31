@@ -10,6 +10,7 @@
                 "Australian Gas Networks"
             ],
             "includedPostcodes": [
+                "3000",
                 "3002",
                 "3003",
                 "3005",
@@ -64,6 +65,7 @@
                 "3752",
                 "3754",
                 "3755",
+                "3757",
                 "3759",
                 "3760",
                 "3761",
@@ -131,12 +133,11 @@
                 "3980",
                 "3981",
                 "3984",
-                "3987",
-                "3757",
-                "3000"
+                "3987"
             ]
         },
         "displayName": "Home Select",
+        "effectiveTo": "2023-01-29T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -238,7 +239,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Our Market Contract is ongoing and may be ended by you or us in accordance with the terms of the contract."
         },
-        "lastUpdated": "2022-10-17T22:27:28Z",
+        "lastUpdated": "2023-01-30T04:31:51Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-10-18T13:00:00Z"
     },

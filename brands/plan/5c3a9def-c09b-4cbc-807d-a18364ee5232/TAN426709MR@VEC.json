@@ -10,6 +10,8 @@
                 "AusNet Services (gas)"
             ],
             "includedPostcodes": [
+                "3003",
+                "3008",
                 "3011",
                 "3012",
                 "3013",
@@ -54,8 +56,10 @@
                 "3062",
                 "3063",
                 "3064",
+                "3073",
                 "3211",
                 "3212",
+                "3213",
                 "3214",
                 "3215",
                 "3216",
@@ -71,19 +75,16 @@
                 "3226",
                 "3228",
                 "3335",
+                "3336",
                 "3337",
                 "3338",
                 "3427",
                 "3428",
-                "3429",
-                "3336",
-                "3003",
-                "3008",
-                "3073",
-                "3213"
+                "3429"
             ]
         },
         "displayName": "Home Select",
+        "effectiveTo": "2023-01-29T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -210,7 +211,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Our Market Contract is ongoing and may be ended by you or us in accordance with the terms of the contract."
         },
-        "lastUpdated": "2022-10-17T22:27:28Z",
+        "lastUpdated": "2023-01-30T04:31:52Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-10-18T13:00:00Z"
     },

@@ -1,0 +1,190 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "covau",
+        "planId": "COV441599MS@VEC",
+        "fuelType": "GAS",
+        "brandName": "CovaU",
+        "geography": {
+            "distributors": [
+                "AusNet Services (gas)"
+            ],
+            "includedPostcodes": [
+                "3241",
+                "3260",
+                "3284",
+                "3352",
+                "3363",
+                "3364",
+                "3431",
+                "3434",
+                "3435",
+                "3437",
+                "3438",
+                "3440",
+                "3441",
+                "3442",
+                "3467",
+                "3551"
+            ]
+        },
+        "displayName": "Super Saver Online Business Gas Ausnet",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "25.00",
+                    "description": "$25.00 (inc. GST) Australia Post Dishonour Fee - Cheque dishonour and DD/CC Dishonour.\nYou must pay us any charges your distributor imposes on us in relation to services performed by your distributor (or anyone else) at your supply address. For details on additional charges that may apply, visit www.covau.com.au/additionalfees"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "71.04",
+                    "description": "$71.04 (inc. GST) fee may apply when your property is disconnected. This fee is passed through from your distributor and may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "71.04",
+                    "description": "$71.04 (inc. GST) fee may apply when your property is reconnected. This fee is passed through from your distributor and may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "9.50",
+                    "description": "$9.50 (inc. GST) Direct debit dishonour payment fee"
+                },
+                {
+                    "rate": "0.82",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A 0.82% (inc. GST) fee may apply to payments made by debit and credit cards."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CHEQUE_DISHONOUR",
+                    "amount": "9.50",
+                    "description": "$9.50 (inc. GST) Cheque dishonour payment fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "3.00",
+                    "description": "$3.00 (inc. GST) Over the counter payment fee \u2013 may apply for over the counter payments made at an Australia Post outlet."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "1.75",
+                    "description": "$1.75 (inc. GST) Paper Bill Fee."
+                },
+                {
+                    "rate": "0.8",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A 0.803% (inc. GST) applies to credit card payments via Australia Post."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "11.01",
+                    "description": "$11.01 (inc. GST) Special Meter Read fee. This fee is passed through from your distributor and may vary."
+                }
+            ],
+            "terms": "For full terms and conditions applicable to this energy offer, please visit www.covau.com.au/terms or contact CovaU on 1300 689 866.",
+            "isFixed": false,
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "category": "OTHER",
+                    "description": "$50 sign-up credits (including GST) will be applied on your first invoice after switching to CovaU. Offer is available to customers who sign up through CovaU's website only.",
+                    "displayName": "Online Signup Bonus",
+                    "fixedAmount": {
+                        "amount": "45.45"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "We may vary your rates in line with our Terms and Conditions at any time by written notice to you. Notice will be given at least 5 business days prior to the variation.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is only available to business customers in the stated distribution area with an eligible meter type. For more details about the eligibility criteria, please contact CovaU on 1300 689 866."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.91"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.57"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "2.57"
+                            },
+                            {
+                                "unitPrice": "2.36"
+                            }
+                        ],
+                        "displayName": "Non-Summer"
+                    },
+                    "displayName": "Non-Summer",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "126.75"
+                },
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.91"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.57"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "2.57"
+                            },
+                            {
+                                "unitPrice": "2.36"
+                            }
+                        ],
+                        "displayName": "Summer"
+                    },
+                    "displayName": "Summer",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "126.75"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with our Market Retail Terms &Conditions"
+        },
+        "lastUpdated": "2023-01-12T03:23:58Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2023-01-15T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/covau/cds-au/v1/energy/plans/COV441599MS@VEC"
+    }
+}

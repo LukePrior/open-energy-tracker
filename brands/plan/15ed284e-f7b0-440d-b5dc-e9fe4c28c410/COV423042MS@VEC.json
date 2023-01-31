@@ -60,7 +60,8 @@
             ]
         },
         "displayName": "Super Saver Business Time Of Use 5-Day (C2G5B)",
-        "lastUpdated": "2022-09-05T00:59:39Z",
+        "effectiveTo": "2023-01-29T13:00:00Z",
+        "lastUpdated": "2023-01-30T04:57:30Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-09-07T14:00:00Z",
         "electricityContract": {
@@ -69,7 +70,7 @@
                     "term": "FIXED",
                     "type": "OTHER",
                     "amount": "25.003",
-                    "description": "$25.00 (inc. GST) Over the counter payment fee u2013 may apply for over the counter payments made at an Australia Post outlet.\nYou must pay us any fees your distributor passes through to us in relation to services performed by your distributor (or anyone else) at your supply address. For details on additional fees that may apply, please visit www.covau.com.au/additionalfees"
+                    "description": "$25.00 (inc. GST) Over the counter payment fee \u2013 may apply for over the counter payments made at an Australia Post outlet.\nYou must pay us any fees your distributor passes through to us in relation to services performed by your distributor (or anyone else) at your supply address. For details on additional fees that may apply, please visit www.covau.com.au/additionalfees"
                 },
                 {
                     "term": "FIXED",
@@ -105,7 +106,7 @@
                     "term": "FIXED",
                     "type": "OTHER",
                     "amount": "3.003",
-                    "description": "$3.00 (inc. GST) Over the counter payment fee u2013 may apply for over the counter payments made at an Australia Post outlet."
+                    "description": "$3.00 (inc. GST) Over the counter payment fee \u2013 may apply for over the counter payments made at an Australia Post outlet."
                 },
                 {
                     "term": "FIXED",

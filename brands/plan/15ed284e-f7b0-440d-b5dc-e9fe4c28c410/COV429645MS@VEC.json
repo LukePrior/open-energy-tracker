@@ -327,7 +327,8 @@
             ]
         },
         "displayName": "Super Saver Business Single Rate with Controlled Load",
-        "lastUpdated": "2022-11-02T04:07:53Z",
+        "effectiveTo": "2023-01-29T13:00:00Z",
+        "lastUpdated": "2023-01-30T04:57:43Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-11-14T13:00:00Z",
         "electricityContract": {
@@ -372,7 +373,7 @@
                     "term": "FIXED",
                     "type": "OTHER",
                     "amount": "3.003",
-                    "description": "$3.00 (inc. GST) Over the counter payment fee u2013 may apply for over the counter payments made at an Australia Post outlet."
+                    "description": "$3.00 (inc. GST) Over the counter payment fee \u2013 may apply for over the counter payments made at an Australia Post outlet."
                 },
                 {
                     "term": "FIXED",

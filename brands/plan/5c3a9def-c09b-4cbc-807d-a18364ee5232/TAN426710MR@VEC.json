@@ -21,10 +21,12 @@
                 "3340",
                 "3342",
                 "3350",
+                "3351",
                 "3352",
                 "3355",
                 "3356",
                 "3357",
+                "3358",
                 "3377",
                 "3380",
                 "3400",
@@ -36,18 +38,17 @@
                 "3451",
                 "3460",
                 "3461",
+                "3462",
                 "3464",
                 "3465",
                 "3550",
                 "3551",
                 "3555",
-                "3556",
-                "3358",
-                "3351",
-                "3462"
+                "3556"
             ]
         },
         "displayName": "Home Select",
+        "effectiveTo": "2023-01-29T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -174,7 +175,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Our Market Contract is ongoing and may be ended by you or us in accordance with the terms of the contract."
         },
-        "lastUpdated": "2022-10-17T22:27:28Z",
+        "lastUpdated": "2023-01-30T04:31:52Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-10-18T13:00:00Z"
     },
