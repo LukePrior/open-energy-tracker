@@ -1,0 +1,105 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "tango",
+        "planId": "TAN442907SR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Tango Energy",
+        "geography": {
+            "distributors": [
+                "Australian Gas Networks"
+            ],
+            "includedPostcodes": [
+                "3862",
+                "3875",
+                "3878",
+                "3880"
+            ]
+        },
+        "displayName": "Standing Offer",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "100.10",
+                    "description": "$100.10 (inc. GST) Standard rates apply during business hours. Fees are set by your distributor or metering coordinator and will be quoted when requested.\nThere are no exit fees associated with this offer. We may vary the fees and charges by providing notice to you, including by message on your bill. Further information on our fees and charges is available at: http://tangoenergy.com/additional-charges"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "85.80",
+                    "description": "$85.80 (inc. GST) Standard rates apply during business hours. Fees are set by your distributor or metering coordinator and will be quoted when requested."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "2.00",
+                    "description": "Paper bill fee $2.00 (inc. GST) for each paper bill."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "11.00",
+                    "description": "Special Meter Read Metropolitan"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "15.07",
+                    "description": "Special Meter Read Non Metropolitan"
+                }
+            ],
+            "terms": "The full terms and conditions applicable to this offer are available at http://tangoenergy.com/terms-and-conditions.",
+            "isFixed": false,
+            "variation": "We may vary these prices not more than once every 6 months and we will publish the variation in a newspaper and on our website. We will notify you in advance before the variation takes effect in accordance with energy laws.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is only available to residential customers in the stated distribution area with an eligible meter type. If your meter is changed by your distributor, we may adjust your fees and charges at any time in accordance with our Standard Retail Contract Terms."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 27,
+                                "unitPrice": "4.55"
+                            },
+                            {
+                                "volume": 21,
+                                "unitPrice": "4.40"
+                            },
+                            {
+                                "unitPrice": "4.08"
+                            }
+                        ],
+                        "displayName": "General Usage Rate"
+                    },
+                    "displayName": "General Usage Rate",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "117.00"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "No fixed term"
+        },
+        "lastUpdated": "2023-01-31T23:53:46Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-01-31T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/tango/cds-au/v1/energy/plans/TAN442907SR@VEC"
+    }
+}

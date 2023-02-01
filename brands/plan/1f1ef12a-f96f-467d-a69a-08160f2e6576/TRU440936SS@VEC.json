@@ -1,0 +1,140 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "energyaustralia",
+        "planId": "TRU440936SS@VEC",
+        "fuelType": "GAS",
+        "brandName": "EnergyAustralia",
+        "geography": {
+            "distributors": [
+                "AusNet Services (gas)"
+            ],
+            "includedPostcodes": [
+                "3024",
+                "3029",
+                "3030",
+                "3211",
+                "3212",
+                "3214",
+                "3215",
+                "3216",
+                "3217",
+                "3218",
+                "3219",
+                "3220",
+                "3221",
+                "3222",
+                "3223",
+                "3224",
+                "3225",
+                "3226",
+                "3227",
+                "3228",
+                "3335",
+                "3337",
+                "3338",
+                "3427",
+                "3429",
+                "3430"
+            ]
+        },
+        "displayName": "Basic - Business (T1)",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "71.04",
+                    "description": ""
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "71.04",
+                    "description": ""
+                }
+            ],
+            "terms": "For full terms and conditions, please refer to our website www.energyaustralia.com.au.",
+            "isFixed": false,
+            "variation": "The rates for Basic Business may vary, either when we are directed to change regulated rates, or when we review our rates each year. We will notify you before any rate change occurs.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "The details presented in this fact sheet are for a small business customer located in the distribution area outlined with a metering configuration as described. Unless otherwise specified, 'Peak Only' is the default meter type."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.915"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.855"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "2.834"
+                            },
+                            {
+                                "unitPrice": "2.801"
+                            }
+                        ],
+                        "displayName": "Rate"
+                    },
+                    "displayName": "Winter Rates",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "141.00"
+                },
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.884"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.782"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "2.749"
+                            },
+                            {
+                                "unitPrice": "2.729"
+                            }
+                        ],
+                        "displayName": "Rate"
+                    },
+                    "displayName": "Non-Winter Rates",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "141.00"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "This contract continues for as long as you remain on the plan."
+        },
+        "lastUpdated": "2023-01-12T23:41:56Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2023-01-31T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1/energy/plans/TRU440936SS@VEC"
+    }
+}
