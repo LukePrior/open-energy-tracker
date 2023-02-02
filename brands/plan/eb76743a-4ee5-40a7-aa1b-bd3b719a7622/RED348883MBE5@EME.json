@@ -39,7 +39,8 @@
             ]
         },
         "displayName": "Qantas Red Business Plus",
-        "lastUpdated": "2022-07-10T14:05:54.692Z",
+        "effectiveTo": "2023-02-08T00:00:00.000Z",
+        "lastUpdated": "2023-02-01T09:33:51.976Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-07-11T00:00:00.000Z",
         "meteringCharges": [
