@@ -135,7 +135,7 @@
             ]
         },
         "displayName": "GloBird  ComboGLOSAVE Residential(Central)-Australian Gas Networks",
-        "effectiveTo": "2023-12-29T13:00:00Z",
+        "effectiveTo": "2023-02-02T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -252,7 +252,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discount percentage or rates."
         },
-        "lastUpdated": "2023-01-02T22:25:13Z",
+        "lastUpdated": "2023-02-03T06:07:19Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-12-30T13:00:00Z"
     },

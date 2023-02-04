@@ -75,8 +75,8 @@
             ]
         },
         "displayName": "GloBird  GREENLIGHT Residential (Flat Rate Without Controlled Load)-Jemena",
-        "effectiveTo": "2023-12-29T13:00:00Z",
-        "lastUpdated": "2023-01-02T22:25:06Z",
+        "effectiveTo": "2023-02-02T13:00:00Z",
+        "lastUpdated": "2023-02-03T06:05:17Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-12-30T13:00:00Z",
         "electricityContract": {
