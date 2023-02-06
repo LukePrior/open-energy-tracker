@@ -21,6 +21,7 @@
             ]
         },
         "displayName": "Nothing Fancy Gas Australian Gas Networks Murray Valley",
+        "effectiveTo": "2023-02-05T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -118,7 +119,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions."
         },
-        "lastUpdated": "2022-12-19T00:45:45Z",
+        "lastUpdated": "2023-02-05T22:00:49Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-12-31T13:00:00Z"
     },

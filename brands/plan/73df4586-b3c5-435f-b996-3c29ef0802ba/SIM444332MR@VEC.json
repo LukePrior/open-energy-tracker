@@ -1,0 +1,158 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "simply-energy",
+        "planId": "SIM444332MR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Simply Energy",
+        "geography": {
+            "distributors": [
+                "AusNet Services (gas)"
+            ],
+            "includedPostcodes": [
+                "3227",
+                "3331"
+            ]
+        },
+        "displayName": "VIC Simply for Good gas",
+        "gasContract": {
+            "fees": [
+                {
+                    "rate": "0.42",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "You may be charged credit card fees in all channels (other than direct debit) of 0.42% for Visa."
+                },
+                {
+                    "rate": "0.36",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "You may be charged credit card fees in all channels (other than direct debit) of 0.36% for Mastercard."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "PAYMENT_PROCESSING",
+                    "amount": "1.65",
+                    "description": "A $1.65 (inc. GST) charge will apply to paper bills sent in the post."
+                }
+            ],
+            "terms": "For further details on the information presented in this Plan Information Document, or for full terms and conditions, please visit www.simplyenergy.com.au or call Simply Energy on 13 88 08.",
+            "isFixed": false,
+            "termType": "OTHER",
+            "variation": "We may vary your rates and charges at any time, including if any underlying information is incorrect, you get a new meter or your distributor changes your tariff. We'll give you advance notice of any change, which may be on your bill.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Carbon Neutral",
+                    "displayName": "Carbon Neutral",
+                    "eligibility": "Sign up for Simply for Good by ENGIE and we\u2019ll offset the carbon emissions from 100% of your gas usage. It\u2019s not an option, add-on or app you\u2019ll need to activate, so there\u2019s nothing more you need to do, except feel good."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is available to customers within the relevant distribution zone with the applicable network tariff and meter type."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "05-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.90"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.82"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "2.58"
+                            },
+                            {
+                                "unitPrice": "2.44"
+                            }
+                        ],
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Summer",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "87.54"
+                },
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "3.67"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "3.60"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "2.59"
+                            },
+                            {
+                                "unitPrice": "2.54"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Winter",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "87.54"
+                },
+                {
+                    "endDate": "12-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.90"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.82"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "2.58"
+                            },
+                            {
+                                "unitPrice": "2.44"
+                            }
+                        ],
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Summer",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "87.54"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Ongoing energy plan until you or we end it. We may end this energy plan at any time by giving you 20 Business Days notice."
+        },
+        "lastUpdated": "2023-02-06T00:23:57Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-01-03T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/simply-energy/cds-au/v1/energy/plans/SIM444332MR@VEC"
+    }
+}

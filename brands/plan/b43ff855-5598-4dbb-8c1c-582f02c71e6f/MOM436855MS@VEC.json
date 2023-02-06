@@ -130,6 +130,7 @@
             ]
         },
         "displayName": "Suit Yourself Gas Multinet Metro",
+        "effectiveTo": "2023-02-05T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -228,7 +229,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions."
         },
-        "lastUpdated": "2022-12-19T00:45:47Z",
+        "lastUpdated": "2023-02-05T22:00:50Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-12-31T13:00:00Z"
     },
