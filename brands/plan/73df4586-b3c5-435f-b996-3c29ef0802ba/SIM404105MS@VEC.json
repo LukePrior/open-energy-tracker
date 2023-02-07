@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "VIC - Business Basics elec",
-        "lastUpdated": "2022-06-28T06:45:34Z",
+        "effectiveTo": "2023-02-06T13:00:00Z",
+        "lastUpdated": "2023-02-07T00:01:17Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {

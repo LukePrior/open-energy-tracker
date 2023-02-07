@@ -275,7 +275,8 @@
             ]
         },
         "displayName": "VIC - Simply Basics elec",
-        "lastUpdated": "2022-12-12T18:21:02Z",
+        "effectiveTo": "2023-02-06T13:00:00Z",
+        "lastUpdated": "2023-02-07T00:01:37Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-01-03T13:00:00Z",
         "electricityContract": {

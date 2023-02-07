@@ -15,6 +15,7 @@
             ]
         },
         "displayName": "VIC Simply for Good gas",
+        "effectiveTo": "2023-02-06T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -45,7 +46,7 @@
                     "category": "OTHER",
                     "description": "Carbon Neutral",
                     "displayName": "Carbon Neutral",
-                    "eligibility": "Sign up for Simply for Good by ENGIE and weu2019ll offset the carbon emissions from 100% of your gas usage. Itu2019s not an option, add-on or app youu2019ll need to activate, so thereu2019s nothing more you need to do, except feel good."
+                    "eligibility": "Sign up for Simply for Good by ENGIE and we\u2019ll offset the carbon emissions from 100% of your gas usage. It\u2019s not an option, add-on or app you\u2019ll need to activate, so there\u2019s nothing more you need to do, except feel good."
                 }
             ],
             "eligibility": [
@@ -147,7 +148,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Ongoing energy plan until you or we end it. We may end this energy plan at any time by giving you 20 Business Days notice."
         },
-        "lastUpdated": "2022-12-12T18:21:13Z",
+        "lastUpdated": "2023-02-06T23:44:18Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-01-03T13:00:00Z"
     },

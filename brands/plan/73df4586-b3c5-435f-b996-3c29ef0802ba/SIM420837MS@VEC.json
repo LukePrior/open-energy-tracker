@@ -327,7 +327,8 @@
             ]
         },
         "displayName": "VIC- Simply for Good Business by ENGIE Elec",
-        "lastUpdated": "2022-08-19T04:06:16Z",
+        "effectiveTo": "2023-02-06T13:00:00Z",
+        "lastUpdated": "2023-02-07T00:01:19Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-08-16T14:00:00Z",
         "electricityContract": {
@@ -555,7 +556,6 @@
                             ],
                             "amount": "796.00",
                             "endTime": "1800",
-                            "minDemand": "0.00",
                             "startTime": "1000",
                             "description": "Non-summer Peak Demand Apr-Nov, 10:00 - 18:00",
                             "displayName": "Demand",
@@ -652,7 +652,6 @@
                             ],
                             "amount": "1768.00",
                             "endTime": "1800",
-                            "minDemand": "0.00",
                             "startTime": "1000",
                             "description": "Summer Peak Demand Dec-Dec, 10:00 - 18:00",
                             "displayName": "Demand",

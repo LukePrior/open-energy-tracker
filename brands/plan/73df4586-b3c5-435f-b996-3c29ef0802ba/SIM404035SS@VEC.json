@@ -112,7 +112,8 @@
             ]
         },
         "displayName": "VIC Business Standing Offer Elec",
-        "lastUpdated": "2022-06-28T06:45:31Z",
+        "effectiveTo": "2023-02-06T13:00:00Z",
+        "lastUpdated": "2023-02-07T00:01:15Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {
@@ -199,7 +200,6 @@
                             ],
                             "amount": "724.53",
                             "endTime": "1800",
-                            "minDemand": "0.00",
                             "startTime": "1000",
                             "description": "Non-summer Peak Demand Apr-Nov, 10:00 - 18:00",
                             "displayName": "Demand",
@@ -240,7 +240,6 @@
                             ],
                             "amount": "1761.73",
                             "endTime": "1800",
-                            "minDemand": "0.00",
                             "startTime": "1000",
                             "description": "Summer Peak Demand Dec-Dec, 10:00 - 18:00",
                             "displayName": "Demand",
