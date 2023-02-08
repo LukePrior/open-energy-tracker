@@ -1,0 +1,516 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "covau",
+        "planId": "COV423166MS@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "CovaU",
+        "geography": {
+            "distributors": [
+                "AusNet Services (electricity)"
+            ],
+            "includedPostcodes": [
+                "3061",
+                "3062",
+                "3064",
+                "3074",
+                "3075",
+                "3076",
+                "3082",
+                "3083",
+                "3084",
+                "3085",
+                "3087",
+                "3088",
+                "3089",
+                "3090",
+                "3091",
+                "3093",
+                "3094",
+                "3095",
+                "3096",
+                "3097",
+                "3099",
+                "3106",
+                "3109",
+                "3111",
+                "3113",
+                "3114",
+                "3115",
+                "3116",
+                "3132",
+                "3133",
+                "3134",
+                "3135",
+                "3136",
+                "3137",
+                "3138",
+                "3139",
+                "3140",
+                "3152",
+                "3153",
+                "3154",
+                "3155",
+                "3156",
+                "3158",
+                "3159",
+                "3160",
+                "3175",
+                "3178",
+                "3179",
+                "3180",
+                "3434",
+                "3521",
+                "3522",
+                "3607",
+                "3608",
+                "3610",
+                "3612",
+                "3631",
+                "3646",
+                "3658",
+                "3659",
+                "3660",
+                "3662",
+                "3663",
+                "3664",
+                "3665",
+                "3666",
+                "3669",
+                "3670",
+                "3672",
+                "3673",
+                "3675",
+                "3677",
+                "3678",
+                "3682",
+                "3683",
+                "3685",
+                "3687",
+                "3688",
+                "3690",
+                "3691",
+                "3695",
+                "3697",
+                "3698",
+                "3699",
+                "3700",
+                "3701",
+                "3704",
+                "3705",
+                "3707",
+                "3708",
+                "3709",
+                "3711",
+                "3712",
+                "3713",
+                "3714",
+                "3715",
+                "3717",
+                "3718",
+                "3719",
+                "3720",
+                "3722",
+                "3723",
+                "3725",
+                "3726",
+                "3727",
+                "3728",
+                "3730",
+                "3732",
+                "3733",
+                "3735",
+                "3736",
+                "3737",
+                "3738",
+                "3739",
+                "3740",
+                "3741",
+                "3744",
+                "3746",
+                "3747",
+                "3749",
+                "3750",
+                "3751",
+                "3752",
+                "3753",
+                "3754",
+                "3755",
+                "3756",
+                "3757",
+                "3758",
+                "3759",
+                "3760",
+                "3761",
+                "3762",
+                "3763",
+                "3764",
+                "3765",
+                "3766",
+                "3767",
+                "3770",
+                "3775",
+                "3777",
+                "3778",
+                "3779",
+                "3781",
+                "3782",
+                "3783",
+                "3785",
+                "3786",
+                "3787",
+                "3788",
+                "3789",
+                "3791",
+                "3792",
+                "3793",
+                "3795",
+                "3796",
+                "3797",
+                "3799",
+                "3802",
+                "3803",
+                "3804",
+                "3805",
+                "3806",
+                "3807",
+                "3808",
+                "3809",
+                "3810",
+                "3812",
+                "3813",
+                "3814",
+                "3815",
+                "3816",
+                "3818",
+                "3820",
+                "3821",
+                "3822",
+                "3823",
+                "3824",
+                "3825",
+                "3831",
+                "3832",
+                "3833",
+                "3835",
+                "3840",
+                "3842",
+                "3844",
+                "3847",
+                "3850",
+                "3851",
+                "3852",
+                "3854",
+                "3856",
+                "3857",
+                "3858",
+                "3859",
+                "3860",
+                "3862",
+                "3864",
+                "3865",
+                "3869",
+                "3870",
+                "3871",
+                "3873",
+                "3874",
+                "3875",
+                "3878",
+                "3880",
+                "3882",
+                "3885",
+                "3886",
+                "3887",
+                "3888",
+                "3889",
+                "3890",
+                "3891",
+                "3892",
+                "3893",
+                "3895",
+                "3896",
+                "3898",
+                "3900",
+                "3902",
+                "3903",
+                "3904",
+                "3909",
+                "3912",
+                "3921",
+                "3922",
+                "3923",
+                "3925",
+                "3945",
+                "3946",
+                "3950",
+                "3951",
+                "3953",
+                "3954",
+                "3956",
+                "3957",
+                "3958",
+                "3959",
+                "3960",
+                "3962",
+                "3964",
+                "3965",
+                "3966",
+                "3967",
+                "3971",
+                "3975",
+                "3976",
+                "3977",
+                "3978",
+                "3979",
+                "3980",
+                "3981",
+                "3984",
+                "3987",
+                "3988",
+                "3990",
+                "3991",
+                "3992",
+                "3995",
+                "3996"
+            ]
+        },
+        "displayName": "Super Saver Solar Online Business Business TOU",
+        "effectiveTo": "2023-01-29T13:00:00Z",
+        "lastUpdated": "2023-01-30T04:57:38Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-09-07T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "25.003",
+                    "description": "$25.00 (inc. GST) Over the counter payment fee \u2013 may apply for over the counter payments made at an Australia Post outlet.\nYou must pay us any fees your distributor passes through to us in relation to services performed by your distributor (or anyone else) at your supply address. For details on additional fees that may apply, please visit www.covau.com.au/additionalfees"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "39.886",
+                    "description": "$39.89 (inc. GST) fee may apply when your property is disconnected. This fee is passed through from your distributor and may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "39.886",
+                    "description": "$39.89 (inc. GST) fee may apply when your property is reconnected. This fee is passed through from your distributor and may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "9.504",
+                    "description": "$9.50 (inc. GST) Direct debit dishonour payment fee"
+                },
+                {
+                    "rate": "0.82",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A 0.82% (inc. GST) fee may apply to payments made by debit and credit cards."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CHEQUE_DISHONOUR",
+                    "amount": "9.504",
+                    "description": "$9.50 (inc. GST) Cheque dishonour payment fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "3.003",
+                    "description": "$3.00 (inc. GST) Over the counter payment fee \u2013 may apply for over the counter payments made at an Australia Post outlet."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "1.749",
+                    "description": "$1.75 (inc. GST) Paper Bill Fee"
+                },
+                {
+                    "rate": "0.8",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "OTHER",
+                    "description": "A 0.803% (inc. GST) applies to credit card payments via Australia Post."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "39.886",
+                    "description": "$39.89 (inc. GST) Special Meter Read fee. This fee is passed through from your distributor and may vary."
+                }
+            ],
+            "terms": "See our full terms and conditions to www.covau.com.au for details.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "category": "OTHER",
+                    "description": "Discounts applied to GST inclusive energy usage charges prior to solar credit. No discount will apply to the GreenPower component.",
+                    "displayName": "Guaranteed discount on usage charges",
+                    "methodUType": "percentOfUse",
+                    "percentOfUse": {
+                        "rate": "30"
+                    }
+                },
+                {
+                    "type": "GUARANTEED",
+                    "category": "OTHER",
+                    "description": "$50 sign-up credits (including GST) will be applied on your first invoice after switching to CovaU. Offer is available to customers who sign up through CovaU's website only.",
+                    "displayName": "Online Signup Bonus",
+                    "fixedAmount": {
+                        "amount": "45.45"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "We may vary your rates in line with our Terms and Conditions at any time by written notice to you. Notice will be given at least 5 business days prior to the variation.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Available to Business customers in the Citipower network area with applicable metering system configuration. For more details about the eligibility criteria and solar feed-in eligibility, please contact CovaU on 1300 689 866."
+                }
+            ],
+            "pricingModel": "TIME_OF_USE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "Period",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "70.05"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "2100",
+                                    "startTime": "0900"
+                                }
+                            ],
+                            "displayName": "Peak"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "45.38"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "0900",
+                                    "startTime": "0000"
+                                },
+                                {
+                                    "days": [
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "0000"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "2100"
+                                }
+                            ],
+                            "displayName": "Off Peak"
+                        }
+                    ],
+                    "dailySupplyCharges": "118.13"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.011",
+                            "percentGreen": "25"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "For an extra 1.1c /kWh inc. GST 25% of your usage will come from GreenPower Providers. No discount will apply to the GreenPower component.",
+                    "displayName": "GreenPower 25"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.022",
+                            "percentGreen": "50"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "For an extra 2.2c /kWh inc. GST 50% of your usage will come from GreenPower Providers. No discount will apply to the GreenPower component.",
+                    "displayName": "GreenPower 50"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.044",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "For an extra 4.4c /kWh inc. GST 100% of your usage will come from GreenPower Providers. No discount will apply to the GreenPower component.",
+                    "displayName": "GreenPower 100"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Feed In Tariff",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "6.70"
+                    }
+                }
+            ],
+            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with our Market Retail Terms & Conditions"
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/covau/cds-au/v1/energy/plans/COV423166MS@VEC"
+    }
+}
