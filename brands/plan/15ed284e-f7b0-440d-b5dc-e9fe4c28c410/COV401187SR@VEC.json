@@ -75,8 +75,8 @@
             ]
         },
         "displayName": "Standard Offer Residential Jemena General Purpose Demand A10D",
-        "effectiveTo": "2023-06-29T14:00:00Z",
-        "lastUpdated": "2022-06-24T06:06:25Z",
+        "effectiveTo": "2023-02-08T13:00:00Z",
+        "lastUpdated": "2023-02-09T03:25:18Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {
@@ -115,7 +115,7 @@
                     "term": "FIXED",
                     "type": "OTHER",
                     "amount": "3.00",
-                    "description": "Over the counter payment fee u2013 may apply for over the counter payments made at an Australia Post outlet."
+                    "description": "Over the counter payment fee \u2013 may apply for over the counter payments made at an Australia Post outlet."
                 },
                 {
                     "term": "FIXED",
@@ -166,7 +166,6 @@
                             ],
                             "amount": "17.50",
                             "endTime": "2100",
-                            "minDemand": "0.000001",
                             "startTime": "1500",
                             "description": "Demand charging window 3PM - 9PM weekdays (local time); reset monthly.",
                             "displayName": "Demand",
