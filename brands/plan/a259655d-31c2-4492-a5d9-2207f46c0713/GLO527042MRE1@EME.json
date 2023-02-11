@@ -1,0 +1,305 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "globird",
+        "planId": "GLO527042MRE1@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Globird Energy",
+        "geography": {
+            "distributors": [
+                "Endeavour"
+            ],
+            "includedPostcodes": [
+                "2113",
+                "2114",
+                "2115",
+                "2116",
+                "2117",
+                "2118",
+                "2119",
+                "2120",
+                "2121",
+                "2122",
+                "2125",
+                "2126",
+                "2142",
+                "2145",
+                "2146",
+                "2147",
+                "2148",
+                "2150",
+                "2151",
+                "2152",
+                "2153",
+                "2154",
+                "2155",
+                "2156",
+                "2157",
+                "2158",
+                "2159",
+                "2160",
+                "2161",
+                "2162",
+                "2163",
+                "2164",
+                "2165",
+                "2166",
+                "2167",
+                "2168",
+                "2170",
+                "2171",
+                "2172",
+                "2173",
+                "2174",
+                "2175",
+                "2176",
+                "2177",
+                "2178",
+                "2179",
+                "2198",
+                "2200",
+                "2213",
+                "2214",
+                "2233",
+                "2250",
+                "2257",
+                "2283",
+                "2304",
+                "2323",
+                "2325",
+                "2328",
+                "2329",
+                "2330",
+                "2500",
+                "2502",
+                "2505",
+                "2506",
+                "2508",
+                "2515",
+                "2516",
+                "2517",
+                "2518",
+                "2519",
+                "2525",
+                "2526",
+                "2527",
+                "2528",
+                "2529",
+                "2530",
+                "2533",
+                "2534",
+                "2535",
+                "2536",
+                "2537",
+                "2538",
+                "2539",
+                "2540",
+                "2541",
+                "2555",
+                "2556",
+                "2557",
+                "2558",
+                "2559",
+                "2560",
+                "2563",
+                "2564",
+                "2565",
+                "2566",
+                "2567",
+                "2568",
+                "2569",
+                "2570",
+                "2571",
+                "2572",
+                "2573",
+                "2574",
+                "2575",
+                "2576",
+                "2577",
+                "2578",
+                "2579",
+                "2580",
+                "2622",
+                "2745",
+                "2747",
+                "2748",
+                "2749",
+                "2750",
+                "2751",
+                "2752",
+                "2753",
+                "2754",
+                "2756",
+                "2757",
+                "2758",
+                "2759",
+                "2760",
+                "2761",
+                "2762",
+                "2763",
+                "2765",
+                "2766",
+                "2767",
+                "2768",
+                "2769",
+                "2770",
+                "2773",
+                "2774",
+                "2775",
+                "2776",
+                "2777",
+                "2778",
+                "2779",
+                "2780",
+                "2782",
+                "2783",
+                "2784",
+                "2785",
+                "2786",
+                "2787",
+                "2790",
+                "2795",
+                "2800",
+                "2845",
+                "2846",
+                "2847",
+                "2848",
+                "2849",
+                "2850"
+            ]
+        },
+        "displayName": "SOLARPLUS Residential (Flat Rate CTL Load)-Endeavour",
+        "effectiveTo": "2024-02-10T00:00:00.000Z",
+        "lastUpdated": "2023-02-10T10:41:49.602Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-02-10T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "Min connection fee $33 inc GST. Fees can vary for meter type, location or other factors. All fees here www.globirdenergy.com.au/fees"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECT_MOVE_OUT",
+                    "description": "For move-out customer needs a final read only. Fees can vary for meter type, location or other factors. All fees here www.globirdenergy.com.au/fees"
+                }
+            ],
+            "terms": "For further information about this offer call GloBird on 133456 or visit www.globirdenergy.com.au or see our full terms and conditions here: www.globirdenergy.com.au/legal/",
+            "isFixed": false,
+            "discounts": [
+                {
+                    "type": "CONDITIONAL",
+                    "category": "DIRECT_DEBIT",
+                    "description": "You will receive 1% discount off Usage & Supply charges when you pay your bill on-time by direct debit",
+                    "displayName": "Direct Debit Discount",
+                    "methodUType": "percentOfBill",
+                    "percentOfBill": {
+                        "rate": "1"
+                    }
+                },
+                {
+                    "type": "CONDITIONAL",
+                    "category": "PAY_ON_TIME",
+                    "description": "You will receive 2% discount off Usage & Supply charges when you pay your bill on-time",
+                    "displayName": "Pay-on-time Discount",
+                    "methodUType": "percentOfBill",
+                    "percentOfBill": {
+                        "rate": "2"
+                    }
+                },
+                {
+                    "type": "GUARANTEED",
+                    "description": "Customers get $50 credit on your bill.",
+                    "displayName": "Sign-Up Credit",
+                    "fixedAmount": {
+                        "amount": "50.00"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "We may update your solar feed-in, or your rates from time to time. We'll always notify you in writing prior to any change.",
+            "meterTypes": [
+                "Type 4",
+                "Type 5"
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "02-10",
+                    "startDate": "02-11",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 608.33,
+                                "unitPrice": "30.4"
+                            },
+                            {
+                                "volume": null,
+                                "unitPrice": "33.7"
+                            }
+                        ],
+                        "period": "P1M",
+                        "description": "Step 1 of 608.33kWh per month assumes 365 days per year. Actual calculation based on an average of 20kWh per day.",
+                        "displayName": "Single Rate Block"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "81.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M",
+                "P3M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL",
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY"
+            ],
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "26.00"
+                        }
+                    ],
+                    "period": "P1M",
+                    "dailyCharge": "0.00",
+                    "description": "Controlled Load",
+                    "displayName": "Controlled Load"
+                }
+            ],
+            "coolingOffDays": "10",
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "GloBird currently pay 17.00 cents per kWh solar feed-in for the first 8 kWh/day (inc. GST if any).",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "17.00"
+                    }
+                },
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "GloBird currently pay 3.00 cents per kWh solar feed-in for all remaining kWh/day (inc. GST if any).",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "3.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "You will be notified of a new plan 1 month before the expiry date"
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/globird/cds-au/v1/energy/plans/GLO527042MRE1@EME"
+    }
+}
