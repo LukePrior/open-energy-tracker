@@ -60,7 +60,8 @@
             ]
         },
         "displayName": "Blue Business Easy C1R|CDS",
-        "lastUpdated": "2022-10-18T22:13:49Z",
+        "effectiveTo": "2023-02-15T13:00:00Z",
+        "lastUpdated": "2023-02-16T00:02:43Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-10-18T13:00:00Z",
         "electricityContract": {
