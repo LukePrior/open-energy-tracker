@@ -4,6 +4,72 @@
             {
                 "type": "MARKET",
                 "brand": "actewagl",
+                "planId": "ACT523221MRG1@EME",
+                "fuelType": "GAS",
+                "brandName": "ActewAGL",
+                "geography": {
+                    "distributors": [
+                        "Evoenergy Queanbeyan"
+                    ],
+                    "includedPostcodes": [
+                        "2619",
+                        "2620",
+                        "2621"
+                    ]
+                },
+                "displayName": "NSW Home Saver Plus Gas - Queanbeyan Region",
+                "effectiveTo": "2023-06-30T00:00:00.000Z",
+                "lastUpdated": "2023-02-19T21:14:53.464Z",
+                "customerType": "RESIDENTIAL",
+                "effectiveFrom": "2023-02-20T00:00:00.000Z"
+            },
+            {
+                "type": "MARKET",
+                "brand": "actewagl",
+                "planId": "ACT523220MRG1@EME",
+                "fuelType": "GAS",
+                "brandName": "ActewAGL",
+                "geography": {
+                    "distributors": [
+                        "Jemena - Capital Region"
+                    ],
+                    "includedPostcodes": [
+                        "2580",
+                        "2582",
+                        "2586",
+                        "2594"
+                    ]
+                },
+                "displayName": "NSW Home Saver Plus Gas - Capital Region",
+                "effectiveTo": "2023-06-30T00:00:00.000Z",
+                "lastUpdated": "2023-02-19T21:14:53.461Z",
+                "customerType": "RESIDENTIAL",
+                "effectiveFrom": "2023-02-20T00:00:00.000Z"
+            },
+            {
+                "type": "MARKET",
+                "brand": "actewagl",
+                "planId": "ACT523222MRG1@EME",
+                "fuelType": "GAS",
+                "brandName": "ActewAGL",
+                "geography": {
+                    "distributors": [
+                        "Evoenergy Shoalhaven"
+                    ],
+                    "includedPostcodes": [
+                        "2540",
+                        "2541"
+                    ]
+                },
+                "displayName": "NSW Home Saver Plus Gas - Shoalhaven Region",
+                "effectiveTo": "2023-06-30T00:00:00.000Z",
+                "lastUpdated": "2023-02-19T21:14:53.456Z",
+                "customerType": "RESIDENTIAL",
+                "effectiveFrom": "2023-02-20T00:00:00.000Z"
+            },
+            {
+                "type": "MARKET",
+                "brand": "actewagl",
                 "planId": "ACT523219MBE1@EME",
                 "fuelType": "ELECTRICITY",
                 "brandName": "ActewAGL",
