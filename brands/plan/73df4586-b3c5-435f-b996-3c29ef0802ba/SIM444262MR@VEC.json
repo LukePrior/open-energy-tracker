@@ -43,6 +43,7 @@
             ]
         },
         "displayName": "VIC - Simply for Good Gas",
+        "effectiveTo": "2023-02-19T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -175,7 +176,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Ongoing energy plan until you or we end it. We may end this energy plan at any time by giving you 20 Business Days notice."
         },
-        "lastUpdated": "2023-02-06T00:23:51Z",
+        "lastUpdated": "2023-02-20T03:17:43Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-16T14:00:00Z"
     },

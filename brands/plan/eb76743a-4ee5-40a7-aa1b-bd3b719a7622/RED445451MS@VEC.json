@@ -1,0 +1,142 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "red-energy",
+        "planId": "RED445451MS@VEC",
+        "fuelType": "GAS",
+        "brandName": "Red Energy",
+        "geography": {
+            "distributors": [
+                "AusNet Services (gas)"
+            ],
+            "includedPostcodes": [
+                "3241",
+                "3249",
+                "3250",
+                "3266",
+                "3277",
+                "3280",
+                "3282",
+                "3300",
+                "3305",
+                "3340",
+                "3342",
+                "3350",
+                "3352",
+                "3355",
+                "3356",
+                "3357",
+                "3358",
+                "3430",
+                "3444",
+                "3450",
+                "3451",
+                "3460",
+                "3461",
+                "3464",
+                "3465",
+                "3550",
+                "3551",
+                "3555",
+                "3556",
+                "3437",
+                "3552",
+                "3351",
+                "3301",
+                "3345"
+            ]
+        },
+        "displayName": "Qantas Red Business Plus",
+        "gasContract": {
+            "terms": "For full terms and conditions applicable to this offer, please visit https://www.redenergy.com.au/termsandconditions",
+            "isFixed": false,
+            "variation": "We may vary your rates in line with our Terms and Conditions and in accordance with the Relevant Laws. We will give you written notice of at least 5 business days prior to the variation.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Qantas Points",
+                    "displayName": "Qantas Points",
+                    "eligibility": "5,000 bonus Qantas Points are applied once Red Energy becomes responsible for the supply of your Gas and 2 Qantas Points per $1 on your bill, when you pay in full. T&Cs at www.redenergy.com.au/qantas-business-terms-and-conditions"
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Only available to new business customers who provide an ABN and have a valid Qantas Business Rewards membership. To be eligible to earn Qantas Points the ABN on your energy account must match the ABN registered to your Qantas Business Rewards membership."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.60"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.40"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "2.35"
+                            },
+                            {
+                                "unitPrice": "2.30"
+                            }
+                        ],
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Summer",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "86.00"
+                },
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.92"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.90"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "2.40"
+                            },
+                            {
+                                "unitPrice": "2.33"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "WInter",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "86.00"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+        },
+        "lastUpdated": "2023-02-12T23:02:19Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2023-02-20T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1/energy/plans/RED445451MS@VEC"
+    }
+}

@@ -1,0 +1,254 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "sumo-power",
+        "planId": "SPA446821MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Sumo",
+        "geography": {
+            "distributors": [
+                "Citipower"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
+                "3011",
+                "3031",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3078",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
+            ]
+        },
+        "displayName": "Sumo Assure (Two Rate Plus Controlled Load)",
+        "effectiveTo": "2023-06-29T14:00:00Z",
+        "lastUpdated": "2023-02-20T23:21:59Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-02-19T13:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "EXIT",
+                    "amount": "0.00",
+                    "description": ""
+                },
+                {
+                    "term": "FIXED",
+                    "type": "ESTABLISHMENT",
+                    "amount": "0.00",
+                    "description": ""
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "2.75",
+                    "description": ""
+                },
+                {
+                    "rate": "0.7",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": ""
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "2.00",
+                    "description": "Over the counter fee at Australia Post"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "0.00",
+                    "description": "Pass through of fee set by your distributor, plus $5.50 (inc GST). We will notify you of the amount when you make a relevant request. Visit sumo.com.au/other-fees-and-charges for details."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "0.00",
+                    "description": "Pass through of fee set by your distributor, plus $5.50 (inc GST). We will notify you of the amount when you make a relevant request. Visit sumo.com.au/other-fees-and-charges for details."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "3.10",
+                    "description": "Bills can be issued by email for no cost, or alternatively by post at a cost of $3.10 (inc GST) per bill."
+                }
+            ],
+            "terms": "Please refer to our website http://www.sumo.com.au/terms for full terms and conditions.",
+            "isFixed": false,
+            "timeZone": "AEST",
+            "variation": "We may vary your prices over time. You will be notified in writing if we do.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "You must be a residential customer with an applicable network tariff and must meet our credit and other requirements."
+                }
+            ],
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "Period",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "24.50"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "2300",
+                                    "startTime": "0700"
+                                }
+                            ],
+                            "displayName": "Peak"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "16.00"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "2300"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "0700",
+                                    "startTime": "0000"
+                                },
+                                {
+                                    "days": [
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "0000"
+                                }
+                            ],
+                            "displayName": "Off Peak"
+                        }
+                    ],
+                    "dailySupplyCharges": "95.70"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "17.30"
+                            }
+                        ],
+                        "description": "Controlled load",
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Dedicated off peak",
+                    "rateBlockUType": "singleRate"
+                }
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Current Feed-In Tariff",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "10.20"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "Premium Feed-In Tariff",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "Ongoing contract"
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/sumo-power/cds-au/v1/energy/plans/SPA446821MR@VEC"
+    }
+}

@@ -1,0 +1,183 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "lumo",
+        "planId": "LU2444903MR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Lumo Energy",
+        "geography": {
+            "distributors": [
+                "Multinet"
+            ],
+            "includedPostcodes": [
+                "3004",
+                "3006",
+                "3097",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3105",
+                "3106",
+                "3107",
+                "3108",
+                "3109",
+                "3111",
+                "3113",
+                "3114",
+                "3115",
+                "3116",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3128",
+                "3129",
+                "3130",
+                "3131",
+                "3132",
+                "3133",
+                "3134",
+                "3135",
+                "3136",
+                "3137",
+                "3138",
+                "3140",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3145",
+                "3146",
+                "3147",
+                "3148",
+                "3149",
+                "3151",
+                "3153",
+                "3154",
+                "3155",
+                "3159",
+                "3181",
+                "3201",
+                "3765",
+                "3766",
+                "3767",
+                "3770",
+                "3781",
+                "3782",
+                "3783",
+                "3787",
+                "3788",
+                "3789",
+                "3791",
+                "3792",
+                "3793",
+                "3795",
+                "3796",
+                "3804"
+            ]
+        },
+        "displayName": "Lumo Basic",
+        "gasContract": {
+            "terms": "For full terms and conditions applicable to this offer, please visit https://www.lumoenergy.com.au/terms",
+            "isFixed": false,
+            "variation": "We may vary your rates in line with our Terms and Conditions and in accordance with the Regulatory Requirements. We will give you written notice of at least 5 business days prior to the variation.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Free Standard Moves",
+                    "displayName": "Free Standard Moves",
+                    "eligibility": "We will cover the costs for standard connections and disconnections when you move and reconnect with Lumo in Victoria. Exclusions and conditions apply. See lumoenergy.com.au/freemoves for full details."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is available to residential customers within the Multinet North distribution zone and is subject to the identification of the network tariff and metering requirements."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "04-30",
+                    "startDate": "11-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "3.11"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.65"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.10"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "1.89"
+                            },
+                            {
+                                "unitPrice": "1.75"
+                            }
+                        ],
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Off Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "74.50"
+                },
+                {
+                    "endDate": "10-31",
+                    "startDate": "05-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "3.32"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.94"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.36"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "1.95"
+                            },
+                            {
+                                "unitPrice": "1.89"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "74.50"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us. No exit fees."
+        },
+        "lastUpdated": "2023-02-10T04:06:39Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-02-20T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/lumo/cds-au/v1/energy/plans/LU2444903MR@VEC"
+    }
+}

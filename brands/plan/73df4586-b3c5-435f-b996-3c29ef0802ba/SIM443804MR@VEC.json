@@ -275,7 +275,8 @@
             ]
         },
         "displayName": "VIC - Simply for Good by ENGIE Elec",
-        "lastUpdated": "2023-02-06T00:23:20Z",
+        "effectiveTo": "2023-02-19T13:00:00Z",
+        "lastUpdated": "2023-02-20T03:17:42Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-16T14:00:00Z",
         "electricityContract": {

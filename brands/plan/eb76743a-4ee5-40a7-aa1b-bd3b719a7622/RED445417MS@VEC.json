@@ -1,0 +1,155 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "red-energy",
+        "planId": "RED445417MS@VEC",
+        "fuelType": "GAS",
+        "brandName": "Red Energy",
+        "geography": {
+            "distributors": [
+                "Multinet"
+            ],
+            "includedPostcodes": [
+                "3150",
+                "3152",
+                "3156",
+                "3158",
+                "3160",
+                "3161",
+                "3162",
+                "3163",
+                "3165",
+                "3166",
+                "3167",
+                "3168",
+                "3169",
+                "3170",
+                "3171",
+                "3172",
+                "3173",
+                "3174",
+                "3175",
+                "3177",
+                "3178",
+                "3179",
+                "3180",
+                "3182",
+                "3183",
+                "3184",
+                "3185",
+                "3186",
+                "3187",
+                "3188",
+                "3189",
+                "3190",
+                "3191",
+                "3192",
+                "3193",
+                "3194",
+                "3195",
+                "3196",
+                "3197",
+                "3202",
+                "3204",
+                "3205",
+                "3206",
+                "3207",
+                "3785",
+                "3786",
+                "3802"
+            ]
+        },
+        "displayName": "Red Business Saver",
+        "gasContract": {
+            "terms": "For full terms and conditions applicable to this offer, please visit https://www.redenergy.com.au/termsandconditions",
+            "isFixed": false,
+            "variation": "We may vary your rates in line with our Terms and Conditions and in accordance with the Relevant Laws. We will give you written notice of at least 5 business days prior to the variation.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is available to small business customers within the Multinet South distribution zone. For more information contact 131806."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "04-30",
+                    "startDate": "11-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "3.19"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.65"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.10"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "1.90"
+                            },
+                            {
+                                "unitPrice": "1.85"
+                            }
+                        ],
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Summer",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "75.00"
+                },
+                {
+                    "endDate": "10-31",
+                    "startDate": "05-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "3.38"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.99"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.46"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.00"
+                            },
+                            {
+                                "unitPrice": "1.90"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Winter",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "75.00"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+        },
+        "lastUpdated": "2023-02-12T23:02:17Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2023-02-20T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1/energy/plans/RED445417MS@VEC"
+    }
+}

@@ -1,0 +1,150 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "lumo",
+        "planId": "LU2444884MS@VEC",
+        "fuelType": "GAS",
+        "brandName": "Lumo Energy",
+        "geography": {
+            "distributors": [
+                "AusNet Services (gas)"
+            ],
+            "includedPostcodes": [
+                "3011",
+                "3012",
+                "3013",
+                "3015",
+                "3016",
+                "3018",
+                "3019",
+                "3020",
+                "3021",
+                "3022",
+                "3023",
+                "3025",
+                "3026",
+                "3027",
+                "3028",
+                "3031",
+                "3032",
+                "3033",
+                "3034",
+                "3036",
+                "3037",
+                "3038",
+                "3039",
+                "3040",
+                "3041",
+                "3042",
+                "3043",
+                "3044",
+                "3045",
+                "3046",
+                "3047",
+                "3048",
+                "3049",
+                "3055",
+                "3058",
+                "3059",
+                "3060",
+                "3061",
+                "3062",
+                "3063",
+                "3064",
+                "3428"
+            ]
+        },
+        "displayName": "Lumo Basic",
+        "gasContract": {
+            "terms": "For full terms and conditions applicable to this offer, please visit https://www.lumoenergy.com.au/terms.",
+            "isFixed": false,
+            "variation": "We may vary your rates in line with our Terms and Conditions and in accordance with the Regulatory Requirements. We will give you written notice of at least 5 business days prior to the variation.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Free Standard Moves",
+                    "displayName": "Free Standard Moves",
+                    "eligibility": "We will cover the costs for standard connections and disconnections when you move and reconnect with Lumo in Victoria. Exclusions and conditions apply. See lumoenergy.com.au/freemoves for full details."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is available to small business customers within the Ausnet Services Central 2 distribution zone and is subject to the identification of the network tariff and metering requirements."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.47"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.27"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "2.24"
+                            },
+                            {
+                                "unitPrice": "2.14"
+                            }
+                        ],
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Off Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "128.68"
+                },
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.74"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.63"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "2.50"
+                            },
+                            {
+                                "unitPrice": "2.43"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "128.68"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us. No exit fees."
+        },
+        "lastUpdated": "2023-02-10T04:06:38Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2023-02-20T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/lumo/cds-au/v1/energy/plans/LU2444884MS@VEC"
+    }
+}

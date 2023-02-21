@@ -1,0 +1,109 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "red-energy",
+        "planId": "RED445381MR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Red Energy",
+        "geography": {
+            "distributors": [
+                "Australian Gas Networks"
+            ],
+            "includedPostcodes": [
+                "3636",
+                "3640",
+                "3641",
+                "3644",
+                "3646",
+                "3683",
+                "3685",
+                "3687",
+                "3730"
+            ]
+        },
+        "displayName": "Qantas Red Saver (Bundled)",
+        "gasContract": {
+            "terms": "For full terms and conditions applicable to this offer, please visit https://www.redenergy.com.au/terms",
+            "isFixed": false,
+            "variation": "We may vary your rates in line with our Terms and Conditions and in accordance with the Relevant Laws. We will give you written notice of at least 5 business days prior to the variation.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Qantas Points",
+                    "displayName": "Qantas Points",
+                    "eligibility": "Get 5,000 bonus Qantas Points when Red Energy becomes responsible for the supply of your electricity and 3 Qantas Points per $1 on every gas bill, when you pay on time. For T&Cs see redenergy.com.au/terms"
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Only available to Qantas Red business customers who are nominated as a Director or Authorised Person on a Qantas Red business plan who are also an account holder on a Qantas Red residential premises."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 27,
+                                "unitPrice": "3.52"
+                            },
+                            {
+                                "volume": 21,
+                                "unitPrice": "2.96"
+                            },
+                            {
+                                "unitPrice": "2.45"
+                            }
+                        ],
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Summer",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "75.00"
+                },
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 27,
+                                "unitPrice": "3.52"
+                            },
+                            {
+                                "volume": 21,
+                                "unitPrice": "2.96"
+                            },
+                            {
+                                "unitPrice": "2.45"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Winter",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "75.00"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+        },
+        "lastUpdated": "2023-02-12T23:02:14Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-02-20T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1/energy/plans/RED445381MR@VEC"
+    }
+}
