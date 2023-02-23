@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Flexi Plan - Demand",
-        "lastUpdated": "2022-10-11T14:06:41.679Z",
+        "effectiveTo": "2023-03-02T00:00:00.000Z",
+        "lastUpdated": "2023-02-22T03:48:32.756Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-10-12T00:00:00.000Z",
         "electricityContract": {
