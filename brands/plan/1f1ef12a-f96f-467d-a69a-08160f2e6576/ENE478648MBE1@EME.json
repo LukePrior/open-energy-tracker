@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Business Carbon Neutral Flexi Plan - EA316 Transitional",
-        "lastUpdated": "2022-09-13T14:06:13.437Z",
+        "effectiveTo": "2023-03-17T00:00:00.000Z",
+        "lastUpdated": "2023-02-23T04:27:58.634Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-09-14T00:00:00.000Z",
         "electricityContract": {

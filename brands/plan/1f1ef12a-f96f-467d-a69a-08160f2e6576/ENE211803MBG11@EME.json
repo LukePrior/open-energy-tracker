@@ -19,6 +19,7 @@
             ]
         },
         "displayName": "Business Balance Plan 24",
+        "effectiveTo": "2023-03-17T00:00:00.000Z",
         "gasContract": {
             "fees": [
                 {
@@ -118,7 +119,7 @@
             "coolingOffDays": "10",
             "onExpiryDescription": "The Benefit Period for this plan is 24 months. We will provide you with notice of your options prior to the end of the Benefit Period. Your contract will continue until it is ended by either party."
         },
-        "lastUpdated": "2023-01-31T14:05:52.946Z",
+        "lastUpdated": "2023-02-23T04:27:59.437Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-02-01T00:00:00.000Z"
     },
