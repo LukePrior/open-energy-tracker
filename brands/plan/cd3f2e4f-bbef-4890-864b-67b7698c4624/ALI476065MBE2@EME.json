@@ -272,7 +272,8 @@
             ]
         },
         "displayName": "BusinessDeal Qantas (TOU Interval)",
-        "lastUpdated": "2022-08-31T14:08:23.843Z",
+        "effectiveTo": "2023-03-01T00:00:00.000Z",
+        "lastUpdated": "2023-02-24T05:38:28.439Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-09-01T00:00:00.000Z",
         "electricityContract": {
