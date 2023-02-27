@@ -327,8 +327,8 @@
             ]
         },
         "displayName": "GloBird  GLOGREEN Residential (Flat Rate With Controlled Load)-Powercor",
-        "effectiveTo": "2024-02-07T13:00:00Z",
-        "lastUpdated": "2023-02-08T05:59:16Z",
+        "effectiveTo": "2023-02-26T13:00:00Z",
+        "lastUpdated": "2023-02-27T00:10:26Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-02-08T13:00:00Z",
         "electricityContract": {

@@ -327,8 +327,8 @@
             ]
         },
         "displayName": "GloBird  Combo GLOSAVE Residential (Flat Rate Without Controlled Load)-Powercor",
-        "effectiveTo": "2024-02-07T13:00:00Z",
-        "lastUpdated": "2023-02-08T05:59:12Z",
+        "effectiveTo": "2023-02-26T13:00:00Z",
+        "lastUpdated": "2023-02-27T00:10:22Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-02-08T13:00:00Z",
         "electricityContract": {
