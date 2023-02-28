@@ -112,7 +112,8 @@
             ]
         },
         "displayName": "Kogan Energy with free Kogan First",
-        "lastUpdated": "2022-07-11T05:02:58Z",
+        "effectiveTo": "2023-02-27T13:00:00Z",
+        "lastUpdated": "2023-02-27T23:30:37Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-17T14:00:00Z",
         "electricityContract": {
@@ -151,7 +152,7 @@
             "terms": "Kogan Energy is provided by Powershop Australia Pty Ltd. We do not issue paper bills and require a credit card or bank details. For more information in relation to Kogan Energy and this offer, see full terms and conditions at: koganenergy.com.au/terms-conditions.",
             "isFixed": false,
             "timeZone": "LOCAL",
-            "variation": "We may vary your prices in accordance with our regulatory requirements. If we vary your prices weu2019ll give you advance notice, usually by email",
+            "variation": "We may vary your prices in accordance with our regulatory requirements. If we vary your prices we\u2019ll give you advance notice, usually by email",
             "incentives": [
                 {
                     "category": "OTHER",
@@ -163,7 +164,7 @@
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "You must agree to Kogan First membership T&Cs, available at koganenergy.com.au/terms-conditions Offer not available to existing Kogan First members. If youu2019re no longer eligible for this offer, we can end your energy plan."
+                    "information": "You must agree to Kogan First membership T&Cs, available at koganenergy.com.au/terms-conditions Offer not available to existing Kogan First members. If you\u2019re no longer eligible for this offer, we can end your energy plan."
                 }
             ],
             "pricingModel": "TIME_OF_USE_CONT_LOAD",

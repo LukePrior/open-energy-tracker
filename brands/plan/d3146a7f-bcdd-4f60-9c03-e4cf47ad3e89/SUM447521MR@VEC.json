@@ -1,0 +1,294 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "sumo-gas",
+        "planId": "SUM447521MR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Sumo",
+        "geography": {
+            "distributors": [
+                "Multinet"
+            ],
+            "includedPostcodes": [
+                "3004",
+                "3006",
+                "3097",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3105",
+                "3106",
+                "3107",
+                "3108",
+                "3109",
+                "3111",
+                "3113",
+                "3114",
+                "3115",
+                "3116",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3128",
+                "3129",
+                "3130",
+                "3131",
+                "3132",
+                "3133",
+                "3134",
+                "3135",
+                "3136",
+                "3137",
+                "3138",
+                "3140",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3145",
+                "3146",
+                "3147",
+                "3148",
+                "3149",
+                "3151",
+                "3153",
+                "3154",
+                "3155",
+                "3159",
+                "3175",
+                "3181",
+                "3765",
+                "3766",
+                "3767",
+                "3770",
+                "3781",
+                "3782",
+                "3783",
+                "3787",
+                "3788",
+                "3789",
+                "3791",
+                "3792",
+                "3793",
+                "3795",
+                "3796",
+                "3804"
+            ]
+        },
+        "displayName": "Sumo Assure Gas",
+        "effectiveTo": "2023-07-30T14:00:00Z",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "EXIT",
+                    "amount": "0.00",
+                    "description": ""
+                },
+                {
+                    "term": "FIXED",
+                    "type": "ESTABLISHMENT",
+                    "amount": "0.00",
+                    "description": ""
+                },
+                {
+                    "rate": "0.7",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Payments by credit card and debit card will incur an additional charge of 0.7% of payment made."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "2.75",
+                    "description": ""
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CHEQUE_DISHONOUR",
+                    "amount": "2.75",
+                    "description": ""
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "0.00",
+                    "description": "Pass through of fee set by your distributor, plus $5.50 (inc GST). We will notify you of the amount when you make a relevant request. Visit sumo.com.au/other-fees-and-charges for details."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "0.00",
+                    "description": "Pass through of fee set by your distributor, plus $5.50 (inc GST). We will notify you of the amount when you make a relevant request. Visit sumo.com.au/other-fees-and-charges for details."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "3.10",
+                    "description": "Bills can be issued by email for no cost, or alternatively by post at a cost of $3.10 (inc GST) per bill."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "2.00",
+                    "description": "Over the counter fee at Australia Post"
+                }
+            ],
+            "terms": "Please refer to our website https://www.sumo.com.au/welcome-pack/ for full terms and conditions.",
+            "isFixed": false,
+            "variation": "We may vary your prices over time. You will be notified in writing if we do.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "You must be a residential customer who meets our creditworthiness and other criteria."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "3.00"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.70"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.50"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.20"
+                            },
+                            {
+                                "unitPrice": "2.10"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "68.00"
+                },
+                {
+                    "endDate": "04-30",
+                    "startDate": "11-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.70"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.60"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.20"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.10"
+                            },
+                            {
+                                "unitPrice": "2.00"
+                            }
+                        ],
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Off Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "68.00"
+                },
+                {
+                    "endDate": "05-31",
+                    "startDate": "05-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "3.00"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.70"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.50"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.20"
+                            },
+                            {
+                                "unitPrice": "2.10"
+                            }
+                        ],
+                        "displayName": "Shoulder"
+                    },
+                    "displayName": "Shoulder",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "68.00"
+                },
+                {
+                    "endDate": "10-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "3.00"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.70"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.50"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.20"
+                            },
+                            {
+                                "unitPrice": "2.10"
+                            }
+                        ],
+                        "displayName": "Shoulder"
+                    },
+                    "displayName": "Shoulder",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "68.00"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "No contract term."
+        },
+        "lastUpdated": "2023-02-27T05:27:47Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-02-26T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/sumo-gas/cds-au/v1/energy/plans/SUM447521MR@VEC"
+    }
+}

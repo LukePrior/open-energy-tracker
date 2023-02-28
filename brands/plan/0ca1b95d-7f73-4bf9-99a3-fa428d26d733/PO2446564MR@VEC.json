@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "kogan",
-        "planId": "PO2426507MR@VEC",
+        "planId": "PO2446564MR@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "Kogan Energy",
         "geography": {
@@ -327,9 +327,9 @@
             ]
         },
         "displayName": "Kogan Energy for current Kogan First members",
-        "lastUpdated": "2022-10-13T00:48:22Z",
+        "lastUpdated": "2023-02-19T22:19:51Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2022-10-16T13:00:00Z",
+        "effectiveFrom": "2023-02-27T13:00:00Z",
         "electricityContract": {
             "fees": [
                 {
@@ -370,34 +370,88 @@
             "incentives": [
                 {
                     "category": "ACCOUNT_CREDIT",
-                    "description": "$79 (incl GST) credit",
-                    "displayName": "$79 (incl GST) credit",
-                    "eligibility": "To be eligible for this offer you must be an existing Kogan First member. If you're no longer eligible for this offer, we can end your energy plan"
+                    "description": "$99 (incl GST) credit",
+                    "displayName": "$99 (incl GST) credit",
+                    "eligibility": "A one-off $99 (incl GST) sign up credit will be applied to your Kogan Energy account on your first electricity bill."
                 }
             ],
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "To be eligible for this offer you must be an existing Kogan First member. If you're no longer eligible for this offer, we can end your energy plan"
+                    "information": "You are an existing Kogan First member"
                 }
             ],
-            "pricingModel": "SINGLE_RATE",
+            "pricingModel": "TIME_OF_USE",
             "tariffPeriod": [
                 {
                     "endDate": "02-13",
                     "startDate": "02-14",
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "unitPrice": "22.2119"
-                            }
-                        ],
-                        "description": "All times of the day",
-                        "displayName": "Anytime Usage"
-                    },
                     "displayName": "Period",
-                    "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "92.5418"
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "29.4818"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "2100",
+                                    "startTime": "1500"
+                                }
+                            ],
+                            "displayName": "Peak"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "16.7364"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "2100"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "1500",
+                                    "startTime": "0000"
+                                }
+                            ],
+                            "displayName": "Off Peak"
+                        }
+                    ],
+                    "dailySupplyCharges": "118.2182"
                 }
             ],
             "billFrequency": [
@@ -435,6 +489,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/kogan/cds-au/v1/energy/plans/PO2426507MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/kogan/cds-au/v1/energy/plans/PO2446564MR@VEC"
     }
 }

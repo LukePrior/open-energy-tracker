@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "kogan",
-        "planId": "PO2418128MR@VEC",
+        "planId": "PO2446689MR@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "Kogan Energy",
         "geography": {
@@ -275,9 +275,9 @@
             ]
         },
         "displayName": "Kogan Energy with free Kogan First",
-        "lastUpdated": "2022-08-05T00:21:16Z",
+        "lastUpdated": "2023-02-20T02:16:18Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2022-07-17T14:00:00Z",
+        "effectiveFrom": "2023-02-27T13:00:00Z",
         "electricityContract": {
             "fees": [
                 {
@@ -320,86 +320,32 @@
                     "category": "OTHER",
                     "description": "Kogan First",
                     "displayName": "Kogan First",
-                    "eligibility": "You receive complimentary access to Kogan First membership for 12 months from when you switch to this offer"
+                    "eligibility": "You receive a complimentary Kogan First membership for 12 months from when you switch to this offer."
                 }
             ],
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "You must agree to Kogan First membership T&Cs, available at koganenergy.com.au/terms-conditions. Offer not available to existing Kogan First members. If you're no longer eligible for this offer, we can end your energy plan."
+                    "information": "You must agree to Kogan First Terms & Conditions available at https://www.kogan.com/au/kogan-first-terms-conditions/. After the initial 12 months, your Kogan First membership annual fee will be $99 (incl GST). Membership fees subject to change. Offer not available to existing Kogan First members."
                 }
             ],
-            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "pricingModel": "SINGLE_RATE",
             "tariffPeriod": [
                 {
                     "endDate": "02-13",
                     "startDate": "02-14",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "26.1028"
+                            }
+                        ],
+                        "description": "All times of the day",
+                        "displayName": "Anytime Usage"
+                    },
                     "displayName": "Period",
-                    "rateBlockUType": "timeOfUseRates",
-                    "timeOfUseRates": [
-                        {
-                            "type": "PEAK",
-                            "rates": [
-                                {
-                                    "unitPrice": "36.7329"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI",
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "2100",
-                                    "startTime": "1500"
-                                }
-                            ],
-                            "displayName": "Peak"
-                        },
-                        {
-                            "type": "OFF_PEAK",
-                            "rates": [
-                                {
-                                    "unitPrice": "18.8964"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI",
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "0000",
-                                    "startTime": "2100"
-                                },
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI",
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "1500",
-                                    "startTime": "0000"
-                                }
-                            ],
-                            "displayName": "Off Peak"
-                        }
-                    ],
-                    "dailySupplyCharges": "93.3604"
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "117.241"
                 }
             ],
             "billFrequency": [
@@ -408,21 +354,6 @@
             "paymentOption": [
                 "DIRECT_DEBIT",
                 "OTHER"
-            ],
-            "controlledLoad": [
-                {
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "unitPrice": "18.6437"
-                            }
-                        ],
-                        "description": "Time switch controlled hotwater services, space heaters and other dedicated loads, generally controlled between 11pm and 7am.",
-                        "displayName": "Controlled Load"
-                    },
-                    "displayName": "Controlled Load Usage",
-                    "rateBlockUType": "singleRate"
-                }
             ],
             "coolingOffDays": 10,
             "solarFeedInTariff": [
@@ -452,6 +383,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/kogan/cds-au/v1/energy/plans/PO2418128MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/kogan/cds-au/v1/energy/plans/PO2446689MR@VEC"
     }
 }

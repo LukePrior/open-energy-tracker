@@ -1,8 +1,8 @@
 {
     "data": {
-        "type": "STANDING",
+        "type": "MARKET",
         "brand": "kogan",
-        "planId": "PO2396097SR@VEC",
+        "planId": "PO2446557MR@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "Kogan Energy",
         "geography": {
@@ -111,10 +111,10 @@
                 "3977"
             ]
         },
-        "displayName": "Victorian Default Offer",
-        "lastUpdated": "2022-06-14T23:21:43Z",
+        "displayName": "Kogan Energy with free Kogan First",
+        "lastUpdated": "2023-02-19T22:19:51Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2022-06-30T14:00:00Z",
+        "effectiveFrom": "2023-02-27T13:00:00Z",
         "electricityContract": {
             "fees": [
                 {
@@ -148,21 +148,29 @@
                     "description": "Disconnection fees may apply to remotely de-energise a property. The fee will be passed on from your distributor and may vary."
                 }
             ],
-            "terms": "Kogan Energy is provided by Powershop Australia Pty Ltd. We do not issue paper bills and require a credit card or bank details. For more information in relation to Kogan Energy and this offer, see full terms and conditions at: koganenergy.com.au/terms-conditions",
+            "terms": "Kogan Energy is provided by Powershop Australia Pty Ltd. We do not issue paper bills and require a credit card or bank details. For more information in relation to Kogan Energy and this offer, see full terms and conditions at: koganenergy.com.au/terms-conditions.",
             "isFixed": false,
             "timeZone": "LOCAL",
-            "variation": "If the Victorian Default Offer rates are varied weu2019ll include details of the variation with your next bill. The Victoria Default Offer will not be varied more than once every six months.",
+            "variation": "We may vary your prices in accordance with our regulatory requirements. If we vary your prices we\u2019ll give you advance notice, usually by email",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Kogan First",
+                    "displayName": "Kogan First",
+                    "eligibility": "You receive a complimentary Kogan First membership for 12 months from when you switch to this offer."
+                }
+            ],
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "Eligibility criteria may apply, contact Kogan Energy for details."
+                    "information": "You must agree to Kogan First Terms & Conditions available at https://www.kogan.com/au/kogan-first-terms-conditions/. After the initial 12 months, your Kogan First membership annual fee will be $99 (incl GST). Membership fees subject to change. Offer not available to existing Kogan First members."
                 }
             ],
-            "pricingModel": "TIME_OF_USE",
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
             "tariffPeriod": [
                 {
-                    "endDate": "06-30",
-                    "startDate": "07-01",
+                    "endDate": "02-13",
+                    "startDate": "02-14",
                     "displayName": "Period",
                     "rateBlockUType": "timeOfUseRates",
                     "timeOfUseRates": [
@@ -170,7 +178,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "29.554"
+                                    "unitPrice": "29.3323"
                                 }
                             ],
                             "timeOfUse": [
@@ -194,7 +202,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "16.645"
+                                    "unitPrice": "16.5202"
                                 }
                             ],
                             "timeOfUse": [
@@ -228,7 +236,7 @@
                             "displayName": "Off Peak"
                         }
                     ],
-                    "dailySupplyCharges": "97.754"
+                    "dailySupplyCharges": "97.0182"
                 }
             ],
             "billFrequency": [
@@ -237,6 +245,21 @@
             "paymentOption": [
                 "DIRECT_DEBIT",
                 "OTHER"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "14.72"
+                            }
+                        ],
+                        "description": "Time switch controlled hotwater services, space heaters and other dedicated loads, generally controlled between 11pm and 7am.",
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Controlled Load Usage",
+                    "rateBlockUType": "singleRate"
+                }
             ],
             "coolingOffDays": 10,
             "solarFeedInTariff": [
@@ -253,7 +276,7 @@
                 {
                     "scheme": "PREMIUM",
                     "payerType": "RETAILER",
-                    "description": "Premium FiT (PFiT)",
+                    "description": "PFiT",
                     "displayName": "Premium FIT [closed]",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
@@ -266,6 +289,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/kogan/cds-au/v1/energy/plans/PO2396097SR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/kogan/cds-au/v1/energy/plans/PO2446557MR@VEC"
     }
 }

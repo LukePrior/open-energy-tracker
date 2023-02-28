@@ -1,10 +1,10 @@
 {
     "data": {
         "type": "MARKET",
-        "brand": "simply-energy",
-        "planId": "SIM403870MR@VEC",
+        "brand": "kogan",
+        "planId": "PO2446551MR@VEC",
         "fuelType": "ELECTRICITY",
-        "brandName": "Simply Energy",
+        "brandName": "Kogan Energy",
         "geography": {
             "distributors": [
                 "Citipower"
@@ -59,71 +59,66 @@
                 "3207"
             ]
         },
-        "displayName": "VIC - Home Business Basics elec",
-        "lastUpdated": "2022-06-28T06:45:27Z",
+        "displayName": "Kogan Energy with free Kogan First",
+        "lastUpdated": "2023-02-19T22:19:50Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2022-06-30T14:00:00Z",
+        "effectiveFrom": "2023-02-27T13:00:00Z",
         "electricityContract": {
             "fees": [
                 {
-                    "rate": "0.42",
-                    "term": "PERCENT_OF_BILL",
-                    "type": "CC_PROCESSING",
-                    "description": "You may be charged credit card fees in all channels (other than direct debit) of 0.42% for Visa."
-                },
-                {
-                    "rate": "0.36",
-                    "term": "PERCENT_OF_BILL",
-                    "type": "CC_PROCESSING",
-                    "description": "You may be charged credit card fees in all channels (other than direct debit) of 0.36% for Mastercard."
-                },
-                {
-                    "term": "FIXED",
-                    "type": "DD_DISHONOUR",
-                    "amount": "9.00",
-                    "description": "You may also be charged a dishonour fee for direct debit of $9.00 incl GST."
-                },
-                {
                     "term": "FIXED",
                     "type": "OTHER",
-                    "amount": "0.34",
-                    "description": "You may be charged payment channel fees of $0.34 incl GST for payments made via Bpay."
+                    "amount": "0.00",
+                    "description": "Additional fees may apply, we'll endeavour to inform you of any fee that is to be applied and gain your consent before the service is provided. Information available at: koganenergy.com.au/terms-conditions"
                 },
                 {
                     "term": "FIXED",
-                    "type": "OTHER",
-                    "amount": "1.65",
-                    "description": "A $1.65 (inc. GST) charge will apply to paper bills sent in the post."
+                    "type": "CONNECTION",
+                    "amount": "41.34",
+                    "description": "Connection fees may apply to manually energise a property. The fee will be passed on from your distributor and may vary."
                 },
                 {
                     "term": "FIXED",
-                    "type": "PAYMENT_PROCESSING",
-                    "amount": "2.50",
-                    "description": "You may be charged payment channel fees of $2.50 incl GST for Australia Post over the counter payments."
+                    "type": "CONNECTION",
+                    "amount": "0.00",
+                    "description": "Connection fees may apply to remotely energise a property. The fee will be passed on from your distributor and may vary."
                 },
                 {
                     "term": "FIXED",
-                    "type": "PAYMENT_PROCESSING",
-                    "amount": "0.40",
-                    "description": "You may be charged payment channel fees of $0.40 incl GST for payments made via Cheque."
+                    "type": "DISCONNECTION",
+                    "amount": "41.95",
+                    "description": "Disconnection fees may apply to manually de-energise a property. The fee will be passed on from your distributor and may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "0.00",
+                    "description": "Disconnection fees may apply to remotely de-energise a property. The fee will be passed on from your distributor and may vary."
                 }
             ],
-            "terms": "For further details on the information presented in this Plan Information Document, or for full terms and conditions, please visit www.simplyenergy.com.au or call Simply Energy on 13 88 08.",
+            "terms": "Kogan Energy is provided by Powershop Australia Pty Ltd. We do not issue paper bills and require a credit card or bank details. For more information in relation to Kogan Energy and this offer, see full terms and conditions at: koganenergy.com.au/terms-conditions.",
             "isFixed": false,
-            "termType": "OTHER",
-            "timeZone": "AEST",
-            "variation": "We may vary your rates and charges at any time, including if any underlying information is incorrect, you get a new meter or your distributor changes your tariff. We'll give you advance notice of any change, which may be on your bill.",
+            "timeZone": "LOCAL",
+            "variation": "We may vary your prices in accordance with our regulatory requirements. If we vary your prices we\u2019ll give you advance notice, usually by email",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Kogan First",
+                    "displayName": "Kogan First",
+                    "eligibility": "You receive a complimentary Kogan First membership for 12 months from when you switch to this offer."
+                }
+            ],
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "Offer only available to Home Business customers."
+                    "information": "You must agree to Kogan First Terms & Conditions available at https://www.kogan.com/au/kogan-first-terms-conditions/. After the initial 12 months, your Kogan First membership annual fee will be $99 (incl GST). Membership fees subject to change. Offer not available to existing Kogan First members."
                 }
             ],
-            "pricingModel": "TIME_OF_USE",
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
             "tariffPeriod": [
                 {
-                    "endDate": "12-31",
-                    "startDate": "01-01",
+                    "endDate": "02-13",
+                    "startDate": "02-14",
                     "displayName": "Period",
                     "rateBlockUType": "timeOfUseRates",
                     "timeOfUseRates": [
@@ -131,7 +126,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "27.46"
+                                    "unitPrice": "27.257"
                                 }
                             ],
                             "timeOfUse": [
@@ -155,7 +150,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "15.77"
+                                    "unitPrice": "15.6537"
                                 }
                             ],
                             "timeOfUse": [
@@ -169,8 +164,8 @@
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "1500",
-                                    "startTime": "0000"
+                                    "endTime": "0000",
+                                    "startTime": "2100"
                                 },
                                 {
                                     "days": [
@@ -182,40 +177,66 @@
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "0000",
-                                    "startTime": "2100"
+                                    "endTime": "1500",
+                                    "startTime": "0000"
                                 }
                             ],
-                            "displayName": "Off-Peak"
+                            "displayName": "Off Peak"
                         }
                     ],
-                    "dailySupplyCharges": "105.66"
+                    "dailySupplyCharges": "104.8705"
                 }
             ],
             "billFrequency": [
                 "P1M"
             ],
             "paymentOption": [
-                "PAPER_BILL"
+                "DIRECT_DEBIT",
+                "OTHER"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "14.13"
+                            }
+                        ],
+                        "description": "Time switch controlled hotwater services, space heaters and other dedicated loads, generally controlled between 11pm and 7am.",
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Controlled Load Usage",
+                    "rateBlockUType": "singleRate"
+                }
             ],
             "coolingOffDays": 10,
             "solarFeedInTariff": [
                 {
                     "scheme": "OTHER",
                     "payerType": "RETAILER",
-                    "description": "Current",
+                    "description": "FiT",
                     "displayName": "Current FIT policy",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
                         "amount": "5.20"
                     }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "PFiT",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "65.20"
+                    }
                 }
             ],
-            "onExpiryDescription": "Ongoing energy plan until you or we end it. We may end this energy plan at any time by giving you 20 Business Days notice."
+            "onExpiryDescription": "This Kogan Energy offer is an ongoing contract (until you or we end it) with no exit fees."
         }
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/simply-energy/cds-au/v1/energy/plans/SIM403870MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/kogan/cds-au/v1/energy/plans/PO2446551MR@VEC"
     }
 }

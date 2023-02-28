@@ -1,8 +1,8 @@
 {
     "data": {
-        "type": "STANDING",
+        "type": "MARKET",
         "brand": "kogan",
-        "planId": "PO2396095SR@VEC",
+        "planId": "PO2446531MR@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "Kogan Energy",
         "geography": {
@@ -326,10 +326,10 @@
                 "3764"
             ]
         },
-        "displayName": "Victorian Default Offer",
-        "lastUpdated": "2022-06-14T23:21:43Z",
+        "displayName": "Kogan Energy Basic",
+        "lastUpdated": "2023-02-19T22:19:49Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2022-06-30T14:00:00Z",
+        "effectiveFrom": "2023-02-27T13:00:00Z",
         "electricityContract": {
             "fees": [
                 {
@@ -341,7 +341,7 @@
                 {
                     "term": "FIXED",
                     "type": "CONNECTION",
-                    "amount": "61.237",
+                    "amount": "61.24",
                     "description": "Connection fees may apply to manually energise a property. The fee will be passed on from your distributor and may vary."
                 },
                 {
@@ -363,86 +363,32 @@
                     "description": "Disconnection fees may apply to remotely de-energise a property. The fee will be passed on from your distributor and may vary."
                 }
             ],
-            "terms": "Kogan Energy is provided by Powershop Australia Pty Ltd. We do not issue paper bills and require a credit card or bank details. For more information in relation to Kogan Energy and this offer, see full terms and conditions at: koganenergy.com.au/terms-conditions",
+            "terms": "Kogan Energy offer monthly bills and do not issue paper bills. We require a credit card or bank details. For further information in relation to Kogan Energy and this offer - see our full terms and conditions at: koganenergy.com.au/terms-conditions",
             "isFixed": false,
             "timeZone": "LOCAL",
-            "variation": "If the Victorian Default Offer rates are varied weu2019ll include details of the variation with your next bill. The Victoria Default Offer will not be varied more than once every six months.",
+            "variation": "If the Victorian Default Offer rates are varied we\u2019ll include details of the variation with your next bill. The Victoria Default Offer will not be varied more than once every six months.",
             "eligibility": [
                 {
                     "type": "OTHER",
                     "information": "Eligibility criteria may apply, contact Kogan Energy for details."
                 }
             ],
-            "pricingModel": "TIME_OF_USE",
+            "pricingModel": "SINGLE_RATE",
             "tariffPeriod": [
                 {
-                    "endDate": "02-13",
-                    "startDate": "02-14",
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "21.209"
+                            }
+                        ],
+                        "description": "All times of the day",
+                        "displayName": "Anytime Usage"
+                    },
                     "displayName": "Period",
-                    "rateBlockUType": "timeOfUseRates",
-                    "timeOfUseRates": [
-                        {
-                            "type": "PEAK",
-                            "rates": [
-                                {
-                                    "unitPrice": "29.709"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI",
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "2100",
-                                    "startTime": "1500"
-                                }
-                            ],
-                            "displayName": "Peak"
-                        },
-                        {
-                            "type": "OFF_PEAK",
-                            "rates": [
-                                {
-                                    "unitPrice": "16.863"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI",
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "0000",
-                                    "startTime": "2100"
-                                },
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI",
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "1500",
-                                    "startTime": "0000"
-                                }
-                            ],
-                            "displayName": "Off Peak"
-                        }
-                    ],
+                    "rateBlockUType": "singleRate",
                     "dailySupplyCharges": "119.109"
                 }
             ],
@@ -481,6 +427,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/kogan/cds-au/v1/energy/plans/PO2396095SR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/kogan/cds-au/v1/energy/plans/PO2446531MR@VEC"
     }
 }
