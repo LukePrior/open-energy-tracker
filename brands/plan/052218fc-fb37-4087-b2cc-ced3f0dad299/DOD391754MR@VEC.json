@@ -18,6 +18,7 @@
                 "3200",
                 "3751",
                 "3755",
+                "3757",
                 "3760",
                 "3761",
                 "3777",
@@ -83,11 +84,11 @@
                 "3980",
                 "3981",
                 "3984",
-                "3987",
-                "3757"
+                "3987"
             ]
         },
         "displayName": "Residential Market - Australian Gas Networks Central 1",
+        "effectiveTo": "2023-02-27T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -196,7 +197,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "No Term Contracts apply in line with our Energy Market Terms and Conditions."
         },
-        "lastUpdated": "2022-06-03T04:40:54Z",
+        "lastUpdated": "2023-02-28T12:32:05Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-07T14:00:00Z"
     },

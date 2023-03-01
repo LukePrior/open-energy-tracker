@@ -10,6 +10,8 @@
                 "AusNet Services (gas)"
             ],
             "includedPostcodes": [
+                "3003",
+                "3008",
                 "3011",
                 "3012",
                 "3013",
@@ -51,15 +53,14 @@
                 "3062",
                 "3063",
                 "3064",
-                "3428",
-                "3336",
-                "3003",
-                "3008",
                 "3073",
-                "3213"
+                "3213",
+                "3336",
+                "3428"
             ]
         },
         "displayName": "Residential Market - AusNet Services Central 1",
+        "effectiveTo": "2023-02-27T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -176,7 +177,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "No Term Contracts apply in line with our Energy Market Terms and Conditions."
         },
-        "lastUpdated": "2022-06-03T04:40:54Z",
+        "lastUpdated": "2023-02-28T12:32:05Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-07T14:00:00Z"
     },
