@@ -112,7 +112,8 @@
             ]
         },
         "displayName": "Victorian Default Offer",
-        "lastUpdated": "2022-06-14T23:21:43Z",
+        "effectiveTo": "2023-02-28T13:00:00Z",
+        "lastUpdated": "2023-03-01T02:57:59Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {
@@ -139,7 +140,7 @@
             "terms": "We do not issue paper bills and require a credit card or bank details. For more information in relation to Powershop and this offer, see full terms and conditions at: www.powershop.com.au/terms-and-conditions",
             "isFixed": false,
             "timeZone": "LOCAL",
-            "variation": "If the Victorian Default Offer rates are varied weu2019ll include details of the variation with your next bill. The Victoria Default Offer will not be varied more than once every six months.",
+            "variation": "If the Victorian Default Offer rates are varied we\u2019ll include details of the variation with your next bill. The Victoria Default Offer will not be varied more than once every six months.",
             "eligibility": [
                 {
                     "type": "OTHER",

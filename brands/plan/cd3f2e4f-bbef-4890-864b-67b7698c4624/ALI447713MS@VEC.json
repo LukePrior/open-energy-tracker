@@ -1,0 +1,150 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "alinta",
+        "planId": "ALI447713MS@VEC",
+        "fuelType": "GAS",
+        "brandName": "Alinta",
+        "geography": {
+            "distributors": [
+                "AusNet Services (gas)"
+            ],
+            "includedPostcodes": [
+                "3024",
+                "3029",
+                "3030",
+                "3211",
+                "3212",
+                "3213",
+                "3214",
+                "3215",
+                "3216",
+                "3217",
+                "3218",
+                "3219",
+                "3220",
+                "3221",
+                "3222",
+                "3223",
+                "3224",
+                "3225",
+                "3226",
+                "3227",
+                "3228",
+                "3331",
+                "3335",
+                "3336",
+                "3337",
+                "3338",
+                "3427",
+                "3429"
+            ]
+        },
+        "displayName": "BusinessDeal Qantas Gas - Ausnet Central 2",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "71.04",
+                    "description": "This fee is set by your distributor and may vary. Please visit your distributor's website to find out the current fee.\nWe reserve the right to and will notify you if we change or impose additional fees or charges in relation to your energy supply."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "71.04",
+                    "description": "Next business day reconnection fee. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+                }
+            ],
+            "terms": "This plan is only available to small business customers (excluding SOHO customers) signing up a new or existing supply address in Victoria. Eligibility criteria applies. Full terms and conditions available at alintaenergy.com.au/qbrbusinessdeal or by calling 13 39 08.",
+            "isFixed": false,
+            "variation": "Tariffs and charges may only be increased one month after your distribution network costs are finalised, but may be decreased at any time. We will give you at least 5 business days notice prior to any variation or in accordance with applicable laws.",
+            "incentives": [
+                {
+                    "category": "GIFT",
+                    "description": "QANTAS Points",
+                    "displayName": "QANTAS Points",
+                    "eligibility": "After 90 days, customers get 1 Qantas Point (QP) per $1 of every fully paid bill. Bonus QP offers may apply from time to time. Full T&Cs: alintaenergy.com.au/qbrbusinessdeal and qantas.com/qbr/terms"
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Offer only available to small business customers (excluding SOHO customers) signing up a new or existing supply address who have a Qantas Business Rewards membership, an active ABN, and are within the AusNet Distribution zone. Creditworthiness eligibility applies."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.70"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.64"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "2.61"
+                            },
+                            {
+                                "unitPrice": "2.55"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "103.94"
+                },
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.64"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.57"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "2.55"
+                            },
+                            {
+                                "unitPrice": "2.52"
+                            }
+                        ],
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Off Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "103.94"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "This offer has no contract term."
+        },
+        "lastUpdated": "2023-02-28T05:11:29Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2023-03-01T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/alinta/cds-au/v1/energy/plans/ALI447713MS@VEC"
+    }
+}
