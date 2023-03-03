@@ -10,6 +10,7 @@
                 "Australian Gas Networks"
             ],
             "includedPostcodes": [
+                "3000",
                 "3002",
                 "3003",
                 "3005",
@@ -64,6 +65,7 @@
                 "3752",
                 "3754",
                 "3755",
+                "3757",
                 "3759",
                 "3760",
                 "3761",
@@ -129,9 +131,7 @@
                 "3978",
                 "3980",
                 "3981",
-                "3987",
-                "3757",
-                "3000"
+                "3987"
             ]
         },
         "displayName": "GloBird GAS STANDING OFFER Small Business(Central)-Australian Gas Networks",
@@ -187,6 +187,7 @@
                                 "unitPrice": "5.00"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Peak"
                     },
                     "displayName": "Peak Period - June to September",
@@ -206,6 +207,7 @@
                                 "unitPrice": "5.00"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Offpeak"
                     },
                     "displayName": "Offpeak Period - October to May",
@@ -222,7 +224,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discount percentage or rates."
         },
-        "lastUpdated": "2022-07-13T03:50:32Z",
+        "lastUpdated": "2022-07-13T13:50:32Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-07-17T14:00:00Z"
     },

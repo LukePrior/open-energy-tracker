@@ -95,6 +95,7 @@
                                 "unitPrice": "3.3424"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "R3"
                     },
                     "displayName": "Winter Rates",
@@ -118,6 +119,7 @@
                                 "unitPrice": "3.3424"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Rate"
                     },
                     "displayName": "Non-Winter Rates",

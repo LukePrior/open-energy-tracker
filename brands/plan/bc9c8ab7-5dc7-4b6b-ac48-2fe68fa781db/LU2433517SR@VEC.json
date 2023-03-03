@@ -54,6 +54,7 @@
                                 "unitPrice": "2.80"
                             }
                         ],
+                        "period": "P2M",
                         "displayName": "Anytime Usage"
                     },
                     "displayName": "Anytime",

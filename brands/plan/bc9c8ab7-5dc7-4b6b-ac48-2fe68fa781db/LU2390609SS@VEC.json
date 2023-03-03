@@ -112,7 +112,7 @@
             ]
         },
         "displayName": "Victorian Default Offer",
-        "lastUpdated": "2022-06-24T02:46:13Z",
+        "lastUpdated": "2022-06-24T12:46:13Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {
@@ -145,6 +145,7 @@
                                 "unitPrice": "20.718"
                             }
                         ],
+                        "period": "P1D",
                         "description": "Anytime",
                         "displayName": "Anytime Usage"
                     },

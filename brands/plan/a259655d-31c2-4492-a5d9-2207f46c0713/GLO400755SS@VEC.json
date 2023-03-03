@@ -76,7 +76,7 @@
         },
         "displayName": "GloBird  STANDING OFFER Small Business (Flat Rate Without Controlled Load)-Jemena",
         "effectiveTo": "2023-06-29T14:00:00Z",
-        "lastUpdated": "2022-06-29T01:09:18Z",
+        "lastUpdated": "2022-06-29T11:09:18Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {
@@ -109,6 +109,7 @@
                                 "unitPrice": "22.4364"
                             }
                         ],
+                        "period": "P1M",
                         "description": "Anytime",
                         "displayName": "Peak"
                     },

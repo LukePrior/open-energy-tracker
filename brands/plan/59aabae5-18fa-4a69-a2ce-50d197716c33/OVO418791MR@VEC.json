@@ -327,7 +327,7 @@
             ]
         },
         "displayName": "The One Plan",
-        "lastUpdated": "2022-08-11T06:08:05Z",
+        "lastUpdated": "2022-08-11T16:08:05Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-15T14:00:00Z",
         "electricityContract": {
@@ -374,6 +374,7 @@
                                 "unitPrice": "21.2091"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Anytime"
                     },
                     "displayName": "All-year",

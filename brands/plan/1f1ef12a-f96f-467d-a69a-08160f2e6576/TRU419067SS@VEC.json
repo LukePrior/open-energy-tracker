@@ -75,7 +75,7 @@
             ]
         },
         "displayName": "Basic Business (Victorian Default Offer) - Peak Only",
-        "lastUpdated": "2022-08-16T01:14:50Z",
+        "lastUpdated": "2022-08-16T11:14:50Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {
@@ -114,6 +114,7 @@
                                 "unitPrice": "22.4363"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Rate"
                     },
                     "displayName": "Period",

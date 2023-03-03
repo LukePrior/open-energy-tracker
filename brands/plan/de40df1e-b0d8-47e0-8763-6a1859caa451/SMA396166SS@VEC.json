@@ -275,7 +275,7 @@
             ]
         },
         "displayName": "SmartestEnergy VDO - AusNet",
-        "lastUpdated": "2022-06-15T02:28:44Z",
+        "lastUpdated": "2022-06-15T12:28:44Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {
@@ -304,6 +304,7 @@
                                 "unitPrice": "33.30"
                             }
                         ],
+                        "period": "P3M",
                         "displayName": "Rate"
                     },
                     "displayName": "Period",

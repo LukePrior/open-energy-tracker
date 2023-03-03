@@ -171,6 +171,7 @@
                                 "unitPrice": "20.71818"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Rate"
                     },
                     "displayName": "Period",

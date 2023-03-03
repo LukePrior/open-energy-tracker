@@ -327,7 +327,7 @@
             ]
         },
         "displayName": "Community Energy Anytime Business",
-        "lastUpdated": "2022-09-13T23:16:02Z",
+        "lastUpdated": "2022-09-14T09:16:02Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-07-03T14:00:00Z",
         "electricityContract": {
@@ -378,6 +378,7 @@
                                 "unitPrice": "20.455"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Rate 1"
                     },
                     "displayName": "Period",

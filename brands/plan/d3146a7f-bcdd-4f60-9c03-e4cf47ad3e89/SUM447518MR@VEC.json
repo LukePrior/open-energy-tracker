@@ -61,7 +61,7 @@
             ]
         },
         "displayName": "Sumo Assure Gas",
-        "effectiveTo": "2023-07-30T14:00:00Z",
+        "effectiveTo": "2023-03-02T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -147,6 +147,7 @@
                                 "unitPrice": "2.65"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Peak"
                     },
                     "displayName": "Peak",
@@ -170,6 +171,7 @@
                                 "unitPrice": "2.65"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Off Peak"
                     },
                     "displayName": "Off Peak",
@@ -186,7 +188,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "No contract term."
         },
-        "lastUpdated": "2023-02-27T05:27:47Z",
+        "lastUpdated": "2023-03-03T02:59:58Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-02-26T13:00:00Z"
     },

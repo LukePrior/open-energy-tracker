@@ -60,7 +60,7 @@
             ]
         },
         "displayName": "Community Energy Anytime with Controlled Load",
-        "lastUpdated": "2022-06-30T06:55:17Z",
+        "lastUpdated": "2022-06-30T16:55:17Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-03T14:00:00Z",
         "electricityContract": {
@@ -111,6 +111,7 @@
                                 "unitPrice": "19.727"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Rate 1"
                     },
                     "displayName": "Period",

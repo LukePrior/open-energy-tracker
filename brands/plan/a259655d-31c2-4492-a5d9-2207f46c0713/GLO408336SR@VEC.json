@@ -10,6 +10,8 @@
                 "AusNet Services (gas)"
             ],
             "includedPostcodes": [
+                "3003",
+                "3008",
                 "3011",
                 "3012",
                 "3013",
@@ -54,8 +56,10 @@
                 "3062",
                 "3063",
                 "3064",
+                "3073",
                 "3211",
                 "3212",
+                "3213",
                 "3214",
                 "3215",
                 "3216",
@@ -75,11 +79,7 @@
                 "3338",
                 "3427",
                 "3428",
-                "3429",
-                "3003",
-                "3008",
-                "3073",
-                "3213"
+                "3429"
             ]
         },
         "displayName": "GloBird GAS STANDING OFFER Residential(Central)-AusNet Services (gas)",
@@ -129,6 +129,7 @@
                                 "unitPrice": "4.90"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Peak"
                     },
                     "displayName": "Peak Period - June to September",
@@ -148,6 +149,7 @@
                                 "unitPrice": "4.90"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Offpeak"
                     },
                     "displayName": "Offpeak Period - October to May",
@@ -164,7 +166,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discount percentage or rates."
         },
-        "lastUpdated": "2022-07-13T03:50:31Z",
+        "lastUpdated": "2022-07-13T13:50:31Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-17T14:00:00Z"
     },

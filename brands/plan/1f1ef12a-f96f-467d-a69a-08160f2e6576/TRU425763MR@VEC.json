@@ -112,7 +112,7 @@
             ]
         },
         "displayName": "Solar Max - Peak with Controlled Load",
-        "lastUpdated": "2022-10-06T23:43:02Z",
+        "lastUpdated": "2022-10-07T10:43:02Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-10-11T13:00:00Z",
         "electricityContract": {
@@ -220,6 +220,7 @@
                                 "unitPrice": "21.5776"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Rate"
                     },
                     "displayName": "Period",

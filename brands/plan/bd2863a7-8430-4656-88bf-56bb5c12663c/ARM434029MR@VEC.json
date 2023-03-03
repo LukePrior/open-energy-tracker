@@ -275,7 +275,7 @@
             ]
         },
         "displayName": "Standard NEE24",
-        "lastUpdated": "2022-12-11T22:37:00Z",
+        "lastUpdated": "2022-12-12T09:37:00Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-12-11T13:00:00Z",
         "electricityContract": {
@@ -317,6 +317,7 @@
                                 "unitPrice": "27.2727"
                             }
                         ],
+                        "period": "P1M",
                         "description": "All Day Every Day",
                         "displayName": "Anytime"
                     },

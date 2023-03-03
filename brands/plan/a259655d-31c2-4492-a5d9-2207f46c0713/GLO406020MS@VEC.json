@@ -276,7 +276,7 @@
         },
         "displayName": "GloBird  VIC SAVE Small Business (Flat Rate With Controlled Load)-AusNet Services (electricity)",
         "effectiveTo": "2023-07-02T14:00:00Z",
-        "lastUpdated": "2022-07-04T02:33:41Z",
+        "lastUpdated": "2022-07-04T12:33:41Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-07-03T14:00:00Z",
         "electricityContract": {
@@ -351,6 +351,7 @@
                                 "unitPrice": "33.30"
                             }
                         ],
+                        "period": "P1M",
                         "description": "First 340.06 kWh/Month",
                         "displayName": "Peak"
                     },

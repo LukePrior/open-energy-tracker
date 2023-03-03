@@ -60,7 +60,7 @@
             ]
         },
         "displayName": "Small Business Standing Offer - SR Demand",
-        "lastUpdated": "2022-06-17T06:58:07Z",
+        "lastUpdated": "2022-06-17T16:58:07Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {
@@ -111,6 +111,7 @@
                                 "unitPrice": "16.59829"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Anytime"
                     },
                     "displayName": "Summer",
@@ -152,6 +153,7 @@
                                 "unitPrice": "16.59829"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Anytime"
                     },
                     "displayName": "Non Summer",

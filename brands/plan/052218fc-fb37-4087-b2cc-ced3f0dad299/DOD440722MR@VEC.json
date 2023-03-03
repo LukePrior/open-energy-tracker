@@ -177,6 +177,7 @@
                                 "unitPrice": "24.5971"
                             }
                         ],
+                        "period": "P1D",
                         "description": "for the personal use of the residents of the premises, all day, everyday",
                         "displayName": "Anytime"
                     },

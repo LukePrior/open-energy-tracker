@@ -85,6 +85,7 @@
                                 "unitPrice": "2.427"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Peak"
                     },
                     "displayName": "Period",

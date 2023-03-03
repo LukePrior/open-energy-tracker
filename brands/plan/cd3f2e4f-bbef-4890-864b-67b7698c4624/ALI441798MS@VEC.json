@@ -126,6 +126,7 @@
                                 "unitPrice": "21.31"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Rate"
                     },
                     "displayName": "Period",

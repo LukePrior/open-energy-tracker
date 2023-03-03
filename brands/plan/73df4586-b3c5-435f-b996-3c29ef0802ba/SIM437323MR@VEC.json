@@ -121,6 +121,7 @@
                                 "unitPrice": "21.10"
                             }
                         ],
+                        "period": "P1D",
                         "description": "Anytime",
                         "displayName": "Peak"
                     },

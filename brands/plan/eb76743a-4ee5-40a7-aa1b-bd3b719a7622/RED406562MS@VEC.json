@@ -275,7 +275,7 @@
             ]
         },
         "displayName": "Qantas Red Business Plus",
-        "lastUpdated": "2022-07-07T04:42:24Z",
+        "lastUpdated": "2022-07-07T14:42:24Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-07-10T14:00:00Z",
         "electricityContract": {
@@ -312,6 +312,7 @@
                                 "unitPrice": "32.96"
                             }
                         ],
+                        "period": "P3M",
                         "description": "Anytime",
                         "displayName": "Peak"
                     },

@@ -112,7 +112,7 @@
             ]
         },
         "displayName": "Priority Business - SR + CL",
-        "lastUpdated": "2022-08-18T04:18:04Z",
+        "lastUpdated": "2022-08-18T14:18:04Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {
@@ -163,6 +163,7 @@
                                 "unitPrice": "19.68"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Rate"
                     },
                     "displayName": "Period",

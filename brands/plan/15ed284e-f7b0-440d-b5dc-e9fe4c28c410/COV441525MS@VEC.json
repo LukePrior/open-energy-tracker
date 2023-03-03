@@ -426,6 +426,7 @@
                                 "unitPrice": "21.21"
                             }
                         ],
+                        "period": "P1M",
                         "displayName": "Peak"
                     },
                     "displayName": "Peak",

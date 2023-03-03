@@ -96,6 +96,7 @@
                                 "unitPrice": "5.238"
                             }
                         ],
+                        "period": "P1M",
                         "displayName": "Usage Charge"
                     },
                     "displayName": "2023",

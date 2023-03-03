@@ -78,6 +78,7 @@
                                 "unitPrice": "4.08"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "General Usage Rate"
                     },
                     "displayName": "General Usage Rate",

@@ -275,7 +275,7 @@
             ]
         },
         "displayName": "Shine NAST13/NAST14/NAST15",
-        "lastUpdated": "2022-12-11T22:36:59Z",
+        "lastUpdated": "2022-12-12T09:36:59Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-12-11T13:00:00Z",
         "electricityContract": {
@@ -317,6 +317,7 @@
                                 "unitPrice": "27.2727"
                             }
                         ],
+                        "period": "P1M",
                         "description": "All Day Every Day",
                         "displayName": "Anytime"
                     },

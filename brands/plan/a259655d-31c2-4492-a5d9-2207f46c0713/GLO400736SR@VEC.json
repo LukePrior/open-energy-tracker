@@ -328,7 +328,7 @@
         },
         "displayName": "GloBird  STANDING OFFER Residential (Flat Rate With Controlled Load)-Powercor",
         "effectiveTo": "2023-06-29T14:00:00Z",
-        "lastUpdated": "2022-06-29T01:09:17Z",
+        "lastUpdated": "2022-06-29T11:09:17Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {
@@ -361,6 +361,7 @@
                                 "unitPrice": "21.2091"
                             }
                         ],
+                        "period": "P1M",
                         "description": "Anytime",
                         "displayName": "Peak"
                     },

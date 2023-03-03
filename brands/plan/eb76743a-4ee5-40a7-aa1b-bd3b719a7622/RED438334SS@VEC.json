@@ -77,6 +77,7 @@
                                 "unitPrice": "2.65"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Peak"
                     },
                     "displayName": "Period",

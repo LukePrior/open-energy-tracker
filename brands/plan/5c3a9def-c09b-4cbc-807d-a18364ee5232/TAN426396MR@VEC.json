@@ -60,7 +60,7 @@
             ]
         },
         "displayName": "Tango Blue",
-        "lastUpdated": "2022-10-10T05:48:09Z",
+        "lastUpdated": "2022-10-10T16:48:09Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-10-16T13:00:00Z",
         "electricityContract": {
@@ -135,6 +135,7 @@
                                 "unitPrice": "27.60"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Peak"
                     },
                     "displayName": "Peak",

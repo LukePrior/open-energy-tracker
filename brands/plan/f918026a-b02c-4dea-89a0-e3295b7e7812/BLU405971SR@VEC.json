@@ -275,7 +275,7 @@
             ]
         },
         "displayName": "Blue VDO Single Rate (General Usage with Controlled Load)",
-        "lastUpdated": "2022-07-04T01:16:40Z",
+        "lastUpdated": "2022-07-04T11:16:40Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {
@@ -330,6 +330,7 @@
                                 "unitPrice": "27.91"
                             }
                         ],
+                        "period": "P3M",
                         "displayName": "Rate"
                     },
                     "displayName": "Period",

@@ -366,6 +366,7 @@
                                 "unitPrice": "32.96"
                             }
                         ],
+                        "period": "P3M",
                         "displayName": "Peak"
                     },
                     "displayName": "Peak",

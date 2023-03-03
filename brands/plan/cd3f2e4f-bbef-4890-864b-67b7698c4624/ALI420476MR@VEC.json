@@ -75,7 +75,7 @@
             ]
         },
         "displayName": "Priority Plus - Demand Single Rate",
-        "lastUpdated": "2022-08-18T04:18:23Z",
+        "lastUpdated": "2022-08-18T14:18:23Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {
@@ -126,6 +126,7 @@
                                 "unitPrice": "15.70"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Rate"
                     },
                     "displayName": "Period",

@@ -10,6 +10,8 @@
                 "AusNet Services (gas)"
             ],
             "includedPostcodes": [
+                "3003",
+                "3008",
                 "3011",
                 "3012",
                 "3013",
@@ -51,12 +53,10 @@
                 "3062",
                 "3063",
                 "3064",
-                "3428",
-                "3336",
-                "3003",
-                "3008",
                 "3073",
-                "3213"
+                "3213",
+                "3336",
+                "3428"
             ]
         },
         "displayName": "Residential Standing - AusNet Services Central 1",
@@ -113,6 +113,7 @@
                                 "unitPrice": "1.7219"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Peak"
                     },
                     "displayName": "Peak",
@@ -140,6 +141,7 @@
                                 "unitPrice": "1.6813"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Off Peak"
                     },
                     "displayName": "Off Peak",
@@ -156,7 +158,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Standard contracts do not expire."
         },
-        "lastUpdated": "2021-11-28T22:13:41Z",
+        "lastUpdated": "2021-11-29T09:13:41Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2021-12-31T13:00:00Z"
     },

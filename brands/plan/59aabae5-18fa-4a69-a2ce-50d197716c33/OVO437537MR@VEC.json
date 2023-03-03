@@ -327,7 +327,7 @@
             ]
         },
         "displayName": "The Solar Plan",
-        "lastUpdated": "2022-12-12T07:20:50Z",
+        "lastUpdated": "2022-12-12T18:20:50Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-10-05T13:00:00Z",
         "electricityContract": {
@@ -386,6 +386,7 @@
                                 "unitPrice": "24.390465"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Anytime"
                     },
                     "displayName": "All-year",

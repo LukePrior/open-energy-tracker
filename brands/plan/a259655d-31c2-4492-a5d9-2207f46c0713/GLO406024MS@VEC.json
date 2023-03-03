@@ -76,7 +76,7 @@
         },
         "displayName": "GloBird  VIC SAVE Small Business (Flat Rate With Controlled Load)-Jemena",
         "effectiveTo": "2023-07-02T14:00:00Z",
-        "lastUpdated": "2022-07-04T02:33:41Z",
+        "lastUpdated": "2022-07-04T12:33:41Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-07-03T14:00:00Z",
         "electricityContract": {
@@ -147,6 +147,7 @@
                                 "unitPrice": "22.4364"
                             }
                         ],
+                        "period": "P1M",
                         "description": "Anytime",
                         "displayName": "Peak"
                     },

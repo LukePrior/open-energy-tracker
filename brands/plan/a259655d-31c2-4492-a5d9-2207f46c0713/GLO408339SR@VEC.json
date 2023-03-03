@@ -100,6 +100,7 @@
                                 "unitPrice": "5.00"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Peak"
                     },
                     "displayName": "Peak Period - June to September",
@@ -119,6 +120,7 @@
                                 "unitPrice": "5.00"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Offpeak"
                     },
                     "displayName": "Offpeak Period - October to May",
@@ -135,7 +137,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discount percentage or rates."
         },
-        "lastUpdated": "2022-07-13T03:50:31Z",
+        "lastUpdated": "2022-07-13T13:50:31Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-17T14:00:00Z"
     },

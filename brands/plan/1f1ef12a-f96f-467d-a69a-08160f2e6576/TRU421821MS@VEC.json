@@ -327,7 +327,7 @@
             ]
         },
         "displayName": "Business Balance Plan 24 - Peak Only with Demand",
-        "lastUpdated": "2022-08-29T00:32:45Z",
+        "lastUpdated": "2022-08-29T10:32:45Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-09-13T14:00:00Z",
         "electricityContract": {
@@ -391,6 +391,7 @@
                                 "unitPrice": "20.603"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Rate"
                     },
                     "displayName": "Summer",
@@ -430,6 +431,7 @@
                                 "unitPrice": "20.603"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Rate"
                     },
                     "displayName": "Non-Summer",

@@ -275,7 +275,7 @@
             ]
         },
         "displayName": "Community Energy Anytime",
-        "lastUpdated": "2022-06-30T06:55:17Z",
+        "lastUpdated": "2022-06-30T16:55:17Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-03T14:00:00Z",
         "electricityContract": {
@@ -330,6 +330,7 @@
                                 "unitPrice": "27.909"
                             }
                         ],
+                        "period": "P1D",
                         "description": "Up to 11kWk per day",
                         "displayName": "Rate 1"
                     },

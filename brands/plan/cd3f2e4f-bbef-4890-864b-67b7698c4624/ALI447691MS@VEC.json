@@ -386,6 +386,7 @@
                                 "unitPrice": "17.82934"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Anytime"
                     },
                     "displayName": "Summer",
@@ -427,6 +428,7 @@
                                 "unitPrice": "17.82934"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Anytime"
                     },
                     "displayName": "Non Summer",

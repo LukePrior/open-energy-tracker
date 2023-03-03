@@ -275,7 +275,7 @@
             ]
         },
         "displayName": "Basic Business - Peak Only with Demand",
-        "lastUpdated": "2022-08-16T01:14:50Z",
+        "lastUpdated": "2022-08-16T11:14:50Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {
@@ -314,6 +314,7 @@
                                 "unitPrice": "34.066"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Rate"
                     },
                     "displayName": "Summer",
@@ -353,6 +354,7 @@
                                 "unitPrice": "34.066"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Rate"
                     },
                     "displayName": "Non-Summer",

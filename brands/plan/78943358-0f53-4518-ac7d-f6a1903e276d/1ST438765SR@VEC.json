@@ -177,6 +177,7 @@
                                 "unitPrice": "3.40"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Anytime"
                     },
                     "displayName": "All Year",

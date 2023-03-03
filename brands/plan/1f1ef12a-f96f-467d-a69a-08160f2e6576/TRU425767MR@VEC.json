@@ -60,7 +60,7 @@
             ]
         },
         "displayName": "Flexi Plan - Peak Only",
-        "lastUpdated": "2022-10-06T23:43:02Z",
+        "lastUpdated": "2022-10-07T10:43:02Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-10-11T13:00:00Z",
         "electricityContract": {
@@ -162,6 +162,7 @@
                                 "unitPrice": "19.7272"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Rate"
                     },
                     "displayName": "Period",

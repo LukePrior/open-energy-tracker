@@ -104,6 +104,7 @@
                                 "unitPrice": "2.09"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Peak"
                     },
                     "displayName": "Peak Period - June to September",
@@ -123,6 +124,7 @@
                                 "unitPrice": "1.90"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Offpeak"
                     },
                     "displayName": "Offpeak Period - October to May",

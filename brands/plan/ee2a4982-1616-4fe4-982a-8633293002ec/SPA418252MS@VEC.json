@@ -276,7 +276,7 @@
         },
         "displayName": "Sumo Lite Business (Single Rate + CL)",
         "effectiveTo": "2023-07-30T14:00:00Z",
-        "lastUpdated": "2022-08-08T00:08:20Z",
+        "lastUpdated": "2022-08-08T10:08:20Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-08-07T14:00:00Z",
         "electricityContract": {
@@ -349,6 +349,7 @@
                                 "unitPrice": "33.30"
                             }
                         ],
+                        "period": "P1M",
                         "displayName": "Peak"
                     },
                     "displayName": "Period",

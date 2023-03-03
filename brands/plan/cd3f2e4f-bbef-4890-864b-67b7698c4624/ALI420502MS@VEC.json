@@ -275,7 +275,7 @@
             ]
         },
         "displayName": "BusinessDeal - Demand Single Rate Medium",
-        "lastUpdated": "2022-08-18T04:18:25Z",
+        "lastUpdated": "2022-08-18T14:18:25Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {
@@ -326,6 +326,7 @@
                                 "unitPrice": "42.72"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Anytime"
                     },
                     "displayName": "Summer",
@@ -368,6 +369,7 @@
                                 "unitPrice": "42.72"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Anytime"
                     },
                     "displayName": "Non Summer",

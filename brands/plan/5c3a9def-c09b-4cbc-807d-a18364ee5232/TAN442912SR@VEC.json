@@ -88,6 +88,7 @@
                                 "unitPrice": "3.00"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Non-Summer"
                     },
                     "displayName": "Non-Summer",
@@ -115,6 +116,7 @@
                                 "unitPrice": "2.70"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Summer"
                     },
                     "displayName": "Summer",

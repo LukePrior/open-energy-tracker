@@ -101,6 +101,7 @@
                                 "unitPrice": "2.69"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Anytime"
                     },
                     "displayName": "Anytime",

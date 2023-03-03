@@ -96,6 +96,7 @@
                                 "unitPrice": "2.19"
                             }
                         ],
+                        "period": "P2M",
                         "displayName": "Off Peak"
                     },
                     "displayName": "Off Peak",
@@ -123,6 +124,7 @@
                                 "unitPrice": "2.19"
                             }
                         ],
+                        "period": "P2M",
                         "displayName": "Peak"
                     },
                     "displayName": "Peak",

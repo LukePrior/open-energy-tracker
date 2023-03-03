@@ -275,7 +275,7 @@
             ]
         },
         "displayName": "The Basic Plan Welcome Credit",
-        "lastUpdated": "2022-10-04T04:48:54Z",
+        "lastUpdated": "2022-10-04T15:48:54Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-10-05T13:00:00Z",
         "electricityContract": {
@@ -338,6 +338,7 @@
                                 "unitPrice": "28.7464"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Block"
                     },
                     "displayName": "All-year",

@@ -327,7 +327,7 @@
             ]
         },
         "displayName": "VIC Simply Energy Solutions Solar elec",
-        "lastUpdated": "2022-11-22T05:04:42Z",
+        "lastUpdated": "2022-11-22T16:04:42Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-11-22T13:00:00Z",
         "electricityContract": {
@@ -373,6 +373,7 @@
                                 "unitPrice": "21.20"
                             }
                         ],
+                        "period": "P1D",
                         "description": "Anytime",
                         "displayName": "Peak"
                     },

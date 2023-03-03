@@ -60,7 +60,7 @@
             ]
         },
         "displayName": "Home Select",
-        "lastUpdated": "2022-10-10T02:22:38Z",
+        "lastUpdated": "2022-10-10T13:22:38Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-10-16T13:00:00Z",
         "electricityContract": {
@@ -129,6 +129,7 @@
                                 "unitPrice": "19.15"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Peak"
                     },
                     "displayName": "Peak",

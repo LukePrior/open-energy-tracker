@@ -147,6 +147,7 @@
                                 "unitPrice": "20.00"
                             }
                         ],
+                        "period": "P1M",
                         "displayName": "Non-Summer Peak"
                     },
                     "displayName": "Period 1",
@@ -186,6 +187,7 @@
                                 "unitPrice": "20.00"
                             }
                         ],
+                        "period": "P1M",
                         "displayName": "Summer Peak"
                     },
                     "displayName": "Period 2",

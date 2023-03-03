@@ -147,6 +147,7 @@
                                 "unitPrice": "24.49"
                             }
                         ],
+                        "period": "P1M",
                         "displayName": "Peak"
                     },
                     "displayName": "Period 1",
@@ -186,6 +187,7 @@
                                 "unitPrice": "24.49"
                             }
                         ],
+                        "period": "P1M",
                         "displayName": "Peak"
                     },
                     "displayName": "Period 2",

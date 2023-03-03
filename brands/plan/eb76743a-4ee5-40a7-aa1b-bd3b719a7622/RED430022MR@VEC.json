@@ -75,7 +75,7 @@
             ]
         },
         "displayName": "Red EV Saver",
-        "lastUpdated": "2022-11-07T04:01:29Z",
+        "lastUpdated": "2022-11-07T15:01:29Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-11-15T13:00:00Z",
         "electricityContract": {
@@ -108,6 +108,7 @@
                                 "unitPrice": "20.00"
                             }
                         ],
+                        "period": "P3M",
                         "description": "Anytime",
                         "displayName": "Peak"
                     },

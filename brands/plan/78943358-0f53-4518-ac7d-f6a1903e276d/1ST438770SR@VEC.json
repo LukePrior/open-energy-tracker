@@ -89,6 +89,7 @@
                                 "unitPrice": "3.00"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Anytime"
                     },
                     "displayName": "All Year",

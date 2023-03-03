@@ -275,7 +275,7 @@
             ]
         },
         "displayName": "The Basic Plan",
-        "lastUpdated": "2022-08-11T06:08:06Z",
+        "lastUpdated": "2022-08-11T16:08:06Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-15T14:00:00Z",
         "electricityContract": {
@@ -326,6 +326,7 @@
                                 "unitPrice": "28.7464"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Block"
                     },
                     "displayName": "All-year",

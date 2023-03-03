@@ -134,6 +134,7 @@
                                 "unitPrice": "2.57"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Off Peak"
                     },
                     "displayName": "Summer",
@@ -157,6 +158,7 @@
                                 "unitPrice": "2.57"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Peak"
                     },
                     "displayName": "Winter",
@@ -180,6 +182,7 @@
                                 "unitPrice": "2.57"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Off Peak"
                     },
                     "displayName": "Summer",
@@ -196,7 +199,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Ongoing energy plan until you or we end it. We may end this energy plan at any time by giving you 20 Business Days notice."
         },
-        "lastUpdated": "2022-11-22T05:04:46Z",
+        "lastUpdated": "2022-11-22T16:04:46Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-11-22T13:00:00Z"
     },

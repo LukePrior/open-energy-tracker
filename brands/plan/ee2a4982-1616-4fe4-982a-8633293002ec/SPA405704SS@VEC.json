@@ -328,7 +328,7 @@
         },
         "displayName": "Sumo Standing Offer (Single Rate)",
         "effectiveTo": "2023-06-29T14:00:00Z",
-        "lastUpdated": "2022-07-01T00:48:17Z",
+        "lastUpdated": "2022-07-01T10:48:17Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {
@@ -397,6 +397,7 @@
                                 "unitPrice": "21.20"
                             }
                         ],
+                        "period": "P1M",
                         "displayName": "Peak"
                     },
                     "displayName": "Period",

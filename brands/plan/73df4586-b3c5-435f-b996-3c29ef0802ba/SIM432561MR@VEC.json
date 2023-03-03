@@ -10,8 +10,10 @@
                 "AusNet Services (gas)"
             ],
             "includedPostcodes": [
+                "3241",
                 "3260",
                 "3284",
+                "3352",
                 "3363",
                 "3364",
                 "3431",
@@ -22,10 +24,8 @@
                 "3440",
                 "3441",
                 "3442",
-                "3551",
-                "3352",
-                "3241",
-                "3467"
+                "3467",
+                "3551"
             ]
         },
         "displayName": "VIC Simply Energy Solutions Solar gas",
@@ -83,6 +83,7 @@
                                 "unitPrice": "2.28"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Off Peak"
                     },
                     "displayName": "Summer",
@@ -110,6 +111,7 @@
                                 "unitPrice": "2.38"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Peak"
                     },
                     "displayName": "Winter",
@@ -137,6 +139,7 @@
                                 "unitPrice": "2.28"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Off Peak"
                     },
                     "displayName": "Summer",
@@ -153,7 +156,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Ongoing energy plan, unless you or we end it earlier. We may end this energy plan at any time by giving you 20 Business Days notice"
         },
-        "lastUpdated": "2022-11-22T05:04:44Z",
+        "lastUpdated": "2022-11-22T16:04:44Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-11-22T13:00:00Z"
     },

@@ -365,6 +365,7 @@
                                 "unitPrice": "22.30"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Peak"
                     },
                     "displayName": "Period 1",
@@ -404,6 +405,7 @@
                                 "unitPrice": "22.30"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Peak"
                     },
                     "displayName": "Period 2",

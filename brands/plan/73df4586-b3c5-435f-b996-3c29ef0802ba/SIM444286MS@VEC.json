@@ -129,6 +129,7 @@
                                 "unitPrice": "2.41"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Off Peak"
                     },
                     "displayName": "Summer",
@@ -160,6 +161,7 @@
                                 "unitPrice": "2.41"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Shoulder"
                     },
                     "displayName": "Autumn",
@@ -191,6 +193,7 @@
                                 "unitPrice": "2.41"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Peak"
                     },
                     "displayName": "Winter",
@@ -222,6 +225,7 @@
                                 "unitPrice": "2.41"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Shoulder"
                     },
                     "displayName": "Spring",
@@ -253,6 +257,7 @@
                                 "unitPrice": "2.41"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Off Peak"
                     },
                     "displayName": "Summer",

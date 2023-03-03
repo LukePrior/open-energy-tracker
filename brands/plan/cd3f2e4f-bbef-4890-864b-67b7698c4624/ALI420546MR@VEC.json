@@ -112,7 +112,7 @@
             ]
         },
         "displayName": "Sports Pack - Single Rate",
-        "lastUpdated": "2022-08-18T04:18:28Z",
+        "lastUpdated": "2022-08-18T14:18:28Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {
@@ -163,6 +163,7 @@
                                 "unitPrice": "20.52"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Rate"
                     },
                     "displayName": "Period",

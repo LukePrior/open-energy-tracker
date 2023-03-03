@@ -387,6 +387,7 @@
                                 "unitPrice": "18.60"
                             }
                         ],
+                        "period": "P1D",
                         "description": "Anytime",
                         "displayName": "Peak"
                     },
@@ -427,6 +428,7 @@
                                 "unitPrice": "18.60"
                             }
                         ],
+                        "period": "P1D",
                         "description": "Anytime",
                         "displayName": "Peak"
                     },
@@ -467,6 +469,7 @@
                                 "unitPrice": "18.60"
                             }
                         ],
+                        "period": "P1D",
                         "description": "Anytime",
                         "displayName": "Peak"
                     },

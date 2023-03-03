@@ -113,7 +113,7 @@
         },
         "displayName": "Amber Plan 15",
         "effectiveTo": "2023-06-29T14:00:00Z",
-        "lastUpdated": "2022-06-17T01:49:57Z",
+        "lastUpdated": "2022-06-17T11:49:57Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {
@@ -180,6 +180,7 @@
                                 "unitPrice": "29.751164"
                             }
                         ],
+                        "period": "P1D",
                         "description": "All day",
                         "displayName": "Single Rate"
                     },

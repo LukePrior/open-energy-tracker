@@ -336,6 +336,7 @@
                                 "unitPrice": "26.30"
                             }
                         ],
+                        "period": "P3M",
                         "description": "All times of the day",
                         "displayName": "Anytime Usage"
                     },

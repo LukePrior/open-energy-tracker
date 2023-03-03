@@ -60,7 +60,7 @@
             ]
         },
         "displayName": "Residential Standing - Single Rate with Controlled Load",
-        "lastUpdated": "2022-06-23T02:54:36Z",
+        "lastUpdated": "2022-06-23T12:54:36Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {
@@ -105,6 +105,7 @@
                                 "unitPrice": "19.7272"
                             }
                         ],
+                        "period": "P1D",
                         "description": "for the personal use of the residents of the premises, all day, everyday",
                         "displayName": "Anytime"
                     },

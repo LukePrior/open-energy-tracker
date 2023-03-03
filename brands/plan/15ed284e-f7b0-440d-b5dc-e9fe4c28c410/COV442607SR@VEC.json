@@ -228,6 +228,7 @@
                                 "unitPrice": "4.10"
                             }
                         ],
+                        "period": "P1M",
                         "displayName": "General Usage Rate"
                     },
                     "displayName": "General Usage Rate",

@@ -75,7 +75,7 @@
             ]
         },
         "displayName": "Standing Offer_A20D",
-        "lastUpdated": "2022-10-06T05:19:53Z",
+        "lastUpdated": "2022-10-06T16:19:53Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-10-09T13:00:00Z",
         "electricityContract": {
@@ -120,6 +120,7 @@
                                 "unitPrice": "22.4363"
                             }
                         ],
+                        "period": "P1D",
                         "description": "Anytime",
                         "displayName": "Peak"
                     },

@@ -112,7 +112,7 @@
             ]
         },
         "displayName": "VIC - Home Business Basics elec",
-        "lastUpdated": "2022-06-28T06:45:33Z",
+        "lastUpdated": "2022-06-28T16:45:33Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {
@@ -182,6 +182,7 @@
                                 "unitPrice": "21.15"
                             }
                         ],
+                        "period": "P1D",
                         "description": "Anytime",
                         "displayName": "Peak"
                     },
@@ -198,6 +199,7 @@
                                 "unitPrice": "21.15"
                             }
                         ],
+                        "period": "P1D",
                         "description": "Anytime",
                         "displayName": "Peak"
                     },
@@ -214,6 +216,7 @@
                                 "unitPrice": "21.15"
                             }
                         ],
+                        "period": "P1D",
                         "description": "Anytime",
                         "displayName": "Peak"
                     },

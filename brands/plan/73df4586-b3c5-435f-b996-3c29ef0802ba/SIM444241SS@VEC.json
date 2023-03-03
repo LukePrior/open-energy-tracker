@@ -63,6 +63,7 @@
                                 "unitPrice": "3.07"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Off Peak"
                     },
                     "displayName": "Summer",
@@ -90,6 +91,7 @@
                                 "unitPrice": "3.12"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Peak"
                     },
                     "displayName": "Winter",
@@ -117,6 +119,7 @@
                                 "unitPrice": "3.07"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Off Peak"
                     },
                     "displayName": "Summer",

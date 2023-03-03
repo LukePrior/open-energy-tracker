@@ -183,6 +183,7 @@
                                 "unitPrice": "17.80"
                             }
                         ],
+                        "period": "P1D",
                         "description": "Anytime Usage",
                         "displayName": "Anytime Usage"
                     },
@@ -223,6 +224,7 @@
                                 "unitPrice": "17.80"
                             }
                         ],
+                        "period": "P1D",
                         "description": "Anytime Usage",
                         "displayName": "Anytime Usage"
                     },

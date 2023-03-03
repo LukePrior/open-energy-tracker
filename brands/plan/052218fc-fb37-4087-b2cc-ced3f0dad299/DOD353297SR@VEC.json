@@ -10,6 +10,7 @@
                 "Australian Gas Networks"
             ],
             "includedPostcodes": [
+                "3000",
                 "3002",
                 "3003",
                 "3005",
@@ -60,6 +61,7 @@
                 "3751",
                 "3752",
                 "3754",
+                "3757",
                 "3759",
                 "3770",
                 "3804",
@@ -67,9 +69,7 @@
                 "3813",
                 "3814",
                 "3815",
-                "3821",
-                "3757",
-                "3000"
+                "3821"
             ]
         },
         "displayName": "Residential Standing - Australian Gas Networks Central 2",
@@ -122,6 +122,7 @@
                                 "unitPrice": "2.0627"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Peak"
                     },
                     "displayName": "Peak",
@@ -145,6 +146,7 @@
                                 "unitPrice": "2.0627"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Off Peak"
                     },
                     "displayName": "Off Peak",
@@ -161,7 +163,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Standard contracts do not expire"
         },
-        "lastUpdated": "2021-11-28T22:13:42Z",
+        "lastUpdated": "2021-11-29T09:13:42Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2021-12-31T13:00:00Z"
     },

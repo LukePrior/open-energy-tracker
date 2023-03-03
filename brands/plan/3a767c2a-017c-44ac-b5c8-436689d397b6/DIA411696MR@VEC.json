@@ -61,7 +61,7 @@
         },
         "displayName": "Everyday Renewable Saver",
         "effectiveTo": "2023-08-31T14:00:00Z",
-        "lastUpdated": "2022-07-18T23:29:47Z",
+        "lastUpdated": "2022-07-19T09:29:47Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-31T14:00:00Z",
         "electricityContract": {
@@ -156,6 +156,7 @@
                                 "unitPrice": "20.10"
                             }
                         ],
+                        "period": "P1M",
                         "displayName": "All day rate"
                     },
                     "displayName": "Period",

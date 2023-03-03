@@ -14,6 +14,8 @@
                 "3004",
                 "3006",
                 "3008",
+                "3020",
+                "3072",
                 "3097",
                 "3101",
                 "3102",
@@ -81,8 +83,6 @@
                 "3795",
                 "3796",
                 "3804",
-                "3020",
-                "3072",
                 "3805",
                 "3936"
             ]
@@ -145,6 +145,7 @@
                                 "unitPrice": "1.8196"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Peak"
                     },
                     "displayName": "Peak",
@@ -176,6 +177,7 @@
                                 "unitPrice": "1.8009"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Off Peak"
                     },
                     "displayName": "Off Peak",
@@ -192,7 +194,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Standard contracts do not expire"
         },
-        "lastUpdated": "2021-11-28T22:13:42Z",
+        "lastUpdated": "2021-11-29T09:13:42Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2021-12-31T13:00:00Z"
     },

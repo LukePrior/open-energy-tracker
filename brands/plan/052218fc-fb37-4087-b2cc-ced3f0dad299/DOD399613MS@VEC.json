@@ -327,7 +327,7 @@
             ]
         },
         "displayName": "Business Market - Single Rate with Controlled Load",
-        "lastUpdated": "2022-06-21T05:22:31Z",
+        "lastUpdated": "2022-06-21T15:22:31Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {
@@ -392,6 +392,7 @@
                                 "unitPrice": "21.70"
                             }
                         ],
+                        "period": "P1D",
                         "description": "for the personal use of the residents of the premises, all day, everyday",
                         "displayName": "Anytime"
                     },
