@@ -1,0 +1,136 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "momentum",
+        "planId": "MOM447734MR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Momentum Energy",
+        "geography": {
+            "distributors": [
+                "Multinet"
+            ],
+            "includedPostcodes": [
+                "3139",
+                "3775",
+                "3797",
+                "3799"
+            ]
+        },
+        "displayName": "Capricorn Gas Multinet Yarra Valley",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "7.95",
+                    "description": "Move-In/Move Out Meter Read fee\nFor information on additional fees, a full schedule of charges is available from www.momentumenergy.com.au/fees"
+                },
+                {
+                    "rate": "0.53",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A 0.53% fee (GST Incl) will apply to payments made by any credit or debit card."
+                }
+            ],
+            "terms": "Full terms and conditions can be obtained from www.momentumenergy.com.au/terms or by contacting our Customer Care Team on 1800 SWITCH.",
+            "isFixed": false,
+            "variation": "We will give you written notice of any variations to your rates & charges under your terms and conditions in accordance with applicable legal requirements.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Capricorn Rewards Points",
+                    "displayName": "Capricorn Rewards Points",
+                    "eligibility": "Eligible Capricorn Members will receive 10,000 bonus Capricorn points for sign-up and 1.5 Capricorn points per $ spent with Momentum on the Mom Gas Capricorn product. Bonus points are only available to new sign-ups."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "To be eligible for this plan you must communicate with us and receive your bills electronically. Available with a Supply Address in Victoria in the Multinet Yarra Valley distribution area and is subject to having the necessary metering system configuration."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "04-30",
+                    "startDate": "11-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "3.50"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "3.20"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.80"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.80"
+                            },
+                            {
+                                "unitPrice": "2.70"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Off-Peak"
+                    },
+                    "displayName": "Off-Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "87.40"
+                },
+                {
+                    "endDate": "10-31",
+                    "startDate": "05-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "3.60"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "3.20"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.90"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.80"
+                            },
+                            {
+                                "unitPrice": "2.70"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "87.40"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "OTHER"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions."
+        },
+        "lastUpdated": "2023-03-03T04:03:01Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-03-02T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/momentum/cds-au/v1/energy/plans/MOM447734MR@VEC"
+    }
+}
