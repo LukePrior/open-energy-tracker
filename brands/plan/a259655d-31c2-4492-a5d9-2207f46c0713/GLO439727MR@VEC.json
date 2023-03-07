@@ -1,0 +1,183 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "globird",
+        "planId": "GLO439727MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "GloBird Energy",
+        "geography": {
+            "distributors": [
+                "Citipower"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
+                "3011",
+                "3031",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3078",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
+            ]
+        },
+        "displayName": "GloBird  BOOST Residential (Flat Rate  Without Controlled Load)-Citipower",
+        "effectiveTo": "2023-02-02T13:00:00Z",
+        "lastUpdated": "2023-02-03T06:03:47Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-12-30T13:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "12.00",
+                    "description": "This is smart meter remote re-connection fee. It assumes a smart meter being remotely connected during business hours when we have been given enough prior notice.  However the fee can vary depending on the type of meter, the location, and other factors."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "12.00",
+                    "description": "This is smart meter remote disconnection fee, however this fee can vary depending on your type of meter, the meter location, and other factors."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "2.50",
+                    "description": "Paper Bill. If you have opted to receive a paper bill by post"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "0.00",
+                    "description": "0 Credit Card Payment Processing Fee"
+                }
+            ],
+            "terms": "For further information about this offer call GloBird on 133456 or visit www.globirdenergy.com.au or see our full terms and conditions here: www.globirdenergy.com.au/legal/",
+            "isFixed": false,
+            "timeZone": "AEST",
+            "discounts": [
+                {
+                    "type": "CONDITIONAL",
+                    "category": "OTHER",
+                    "description": "Signup online to get a single $60 account credit applied on the 7th month after joining.",
+                    "displayName": "$60 Online Signup Bonus",
+                    "fixedAmount": {
+                        "amount": "54.545"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "We may update your rates from time to time, usually at the same time as the state Government reset the Victorian Default Offer, and review your solar feed-in when the minimum feed-in laws change. We'll always notify you in writing prior to any change",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Local call center and no credit card processing fees",
+                    "displayName": "Local call center and no credit card processing fees",
+                    "eligibility": "Traditional energy plan. Easy to understand. Local call center. No sneaky credit card processing fees. Just great value."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This product is for new Residential customers on single-rate in Citipower area. Step 1 of 912.50kWh/month is based on accumulated daily allowance of 30.00kWh/day for the billing period. Example: 30 day bill has a step 1 of 900.00kWh, or a 31 day bill 930.00kWh."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-30",
+                    "startDate": "12-31",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 912,
+                                "unitPrice": "24.20"
+                            },
+                            {
+                                "unitPrice": "26.30"
+                            }
+                        ],
+                        "description": "First 912.50 kWh/Month",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "31/12/2022-30/12/2023",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "65.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "The current Victorian Feed-in Tariff commenced on 1 January 2013",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.20"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "You can remain on the scheme until 31 December 2024",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discount percentage or rates."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/globird/cds-au/v1/energy/plans/GLO439727MR@VEC"
+    }
+}

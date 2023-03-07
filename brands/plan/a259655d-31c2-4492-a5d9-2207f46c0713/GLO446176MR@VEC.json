@@ -133,7 +133,7 @@
             ]
         },
         "displayName": "GloBird  ComboULTRASAVE Residential(Melbourne Metropolitan Area)-Multinet",
-        "effectiveTo": "2024-02-14T13:00:00Z",
+        "effectiveTo": "2023-03-06T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -242,7 +242,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discount percentage or rates."
         },
-        "lastUpdated": "2023-02-15T03:18:11Z",
+        "lastUpdated": "2023-03-06T22:57:46Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-02-15T13:00:00Z"
     },
