@@ -26,6 +26,19 @@
             "lastUpdated": "2023-01-01T00:00:08Z"
         },
         {
+            "dataHolderBrandId": "1cc7833a-b834-ed11-a832-000d3a8830d6",
+            "interimId": "1f1ef12a-f96f-467d-a69a-08160f2e6576",
+            "brandName": "EnergyAustralia",
+            "industries": [
+                "energy"
+            ],
+            "logoUri": "https://www.energyaustralia.com.au/themes/custom/ea/assets/images/EA_logo.svg",
+            "publicBaseUri": "https://authncdr.energyaustralia.com.au/",
+            "abn": "99086014968",
+            "acn": "086014968",
+            "lastUpdated": "2023-03-08T01:12:23Z"
+        },
+        {
             "interimId": "78943358-0f53-4518-ac7d-f6a1903e276d",
             "brandName": "1st Energy",
             "industries": [
@@ -294,16 +307,6 @@
             "logoUri": "https://energylocals.com.au/app/themes/slate/dist/images/energy-locals-logo.svg",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/energy-locals",
             "lastUpdated": "2022-12-18T22:19:25Z"
-        },
-        {
-            "interimId": "1f1ef12a-f96f-467d-a69a-08160f2e6576",
-            "brandName": "EnergyAustralia",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://www.energyaustralia.com.au/themes/custom/ea/assets/images/EA_logo.svg",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/energyaustralia",
-            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "3f85802e-1636-4e3a-9395-cba0062bfab9",
