@@ -1,0 +1,435 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "sumo-power",
+        "planId": "SUM525986MRE2@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Sumo",
+        "geography": {
+            "distributors": [
+                "Energex"
+            ],
+            "includedPostcodes": [
+                "4000",
+                "4005",
+                "4006",
+                "4007",
+                "4008",
+                "4009",
+                "4010",
+                "4011",
+                "4012",
+                "4013",
+                "4014",
+                "4017",
+                "4018",
+                "4019",
+                "4020",
+                "4021",
+                "4022",
+                "4030",
+                "4031",
+                "4032",
+                "4034",
+                "4035",
+                "4036",
+                "4037",
+                "4051",
+                "4053",
+                "4054",
+                "4055",
+                "4059",
+                "4060",
+                "4061",
+                "4064",
+                "4065",
+                "4066",
+                "4067",
+                "4068",
+                "4069",
+                "4070",
+                "4073",
+                "4074",
+                "4075",
+                "4076",
+                "4077",
+                "4078",
+                "4101",
+                "4102",
+                "4103",
+                "4104",
+                "4105",
+                "4106",
+                "4107",
+                "4108",
+                "4109",
+                "4110",
+                "4111",
+                "4112",
+                "4113",
+                "4114",
+                "4115",
+                "4116",
+                "4117",
+                "4118",
+                "4119",
+                "4120",
+                "4121",
+                "4122",
+                "4123",
+                "4124",
+                "4125",
+                "4127",
+                "4128",
+                "4129",
+                "4130",
+                "4131",
+                "4132",
+                "4133",
+                "4151",
+                "4152",
+                "4153",
+                "4154",
+                "4155",
+                "4156",
+                "4157",
+                "4158",
+                "4159",
+                "4160",
+                "4161",
+                "4163",
+                "4164",
+                "4165",
+                "4169",
+                "4170",
+                "4171",
+                "4172",
+                "4173",
+                "4174",
+                "4178",
+                "4179",
+                "4183",
+                "4184",
+                "4205",
+                "4207",
+                "4208",
+                "4209",
+                "4210",
+                "4211",
+                "4212",
+                "4213",
+                "4214",
+                "4215",
+                "4216",
+                "4217",
+                "4218",
+                "4220",
+                "4221",
+                "4223",
+                "4224",
+                "4225",
+                "4226",
+                "4227",
+                "4228",
+                "4270",
+                "4271",
+                "4272",
+                "4275",
+                "4280",
+                "4285",
+                "4287",
+                "4300",
+                "4301",
+                "4303",
+                "4304",
+                "4305",
+                "4306",
+                "4307",
+                "4309",
+                "4310",
+                "4311",
+                "4312",
+                "4313",
+                "4340",
+                "4341",
+                "4342",
+                "4343",
+                "4344",
+                "4346",
+                "4347",
+                "4352",
+                "4359",
+                "4500",
+                "4501",
+                "4502",
+                "4503",
+                "4504",
+                "4505",
+                "4506",
+                "4507",
+                "4508",
+                "4509",
+                "4510",
+                "4511",
+                "4512",
+                "4514",
+                "4515",
+                "4516",
+                "4517",
+                "4518",
+                "4519",
+                "4520",
+                "4521",
+                "4550",
+                "4551",
+                "4552",
+                "4553",
+                "4554",
+                "4555",
+                "4556",
+                "4557",
+                "4558",
+                "4559",
+                "4560",
+                "4561",
+                "4562",
+                "4563",
+                "4564",
+                "4565",
+                "4566",
+                "4567",
+                "4568",
+                "4569",
+                "4570",
+                "4571",
+                "4572",
+                "4573",
+                "4574",
+                "4575",
+                "4580",
+                "4581"
+            ]
+        },
+        "displayName": "Sumo Assure Advantage Res",
+        "lastUpdated": "2023-03-10T06:16:54.590Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-03-10T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "description": "Dishonoured Payment Fee"
+                },
+                {
+                    "rate": "0.7",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "This fee is only applicable for payments made by credit card."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "Applied if you request a connection of your electricity supply when you move in during business hours (Fee will be $90.93 if you move in after business hours). Subject to change."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "PAPER_BILL",
+                    "description": "Bills can be issued by email for no cost, or alternatively by post at a cost of $3.10 (inc GST) per bill."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "description": "Over the counter fee at Australia Post"
+                }
+            ],
+            "terms": "For full terms and conditions of supply, visit https://www.sumo.com.au/welcome-pack/. Or call us on 13 88 60. Sumo bills monthly for premises with a smart meter or basic meter, and quarterly for premises with a manually-read interval meter.",
+            "isFixed": false,
+            "termType": "ONGOING",
+            "timeZone": "AEST",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "description": "Sign on credit. Your supply must transfer to Sumo. Your $40 credit will be applied to your first Sumo electricity bill.",
+                    "displayName": "Sign on Credit",
+                    "fixedAmount": {
+                        "amount": "40.00"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "Prices, fees and charges are subject to change. We will give you at least 10 business days prior notice.",
+            "meterTypes": [
+                "Type 5",
+                "Type 4"
+            ],
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "11-15",
+                    "startDate": "11-16",
+                    "displayName": "Full Year",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "name": "Peak",
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "30.00"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MONDAY",
+                                        "TUESDAY",
+                                        "WEDNESDAY",
+                                        "THURSDAY",
+                                        "FRIDAY"
+                                    ],
+                                    "endTime": "1959",
+                                    "startTime": "1600"
+                                }
+                            ],
+                            "description": "Peak"
+                        },
+                        {
+                            "name": "Off Peak",
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "18.00"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MONDAY",
+                                        "TUESDAY",
+                                        "WEDNESDAY",
+                                        "THURSDAY",
+                                        "FRIDAY",
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "2359",
+                                    "startTime": "2200"
+                                },
+                                {
+                                    "days": [
+                                        "MONDAY",
+                                        "TUESDAY",
+                                        "WEDNESDAY",
+                                        "THURSDAY",
+                                        "FRIDAY",
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "659",
+                                    "startTime": "0"
+                                }
+                            ],
+                            "description": "Off Peak"
+                        },
+                        {
+                            "name": "Shoulder",
+                            "type": "SHOULDER",
+                            "rates": [
+                                {
+                                    "unitPrice": "20.00"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MONDAY",
+                                        "TUESDAY",
+                                        "WEDNESDAY",
+                                        "THURSDAY",
+                                        "FRIDAY"
+                                    ],
+                                    "endTime": "1559",
+                                    "startTime": "700"
+                                },
+                                {
+                                    "days": [
+                                        "MONDAY",
+                                        "TUESDAY",
+                                        "WEDNESDAY",
+                                        "THURSDAY",
+                                        "FRIDAY"
+                                    ],
+                                    "endTime": "2159",
+                                    "startTime": "2000"
+                                },
+                                {
+                                    "days": [
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "2159",
+                                    "startTime": "700"
+                                }
+                            ],
+                            "description": "Shoulder"
+                        }
+                    ],
+                    "dailySupplyCharges": "100.00"
+                }
+            ],
+            "benefitPeriod": "Ongoing",
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "BPAY",
+                "CREDIT_CARD",
+                "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "16.50"
+                        }
+                    ],
+                    "period": "P1M",
+                    "dailyCharge": "5.00",
+                    "description": "-",
+                    "displayName": "Controlled Load 1"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "17.50"
+                        }
+                    ],
+                    "period": "P1M",
+                    "dailyCharge": "5.00",
+                    "description": "-",
+                    "displayName": "Controlled Load 2"
+                }
+            ],
+            "coolingOffDays": "10",
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "If you have installed solar PV at the Premises, you may be eligible to be paid for excess electricity you feed back into the grid. For eligible solar systems not exceeding 10kW. Not available in conjunction with any other feed-in tariff.",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "6.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "No contract term."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/sumo-power/cds-au/v1/energy/plans/SUM525986MRE2@EME"
+    }
+}
