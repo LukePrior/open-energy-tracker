@@ -239,8 +239,8 @@
             ]
         },
         "displayName": "Powow Business Basic TOU",
-        "effectiveTo": "2024-02-28T00:00:00.000Z",
-        "lastUpdated": "2023-03-13T00:43:01.058Z",
+        "effectiveTo": "2023-03-15T00:00:00.000Z",
+        "lastUpdated": "2023-03-13T22:18:26.296Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-03-13T00:00:00.000Z",
         "electricityContract": {
