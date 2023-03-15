@@ -1,0 +1,123 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "powershop",
+        "planId": "POD438203MS@VEC",
+        "fuelType": "GAS",
+        "brandName": "Powershop",
+        "geography": {
+            "distributors": [
+                "AusNet Services (gas)"
+            ],
+            "includedPostcodes": [
+                "3249",
+                "3250",
+                "3266",
+                "3277",
+                "3280",
+                "3282",
+                "3300",
+                "3305",
+                "3340",
+                "3342",
+                "3350",
+                "3351",
+                "3352",
+                "3355",
+                "3356",
+                "3357",
+                "3358",
+                "3430",
+                "3437",
+                "3444",
+                "3450",
+                "3451",
+                "3460",
+                "3461",
+                "3462",
+                "3464",
+                "3465",
+                "3550",
+                "3551",
+                "3555",
+                "3556"
+            ]
+        },
+        "displayName": "Powershop 100% Carbon Neutral",
+        "effectiveTo": "2022-12-28T13:00:00Z",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "0.00",
+                    "description": "In addition to the applicable prices, you may incur other fees, including disconnection fees. Information regarding fees is set out on our fees page powershop.com.au/fees"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "66.40",
+                    "description": "Disconnection fees may apply to manually de-energise a property. The fee will be passed on from your distributor and may vary."
+                }
+            ],
+            "terms": "Powershop offer bi-monthly bills and do not issue paper bills. We require a credit card or bank details. For further information in relation to Powershop and this offer - see our full terms and conditions at: powershop.com.au/terms-and-conditions",
+            "isFixed": false,
+            "variation": "We may vary your prices at any time. If we vary your prices we'll give you advance notice, usually by email.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Eligibility criteria may apply, contact Powershop for details."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "1.66"
+                            }
+                        ],
+                        "displayName": "Anytime"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "96.54"
+                },
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "1.54"
+                            }
+                        ],
+                        "displayName": "Anytime"
+                    },
+                    "displayName": "Off Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "96.54"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "OTHER"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "This Powershop offer is an ongoing contract (until you or we end it) with no exit fees."
+        },
+        "lastUpdated": "2022-12-28T23:57:34Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-06-30T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1/energy/plans/POD438203MS@VEC"
+    }
+}
