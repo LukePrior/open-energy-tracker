@@ -121,6 +121,7 @@
             ]
         },
         "displayName": "Red BCNA Saver",
+        "effectiveTo": "2023-03-20T00:00:00.000Z",
         "gasContract": {
             "fees": [
                 {
@@ -175,7 +176,7 @@
             "coolingOffDays": "10",
             "onExpiryDescription": "Your contract is ongoing until it is ended by you or us"
         },
-        "lastUpdated": "2022-07-21T14:07:11.710Z",
+        "lastUpdated": "2023-03-15T22:36:30.959Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-22T00:00:00.000Z"
     },
