@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "eSelect PLUS",
-        "lastUpdated": "2023-02-20T03:15:51Z",
+        "effectiveTo": "2023-03-19T13:00:00Z",
+        "lastUpdated": "2023-03-19T21:31:05Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-02-19T13:00:00Z",
         "electricityContract": {

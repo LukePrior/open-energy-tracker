@@ -327,7 +327,8 @@
             ]
         },
         "displayName": "Nothing Fancy Electricity_PRTOU",
-        "lastUpdated": "2023-02-16T03:43:50Z",
+        "effectiveTo": "2023-03-19T13:00:00Z",
+        "lastUpdated": "2023-03-19T22:27:33Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-02-19T13:00:00Z",
         "electricityContract": {
