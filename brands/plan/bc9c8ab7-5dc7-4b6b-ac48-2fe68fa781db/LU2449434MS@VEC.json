@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "lumo",
-        "planId": "LU2445301MS@VEC",
+        "planId": "LU2449434MS@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "Lumo Energy",
         "geography": {
@@ -274,22 +274,21 @@
                 "3996"
             ]
         },
-        "displayName": "Lumo Value",
-        "lastUpdated": "2023-02-10T04:06:43Z",
+        "displayName": "Lumo Basic",
+        "lastUpdated": "2023-03-20T00:35:48Z",
         "customerType": "BUSINESS",
-        "effectiveFrom": "2023-02-20T13:00:00Z",
+        "effectiveFrom": "2023-03-21T13:00:00Z",
         "electricityContract": {
-            "terms": "For full terms and conditions applicable to this offer, please visit https://www.lumoenergy.com.au/terms. All times are in Australian Eastern Standard Time (AEST), unless you have an interval Meter or a Smart Meter, in which case, times will be adjusted to Australian Eastern Daylight Time during daylight savings periods. Solar Feed-In Terms and Conditions can be found at www.lumoenergy.com.au/metering-and-solar/solar-energy",
-            "isFixed": true,
-            "termType": "OTHER",
-            "timeZone": "LOCAL",
-            "variation": "-",
+            "terms": "For full terms and conditions applicable to this offer, please visit https://www.lumoenergy.com.au/terms. Solar Feed-In Terms and Conditions can be found at https://www.lumoenergy.com.au/metering-and-solar/solar-energy",
+            "isFixed": false,
+            "timeZone": "AEST",
+            "variation": "We may vary your rates in line with our Terms and Conditions and in accordance with the Regulatory Requirements. We will give you written notice of at least 5 business days prior to the variation.",
             "incentives": [
                 {
                     "category": "OTHER",
-                    "description": "Fixed Rates until 30 April 2024",
-                    "displayName": "Fixed Rates until 30 April 2024",
-                    "eligibility": "Rates are fixed for the duration of the contract"
+                    "description": "Free Standard Moves",
+                    "displayName": "Free Standard Moves",
+                    "eligibility": "We will cover the costs for standard connections and disconnections when you move and reconnect with Lumo in Victoria. Exclusions and conditions apply. See lumoenergy.com.au/freemoves for full details."
                 }
             ],
             "eligibility": [
@@ -298,78 +297,26 @@
                     "information": "This offer is available to small business customers and is subject to the identification of the network tariff and metering requirements."
                 }
             ],
-            "pricingModel": "TIME_OF_USE",
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
             "tariffPeriod": [
                 {
                     "endDate": "12-31",
                     "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 11,
+                                "unitPrice": "30.073"
+                            },
+                            {
+                                "unitPrice": "33.30"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Rate"
+                    },
                     "displayName": "Period",
-                    "rateBlockUType": "timeOfUseRates",
-                    "timeOfUseRates": [
-                        {
-                            "type": "PEAK",
-                            "rates": [
-                                {
-                                    "unitPrice": "36.69"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI"
-                                    ],
-                                    "endTime": "2100",
-                                    "startTime": "0900"
-                                }
-                            ],
-                            "displayName": "Peak"
-                        },
-                        {
-                            "type": "OFF_PEAK",
-                            "rates": [
-                                {
-                                    "unitPrice": "22.35"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI"
-                                    ],
-                                    "endTime": "0000",
-                                    "startTime": "2100"
-                                },
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI"
-                                    ],
-                                    "endTime": "0900",
-                                    "startTime": "0000"
-                                },
-                                {
-                                    "days": [
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "0000",
-                                    "startTime": "0000"
-                                }
-                            ],
-                            "displayName": "Off Peak"
-                        }
-                    ],
+                    "rateBlockUType": "singleRate",
                     "dailySupplyCharges": "116.95"
                 }
             ],
@@ -378,6 +325,20 @@
             ],
             "paymentOption": [
                 "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "17.84"
+                            }
+                        ],
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Hot Water Usage",
+                    "rateBlockUType": "singleRate"
+                }
             ],
             "coolingOffDays": 10,
             "greenPowerCharges": [
@@ -416,11 +377,11 @@
                     }
                 }
             ],
-            "onExpiryDescription": "Contract ends 30 April 2024. Before the end date, you will be notified that when your contract terminates we will continue to sell you energy under a Standard Retail Contract unless you enter into a new retail contract."
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us. No exit fees."
         }
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/lumo/cds-au/v1/energy/plans/LU2445301MS@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/lumo/cds-au/v1/energy/plans/LU2449434MS@VEC"
     }
 }

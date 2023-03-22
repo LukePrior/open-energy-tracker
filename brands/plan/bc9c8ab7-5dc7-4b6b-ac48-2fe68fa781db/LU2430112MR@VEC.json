@@ -275,7 +275,8 @@
             ]
         },
         "displayName": "Lumo Basic",
-        "lastUpdated": "2022-11-07T04:01:27Z",
+        "effectiveTo": "2023-03-21T13:00:00Z",
+        "lastUpdated": "2023-03-21T21:02:12Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-11-15T13:00:00Z",
         "electricityContract": {

@@ -1,8 +1,8 @@
 {
     "data": {
-        "type": "STANDING",
+        "type": "MARKET",
         "brand": "lumo",
-        "planId": "LU2433482SS@VEC",
+        "planId": "LU2445246MS@VEC",
         "fuelType": "GAS",
         "brandName": "Lumo Energy",
         "geography": {
@@ -54,18 +54,18 @@
                 "3428"
             ]
         },
-        "displayName": "Standing Offer",
-        "effectiveTo": "2023-01-01T13:00:00Z",
+        "displayName": "Lumo Value",
         "gasContract": {
-            "terms": "For full terms and conditions applicable to this offer, please visit http://www.lumoenergy.com.au/help-centre/useful-docs.",
-            "isFixed": false,
-            "variation": "We may vary our rates no more than once per 6 months. We will publish any variation in a newspaper and on our website at least 10 business days before it starts. We also notify you of the variation by no later than your next bill.",
+            "terms": "For full terms and conditions applicable to this offer, please visit https://www.lumoenergy.com.au/terms.",
+            "isFixed": true,
+            "termType": "OTHER",
+            "variation": "-",
             "incentives": [
                 {
                     "category": "OTHER",
-                    "description": "No Contract Term",
-                    "displayName": "No Contract Term",
-                    "eligibility": "The freedom of no contract term"
+                    "description": "Fixed Rates until 30 April 2024",
+                    "displayName": "Fixed Rates until 30 April 2024",
+                    "eligibility": "Rates are fixed for the duration of the contract"
                 }
             ],
             "eligibility": [
@@ -82,26 +82,27 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "volume": 6083,
-                                "unitPrice": "1.925"
+                                "volume": 100,
+                                "unitPrice": "2.80"
                             },
                             {
-                                "volume": 6083,
-                                "unitPrice": "1.858"
+                                "volume": 100,
+                                "unitPrice": "2.65"
                             },
                             {
-                                "volume": 73000,
-                                "unitPrice": "1.75"
+                                "volume": 1200,
+                                "unitPrice": "2.55"
                             },
                             {
-                                "unitPrice": "1.746"
+                                "unitPrice": "2.40"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Off Peak"
                     },
                     "displayName": "Off Peak",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "92.34"
+                    "dailySupplyCharges": "145.00"
                 },
                 {
                     "endDate": "09-30",
@@ -109,26 +110,27 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "volume": 6083,
-                                "unitPrice": "2.113"
+                                "volume": 100,
+                                "unitPrice": "2.85"
                             },
                             {
-                                "volume": 6083,
-                                "unitPrice": "2.093"
+                                "volume": 100,
+                                "unitPrice": "2.80"
                             },
                             {
-                                "volume": 73000,
-                                "unitPrice": "1.805"
+                                "volume": 1200,
+                                "unitPrice": "2.70"
                             },
                             {
-                                "unitPrice": "1.76"
+                                "unitPrice": "2.50"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Peak"
                     },
                     "displayName": "Peak",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "92.34"
+                    "dailySupplyCharges": "145.00"
                 }
             ],
             "billFrequency": [
@@ -138,14 +140,14 @@
                 "PAPER_BILL"
             ],
             "coolingOffDays": 10,
-            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+            "onExpiryDescription": "Contract ends 30 April 2024. Before the end date, you will be notified that when your contract terminates we will continue to sell you energy under a Standard Retail Contract unless you enter into a new retail contract."
         },
-        "lastUpdated": "2023-01-01T15:00:09Z",
+        "lastUpdated": "2023-02-10T04:06:39Z",
         "customerType": "BUSINESS",
-        "effectiveFrom": "2022-12-12T13:00:00Z"
+        "effectiveFrom": "2023-02-20T13:00:00Z"
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/lumo/cds-au/v1/energy/plans/LU2433482SS@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/lumo/cds-au/v1/energy/plans/LU2445246MS@VEC"
     }
 }

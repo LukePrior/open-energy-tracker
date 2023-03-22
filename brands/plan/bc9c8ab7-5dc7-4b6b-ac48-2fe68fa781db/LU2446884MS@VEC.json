@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "lumo",
-        "planId": "LU2444887MS@VEC",
+        "planId": "LU2446884MS@VEC",
         "fuelType": "GAS",
         "brandName": "Lumo Energy",
         "geography": {
@@ -10,57 +10,47 @@
                 "Australian Gas Networks"
             ],
             "includedPostcodes": [
-                "3000",
-                "3002",
-                "3003",
-                "3005",
-                "3008",
-                "3050",
-                "3051",
-                "3052",
-                "3053",
-                "3054",
-                "3056",
-                "3057",
-                "3065",
-                "3066",
-                "3067",
-                "3068",
-                "3070",
-                "3071",
-                "3072",
-                "3073",
-                "3074",
-                "3075",
-                "3076",
-                "3078",
-                "3079",
-                "3081",
-                "3082",
-                "3083",
-                "3084",
-                "3085",
-                "3087",
-                "3088",
-                "3089",
-                "3090",
-                "3091",
-                "3093",
-                "3094",
-                "3095",
-                "3096",
-                "3099",
-                "3121",
-                "3750",
-                "3751",
-                "3752",
-                "3754",
-                "3759",
-                "3821"
+                "3561",
+                "3564",
+                "3612",
+                "3616",
+                "3618",
+                "3620",
+                "3621",
+                "3622",
+                "3623",
+                "3624",
+                "3629",
+                "3630",
+                "3631",
+                "3658",
+                "3659",
+                "3660",
+                "3662",
+                "3663",
+                "3664",
+                "3665",
+                "3666",
+                "3669",
+                "3670",
+                "3672",
+                "3677",
+                "3678",
+                "3683",
+                "3688",
+                "3690",
+                "3691",
+                "3694",
+                "3722",
+                "3753",
+                "3756",
+                "3757",
+                "3758",
+                "3763",
+                "3764"
             ]
         },
         "displayName": "Lumo Basic",
-        "effectiveTo": "2023-03-14T13:00:00Z",
         "gasContract": {
             "terms": "For full terms and conditions applicable to this offer, please visit https://www.lumoenergy.com.au/terms.",
             "isFixed": false,
@@ -76,7 +66,7 @@
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "This offer is available to small business customers within the Australian Gas Network Central 2 distribution zone and is subject to the identification of the network tariff and metering requirements."
+                    "information": "This offer is available to small business customers within the Australian Gas Network North distribution zone and is subject to the identification of the network tariff and metering requirements."
                 }
             ],
             "pricingModel": "SINGLE_RATE",
@@ -88,7 +78,7 @@
                         "rates": [
                             {
                                 "volume": 50,
-                                "unitPrice": "3.23"
+                                "unitPrice": "3.20"
                             },
                             {
                                 "volume": 500,
@@ -96,10 +86,10 @@
                             },
                             {
                                 "volume": 820,
-                                "unitPrice": "2.80"
+                                "unitPrice": "2.74"
                             },
                             {
-                                "unitPrice": "2.74"
+                                "unitPrice": "2.527"
                             }
                         ],
                         "period": "P1D",
@@ -107,7 +97,7 @@
                     },
                     "displayName": "Anytime",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "102.18"
+                    "dailySupplyCharges": "102.60"
                 }
             ],
             "billFrequency": [
@@ -119,12 +109,12 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Your contract is ongoing until it is ended by you or us. No exit fees."
         },
-        "lastUpdated": "2023-03-14T23:01:32Z",
+        "lastUpdated": "2023-02-21T23:52:57Z",
         "customerType": "BUSINESS",
-        "effectiveFrom": "2023-02-20T13:00:00Z"
+        "effectiveFrom": "2023-02-23T13:00:00Z"
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/lumo/cds-au/v1/energy/plans/LU2444887MS@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/lumo/cds-au/v1/energy/plans/LU2446884MS@VEC"
     }
 }
