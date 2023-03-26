@@ -2,63 +2,44 @@
     "data": {
         "type": "MARKET",
         "brand": "simply-energy",
-        "planId": "SIM421183MR@VEC",
+        "planId": "SIM421182MR@VEC",
         "fuelType": "GAS",
         "brandName": "Simply Energy",
         "geography": {
             "distributors": [
-                "Australian Gas Networks"
+                "AusNet Services (gas)"
             ],
             "includedPostcodes": [
-                "3000",
-                "3002",
-                "3003",
-                "3005",
-                "3008",
-                "3050",
-                "3051",
-                "3052",
-                "3053",
-                "3054",
-                "3055",
-                "3056",
-                "3057",
-                "3064",
-                "3065",
-                "3066",
-                "3067",
-                "3068",
-                "3070",
-                "3071",
-                "3072",
-                "3073",
-                "3074",
-                "3075",
-                "3076",
-                "3078",
-                "3079",
-                "3081",
-                "3082",
-                "3083",
-                "3084",
-                "3085",
-                "3087",
-                "3088",
-                "3089",
-                "3090",
-                "3091",
-                "3093",
-                "3094",
-                "3095",
-                "3096",
-                "3097",
-                "3099",
-                "3121",
-                "3750",
-                "3752",
-                "3754",
-                "3759",
-                "3770"
+                "3249",
+                "3250",
+                "3266",
+                "3277",
+                "3280",
+                "3282",
+                "3300",
+                "3305",
+                "3340",
+                "3342",
+                "3350",
+                "3352",
+                "3355",
+                "3356",
+                "3357",
+                "3374",
+                "3401",
+                "3430",
+                "3437",
+                "3444",
+                "3450",
+                "3451",
+                "3460",
+                "3461",
+                "3464",
+                "3465",
+                "3550",
+                "3551",
+                "3555",
+                "3556"
             ]
         },
         "displayName": "VIC - Simply for Good Gas",
@@ -66,16 +47,16 @@
         "gasContract": {
             "fees": [
                 {
-                    "rate": "0.36",
-                    "term": "PERCENT_OF_BILL",
-                    "type": "CC_PROCESSING",
-                    "description": "You may be charged credit card fees in all channels (other than direct debit) of 0.36% for Mastercard."
-                },
-                {
                     "rate": "0.42",
                     "term": "PERCENT_OF_BILL",
                     "type": "CC_PROCESSING",
                     "description": "You may be charged credit card fees in all channels (other than direct debit) of 0.42% for Visa."
+                },
+                {
+                    "rate": "0.36",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "You may be charged credit card fees in all channels (other than direct debit) of 0.36% for Mastercard."
                 },
                 {
                     "term": "FIXED",
@@ -110,22 +91,26 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "volume": 27,
-                                "unitPrice": "3.65"
+                                "volume": 100,
+                                "unitPrice": "2.40"
                             },
                             {
-                                "volume": 22,
-                                "unitPrice": "3.07"
+                                "volume": 100,
+                                "unitPrice": "2.35"
                             },
                             {
-                                "unitPrice": "2.57"
+                                "volume": 1200,
+                                "unitPrice": "2.22"
+                            },
+                            {
+                                "unitPrice": "2.06"
                             }
                         ],
                         "displayName": "Off Peak"
                     },
                     "displayName": "Summer",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "77.17"
+                    "dailySupplyCharges": "87.65"
                 },
                 {
                     "endDate": "09-30",
@@ -133,22 +118,26 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "volume": 27,
-                                "unitPrice": "3.65"
+                                "volume": 100,
+                                "unitPrice": "2.94"
                             },
                             {
-                                "volume": 22,
-                                "unitPrice": "3.07"
+                                "volume": 100,
+                                "unitPrice": "2.90"
                             },
                             {
-                                "unitPrice": "2.57"
+                                "volume": 1200,
+                                "unitPrice": "2.30"
+                            },
+                            {
+                                "unitPrice": "2.29"
                             }
                         ],
                         "displayName": "Peak"
                     },
                     "displayName": "Winter",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "77.17"
+                    "dailySupplyCharges": "87.65"
                 },
                 {
                     "endDate": "12-31",
@@ -156,22 +145,26 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "volume": 27,
-                                "unitPrice": "3.65"
+                                "volume": 100,
+                                "unitPrice": "2.40"
                             },
                             {
-                                "volume": 22,
-                                "unitPrice": "3.07"
+                                "volume": 100,
+                                "unitPrice": "2.35"
                             },
                             {
-                                "unitPrice": "2.57"
+                                "volume": 1200,
+                                "unitPrice": "2.22"
+                            },
+                            {
+                                "unitPrice": "2.06"
                             }
                         ],
                         "displayName": "Off Peak"
                     },
                     "displayName": "Summer",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "77.17"
+                    "dailySupplyCharges": "87.65"
                 }
             ],
             "billFrequency": [
@@ -189,6 +182,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/simply-energy/cds-au/v1/energy/plans/SIM421183MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/simply-energy/cds-au/v1/energy/plans/SIM421182MR@VEC"
     }
 }
