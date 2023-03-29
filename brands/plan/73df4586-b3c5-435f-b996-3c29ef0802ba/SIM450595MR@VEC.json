@@ -60,7 +60,8 @@
             ]
         },
         "displayName": "VIC - Simply Energy Saver+ 16% elec",
-        "lastUpdated": "2023-03-22T08:07:37Z",
+        "effectiveTo": "2023-03-27T13:00:00Z",
+        "lastUpdated": "2023-03-28T03:17:21Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-03-23T13:00:00Z",
         "electricityContract": {

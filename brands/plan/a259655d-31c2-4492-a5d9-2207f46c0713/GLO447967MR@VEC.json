@@ -17,7 +17,7 @@
             ]
         },
         "displayName": "GloBird  ComboGLOSAVE Residential(Yarra Valley Gas Extension)-Multinet",
-        "effectiveTo": "2024-03-05T13:00:00Z",
+        "effectiveTo": "2023-03-27T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -126,7 +126,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discount percentage or rates."
         },
-        "lastUpdated": "2023-03-06T02:00:25Z",
+        "lastUpdated": "2023-03-28T12:33:28Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-03-06T13:00:00Z"
     },
