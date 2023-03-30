@@ -1,0 +1,212 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "red-energy",
+        "planId": "RED451777MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Red Energy",
+        "geography": {
+            "distributors": [
+                "United Energy"
+            ],
+            "includedPostcodes": [
+                "3104",
+                "3105",
+                "3106",
+                "3107",
+                "3108",
+                "3109",
+                "3111",
+                "3114",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3127",
+                "3128",
+                "3129",
+                "3130",
+                "3131",
+                "3132",
+                "3133",
+                "3144",
+                "3145",
+                "3146",
+                "3147",
+                "3148",
+                "3149",
+                "3150",
+                "3151",
+                "3152",
+                "3161",
+                "3162",
+                "3163",
+                "3165",
+                "3166",
+                "3167",
+                "3168",
+                "3169",
+                "3170",
+                "3171",
+                "3172",
+                "3173",
+                "3174",
+                "3175",
+                "3177",
+                "3178",
+                "3179",
+                "3182",
+                "3183",
+                "3184",
+                "3185",
+                "3186",
+                "3187",
+                "3188",
+                "3189",
+                "3190",
+                "3191",
+                "3192",
+                "3193",
+                "3194",
+                "3195",
+                "3196",
+                "3197",
+                "3198",
+                "3199",
+                "3200",
+                "3201",
+                "3202",
+                "3204",
+                "3800",
+                "3802",
+                "3803",
+                "3910",
+                "3911",
+                "3912",
+                "3913",
+                "3915",
+                "3916",
+                "3918",
+                "3919",
+                "3920",
+                "3926",
+                "3927",
+                "3928",
+                "3929",
+                "3930",
+                "3931",
+                "3933",
+                "3934",
+                "3936",
+                "3937",
+                "3938",
+                "3939",
+                "3940",
+                "3941",
+                "3942",
+                "3943",
+                "3944",
+                "3975",
+                "3976",
+                "3977"
+            ]
+        },
+        "displayName": "Red Wildlife Saver",
+        "lastUpdated": "2023-03-27T02:25:11Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-03-29T13:00:00Z",
+        "electricityContract": {
+            "terms": "For full terms and conditions applicable to this offer, please visit https://www.redenergy.com.au/terms. We will issue your bill at least quarterly, or if you have a Smart Meter, monthly, unless you have requested to be billed quarterly or your Smart Meter does not have active telecommunications.",
+            "isFixed": false,
+            "timeZone": "AEST",
+            "variation": "We may vary your rates in line with our Terms and Conditions and in accordance with the Relevant Laws. We will give you written notice of at least 5 business days prior to the variation.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Supporting Taronga & Wildlife",
+                    "displayName": "Supporting Taronga & Wildlife",
+                    "eligibility": "Red will contribute $5 to Taronga Conservation Society Australia for each calendar month you are on the Red Wildlife Saver plan, starting from the date we become responsible for your electricity supply"
+                },
+                {
+                    "category": "OTHER",
+                    "description": "Renewable Matching Promise",
+                    "displayName": "Renewable Matching Promise",
+                    "eligibility": "For every unit of electricity you buy from Red Energy, Snowy Hydro Limited will match it by generating one unit of electricity from a renewable source"
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is available to residential customers within the United distribution zone with applicable network tariff. To take up this offer or for more information you will need to phone Red Energy on 131 806."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "20.10"
+                            }
+                        ],
+                        "description": "Anytime",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "96.78"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0484",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "Red Energy offers 100% GreenPower for an extra 4.84 cents per kWh. Please contact us on 131 806 for more information.",
+                    "displayName": "GreenPower 100"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Feed in Tariff",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "6.20"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "Premium Feed in Tariff",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "66.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us"
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1/energy/plans/RED451777MR@VEC"
+    }
+}
