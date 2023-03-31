@@ -1,0 +1,145 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "red-energy",
+        "planId": "RED538818MRG1@EME",
+        "fuelType": "GAS",
+        "brandName": "Red Energy",
+        "geography": {
+            "distributors": [
+                "AGN - Brisbane and Riverview"
+            ],
+            "includedPostcodes": [
+                "4000",
+                "4005",
+                "4006",
+                "4007",
+                "4008",
+                "4009",
+                "4010",
+                "4011",
+                "4012",
+                "4013",
+                "4014",
+                "4017",
+                "4018",
+                "4019",
+                "4020",
+                "4021",
+                "4022",
+                "4030",
+                "4031",
+                "4032",
+                "4034",
+                "4035",
+                "4036",
+                "4037",
+                "4051",
+                "4053",
+                "4054",
+                "4055",
+                "4059",
+                "4060",
+                "4061",
+                "4064",
+                "4065",
+                "4066",
+                "4067",
+                "4068",
+                "4069",
+                "4114",
+                "4116",
+                "4172",
+                "4207",
+                "4209",
+                "4300",
+                "4301",
+                "4303",
+                "4304",
+                "4305",
+                "4306",
+                "4500",
+                "4501",
+                "4502",
+                "4503",
+                "4504",
+                "4505",
+                "4506",
+                "4508",
+                "4509",
+                "4510",
+                "4511",
+                "4512",
+                "4516",
+                "4520",
+                "4567"
+            ]
+        },
+        "displayName": "Living Energy Saver",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "Connection fee (GST incl) for standard move in requests during business hours. Fees may vary. See Additional Fee Information for details."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "Disconnection fee (GST incl) generally applies for any move-out request. Fees may vary. See Additional Fee Information for details."
+                }
+            ],
+            "terms": "For full terms and conditions applicable to this offer, please visit https://www.redenergy.com.au/terms-and-conditions",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "We may vary your rates in line with our Customer Charter at any time by written notice to you (which may be after the variation date). If we increase your rates, we will provide written notice at least 10 business days prior to the variation.",
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 8.2,
+                                "unitPrice": "6.1"
+                            },
+                            {
+                                "volume": 19.2,
+                                "unitPrice": "4.2"
+                            },
+                            {
+                                "volume": null,
+                                "unitPrice": "2.8"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "General usage",
+                        "displayName": "Anytime"
+                    },
+                    "displayName": "Single Rate Tariff Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "82.00"
+                }
+            ],
+            "billFrequency": [
+                "P3M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY",
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": "10",
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us"
+        },
+        "lastUpdated": "2023-03-30T05:02:23.363Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-03-30T00:00:00.000Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1/energy/plans/RED538818MRG1@EME"
+    }
+}

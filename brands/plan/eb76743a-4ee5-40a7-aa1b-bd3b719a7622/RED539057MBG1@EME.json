@@ -1,0 +1,122 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "red-energy",
+        "planId": "RED539057MBG1@EME",
+        "fuelType": "GAS",
+        "brandName": "Red Energy",
+        "geography": {
+            "distributors": [
+                "Evoenergy ACT"
+            ],
+            "includedPostcodes": [
+                "2600",
+                "2601",
+                "2602",
+                "2603",
+                "2604",
+                "2605",
+                "2606",
+                "2607",
+                "2609",
+                "2611",
+                "2612",
+                "2614",
+                "2615",
+                "2617",
+                "2618",
+                "2900",
+                "2902",
+                "2903",
+                "2904",
+                "2905",
+                "2906",
+                "2911",
+                "2912",
+                "2913",
+                "2914"
+            ]
+        },
+        "displayName": "Qantas Red Business Saver",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "Connection fee (GST incl) for standard move in requests during business hours. Fees may vary. See Additional Fee Information for details."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "Disconnection fee (GST incl) generally applies for any move-out request. Fees may vary. See Additional Fee Information for details."
+                }
+            ],
+            "terms": "For full terms and conditions applicable to this offer, please visit https://www.redenergy.com.au/terms.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "We may vary your rates in line with our Customer Charter at any time by written notice to you. Notice will be given at least 5 business day prior to the variation.",
+            "eligibility": [
+                {
+                    "type": "NEW_CUSTOMER",
+                    "description": "This offer is only available to new customers"
+                },
+                {
+                    "type": "LOYALTY_MEMBER",
+                    "description": "Only available to business customers with ABN and a valid Qantas business rewards membership. The ABN on your energy account must match the ABN registered to your Qantas Business Rewards membership.",
+                    "information": "QANTAS"
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 41.096,
+                                "unitPrice": "3.06"
+                            },
+                            {
+                                "volume": 442.192,
+                                "unitPrice": "2.55"
+                            },
+                            {
+                                "volume": 1489.315,
+                                "unitPrice": "2.318"
+                            },
+                            {
+                                "volume": null,
+                                "unitPrice": "2.136"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "General usage",
+                        "displayName": "Anytime"
+                    },
+                    "displayName": "Single Rate Tariff Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "55.99"
+                }
+            ],
+            "billFrequency": [
+                "P3M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY",
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": "10",
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us"
+        },
+        "lastUpdated": "2023-03-30T05:02:20.379Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2023-03-30T00:00:00.000Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1/energy/plans/RED539057MBG1@EME"
+    }
+}
