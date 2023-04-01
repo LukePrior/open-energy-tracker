@@ -48,6 +48,7 @@
             ]
         },
         "displayName": "eSelect PLUS",
+        "effectiveTo": "2023-03-30T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -163,7 +164,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Our market agreement is ongoing and may be ended by you or us in accordance with the terms of our agreement."
         },
-        "lastUpdated": "2023-03-22T08:15:24Z",
+        "lastUpdated": "2023-03-31T04:53:23Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-03-22T13:00:00Z"
     },
