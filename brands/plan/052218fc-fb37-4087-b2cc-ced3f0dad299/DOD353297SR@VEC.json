@@ -73,6 +73,7 @@
             ]
         },
         "displayName": "Residential Standing - Australian Gas Networks Central 2",
+        "effectiveTo": "2023-04-01T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -163,7 +164,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Standard contracts do not expire"
         },
-        "lastUpdated": "2021-11-29T09:13:42Z",
+        "lastUpdated": "2023-04-02T11:00:50Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2021-12-31T13:00:00Z"
     },
