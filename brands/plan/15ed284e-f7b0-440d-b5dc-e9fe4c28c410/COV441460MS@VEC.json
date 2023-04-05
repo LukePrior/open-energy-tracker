@@ -327,7 +327,8 @@
             ]
         },
         "displayName": "Super Saver Online Business Time Of Use 5-Day (ND2)",
-        "lastUpdated": "2023-01-12T03:23:52Z",
+        "effectiveTo": "2023-04-03T14:00:00Z",
+        "lastUpdated": "2023-04-04T01:55:03Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-01-15T13:00:00Z",
         "electricityContract": {

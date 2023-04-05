@@ -112,7 +112,8 @@
             ]
         },
         "displayName": "Super Saver Online Business Single Rate + CL",
-        "lastUpdated": "2023-01-12T03:23:56Z",
+        "effectiveTo": "2023-04-03T14:00:00Z",
+        "lastUpdated": "2023-04-04T01:55:05Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-01-15T13:00:00Z",
         "electricityContract": {

@@ -1,0 +1,299 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "covau",
+        "planId": "COV479812MRE2@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "CovaU",
+        "geography": {
+            "distributors": [
+                "TasNetworks"
+            ],
+            "includedPostcodes": [
+                "7000",
+                "7004",
+                "7005",
+                "7007",
+                "7008",
+                "7009",
+                "7010",
+                "7011",
+                "7012",
+                "7015",
+                "7016",
+                "7017",
+                "7018",
+                "7019",
+                "7020",
+                "7021",
+                "7022",
+                "7023",
+                "7024",
+                "7025",
+                "7026",
+                "7027",
+                "7030",
+                "7050",
+                "7052",
+                "7053",
+                "7054",
+                "7055",
+                "7109",
+                "7112",
+                "7113",
+                "7116",
+                "7117",
+                "7119",
+                "7120",
+                "7139",
+                "7140",
+                "7150",
+                "7155",
+                "7162",
+                "7163",
+                "7170",
+                "7171",
+                "7172",
+                "7173",
+                "7174",
+                "7175",
+                "7176",
+                "7177",
+                "7178",
+                "7179",
+                "7180",
+                "7182",
+                "7183",
+                "7184",
+                "7185",
+                "7186",
+                "7187",
+                "7190",
+                "7209",
+                "7210",
+                "7211",
+                "7212",
+                "7213",
+                "7214",
+                "7215",
+                "7216",
+                "7248",
+                "7249",
+                "7250",
+                "7252",
+                "7253",
+                "7254",
+                "7258",
+                "7259",
+                "7260",
+                "7261",
+                "7262",
+                "7263",
+                "7264",
+                "7265",
+                "7267",
+                "7268",
+                "7270",
+                "7275",
+                "7276",
+                "7277",
+                "7290",
+                "7291",
+                "7292",
+                "7300",
+                "7301",
+                "7302",
+                "7303",
+                "7304",
+                "7305",
+                "7306",
+                "7307",
+                "7310",
+                "7315",
+                "7316",
+                "7320",
+                "7321",
+                "7322",
+                "7325",
+                "7330",
+                "7331",
+                "7466",
+                "7467",
+                "7468",
+                "7469",
+                "7470"
+            ]
+        },
+        "displayName": "Freedom Online Residential TOU",
+        "lastUpdated": "2023-04-04T07:40:31.459Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-04-04T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "$93.19 (inc. GST) fee may apply when your property is disconnected. This fee is passed through from your distributor and may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "description": "$93.19 (inc. GST) fee may apply when your property is reconnected. This fee is passed through from your distributor and may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "description": "$9.50 (inc. GST) Direct debit dishonour payment fee"
+                },
+                {
+                    "rate": "0.82",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A 0.82% (inc. GST) fee may apply to payments made by debit and credit cards."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CHEQUE_DISHONOUR",
+                    "description": "$9.50 (inc. GST) Cheque dishonour payment fee"
+                },
+                {
+                    "rate": "0.8",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A 0.803% (inc. GST) applies to credit card payments via Australia Post."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "$59.15 (inc. GST) Special Meter Read fee. This fee is passed through from your distributor and may vary."
+                }
+            ],
+            "terms": "See our full terms and conditions to www.covau.com.au for details.",
+            "isFixed": false,
+            "timeZone": "AEST",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "description": "Discounts applied to GST inclusive energy usage charges prior to solar credit.",
+                    "displayName": "Guaranteed discount on usage charges",
+                    "methodUType": "percentOfUse",
+                    "percentOfUse": {
+                        "rate": "5"
+                    }
+                }
+            ],
+            "variation": "We may vary your rates in line with our Terms and Conditions at any time by written notice to you. Notice will be given at least 5 business days prior to the variation.",
+            "meterTypes": [
+                "Type 4",
+                "Type 4a",
+                "Type 5",
+                "Type 6"
+            ],
+            "eligibility": [
+                {
+                    "type": "ONLINE_ONLY",
+                    "description": "Offer only available to customers who sign up via the CovaU website."
+                }
+            ],
+            "pricingModel": "TIME_OF_USE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "Time of Use Tariff Period",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "name": "Peak",
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "40.14"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        null
+                                    ],
+                                    "endTime": "959",
+                                    "startTime": "700"
+                                },
+                                {
+                                    "days": [
+                                        null
+                                    ],
+                                    "endTime": "2059",
+                                    "startTime": "1600"
+                                }
+                            ],
+                            "description": "Mon - Fri, 07:00 - 10:00; Mon - Fri, 16:00 - 21:00"
+                        },
+                        {
+                            "name": "Off Peak",
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "24.64"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        null
+                                    ],
+                                    "endTime": "1559",
+                                    "startTime": "1000"
+                                },
+                                {
+                                    "days": [
+                                        null
+                                    ],
+                                    "endTime": "659",
+                                    "startTime": "2100"
+                                },
+                                {
+                                    "days": [
+                                        null,
+                                        null
+                                    ],
+                                    "endTime": "2359",
+                                    "startTime": "0"
+                                }
+                            ],
+                            "description": "Mon - Fri, 10:00 - 16:00; Mon - Fri, 21:00 - 07:00; Sat - Sun"
+                        }
+                    ],
+                    "dailySupplyCharges": "105.28"
+                }
+            ],
+            "billFrequency": [
+                "P1M",
+                "P3M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY"
+            ],
+            "coolingOffDays": "10",
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Feed In Tariff | All kWh/day",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "8.883"
+                    }
+                }
+            ],
+            "onExpiryDescription": "This agreement continues until you or we end it."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/covau/cds-au/v1/energy/plans/COV479812MRE2@EME"
+    }
+}
