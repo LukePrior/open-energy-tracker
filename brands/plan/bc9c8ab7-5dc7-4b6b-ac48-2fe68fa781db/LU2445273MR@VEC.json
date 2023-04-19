@@ -60,7 +60,8 @@
             ]
         },
         "displayName": "Lumo Value",
-        "lastUpdated": "2023-02-10T04:06:41Z",
+        "effectiveTo": "2023-04-18T14:00:00Z",
+        "lastUpdated": "2023-04-18T21:06:49Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-02-20T13:00:00Z",
         "electricityContract": {

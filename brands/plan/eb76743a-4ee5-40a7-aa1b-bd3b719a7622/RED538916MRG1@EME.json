@@ -1,77 +1,8 @@
 {
-    "data": {
-        "type": "MARKET",
-        "brand": "red-energy",
-        "planId": "RED538916MRG1@EME",
-        "fuelType": "GAS",
-        "brandName": "Red Energy",
-        "geography": {
-            "distributors": [
-                "AGN Adelong, Gundagai and Tumut"
-            ],
-            "includedPostcodes": [
-                "2720",
-                "2722",
-                "2729"
-            ]
-        },
-        "displayName": "Red Fixed Saver",
-        "gasContract": {
-            "fees": [
-                {
-                    "term": "FIXED",
-                    "type": "CONNECTION",
-                    "description": "Connection fee (GST incl) for standard move in requests during business hours. Fees may vary. See Additional Fee Information for details."
-                },
-                {
-                    "term": "FIXED",
-                    "type": "DISCONNECTION",
-                    "description": "Disconnection fee (GST incl) generally applies for any move-out request. Fees may vary. See Additional Fee Information for details."
-                }
-            ],
-            "terms": "For full terms and conditions applicable to this offer, please visit https://www.redenergy.com.au/terms.",
-            "isFixed": true,
-            "timeZone": "LOCAL",
-            "variation": "This plan offers fixed rates until 01 Jan 2024, after which rates may be varied. You will receive written notice of any such variation at least 5 business days prior to it taking effect.",
-            "pricingModel": "SINGLE_RATE",
-            "tariffPeriod": [
-                {
-                    "endDate": "06-30",
-                    "startDate": "07-01",
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "volume": null,
-                                "unitPrice": "3.38"
-                            }
-                        ],
-                        "period": "P1D",
-                        "description": "General usage",
-                        "displayName": "Anytime"
-                    },
-                    "displayName": "Single Rate Tariff Period",
-                    "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "88.00"
-                }
-            ],
-            "billFrequency": [
-                "P3M"
-            ],
-            "paymentOption": [
-                "DIRECT_DEBIT",
-                "CREDIT_CARD",
-                "BPAY",
-                "PAPER_BILL"
-            ],
-            "coolingOffDays": "10",
-            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
-        },
-        "lastUpdated": "2023-03-30T05:02:24.778Z",
-        "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2023-03-30T00:00:00.000Z"
-    },
-    "meta": {},
-    "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1/energy/plans/RED538916MRG1@EME"
-    }
+    "errors": [
+        {
+            "code": "urn:au-cds:error:cds-all:Resource/NotFound",
+            "title": "Resource Not Found"
+        }
+    ]
 }

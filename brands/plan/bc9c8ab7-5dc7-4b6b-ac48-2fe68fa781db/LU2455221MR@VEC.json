@@ -1,0 +1,141 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "lumo",
+        "planId": "LU2455221MR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Lumo Energy",
+        "geography": {
+            "distributors": [
+                "Australian Gas Networks"
+            ],
+            "includedPostcodes": [
+                "3561",
+                "3564",
+                "3612",
+                "3616",
+                "3618",
+                "3620",
+                "3621",
+                "3622",
+                "3623",
+                "3624",
+                "3629",
+                "3630",
+                "3631",
+                "3658",
+                "3659",
+                "3660",
+                "3662",
+                "3663",
+                "3664",
+                "3665",
+                "3666",
+                "3669",
+                "3670",
+                "3672",
+                "3677",
+                "3678",
+                "3683",
+                "3688",
+                "3690",
+                "3691",
+                "3694",
+                "3722",
+                "3753",
+                "3756",
+                "3757",
+                "3758",
+                "3763",
+                "3764"
+            ]
+        },
+        "displayName": "Lumo Value",
+        "gasContract": {
+            "terms": "For full terms and conditions applicable to this offer, please visit https://www.lumoenergy.com.au/terms",
+            "isFixed": true,
+            "termType": "OTHER",
+            "variation": "-",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Fixed Rates until 30 June 2024",
+                    "displayName": "Fixed Rates until 30 June 2024",
+                    "eligibility": "Rates are fixed for the duration of the contract"
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is available to residential customers within the Australian Gas Network North distribution zone and is subject to the identification of the network tariff and metering requirements."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 27,
+                                "unitPrice": "3.98"
+                            },
+                            {
+                                "volume": 21,
+                                "unitPrice": "3.45"
+                            },
+                            {
+                                "unitPrice": "2.50"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Off Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "102.80"
+                },
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 27,
+                                "unitPrice": "3.98"
+                            },
+                            {
+                                "volume": 21,
+                                "unitPrice": "3.45"
+                            },
+                            {
+                                "unitPrice": "2.50"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "102.80"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Contract ends 30 June 2024. Before the end date, you will be notified that when your contract terminates we will continue to sell you energy under a Standard Retail Contract unless you enter into a new retail contract."
+        },
+        "lastUpdated": "2023-04-12T04:27:54Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-04-18T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/lumo/cds-au/v1/energy/plans/LU2455221MR@VEC"
+    }
+}
