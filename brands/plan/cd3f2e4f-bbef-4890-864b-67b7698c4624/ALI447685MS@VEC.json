@@ -327,7 +327,8 @@
             ]
         },
         "displayName": "BusinessDeal Qantas - SR + CL",
-        "lastUpdated": "2023-02-28T05:11:28Z",
+        "effectiveTo": "2023-04-20T14:00:00Z",
+        "lastUpdated": "2023-04-20T22:43:09Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-03-01T13:00:00Z",
         "electricityContract": {
