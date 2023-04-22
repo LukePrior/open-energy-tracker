@@ -15,7 +15,7 @@
             ]
         },
         "displayName": "GloBird GLOSAVE Residential(Adjoining Central)-AusNet Services (gas)",
-        "effectiveTo": "2024-04-04T13:00:00Z",
+        "effectiveTo": "2023-04-20T14:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -124,7 +124,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discount percentage or rates."
         },
-        "lastUpdated": "2023-04-05T02:22:24Z",
+        "lastUpdated": "2023-04-21T04:12:16Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-04-05T14:00:00Z"
     },
