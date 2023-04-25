@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "Thrifty Business_A120",
-        "lastUpdated": "2023-03-15T06:15:36Z",
+        "effectiveTo": "2023-04-24T14:00:00Z",
+        "lastUpdated": "2023-04-25T00:10:59Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-03-19T13:00:00Z",
         "electricityContract": {

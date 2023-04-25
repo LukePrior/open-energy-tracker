@@ -112,8 +112,8 @@
             ]
         },
         "displayName": "Sumo Assure (Two Rate Plus Controlled Load)",
-        "effectiveTo": "2023-07-30T14:00:00Z",
-        "lastUpdated": "2023-04-06T01:59:50Z",
+        "effectiveTo": "2023-04-23T14:00:00Z",
+        "lastUpdated": "2023-04-24T04:58:27Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-03-30T13:00:00Z",
         "electricityContract": {

@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "Suit Yourself Electricity_A100",
-        "lastUpdated": "2023-02-16T03:43:57Z",
+        "effectiveTo": "2023-04-24T14:00:00Z",
+        "lastUpdated": "2023-04-25T00:22:51Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-02-28T13:00:00Z",
         "electricityContract": {

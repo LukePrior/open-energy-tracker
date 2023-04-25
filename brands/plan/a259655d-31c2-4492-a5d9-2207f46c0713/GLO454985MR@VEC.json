@@ -275,8 +275,8 @@
             ]
         },
         "displayName": "GloBird  GREENLIGHT Residential (Flat Rate With Controlled Load)-AusNet Services (electricity)",
-        "effectiveTo": "2024-04-04T13:00:00Z",
-        "lastUpdated": "2023-04-05T02:18:24Z",
+        "effectiveTo": "2023-04-23T14:00:00Z",
+        "lastUpdated": "2023-04-24T07:42:31Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-04-05T14:00:00Z",
         "electricityContract": {
