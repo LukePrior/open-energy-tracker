@@ -346,7 +346,8 @@
             ]
         },
         "displayName": "sonnenFlat - Autonomy",
-        "lastUpdated": "2022-08-22T02:51:50.504Z",
+        "effectiveTo": "2023-05-01T00:00:00.000Z",
+        "lastUpdated": "2023-04-28T01:47:18.514Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-22T00:00:00.000Z",
         "meteringCharges": [

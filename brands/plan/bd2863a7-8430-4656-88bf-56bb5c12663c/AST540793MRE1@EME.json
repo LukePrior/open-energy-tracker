@@ -33,7 +33,8 @@
             ]
         },
         "displayName": "Arcstream Flexi BLNT3AL/BLNC1AU",
-        "lastUpdated": "2023-04-06T02:38:03.962Z",
+        "effectiveTo": "2023-05-01T00:00:00.000Z",
+        "lastUpdated": "2023-04-28T05:19:29.297Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-04-06T00:00:00.000Z",
         "meteringCharges": [

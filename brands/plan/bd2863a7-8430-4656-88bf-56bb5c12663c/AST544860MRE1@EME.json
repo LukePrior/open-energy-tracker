@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Arcstream Flexi EA025/EA030",
-        "lastUpdated": "2023-04-14T05:55:36.112Z",
+        "effectiveTo": "2023-05-01T00:00:00.000Z",
+        "lastUpdated": "2023-04-28T05:19:31.975Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-04-14T00:00:00.000Z",
         "meteringCharges": [
