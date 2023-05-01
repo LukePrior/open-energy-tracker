@@ -112,7 +112,8 @@
             ]
         },
         "displayName": "Home Select",
-        "lastUpdated": "2023-03-20T00:39:19Z",
+        "effectiveTo": "2023-04-30T14:00:00Z",
+        "lastUpdated": "2023-04-30T22:07:24Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-03-19T13:00:00Z",
         "electricityContract": {

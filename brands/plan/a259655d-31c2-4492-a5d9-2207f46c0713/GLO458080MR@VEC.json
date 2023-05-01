@@ -275,8 +275,8 @@
             ]
         },
         "displayName": "GloBird  Combo GLOSAVE Residential (Flat Rate With Controlled Load)-AusNet Services (electricity)",
-        "effectiveTo": "2024-04-23T14:00:00Z",
-        "lastUpdated": "2023-04-24T06:25:25Z",
+        "effectiveTo": "2023-04-29T14:00:00Z",
+        "lastUpdated": "2023-04-30T07:09:45Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-04-24T14:00:00Z",
         "electricityContract": {

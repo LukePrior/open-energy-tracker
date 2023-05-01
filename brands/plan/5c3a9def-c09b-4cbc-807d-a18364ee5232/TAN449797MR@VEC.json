@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "eSelect",
-        "lastUpdated": "2023-03-20T00:39:17Z",
+        "effectiveTo": "2023-04-30T14:00:00Z",
+        "lastUpdated": "2023-04-30T22:05:53Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-03-19T13:00:00Z",
         "electricityContract": {

@@ -314,6 +314,7 @@
             ]
         },
         "displayName": "Sumo Assure Residential Gas",
+        "effectiveTo": "2023-05-05T00:00:00.000Z",
         "gasContract": {
             "fees": [
                 {
@@ -392,7 +393,7 @@
             "coolingOffDays": "10",
             "onExpiryDescription": "No contract term."
         },
-        "lastUpdated": "2022-03-25T01:02:30.451Z",
+        "lastUpdated": "2023-05-01T00:28:06.983Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-03-25T00:00:00.000Z"
     },
