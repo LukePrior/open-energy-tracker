@@ -1,0 +1,304 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "next-business",
+        "planId": "NEX551717MBE1@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Next Business Energy",
+        "geography": {
+            "distributors": [
+                "Endeavour"
+            ],
+            "includedPostcodes": [
+                "2113",
+                "2114",
+                "2115",
+                "2116",
+                "2117",
+                "2118",
+                "2119",
+                "2120",
+                "2121",
+                "2122",
+                "2125",
+                "2126",
+                "2142",
+                "2145",
+                "2146",
+                "2147",
+                "2148",
+                "2150",
+                "2151",
+                "2152",
+                "2153",
+                "2154",
+                "2155",
+                "2156",
+                "2157",
+                "2158",
+                "2159",
+                "2160",
+                "2161",
+                "2162",
+                "2163",
+                "2164",
+                "2165",
+                "2166",
+                "2167",
+                "2168",
+                "2170",
+                "2171",
+                "2172",
+                "2173",
+                "2174",
+                "2175",
+                "2176",
+                "2177",
+                "2178",
+                "2179",
+                "2198",
+                "2200",
+                "2213",
+                "2214",
+                "2233",
+                "2250",
+                "2257",
+                "2283",
+                "2304",
+                "2323",
+                "2325",
+                "2328",
+                "2329",
+                "2330",
+                "2500",
+                "2502",
+                "2505",
+                "2506",
+                "2508",
+                "2515",
+                "2516",
+                "2517",
+                "2518",
+                "2519",
+                "2525",
+                "2526",
+                "2527",
+                "2528",
+                "2529",
+                "2530",
+                "2533",
+                "2534",
+                "2535",
+                "2536",
+                "2537",
+                "2538",
+                "2539",
+                "2540",
+                "2541",
+                "2555",
+                "2556",
+                "2557",
+                "2558",
+                "2559",
+                "2560",
+                "2563",
+                "2564",
+                "2565",
+                "2566",
+                "2567",
+                "2568",
+                "2569",
+                "2570",
+                "2571",
+                "2572",
+                "2573",
+                "2574",
+                "2575",
+                "2576",
+                "2577",
+                "2578",
+                "2579",
+                "2580",
+                "2622",
+                "2745",
+                "2747",
+                "2748",
+                "2749",
+                "2750",
+                "2751",
+                "2752",
+                "2753",
+                "2754",
+                "2756",
+                "2757",
+                "2758",
+                "2759",
+                "2760",
+                "2761",
+                "2762",
+                "2763",
+                "2765",
+                "2766",
+                "2767",
+                "2768",
+                "2769",
+                "2770",
+                "2773",
+                "2774",
+                "2775",
+                "2776",
+                "2777",
+                "2778",
+                "2779",
+                "2780",
+                "2782",
+                "2783",
+                "2784",
+                "2785",
+                "2786",
+                "2787",
+                "2790",
+                "2795",
+                "2800",
+                "2845",
+                "2846",
+                "2847",
+                "2848",
+                "2849",
+                "2850"
+            ]
+        },
+        "displayName": "Next Assured Bus 5% GTD Anytime + Dmd (kVA) BUS",
+        "lastUpdated": "2023-05-01T03:59:54.727Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2023-05-01T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "rate": "1.95",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "1.95% (GST exempt) AMEX credit card payment processing fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "description": "This charge may vary, to confirm this charge and all other charges please refer to our website or contact us for details."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "This charge may vary, to confirm this charge and all other charges please refer to our website or contact us for details."
+                },
+                {
+                    "rate": "0.77",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "0.77% (GST exempt) Visa & Mastercard credit card payment processing fee"
+                }
+            ],
+            "terms": "The sale of electricity to the Customer is subject to Next Business Energy's Market Terms and Conditions, which are available on its website at www.nextbusinessenergy.com.au.",
+            "isFixed": false,
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "description": "This offer includes a guaranteed 5% discount on the market rates and charges. This discount will be shown as a separate item on your bill.",
+                    "displayName": "5% Guaranteed Discount",
+                    "methodUType": "percentOfBill",
+                    "percentOfBill": {
+                        "rate": "5"
+                    }
+                }
+            ],
+            "variation": "Next Business Energy will not change the pricing for this product until 1 October 2023",
+            "meterTypes": [
+                "Type 4",
+                "Type 4a",
+                "Type 5",
+                "Type 6"
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 27.4,
+                                "unitPrice": "28.41"
+                            },
+                            {
+                                "volume": null,
+                                "unitPrice": "28.41"
+                            }
+                        ],
+                        "period": "P1M",
+                        "description": "Any time",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Single Rate Tariff Period",
+                    "demandCharges": [
+                        {
+                            "days": {
+                                "sunday": false,
+                                "saturday": false,
+                                "weekdays": false
+                            },
+                            "amount": "21.00",
+                            "endTime": "0000",
+                            "startTime": "0000",
+                            "description": "Demand Charge  All kVA (c/kVA Daily). Uses the maximum kVA consumption from the meter readings within the period Jan - Jun, Mon - Fri, 13:00 - 20:00.",
+                            "displayName": "High Season Demand",
+                            "chargePeriod": "TARIFF_PERIOD",
+                            "measurementPeriod": "TARIFF_PERIOD"
+                        },
+                        {
+                            "days": {
+                                "sunday": false,
+                                "saturday": false,
+                                "weekdays": false
+                            },
+                            "amount": "7.32",
+                            "endTime": "0000",
+                            "startTime": "0000",
+                            "description": "Demand Charge  All kVA (c/kVA Daily). Uses the maximum kVA consumption from the meter readings within the period Jul - Dec, Mon - Fri, 16:00 - 20:00.",
+                            "displayName": "Low Season Demand",
+                            "chargePeriod": "TARIFF_PERIOD",
+                            "measurementPeriod": "TARIFF_PERIOD"
+                        }
+                    ],
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "90.57"
+                }
+            ],
+            "billFrequency": [
+                "P1M",
+                "P3M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY"
+            ],
+            "coolingOffDays": "10",
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "RFIT | All kWh/day",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "7.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "This contract continues for as long as you choose to remain on the plan."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/next-business/cds-au/v1/energy/plans/NEX551717MBE1@EME"
+    }
+}
