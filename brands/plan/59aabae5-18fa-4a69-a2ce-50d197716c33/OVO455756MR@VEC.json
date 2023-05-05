@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "The Basic Plan Welcome Credit",
-        "lastUpdated": "2023-04-12T04:30:31Z",
+        "effectiveTo": "2023-05-03T14:00:00Z",
+        "lastUpdated": "2023-05-04T12:41:05Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-04-10T14:00:00Z",
         "electricityContract": {
