@@ -327,7 +327,8 @@
             ]
         },
         "displayName": "Strictly Business_D1",
-        "lastUpdated": "2023-04-24T06:25:16Z",
+        "effectiveTo": "2023-05-05T14:00:00Z",
+        "lastUpdated": "2023-05-05T15:10:08Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-04-24T14:00:00Z",
         "electricityContract": {
