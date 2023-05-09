@@ -17,6 +17,7 @@
             ]
         },
         "displayName": "eSelect",
+        "effectiveTo": "2023-05-08T14:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -120,7 +121,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Our market agreement is ongoing and may be ended by you or us in accordance with the terms of our agreement."
         },
-        "lastUpdated": "2023-04-28T07:45:37Z",
+        "lastUpdated": "2023-05-08T23:37:09Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-04-30T14:00:00Z"
     },
