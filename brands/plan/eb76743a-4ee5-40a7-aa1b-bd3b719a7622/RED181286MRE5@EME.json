@@ -211,7 +211,8 @@
             ]
         },
         "displayName": "Red BCNA Saver",
-        "lastUpdated": "2022-07-21T14:07:12.527Z",
+        "effectiveTo": "2023-05-18T00:00:00.000Z",
+        "lastUpdated": "2023-05-10T01:23:00.876Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-22T00:00:00.000Z",
         "meteringCharges": [

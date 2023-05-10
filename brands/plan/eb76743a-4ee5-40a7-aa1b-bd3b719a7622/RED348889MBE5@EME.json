@@ -211,7 +211,8 @@
             ]
         },
         "displayName": "Qantas Red Business Plus (Demand - 3800, 3600)",
-        "lastUpdated": "2022-07-21T14:08:31.125Z",
+        "effectiveTo": "2023-05-18T00:00:00.000Z",
+        "lastUpdated": "2023-05-10T01:25:51.424Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-07-22T00:00:00.000Z",
         "meteringCharges": [

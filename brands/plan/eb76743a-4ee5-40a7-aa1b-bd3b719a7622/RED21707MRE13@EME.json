@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Qantas Red Saver (Bundled)",
-        "lastUpdated": "2022-12-19T14:08:08.445Z",
+        "effectiveTo": "2023-05-18T00:00:00.000Z",
+        "lastUpdated": "2023-05-10T01:20:43.817Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-12-20T00:00:00.000Z",
         "meteringCharges": [

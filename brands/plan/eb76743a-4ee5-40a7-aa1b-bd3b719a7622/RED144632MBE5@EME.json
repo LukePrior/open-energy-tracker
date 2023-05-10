@@ -346,7 +346,8 @@
             ]
         },
         "displayName": "Red Business Saver (Demand - SBTOUD)",
-        "lastUpdated": "2022-07-21T14:06:53.597Z",
+        "effectiveTo": "2023-05-18T00:00:00.000Z",
+        "lastUpdated": "2023-05-10T01:24:26.255Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-07-22T00:00:00.000Z",
         "meteringCharges": [

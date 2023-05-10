@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Red BCNA Saver (DMD-EA251,EA255,EA256)",
-        "lastUpdated": "2022-12-19T14:06:14.217Z",
+        "effectiveTo": "2023-05-18T00:00:00.000Z",
+        "lastUpdated": "2023-05-10T01:34:01.149Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-12-20T00:00:00.000Z",
         "meteringCharges": [

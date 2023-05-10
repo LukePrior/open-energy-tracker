@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Red BCNA Saver (Demand - EA302)",
-        "lastUpdated": "2022-12-19T14:06:13.860Z",
+        "effectiveTo": "2023-05-18T00:00:00.000Z",
+        "lastUpdated": "2023-05-10T01:34:01.326Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-12-20T00:00:00.000Z",
         "meteringCharges": [

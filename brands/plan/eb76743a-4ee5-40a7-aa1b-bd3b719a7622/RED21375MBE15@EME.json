@@ -169,7 +169,8 @@
             ]
         },
         "displayName": "Red Business Saver (Demand - N92, N93)",
-        "lastUpdated": "2022-12-19T14:07:00.090Z",
+        "effectiveTo": "2023-05-18T00:00:00.000Z",
+        "lastUpdated": "2023-05-10T01:24:18.761Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-12-20T00:00:00.000Z",
         "meteringCharges": [

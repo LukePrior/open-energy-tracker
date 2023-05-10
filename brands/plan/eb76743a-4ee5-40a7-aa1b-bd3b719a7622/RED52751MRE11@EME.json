@@ -169,7 +169,8 @@
             ]
         },
         "displayName": "Red Taronga Flex",
-        "lastUpdated": "2022-12-19T14:06:50.562Z",
+        "effectiveTo": "2023-05-18T00:00:00.000Z",
+        "lastUpdated": "2023-05-10T01:30:36.427Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-12-20T00:00:00.000Z",
         "meteringCharges": [

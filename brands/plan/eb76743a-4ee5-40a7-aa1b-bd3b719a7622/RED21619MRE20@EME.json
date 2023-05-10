@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Living Energy Saver (Demand - EA111, EA115, EA116)",
-        "lastUpdated": "2022-12-19T14:07:47.413Z",
+        "effectiveTo": "2023-05-18T00:00:00.000Z",
+        "lastUpdated": "2023-05-10T01:17:58.192Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-12-20T00:00:00.000Z",
         "meteringCharges": [

@@ -346,7 +346,8 @@
             ]
         },
         "displayName": "Living Energy Saver",
-        "lastUpdated": "2022-07-21T14:06:52.284Z",
+        "effectiveTo": "2023-05-18T00:00:00.000Z",
+        "lastUpdated": "2023-05-10T01:18:13.862Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-22T00:00:00.000Z",
         "meteringCharges": [

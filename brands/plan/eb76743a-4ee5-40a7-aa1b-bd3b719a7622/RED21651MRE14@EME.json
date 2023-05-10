@@ -169,7 +169,8 @@
             ]
         },
         "displayName": "Qantas Red Saver (Bundled) (Demand - N72, N73)",
-        "lastUpdated": "2022-12-19T14:07:44.742Z",
+        "effectiveTo": "2023-05-18T00:00:00.000Z",
+        "lastUpdated": "2023-05-10T01:20:51.715Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-12-20T00:00:00.000Z",
         "meteringCharges": [

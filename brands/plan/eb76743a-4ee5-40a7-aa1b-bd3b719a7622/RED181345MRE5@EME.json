@@ -346,7 +346,8 @@
             ]
         },
         "displayName": "Red BCNA Saver (TOUCL)",
-        "lastUpdated": "2022-07-21T14:07:14.074Z",
+        "effectiveTo": "2023-05-18T00:00:00.000Z",
+        "lastUpdated": "2023-05-10T01:23:02.676Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-22T00:00:00.000Z",
         "meteringCharges": [

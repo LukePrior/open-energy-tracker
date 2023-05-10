@@ -211,7 +211,8 @@
             ]
         },
         "displayName": "Qantas Red Business Plus (TOU Interval - 6800)",
-        "lastUpdated": "2022-07-21T14:08:31.421Z",
+        "effectiveTo": "2023-05-18T00:00:00.000Z",
+        "lastUpdated": "2023-05-10T01:25:51.606Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-07-22T00:00:00.000Z",
         "meteringCharges": [
