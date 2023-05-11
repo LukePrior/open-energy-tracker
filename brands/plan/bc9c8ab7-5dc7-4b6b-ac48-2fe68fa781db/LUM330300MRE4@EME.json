@@ -346,7 +346,8 @@
             ]
         },
         "displayName": "Lumo Elgas Plus (TOUCL)",
-        "lastUpdated": "2023-03-03T00:23:49.728Z",
+        "effectiveTo": "2023-05-18T00:00:00.000Z",
+        "lastUpdated": "2023-05-10T01:36:52.328Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-03-03T00:00:00.000Z",
         "meteringCharges": [

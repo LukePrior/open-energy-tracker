@@ -169,7 +169,8 @@
             ]
         },
         "displayName": "Red Wildlife Saver (TOU Seasonal - N71)",
-        "lastUpdated": "2023-03-29T14:05:59.159Z",
+        "effectiveTo": "2023-05-18T00:00:00.000Z",
+        "lastUpdated": "2023-05-10T01:32:25.946Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-03-30T00:00:00.000Z",
         "meteringCharges": [

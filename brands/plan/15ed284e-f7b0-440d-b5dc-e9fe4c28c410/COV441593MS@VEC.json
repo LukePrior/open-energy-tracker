@@ -133,6 +133,7 @@
             ]
         },
         "displayName": "Super Saver Business Gas Multinet",
+        "effectiveTo": "2023-05-10T14:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -281,7 +282,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with our Market Retail Terms &Conditions"
         },
-        "lastUpdated": "2023-01-12T03:23:58Z",
+        "lastUpdated": "2023-05-10T23:40:16Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-01-15T13:00:00Z"
     },

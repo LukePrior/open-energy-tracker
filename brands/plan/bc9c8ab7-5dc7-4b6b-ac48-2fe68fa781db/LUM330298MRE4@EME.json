@@ -346,7 +346,8 @@
             ]
         },
         "displayName": "Lumo Elgas Plus",
-        "lastUpdated": "2023-03-03T00:23:49.989Z",
+        "effectiveTo": "2023-05-18T00:00:00.000Z",
+        "lastUpdated": "2023-05-10T01:36:52.233Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-03-03T00:00:00.000Z",
         "meteringCharges": [

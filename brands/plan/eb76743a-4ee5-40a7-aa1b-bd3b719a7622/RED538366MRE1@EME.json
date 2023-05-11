@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Red Wildlife Saver (TOU Transitional - EA011)",
-        "lastUpdated": "2023-03-29T14:05:58.878Z",
+        "effectiveTo": "2023-05-18T00:00:00.000Z",
+        "lastUpdated": "2023-05-10T01:32:18.361Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-03-30T00:00:00.000Z",
         "meteringCharges": [

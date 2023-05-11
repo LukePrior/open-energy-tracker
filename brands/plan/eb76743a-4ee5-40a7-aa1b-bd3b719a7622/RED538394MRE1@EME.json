@@ -211,7 +211,8 @@
             ]
         },
         "displayName": "Red Wildlife Saver (Demand - 3900,3700)",
-        "lastUpdated": "2023-03-29T14:06:06.694Z",
+        "effectiveTo": "2023-05-18T00:00:00.000Z",
+        "lastUpdated": "2023-05-10T01:32:08.030Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-03-30T00:00:00.000Z",
         "meteringCharges": [
