@@ -566,5 +566,12 @@
         "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
         "publicBaseUri": "https://cdr.energymadeeasy.gov.au/zen-energy",
         "lastUpdated": "2022-10-21T05:35:24Z"
+    },
+    "a53e525f-5ca0-4764-9617-3d2c161d828c": {
+        "interimId": "a53e525f-5ca0-4764-9617-3d2c161d828c",
+        "brandName": "Pacific Blue Retail",
+        "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
+        "publicBaseUri": "https://cdr.energymadeeasy.gov.au/pacific-blue",
+        "lastUpdated": "2023-05-12T04:15:27Z"
     }
 }
