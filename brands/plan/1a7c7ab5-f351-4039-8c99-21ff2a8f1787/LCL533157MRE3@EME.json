@@ -1,0 +1,551 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "energy-locals",
+        "planId": "LCL533157MRE3@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Energy Locals",
+        "geography": {
+            "distributors": [
+                "Essential Energy Far West",
+                "Essential Energy Standard",
+                "Essential Energy"
+            ],
+            "includedPostcodes": [
+                "2311",
+                "2312",
+                "2320",
+                "2321",
+                "2324",
+                "2329",
+                "2337",
+                "2338",
+                "2339",
+                "2340",
+                "2341",
+                "2342",
+                "2343",
+                "2344",
+                "2345",
+                "2346",
+                "2347",
+                "2350",
+                "2352",
+                "2353",
+                "2354",
+                "2355",
+                "2356",
+                "2357",
+                "2358",
+                "2359",
+                "2360",
+                "2361",
+                "2365",
+                "2369",
+                "2370",
+                "2371",
+                "2372",
+                "2379",
+                "2380",
+                "2381",
+                "2382",
+                "2386",
+                "2387",
+                "2388",
+                "2390",
+                "2395",
+                "2396",
+                "2397",
+                "2398",
+                "2399",
+                "2400",
+                "2401",
+                "2402",
+                "2403",
+                "2404",
+                "2405",
+                "2406",
+                "2408",
+                "2409",
+                "2410",
+                "2411",
+                "2415",
+                "2420",
+                "2421",
+                "2422",
+                "2423",
+                "2424",
+                "2425",
+                "2426",
+                "2427",
+                "2428",
+                "2429",
+                "2430",
+                "2431",
+                "2439",
+                "2440",
+                "2441",
+                "2443",
+                "2444",
+                "2445",
+                "2446",
+                "2447",
+                "2448",
+                "2449",
+                "2450",
+                "2452",
+                "2453",
+                "2454",
+                "2455",
+                "2456",
+                "2460",
+                "2462",
+                "2463",
+                "2464",
+                "2465",
+                "2466",
+                "2469",
+                "2470",
+                "2471",
+                "2472",
+                "2473",
+                "2474",
+                "2475",
+                "2476",
+                "2477",
+                "2478",
+                "2479",
+                "2480",
+                "2481",
+                "2482",
+                "2483",
+                "2484",
+                "2485",
+                "2486",
+                "2487",
+                "2488",
+                "2489",
+                "2490",
+                "2536",
+                "2537",
+                "2539",
+                "2545",
+                "2546",
+                "2548",
+                "2549",
+                "2550",
+                "2551",
+                "2577",
+                "2579",
+                "2580",
+                "2581",
+                "2582",
+                "2583",
+                "2584",
+                "2585",
+                "2586",
+                "2587",
+                "2588",
+                "2590",
+                "2594",
+                "2611",
+                "2618",
+                "2619",
+                "2620",
+                "2621",
+                "2622",
+                "2623",
+                "2624",
+                "2625",
+                "2626",
+                "2627",
+                "2628",
+                "2629",
+                "2630",
+                "2631",
+                "2632",
+                "2633",
+                "2640",
+                "2641",
+                "2642",
+                "2643",
+                "2644",
+                "2645",
+                "2646",
+                "2647",
+                "2648",
+                "2649",
+                "2650",
+                "2651",
+                "2652",
+                "2653",
+                "2655",
+                "2656",
+                "2658",
+                "2659",
+                "2660",
+                "2661",
+                "2663",
+                "2665",
+                "2666",
+                "2668",
+                "2669",
+                "2671",
+                "2672",
+                "2675",
+                "2678",
+                "2680",
+                "2681",
+                "2700",
+                "2701",
+                "2702",
+                "2703",
+                "2705",
+                "2706",
+                "2707",
+                "2710",
+                "2711",
+                "2712",
+                "2713",
+                "2714",
+                "2715",
+                "2716",
+                "2717",
+                "2720",
+                "2721",
+                "2722",
+                "2725",
+                "2726",
+                "2727",
+                "2729",
+                "2730",
+                "2731",
+                "2732",
+                "2733",
+                "2734",
+                "2735",
+                "2736",
+                "2737",
+                "2738",
+                "2739",
+                "2787",
+                "2790",
+                "2791",
+                "2792",
+                "2793",
+                "2794",
+                "2795",
+                "2797",
+                "2798",
+                "2799",
+                "2800",
+                "2803",
+                "2804",
+                "2805",
+                "2806",
+                "2807",
+                "2808",
+                "2809",
+                "2810",
+                "2817",
+                "2818",
+                "2820",
+                "2821",
+                "2822",
+                "2823",
+                "2824",
+                "2825",
+                "2826",
+                "2827",
+                "2828",
+                "2829",
+                "2830",
+                "2831",
+                "2832",
+                "2833",
+                "2834",
+                "2835",
+                "2836",
+                "2838",
+                "2839",
+                "2840",
+                "2842",
+                "2843",
+                "2844",
+                "2849",
+                "2850",
+                "2852",
+                "2864",
+                "2865",
+                "2866",
+                "2867",
+                "2868",
+                "2869",
+                "2870",
+                "2871",
+                "2873",
+                "2874",
+                "2875",
+                "2876",
+                "2877",
+                "2878",
+                "2879",
+                "2880",
+                "3644",
+                "3691",
+                "3707",
+                "4352",
+                "4357",
+                "4380",
+                "4382",
+                "4383",
+                "4384",
+                "4385",
+                "4387",
+                "4388",
+                "4390",
+                "4406",
+                "4422",
+                "4486",
+                "4487",
+                "4494",
+                "4496",
+                "4497",
+                "4498"
+            ]
+        },
+        "displayName": "Online Member + 6 Months Free Membership",
+        "lastUpdated": "2023-05-16T23:39:35.486Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-05-17T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "ANNUAL",
+                    "type": "MEMBERSHIP",
+                    "description": "Access wholesale energy rates with $14.99/month membership fee."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "description": "Charged when full payment has not been received by the invoice due date. This charge is not subject to GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "description": "Charged when a direct debit payment has dishonoured or reversed. This charge is not subject to GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "May be charged when you move into a property or change retailer. Actual fee may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECT_MOVE_OUT",
+                    "description": "May be charged when you move out and require a final meter read. Actual fee may vary."
+                },
+                {
+                    "rate": "0.81",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "We accept Visa, Mastercard and AMEX for payments via our secure Westpac payment portal at energylocals.com.au/pay-by-card. A credit card processing fee of 0.81% or a debit card processing fee of 0.46% will be applied when paying with these card types. Please note that processing fees for payments made via direct debit using a credit or debit card will be waived."
+                }
+            ],
+            "terms": "Energy Locals offers no lock in contracts or exit fees. Prices may vary in accordance with the terms and conditions. See energylocals.com.au/terms for full terms and conditions.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "description": "Sign up to this plan between 10 Mar 2023 and 30 Jun 2023 to receive 6 months free membership to be applied as monthly instalments of $14.99 to your account following successful transfer or connection. Available to new residential accounts in New South Wales only. T&Cs apply and by signing up to this plan you accept such T&Cs. See https://energylocals.com.au/terms-and-conditions/ for full details.",
+                    "displayName": "6 Months Free Membership",
+                    "fixedAmount": {
+                        "amount": "89.94"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "Due to changes in the market and economic conditions, we may update your tariff and/or fees. We will provide at least 5 business days' notice before the change takes place.",
+            "meterTypes": [
+                "Type 4",
+                "Type 4a",
+                "Type 5",
+                "Type 6"
+            ],
+            "pricingModel": "TIME_OF_USE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "Time of Use Tariff Period",
+                    "demandCharges": [
+                        {
+                            "days": {
+                                "sunday": false,
+                                "saturday": false,
+                                "weekdays": false
+                            },
+                            "amount": "13.64",
+                            "endTime": "0000",
+                            "startTime": "0000",
+                            "description": "Demand Charge  All kW (c/kW Daily). Uses the maximum kW consumption from the meter readings within the period Mon - Fri, 17:00 - 20:00.",
+                            "displayName": "Peak Demand",
+                            "chargePeriod": "TARIFF_PERIOD",
+                            "measurementPeriod": "TARIFF_PERIOD"
+                        }
+                    ],
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "name": "Peak",
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "20.00"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        null
+                                    ],
+                                    "endTime": "1959",
+                                    "startTime": "1700"
+                                }
+                            ],
+                            "description": "Mon - Fri, 17:00 - 20:00"
+                        },
+                        {
+                            "name": "Off Peak",
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "18.1818"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        null
+                                    ],
+                                    "endTime": "659",
+                                    "startTime": "2200"
+                                },
+                                {
+                                    "days": [
+                                        null,
+                                        null
+                                    ],
+                                    "endTime": "2359",
+                                    "startTime": "0"
+                                }
+                            ],
+                            "description": "Mon - Fri, 22:00 - 07:00; Sat - Sun"
+                        },
+                        {
+                            "name": "Shoulder",
+                            "type": "SHOULDER",
+                            "rates": [
+                                {
+                                    "unitPrice": "20.00"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        null
+                                    ],
+                                    "endTime": "1659",
+                                    "startTime": "700"
+                                },
+                                {
+                                    "days": [
+                                        null
+                                    ],
+                                    "endTime": "2159",
+                                    "startTime": "2000"
+                                }
+                            ],
+                            "description": "Mon - Fri, 07:00 - 17:00; Mon - Fri, 20:00 - 22:00"
+                        }
+                    ],
+                    "dailySupplyCharges": "120.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M",
+                "P3M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT"
+            ],
+            "coolingOffDays": "10",
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0039",
+                            "percentGreen": "10"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "10% GreenPower option.",
+                    "displayName": "10% GreenPower option."
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0195",
+                            "percentGreen": "50"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "50% GreenPower option.",
+                    "displayName": "50% GreenPower option."
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.039",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "100% GreenPower option.",
+                    "displayName": "100% GreenPower option."
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Retailer Feed-in Tariff (inc. GST, if any) | First 10 kWh/day",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "11.00"
+                    }
+                },
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Retailer Feed-in Tariff (inc. GST, if any) | All Remaining kWh/day",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "6.2"
+                    }
+                }
+            ],
+            "onExpiryDescription": "No fixed contract."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/LCL533157MRE3@EME"
+    }
+}
