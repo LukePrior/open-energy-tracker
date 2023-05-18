@@ -65,6 +65,7 @@
             ]
         },
         "displayName": "VIC Simply Energy Saver 5% gas",
+        "effectiveTo": "2023-05-16T14:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -216,7 +217,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Ongoing energy plan until you or we end it. We may end this energy plan at any time by giving you 20 Business Days notice."
         },
-        "lastUpdated": "2023-05-15T04:18:11Z",
+        "lastUpdated": "2023-05-17T04:18:26Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-05-16T14:00:00Z"
     },

@@ -18,6 +18,7 @@
             ]
         },
         "displayName": "Red BCNA Saver",
+        "effectiveTo": "2023-05-17T14:00:00Z",
         "gasContract": {
             "terms": "For full terms and conditions applicable to this offer, please visit https://www.redenergy.com.au/termsandconditions",
             "isFixed": false,
@@ -86,7 +87,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
         },
-        "lastUpdated": "2023-04-12T04:31:46Z",
+        "lastUpdated": "2023-05-17T21:39:09Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-04-18T14:00:00Z"
     },

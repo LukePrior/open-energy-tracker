@@ -1,0 +1,221 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "pacific-blue",
+        "planId": "PA1457980SR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Pacific Blue Retail",
+        "geography": {
+            "distributors": [
+                "Jemena"
+            ],
+            "includedPostcodes": [
+                "3011",
+                "3012",
+                "3013",
+                "3015",
+                "3016",
+                "3019",
+                "3020",
+                "3023",
+                "3025",
+                "3031",
+                "3032",
+                "3033",
+                "3034",
+                "3036",
+                "3037",
+                "3038",
+                "3039",
+                "3040",
+                "3041",
+                "3042",
+                "3043",
+                "3044",
+                "3045",
+                "3046",
+                "3047",
+                "3048",
+                "3049",
+                "3051",
+                "3052",
+                "3058",
+                "3059",
+                "3060",
+                "3061",
+                "3062",
+                "3063",
+                "3064",
+                "3068",
+                "3070",
+                "3072",
+                "3073",
+                "3074",
+                "3076",
+                "3078",
+                "3079",
+                "3081",
+                "3083",
+                "3084",
+                "3085",
+                "3086",
+                "3087",
+                "3335",
+                "3336",
+                "3337",
+                "3340",
+                "3427",
+                "3428",
+                "3429",
+                "3430",
+                "3431",
+                "3437",
+                "3750",
+                "3753"
+            ]
+        },
+        "displayName": "Residential Victorian Default Offer",
+        "lastUpdated": "2023-04-21T02:11:02Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-04-26T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "56.73",
+                    "description": "$56.73 (inc. GST) Standard rates apply during business hours. Fees may vary and will be quoted on request.\nUsage aggregated according to Australian Eastern Standard Time (AEST). Your usage may be adjusted for local time (Australian Daylight Savings Time). Further information on our charges is available at: http://pacificblue.com.au/additional-charges"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "81.35",
+                    "description": "$81.34 (inc. GST) Standard rates apply during business hours. Fees may vary and will be quoted on request."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "7.50",
+                    "description": "Dishonour fee. $7.50 (exc. GST) if your payment is dishonoured or reversed."
+                }
+            ],
+            "terms": "Full terms and conditions applicable to this offer are available at https://pacificblue.com.au/terms-and-conditions",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "Unless otherwise permitted, we will notify you in advance before any variation takes effect in accordance with energy laws.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is restricted. To be eligible for this offer, Pacific Blue must be the current financially responsible market participant for the electricity meter at your premises. This offer is only available to customers in the relevant distribution area on an applicable network tariff."
+                }
+            ],
+            "pricingModel": "TIME_OF_USE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "Period",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "26.9727"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "2100",
+                                    "startTime": "1500"
+                                }
+                            ],
+                            "displayName": "Peak"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "16.5727"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "1500",
+                                    "startTime": "0000"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "2100"
+                                }
+                            ],
+                            "displayName": "Off Peak"
+                        }
+                    ],
+                    "dailySupplyCharges": "105.245"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "PFiT",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                },
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "RFiT",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.20"
+                    }
+                }
+            ],
+            "onExpiryDescription": "No fixed term"
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/pacific-blue/cds-au/v1/energy/plans/PA1457980SR@VEC"
+    }
+}

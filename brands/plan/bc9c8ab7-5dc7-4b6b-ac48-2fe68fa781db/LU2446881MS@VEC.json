@@ -42,6 +42,7 @@
             ]
         },
         "displayName": "Lumo Basic",
+        "effectiveTo": "2023-05-17T14:00:00Z",
         "gasContract": {
             "terms": "For full terms and conditions applicable to this offer, please visit https://www.lumoenergy.com.au/terms.",
             "isFixed": false,
@@ -128,7 +129,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Your contract is ongoing until it is ended by you or us. No exit fees."
         },
-        "lastUpdated": "2023-02-21T23:52:57Z",
+        "lastUpdated": "2023-05-17T21:40:51Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-02-23T13:00:00Z"
     },

@@ -1,0 +1,244 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "energy-locals",
+        "planId": "ENE461974MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Energy Locals",
+        "geography": {
+            "distributors": [
+                "Citipower"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
+                "3011",
+                "3031",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3078",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
+            ]
+        },
+        "displayName": "TEP - ToU 21 + CL + $100 Welcome Credit",
+        "lastUpdated": "2023-05-01T23:46:44Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-04-30T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "amount": "13.00",
+                    "description": "A $13.00 fee applies for each bill that's paid after the due date. This fee is not subject to GST.\nAll normal fees are listed here however in some circumstances, your local distributor may charge fees for certain additional services such as a home move. See energylocals.com.au/fees"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "53.09",
+                    "description": "Move-in connection fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "PAYMENT_PROCESSING",
+                    "amount": "2.00",
+                    "description": "Paper bill fee"
+                },
+                {
+                    "rate": "0.81",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "We accept Visa and Mastercard payments via pay.energylocals.com.au. Debit card transactions are subject to a 0.46% fee, and credit card payments incur a 0.81% fee. Credit and debit card processing fees are waived for Direct Debit payments."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "10.00",
+                    "description": "Direct debit dishonour payment fee. This fee is not subject to GST."
+                }
+            ],
+            "terms": "Available to residential customers with a Tesla Powerwall 2 at their premises. Your solar PV system must not exceed 15kW for each Powerwall at the premises the system is installed. You agree to have a smart meter installed if one is not already operating at your premises. Welcome credit is available to offset electricity charges and may not be withdrawn or converted into cash. See www.energylocals.com.au/tesla-energy-plan-tou-terms-Citipower.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "category": "OTHER",
+                    "description": "Receive $220 (incl GST) in Grid Support Credits each year for each Powerwall you have connected. The applicable portion of the $220 (incl GST) in Grid Support Credits will be calculated daily and appear as a credit on your bill each month.",
+                    "displayName": "Grid Support Credit",
+                    "fixedAmount": {
+                        "amount": "200.00"
+                    },
+                    "methodUType": "fixedAmount"
+                },
+                {
+                    "type": "GUARANTEED",
+                    "category": "OTHER",
+                    "description": "When you connect to the Tesla Energy Plan with an existing Powerwall, you will receive a Welcome Credit of $100 (incl GST). The credit will be applied at month 3 after your transfer date. Welcome credit is available to offset charges and may not be withdrawn or converted into cash. Available to customers who currently own a Powerwall and transfer their electricity to the Tesla Energy Plan. See terms for details. Available to new customers only.",
+                    "displayName": "Welcome Credit",
+                    "fixedAmount": {
+                        "amount": "90.9091"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "This plan may be repriced up to once per calendar year",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Must have Tesla Powerwall 2 connected to internet via Wi-Fi or Ethernet and must not have network supply voltages that exceed normal inverter operating limits. This plan requires a smart meter, if additional metering supply works are required this cost will be worn by you."
+                }
+            ],
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "Year-round",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "30.00"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "2100",
+                                    "startTime": "1500"
+                                }
+                            ],
+                            "displayName": "Peak"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "17.20"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "1500",
+                                    "startTime": "0000"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "2100"
+                                }
+                            ],
+                            "displayName": "Off Peak"
+                        }
+                    ],
+                    "dailySupplyCharges": "109.10"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "17.20"
+                            }
+                        ],
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Controlled Load",
+                    "rateBlockUType": "singleRate"
+                }
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Retailer feed-in tariff, (incl. GST, if any).",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "6.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "No fixed contract."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/ENE461974MR@VEC"
+    }
+}

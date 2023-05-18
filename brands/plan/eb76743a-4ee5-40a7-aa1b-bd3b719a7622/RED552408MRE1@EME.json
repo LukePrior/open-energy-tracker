@@ -1,0 +1,170 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "red-energy",
+        "planId": "RED552408MRE1@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Red Energy",
+        "geography": {
+            "distributors": [
+                "Evoenergy"
+            ],
+            "includedPostcodes": [
+                "2600",
+                "2601",
+                "2602",
+                "2603",
+                "2604",
+                "2605",
+                "2606",
+                "2607",
+                "2609",
+                "2611",
+                "2612",
+                "2614",
+                "2615",
+                "2617",
+                "2618",
+                "2620",
+                "2900",
+                "2902",
+                "2903",
+                "2904",
+                "2905",
+                "2906",
+                "2911",
+                "2912",
+                "2913",
+                "2914"
+            ]
+        },
+        "displayName": "Qantas Red Saver (Bundled) (010)",
+        "lastUpdated": "2023-05-17T14:07:35.881Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-05-18T00:00:00.000Z",
+        "meteringCharges": [
+            {
+                "description": "Charges may vary, please contact us on 131 806 for specific metering charges.",
+                "displayName": "Metering Cost",
+                "minimumValue": "0.00"
+            }
+        ],
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "Connection fee (GST incl) for standard move in requests during business hours. Fees may vary. See Additional Fee Information for details."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "Disconnection fee (GST incl) generally applies for any move-out request. Fees may vary. See Additional Fee Information for details."
+                }
+            ],
+            "terms": "For full terms and conditions applicable to this offer, please visit https://www.redenergy.com.au/terms. Billing frequency is monthly for a smart meter or at least quarterly if basic or manually read. Solar Feed-In Terms and Conditions can be found at https://www.redenergy.com.au/solar-feed-in-tariffs",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "We may vary your rates in line with our Customer Charter at any time by written notice to you. Notice will be given at least 5 business day prior to the variation.",
+            "meterTypes": [
+                "Type 4",
+                "Type 4a",
+                "Type 5",
+                "Type 6"
+            ],
+            "eligibility": [
+                {
+                    "type": "NEW_CUSTOMER",
+                    "description": "This offer is only available to new customers"
+                },
+                {
+                    "type": "LOYALTY_MEMBER",
+                    "description": "Only available to Qantas Red business customers who are nominated as a Director or Authorised Person on a Qantas Red business plan who are also an account holder on a Qantas Red residential premises.",
+                    "information": "QANTAS"
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": null,
+                                "unitPrice": "24.491"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "General Usage",
+                        "displayName": "Anytime"
+                    },
+                    "displayName": "Single Rate Tariff Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "85.00"
+                }
+            ],
+            "billFrequency": [
+                "P3M",
+                "P1M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY",
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": "10",
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0484",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "Red Energy offers 100% GreenPower for an extra 4.84 cents per kWh. Please contact us on 131 806 for more information."
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Retailer contribution (GST inc. if any)",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "6.00"
+                    }
+                },
+                {
+                    "scheme": "OTHER",
+                    "payerType": "GOVERNMENT",
+                    "description": "Government contribution - Feed-in scheme 10 2009-2029 (GST incl if any)",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "40.65"
+                    }
+                },
+                {
+                    "scheme": "OTHER",
+                    "payerType": "GOVERNMENT",
+                    "description": "Government contribution -Feed-in scheme 30 2010-2030 (GST incl if any)",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "36.3"
+                    }
+                }
+            ],
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1/energy/plans/RED552408MRE1@EME"
+    }
+}
