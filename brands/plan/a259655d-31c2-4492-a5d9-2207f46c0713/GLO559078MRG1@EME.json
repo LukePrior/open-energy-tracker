@@ -1,0 +1,251 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "globird",
+        "planId": "GLO559078MRG1@EME",
+        "fuelType": "GAS",
+        "brandName": "Globird Energy",
+        "geography": {
+            "distributors": [
+                "AGN Metro/Barossa/Peterborough",
+                "AGN Mount Gambier",
+                "AGN Port Pirie",
+                "AGN Riverland/Murray Bridge",
+                "AGN Whyalla"
+            ],
+            "includedPostcodes": [
+                "5000",
+                "5005",
+                "5006",
+                "5007",
+                "5008",
+                "5009",
+                "5010",
+                "5011",
+                "5012",
+                "5013",
+                "5014",
+                "5015",
+                "5016",
+                "5017",
+                "5018",
+                "5019",
+                "5020",
+                "5021",
+                "5022",
+                "5023",
+                "5024",
+                "5025",
+                "5031",
+                "5032",
+                "5033",
+                "5034",
+                "5035",
+                "5037",
+                "5038",
+                "5039",
+                "5040",
+                "5041",
+                "5042",
+                "5043",
+                "5044",
+                "5045",
+                "5046",
+                "5047",
+                "5048",
+                "5049",
+                "5050",
+                "5051",
+                "5052",
+                "5061",
+                "5062",
+                "5063",
+                "5064",
+                "5065",
+                "5066",
+                "5067",
+                "5068",
+                "5069",
+                "5070",
+                "5072",
+                "5073",
+                "5074",
+                "5075",
+                "5076",
+                "5081",
+                "5082",
+                "5083",
+                "5084",
+                "5085",
+                "5086",
+                "5087",
+                "5088",
+                "5089",
+                "5090",
+                "5091",
+                "5092",
+                "5093",
+                "5094",
+                "5095",
+                "5096",
+                "5097",
+                "5098",
+                "5106",
+                "5107",
+                "5108",
+                "5109",
+                "5110",
+                "5111",
+                "5112",
+                "5113",
+                "5114",
+                "5115",
+                "5116",
+                "5117",
+                "5118",
+                "5120",
+                "5121",
+                "5125",
+                "5126",
+                "5127",
+                "5157",
+                "5158",
+                "5159",
+                "5160",
+                "5161",
+                "5162",
+                "5163",
+                "5164",
+                "5165",
+                "5166",
+                "5167",
+                "5168",
+                "5169",
+                "5170",
+                "5173",
+                "5253",
+                "5290",
+                "5291",
+                "5343",
+                "5344",
+                "5352",
+                "5353",
+                "5355",
+                "5372",
+                "5400",
+                "5422",
+                "5540",
+                "5600",
+                "5608",
+                "5609",
+                "5950"
+            ]
+        },
+        "displayName": "GLOSAVE Residential(AGN SA)-AGN SA",
+        "effectiveTo": "2024-05-19T00:00:00.000Z",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "For move-in customers to get a start read. At least 3 business days notice & meter access needed. Fee does not cover unlocking a plugged meter."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "For move-out customers to get a final read. At least 3 business days notice & meter access required. No fee if you simply switch retailer."
+                }
+            ],
+            "terms": "For further information about this offer call GloBird on 133456 or visit www.globirdenergy.com.au or see our full terms and conditions here: www.globirdenergy.com.au/legal/",
+            "isFixed": false,
+            "discounts": [
+                {
+                    "type": "CONDITIONAL",
+                    "category": "DIRECT_DEBIT",
+                    "description": "You will receive 1% discount off Usage & Supply charges when you pay your bill on-time by direct debit",
+                    "displayName": "Direct Debit Discount",
+                    "methodUType": "percentOfBill",
+                    "percentOfBill": {
+                        "rate": "1"
+                    }
+                },
+                {
+                    "type": "CONDITIONAL",
+                    "category": "PAY_ON_TIME",
+                    "description": "You will receive 2% discount off Usage & Supply charges when you pay your bill on-time",
+                    "displayName": "Pay-on-time Discount",
+                    "methodUType": "percentOfBill",
+                    "percentOfBill": {
+                        "rate": "2"
+                    }
+                }
+            ],
+            "variation": "We may update your solar feed-in, or your rates from time to time. We'll always notify you in writing prior to any change.",
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 1520,
+                                "unitPrice": "4.5"
+                            },
+                            {
+                                "volume": null,
+                                "unitPrice": "3.6"
+                            }
+                        ],
+                        "period": "P1M",
+                        "description": "Step 1 of 1520MJ per month assumes 365 days per year. Actual calculation based on an average of 50.00MJ per day.",
+                        "displayName": "Peak Usage"
+                    },
+                    "displayName": "June to September",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "62.00"
+                },
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 1520,
+                                "unitPrice": "4.5"
+                            },
+                            {
+                                "volume": null,
+                                "unitPrice": "3.6"
+                            }
+                        ],
+                        "period": "P1M",
+                        "description": "Step 1 of 1520MJ per month assumes 365 days per year. Actual calculation based on an average of 50.00MJ per day.",
+                        "displayName": "Off Peak Usage"
+                    },
+                    "displayName": "October to May",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "62.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL",
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY"
+            ],
+            "coolingOffDays": "10",
+            "onExpiryDescription": "You will be notified of a new plan 1 month before the expiry date"
+        },
+        "lastUpdated": "2023-05-19T07:29:51.103Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-05-19T00:00:00.000Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/globird/cds-au/v1/energy/plans/GLO559078MRG1@EME"
+    }
+}
