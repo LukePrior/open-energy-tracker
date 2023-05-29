@@ -346,7 +346,8 @@
             ]
         },
         "displayName": "Thrifty Business_SBTOU",
-        "lastUpdated": "2023-04-24T14:05:59.259Z",
+        "effectiveTo": "2023-06-01T00:00:00.000Z",
+        "lastUpdated": "2023-05-28T11:59:14.661Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-04-25T00:00:00.000Z",
         "electricityContract": {
