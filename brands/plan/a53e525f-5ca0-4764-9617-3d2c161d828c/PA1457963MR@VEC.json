@@ -112,7 +112,8 @@
             ]
         },
         "displayName": "Blue First",
-        "lastUpdated": "2023-04-21T02:11:01Z",
+        "effectiveTo": "2023-05-31T14:00:00Z",
+        "lastUpdated": "2023-05-31T22:53:32Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-04-26T14:00:00Z",
         "electricityContract": {

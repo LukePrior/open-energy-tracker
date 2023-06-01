@@ -1,0 +1,127 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "alinta",
+        "planId": "ALI420157MR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Alinta",
+        "geography": {
+            "distributors": [
+                "AusNet Services (gas)"
+            ],
+            "includedPostcodes": [
+                "3024",
+                "3029",
+                "3030",
+                "3211",
+                "3212",
+                "3213",
+                "3214",
+                "3215",
+                "3216",
+                "3217",
+                "3218",
+                "3219",
+                "3220",
+                "3221",
+                "3222",
+                "3223",
+                "3224",
+                "3225",
+                "3226",
+                "3227",
+                "3228",
+                "3331",
+                "3335",
+                "3336",
+                "3337",
+                "3338",
+                "3427",
+                "3429"
+            ]
+        },
+        "displayName": "HomeDeal Gas - Ausnet Central 2",
+        "effectiveTo": "2023-01-31T13:00:00Z",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "68.95",
+                    "description": "This fee is set by your distributor and may vary. Please visit your distributor's website to find out the current fee.\nWe reserve the right to and will notify you if we change or impose additional fees or charges in relation to your energy supply."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "68.95",
+                    "description": "Next business day reconnection fee.This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+                }
+            ],
+            "terms": "This plan is only available to residential customers in Victoria.  Eligibility criteria applies. Terms and conditions can be accessed at alintaenergy.com.au or by calling 13 37 02.",
+            "isFixed": false,
+            "variation": "Tariffs and charges may only be increased one month after your distribution network costs are finalised, but may be decreased at any time. We will give you at least 5 business days notice prior to any variation or in accordance with applicable laws.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is only available to residential customers within the AusNet distribution zone."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.43"
+                            },
+                            {
+                                "unitPrice": "1.88"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "68.62"
+                },
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.25"
+                            },
+                            {
+                                "unitPrice": "1.80"
+                            }
+                        ],
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Off Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "68.62"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "This offer has no contract term."
+        },
+        "lastUpdated": "2023-01-31T18:49:38Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-08-31T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/alinta/cds-au/v1/energy/plans/ALI420157MR@VEC"
+    }
+}

@@ -1,0 +1,203 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "globird",
+        "planId": "GLO466908MR@VEC",
+        "fuelType": "GAS",
+        "brandName": "GloBird Energy",
+        "geography": {
+            "distributors": [
+                "AusNet Services (gas)"
+            ],
+            "includedPostcodes": [
+                "3003",
+                "3008",
+                "3011",
+                "3012",
+                "3013",
+                "3015",
+                "3016",
+                "3018",
+                "3019",
+                "3020",
+                "3021",
+                "3022",
+                "3023",
+                "3024",
+                "3025",
+                "3026",
+                "3027",
+                "3028",
+                "3029",
+                "3030",
+                "3031",
+                "3032",
+                "3033",
+                "3034",
+                "3036",
+                "3037",
+                "3038",
+                "3039",
+                "3040",
+                "3041",
+                "3042",
+                "3043",
+                "3044",
+                "3045",
+                "3046",
+                "3047",
+                "3048",
+                "3049",
+                "3055",
+                "3058",
+                "3059",
+                "3060",
+                "3061",
+                "3062",
+                "3063",
+                "3064",
+                "3073",
+                "3211",
+                "3212",
+                "3213",
+                "3214",
+                "3215",
+                "3216",
+                "3217",
+                "3218",
+                "3219",
+                "3220",
+                "3221",
+                "3222",
+                "3223",
+                "3224",
+                "3225",
+                "3226",
+                "3228",
+                "3335",
+                "3337",
+                "3338",
+                "3427",
+                "3428",
+                "3429"
+            ]
+        },
+        "displayName": "GloBird ULTRASAVE Residential(Central)-AusNet Services (gas)",
+        "effectiveTo": "2024-05-30T14:00:00Z",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "22.00",
+                    "description": "For move-in customers to get a start read to establish your account, at least three business days\u2019 notice required and meter access required. Fee does not cover unplugging a plugged gas meter."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "22.00",
+                    "description": "Fee for final read when you Move-Out. At least three business days\u2019 notice required and meter access required. There is no fee if you simply switch to another retailer."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "2.50",
+                    "description": "Paper Bill. If you have opted to receive a paper bill by post"
+                },
+                {
+                    "rate": "0",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "OTHER",
+                    "description": "0 Credit Card Payment Processing Fee"
+                }
+            ],
+            "terms": "For further information about this offer call GloBird on 133456 or visit www.globirdenergy.com.au or see our full terms and conditions here: www.globirdenergy.com.au/legal/",
+            "isFixed": false,
+            "discounts": [
+                {
+                    "type": "CONDITIONAL",
+                    "category": "PAY_ON_TIME",
+                    "description": "Discounts only apply when the condition is met. 2% when you pay the bill by the due date. And 1% when you pay the bill by the due date with direct debit.",
+                    "displayName": "PPD",
+                    "methodUType": "percentOfBill",
+                    "percentOfBill": {
+                        "rate": "3"
+                    }
+                }
+            ],
+            "variation": "We may update your rates from time to time. However we'll always notify you in writing prior to any change",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Local call center and no credit card processing fees",
+                    "displayName": "Local call center and no credit card processing fees",
+                    "eligibility": "Traditional energy plan. Easy to understand. Local call center. No sneaky credit card processing fees. Just great value."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This product is only available to new customers in the AusNet Services (gas) Central distribution area."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "3.10"
+                            },
+                            {
+                                "unitPrice": "2.40"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak Period - June to September",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "87.00"
+                },
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.51"
+                            },
+                            {
+                                "unitPrice": "2.40"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Offpeak"
+                    },
+                    "displayName": "Offpeak Period - October to May",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "87.00"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discount percentage or rates."
+        },
+        "lastUpdated": "2023-05-31T05:27:07Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-05-31T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/globird/cds-au/v1/energy/plans/GLO466908MR@VEC"
+    }
+}

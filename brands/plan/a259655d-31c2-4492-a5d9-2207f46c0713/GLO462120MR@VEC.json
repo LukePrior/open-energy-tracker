@@ -275,8 +275,8 @@
             ]
         },
         "displayName": "GloBird  GLOGREEN Residential (Two Rate With CL) AusNet Services (electricity)",
-        "effectiveTo": "2024-05-02T14:00:00Z",
-        "lastUpdated": "2023-05-03T05:15:13Z",
+        "effectiveTo": "2023-05-30T14:00:00Z",
+        "lastUpdated": "2023-05-31T08:27:17Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-05-03T14:00:00Z",
         "electricityContract": {

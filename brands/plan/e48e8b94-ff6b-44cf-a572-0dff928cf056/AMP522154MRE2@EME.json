@@ -1,0 +1,374 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "ampol",
+        "planId": "AMP522154MRE2@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Ampol Energy",
+        "geography": {
+            "distributors": [
+                "Energex"
+            ],
+            "includedPostcodes": [
+                "4000",
+                "4005",
+                "4006",
+                "4007",
+                "4008",
+                "4009",
+                "4010",
+                "4011",
+                "4012",
+                "4013",
+                "4014",
+                "4017",
+                "4018",
+                "4019",
+                "4020",
+                "4021",
+                "4022",
+                "4030",
+                "4031",
+                "4032",
+                "4034",
+                "4035",
+                "4036",
+                "4037",
+                "4051",
+                "4053",
+                "4054",
+                "4055",
+                "4059",
+                "4060",
+                "4061",
+                "4064",
+                "4065",
+                "4066",
+                "4067",
+                "4068",
+                "4069",
+                "4070",
+                "4073",
+                "4074",
+                "4075",
+                "4076",
+                "4077",
+                "4078",
+                "4101",
+                "4102",
+                "4103",
+                "4104",
+                "4105",
+                "4106",
+                "4107",
+                "4108",
+                "4109",
+                "4110",
+                "4111",
+                "4112",
+                "4113",
+                "4114",
+                "4115",
+                "4116",
+                "4117",
+                "4118",
+                "4119",
+                "4120",
+                "4121",
+                "4122",
+                "4123",
+                "4124",
+                "4125",
+                "4127",
+                "4128",
+                "4129",
+                "4130",
+                "4131",
+                "4132",
+                "4133",
+                "4151",
+                "4152",
+                "4153",
+                "4154",
+                "4155",
+                "4156",
+                "4157",
+                "4158",
+                "4159",
+                "4160",
+                "4161",
+                "4163",
+                "4164",
+                "4165",
+                "4169",
+                "4170",
+                "4171",
+                "4172",
+                "4173",
+                "4174",
+                "4178",
+                "4179",
+                "4183",
+                "4184",
+                "4205",
+                "4207",
+                "4208",
+                "4209",
+                "4210",
+                "4211",
+                "4212",
+                "4213",
+                "4214",
+                "4215",
+                "4216",
+                "4217",
+                "4218",
+                "4220",
+                "4221",
+                "4223",
+                "4224",
+                "4225",
+                "4226",
+                "4227",
+                "4228",
+                "4270",
+                "4271",
+                "4272",
+                "4275",
+                "4280",
+                "4285",
+                "4287",
+                "4300",
+                "4301",
+                "4303",
+                "4304",
+                "4305",
+                "4306",
+                "4307",
+                "4309",
+                "4310",
+                "4311",
+                "4312",
+                "4313",
+                "4340",
+                "4341",
+                "4342",
+                "4343",
+                "4344",
+                "4346",
+                "4347",
+                "4352",
+                "4359",
+                "4500",
+                "4501",
+                "4502",
+                "4503",
+                "4504",
+                "4505",
+                "4506",
+                "4507",
+                "4508",
+                "4509",
+                "4510",
+                "4511",
+                "4512",
+                "4514",
+                "4515",
+                "4516",
+                "4517",
+                "4518",
+                "4519",
+                "4520",
+                "4521",
+                "4550",
+                "4551",
+                "4552",
+                "4553",
+                "4554",
+                "4555",
+                "4556",
+                "4557",
+                "4558",
+                "4559",
+                "4560",
+                "4561",
+                "4562",
+                "4563",
+                "4564",
+                "4565",
+                "4566",
+                "4567",
+                "4568",
+                "4569",
+                "4570",
+                "4571",
+                "4572",
+                "4573",
+                "4574",
+                "4575",
+                "4580",
+                "4581"
+            ]
+        },
+        "displayName": "Ampol Energy Powering On with CL",
+        "lastUpdated": "2023-05-31T14:06:05.323Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-06-01T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "rate": "0.23",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "A debit card merchant service fee of 0.23% will apply for paying bills by Visa Debit. Inc GST."
+                },
+                {
+                    "rate": "0.2",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "A debit card merchant service fee of 0.2% will apply for paying bills by MasterCard Debit. Inc GST."
+                },
+                {
+                    "rate": "0.54",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A credit card merchant service fee of 0.54% will apply for paying bills by Visa. Inc GST."
+                },
+                {
+                    "rate": "0.37",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A credit card merchant service fee of 0.37% will apply for paying bills by MasterCard. Inc GST."
+                },
+                {
+                    "rate": "0.8",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A credit card merchant service fee of 0.8% will apply for paying bills by AMEX. Inc GST."
+                },
+                {
+                    "rate": "0.76",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "This fee applies to Over The Counter card payments made in-person at a Post Office in addition to the $3.30 per transaction. Inc GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "This fee applies to Over The Counter payments made in-person at a Post Office in addition to the 0.76% per card transaction. Inc GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "PAPER_BILL",
+                    "description": "This fee applies only to the paper bill option if chosen. Inc GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "description": "This fee is charged by your Distributor, and passed through to you by Ampol. Fee may vary. Inc GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "A disconnection fee may apply when you move property and disconnect electricity to your current premises. This fee is charged by your Distributor, and passed through to you by Ampol. Fee may vary. Inc GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECT_NON_PAY",
+                    "description": "This fee is charged by your Distributor, and passed through to you by Ampol. Fee may vary. Inc GST."
+                }
+            ],
+            "terms": "For further information about the terms and conditions applicable to this energy offer, please visit Ampolenergy.com.au/policies or contact Ampol on contactus@ampolenergy.com.au or call 13 14 04.",
+            "isFixed": false,
+            "termType": "ONGOING",
+            "timeZone": "LOCAL",
+            "variation": "We may vary prices in accordance with our terms and conditions. We will publish price variations via our website at least 10 business days prior to the new prices starting. You will also be notified 5-10 business days prior to the change starting.",
+            "meterTypes": [
+                "Type 6",
+                "Type 4"
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": null,
+                                "unitPrice": "23.4"
+                            }
+                        ],
+                        "period": "P3M",
+                        "displayName": "Single Rate Block"
+                    },
+                    "displayName": "Single Rate Tariff Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "108.50"
+                }
+            ],
+            "benefitPeriod": "ongoing",
+            "billFrequency": [
+                "P1M",
+                "P3M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "PAPER_BILL",
+                "BPAY"
+            ],
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "17.70"
+                        }
+                    ],
+                    "period": "P3M",
+                    "dailyCharge": "1.90",
+                    "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                    "displayName": "Controlled Load 1"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "18.20"
+                        }
+                    ],
+                    "period": "P3M",
+                    "dailyCharge": "1.90",
+                    "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                    "displayName": "Controlled Load 2"
+                }
+            ],
+            "coolingOffDays": "10",
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Feed-In Tariff | All kWh (excluding GST if any)",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.00"
+                    }
+                },
+                {
+                    "scheme": "OTHER",
+                    "payerType": "GOVERNMENT",
+                    "description": "Feed-In Tariff | All kWh (excluding GST if any)",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "0.00"
+                    }
+                }
+            ]
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/ampol/cds-au/v1/energy/plans/AMP522154MRE2@EME"
+    }
+}

@@ -1,0 +1,207 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "alinta",
+        "planId": "ALI463796MRG4@EME",
+        "fuelType": "GAS",
+        "brandName": "Alinta Energy",
+        "geography": {
+            "distributors": [
+                "AGN Metro/Barossa/Peterborough"
+            ],
+            "includedPostcodes": [
+                "5000",
+                "5005",
+                "5006",
+                "5007",
+                "5008",
+                "5009",
+                "5010",
+                "5011",
+                "5012",
+                "5013",
+                "5014",
+                "5015",
+                "5016",
+                "5017",
+                "5018",
+                "5019",
+                "5020",
+                "5021",
+                "5022",
+                "5023",
+                "5024",
+                "5025",
+                "5031",
+                "5032",
+                "5033",
+                "5034",
+                "5035",
+                "5037",
+                "5038",
+                "5039",
+                "5040",
+                "5041",
+                "5042",
+                "5043",
+                "5044",
+                "5045",
+                "5046",
+                "5047",
+                "5048",
+                "5049",
+                "5050",
+                "5051",
+                "5052",
+                "5061",
+                "5062",
+                "5063",
+                "5064",
+                "5065",
+                "5066",
+                "5067",
+                "5068",
+                "5069",
+                "5070",
+                "5072",
+                "5073",
+                "5074",
+                "5075",
+                "5076",
+                "5081",
+                "5082",
+                "5083",
+                "5084",
+                "5085",
+                "5086",
+                "5087",
+                "5088",
+                "5089",
+                "5090",
+                "5091",
+                "5092",
+                "5093",
+                "5094",
+                "5095",
+                "5096",
+                "5097",
+                "5098",
+                "5106",
+                "5107",
+                "5108",
+                "5109",
+                "5110",
+                "5111",
+                "5112",
+                "5113",
+                "5114",
+                "5115",
+                "5116",
+                "5117",
+                "5118",
+                "5120",
+                "5121",
+                "5125",
+                "5126",
+                "5127",
+                "5157",
+                "5158",
+                "5159",
+                "5160",
+                "5161",
+                "5162",
+                "5163",
+                "5164",
+                "5165",
+                "5166",
+                "5167",
+                "5168",
+                "5169",
+                "5170",
+                "5173",
+                "5291",
+                "5352",
+                "5353",
+                "5355",
+                "5372",
+                "5400",
+                "5950"
+            ]
+        },
+        "displayName": "HomeDeal Gas",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "Disconnection fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "description": "Reconnection fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "Special Read"
+                }
+            ],
+            "terms": "This offer is only available to residential customers with an applicable network tariff, eligibility criteria applies.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "Our market tariffs may be varied at any time at our discretion. We will give you notice of any variations in accordance with applicable laws and codes. Feed in tariffs (where applicable) may be varied in accordance with applicable laws.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "description": "This HomeDeal Gas Plan is only available to residential customers in South Australia, who receive an online sign up invitation link from Alinta Energy or participating commercial partners.",
+                    "information": "You sign up via invitation"
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 4500,
+                                "unitPrice": "4.43"
+                            },
+                            {
+                                "volume": null,
+                                "unitPrice": "3.02"
+                            }
+                        ],
+                        "period": "P3M",
+                        "description": "Usage",
+                        "displayName": "General"
+                    },
+                    "displayName": "Usage Charges",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "63.76"
+                }
+            ],
+            "billFrequency": [
+                "P3M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "PAPER_BILL",
+                "BPAY",
+                "CREDIT_CARD",
+                "OTHER"
+            ],
+            "coolingOffDays": "10",
+            "onExpiryDescription": "Ongoing contract with no contract term"
+        },
+        "lastUpdated": "2023-05-31T14:06:01.659Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-06-01T00:00:00.000Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/alinta/cds-au/v1/energy/plans/ALI463796MRG4@EME"
+    }
+}
