@@ -315,6 +315,7 @@
             ]
         },
         "displayName": "Residential Market",
+        "effectiveTo": "2023-06-08T00:00:00.000Z",
         "gasContract": {
             "fees": [
                 {
@@ -405,7 +406,7 @@
             "coolingOffDays": "10",
             "onExpiryDescription": "No Term contracts do not expire until you notify us in accordance with our Energy Market Contract Terms and Conditions."
         },
-        "lastUpdated": "2023-02-28T14:06:00.463Z",
+        "lastUpdated": "2023-06-01T10:49:54.644Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-03-01T00:00:00.000Z"
     },

@@ -112,8 +112,8 @@
             ]
         },
         "displayName": "Variable Wholesale Prices Plus CBA Welcome only (estimate only, based on last 4 months of data, includes CL)",
-        "effectiveTo": "2023-06-29T14:00:00Z",
-        "lastUpdated": "2023-05-02T04:39:58Z",
+        "effectiveTo": "2023-06-01T14:00:00Z",
+        "lastUpdated": "2023-06-01T22:34:40Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-05-01T14:00:00Z",
         "electricityContract": {
