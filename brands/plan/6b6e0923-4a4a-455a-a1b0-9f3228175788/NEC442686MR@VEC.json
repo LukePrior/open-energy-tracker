@@ -1,0 +1,221 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "nectr",
+        "planId": "NEC442686MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Nectr",
+        "geography": {
+            "distributors": [
+                "Citipower"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
+                "3011",
+                "3031",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3078",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
+            ]
+        },
+        "displayName": "Nectr 100% Clean Time of Use - Citipower",
+        "lastUpdated": "2023-02-07T03:35:09Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-02-22T13:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "41.95",
+                    "description": "This fee may be charged when disconnecting your power for non-payment. This is a network charge from Citipower, which Nectr passes through. Actual fee may vary.\nAdditional fees and charges may apply. Please see the Nectr fee schedules at https://nectr.com.au/plans-and-fees/vic/citipower/"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "41.33",
+                    "description": "This fee may apply when reconnecting power to your property where you have been disconnected due to non-payment. This is a Citipower network charge, which Nectr passes through. Actual fee may vary."
+                }
+            ],
+            "terms": "For further information about the terms and conditions applicable to this energy offer, please visit nectr.com.au/legal/#contracts or contact Nectr on hello@nectr.com.au or call 1300 111 211.",
+            "isFixed": true,
+            "termType": "1_YEAR",
+            "timeZone": "LOCAL",
+            "discounts": [
+                {
+                    "type": "CONDITIONAL",
+                    "category": "OTHER",
+                    "description": "$50 credit on your 2nd bill, if you sign up using a Refer a Friend link from an existing Nectr customer. Applies to new customers only. T&Cs apply, refer to nectr.com.au/refer-a-friend-terms-and-conditions/.",
+                    "displayName": "Refer a Friend Credit",
+                    "fixedAmount": {
+                        "amount": "45.4545"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "Your rates are fixed and will not vary for the duration of your 12 month benefit period.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "100% carbon neutral",
+                    "displayName": "100% carbon neutral",
+                    "eligibility": "100% carbon neutral is included as part of your plan."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is available to residential customers with an applicable network tariff."
+                }
+            ],
+            "pricingModel": "TIME_OF_USE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "Period",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "26.310164"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "2100",
+                                    "startTime": "1500"
+                                }
+                            ],
+                            "displayName": "Peak"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "15.110273"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "1500",
+                                    "startTime": "0000"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "2100"
+                                }
+                            ],
+                            "displayName": "Off-Peak"
+                        }
+                    ],
+                    "dailySupplyCharges": "101.225764"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "OTHER"
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Nectr retailer FiT",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.20"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "If applicable, Premium FIT included as part of this plan",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "While we offer an ongoing contract, your energy plan pricing ends after a 12 month benefit period. We will contact you before that end date to discuss what new plan may suit your needs at that time."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/nectr/cds-au/v1/energy/plans/NEC442686MR@VEC"
+    }
+}
