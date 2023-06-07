@@ -1,0 +1,144 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "actewagl",
+        "planId": "ACT551682MRG1@EME",
+        "fuelType": "GAS",
+        "brandName": "ActewAGL",
+        "geography": {
+            "distributors": [
+                "Evoenergy ACT"
+            ],
+            "includedPostcodes": [
+                "2600",
+                "2601",
+                "2602",
+                "2603",
+                "2604",
+                "2605",
+                "2606",
+                "2607",
+                "2609",
+                "2611",
+                "2612",
+                "2614",
+                "2615",
+                "2616",
+                "2617",
+                "2618",
+                "2620",
+                "2900",
+                "2902",
+                "2903",
+                "2904",
+                "2905",
+                "2906",
+                "2911",
+                "2912",
+                "2913",
+                "2914"
+            ]
+        },
+        "displayName": "ACT Simple Saver Gas 2.0 Plan",
+        "effectiveTo": "2023-06-30T00:00:00.000Z",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "Disconnection fee - applicable when energy is disconnected to the property."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "description": "Reconnection fee - applicable when energy is reconnected to the property."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "description": "Special meter read (including moving in and moving out of your supply address)."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "description": "Late Payment Fee (GST is not applicable)."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "description": "Direct Debit Rejection Fee (GST is not applicable)."
+                },
+                {
+                    "rate": "0.5",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Payment processing fee may apply to payments made by credit card (GST inclusive)."
+                },
+                {
+                    "rate": "0.5",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "Payment processing fee may apply to payments made by debit card (GST inclusive)."
+                }
+            ],
+            "terms": "A copy of the Market Retail Contract is provided and can be seen on our website. Refer to https://www.actewagl.com.au/plans-and-connections/pricing-information/your-rights-and-obligations.",
+            "isFixed": false,
+            "termType": "ONGOING",
+            "timeZone": "AEST",
+            "variation": "If we vary our market offer prices including your rates, fees, feed-in tariff or charges, we will notify you at least five business days before the variation in the tariffs and charges are to apply to you; and deliver the notice by your preferred form of communication where you have communicated this to us, or otherwise by the same method as that used for delivery of your bill.",
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 41.0959,
+                                "unitPrice": "3.175"
+                            },
+                            {
+                                "volume": 442.1918,
+                                "unitPrice": "2.71"
+                            },
+                            {
+                                "volume": 1489.3151,
+                                "unitPrice": "2.71"
+                            },
+                            {
+                                "volume": null,
+                                "unitPrice": "2.71"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "Usage",
+                        "displayName": "General"
+                    },
+                    "displayName": "Usage Charges",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "76.00"
+                }
+            ],
+            "benefitPeriod": "12 months",
+            "billFrequency": [
+                "P3M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "PAPER_BILL",
+                "BPAY",
+                "OTHER"
+            ],
+            "coolingOffDays": "10",
+            "onExpiryDescription": "The benefit period is 1 year. At the end of your benefit period you may be placed on a new pricing plan. We will notify you of any changes at least 20 business days before they take effect."
+        },
+        "lastUpdated": "2023-06-06T14:05:39.940Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-06-07T00:00:00.000Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/actewagl/cds-au/v1/energy/plans/ACT551682MRG1@EME"
+    }
+}
