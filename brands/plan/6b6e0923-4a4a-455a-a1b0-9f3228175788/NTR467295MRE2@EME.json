@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Nectr GreenPower Transitional Time of Use + CL1",
-        "lastUpdated": "2023-01-23T14:05:52.951Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-08T00:36:55.921Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-01-24T00:00:00.000Z",
         "electricityContract": {

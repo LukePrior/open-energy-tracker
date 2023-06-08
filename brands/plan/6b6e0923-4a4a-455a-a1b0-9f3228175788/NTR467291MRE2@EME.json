@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Nectr GreenPower",
-        "lastUpdated": "2023-01-23T14:05:53.596Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-08T00:36:55.668Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-01-24T00:00:00.000Z",
         "electricityContract": {

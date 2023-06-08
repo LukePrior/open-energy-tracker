@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Nectr GreenPower + Controlled Load 2",
-        "lastUpdated": "2023-01-23T14:05:51.266Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-08T00:36:55.878Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-01-24T00:00:00.000Z",
         "electricityContract": {

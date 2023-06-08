@@ -327,7 +327,8 @@
             ]
         },
         "displayName": "Red EV Saver",
-        "lastUpdated": "2022-07-07T14:42:24Z",
+        "effectiveTo": "2023-06-06T14:00:00Z",
+        "lastUpdated": "2023-06-07T02:01:47Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-10T14:00:00Z",
         "electricityContract": {
