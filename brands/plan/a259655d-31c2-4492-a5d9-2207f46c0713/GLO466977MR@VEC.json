@@ -133,7 +133,7 @@
             ]
         },
         "displayName": "GloBird  ComboGLOGREEN Residential(Melbourne Metropolitan Area)-Multinet",
-        "effectiveTo": "2024-05-30T14:00:00Z",
+        "effectiveTo": "2023-06-08T14:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -248,7 +248,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discount percentage or rates."
         },
-        "lastUpdated": "2023-05-31T05:27:10Z",
+        "lastUpdated": "2023-06-08T23:17:55Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-05-31T14:00:00Z"
     },

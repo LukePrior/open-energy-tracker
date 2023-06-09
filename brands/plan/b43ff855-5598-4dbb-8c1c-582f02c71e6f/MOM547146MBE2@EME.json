@@ -346,7 +346,8 @@
             ]
         },
         "displayName": "Strictly Business_BSR",
-        "lastUpdated": "2023-05-31T14:07:08.830Z",
+        "effectiveTo": "2023-06-19T00:00:00.000Z",
+        "lastUpdated": "2023-06-09T00:51:40.733Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-06-01T00:00:00.000Z",
         "electricityContract": {

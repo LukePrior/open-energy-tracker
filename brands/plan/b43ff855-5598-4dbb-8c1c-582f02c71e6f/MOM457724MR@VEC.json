@@ -1,0 +1,240 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "momentum",
+        "planId": "MOM457724MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Momentum Energy",
+        "geography": {
+            "distributors": [
+                "Citipower"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
+                "3011",
+                "3031",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3078",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
+            ]
+        },
+        "displayName": "Nothing Fancy Electricity_CR",
+        "effectiveTo": "2023-04-30T14:00:00Z",
+        "lastUpdated": "2023-04-30T22:41:29Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-04-24T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "41.95",
+                    "description": "\nFor information on additional fees, a full schedule of charges is available from http://www.momentumenergy.com.au/fees"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "41.34",
+                    "description": ""
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CHEQUE_DISHONOUR",
+                    "amount": "9.50",
+                    "description": "GST exempt"
+                },
+                {
+                    "rate": "0.53",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A 0.53% fee (GST Incl) will apply to payments made by any credit or debit card."
+                }
+            ],
+            "terms": "Time of use charges are based on Australian Eastern Standard Time, except when daylight savings applies in which case interval meters are adjusted to Australian Eastern Daylight Time, unless indicated otherwise. Full terms and conditions can be obtained from www.momentumenergy.com.au/terms-and-conditions or by contacting our Customer Care Team on 1800 SWITCH.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "We will give you written notice of any variations to your rates & charges under your terms and conditions in accordance with applicable legal requirements.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "To be eligible for this plan you must be a residential customer; pay your bills by direct debit; communicate with us and receive your bills electronically; and is subject to having the necessary metering system configuration."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "03-31",
+                    "startDate": "12-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "16.00"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "Anytime",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Summer Demand Charge",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "100.40"
+                },
+                {
+                    "endDate": "03-31",
+                    "startDate": "12-01",
+                    "displayName": "Summer Demand Charge",
+                    "demandCharges": [
+                        {
+                            "days": [
+                                "MON",
+                                "TUE",
+                                "WED",
+                                "THU",
+                                "FRI"
+                            ],
+                            "amount": "1006.00",
+                            "endTime": "2100",
+                            "startTime": "1500",
+                            "description": "Summer Demand Charge applies from 1st December to 31st March. Demand Charges are calculated based on the monthly maximum demand usage occurring between 3pm and 9pm on workdays.",
+                            "displayName": "Demand",
+                            "chargePeriod": "MONTH",
+                            "measurementPeriod": "MONTH"
+                        }
+                    ],
+                    "rateBlockUType": "demandCharges"
+                },
+                {
+                    "endDate": "11-30",
+                    "startDate": "04-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "16.00"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "Anytime",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Non Summer Demand Charge",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "100.40"
+                },
+                {
+                    "endDate": "11-30",
+                    "startDate": "04-01",
+                    "displayName": "Non Summer Demand Charge",
+                    "demandCharges": [
+                        {
+                            "days": [
+                                "MON",
+                                "TUE",
+                                "WED",
+                                "THU",
+                                "FRI"
+                            ],
+                            "amount": "344.00",
+                            "endTime": "2100",
+                            "startTime": "1500",
+                            "description": "Non-Summer Demand Charge applies between 1st April to 30th November. Demand Charges are calculated based on the monthly maximum demand usage occurring between 3pm and 9pm on workdays.",
+                            "displayName": "Demand",
+                            "chargePeriod": "MONTH",
+                            "measurementPeriod": "MONTH"
+                        }
+                    ],
+                    "rateBlockUType": "demandCharges"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "OTHER"
+            ],
+            "coolingOffDays": 10,
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0495",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "For an added 4.95 c/kWh incl. GST, you can purchase GreenPower for either 10, 20, 25, 50, 75 or 100% of your usage.",
+                    "displayName": "GreenPower 100"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "General Feed-In Tariff",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "6.70"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "Premium Feed-In Tariff",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/momentum/cds-au/v1/energy/plans/MOM457724MR@VEC"
+    }
+}

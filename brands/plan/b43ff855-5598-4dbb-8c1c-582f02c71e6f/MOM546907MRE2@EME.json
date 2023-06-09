@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Nothing Fancy Electricity_EA115",
-        "lastUpdated": "2023-05-31T14:06:51.996Z",
+        "effectiveTo": "2023-06-19T00:00:00.000Z",
+        "lastUpdated": "2023-06-09T00:49:17.627Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-06-01T00:00:00.000Z",
         "electricityContract": {

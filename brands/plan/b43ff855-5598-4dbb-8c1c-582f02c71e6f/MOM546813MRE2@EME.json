@@ -346,7 +346,8 @@
             ]
         },
         "displayName": "Suit Yourself Electricity_RSROPCL",
-        "lastUpdated": "2023-05-31T14:06:34.002Z",
+        "effectiveTo": "2023-06-19T00:00:00.000Z",
+        "lastUpdated": "2023-06-09T00:55:21.571Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-06-01T00:00:00.000Z",
         "electricityContract": {

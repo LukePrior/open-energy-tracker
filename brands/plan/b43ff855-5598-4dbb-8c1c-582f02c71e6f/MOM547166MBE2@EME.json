@@ -315,7 +315,8 @@
             ]
         },
         "displayName": "Strictly Business_BLNT2AU",
-        "lastUpdated": "2023-05-31T14:07:09.542Z",
+        "effectiveTo": "2023-06-19T00:00:00.000Z",
+        "lastUpdated": "2023-06-09T00:51:40.504Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-06-01T00:00:00.000Z",
         "electricityContract": {

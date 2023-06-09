@@ -48,7 +48,7 @@
             ]
         },
         "displayName": "GloBird  ComboULTRASAVE Residential(North)-Australian Gas Networks",
-        "effectiveTo": "2024-05-30T14:00:00Z",
+        "effectiveTo": "2023-06-08T14:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -157,7 +157,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discount percentage or rates."
         },
-        "lastUpdated": "2023-05-31T05:27:07Z",
+        "lastUpdated": "2023-06-08T23:17:53Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-05-31T14:00:00Z"
     },
