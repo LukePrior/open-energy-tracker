@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "ReAmped Standard | Time of Use & CL1",
-        "lastUpdated": "2022-06-30T14:10:08.655Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-12T05:43:57.164Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-01T00:00:00.000Z",
         "electricityContract": {

@@ -211,7 +211,8 @@
             ]
         },
         "displayName": "ReAmped Standard Business | Anytime",
-        "lastUpdated": "2022-06-30T14:15:25.009Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-12T05:44:06.429Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-07-01T00:00:00.000Z",
         "electricityContract": {

@@ -34,7 +34,8 @@
             ]
         },
         "displayName": "ReAmped Standard Business | Time of Use & CL2",
-        "lastUpdated": "2022-06-30T14:15:37.237Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-12T05:43:50.457Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-07-01T00:00:00.000Z",
         "electricityContract": {
