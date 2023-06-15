@@ -211,7 +211,8 @@
             ]
         },
         "displayName": "Standing Offer_8500",
-        "lastUpdated": "2022-10-12T02:50:03.669Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-14T12:47:27.464Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-10-12T00:00:00.000Z",
         "electricityContract": {
