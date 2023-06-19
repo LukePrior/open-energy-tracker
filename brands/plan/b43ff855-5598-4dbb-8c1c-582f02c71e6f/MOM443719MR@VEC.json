@@ -136,6 +136,7 @@
             ]
         },
         "displayName": "Nothing Fancy Gas Australian Gas Networks Central",
+        "effectiveTo": "2023-06-18T14:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -227,7 +228,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions."
         },
-        "lastUpdated": "2023-02-03T05:36:01Z",
+        "lastUpdated": "2023-06-18T23:41:27Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-02-05T13:00:00Z"
     },

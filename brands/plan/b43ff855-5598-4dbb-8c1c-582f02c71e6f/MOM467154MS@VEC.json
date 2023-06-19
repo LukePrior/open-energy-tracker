@@ -1,0 +1,249 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "momentum",
+        "planId": "MOM467154MS@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Momentum Energy",
+        "geography": {
+            "distributors": [
+                "Citipower"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
+                "3011",
+                "3031",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3078",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
+            ]
+        },
+        "displayName": "Thrifty Business_CGTOUCDS",
+        "lastUpdated": "2023-06-07T23:37:09Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2023-06-18T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "41.95",
+                    "description": "\nFor information on additional fees, a full schedule of charges is available from http://www.momentumenergy.com.au/fees"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "41.34",
+                    "description": ""
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "2.98",
+                    "description": "COMMS (type 1-4) daily metering charge if applicable"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CHEQUE_DISHONOUR",
+                    "amount": "9.50",
+                    "description": "GST exempt"
+                },
+                {
+                    "rate": "0.53",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A 0.53% fee (GST Incl) will apply to payments made by any credit or debit card."
+                }
+            ],
+            "terms": "Time of use charges are based on Australian Eastern Standard Time, except when daylight savings applies in which case interval meters are adjusted to Australian Eastern Daylight Time, unless indicated otherwise. Full terms and conditions can be obtained from www.momentumenergy.com.au/terms-and-conditions or by contacting our Customer Care Team on 1800 SWITCH.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "We will give you written notice of any variations to your rates & charges under your terms and conditions in accordance with applicable legal requirements.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "To be eligible for this plan you must have an ABN; communicate with us and receive your bills electronically; and is subject to having the necessary metering system configuration."
+                }
+            ],
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "Period",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "29.60"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "2100",
+                                    "startTime": "0900"
+                                }
+                            ],
+                            "displayName": "Peak"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "19.30"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "2100"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "0900",
+                                    "startTime": "0000"
+                                },
+                                {
+                                    "days": [
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "0000"
+                                }
+                            ],
+                            "displayName": "Off Peak"
+                        }
+                    ],
+                    "dailySupplyCharges": "120.90"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "OTHER"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "19.60"
+                            }
+                        ],
+                        "description": "All Controlled Load usage",
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Controlled Load",
+                    "rateBlockUType": "singleRate"
+                }
+            ],
+            "coolingOffDays": 10,
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0495",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "For an added 4.95 c/kWh incl. GST, you can purchase GreenPower for either 10, 20, 25, 50, 75 or 100% of your usage.",
+                    "displayName": "GreenPower 100"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "General Feed-In Tariff",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "6.70"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "Premium Feed-In Tariff",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/momentum/cds-au/v1/energy/plans/MOM467154MS@VEC"
+    }
+}

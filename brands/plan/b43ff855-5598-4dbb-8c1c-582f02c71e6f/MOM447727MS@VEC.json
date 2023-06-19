@@ -17,6 +17,7 @@
             ]
         },
         "displayName": "Capricorn Gas Australian Gas Networks Cardinia",
+        "effectiveTo": "2023-06-18T14:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -123,7 +124,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions."
         },
-        "lastUpdated": "2023-03-03T04:03:01Z",
+        "lastUpdated": "2023-06-19T00:16:21Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-03-02T13:00:00Z"
     },
