@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "CovaU Basics Residential Flex Demand + CL1",
-        "lastUpdated": "2023-02-07T03:00:19.918Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-19T03:35:59.602Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-02-07T00:00:00.000Z",
         "electricityContract": {

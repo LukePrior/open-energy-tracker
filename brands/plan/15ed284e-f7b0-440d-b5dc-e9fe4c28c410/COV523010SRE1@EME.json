@@ -315,7 +315,8 @@
             ]
         },
         "displayName": "CovaU Basics Residential TOU + CL2",
-        "lastUpdated": "2023-01-20T03:55:38.027Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-19T03:36:06.334Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-01-20T00:00:00.000Z",
         "electricityContract": {

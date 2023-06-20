@@ -346,7 +346,8 @@
             ]
         },
         "displayName": "CovaU Basics Business TOU",
-        "lastUpdated": "2023-01-20T03:47:54.393Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-19T03:36:06.660Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-01-20T00:00:00.000Z",
         "electricityContract": {
