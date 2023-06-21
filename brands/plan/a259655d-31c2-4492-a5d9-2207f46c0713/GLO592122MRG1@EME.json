@@ -1,0 +1,104 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "globird",
+        "planId": "GLO592122MRG1@EME",
+        "fuelType": "GAS",
+        "brandName": "Globird Energy",
+        "geography": {
+            "distributors": [
+                "AGN - Northern"
+            ],
+            "includedPostcodes": [
+                "4680",
+                "4700",
+                "4701",
+                "4702"
+            ]
+        },
+        "displayName": "BOOST Residential(AGN-Northern)-AGN QLD",
+        "effectiveTo": "2024-06-20T00:00:00.000Z",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "For move-in customers to get a start read. At least 3 business days notice & meter access needed. Fee does not cover unlocking a plugged meter."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "For move-out customers to get a final read. At least 3 business days notice & meter access required. No fee if you simply switch retailer."
+                }
+            ],
+            "terms": "For further information about this offer call GloBird on 133456 or visit www.globirdenergy.com.au or see our full terms and conditions here: www.globirdenergy.com.au/legal/",
+            "isFixed": false,
+            "variation": "We may update your solar feed-in, or your rates from time to time. We'll always notify you in writing prior to any change.",
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 249,
+                                "unitPrice": "6.08"
+                            },
+                            {
+                                "volume": null,
+                                "unitPrice": "4.25"
+                            }
+                        ],
+                        "period": "P1M",
+                        "description": "Step 1 of 249MJ per month assumes 365 days per year. Actual calculation based on an average of 8.20MJ per day.",
+                        "displayName": "Peak Usage"
+                    },
+                    "displayName": "June to September",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "70.00"
+                },
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 249,
+                                "unitPrice": "6.08"
+                            },
+                            {
+                                "volume": null,
+                                "unitPrice": "4.25"
+                            }
+                        ],
+                        "period": "P1M",
+                        "description": "Step 1 of 249MJ per month assumes 365 days per year. Actual calculation based on an average of 8.20MJ per day.",
+                        "displayName": "Off Peak Usage"
+                    },
+                    "displayName": "October to May",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "70.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL",
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY"
+            ],
+            "coolingOffDays": "10",
+            "onExpiryDescription": "You will be notified of a new plan 1 month before the expiry date"
+        },
+        "lastUpdated": "2023-06-20T13:09:29.620Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-06-20T00:00:00.000Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/globird/cds-au/v1/energy/plans/GLO592122MRG1@EME"
+    }
+}
