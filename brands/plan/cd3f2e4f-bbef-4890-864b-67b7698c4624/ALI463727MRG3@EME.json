@@ -653,6 +653,7 @@
             ]
         },
         "displayName": "HomeDeal Gas",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
         "gasContract": {
             "fees": [
                 {
@@ -728,7 +729,7 @@
             "coolingOffDays": "10",
             "onExpiryDescription": "Ongoing contract with no contract term"
         },
-        "lastUpdated": "2022-08-31T14:07:16.327Z",
+        "lastUpdated": "2023-06-22T07:18:16.779Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-09-01T00:00:00.000Z"
     },

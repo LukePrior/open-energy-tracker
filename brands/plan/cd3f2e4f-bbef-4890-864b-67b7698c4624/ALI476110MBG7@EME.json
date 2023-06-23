@@ -143,6 +143,7 @@
             ]
         },
         "displayName": "BusinessDeal Qantas Gas",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
         "gasContract": {
             "fees": [
                 {
@@ -225,7 +226,7 @@
             "coolingOffDays": "10",
             "onExpiryDescription": "Ongoing contract with no contract term"
         },
-        "lastUpdated": "2023-03-01T14:06:01.334Z",
+        "lastUpdated": "2023-06-22T07:18:12.949Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-03-02T00:00:00.000Z"
     },

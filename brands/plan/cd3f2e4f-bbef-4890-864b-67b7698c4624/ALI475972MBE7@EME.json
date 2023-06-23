@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "BusinessDeal Qantas (TOU + CL1&2)",
-        "lastUpdated": "2023-03-01T14:05:58.632Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-22T07:18:16.010Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-03-02T00:00:00.000Z",
         "electricityContract": {

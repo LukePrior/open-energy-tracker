@@ -385,6 +385,7 @@
             ]
         },
         "displayName": "Sports Pack Gas",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
         "gasContract": {
             "fees": [
                 {
@@ -460,7 +461,7 @@
             "coolingOffDays": "10",
             "onExpiryDescription": "Ongoing contract with no contract term"
         },
-        "lastUpdated": "2022-08-31T14:08:26.677Z",
+        "lastUpdated": "2023-06-22T07:18:20.073Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-09-01T00:00:00.000Z"
     },

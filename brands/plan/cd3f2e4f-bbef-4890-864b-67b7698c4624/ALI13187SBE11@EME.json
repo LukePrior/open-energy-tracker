@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "SME Standing Offer (Demand SR)",
-        "lastUpdated": "2022-06-30T14:06:45.440Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-22T07:18:49.162Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-07-01T00:00:00.000Z",
         "electricityContract": {

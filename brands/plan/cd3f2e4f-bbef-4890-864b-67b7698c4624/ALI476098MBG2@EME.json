@@ -385,6 +385,7 @@
             ]
         },
         "displayName": "Priority Business Gas",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
         "gasContract": {
             "fees": [
                 {
@@ -467,7 +468,7 @@
             "coolingOffDays": "10",
             "onExpiryDescription": "Ongoing contract with no contract term"
         },
-        "lastUpdated": "2022-08-31T14:08:29.054Z",
+        "lastUpdated": "2023-06-22T07:18:20.083Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-09-01T00:00:00.000Z"
     },

@@ -346,7 +346,8 @@
             ]
         },
         "displayName": "HomeDeal (Demand Single Rate + CL)",
-        "lastUpdated": "2023-05-31T14:06:01.574Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-22T07:18:16.745Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-06-01T00:00:00.000Z",
         "electricityContract": {

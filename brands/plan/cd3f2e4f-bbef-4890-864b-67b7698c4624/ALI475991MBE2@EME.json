@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Priority Business (Demand Single Rate Intro)",
-        "lastUpdated": "2022-08-31T14:08:02.555Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-22T07:18:26.472Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-09-01T00:00:00.000Z",
         "electricityContract": {

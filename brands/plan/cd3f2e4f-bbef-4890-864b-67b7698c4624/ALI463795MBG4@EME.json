@@ -129,6 +129,7 @@
             ]
         },
         "displayName": "BusinessDeal Gas",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
         "gasContract": {
             "fees": [
                 {
@@ -203,7 +204,7 @@
             "coolingOffDays": "10",
             "onExpiryDescription": "Ongoing contract with no contract term"
         },
-        "lastUpdated": "2023-05-31T14:06:06.334Z",
+        "lastUpdated": "2023-06-22T07:18:23.303Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-06-01T00:00:00.000Z"
     },

@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Sports Pack (TOU)",
-        "lastUpdated": "2022-08-31T14:08:03.398Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-22T07:18:26.921Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-09-01T00:00:00.000Z",
         "electricityContract": {
