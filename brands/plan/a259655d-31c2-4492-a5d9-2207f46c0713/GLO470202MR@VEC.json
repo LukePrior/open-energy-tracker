@@ -15,7 +15,7 @@
             ]
         },
         "displayName": "GloBird BOOST Residential(Adjoining Central)-AusNet Services (gas)",
-        "effectiveTo": "2024-06-13T14:00:00Z",
+        "effectiveTo": "2023-06-24T14:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -112,7 +112,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discount percentage or rates."
         },
-        "lastUpdated": "2023-06-15T03:52:14Z",
+        "lastUpdated": "2023-06-25T11:24:43Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-06-14T14:00:00Z"
     },
