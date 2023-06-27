@@ -1,10 +1,10 @@
 {
     "data": {
         "type": "MARKET",
-        "brand": "ovo-energy",
-        "planId": "OVO462811MR@VEC",
+        "brand": "energy-locals",
+        "planId": "ENE442498MR@VEC",
         "fuelType": "ELECTRICITY",
-        "brandName": "OVO Energy",
+        "brandName": "Energy Locals",
         "geography": {
             "distributors": [
                 "AusNet Services (electricity)"
@@ -274,139 +274,120 @@
                 "3996"
             ]
         },
-        "displayName": "The Basic Solar Plan Welcome Credit",
-        "lastUpdated": "2023-05-11T03:48:09Z",
+        "displayName": "Online Member + Sign up Bonus",
+        "effectiveTo": "2023-02-08T13:00:00Z",
+        "lastUpdated": "2023-02-09T05:51:35Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2023-05-04T14:00:00Z",
+        "effectiveFrom": "2023-01-30T13:00:00Z",
         "electricityContract": {
             "fees": [
                 {
                     "term": "FIXED",
+                    "type": "MEMBERSHIP",
+                    "amount": "143.88",
+                    "description": "Access wholesale energy rates with $11.99/month membership fee.\nFor more information on these fees and other fees, please visit energylocals.com.au/fees"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "10.00",
+                    "description": "Charged when a direct debit payment has dishonoured or reversed. This charge is not subject to GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "2.00",
+                    "description": "Charged for providing a paper bill"
+                },
+                {
+                    "term": "FIXED",
                     "type": "CONNECTION",
                     "amount": "39.89",
-                    "description": "This is a charge from your distribution company. OVO Energy will only ever pass the exact cost through to you. Site attendance - A fee (inc GST) may be charged for the re-energisation of power to the site.\nOVO Energy reserves the right to and will notify you if it changes or imposes additional fees or charges in relation to your energy supply. Please refer to ovoenergy.com.au/fees for more information."
+                    "description": "May be charged when you move into a property or change retailer. Actual fee may vary."
                 },
                 {
                     "term": "FIXED",
                     "type": "DISCONNECTION",
                     "amount": "39.89",
-                    "description": "This is a charge from your distribution company. OVO Energy will only ever pass the exact cost through to you. Site attendance - A fee (inc GST) may be charged for disconnection when you move out of your property. Fees may vary for some customers."
+                    "description": "May be charged when you move out and require a final meter read. Actual fee may vary."
                 }
             ],
-            "terms": "OVO Energy's terms and conditions are available at www.ovoenergy.com.au/terms",
+            "terms": "Our energy prices are determined by a range of factors, including government rebates, network fees and wholesale market costs. These factors are outside of our control, and we may need to change the amount you are charged for energy in response to any changes. Climate Saver Usage: Any time: 20.9 c/kWh incl GST",
             "isFixed": false,
             "timeZone": "LOCAL",
-            "variation": "OVO Energy may vary the rates at any time in accordance with the terms and conditions available at www.ovoenergy.com.au/terms",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "category": "OTHER",
+                    "description": "Sign up to this plan between 31 Jan 2023 and 31 Mar 2023 to receive a $100 sign-up bonus to be applied as a credit to your first bill following successful transfer or connections. Available to new residential accounts in Victoria only. T&Cs apply and by signing up to this plan you accept such T&Cs. See https://energylocals.com.au/terms-and-conditions/ for full details.",
+                    "displayName": "Sign-up Bonus",
+                    "fixedAmount": {
+                        "amount": "90.91"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "Due to changes in the market and economic conditions, we may update your tariff and/or fees. We will provide at least 5 business days' notice before the change takes place.",
             "incentives": [
                 {
                     "category": "OTHER",
-                    "description": "Welcome Credit",
-                    "displayName": "Welcome Credit",
-                    "eligibility": "The Welcome Credit is valid via OVO Energy's website, VEC and selected third party sales partners. OVO Energy will credit you $190 (inclusive of GST) applied in twelve monthly instalments of $15.84 on each of your monthly bills.Terms and Conditions apply."
+                    "description": "8.3c/kWh Solar Export",
+                    "displayName": "8.3c/kWh Solar Export",
+                    "eligibility": "A feed-in tariff of 8.3c/kWh will apply to the first 10 kWh exported each day"
                 },
                 {
                     "category": "OTHER",
-                    "description": "Interest Rewards",
-                    "displayName": "Interest Rewards",
-                    "eligibility": "OVO Energy pay 3% interest on credit balances (after all monthly charges are considered). This is prorated for the number of days since your last bill."
+                    "description": "Refer a Friend Credit",
+                    "displayName": "Refer a Friend Credit",
+                    "eligibility": "Receive a $50 account credit if you mention an existing Energy Locals customer when you join. The friend also gets $50 credit. T&Cs apply: https://energylocals.com.au/terms-and-conditions-refer-a-friend. Energy Locals can withdraw this offer at any time."
                 }
             ],
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "This offer applies to residential customers with a domestic solar PV system on an applicable network tariff. A solar feed-in tariff amount of 12c/kWh will apply for the first 4000kWh exported per year. 7c/kWh will apply thereafter."
+                    "information": "Available to customers on eligible network tariffs. Feed-In Tariffs are only valid if applicable."
                 }
             ],
-            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
             "tariffPeriod": [
                 {
-                    "endDate": "06-30",
-                    "startDate": "07-01",
-                    "displayName": "All-year",
-                    "rateBlockUType": "timeOfUseRates",
-                    "timeOfUseRates": [
-                        {
-                            "type": "PEAK",
-                            "rates": [
-                                {
-                                    "unitPrice": "43.945"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI",
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "2100",
-                                    "startTime": "1500"
-                                }
-                            ],
-                            "displayName": "Peak"
-                        },
-                        {
-                            "type": "OFF_PEAK",
-                            "rates": [
-                                {
-                                    "unitPrice": "21.1595"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI",
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "0000",
-                                    "startTime": "2100"
-                                },
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI",
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "1500",
-                                    "startTime": "0000"
-                                }
-                            ],
-                            "displayName": "Off Peak"
-                        }
-                    ],
-                    "dailySupplyCharges": "139.9218"
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 11,
+                                "unitPrice": "27.00"
+                            },
+                            {
+                                "unitPrice": "28.50"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "62.50"
                 }
             ],
             "billFrequency": [
                 "P1M"
             ],
             "paymentOption": [
-                "OTHER"
+                "PAPER_BILL"
             ],
             "controlledLoad": [
                 {
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "21.1272"
+                                "unitPrice": "19.00"
                             }
                         ],
+                        "description": "Seperately metered usage",
                         "displayName": "Controlled Load"
                     },
-                    "displayName": "Controlled Load",
+                    "displayName": "Controlled Load 1",
                     "rateBlockUType": "singleRate"
                 }
             ],
@@ -416,12 +397,36 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.0495",
+                            "amount": "0.0039",
+                            "percentGreen": "10"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "10% GreenPower option",
+                    "displayName": "GreenPower 10"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0195",
+                            "percentGreen": "50"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "50% GreenPower option",
+                    "displayName": "GreenPower 50"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.039",
                             "percentGreen": "100"
                         }
                     ],
                     "scheme": "GREENPOWER",
-                    "description": "100% GreenPower for 4.95 c/kWh inc. GST.",
+                    "description": "100% GreenPower option",
                     "displayName": "GreenPower 100"
                 }
             ],
@@ -429,19 +434,19 @@
                 {
                     "scheme": "OTHER",
                     "payerType": "RETAILER",
-                    "description": "OVO Energy Retailer Feed-in-Tariff (exclusive of GST)",
+                    "description": "Retailer feed-in tariff (incl. GST, if any).",
                     "displayName": "Current FIT policy",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "12.00"
+                        "amount": "5.20"
                     }
                 }
             ],
-            "onExpiryDescription": "Ongoing contract with no contract term"
+            "onExpiryDescription": "No fixed contract."
         }
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/ovo-energy/cds-au/v1/energy/plans/OVO462811MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/ENE442498MR@VEC"
     }
 }

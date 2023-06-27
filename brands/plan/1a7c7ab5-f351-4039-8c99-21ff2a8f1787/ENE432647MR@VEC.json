@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "energy-locals",
-        "planId": "ENE445010MS@VEC",
+        "planId": "ENE432647MR@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "Energy Locals",
         "geography": {
@@ -59,18 +59,18 @@
                 "3207"
             ]
         },
-        "displayName": "Business Member EL",
-        "effectiveTo": "2023-05-18T14:00:00Z",
-        "lastUpdated": "2023-05-18T22:41:28Z",
-        "customerType": "BUSINESS",
+        "displayName": "Local Member",
+        "effectiveTo": "2023-02-08T13:00:00Z",
+        "lastUpdated": "2023-02-09T05:50:20Z",
+        "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-11-22T13:00:00Z",
         "electricityContract": {
             "fees": [
                 {
                     "term": "FIXED",
                     "type": "MEMBERSHIP",
-                    "amount": "179.88",
-                    "description": "Access wholesale energy rates with $14.99/month membership fee.\nFor more information on these fees and other fees, please visit energylocals.com.au/fees"
+                    "amount": "233.88",
+                    "description": "Access wholesale energy rates with $19.49/month membership fee.\nFor more information on these fees and other fees, please visit energylocals.com.au/fees"
                 },
                 {
                     "term": "FIXED",
@@ -87,29 +87,17 @@
                 {
                     "term": "FIXED",
                     "type": "CONNECTION",
-                    "amount": "53.09",
+                    "amount": "53.086",
                     "description": "May be charged when you move into a property or change retailer. Actual fee may vary."
                 },
                 {
                     "term": "FIXED",
                     "type": "DISCONNECTION",
-                    "amount": "41.95",
+                    "amount": "41.954",
                     "description": "May be charged when you move out and require a final meter read. Actual fee may vary."
-                },
-                {
-                    "term": "FIXED",
-                    "type": "OTHER",
-                    "amount": "2.50",
-                    "description": "Additional metering fee COMMS type 3-4 $/day (inc GST), only if applicable"
-                },
-                {
-                    "rate": "0.81",
-                    "term": "PERCENT_OF_BILL",
-                    "type": "CC_PROCESSING",
-                    "description": "We accept Visa and Mastercard payments via energylocals.com.au/pay-by-card. Debit card transactions are subject to a 0.46% fee, and credit card payments incur a 0.81% fee. Credit and debit card processing fees are waived for Direct Debit payments."
                 }
             ],
-            "terms": "Energy Locals offers no lock in contracts or exit fees. Prices may vary in accordance with the terms and conditions. See energylocals.com.au/terms for full terms and conditions.",
+            "terms": "Our energy prices are determined by a range of factors, including government rebates, network fees and wholesale market costs. These factors are outside of our control, and we may need to change the amount you are charged for energy in response to any changes.",
             "isFixed": false,
             "timeZone": "LOCAL",
             "variation": "Due to changes in the market and economic conditions, we may update your tariff and/or fees. We will provide at least 5 business days' notice before the change takes place.",
@@ -141,15 +129,14 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "18.50"
+                                "unitPrice": "17.90"
                             }
                         ],
-                        "period": "P1D",
                         "displayName": "Peak"
                     },
                     "displayName": "Period 1",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "80.80"
+                    "dailySupplyCharges": "47.10"
                 },
                 {
                     "endDate": "11-30",
@@ -164,9 +151,9 @@
                                 "THU",
                                 "FRI"
                             ],
-                            "amount": "17.4247",
-                            "endTime": "1800",
-                            "startTime": "1000",
+                            "amount": "11.31",
+                            "endTime": "2100",
+                            "startTime": "1500",
                             "description": "Non-Summer Demand",
                             "displayName": "Demand",
                             "chargePeriod": "DAY",
@@ -181,15 +168,14 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "18.50"
+                                "unitPrice": "17.90"
                             }
                         ],
-                        "period": "P1D",
                         "displayName": "Peak"
                     },
                     "displayName": "Period 2",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "80.80"
+                    "dailySupplyCharges": "47.10"
                 },
                 {
                     "endDate": "03-31",
@@ -204,9 +190,9 @@
                                 "THU",
                                 "FRI"
                             ],
-                            "amount": "51.7479",
-                            "endTime": "1800",
-                            "startTime": "1000",
+                            "amount": "33.074",
+                            "endTime": "2100",
+                            "startTime": "1500",
                             "description": "Summer Demand",
                             "displayName": "Demand",
                             "chargePeriod": "DAY",
@@ -278,6 +264,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/ENE445010MS@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/ENE432647MR@VEC"
     }
 }

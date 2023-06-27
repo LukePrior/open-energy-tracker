@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "energy-locals",
-        "planId": "ENE464012MS@VEC",
+        "planId": "ENE464014MS@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "Energy Locals",
         "geography": {
@@ -402,20 +402,84 @@
             "pricingModel": "SINGLE_RATE",
             "tariffPeriod": [
                 {
-                    "endDate": "12-31",
-                    "startDate": "01-01",
+                    "endDate": "11-30",
+                    "startDate": "04-01",
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "23.50"
+                                "unitPrice": "20.00"
                             }
                         ],
                         "period": "P1D",
                         "displayName": "Peak"
                     },
-                    "displayName": "Peak",
+                    "displayName": "Period 1",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "93.30"
+                    "dailySupplyCharges": "374.00"
+                },
+                {
+                    "endDate": "11-30",
+                    "startDate": "04-01",
+                    "displayName": "Demand period 1",
+                    "demandCharges": [
+                        {
+                            "days": [
+                                "MON",
+                                "TUE",
+                                "WED",
+                                "THU",
+                                "FRI"
+                            ],
+                            "amount": "26.1699",
+                            "endTime": "1800",
+                            "startTime": "1000",
+                            "description": "Non-Summer Demand",
+                            "displayName": "Demand",
+                            "chargePeriod": "DAY",
+                            "measurementPeriod": "DAY"
+                        }
+                    ],
+                    "rateBlockUType": "demandCharges"
+                },
+                {
+                    "endDate": "03-31",
+                    "startDate": "12-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "20.00"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Period 2",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "374.00"
+                },
+                {
+                    "endDate": "03-31",
+                    "startDate": "12-01",
+                    "displayName": "Demand period 2",
+                    "demandCharges": [
+                        {
+                            "days": [
+                                "MON",
+                                "TUE",
+                                "WED",
+                                "THU",
+                                "FRI"
+                            ],
+                            "amount": "58.126",
+                            "endTime": "1800",
+                            "startTime": "1000",
+                            "description": "Summer Demand",
+                            "displayName": "Demand",
+                            "chargePeriod": "DAY",
+                            "measurementPeriod": "DAY"
+                        }
+                    ],
+                    "rateBlockUType": "demandCharges"
                 }
             ],
             "billFrequency": [
@@ -480,6 +544,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/ENE464012MS@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/ENE464014MS@VEC"
     }
 }

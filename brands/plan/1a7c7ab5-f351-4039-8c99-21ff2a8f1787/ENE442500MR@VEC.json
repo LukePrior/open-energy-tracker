@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "energy-locals",
-        "planId": "ENE464007MS@VEC",
+        "planId": "ENE442500MR@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "Energy Locals",
         "geography": {
@@ -59,17 +59,18 @@
                 "3207"
             ]
         },
-        "displayName": "Business Member EL",
-        "lastUpdated": "2023-05-17T02:33:49Z",
-        "customerType": "BUSINESS",
-        "effectiveFrom": "2023-05-16T14:00:00Z",
+        "displayName": "Online Member + Sign up Bonus",
+        "effectiveTo": "2023-02-08T13:00:00Z",
+        "lastUpdated": "2023-02-09T05:51:35Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-01-30T13:00:00Z",
         "electricityContract": {
             "fees": [
                 {
                     "term": "FIXED",
                     "type": "MEMBERSHIP",
-                    "amount": "179.88",
-                    "description": "Access wholesale energy rates with $14.99/month membership fee.\nFor more information on these fees and other fees, please visit energylocals.com.au/fees"
+                    "amount": "143.88",
+                    "description": "Access wholesale energy rates with $11.99/month membership fee.\nFor more information on these fees and other fees, please visit energylocals.com.au/fees"
                 },
                 {
                     "term": "FIXED",
@@ -94,36 +95,36 @@
                     "type": "DISCONNECTION",
                     "amount": "41.95",
                     "description": "May be charged when you move out and require a final meter read. Actual fee may vary."
-                },
-                {
-                    "term": "FIXED",
-                    "type": "OTHER",
-                    "amount": "2.50",
-                    "description": "Additional metering fee COMMS type 3-4 $/day (inc GST), only if applicable"
-                },
-                {
-                    "rate": "0.81",
-                    "term": "PERCENT_OF_BILL",
-                    "type": "CC_PROCESSING",
-                    "description": "We accept Visa, Mastercard and AMEX payments via pay.energylocals.com.au. Debit card transactions are subject to a 0.46% fee, and credit card payments incur a 0.81% fee. Credit and debit card processing fees are waived for Direct Debit payments."
                 }
             ],
-            "terms": "Energy Locals offers no lock in contracts or exit fees. Prices may vary in accordance with the terms and conditions. See energylocals.com.au/terms for full terms and conditions.",
+            "terms": "Our energy prices are determined by a range of factors, including government rebates, network fees and wholesale market costs. These factors are outside of our control, and we may need to change the amount you are charged for energy in response to any changes.",
             "isFixed": false,
             "timeZone": "LOCAL",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "category": "OTHER",
+                    "description": "Sign up to this plan between 31 Jan 2023 and 31 Mar 2023 to receive a $100 sign-up bonus to be applied as a credit to your first bill following successful transfer or connections. Available to new residential accounts in Victoria only. T&Cs apply and by signing up to this plan you accept such T&Cs. See https://energylocals.com.au/terms-and-conditions/ for full details.",
+                    "displayName": "Sign-up Bonus",
+                    "fixedAmount": {
+                        "amount": "90.91"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
             "variation": "Due to changes in the market and economic conditions, we may update your tariff and/or fees. We will provide at least 5 business days' notice before the change takes place.",
             "incentives": [
-                {
-                    "category": "OTHER",
-                    "description": "Refer a Friend Credit",
-                    "displayName": "Refer a Friend Credit",
-                    "eligibility": "Receive a $50 account credit if you mention an existing Energy Locals customer when you join. The friend also gets $50 credit. T&Cs apply: https://energylocals.com.au/terms-and-conditions-refer-a-friend. Energy Locals can withdraw this offer at any time."
-                },
                 {
                     "category": "OTHER",
                     "description": "8.3c/kWh Solar Export",
                     "displayName": "8.3c/kWh Solar Export",
                     "eligibility": "A feed-in tariff of 8.3c/kWh will apply to the first 10 kWh exported each day"
+                },
+                {
+                    "category": "OTHER",
+                    "description": "Refer a Friend Credit",
+                    "displayName": "Refer a Friend Credit",
+                    "eligibility": "Receive a $50 account credit if you mention an existing Energy Locals customer when you join. The friend also gets $50 credit. T&Cs apply: https://energylocals.com.au/terms-and-conditions-refer-a-friend. Energy Locals can withdraw this offer at any time."
                 }
             ],
             "eligibility": [
@@ -135,84 +136,19 @@
             "pricingModel": "SINGLE_RATE",
             "tariffPeriod": [
                 {
-                    "endDate": "11-30",
-                    "startDate": "04-01",
+                    "endDate": "12-31",
+                    "startDate": "01-01",
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "18.50"
+                                "unitPrice": "21.20"
                             }
                         ],
-                        "period": "P1D",
                         "displayName": "Peak"
                     },
-                    "displayName": "Period 1",
+                    "displayName": "Peak",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "374.80"
-                },
-                {
-                    "endDate": "11-30",
-                    "startDate": "04-01",
-                    "displayName": "Demand period 1",
-                    "demandCharges": [
-                        {
-                            "days": [
-                                "MON",
-                                "TUE",
-                                "WED",
-                                "THU",
-                                "FRI"
-                            ],
-                            "amount": "17.5233",
-                            "endTime": "1800",
-                            "startTime": "1000",
-                            "description": "Non-Summer Demand",
-                            "displayName": "Demand",
-                            "chargePeriod": "DAY",
-                            "measurementPeriod": "DAY"
-                        }
-                    ],
-                    "rateBlockUType": "demandCharges"
-                },
-                {
-                    "endDate": "03-31",
-                    "startDate": "12-01",
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "unitPrice": "18.50"
-                            }
-                        ],
-                        "period": "P1D",
-                        "displayName": "Peak"
-                    },
-                    "displayName": "Period 2",
-                    "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "374.80"
-                },
-                {
-                    "endDate": "03-31",
-                    "startDate": "12-01",
-                    "displayName": "Demand period 2",
-                    "demandCharges": [
-                        {
-                            "days": [
-                                "MON",
-                                "TUE",
-                                "WED",
-                                "THU",
-                                "FRI"
-                            ],
-                            "amount": "51.7808",
-                            "endTime": "1800",
-                            "startTime": "1000",
-                            "description": "Summer Demand",
-                            "displayName": "Demand",
-                            "chargePeriod": "DAY",
-                            "measurementPeriod": "DAY"
-                        }
-                    ],
-                    "rateBlockUType": "demandCharges"
+                    "dailySupplyCharges": "47.60"
                 }
             ],
             "billFrequency": [
@@ -277,6 +213,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/ENE464007MS@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/ENE442500MR@VEC"
     }
 }

@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "energy-locals",
-        "planId": "ENE464053MR@VEC",
+        "planId": "ENE445052MR@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "Energy Locals",
         "geography": {
@@ -327,10 +327,10 @@
             ]
         },
         "displayName": "Online Member + Sign up Bonus",
-        "effectiveTo": "2023-06-29T14:00:00Z",
-        "lastUpdated": "2023-05-17T02:33:51Z",
+        "effectiveTo": "2023-04-01T13:00:00Z",
+        "lastUpdated": "2023-04-01T15:00:03Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2023-05-16T14:00:00Z",
+        "effectiveFrom": "2023-01-30T13:00:00Z",
         "electricityContract": {
             "fees": [
                 {
@@ -367,12 +367,24 @@
                     "rate": "0.81",
                     "term": "PERCENT_OF_BILL",
                     "type": "CC_PROCESSING",
-                    "description": "We accept Visa, Mastercard and AMEX payments via pay.energylocals.com.au. Debit card transactions are subject to a 0.46% fee, and credit card payments incur a 0.81% fee. Credit and debit card processing fees are waived for Direct Debit payments."
+                    "description": "We accept Visa and Mastercard payments via energylocals.com.au/pay-by-card. Debit card transactions are subject to a 0.46% fee, and credit card payments incur a 0.81% fee. Credit and debit card processing fees are waived for Direct Debit payments."
                 }
             ],
             "terms": "Energy Locals offers no lock in contracts or exit fees. Prices may vary in accordance with the terms and conditions. See energylocals.com.au/terms for full terms and conditions.",
             "isFixed": false,
             "timeZone": "LOCAL",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "category": "OTHER",
+                    "description": "Sign up to this plan between 31 Jan 2023 and 31 Mar 2023 to receive a $100 sign-up bonus to be applied as a credit to your first bill following successful transfer or connections. Available to new residential accounts in Victoria only. T&Cs apply and by signing up to this plan you accept such T&Cs. See https://energylocals.com.au/terms-and-conditions/ for full details.",
+                    "displayName": "Sign-up Bonus",
+                    "fixedAmount": {
+                        "amount": "90.91"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
             "variation": "Due to changes in the market and economic conditions, we may update your tariff and/or fees. We will provide at least 5 business days' notice before the change takes place.",
             "incentives": [
                 {
@@ -386,12 +398,6 @@
                     "description": "Refer a Friend Credit",
                     "displayName": "Refer a Friend Credit",
                     "eligibility": "Receive a $50 account credit if you mention an existing Energy Locals customer when you join. The friend also gets $50 credit. T&Cs apply: https://energylocals.com.au/terms-and-conditions-refer-a-friend. Energy Locals can withdraw this offer at any time."
-                },
-                {
-                    "category": "OTHER",
-                    "description": "Sign-up Bonus",
-                    "displayName": "Sign-up Bonus",
-                    "eligibility": "Sign up between 01 Apr and 30 Jun 2023 for a $100 (incl GST) bonus credited to 1st bill after transfer/connection. New residential accounts in Victoria. T&Cs apply, acceptance upon signup. Details at\u00a0https://energylocals.com.au/terms-and-conditions/"
                 }
             ],
             "eligibility": [
@@ -403,27 +409,91 @@
             "pricingModel": "SINGLE_RATE_CONT_LOAD",
             "tariffPeriod": [
                 {
-                    "endDate": "12-31",
-                    "startDate": "01-01",
+                    "endDate": "11-30",
+                    "startDate": "04-01",
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "22.20"
+                                "unitPrice": "18.60"
                             }
                         ],
                         "period": "P1D",
                         "displayName": "Peak"
                     },
-                    "displayName": "Peak",
+                    "displayName": "Period 1",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "61.60"
+                    "dailySupplyCharges": "61.10"
+                },
+                {
+                    "endDate": "11-30",
+                    "startDate": "04-01",
+                    "displayName": "Demand period 1",
+                    "demandCharges": [
+                        {
+                            "days": [
+                                "MON",
+                                "TUE",
+                                "WED",
+                                "THU",
+                                "FRI"
+                            ],
+                            "amount": "11.178",
+                            "endTime": "2100",
+                            "startTime": "1500",
+                            "description": "Non-Summer Demand",
+                            "displayName": "Demand",
+                            "chargePeriod": "DAY",
+                            "measurementPeriod": "DAY"
+                        }
+                    ],
+                    "rateBlockUType": "demandCharges"
+                },
+                {
+                    "endDate": "03-31",
+                    "startDate": "12-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "18.60"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Period 2",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "61.10"
+                },
+                {
+                    "endDate": "03-31",
+                    "startDate": "12-01",
+                    "displayName": "Demand period 2",
+                    "demandCharges": [
+                        {
+                            "days": [
+                                "MON",
+                                "TUE",
+                                "WED",
+                                "THU",
+                                "FRI"
+                            ],
+                            "amount": "36.69",
+                            "endTime": "2100",
+                            "startTime": "1500",
+                            "description": "Summer Demand",
+                            "displayName": "Demand",
+                            "chargePeriod": "DAY",
+                            "measurementPeriod": "DAY"
+                        }
+                    ],
+                    "rateBlockUType": "demandCharges"
                 }
             ],
             "billFrequency": [
                 "P1M"
             ],
             "paymentOption": [
-                "DIRECT_DEBIT"
+                "PAPER_BILL"
             ],
             "controlledLoad": [
                 {
@@ -433,7 +503,7 @@
                                 "unitPrice": "16.40"
                             }
                         ],
-                        "description": "Seperately metered usage",
+                        "description": "seperately metered usage",
                         "displayName": "Controlled Load"
                     },
                     "displayName": "Controlled Load 1",
@@ -496,6 +566,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/ENE464053MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/ENE445052MR@VEC"
     }
 }

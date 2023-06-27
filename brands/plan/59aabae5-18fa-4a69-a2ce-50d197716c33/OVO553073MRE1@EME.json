@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "The Basic Plan",
-        "lastUpdated": "2023-05-11T14:07:15.599Z",
+        "effectiveTo": "2023-06-30T00:00:00.000Z",
+        "lastUpdated": "2023-06-26T02:12:38.947Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-05-12T00:00:00.000Z",
         "electricityContract": {

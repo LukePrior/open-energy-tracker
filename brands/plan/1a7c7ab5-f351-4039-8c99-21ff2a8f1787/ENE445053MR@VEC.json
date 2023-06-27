@@ -1,10 +1,10 @@
 {
     "data": {
         "type": "MARKET",
-        "brand": "tango",
-        "planId": "TAN465450MS@VEC",
+        "brand": "energy-locals",
+        "planId": "ENE445053MR@VEC",
         "fuelType": "ELECTRICITY",
-        "brandName": "Tango Energy",
+        "brandName": "Energy Locals",
         "geography": {
             "distributors": [
                 "Powercor"
@@ -326,70 +326,84 @@
                 "3764"
             ]
         },
-        "displayName": "Business Select",
-        "effectiveTo": "2023-06-25T14:00:00Z",
-        "lastUpdated": "2023-06-26T00:11:51Z",
-        "customerType": "BUSINESS",
-        "effectiveFrom": "2023-05-31T14:00:00Z",
+        "displayName": "Online Member + Sign up Bonus",
+        "effectiveTo": "2023-04-01T13:00:00Z",
+        "lastUpdated": "2023-04-01T15:00:03Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-01-30T13:00:00Z",
         "electricityContract": {
             "fees": [
                 {
                     "term": "FIXED",
-                    "type": "OTHER",
-                    "amount": "0.00",
-                    "description": "There are no exit fees associated with this offer. We may vary the Charges and fees at any time by notice to you, including by message on your bill. Details about Charges and fees are set out under the terms and conditions of your Market Agreement.\nUsage aggregated according to Australian Eastern Standard Time (AEST). Your usage may be adjusted for local time (Australian Daylight Savings Time). Further information on our charges is available at: http://tangoenergy.com/additional-charges"
-                },
-                {
-                    "rate": "0.6",
-                    "term": "PERCENT_OF_BILL",
-                    "type": "PAYMENT_PROCESSING",
-                    "description": "For payments made by MasterCard or Visa where we incur a merchant services fee. Not applicable to direct debit payments by credit card or debit card."
-                },
-                {
-                    "rate": "0.75",
-                    "term": "PERCENT_OF_BILL",
-                    "type": "PAYMENT_PROCESSING",
-                    "description": "For payments made by AMEX or any other payment where we incur a merchant services fee. Not applicable to direct debit payments by credit card or debit card."
+                    "type": "MEMBERSHIP",
+                    "amount": "143.88",
+                    "description": "Access wholesale energy rates with $11.99/month membership fee.\nFor more information on these fees and other fees, please visit energylocals.com.au/fees"
                 },
                 {
                     "term": "FIXED",
-                    "type": "RECONNECTION",
-                    "amount": "61.24",
-                    "description": "$61.24 (inc. GST) Standard rates apply during business hours. Fees are set by your distributor or metering coordinator and will be quoted when requested."
+                    "type": "DD_DISHONOUR",
+                    "amount": "10.00",
+                    "description": "Charged when a direct debit payment has dishonoured or reversed. This charge is not subject to GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "2.00",
+                    "description": "Charged for providing a paper bill"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "99.77",
+                    "description": "May be charged when you move into a property or change retailer. Actual fee may vary."
                 },
                 {
                     "term": "FIXED",
                     "type": "DISCONNECTION",
                     "amount": "65.09",
-                    "description": "$65.09 (inc. GST) Standard rates apply during business hours. Fees may vary and will be quoted on request."
+                    "description": "May be charged when you move out and require a final meter read. Actual fee may vary."
                 },
                 {
-                    "term": "FIXED",
-                    "type": "OTHER",
-                    "amount": "7.50",
-                    "description": "Dishonour fee. $7.50 (exc. GST) if your payment is dishonoured or reversed."
-                },
-                {
-                    "term": "FIXED",
-                    "type": "OTHER",
-                    "amount": "2.75",
-                    "description": "COMMS Type 3-4 metering charge (if applicable) per meter per day. Additional fees may apply for the recovery of amounts connected with meter service provision and the installation of a new meter at your Supply Address."
-                },
-                {
-                    "term": "FIXED",
-                    "type": "OTHER",
-                    "amount": "3.30",
-                    "description": "Paper bill fee $3.30 (inc. GST) for each paper bill."
+                    "rate": "0.81",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "We accept Visa and Mastercard payments via energylocals.com.au/pay-by-card. Debit card transactions are subject to a 0.46% fee, and credit card payments incur a 0.81% fee. Credit and debit card processing fees are waived for Direct Debit payments."
                 }
             ],
-            "terms": "This contract is ongoing and may be terminated by you or us in accordance with the terms of our Market Agreement. The full terms and conditions applicable to this offer are available at https://tangoenergy.com/terms-and-conditions. For further information about this offer, our market terms or solar feed-in eligibility call Tango Energy on 1800 010 648.",
-            "isFixed": true,
+            "terms": "Energy Locals offers no lock in contracts or exit fees. Prices may vary in accordance with the terms and conditions. See energylocals.com.au/terms for full terms and conditions.",
+            "isFixed": false,
             "timeZone": "LOCAL",
-            "variation": "Daily supply and usage rates are fixed until at least 31st May 2024 provided the network tariff doesn't change. Excludes feed-in tariffs, demand and other charges.\u00a0We will notify you about any variations to your prices in accordance with Energy Laws.",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "category": "OTHER",
+                    "description": "Sign up to this plan between 31 Jan 2023 and 31 Mar 2023 to receive a $100 sign-up bonus to be applied as a credit to your first bill following successful transfer or connections. Available to new residential accounts in Victoria only. T&Cs apply and by signing up to this plan you accept such T&Cs. See https://energylocals.com.au/terms-and-conditions/ for full details.",
+                    "displayName": "Sign-up Bonus",
+                    "fixedAmount": {
+                        "amount": "90.91"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "Due to changes in the market and economic conditions, we may update your tariff and/or fees. We will provide at least 5 business days' notice before the change takes place.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "8.3c/kWh Solar Export",
+                    "displayName": "8.3c/kWh Solar Export",
+                    "eligibility": "A feed-in tariff of 8.3c/kWh will apply to the first 10 kWh exported each day"
+                },
+                {
+                    "category": "OTHER",
+                    "description": "Refer a Friend Credit",
+                    "displayName": "Refer a Friend Credit",
+                    "eligibility": "Receive a $50 account credit if you mention an existing Energy Locals customer when you join. The friend also gets $50 credit. T&Cs apply: https://energylocals.com.au/terms-and-conditions-refer-a-friend. Energy Locals can withdraw this offer at any time."
+                }
+            ],
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "This offer is only available to small customers with an applicable network tariff."
+                    "information": "Available to customers on eligible network tariffs. Feed-In Tariffs are only valid if applicable."
                 }
             ],
             "pricingModel": "SINGLE_RATE_CONT_LOAD",
@@ -400,7 +414,7 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "21.208"
+                                "unitPrice": "22.20"
                             }
                         ],
                         "period": "P1D",
@@ -408,7 +422,7 @@
                     },
                     "displayName": "Peak",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "130.60"
+                    "dailySupplyCharges": "61.60"
                 }
             ],
             "billFrequency": [
@@ -422,31 +436,60 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "18.20"
+                                "unitPrice": "16.40"
                             }
                         ],
+                        "description": "Seperately metered usage",
                         "displayName": "Controlled Load"
                     },
-                    "displayName": "Controlled Load",
+                    "displayName": "Controlled Load 1",
                     "rateBlockUType": "singleRate"
                 }
             ],
             "coolingOffDays": 10,
-            "solarFeedInTariff": [
+            "greenPowerCharges": [
                 {
-                    "scheme": "PREMIUM",
-                    "payerType": "RETAILER",
-                    "description": "PFiT",
-                    "displayName": "Premium FIT [closed]",
-                    "tariffUType": "singleTariff",
-                    "singleTariff": {
-                        "amount": "60.00"
-                    }
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0039",
+                            "percentGreen": "10"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "10% GreenPower option",
+                    "displayName": "GreenPower 10"
                 },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0195",
+                            "percentGreen": "50"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "50% GreenPower option",
+                    "displayName": "GreenPower 50"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.039",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "100% GreenPower option",
+                    "displayName": "GreenPower 100"
+                }
+            ],
+            "solarFeedInTariff": [
                 {
                     "scheme": "OTHER",
                     "payerType": "RETAILER",
-                    "description": "RFiT",
+                    "description": "Retailer feed-in tariff (incl. GST, if any).",
                     "displayName": "Current FIT policy",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
@@ -454,11 +497,11 @@
                     }
                 }
             ],
-            "onExpiryDescription": "Daily supply and usage rates are fixed until at least 31st May 2024 provided the network tariff doesn't change. Excludes feed-in tariffs, demand and other charges.\u00a0We will notify you about any variations to your prices in accordance with Energy Laws."
+            "onExpiryDescription": "No fixed contract."
         }
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/tango/cds-au/v1/energy/plans/TAN465450MS@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/ENE445053MR@VEC"
     }
 }

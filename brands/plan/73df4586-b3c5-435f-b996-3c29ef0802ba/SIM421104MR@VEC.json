@@ -1,10 +1,10 @@
 {
     "data": {
         "type": "MARKET",
-        "brand": "energy-locals",
-        "planId": "ENE463912MR@VEC",
+        "brand": "simply-energy",
+        "planId": "SIM421104MR@VEC",
         "fuelType": "ELECTRICITY",
-        "brandName": "Energy Locals",
+        "brandName": "Simply Energy",
         "geography": {
             "distributors": [
                 "United Energy"
@@ -111,74 +111,58 @@
                 "3977"
             ]
         },
-        "displayName": "Online Member",
-        "lastUpdated": "2023-05-17T02:33:44Z",
+        "displayName": "VIC - Simply for Good by ENGIE Elec",
+        "effectiveTo": "2022-10-12T13:00:00Z",
+        "lastUpdated": "2022-10-12T23:39:40Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2023-05-16T14:00:00Z",
+        "effectiveFrom": "2022-08-16T14:00:00Z",
         "electricityContract": {
             "fees": [
                 {
-                    "term": "FIXED",
-                    "type": "MEMBERSHIP",
-                    "amount": "143.88",
-                    "description": "Access wholesale energy rates with $11.99/month membership fee.\nFor more information on these fees and other fees, please visit energylocals.com.au/fees"
+                    "rate": "0.36",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "You may be charged credit card fees in all channels (other than direct debit) of 0.36% for Mastercard."
                 },
                 {
-                    "term": "FIXED",
-                    "type": "DD_DISHONOUR",
-                    "amount": "10.00",
-                    "description": "Charged when a direct debit payment has dishonoured or reversed. This charge is not subject to GST."
+                    "rate": "0.42",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "You may be charged credit card fees in all channels (other than direct debit) of 0.42% for Visa."
                 },
                 {
                     "term": "FIXED",
                     "type": "OTHER",
-                    "amount": "2.00",
-                    "description": "Charged for providing a paper bill"
+                    "amount": "1.65",
+                    "description": "A $1.65 (inc. GST) charge will apply to paper bills sent in the post."
                 },
                 {
                     "term": "FIXED",
-                    "type": "CONNECTION",
-                    "amount": "86.47",
-                    "description": "May be charged when you move into a property or change retailer. Actual fee may vary."
-                },
-                {
-                    "term": "FIXED",
-                    "type": "DISCONNECTION",
-                    "amount": "57.37",
-                    "description": "May be charged when you move out and require a final meter read. Actual fee may vary."
-                },
-                {
-                    "rate": "0.81",
-                    "term": "PERCENT_OF_BILL",
-                    "type": "CC_PROCESSING",
-                    "description": "We accept Visa, Mastercard and AMEX payments via pay.energylocals.com.au. Debit card transactions are subject to a 0.46% fee, and credit card payments incur a 0.81% fee. Credit and debit card processing fees are waived for Direct Debit payments."
+                    "type": "OTHER",
+                    "amount": "0.50",
+                    "description": "To participate in the GreenPower accredited program a daily charge of $0.50n(inc GST) will be applied to your electricity bill."
                 }
             ],
-            "terms": "Energy Locals offers no lock in contracts or exit fees. Prices may vary in accordance with the terms and conditions. See energylocals.com.au/terms for full terms and conditions.",
+            "terms": "For further details on the information presented in this Plan Information Document, or for full terms and conditions, please visit www.simplyenergy.com.au or call Simply Energy on 13 88 08.",
             "isFixed": false,
-            "timeZone": "LOCAL",
-            "variation": "Due to changes in the market and economic conditions, we may update your tariff and/or fees. We will provide at least 5 business days' notice before the change takes place.",
+            "termType": "OTHER",
+            "timeZone": "AEST",
+            "variation": "We may vary your rates and charges at any time, including if any underlying information is incorrect, you get a new meter or your distributor changes your tariff. We'll give you advance notice of any change, which may be on your bill.",
             "incentives": [
                 {
                     "category": "OTHER",
-                    "description": "Refer a Friend Credit",
-                    "displayName": "Refer a Friend Credit",
-                    "eligibility": "Receive a $50 account credit if you mention an existing Energy Locals customer when you join. The friend also gets $50 credit. T&Cs apply: https://energylocals.com.au/terms-and-conditions-refer-a-friend. Energy Locals can withdraw this offer at any time."
-                },
-                {
-                    "category": "OTHER",
-                    "description": "8.3c/kWh Solar Export",
-                    "displayName": "8.3c/kWh Solar Export",
-                    "eligibility": "A feed-in tariff of 8.3c/kWh will apply to the first 10 kWh exported each day"
+                    "description": "Simply Incentives Reward Plan",
+                    "displayName": "Simply Incentives Reward Plan",
+                    "eligibility": "Your electricity plan is 100% GreenPower which offsets your power usage with green initiatives and directly supports renewable energy generation."
                 }
             ],
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "Available to customers on eligible network tariffs. Feed-In Tariffs are only valid if applicable."
+                    "information": "You are not eligible for our offer unless we have market contract rates for  residential customers with your meter type in your distribution area. You must meet our creditworthiness and other eligibility criteria. Gas offers are only available if the supply address is connected for gas."
                 }
             ],
-            "pricingModel": "TIME_OF_USE",
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
             "tariffPeriod": [
                 {
                     "endDate": "12-31",
@@ -190,7 +174,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "30.00"
+                                    "unitPrice": "29.55"
                                 }
                             ],
                             "timeOfUse": [
@@ -214,7 +198,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "17.80"
+                                    "unitPrice": "16.64"
                                 }
                             ],
                             "timeOfUse": [
@@ -245,54 +229,45 @@
                                     "startTime": "2100"
                                 }
                             ],
-                            "displayName": "Off Peak"
+                            "displayName": "Off-Peak"
                         }
                     ],
-                    "dailySupplyCharges": "39.80"
+                    "dailySupplyCharges": "97.75"
                 }
             ],
             "billFrequency": [
                 "P1M"
             ],
             "paymentOption": [
-                "DIRECT_DEBIT"
+                "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "14.82"
+                            }
+                        ],
+                        "description": "Ancillary Meter",
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Controlled Load",
+                    "rateBlockUType": "singleRate"
+                }
             ],
             "coolingOffDays": 10,
             "greenPowerCharges": [
                 {
-                    "type": "FIXED_PER_UNIT",
+                    "type": "FIXED_PER_DAY",
                     "tiers": [
                         {
-                            "amount": "0.0039",
-                            "percentGreen": "10"
-                        }
-                    ],
-                    "scheme": "GREENPOWER",
-                    "description": "10% GreenPower option",
-                    "displayName": "GreenPower 10"
-                },
-                {
-                    "type": "FIXED_PER_UNIT",
-                    "tiers": [
-                        {
-                            "amount": "0.0195",
-                            "percentGreen": "50"
-                        }
-                    ],
-                    "scheme": "GREENPOWER",
-                    "description": "50% GreenPower option",
-                    "displayName": "GreenPower 50"
-                },
-                {
-                    "type": "FIXED_PER_UNIT",
-                    "tiers": [
-                        {
-                            "amount": "0.039",
+                            "amount": "0.50",
                             "percentGreen": "100"
                         }
                     ],
                     "scheme": "GREENPOWER",
-                    "description": "100% GreenPower option",
+                    "description": "To participate in the GreenPower accredited program a daily charge of $0.50 (inc GST) will be applied to your electricity bill.",
                     "displayName": "GreenPower 100"
                 }
             ],
@@ -300,19 +275,29 @@
                 {
                     "scheme": "OTHER",
                     "payerType": "RETAILER",
-                    "description": "Retailer feed-in tariff (incl. GST, if any).",
+                    "description": "Current",
                     "displayName": "Current FIT policy",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
                         "amount": "5.20"
                     }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "PFIT",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
                 }
             ],
-            "onExpiryDescription": "No fixed contract."
+            "onExpiryDescription": "Ongoing energy plan until you or we end it. We may end this energy plan at any time by giving you 20 Business Days notice."
         }
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/ENE463912MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/simply-energy/cds-au/v1/energy/plans/SIM421104MR@VEC"
     }
 }

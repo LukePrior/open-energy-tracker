@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "energy-locals",
-        "planId": "ENE463913MR@VEC",
+        "planId": "ENE417736MR@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "Energy Locals",
         "geography": {
@@ -111,86 +111,89 @@
                 "3977"
             ]
         },
-        "displayName": "Online Member",
-        "lastUpdated": "2023-05-17T02:33:44Z",
+        "displayName": "TEP - ToU 21 + $100 Welcome Credit",
+        "effectiveTo": "2023-05-01T14:00:00Z",
+        "lastUpdated": "2023-05-02T01:28:55Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2023-05-16T14:00:00Z",
+        "effectiveFrom": "2022-07-31T14:00:00Z",
         "electricityContract": {
             "fees": [
                 {
                     "term": "FIXED",
-                    "type": "MEMBERSHIP",
-                    "amount": "143.88",
-                    "description": "Access wholesale energy rates with $11.99/month membership fee.\nFor more information on these fees and other fees, please visit energylocals.com.au/fees"
-                },
-                {
-                    "term": "FIXED",
-                    "type": "DD_DISHONOUR",
-                    "amount": "10.00",
-                    "description": "Charged when a direct debit payment has dishonoured or reversed. This charge is not subject to GST."
-                },
-                {
-                    "term": "FIXED",
-                    "type": "OTHER",
-                    "amount": "2.00",
-                    "description": "Charged for providing a paper bill"
+                    "type": "LATE_PAYMENT",
+                    "amount": "13.00",
+                    "description": "A $13.00 fee applies for each bill that's paid after the due date. This fee is not subject to GST.\nAll normal fees are listed here however in some circumstances, your local distributor may charge fees for certain additional services such as a home move. See energylocals.com.au/fees"
                 },
                 {
                     "term": "FIXED",
                     "type": "CONNECTION",
                     "amount": "86.47",
-                    "description": "May be charged when you move into a property or change retailer. Actual fee may vary."
+                    "description": "Move-in connection fee"
                 },
                 {
                     "term": "FIXED",
-                    "type": "DISCONNECTION",
-                    "amount": "57.37",
-                    "description": "May be charged when you move out and require a final meter read. Actual fee may vary."
+                    "type": "PAYMENT_PROCESSING",
+                    "amount": "2.00",
+                    "description": "Paper bill fee"
                 },
                 {
-                    "rate": "0.81",
+                    "rate": "1",
                     "term": "PERCENT_OF_BILL",
                     "type": "CC_PROCESSING",
-                    "description": "We accept Visa, Mastercard and AMEX payments via pay.energylocals.com.au. Debit card transactions are subject to a 0.46% fee, and credit card payments incur a 0.81% fee. Credit and debit card processing fees are waived for Direct Debit payments."
-                }
-            ],
-            "terms": "Energy Locals offers no lock in contracts or exit fees. Prices may vary in accordance with the terms and conditions. See energylocals.com.au/terms for full terms and conditions.",
-            "isFixed": false,
-            "timeZone": "LOCAL",
-            "variation": "Due to changes in the market and economic conditions, we may update your tariff and/or fees. We will provide at least 5 business days' notice before the change takes place.",
-            "incentives": [
-                {
-                    "category": "OTHER",
-                    "description": "Refer a Friend Credit",
-                    "displayName": "Refer a Friend Credit",
-                    "eligibility": "Receive a $50 account credit if you mention an existing Energy Locals customer when you join. The friend also gets $50 credit. T&Cs apply: https://energylocals.com.au/terms-and-conditions-refer-a-friend. Energy Locals can withdraw this offer at any time."
+                    "description": "A fee of 1% applies to payments made by credit card"
                 },
                 {
-                    "category": "OTHER",
-                    "description": "8.3c/kWh Solar Export",
-                    "displayName": "8.3c/kWh Solar Export",
-                    "eligibility": "A feed-in tariff of 8.3c/kWh will apply to the first 10 kWh exported each day"
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "10.00",
+                    "description": "Direct debit dishonour payment fee. This fee is not subject to GST."
                 }
             ],
+            "terms": "Available to residential customers with a Tesla Powerwall 2 at their premises. Your solar PV system must not exceed 15kW for each Powerwall at the premises the system is installed. You agree to have a smart meter installed if one is not already operating at your premises. Welcome credit is available to offset electricity charges and may not be withdrawn or converted into cash. See www.energylocals.com.au/tesla-energy-plan-tou-terms-United.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "category": "OTHER",
+                    "description": "Receive $220 (incl GST) in Grid Support Credits each year for each Powerwall you have connected. The applicable portion of the $220 (incl GST) in Grid Support Credits will be calculated daily and appear as a credit on your bill each month.",
+                    "displayName": "Grid Support Credit",
+                    "fixedAmount": {
+                        "amount": "200.00"
+                    },
+                    "methodUType": "fixedAmount"
+                },
+                {
+                    "type": "GUARANTEED",
+                    "category": "OTHER",
+                    "description": "When you connect to the Tesla Energy Plan with an existing Powerwall, you will receive a Welcome Credit of $100 (incl GST). The credit will be applied at month 3 after your transfer date. Welcome credit is available to offset charges and may not be withdrawn or converted into cash. Available to customers who currently own a Powerwall and transfer their electricity to the Tesla Energy Plan. See terms for details. Available to new customers only.",
+                    "displayName": "Welcome Credit",
+                    "fixedAmount": {
+                        "amount": "90.9091"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "This plan may be repriced up to once per calendar year",
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "Available to customers on eligible network tariffs. Feed-In Tariffs are only valid if applicable."
+                    "information": "Must have Tesla Powerwall 2 connected to internet via Wi-Fi or Ethernet and must not have network supply voltages that exceed normal inverter operating limits. This plan requires a smart meter, if additional metering supply works are required this cost will be worn by you."
                 }
             ],
-            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "pricingModel": "TIME_OF_USE",
             "tariffPeriod": [
                 {
                     "endDate": "12-31",
                     "startDate": "01-01",
-                    "displayName": "Period",
+                    "displayName": "Year-round",
                     "rateBlockUType": "timeOfUseRates",
                     "timeOfUseRates": [
                         {
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "29.90"
+                                    "unitPrice": "30.00"
                                 }
                             ],
                             "timeOfUse": [
@@ -214,7 +217,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "17.70"
+                                    "unitPrice": "18.00"
                                 }
                             ],
                             "timeOfUse": [
@@ -248,78 +251,25 @@
                             "displayName": "Off Peak"
                         }
                     ],
-                    "dailySupplyCharges": "41.10"
+                    "dailySupplyCharges": "100.00"
                 }
             ],
             "billFrequency": [
                 "P1M"
             ],
             "paymentOption": [
-                "DIRECT_DEBIT"
-            ],
-            "controlledLoad": [
-                {
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "unitPrice": "16.00"
-                            }
-                        ],
-                        "description": "Seperately metered usage",
-                        "displayName": "Controlled Load"
-                    },
-                    "displayName": "Controlled Load",
-                    "rateBlockUType": "singleRate"
-                }
+                "PAPER_BILL"
             ],
             "coolingOffDays": 10,
-            "greenPowerCharges": [
-                {
-                    "type": "FIXED_PER_UNIT",
-                    "tiers": [
-                        {
-                            "amount": "0.0039",
-                            "percentGreen": "10"
-                        }
-                    ],
-                    "scheme": "GREENPOWER",
-                    "description": "10% GreenPower option",
-                    "displayName": "GreenPower 10"
-                },
-                {
-                    "type": "FIXED_PER_UNIT",
-                    "tiers": [
-                        {
-                            "amount": "0.0195",
-                            "percentGreen": "50"
-                        }
-                    ],
-                    "scheme": "GREENPOWER",
-                    "description": "50% GreenPower option",
-                    "displayName": "GreenPower 50"
-                },
-                {
-                    "type": "FIXED_PER_UNIT",
-                    "tiers": [
-                        {
-                            "amount": "0.039",
-                            "percentGreen": "100"
-                        }
-                    ],
-                    "scheme": "GREENPOWER",
-                    "description": "100% GreenPower option",
-                    "displayName": "GreenPower 100"
-                }
-            ],
             "solarFeedInTariff": [
                 {
                     "scheme": "OTHER",
                     "payerType": "RETAILER",
-                    "description": "Retailer feed-in tariff (incl. GST, if any).",
+                    "description": "Retailer feed-in tariff, (incl. GST, if any).",
                     "displayName": "Current FIT policy",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "5.20"
+                        "amount": "6.00"
                     }
                 }
             ],
@@ -328,6 +278,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/ENE463913MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/ENE417736MR@VEC"
     }
 }

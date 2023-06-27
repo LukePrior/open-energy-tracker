@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Online Member + 6 Months Free Membership",
-        "lastUpdated": "2023-05-16T23:39:32.219Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-26T23:40:43.374Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-05-17T00:00:00.000Z",
         "electricityContract": {

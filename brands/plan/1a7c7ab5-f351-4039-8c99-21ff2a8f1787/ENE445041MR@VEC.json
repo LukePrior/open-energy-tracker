@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "energy-locals",
-        "planId": "ENE454547MR@VEC",
+        "planId": "ENE445041MR@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "Energy Locals",
         "geography": {
@@ -275,10 +275,10 @@
             ]
         },
         "displayName": "Online Member + Sign up Bonus",
-        "effectiveTo": "2023-05-18T14:00:00Z",
-        "lastUpdated": "2023-05-18T22:43:23Z",
+        "effectiveTo": "2023-04-01T13:00:00Z",
+        "lastUpdated": "2023-04-01T15:00:03Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2023-03-31T13:00:00Z",
+        "effectiveFrom": "2023-01-30T13:00:00Z",
         "electricityContract": {
             "fees": [
                 {
@@ -321,6 +321,18 @@
             "terms": "Energy Locals offers no lock in contracts or exit fees. Prices may vary in accordance with the terms and conditions. See energylocals.com.au/terms for full terms and conditions.",
             "isFixed": false,
             "timeZone": "LOCAL",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "category": "OTHER",
+                    "description": "Sign up to this plan between 31 Jan 2023 and 31 Mar 2023 to receive a $100 sign-up bonus to be applied as a credit to your first bill following successful transfer or connections. Available to new residential accounts in Victoria only. T&Cs apply and by signing up to this plan you accept such T&Cs. See https://energylocals.com.au/terms-and-conditions/ for full details.",
+                    "displayName": "Sign-up Bonus",
+                    "fixedAmount": {
+                        "amount": "90.91"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
             "variation": "Due to changes in the market and economic conditions, we may update your tariff and/or fees. We will provide at least 5 business days' notice before the change takes place.",
             "incentives": [
                 {
@@ -334,12 +346,6 @@
                     "description": "Refer a Friend Credit",
                     "displayName": "Refer a Friend Credit",
                     "eligibility": "Receive a $50 account credit if you mention an existing Energy Locals customer when you join. The friend also gets $50 credit. T&Cs apply: https://energylocals.com.au/terms-and-conditions-refer-a-friend. Energy Locals can withdraw this offer at any time."
-                },
-                {
-                    "category": "OTHER",
-                    "description": "Sign-up Bonus",
-                    "displayName": "Sign-up Bonus",
-                    "eligibility": "Sign up between 01 Apr and 30 Jun 2023 for a $100 (incl GST) bonus credited to 1st bill after transfer/connection. New residential accounts in Victoria. T&Cs apply, acceptance upon signup. Details at\u00a0https://energylocals.com.au/terms-and-conditions/"
                 }
             ],
             "eligibility": [
@@ -348,77 +354,27 @@
                     "information": "Available to customers on eligible network tariffs. Feed-In Tariffs are only valid if applicable."
                 }
             ],
-            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
             "tariffPeriod": [
                 {
                     "endDate": "12-31",
                     "startDate": "01-01",
-                    "displayName": "Period",
-                    "rateBlockUType": "timeOfUseRates",
-                    "timeOfUseRates": [
-                        {
-                            "type": "PEAK",
-                            "rates": [
-                                {
-                                    "unitPrice": "37.10"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI",
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "2100",
-                                    "startTime": "1500"
-                                }
-                            ],
-                            "displayName": "Peak"
-                        },
-                        {
-                            "type": "OFF_PEAK",
-                            "rates": [
-                                {
-                                    "unitPrice": "19.00"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI",
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "1500",
-                                    "startTime": "0000"
-                                },
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI",
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "0000",
-                                    "startTime": "2100"
-                                }
-                            ],
-                            "displayName": "Off Peak"
-                        }
-                    ],
-                    "dailySupplyCharges": "62.20"
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 11,
+                                "unitPrice": "27.00"
+                            },
+                            {
+                                "unitPrice": "28.50"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "62.50"
                 }
             ],
             "billFrequency": [
@@ -438,7 +394,7 @@
                         "description": "Seperately metered usage",
                         "displayName": "Controlled Load"
                     },
-                    "displayName": "Controlled Load",
+                    "displayName": "Controlled Load 1",
                     "rateBlockUType": "singleRate"
                 }
             ],
@@ -498,6 +454,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/ENE454547MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/ENE445041MR@VEC"
     }
 }

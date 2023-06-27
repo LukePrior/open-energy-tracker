@@ -315,7 +315,8 @@
             ]
         },
         "displayName": "Local Member",
-        "lastUpdated": "2023-02-08T23:36:43.125Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-26T23:34:57.248Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-02-09T00:00:00.000Z",
         "electricityContract": {
