@@ -211,7 +211,8 @@
             ]
         },
         "displayName": "Nectr Standing Offer Time of Use +  Controlled Load 2",
-        "lastUpdated": "2022-08-08T14:06:00.459Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-28T22:47:28.401Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-09T00:00:00.000Z",
         "electricityContract": {

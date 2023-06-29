@@ -315,7 +315,8 @@
             ]
         },
         "displayName": "Nectr Standing Offer",
-        "lastUpdated": "2022-08-08T14:06:19.119Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-28T22:47:27.261Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-09T00:00:00.000Z",
         "electricityContract": {

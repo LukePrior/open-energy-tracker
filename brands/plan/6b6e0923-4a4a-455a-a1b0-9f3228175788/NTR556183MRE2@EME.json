@@ -211,7 +211,8 @@
             ]
         },
         "displayName": "Hive Solar Saver Time of Use + Controlled Load 1",
-        "lastUpdated": "2023-06-21T10:13:47.920Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-28T22:47:26.932Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-06-21T00:00:00.000Z",
         "electricityContract": {
