@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Qantas Red Business Saver (TOU Transitional-EA051)",
-        "lastUpdated": "2023-05-17T14:06:06.003Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-29T04:59:05.184Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-05-18T00:00:00.000Z",
         "meteringCharges": [

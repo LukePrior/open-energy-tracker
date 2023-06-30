@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Standing Offer",
-        "lastUpdated": "2022-06-30T14:12:38.440Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-29T04:59:54.500Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-07-01T00:00:00.000Z",
         "meteringCharges": [

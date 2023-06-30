@@ -15,6 +15,7 @@
             ]
         },
         "displayName": "Standing Offer",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
         "gasContract": {
             "fees": [
                 {
@@ -64,7 +65,7 @@
             ],
             "onExpiryDescription": "Your contract is ongoing until it is ended by you or us"
         },
-        "lastUpdated": "2022-06-30T14:08:11.972Z",
+        "lastUpdated": "2023-06-29T04:59:05.773Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-01T00:00:00.000Z"
     },

@@ -15,6 +15,7 @@
             ]
         },
         "displayName": "Qantas Red Business Saver",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
         "gasContract": {
             "fees": [
                 {
@@ -76,7 +77,7 @@
             "coolingOffDays": "10",
             "onExpiryDescription": "Your contract is ongoing until it is ended by you or us"
         },
-        "lastUpdated": "2023-05-17T14:08:07.588Z",
+        "lastUpdated": "2023-06-29T04:59:07.797Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-05-18T00:00:00.000Z"
     },

@@ -169,7 +169,8 @@
             ]
         },
         "displayName": "Business Select",
-        "lastUpdated": "2023-05-31T14:07:23.824Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-30T01:05:05.682Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-06-01T00:00:00.000Z",
         "electricityContract": {

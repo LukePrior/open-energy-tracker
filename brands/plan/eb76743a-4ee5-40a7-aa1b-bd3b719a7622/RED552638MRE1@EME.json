@@ -169,7 +169,8 @@
             ]
         },
         "displayName": "Red Wildlife Saver (Demand - N72, N73)",
-        "lastUpdated": "2023-05-17T14:06:07.787Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-29T04:59:12.468Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-05-18T00:00:00.000Z",
         "meteringCharges": [

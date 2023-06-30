@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Sumo Business Standing Offer Transitional TOU",
-        "lastUpdated": "2022-06-30T14:12:37.976Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-30T00:41:12.144Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-07-01T00:00:00.000Z",
         "electricityContract": {

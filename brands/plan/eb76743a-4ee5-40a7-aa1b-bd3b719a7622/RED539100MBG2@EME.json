@@ -16,6 +16,7 @@
             ]
         },
         "displayName": "Red Business Solar Saver",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
         "gasContract": {
             "fees": [
                 {
@@ -78,7 +79,7 @@
             "coolingOffDays": "10",
             "onExpiryDescription": "Your contract is ongoing until it is ended by you or us"
         },
-        "lastUpdated": "2023-04-18T14:05:55.798Z",
+        "lastUpdated": "2023-06-29T04:59:07.374Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-04-19T00:00:00.000Z"
     },

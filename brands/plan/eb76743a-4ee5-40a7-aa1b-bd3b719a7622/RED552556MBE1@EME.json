@@ -211,7 +211,8 @@
             ]
         },
         "displayName": "Qantas Red Business Saver (TOU Interval - 6800)",
-        "lastUpdated": "2023-05-17T14:08:21.978Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-29T04:59:15.848Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-05-18T00:00:00.000Z",
         "meteringCharges": [

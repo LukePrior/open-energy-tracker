@@ -315,6 +315,7 @@
             ]
         },
         "displayName": "Residential Standing",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
         "gasContract": {
             "fees": [
                 {
@@ -393,7 +394,7 @@
             ],
             "onExpiryDescription": "Standing contracts do not expire until you notify us in accordance with our Standing Contract Terms and Conditions."
         },
-        "lastUpdated": "2020-06-30T14:05:43.922Z",
+        "lastUpdated": "2023-06-29T17:04:48.355Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2020-07-01T00:00:00.000Z"
     },

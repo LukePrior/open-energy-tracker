@@ -315,7 +315,8 @@
             ]
         },
         "displayName": "Red Business Fixed Saver",
-        "lastUpdated": "2022-12-19T14:06:35.612Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-29T04:59:15.664Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-12-20T00:00:00.000Z",
         "meteringCharges": [

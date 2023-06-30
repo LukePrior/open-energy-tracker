@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Qantas Red Business Saver (DMD-EA251,EA255,EA256)",
-        "lastUpdated": "2023-05-17T14:08:24.946Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-29T04:59:04.975Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-05-18T00:00:00.000Z",
         "meteringCharges": [

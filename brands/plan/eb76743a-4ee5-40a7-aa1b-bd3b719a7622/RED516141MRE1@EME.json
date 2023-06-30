@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Red Fixed Saver",
-        "lastUpdated": "2022-12-19T14:06:16.534Z",
+        "effectiveTo": "2023-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-06-29T05:00:01.669Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-12-20T00:00:00.000Z",
         "meteringCharges": [
