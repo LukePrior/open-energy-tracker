@@ -112,7 +112,8 @@
             ]
         },
         "displayName": "Business Standing - Time of Use",
-        "lastUpdated": "2022-06-23T02:54:38Z",
+        "effectiveTo": "2023-06-29T14:00:00Z",
+        "lastUpdated": "2023-06-30T10:10:38Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {

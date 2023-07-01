@@ -63,6 +63,7 @@
             ]
         },
         "displayName": "VIC Business Saver gas",
+        "effectiveTo": "2023-06-30T14:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -290,7 +291,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Ongoing energy plan until you or we end it. We may end this energy plan at any time by giving you 20 Business Days notice."
         },
-        "lastUpdated": "2023-02-06T00:23:56Z",
+        "lastUpdated": "2023-06-30T13:37:08Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-12-11T13:00:00Z"
     },

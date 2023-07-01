@@ -60,7 +60,8 @@
             ]
         },
         "displayName": "VIC Simply Energy Solutions Solar elec",
-        "lastUpdated": "2022-11-22T16:04:42Z",
+        "effectiveTo": "2023-06-29T14:00:00Z",
+        "lastUpdated": "2023-06-30T13:36:22Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-11-22T13:00:00Z",
         "electricityContract": {
@@ -126,7 +127,7 @@
                 {
                     "scheme": "OTHER",
                     "payerType": "RETAILER",
-                    "description": "16.7c/kWhu00a0for first 3kWh daily (fixed 2 years), 11c/kWh for remaining",
+                    "description": "16.7c/kWhfor first 3kWh daily (fixed 2 years), 11c/kWh for remaining",
                     "displayName": "Current FIT policy",
                     "tariffUType": "singleTariff",
                     "singleTariff": {

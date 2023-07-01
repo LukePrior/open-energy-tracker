@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "Victorian Default Offer, Business Single Rate",
-        "lastUpdated": "2022-06-30T15:02:14Z",
+        "effectiveTo": "2023-06-29T14:00:00Z",
+        "lastUpdated": "2023-06-30T11:19:15Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {

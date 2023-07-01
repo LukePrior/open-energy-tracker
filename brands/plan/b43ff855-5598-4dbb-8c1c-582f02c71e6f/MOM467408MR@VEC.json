@@ -60,7 +60,8 @@
             ]
         },
         "displayName": "Bill Boss Electricity_C1R",
-        "lastUpdated": "2023-06-07T23:37:20Z",
+        "effectiveTo": "2023-06-30T14:00:00Z",
+        "lastUpdated": "2023-06-30T14:33:38Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-06-18T14:00:00Z",
         "electricityContract": {

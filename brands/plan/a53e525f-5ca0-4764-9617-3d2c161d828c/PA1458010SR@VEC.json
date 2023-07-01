@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "Residential Victorian Default Offer",
-        "lastUpdated": "2023-04-21T02:11:03Z",
+        "effectiveTo": "2023-06-30T14:00:00Z",
+        "lastUpdated": "2023-06-30T23:11:43Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-04-26T14:00:00Z",
         "electricityContract": {

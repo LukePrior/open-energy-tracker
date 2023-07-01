@@ -327,7 +327,8 @@
             ]
         },
         "displayName": "1st Saver, Residential - Anytime with Controlled Load",
-        "lastUpdated": "2023-06-13T05:14:11Z",
+        "effectiveTo": "2023-06-29T14:00:00Z",
+        "lastUpdated": "2023-06-30T11:19:24Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-06-14T14:00:00Z",
         "electricityContract": {

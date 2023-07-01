@@ -64,6 +64,7 @@
             ]
         },
         "displayName": "Small Business Standing Offer Gas - AGN Central 2",
+        "effectiveTo": "2023-06-30T14:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -156,7 +157,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "This offer has no contract term."
         },
-        "lastUpdated": "2022-12-09T10:02:00Z",
+        "lastUpdated": "2023-06-30T20:40:14Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-01-31T13:00:00Z"
     },

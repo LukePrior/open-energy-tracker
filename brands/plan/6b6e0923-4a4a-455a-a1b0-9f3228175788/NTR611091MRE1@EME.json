@@ -1,0 +1,274 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "nectr",
+        "planId": "NTR611091MRE1@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Nectr",
+        "geography": {
+            "distributors": [
+                "Endeavour"
+            ],
+            "includedPostcodes": [
+                "2113",
+                "2114",
+                "2115",
+                "2116",
+                "2117",
+                "2118",
+                "2119",
+                "2120",
+                "2121",
+                "2122",
+                "2125",
+                "2126",
+                "2142",
+                "2145",
+                "2146",
+                "2147",
+                "2148",
+                "2150",
+                "2151",
+                "2152",
+                "2153",
+                "2154",
+                "2155",
+                "2156",
+                "2157",
+                "2158",
+                "2159",
+                "2160",
+                "2161",
+                "2162",
+                "2163",
+                "2164",
+                "2165",
+                "2166",
+                "2167",
+                "2168",
+                "2170",
+                "2171",
+                "2172",
+                "2173",
+                "2174",
+                "2175",
+                "2176",
+                "2177",
+                "2178",
+                "2179",
+                "2198",
+                "2200",
+                "2213",
+                "2214",
+                "2233",
+                "2250",
+                "2257",
+                "2283",
+                "2304",
+                "2323",
+                "2325",
+                "2328",
+                "2329",
+                "2330",
+                "2500",
+                "2502",
+                "2505",
+                "2506",
+                "2508",
+                "2515",
+                "2516",
+                "2517",
+                "2518",
+                "2519",
+                "2525",
+                "2526",
+                "2527",
+                "2528",
+                "2529",
+                "2530",
+                "2533",
+                "2534",
+                "2535",
+                "2536",
+                "2537",
+                "2538",
+                "2539",
+                "2540",
+                "2541",
+                "2555",
+                "2556",
+                "2557",
+                "2558",
+                "2559",
+                "2560",
+                "2563",
+                "2564",
+                "2565",
+                "2566",
+                "2567",
+                "2568",
+                "2569",
+                "2570",
+                "2571",
+                "2572",
+                "2573",
+                "2574",
+                "2575",
+                "2576",
+                "2577",
+                "2578",
+                "2579",
+                "2580",
+                "2622",
+                "2745",
+                "2747",
+                "2748",
+                "2749",
+                "2750",
+                "2751",
+                "2752",
+                "2753",
+                "2754",
+                "2756",
+                "2757",
+                "2758",
+                "2759",
+                "2760",
+                "2761",
+                "2762",
+                "2763",
+                "2765",
+                "2766",
+                "2767",
+                "2768",
+                "2769",
+                "2770",
+                "2773",
+                "2774",
+                "2775",
+                "2776",
+                "2777",
+                "2778",
+                "2779",
+                "2780",
+                "2782",
+                "2783",
+                "2784",
+                "2785",
+                "2786",
+                "2787",
+                "2790",
+                "2795",
+                "2800",
+                "2845",
+                "2846",
+                "2847",
+                "2848",
+                "2849",
+                "2850"
+            ]
+        },
+        "displayName": "Nectr 100% Clean + Controlled Load 2",
+        "lastUpdated": "2023-06-30T14:09:34.730Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-07-01T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECT_MOVE_OUT",
+                    "description": "Standard move-out fee. This fee may apply when you move out and require a final meter read. This is an Endeavour network charge, which Nectr passes through. Actual fee may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECT_NON_PAY",
+                    "description": "This fee may be charged when disconnecting your power for non-payment. This is an Endeavour network charge, which Nectr passes through. Actual fee may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "description": "This fee may apply when reconnecting power to your property where you have been disconnected due to non-payment. This is an Endeavour network charge, which Nectr passes through. Actual fee may vary."
+                }
+            ],
+            "terms": "For further information about the terms and conditions applicable to this energy offer, please visit nectr.com.au/legal/#contracts or contact Nectr on hello@nectr.com.au or call 1300 111 211.",
+            "isFixed": true,
+            "termType": "ONGOING",
+            "timeZone": "LOCAL",
+            "discounts": [
+                {
+                    "type": "CONDITIONAL",
+                    "category": "OTHER",
+                    "description": "$50 credit on your 2nd bill, if you sign up using a Refer a Friend link from an existing Nectr customer. Applies to new customers only. T&Cs apply, refer to nectr.com.au/refer-a-friend-terms-and-conditions/.",
+                    "displayName": "Refer a Friend Credit",
+                    "fixedAmount": {
+                        "amount": "50.00"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "Your rates are fixed and will not vary for the duration of your benefit period.",
+            "meterTypes": [
+                "Type 0"
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": null,
+                                "unitPrice": "33.18"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Single Rate Block"
+                    },
+                    "displayName": "Single Rate Tariff Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "108.00"
+                }
+            ],
+            "benefitPeriod": "12 months",
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "CREDIT_CARD"
+            ],
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "26.34"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Hours of application are determined by your distributor, Endeavour. For more information, please contact your network distributor.",
+                    "displayName": "Controlled Load 2"
+                }
+            ],
+            "coolingOffDays": "10",
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Nectr Retailer Solar Feed-in Tariff, if applicable. (GST Exempt)",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "4.4"
+                    }
+                }
+            ],
+            "onExpiryDescription": "While we offer an ongoing contract, your energy plan pricing ends after a 12 month benefit period. We will contact you before that end date to discuss what new plan may suit your needs at that time."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/nectr/cds-au/v1/energy/plans/NTR611091MRE1@EME"
+    }
+}

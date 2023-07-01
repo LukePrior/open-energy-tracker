@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "The Solar Plan Welcome Credit",
-        "lastUpdated": "2023-05-04T03:22:53Z",
+        "effectiveTo": "2023-06-29T14:00:00Z",
+        "lastUpdated": "2023-06-30T03:22:22Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-05-04T14:00:00Z",
         "electricityContract": {

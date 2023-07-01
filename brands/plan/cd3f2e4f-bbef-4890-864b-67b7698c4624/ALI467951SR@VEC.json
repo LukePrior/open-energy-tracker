@@ -25,6 +25,7 @@
             ]
         },
         "displayName": "Residential Standing Offer Gas - Ausnet Adjoining West",
+        "effectiveTo": "2023-06-30T14:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -101,7 +102,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "This offer has no contract term."
         },
-        "lastUpdated": "2023-06-09T05:22:33Z",
+        "lastUpdated": "2023-06-30T20:40:25Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-06-12T14:00:00Z"
     },

@@ -60,7 +60,8 @@
             ]
         },
         "displayName": "BusinessDeal Qantas - Demand TOU 5D Medium + CL",
-        "lastUpdated": "2023-02-28T05:11:26Z",
+        "effectiveTo": "2023-06-30T14:00:00Z",
+        "lastUpdated": "2023-06-30T20:40:19Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-03-01T13:00:00Z",
         "electricityContract": {

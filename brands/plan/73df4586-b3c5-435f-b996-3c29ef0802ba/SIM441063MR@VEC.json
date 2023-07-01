@@ -22,6 +22,7 @@
             ]
         },
         "displayName": "VIC Simply Movie Perks 3% gas",
+        "effectiveTo": "2023-06-29T14:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -157,7 +158,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Ongoing energy plan until you or we end it. We may end this energy plan at any time by giving you 20 Business Days notice."
         },
-        "lastUpdated": "2023-01-11T23:12:57Z",
+        "lastUpdated": "2023-06-30T13:36:39Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-01-12T13:00:00Z"
     },

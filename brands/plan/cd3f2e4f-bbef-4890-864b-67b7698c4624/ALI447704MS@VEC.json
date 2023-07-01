@@ -14,6 +14,7 @@
             ]
         },
         "displayName": "BusinessDeal Qantas Gas - Ausnet Adjoining Central",
+        "effectiveTo": "2023-06-30T14:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -114,7 +115,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "This offer has no contract term."
         },
-        "lastUpdated": "2023-02-28T05:11:29Z",
+        "lastUpdated": "2023-06-30T20:40:22Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-03-01T13:00:00Z"
     },

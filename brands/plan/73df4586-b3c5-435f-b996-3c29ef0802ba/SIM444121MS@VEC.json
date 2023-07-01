@@ -60,7 +60,8 @@
             ]
         },
         "displayName": "VIC - Simply for Good Business by ENGIE Elec",
-        "lastUpdated": "2023-02-06T00:23:41Z",
+        "effectiveTo": "2023-06-30T14:00:00Z",
+        "lastUpdated": "2023-06-30T13:36:57Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-08-16T14:00:00Z",
         "electricityContract": {

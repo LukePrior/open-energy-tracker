@@ -5,7 +5,7 @@
         "brandName": "Origin Energy",
         "logoUri": "https://res.cloudinary.com/originenergy/image/upload/v1667947270/CDR/origin-energy-logo.png",
         "publicBaseUri": "https://public.mydata.cdr.originenergy.com.au",
-        "lastUpdated": "2023-04-19T12:29:52Z",
+        "lastUpdated": "2023-07-01T00:00:15Z",
         "abn": "30000051696",
         "acn": "000051696"
     },
@@ -15,7 +15,7 @@
         "brandName": "AGL",
         "logoUri": "https://agl.com.au/content/dam/digital/agl/images/logos/agl/agl-vertical-gradient.svg",
         "publicBaseUri": "https://public.cdr.agl.com.au",
-        "lastUpdated": "2023-06-21T00:05:10Z",
+        "lastUpdated": "2023-07-01T00:00:11Z",
         "abn": "74115061375"
     },
     "1cc7833a-b834-ed11-a832-000d3a8830d6": {
@@ -24,7 +24,7 @@
         "brandName": "EnergyAustralia",
         "logoUri": "https://www.energyaustralia.com.au/themes/custom/ea/assets/images/EA_logo.svg",
         "publicBaseUri": "https://authncdr.energyaustralia.com.au",
-        "lastUpdated": "2023-05-02T07:20:17Z",
+        "lastUpdated": "2023-07-01T00:00:13Z",
         "abn": "99086014968",
         "acn": "086014968"
     },

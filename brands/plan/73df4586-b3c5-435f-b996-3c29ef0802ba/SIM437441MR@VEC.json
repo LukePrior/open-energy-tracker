@@ -29,6 +29,7 @@
             ]
         },
         "displayName": "VIC Simply Seniors 5% gas",
+        "effectiveTo": "2023-06-29T14:00:00Z",
         "gasContract": {
             "terms": "For further details on the information presented in this Plan Information Document, or for full terms and conditions, please visit www.simplyenergy.com.au or call Simply Energy on 13 88 08.",
             "isFixed": false,
@@ -148,7 +149,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Ongoing energy plan until you or we end it. We may end this energy plan at any time by giving you 20 Business Days notice."
         },
-        "lastUpdated": "2022-12-12T18:21:15Z",
+        "lastUpdated": "2023-06-30T13:36:34Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-01-03T13:00:00Z"
     },

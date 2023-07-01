@@ -1,0 +1,334 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "alinta",
+        "planId": "ALI152703SRE5@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Alinta Energy",
+        "geography": {
+            "distributors": [
+                "Endeavour"
+            ],
+            "includedPostcodes": [
+                "2113",
+                "2114",
+                "2115",
+                "2116",
+                "2117",
+                "2118",
+                "2119",
+                "2120",
+                "2121",
+                "2122",
+                "2125",
+                "2126",
+                "2142",
+                "2145",
+                "2146",
+                "2147",
+                "2148",
+                "2150",
+                "2151",
+                "2152",
+                "2153",
+                "2154",
+                "2155",
+                "2156",
+                "2157",
+                "2158",
+                "2159",
+                "2160",
+                "2161",
+                "2162",
+                "2163",
+                "2164",
+                "2165",
+                "2166",
+                "2167",
+                "2168",
+                "2170",
+                "2171",
+                "2172",
+                "2173",
+                "2174",
+                "2175",
+                "2176",
+                "2177",
+                "2178",
+                "2179",
+                "2198",
+                "2200",
+                "2213",
+                "2214",
+                "2233",
+                "2250",
+                "2257",
+                "2283",
+                "2304",
+                "2323",
+                "2325",
+                "2328",
+                "2329",
+                "2330",
+                "2500",
+                "2502",
+                "2505",
+                "2506",
+                "2508",
+                "2515",
+                "2516",
+                "2517",
+                "2518",
+                "2519",
+                "2525",
+                "2526",
+                "2527",
+                "2528",
+                "2529",
+                "2530",
+                "2533",
+                "2534",
+                "2535",
+                "2536",
+                "2537",
+                "2538",
+                "2539",
+                "2540",
+                "2541",
+                "2555",
+                "2556",
+                "2557",
+                "2558",
+                "2559",
+                "2560",
+                "2563",
+                "2564",
+                "2565",
+                "2566",
+                "2567",
+                "2568",
+                "2569",
+                "2570",
+                "2571",
+                "2572",
+                "2573",
+                "2574",
+                "2575",
+                "2576",
+                "2577",
+                "2578",
+                "2579",
+                "2580",
+                "2622",
+                "2745",
+                "2747",
+                "2748",
+                "2749",
+                "2750",
+                "2751",
+                "2752",
+                "2753",
+                "2754",
+                "2756",
+                "2757",
+                "2758",
+                "2759",
+                "2760",
+                "2761",
+                "2762",
+                "2763",
+                "2765",
+                "2766",
+                "2767",
+                "2768",
+                "2769",
+                "2770",
+                "2773",
+                "2774",
+                "2775",
+                "2776",
+                "2777",
+                "2778",
+                "2779",
+                "2780",
+                "2782",
+                "2783",
+                "2784",
+                "2785",
+                "2786",
+                "2787",
+                "2790",
+                "2795",
+                "2800",
+                "2845",
+                "2846",
+                "2847",
+                "2848",
+                "2849",
+                "2850"
+            ]
+        },
+        "displayName": "Standing Offer (Demand SR + CL1, CL2)",
+        "lastUpdated": "2023-06-30T14:12:55.880Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-07-01T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "Disconnection fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "description": "Reconnection (Power Off - Re-Energisation Required)"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "Move-in (Power on)"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECT_MOVE_OUT",
+                    "description": "Move-out (Final Read)"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "description": "After-hours Reconnection (Power Off)"
+                }
+            ],
+            "terms": "If you would like further information or are interested in this offer please visit alintaenergy.com.au or call Alinta Energy on 133 702.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "Our tariffs are varied from time to time and published on our website. We will give you notice of any variations as soon as practicable and in any event no later than your next bill or in accordance with any applicable laws and codes.",
+            "meterTypes": [
+                "Type 4",
+                "Type 4a",
+                "Type 5"
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "03-31",
+                    "startDate": "11-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": null,
+                                "unitPrice": "36.45"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "Usage",
+                        "displayName": "General"
+                    },
+                    "displayName": "Usage Charges",
+                    "demandCharges": [
+                        {
+                            "days": {
+                                "sunday": false,
+                                "saturday": false,
+                                "weekdays": false
+                            },
+                            "amount": "9.96",
+                            "endTime": "0000",
+                            "startTime": "0000",
+                            "description": "Summer Nov to Mar",
+                            "displayName": "Demand (c/kW/day)",
+                            "chargePeriod": "TARIFF_PERIOD",
+                            "measurementPeriod": "TARIFF_PERIOD"
+                        },
+                        {
+                            "days": {
+                                "sunday": false,
+                                "saturday": false,
+                                "weekdays": false
+                            },
+                            "amount": "3.48",
+                            "endTime": "0000",
+                            "startTime": "0000",
+                            "description": "Non Summer Apr to Oct",
+                            "displayName": "Demand (c/kW/day)",
+                            "chargePeriod": "TARIFF_PERIOD",
+                            "measurementPeriod": "TARIFF_PERIOD"
+                        }
+                    ],
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "125.42"
+                },
+                {
+                    "endDate": "10-31",
+                    "startDate": "04-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": null,
+                                "unitPrice": "36.45"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "Usage",
+                        "displayName": "General"
+                    },
+                    "displayName": "Usage Charges",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "125.42"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "PAPER_BILL",
+                "BPAY",
+                "OTHER"
+            ],
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "24.07"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "7.02",
+                    "description": "CL1",
+                    "displayName": "Controlled load"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "23.41"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "7.02",
+                    "description": "CL2",
+                    "displayName": "Controlled load"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Retailer FiT (ex GST)",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "6.7"
+                    }
+                }
+            ],
+            "onExpiryDescription": "Ongoing contract with no contract term"
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/alinta/cds-au/v1/energy/plans/ALI152703SRE5@EME"
+    }
+}

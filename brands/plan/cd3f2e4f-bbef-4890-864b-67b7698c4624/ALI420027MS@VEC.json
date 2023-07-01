@@ -112,7 +112,8 @@
             ]
         },
         "displayName": "Priority Business - Two Period ToU",
-        "lastUpdated": "2022-08-18T04:18:00Z",
+        "effectiveTo": "2023-06-30T14:00:00Z",
+        "lastUpdated": "2023-06-30T20:39:58Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {

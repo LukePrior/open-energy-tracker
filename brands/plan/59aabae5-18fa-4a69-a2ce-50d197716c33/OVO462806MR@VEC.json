@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "The Basic Solar Plan",
-        "lastUpdated": "2023-05-11T03:48:08Z",
+        "effectiveTo": "2023-06-29T14:00:00Z",
+        "lastUpdated": "2023-06-30T03:22:24Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-05-04T14:00:00Z",
         "electricityContract": {

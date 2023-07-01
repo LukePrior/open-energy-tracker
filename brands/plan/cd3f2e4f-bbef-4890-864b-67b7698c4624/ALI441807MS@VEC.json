@@ -275,7 +275,8 @@
             ]
         },
         "displayName": "Priority Business - Demand TOU 5D Medium",
-        "lastUpdated": "2023-01-16T03:59:43Z",
+        "effectiveTo": "2023-06-30T14:00:00Z",
+        "lastUpdated": "2023-06-30T20:40:17Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-01-15T13:00:00Z",
         "electricityContract": {

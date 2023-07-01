@@ -112,7 +112,8 @@
             ]
         },
         "displayName": "Nothing Fancy Electricity_LVS1RDED",
-        "lastUpdated": "2023-06-07T23:37:15Z",
+        "effectiveTo": "2023-06-30T14:00:00Z",
+        "lastUpdated": "2023-06-30T14:33:37Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-06-18T14:00:00Z",
         "electricityContract": {

@@ -112,7 +112,8 @@
             ]
         },
         "displayName": "1st Solar Bonus, Residential - Time of Use with Controlled Load",
-        "lastUpdated": "2022-09-08T05:48:05Z",
+        "effectiveTo": "2023-06-29T14:00:00Z",
+        "lastUpdated": "2023-06-30T11:19:20Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-09-11T14:00:00Z",
         "electricityContract": {

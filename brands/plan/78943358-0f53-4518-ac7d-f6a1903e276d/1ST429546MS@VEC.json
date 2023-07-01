@@ -275,7 +275,8 @@
             ]
         },
         "displayName": "1st Saver, Business - Medium Demand",
-        "lastUpdated": "2022-11-02T04:07:49Z",
+        "effectiveTo": "2023-06-29T14:00:00Z",
+        "lastUpdated": "2023-06-30T11:19:21Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-10-31T13:00:00Z",
         "electricityContract": {
@@ -392,7 +393,6 @@
                             ],
                             "amount": "25.49",
                             "endTime": "2100",
-                            "minDemand": "0.00",
                             "startTime": "1500",
                             "description": "Peak demand 3pm-9pm weekdays, Dec - Mar. All other times are off peak demand.",
                             "displayName": "Demand",
@@ -489,7 +489,6 @@
                             ],
                             "amount": "1.936",
                             "endTime": "0000",
-                            "minDemand": "0.00",
                             "startTime": "0000",
                             "description": "Off peak demand.",
                             "displayName": "Demand",

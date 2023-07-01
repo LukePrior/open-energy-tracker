@@ -112,7 +112,8 @@
             ]
         },
         "displayName": "1st Saver, Residential - Time of Use",
-        "lastUpdated": "2023-06-13T05:14:12Z",
+        "effectiveTo": "2023-06-29T14:00:00Z",
+        "lastUpdated": "2023-06-30T11:19:24Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-06-14T14:00:00Z",
         "electricityContract": {

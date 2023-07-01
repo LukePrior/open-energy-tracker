@@ -60,8 +60,8 @@
             ]
         },
         "displayName": "Sumo Standing Offer (Two Rate)",
-        "effectiveTo": "2023-06-29T14:00:00Z",
-        "lastUpdated": "2022-07-01T00:48:17Z",
+        "effectiveTo": "2023-06-30T14:00:00Z",
+        "lastUpdated": "2023-06-30T14:11:50Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {

@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "BusinessDeal - Two Period ToU + CL",
-        "lastUpdated": "2022-08-18T04:18:18Z",
+        "effectiveTo": "2023-06-30T14:00:00Z",
+        "lastUpdated": "2023-06-30T20:40:06Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {

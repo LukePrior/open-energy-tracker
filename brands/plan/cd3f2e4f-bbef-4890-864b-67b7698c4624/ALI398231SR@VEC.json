@@ -112,7 +112,8 @@
             ]
         },
         "displayName": "Residential Standing Offer - SR",
-        "lastUpdated": "2022-06-17T16:58:08Z",
+        "effectiveTo": "2023-06-30T14:00:00Z",
+        "lastUpdated": "2023-06-30T20:39:55Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {
@@ -121,7 +122,7 @@
                     "term": "FIXED",
                     "type": "DISCONNECTION",
                     "amount": "57.37",
-                    "description": "Disconnection - On site. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee.\nWe reserve the right to and will notify you if we change or impose additional fees or charges in relation to your energy supply. Fees and charges charged by the distributor are published on your distributoru2019s website and may change from time to time."
+                    "description": "Disconnection - On site. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee.\nWe reserve the right to and will notify you if we change or impose additional fees or charges in relation to your energy supply. Fees and charges charged by the distributor are published on your distributor\u2019s website and may change from time to time."
                 },
                 {
                     "term": "FIXED",
@@ -145,7 +146,7 @@
             "terms": "If you would like further information or are interested in this offer please visit alintaenergy.com.au or call Alinta Energy on 133 702",
             "isFixed": false,
             "timeZone": "LOCAL",
-            "variation": "The tariffs can only be varied when the Victorian Default Offer changes. Weu2019ll publish variations in a newspaper and our website at least 10 business days prior. Weu2019ll write to you at least 5 business days prior or in accordance with applicable laws",
+            "variation": "The tariffs can only be varied when the Victorian Default Offer changes. We\u2019ll publish variations in a newspaper and our website at least 10 business days prior. We\u2019ll write to you at least 5 business days prior or in accordance with applicable laws",
             "eligibility": [
                 {
                     "type": "OTHER",

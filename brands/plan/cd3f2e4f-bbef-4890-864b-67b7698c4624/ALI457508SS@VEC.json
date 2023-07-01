@@ -327,7 +327,8 @@
             ]
         },
         "displayName": "Small Business Standing Offer - SR + CL",
-        "lastUpdated": "2023-04-20T04:08:16Z",
+        "effectiveTo": "2023-06-30T14:00:00Z",
+        "lastUpdated": "2023-06-30T20:40:23Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-04-20T14:00:00Z",
         "electricityContract": {
