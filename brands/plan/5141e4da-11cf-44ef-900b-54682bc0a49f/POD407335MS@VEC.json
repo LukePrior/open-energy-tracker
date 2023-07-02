@@ -75,8 +75,8 @@
             ]
         },
         "displayName": "Powershop 100% Carbon Neutral",
-        "effectiveTo": "2023-07-16T14:00:00Z",
-        "lastUpdated": "2022-07-12T00:20:35Z",
+        "effectiveTo": "2023-06-30T14:00:00Z",
+        "lastUpdated": "2023-06-30T23:36:19Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-07-17T14:00:00Z",
         "electricityContract": {
@@ -109,7 +109,7 @@
             "terms": "We do not issue paper bills and require a credit card or bank details. For more information in relation to Powershop and this offer, see full terms and conditions at: www.powershop.com.au/terms-and-conditions",
             "isFixed": false,
             "timeZone": "LOCAL",
-            "variation": "We may vary your prices in accordance with our regulatory requirements. If we vary your prices weu2019ll give you advance notice, usually by email.",
+            "variation": "We may vary your prices in accordance with our regulatory requirements. If we vary your prices we\u2019ll give you advance notice, usually by email.",
             "eligibility": [
                 {
                     "type": "OTHER",

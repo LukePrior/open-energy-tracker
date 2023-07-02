@@ -275,7 +275,8 @@
             ]
         },
         "displayName": "Blue VDO TOU",
-        "lastUpdated": "2022-07-04T01:16:41Z",
+        "effectiveTo": "2023-06-30T14:00:00Z",
+        "lastUpdated": "2023-07-01T00:16:27Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {

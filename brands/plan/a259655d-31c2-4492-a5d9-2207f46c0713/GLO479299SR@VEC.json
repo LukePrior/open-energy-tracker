@@ -1,0 +1,156 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "globird",
+        "planId": "GLO479299SR@VEC",
+        "fuelType": "GAS",
+        "brandName": "GloBird Energy",
+        "geography": {
+            "distributors": [
+                "Australian Gas Networks"
+            ],
+            "includedPostcodes": [
+                "3561",
+                "3564",
+                "3616",
+                "3618",
+                "3620",
+                "3621",
+                "3622",
+                "3623",
+                "3624",
+                "3629",
+                "3630",
+                "3631",
+                "3658",
+                "3659",
+                "3660",
+                "3662",
+                "3663",
+                "3664",
+                "3665",
+                "3666",
+                "3669",
+                "3672",
+                "3677",
+                "3678",
+                "3688",
+                "3690",
+                "3691",
+                "3694",
+                "3753",
+                "3756",
+                "3757",
+                "3758",
+                "3763",
+                "3764",
+                "3775"
+            ]
+        },
+        "displayName": "GloBird GAS STANDING OFFER Residential(North)-Australian Gas Networks",
+        "effectiveTo": "2024-06-29T14:00:00Z",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "103.40",
+                    "description": "Standard rates apply during business hours. Fees are set by your distributor."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "89.10",
+                    "description": "Standard rates apply during business hours. Fees are set by your distributor."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "11.33",
+                    "description": "Special Meter Read - Metropolitan"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "15.62",
+                    "description": "Special Meter Read - Non Metropolitan"
+                }
+            ],
+            "terms": "For further information about this offer call GloBird on 133456 or visit www.globirdenergy.com.au or see our full terms and conditions here: www.globirdenergy.com.au/legal/",
+            "isFixed": true,
+            "variation": "We may update your rates from time to time. However we'll always notify you in writing prior to any change",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Local call center and no credit card processing fees",
+                    "displayName": "Local call center and no credit card processing fees",
+                    "eligibility": "Traditional energy plan. Easy to understand. Local call center. No sneaky credit card processing fees. Just great value."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This product is only available to Victorian customers in the Australian Gas Networks North distribution area."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "5.60"
+                            },
+                            {
+                                "unitPrice": "5.00"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak Period - June to September",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "80.00"
+                },
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "5.60"
+                            },
+                            {
+                                "unitPrice": "5.00"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Offpeak"
+                    },
+                    "displayName": "Offpeak Period - October to May",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "80.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discount percentage or rates."
+        },
+        "lastUpdated": "2023-06-30T05:39:30Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-06-30T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/globird/cds-au/v1/energy/plans/GLO479299SR@VEC"
+    }
+}

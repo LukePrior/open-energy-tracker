@@ -60,7 +60,8 @@
             ]
         },
         "displayName": "Business Market - Single Rate",
-        "lastUpdated": "2022-06-21T15:22:30Z",
+        "effectiveTo": "2023-06-30T14:00:00Z",
+        "lastUpdated": "2023-07-01T13:31:51Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {
@@ -151,7 +152,7 @@
                         }
                     ],
                     "scheme": "GREENPOWER",
-                    "description": "$0.099 per kWh (inc GST) u2013 electricity equal to 10% of your consumption is sourced from GreenPower. Discounts do not apply to GreenPower.",
+                    "description": "$0.099 per kWh (inc GST) \u2013 electricity equal to 10% of your consumption is sourced from GreenPower. Discounts do not apply to GreenPower.",
                     "displayName": "GreenPower 10"
                 },
                 {
@@ -163,7 +164,7 @@
                         }
                     ],
                     "scheme": "GREENPOWER",
-                    "description": "$0.099 per kWh (inc GST) u2013 electricity equal to 100% of your consumption is sourced from GreenPower. Discounts do not apply to GreenPower.",
+                    "description": "$0.099 per kWh (inc GST) \u2013 electricity equal to 100% of your consumption is sourced from GreenPower. Discounts do not apply to GreenPower.",
                     "displayName": "GreenPower 100"
                 }
             ],

@@ -1,0 +1,128 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "alinta",
+        "planId": "ALI476700SS@VEC",
+        "fuelType": "GAS",
+        "brandName": "Alinta",
+        "geography": {
+            "distributors": [
+                "Multinet"
+            ],
+            "includedPostcodes": [
+                "3139",
+                "3775",
+                "3797",
+                "3799"
+            ]
+        },
+        "displayName": "Small Business Standing Offer Gas - Multinet Yarra Valley",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "64.16",
+                    "description": "This fee is set by your distributor and may vary. Please visit your distributor's website to find out the current fee.\nWe reserve the right to and will notify you if we change or impose additional fees or charges in relation to your energy supply."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "54.09",
+                    "description": "Next business day reconnection fee. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+                }
+            ],
+            "terms": "This plan is only available to small business customers in Victoria.  Eligibility criteria applies. Terms and conditions can be accessed at alintaenergy.com.au or by calling 13 39 08.",
+            "isFixed": false,
+            "variation": "Our Standing Tariffs may be varied in accordance with applicable laws and are published on our website. If we change the tariffs, we will write to you giving you at least 5 business days notice prior to the variation",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is only available to small business customers within the Multinet distribution zone."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "10-31",
+                    "startDate": "05-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 250,
+                                "unitPrice": "3.71"
+                            },
+                            {
+                                "volume": 750,
+                                "unitPrice": "3.47"
+                            },
+                            {
+                                "volume": 500,
+                                "unitPrice": "3.22"
+                            },
+                            {
+                                "volume": 3500,
+                                "unitPrice": "3.05"
+                            },
+                            {
+                                "unitPrice": "2.97"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "118.07"
+                },
+                {
+                    "endDate": "04-30",
+                    "startDate": "11-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 250,
+                                "unitPrice": "3.56"
+                            },
+                            {
+                                "volume": 750,
+                                "unitPrice": "3.37"
+                            },
+                            {
+                                "volume": 500,
+                                "unitPrice": "3.16"
+                            },
+                            {
+                                "volume": 3500,
+                                "unitPrice": "3.05"
+                            },
+                            {
+                                "unitPrice": "2.97"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "OFF PEAK",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "118.07"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "This offer has no contract term."
+        },
+        "lastUpdated": "2023-06-22T06:56:08Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2023-07-01T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/alinta/cds-au/v1/energy/plans/ALI476700SS@VEC"
+    }
+}

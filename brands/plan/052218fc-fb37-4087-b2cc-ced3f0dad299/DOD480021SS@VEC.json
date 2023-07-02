@@ -1,0 +1,183 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "dodo",
+        "planId": "DOD480021SS@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Dodo",
+        "geography": {
+            "distributors": [
+                "Jemena"
+            ],
+            "includedPostcodes": [
+                "3011",
+                "3012",
+                "3013",
+                "3015",
+                "3016",
+                "3019",
+                "3020",
+                "3023",
+                "3025",
+                "3031",
+                "3032",
+                "3033",
+                "3034",
+                "3036",
+                "3037",
+                "3038",
+                "3039",
+                "3040",
+                "3041",
+                "3042",
+                "3043",
+                "3044",
+                "3045",
+                "3046",
+                "3047",
+                "3048",
+                "3049",
+                "3051",
+                "3052",
+                "3058",
+                "3059",
+                "3060",
+                "3061",
+                "3062",
+                "3063",
+                "3064",
+                "3068",
+                "3070",
+                "3072",
+                "3073",
+                "3074",
+                "3076",
+                "3078",
+                "3079",
+                "3081",
+                "3083",
+                "3084",
+                "3085",
+                "3086",
+                "3087",
+                "3335",
+                "3336",
+                "3337",
+                "3340",
+                "3427",
+                "3428",
+                "3429",
+                "3430",
+                "3431",
+                "3437",
+                "3750",
+                "3753"
+            ]
+        },
+        "displayName": "Business Standing - Single Rate with Controlled Load",
+        "lastUpdated": "2023-06-28T05:16:30Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2023-06-30T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "49.00",
+                    "description": "A connection fee may apply each time you request to energise a property.\nFor further details on the information presented in this fact sheet, or the terms and conditions of the contract, please visit www.dodo.com/energy/terms-prices-and-regulatory-information."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "49.00",
+                    "description": "A disconnection fee may apply each time you request to de-energise a property."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "9.50",
+                    "description": "Dishonoured Payment fee may apply to payments we attempt that are subsequently declined."
+                }
+            ],
+            "terms": "See our Standing Offer terms and conditions at www.dodo.com/energy/terms-prices-and-regulatory-information.",
+            "isFixed": false,
+            "timeZone": "AEST",
+            "variation": "We may vary our rates, no more than once every 6 months. We will provide notification to you, publish the variation on our website and in a newspaper at least 10 business days before it starts.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Applicable to a Small Business Customer in the Jemena distribution zone & verification of meter type. See terms & conditions for other eligibility criteria, including solar feed-in tariff eligibility."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "30.0636"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "for the personal use of the residents of the premises, all day, everyday",
+                        "displayName": "Anytime"
+                    },
+                    "displayName": "Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "118.70"
+                }
+            ],
+            "billFrequency": [
+                "P3M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "23.9909"
+                            }
+                        ],
+                        "description": "for hot water and/or storage space heaters (on for a controlled period)",
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Controlled Load",
+                    "rateBlockUType": "singleRate"
+                }
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "General Feed in Tariff (GFIT)",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "4.90"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "Premium Feed in Tariff (PFIT)",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "No Term contracts do not expire"
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/dodo/cds-au/v1/energy/plans/DOD480021SS@VEC"
+    }
+}

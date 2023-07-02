@@ -60,7 +60,8 @@
             ]
         },
         "displayName": "Blue Mini Freeze CGTOU",
-        "lastUpdated": "2023-06-13T07:12:41Z",
+        "effectiveTo": "2023-06-30T14:00:00Z",
+        "lastUpdated": "2023-07-01T00:16:30Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-06-12T14:00:00Z",
         "electricityContract": {

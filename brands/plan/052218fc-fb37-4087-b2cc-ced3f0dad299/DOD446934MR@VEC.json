@@ -88,6 +88,7 @@
             ]
         },
         "displayName": "Residential Market - Australian Gas Networks Central 1",
+        "effectiveTo": "2023-06-30T14:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -198,7 +199,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "No Term Contracts apply in line with our Energy Market Terms and Conditions."
         },
-        "lastUpdated": "2023-02-22T05:04:57Z",
+        "lastUpdated": "2023-07-01T13:34:57Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-02-28T13:00:00Z"
     },
