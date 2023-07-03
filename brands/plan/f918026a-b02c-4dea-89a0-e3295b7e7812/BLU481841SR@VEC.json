@@ -1,0 +1,150 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "blue-nrg",
+        "planId": "BLU481841SR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Blue NRG",
+        "geography": {
+            "distributors": [
+                "Citipower"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
+                "3011",
+                "3031",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3078",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
+            ]
+        },
+        "displayName": "Blue VDO Single Rate (General Usage with Controlled Load)",
+        "lastUpdated": "2023-07-03T00:29:40Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-06-30T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CHEQUE_DISHONOUR",
+                    "amount": "11.979",
+                    "description": "Cheque dishonour payment fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "11.979",
+                    "description": "Direct debit dishonour payment fee"
+                }
+            ],
+            "terms": "Full terms & conditions can be obtained from https://www.bluenrg.com.au/rates_and_pricing or by contacting us on 1300 599 888. This offer applies to customers with an applicable network tariff. SOLAR: If you are GST-registered and provide your ABN, we will credit you an additional 10% on your FiT for GST for electricity exported to the distribution network (i.e. increase the FiT payable to you to cover GST payable on supply).",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "We may vary these prices if the ESC modifies the final determination price for the VDO. Variations will be published in the Victorian Government Gazette one month prior to taking effect. We will notify you in advance if the variation affects you.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This product is only applicable to NMIs for Victorian business customers that consume less than or equal to 40MWh per annum in the Citipower distribution area. Offer subject to having the necessary metering system configuration. For solar feed-in tariffs and eligibility contact us on 1300 599 888."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "26.10"
+                            }
+                        ],
+                        "displayName": "Rate"
+                    },
+                    "displayName": "Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "104.77"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "20.65"
+                            }
+                        ],
+                        "description": "Controlled load is electricity supplied to specific appliances, such as hot water systems.",
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Controlled Load",
+                    "rateBlockUType": "singleRate"
+                }
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Retailer Feed In Tariff",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "4.90"
+                    }
+                }
+            ],
+            "onExpiryDescription": "There is no defined benefit period. However, any individual customer site NMI must consume less than or equal to 40MWh per annum to remain on this product."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/blue-nrg/cds-au/v1/energy/plans/BLU481841SR@VEC"
+    }
+}
