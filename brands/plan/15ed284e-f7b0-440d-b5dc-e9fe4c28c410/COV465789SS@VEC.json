@@ -60,7 +60,8 @@
             ]
         },
         "displayName": "CovaU Basics Business TOU 5-Day",
-        "lastUpdated": "2023-05-29T05:59:36Z",
+        "effectiveTo": "2023-07-02T14:00:00Z",
+        "lastUpdated": "2023-07-03T04:24:36Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-12-31T13:00:00Z",
         "electricityContract": {

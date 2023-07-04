@@ -29,6 +29,7 @@
             ]
         },
         "displayName": "CovaU Basics Residential Gas Ausnet",
+        "effectiveTo": "2023-07-02T14:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -169,7 +170,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with our Market Retail Terms &Conditions"
         },
-        "lastUpdated": "2023-01-25T00:08:13Z",
+        "lastUpdated": "2023-07-03T06:48:19Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-01-09T13:00:00Z"
     },

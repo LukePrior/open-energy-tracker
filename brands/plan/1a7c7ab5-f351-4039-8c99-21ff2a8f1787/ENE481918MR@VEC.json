@@ -1,0 +1,481 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "energy-locals",
+        "planId": "ENE481918MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Energy Locals",
+        "geography": {
+            "distributors": [
+                "AusNet Services (electricity)"
+            ],
+            "includedPostcodes": [
+                "3061",
+                "3062",
+                "3064",
+                "3074",
+                "3075",
+                "3076",
+                "3082",
+                "3083",
+                "3084",
+                "3085",
+                "3087",
+                "3088",
+                "3089",
+                "3090",
+                "3091",
+                "3093",
+                "3094",
+                "3095",
+                "3096",
+                "3097",
+                "3099",
+                "3106",
+                "3109",
+                "3111",
+                "3113",
+                "3114",
+                "3115",
+                "3116",
+                "3132",
+                "3133",
+                "3134",
+                "3135",
+                "3136",
+                "3137",
+                "3138",
+                "3139",
+                "3140",
+                "3152",
+                "3153",
+                "3154",
+                "3155",
+                "3156",
+                "3158",
+                "3159",
+                "3160",
+                "3175",
+                "3178",
+                "3179",
+                "3180",
+                "3434",
+                "3521",
+                "3522",
+                "3607",
+                "3608",
+                "3610",
+                "3612",
+                "3631",
+                "3646",
+                "3658",
+                "3659",
+                "3660",
+                "3662",
+                "3663",
+                "3664",
+                "3665",
+                "3666",
+                "3669",
+                "3670",
+                "3672",
+                "3673",
+                "3675",
+                "3677",
+                "3678",
+                "3682",
+                "3683",
+                "3685",
+                "3687",
+                "3688",
+                "3690",
+                "3691",
+                "3695",
+                "3697",
+                "3698",
+                "3699",
+                "3700",
+                "3701",
+                "3704",
+                "3705",
+                "3707",
+                "3708",
+                "3709",
+                "3711",
+                "3712",
+                "3713",
+                "3714",
+                "3715",
+                "3717",
+                "3718",
+                "3719",
+                "3720",
+                "3722",
+                "3723",
+                "3725",
+                "3726",
+                "3727",
+                "3728",
+                "3730",
+                "3732",
+                "3733",
+                "3735",
+                "3736",
+                "3737",
+                "3738",
+                "3739",
+                "3740",
+                "3741",
+                "3744",
+                "3746",
+                "3747",
+                "3749",
+                "3750",
+                "3751",
+                "3752",
+                "3753",
+                "3754",
+                "3755",
+                "3756",
+                "3757",
+                "3758",
+                "3759",
+                "3760",
+                "3761",
+                "3762",
+                "3763",
+                "3764",
+                "3765",
+                "3766",
+                "3767",
+                "3770",
+                "3775",
+                "3777",
+                "3778",
+                "3779",
+                "3781",
+                "3782",
+                "3783",
+                "3785",
+                "3786",
+                "3787",
+                "3788",
+                "3789",
+                "3791",
+                "3792",
+                "3793",
+                "3795",
+                "3796",
+                "3797",
+                "3799",
+                "3802",
+                "3803",
+                "3804",
+                "3805",
+                "3806",
+                "3807",
+                "3808",
+                "3809",
+                "3810",
+                "3812",
+                "3813",
+                "3814",
+                "3815",
+                "3816",
+                "3818",
+                "3820",
+                "3821",
+                "3822",
+                "3823",
+                "3824",
+                "3825",
+                "3831",
+                "3832",
+                "3833",
+                "3835",
+                "3840",
+                "3842",
+                "3844",
+                "3847",
+                "3850",
+                "3851",
+                "3852",
+                "3854",
+                "3856",
+                "3857",
+                "3858",
+                "3859",
+                "3860",
+                "3862",
+                "3864",
+                "3865",
+                "3869",
+                "3870",
+                "3871",
+                "3873",
+                "3874",
+                "3875",
+                "3878",
+                "3880",
+                "3882",
+                "3885",
+                "3886",
+                "3887",
+                "3888",
+                "3889",
+                "3890",
+                "3891",
+                "3892",
+                "3893",
+                "3895",
+                "3896",
+                "3898",
+                "3900",
+                "3902",
+                "3903",
+                "3904",
+                "3909",
+                "3912",
+                "3921",
+                "3922",
+                "3923",
+                "3925",
+                "3945",
+                "3946",
+                "3950",
+                "3951",
+                "3953",
+                "3954",
+                "3956",
+                "3957",
+                "3958",
+                "3959",
+                "3960",
+                "3962",
+                "3964",
+                "3965",
+                "3966",
+                "3967",
+                "3971",
+                "3975",
+                "3976",
+                "3977",
+                "3978",
+                "3979",
+                "3980",
+                "3981",
+                "3984",
+                "3987",
+                "3988",
+                "3990",
+                "3991",
+                "3992",
+                "3995",
+                "3996"
+            ]
+        },
+        "displayName": "Online Member - Limited time offer",
+        "lastUpdated": "2023-07-03T06:32:10Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-06-15T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "MEMBERSHIP",
+                    "amount": "143.88",
+                    "description": "Access wholesale energy rates with $11.99/month membership fee.\nFor more information on these fees and other fees, please visit energylocals.com.au/fees"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "10.00",
+                    "description": "Charged when a direct debit payment has dishonoured or reversed. This charge is not subject to GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "2.00",
+                    "description": "Charged for providing a paper bill"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "39.89",
+                    "description": "May be charged when you move into a property or change retailer. Actual fee may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "39.89",
+                    "description": "May be charged when you move out and require a final meter read. Actual fee may vary."
+                },
+                {
+                    "rate": "0.81",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "We accept Visa, Mastercard and AMEX payments via pay.energylocals.com.au. Debit card transactions are subject to a 0.46% fee, and credit card payments incur a 0.81% fee. Credit and debit card processing fees are waived for Direct Debit payments."
+                }
+            ],
+            "terms": "Energy Locals offers no lock in contracts or exit fees. Prices may vary in accordance with the terms and conditions. See energylocals.com.au/terms for full terms and conditions.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "Due to changes in the market and economic conditions, we may update your tariff and/or fees. We will provide at least 5 business days' notice before the change takes place.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Refer a Friend Credit",
+                    "displayName": "Refer a Friend Credit",
+                    "eligibility": "Receive a $50 account credit if you mention an existing Energy Locals customer when you join. The friend also gets $50 credit. T&Cs apply: https://energylocals.com.au/terms-and-conditions-refer-a-friend. Energy Locals can withdraw this offer at any time."
+                },
+                {
+                    "category": "OTHER",
+                    "description": "Sign-up Bonus",
+                    "displayName": "Sign-up Bonus",
+                    "eligibility": "Receive a $100 (incl GST) bonus credited to 1st bill after transfer/connection. New residential accounts in Victoria. T&Cs apply, acceptance upon signup. Details at\u00a0https://energylocals.com.au/terms-and-conditions/"
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Available to customers on eligible network tariffs. Solar FiT valid if applicable. This limited time offer is available to new customers who agree to participate in Energy Locals' insights program. For more information about the insights program, please refer to program terms - \u00a0https://energylocals.com.au/terms-and-conditions-insights-program/."
+                }
+            ],
+            "pricingModel": "TIME_OF_USE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "Period",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "22.00"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "2100",
+                                    "startTime": "1500"
+                                }
+                            ],
+                            "displayName": "Peak"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "18.50"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "1500",
+                                    "startTime": "0000"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "2100"
+                                }
+                            ],
+                            "displayName": "Off Peak"
+                        }
+                    ],
+                    "dailySupplyCharges": "50.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT"
+            ],
+            "coolingOffDays": 10,
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0039",
+                            "percentGreen": "10"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "10% GreenPower option",
+                    "displayName": "GreenPower 10"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0195",
+                            "percentGreen": "50"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "50% GreenPower option",
+                    "displayName": "GreenPower 50"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.039",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "100% GreenPower option",
+                    "displayName": "GreenPower 100"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Retailer feed-in tariff (incl. GST, if any).",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.20"
+                    }
+                }
+            ],
+            "onExpiryDescription": "No fixed contract."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/ENE481918MR@VEC"
+    }
+}
