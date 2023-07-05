@@ -1,0 +1,211 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "globird",
+        "planId": "GLO630783MRG1@EME",
+        "fuelType": "GAS",
+        "brandName": "Globird Energy",
+        "geography": {
+            "distributors": [
+                "Allgas Energy QLD"
+            ],
+            "includedPostcodes": [
+                "4068",
+                "4073",
+                "4074",
+                "4075",
+                "4076",
+                "4077",
+                "4078",
+                "4101",
+                "4102",
+                "4103",
+                "4104",
+                "4105",
+                "4106",
+                "4107",
+                "4108",
+                "4109",
+                "4110",
+                "4111",
+                "4112",
+                "4113",
+                "4114",
+                "4115",
+                "4116",
+                "4117",
+                "4118",
+                "4119",
+                "4120",
+                "4121",
+                "4122",
+                "4123",
+                "4124",
+                "4125",
+                "4127",
+                "4128",
+                "4129",
+                "4131",
+                "4132",
+                "4133",
+                "4151",
+                "4152",
+                "4153",
+                "4154",
+                "4155",
+                "4156",
+                "4157",
+                "4158",
+                "4159",
+                "4160",
+                "4161",
+                "4163",
+                "4164",
+                "4169",
+                "4170",
+                "4171",
+                "4172",
+                "4173",
+                "4174",
+                "4178",
+                "4179",
+                "4205",
+                "4207",
+                "4208",
+                "4209",
+                "4210",
+                "4211",
+                "4212",
+                "4213",
+                "4214",
+                "4215",
+                "4216",
+                "4217",
+                "4218",
+                "4220",
+                "4221",
+                "4223",
+                "4224",
+                "4225",
+                "4226",
+                "4227",
+                "4228",
+                "4280",
+                "4300",
+                "4303",
+                "4334",
+                "4350",
+                "4352",
+                "4356",
+                "4401",
+                "4718"
+            ]
+        },
+        "displayName": "ULTRA SAVE Residential(Allgas)-Allgas Energy",
+        "effectiveTo": "2024-07-03T00:00:00.000Z",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "For move-in customers to get a start read. At least 3 business days notice & meter access needed. Fee does not cover unlocking a plugged meter."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "For move-out customers to get a final read. At least 3 business days notice & meter access required. No fee if you simply switch retailer."
+                }
+            ],
+            "terms": "For further information about this offer call GloBird on 133456 or visit www.globirdenergy.com.au or see our full terms and conditions here: www.globirdenergy.com.au/legal/",
+            "isFixed": false,
+            "discounts": [
+                {
+                    "type": "CONDITIONAL",
+                    "category": "DIRECT_DEBIT",
+                    "description": "You will receive 1% discount off Usage & Supply charges when you pay your bill on-time by direct debit",
+                    "displayName": "Direct Debit Discount",
+                    "methodUType": "percentOfBill",
+                    "percentOfBill": {
+                        "rate": "1"
+                    }
+                },
+                {
+                    "type": "CONDITIONAL",
+                    "category": "PAY_ON_TIME",
+                    "description": "You will receive 2% discount off Usage & Supply charges when you pay your bill on-time",
+                    "displayName": "Pay-on-time Discount",
+                    "methodUType": "percentOfBill",
+                    "percentOfBill": {
+                        "rate": "2"
+                    }
+                }
+            ],
+            "variation": "We may update your solar feed-in, or your rates from time to time. We'll always notify you in writing prior to any change.",
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 2494,
+                                "unitPrice": "3.9"
+                            },
+                            {
+                                "volume": null,
+                                "unitPrice": "3.7"
+                            }
+                        ],
+                        "period": "P1M",
+                        "description": "Step 1 of 2494MJ per month assumes 365 days per year. Actual calculation based on an average of 82.00MJ per day.",
+                        "displayName": "Peak Usage"
+                    },
+                    "displayName": "June to September",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "113.00"
+                },
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 2494,
+                                "unitPrice": "3.9"
+                            },
+                            {
+                                "volume": null,
+                                "unitPrice": "3.7"
+                            }
+                        ],
+                        "period": "P1M",
+                        "description": "Step 1 of 2494MJ per month assumes 365 days per year. Actual calculation based on an average of 82.00MJ per day.",
+                        "displayName": "Off Peak Usage"
+                    },
+                    "displayName": "October to May",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "113.00"
+                }
+            ],
+            "billFrequency": [
+                "P3M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL",
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY"
+            ],
+            "coolingOffDays": "10",
+            "onExpiryDescription": "You will be notified of a new plan 1 month before the expiry date"
+        },
+        "lastUpdated": "2023-07-04T03:49:27.859Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-07-04T00:00:00.000Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/globird/cds-au/v1/energy/plans/GLO630783MRG1@EME"
+    }
+}
