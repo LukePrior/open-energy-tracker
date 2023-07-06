@@ -1,0 +1,170 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "red-energy",
+        "planId": "RED481003MS@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Red Energy",
+        "geography": {
+            "distributors": [
+                "Jemena"
+            ],
+            "includedPostcodes": [
+                "3011",
+                "3012",
+                "3013",
+                "3015",
+                "3016",
+                "3019",
+                "3020",
+                "3023",
+                "3025",
+                "3031",
+                "3032",
+                "3033",
+                "3034",
+                "3036",
+                "3037",
+                "3038",
+                "3039",
+                "3040",
+                "3041",
+                "3042",
+                "3043",
+                "3044",
+                "3045",
+                "3046",
+                "3047",
+                "3048",
+                "3049",
+                "3051",
+                "3052",
+                "3058",
+                "3059",
+                "3060",
+                "3061",
+                "3062",
+                "3063",
+                "3064",
+                "3068",
+                "3070",
+                "3072",
+                "3073",
+                "3074",
+                "3076",
+                "3078",
+                "3079",
+                "3081",
+                "3083",
+                "3084",
+                "3085",
+                "3086",
+                "3087",
+                "3335",
+                "3336",
+                "3337",
+                "3340",
+                "3427",
+                "3428",
+                "3429",
+                "3430",
+                "3431",
+                "3437",
+                "3750",
+                "3753"
+            ]
+        },
+        "displayName": "Qantas Red Business Plus",
+        "lastUpdated": "2023-06-29T06:10:27Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2023-07-05T14:00:00Z",
+        "electricityContract": {
+            "terms": "For full terms and conditions applicable to this offer, please visit https://www.redenergy.com.au/terms. We will issue your bill at least quarterly, or if you have a Smart Meter, monthly, unless you have requested to be billed quarterly or your Smart Meter does not have active telecommunications.",
+            "isFixed": false,
+            "timeZone": "AEST",
+            "variation": "We may vary your rates in line with our Terms and Conditions and in accordance with the Relevant Laws. We will give you written notice of at least 5 business days prior to the variation.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Qantas Points",
+                    "displayName": "Qantas Points",
+                    "eligibility": "15,000 bonus Qantas Points are applied once Red Energy becomes responsible for the supply of your electricity and 3 Qantas Points per $1 on your bill, when you pay in full. T&Cs at www.redenergy.com.au/qantas-business-terms-and-conditions"
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Only available to new business customers who provide an ABN and have a valid Qantas Business Rewards membership. To be eligible to earn Qantas Points the ABN on your energy account must match the ABN registered to your Qantas Business Rewards membership."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "28.56"
+                            }
+                        ],
+                        "period": "P3M",
+                        "description": "Anytime",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "112.77"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0484",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "Red Energy offers 100% GreenPower for an extra 4.84 cents per kWh. Please contact us on 131 806 for more information.",
+                    "displayName": "GreenPower 100"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Feed in Tariff",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.50"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "Premium Feed in Tariff",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "66.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1/energy/plans/RED481003MS@VEC"
+    }
+}

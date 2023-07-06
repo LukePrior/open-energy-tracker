@@ -112,7 +112,8 @@
             ]
         },
         "displayName": "Lumo Plus",
-        "lastUpdated": "2023-06-13T07:12:41Z",
+        "effectiveTo": "2023-07-05T14:00:00Z",
+        "lastUpdated": "2023-07-05T21:46:53Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-06-30T14:00:00Z",
         "electricityContract": {

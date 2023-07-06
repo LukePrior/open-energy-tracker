@@ -275,7 +275,8 @@
             ]
         },
         "displayName": "Qantas Red Business Saver",
-        "lastUpdated": "2023-06-21T00:37:15Z",
+        "effectiveTo": "2023-07-05T14:00:00Z",
+        "lastUpdated": "2023-07-05T21:43:36Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-06-30T14:00:00Z",
         "electricityContract": {
