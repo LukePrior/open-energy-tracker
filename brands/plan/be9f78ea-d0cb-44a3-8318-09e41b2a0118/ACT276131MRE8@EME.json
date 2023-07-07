@@ -1,0 +1,278 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "actewagl",
+        "planId": "ACT276131MRE8@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "ActewAGL",
+        "geography": {
+            "distributors": [
+                "Endeavour"
+            ],
+            "includedPostcodes": [
+                "2113",
+                "2120",
+                "2214",
+                "2323",
+                "2535",
+                "2535",
+                "2537",
+                "2538",
+                "2538",
+                "2539",
+                "2539",
+                "2540",
+                "2540",
+                "2541",
+                "2541"
+            ]
+        },
+        "displayName": "Home seasonal TOU with CL 1 - 18% off supply & usage",
+        "effectiveTo": "2024-06-30T00:00:00.000Z",
+        "lastUpdated": "2023-07-07T01:40:29.288Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-07-07T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "Disconnection fee - applicable when energy is disconnected to the property."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "description": "Reconnection fee - applicable when energy is reconnected to the property."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "description": "Special meter read (including moving in and moving out of your supply address)."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "description": "Late Payment Fee (GST is not applicable)."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "description": "Direct Debit Rejection Fee (GST is not applicable)."
+                },
+                {
+                    "rate": "0.5",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Payment processing fee may apply to payments made by credit card (GST inclusive)."
+                },
+                {
+                    "rate": "0.5",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "Payment processing fee may apply to payments made by debit card (GST inclusive)."
+                }
+            ],
+            "terms": "A copy of the Market Retail Contract is provided and can be seen on our website. Refer to https://www.actewagl.com.au/plans-and-connections/pricing-information/your-rights-and-obligations.",
+            "isFixed": false,
+            "termType": "ONGOING",
+            "timeZone": "AEST",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "description": "All customers will receive a 18% discount off their electricity supply and usage charges, applied to each monthly electricity invoice for a benefit period of 12 months. Discount does not apply to any Greenchoice electricity charges, or miscellaneous fees and charges; and will not apply to any government taxes, fees, levies or charges. For further information, refer to https://www.actewagl.com.au/NSW-Standard-electricity-prices-July-2023.",
+                    "displayName": "Discount off supply and usage charges",
+                    "methodUType": "percentOfBill",
+                    "percentOfBill": {
+                        "rate": "18"
+                    }
+                }
+            ],
+            "variation": "If we vary our market offer prices including your rates, fees, feed-in tariff or charges, we will notify you at least five business days before the variation in the tariffs and charges are to apply to you; and deliver the notice by your preferred form of communication where you have communicated this to us, or otherwise by the same method as that used for delivery of your bill.",
+            "meterTypes": [
+                "Type 4",
+                "Type 4a"
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "description": "Must agree to setup an Evenpay arrangement and pay bills using Evenpay.",
+                    "information": "Payment arrangement"
+                }
+            ],
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "03-31",
+                    "startDate": "11-01",
+                    "displayName": "Usage Charges",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "name": "Peak",
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "45.75"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "1959",
+                                    "startTime": "1600"
+                                }
+                            ],
+                            "description": "From 4pm to 8pm on business days"
+                        },
+                        {
+                            "name": "Off-peak",
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "29.3507"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "1559",
+                                    "startTime": "2000"
+                                },
+                                {
+                                    "days": [
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "2359",
+                                    "startTime": "0"
+                                }
+                            ],
+                            "description": "At all other times"
+                        }
+                    ],
+                    "dailySupplyCharges": "133.95"
+                },
+                {
+                    "endDate": "10-31",
+                    "startDate": "04-01",
+                    "displayName": "Usage Charges",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "name": "Peak",
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "38.5"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "1959",
+                                    "startTime": "1600"
+                                }
+                            ],
+                            "description": "From 4pm to 8pm on business days"
+                        },
+                        {
+                            "name": "Off-peak",
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "29.3507"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "1559",
+                                    "startTime": "2000"
+                                },
+                                {
+                                    "days": [
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "2359",
+                                    "startTime": "0"
+                                }
+                            ],
+                            "description": "At all other times"
+                        }
+                    ],
+                    "dailySupplyCharges": "133.95"
+                }
+            ],
+            "benefitPeriod": "12 months",
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "OTHER"
+            ],
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "24.23"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "13.00",
+                    "description": "Only available between 10pm to 7am",
+                    "displayName": "Controlled Load 1"
+                }
+            ],
+            "coolingOffDays": "10",
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.006",
+                            "percentGreen": "10"
+                        },
+                        {
+                            "amount": "0.015",
+                            "percentGreen": "25"
+                        },
+                        {
+                            "amount": "0.06",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "Percentage-based option.",
+                    "displayName": "Greenchoice"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Retailer FiT (ex GST)",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "8.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "The benefit period is 1 year. At the end of your benefit period you may be placed on a new pricing plan. We will notify you of any changes at least 20 business days before they take effect."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/actewagl/cds-au/v1/energy/plans/ACT276131MRE8@EME"
+    }
+}
