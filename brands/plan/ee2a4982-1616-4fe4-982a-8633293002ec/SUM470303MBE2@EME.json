@@ -346,8 +346,8 @@
             ]
         },
         "displayName": "Sumo Lite Business Demand",
-        "effectiveTo": "2023-11-13T00:00:00.000Z",
-        "lastUpdated": "2022-11-13T22:13:07.348Z",
+        "effectiveTo": "2023-07-10T00:00:00.000Z",
+        "lastUpdated": "2023-07-07T08:09:06.069Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-11-14T00:00:00.000Z",
         "electricityContract": {
