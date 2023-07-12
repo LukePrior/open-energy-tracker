@@ -29,6 +29,7 @@
             ]
         },
         "displayName": "Super Saver Online Business Gas Ausnet",
+        "effectiveTo": "2023-07-11T14:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -177,7 +178,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with our Market Retail Terms &Conditions"
         },
-        "lastUpdated": "2023-04-05T02:12:10Z",
+        "lastUpdated": "2023-07-11T23:37:21Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-04-03T14:00:00Z"
     },

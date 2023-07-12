@@ -22,6 +22,7 @@
             ]
         },
         "displayName": "CovaU Basics Business Gas AGN",
+        "effectiveTo": "2023-07-11T14:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -116,7 +117,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with our Market Retail Terms &Conditions"
         },
-        "lastUpdated": "2023-05-29T05:59:39Z",
+        "lastUpdated": "2023-07-11T23:36:12Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-01-09T13:00:00Z"
     },
