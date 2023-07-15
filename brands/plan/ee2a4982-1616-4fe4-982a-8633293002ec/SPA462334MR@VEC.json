@@ -112,8 +112,8 @@
             ]
         },
         "displayName": "Sumo Select (Single Rate)",
-        "effectiveTo": "2023-07-30T14:00:00Z",
-        "lastUpdated": "2023-05-04T03:22:54Z",
+        "effectiveTo": "2023-07-13T14:00:00Z",
+        "lastUpdated": "2023-07-14T07:00:41Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-05-02T14:00:00Z",
         "electricityContract": {

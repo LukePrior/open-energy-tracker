@@ -75,8 +75,8 @@
             ]
         },
         "displayName": "Sumo Lite (Single Rate Plus Controlled Load)",
-        "effectiveTo": "2023-07-30T14:00:00Z",
-        "lastUpdated": "2022-08-08T10:08:19Z",
+        "effectiveTo": "2023-07-14T14:00:00Z",
+        "lastUpdated": "2023-07-14T14:34:54Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-07T14:00:00Z",
         "electricityContract": {
