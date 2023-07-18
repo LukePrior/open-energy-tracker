@@ -4,7 +4,7 @@
             {
                 "type": "MARKET",
                 "brand": "actewagl",
-                "planId": "ACT551687MRE4@EME",
+                "planId": "ACT551687MRE5@EME",
                 "fuelType": "ELECTRICITY",
                 "brandName": "ActewAGL",
                 "geography": {
@@ -42,14 +42,60 @@
                 },
                 "displayName": "Capital electricity plan",
                 "effectiveTo": "2024-06-30T00:00:00.000Z",
-                "lastUpdated": "2023-07-11T03:20:44.127Z",
+                "lastUpdated": "2023-07-17T03:20:29.212Z",
                 "customerType": "RESIDENTIAL",
-                "effectiveFrom": "2023-07-11T00:00:00.000Z"
+                "effectiveFrom": "2023-07-17T00:00:00.000Z"
             },
             {
                 "type": "MARKET",
                 "brand": "actewagl",
-                "planId": "ACT551688MRE4@EME",
+                "planId": "ACT551684MRG3@EME",
+                "fuelType": "GAS",
+                "brandName": "ActewAGL",
+                "geography": {
+                    "distributors": [
+                        "Evoenergy ACT"
+                    ],
+                    "includedPostcodes": [
+                        "2600",
+                        "2601",
+                        "2602",
+                        "2603",
+                        "2604",
+                        "2605",
+                        "2606",
+                        "2607",
+                        "2609",
+                        "2611",
+                        "2612",
+                        "2614",
+                        "2615",
+                        "2616",
+                        "2617",
+                        "2618",
+                        "2620",
+                        "2900",
+                        "2902",
+                        "2903",
+                        "2904",
+                        "2905",
+                        "2906",
+                        "2911",
+                        "2912",
+                        "2913",
+                        "2914"
+                    ]
+                },
+                "displayName": "Capital gas plan",
+                "effectiveTo": "2024-06-30T00:00:00.000Z",
+                "lastUpdated": "2023-07-17T03:20:29.207Z",
+                "customerType": "RESIDENTIAL",
+                "effectiveFrom": "2023-07-17T00:00:00.000Z"
+            },
+            {
+                "type": "MARKET",
+                "brand": "actewagl",
+                "planId": "ACT551688MRE5@EME",
                 "fuelType": "ELECTRICITY",
                 "brandName": "ActewAGL",
                 "geography": {
@@ -87,9 +133,99 @@
                 },
                 "displayName": "Capital electricity plan with controlled load",
                 "effectiveTo": "2024-06-30T00:00:00.000Z",
-                "lastUpdated": "2023-07-11T03:20:44.121Z",
+                "lastUpdated": "2023-07-17T03:20:29.191Z",
                 "customerType": "RESIDENTIAL",
-                "effectiveFrom": "2023-07-11T00:00:00.000Z"
+                "effectiveFrom": "2023-07-17T00:00:00.000Z"
+            },
+            {
+                "type": "MARKET",
+                "brand": "actewagl",
+                "planId": "ACT551690MRE4@EME",
+                "fuelType": "ELECTRICITY",
+                "brandName": "ActewAGL",
+                "geography": {
+                    "distributors": [
+                        "Evoenergy"
+                    ],
+                    "includedPostcodes": [
+                        "2600",
+                        "2601",
+                        "2602",
+                        "2603",
+                        "2604",
+                        "2605",
+                        "2606",
+                        "2607",
+                        "2609",
+                        "2611",
+                        "2612",
+                        "2614",
+                        "2615",
+                        "2617",
+                        "2618",
+                        "2620",
+                        "2900",
+                        "2902",
+                        "2903",
+                        "2904",
+                        "2905",
+                        "2906",
+                        "2911",
+                        "2912",
+                        "2913",
+                        "2914"
+                    ]
+                },
+                "displayName": "Capital electricity plan -time-of-use + controlled load",
+                "effectiveTo": "2024-06-30T00:00:00.000Z",
+                "lastUpdated": "2023-07-17T03:20:29.186Z",
+                "customerType": "RESIDENTIAL",
+                "effectiveFrom": "2023-07-17T00:00:00.000Z"
+            },
+            {
+                "type": "MARKET",
+                "brand": "actewagl",
+                "planId": "ACT551689MRE4@EME",
+                "fuelType": "ELECTRICITY",
+                "brandName": "ActewAGL",
+                "geography": {
+                    "distributors": [
+                        "Evoenergy"
+                    ],
+                    "includedPostcodes": [
+                        "2600",
+                        "2601",
+                        "2602",
+                        "2603",
+                        "2604",
+                        "2605",
+                        "2606",
+                        "2607",
+                        "2609",
+                        "2611",
+                        "2612",
+                        "2614",
+                        "2615",
+                        "2617",
+                        "2618",
+                        "2620",
+                        "2900",
+                        "2902",
+                        "2903",
+                        "2904",
+                        "2905",
+                        "2906",
+                        "2911",
+                        "2912",
+                        "2913",
+                        "2914"
+                    ]
+                },
+                "displayName": "Capital electricity plan - time-of-use",
+                "effectiveTo": "2024-06-30T00:00:00.000Z",
+                "lastUpdated": "2023-07-17T03:20:29.183Z",
+                "customerType": "RESIDENTIAL",
+                "effectiveFrom": "2023-07-17T00:00:00.000Z"
             },
             {
                 "type": "MARKET",
@@ -3237,142 +3373,6 @@
                 "lastUpdated": "2023-07-04T03:13:45.346Z",
                 "customerType": "RESIDENTIAL",
                 "effectiveFrom": "2023-07-04T00:00:00.000Z"
-            },
-            {
-                "type": "MARKET",
-                "brand": "actewagl",
-                "planId": "ACT551689MRE3@EME",
-                "fuelType": "ELECTRICITY",
-                "brandName": "ActewAGL",
-                "geography": {
-                    "distributors": [
-                        "Evoenergy"
-                    ],
-                    "includedPostcodes": [
-                        "2600",
-                        "2601",
-                        "2602",
-                        "2603",
-                        "2604",
-                        "2605",
-                        "2606",
-                        "2607",
-                        "2609",
-                        "2611",
-                        "2612",
-                        "2614",
-                        "2615",
-                        "2617",
-                        "2618",
-                        "2620",
-                        "2900",
-                        "2902",
-                        "2903",
-                        "2904",
-                        "2905",
-                        "2906",
-                        "2911",
-                        "2912",
-                        "2913",
-                        "2914"
-                    ]
-                },
-                "displayName": "Capital electricity plan - time-of-use",
-                "effectiveTo": "2024-06-30T00:00:00.000Z",
-                "lastUpdated": "2023-07-03T09:16:44.577Z",
-                "customerType": "RESIDENTIAL",
-                "effectiveFrom": "2023-07-03T00:00:00.000Z"
-            },
-            {
-                "type": "MARKET",
-                "brand": "actewagl",
-                "planId": "ACT551690MRE3@EME",
-                "fuelType": "ELECTRICITY",
-                "brandName": "ActewAGL",
-                "geography": {
-                    "distributors": [
-                        "Evoenergy"
-                    ],
-                    "includedPostcodes": [
-                        "2600",
-                        "2601",
-                        "2602",
-                        "2603",
-                        "2604",
-                        "2605",
-                        "2606",
-                        "2607",
-                        "2609",
-                        "2611",
-                        "2612",
-                        "2614",
-                        "2615",
-                        "2617",
-                        "2618",
-                        "2620",
-                        "2900",
-                        "2902",
-                        "2903",
-                        "2904",
-                        "2905",
-                        "2906",
-                        "2911",
-                        "2912",
-                        "2913",
-                        "2914"
-                    ]
-                },
-                "displayName": "Capital electricity plan -time-of-use + controlled load",
-                "effectiveTo": "2024-06-30T00:00:00.000Z",
-                "lastUpdated": "2023-07-03T09:16:44.561Z",
-                "customerType": "RESIDENTIAL",
-                "effectiveFrom": "2023-07-03T00:00:00.000Z"
-            },
-            {
-                "type": "MARKET",
-                "brand": "actewagl",
-                "planId": "ACT551684MRG2@EME",
-                "fuelType": "GAS",
-                "brandName": "ActewAGL",
-                "geography": {
-                    "distributors": [
-                        "Evoenergy ACT"
-                    ],
-                    "includedPostcodes": [
-                        "2600",
-                        "2601",
-                        "2602",
-                        "2603",
-                        "2604",
-                        "2605",
-                        "2606",
-                        "2607",
-                        "2609",
-                        "2611",
-                        "2612",
-                        "2614",
-                        "2615",
-                        "2616",
-                        "2617",
-                        "2618",
-                        "2620",
-                        "2900",
-                        "2902",
-                        "2903",
-                        "2904",
-                        "2905",
-                        "2906",
-                        "2911",
-                        "2912",
-                        "2913",
-                        "2914"
-                    ]
-                },
-                "displayName": "Capital gas plan",
-                "effectiveTo": "2024-06-30T00:00:00.000Z",
-                "lastUpdated": "2023-07-03T05:46:58.958Z",
-                "customerType": "RESIDENTIAL",
-                "effectiveFrom": "2023-07-03T00:00:00.000Z"
             },
             {
                 "type": "MARKET",
