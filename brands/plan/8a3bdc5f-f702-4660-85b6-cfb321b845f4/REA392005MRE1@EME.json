@@ -39,7 +39,8 @@
             ]
         },
         "displayName": "ReAmped Advance | Anytime & CL1 & CL2",
-        "lastUpdated": "2022-06-22T14:06:42.341Z",
+        "effectiveTo": "2030-08-01T00:00:00.000Z",
+        "lastUpdated": "2023-07-19T01:38:59.694Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-23T00:00:00.000Z",
         "electricityContract": {
@@ -173,7 +174,8 @@
                         "amount": "0.00"
                     }
                 }
-            ]
+            ],
+            "additionalInformation": "Your distributor may impose fees on us in relation to services performed by your distributor (or anyone else) at your supply address. These costs will be passed on to you. For details on additional charges that may apply see www.reampedenergy.com.au/fees"
         }
     },
     "meta": {},

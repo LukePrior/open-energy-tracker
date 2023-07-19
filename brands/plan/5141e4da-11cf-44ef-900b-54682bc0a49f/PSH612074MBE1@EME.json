@@ -169,7 +169,8 @@
             ]
         },
         "displayName": "Powershop 100% Carbon Neutral",
-        "lastUpdated": "2023-06-30T14:15:24.091Z",
+        "effectiveTo": "2023-08-01T00:00:00.000Z",
+        "lastUpdated": "2023-07-18T03:42:07.685Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-07-01T00:00:00.000Z",
         "electricityContract": {
@@ -269,7 +270,8 @@
                     }
                 }
             ],
-            "onExpiryDescription": "This Powershop offer is an ongoing contract (until you or we end it) with no exit fees."
+            "onExpiryDescription": "This Powershop offer is an ongoing contract (until you or we end it) with no exit fees.",
+            "additionalInformation": "Information is set out on our fees page: powershop.com.au/fees."
         }
     },
     "meta": {},

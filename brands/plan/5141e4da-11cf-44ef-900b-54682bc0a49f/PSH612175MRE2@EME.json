@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Super Solar",
-        "lastUpdated": "2023-07-14T02:20:37.953Z",
+        "effectiveTo": "2023-08-01T00:00:00.000Z",
+        "lastUpdated": "2023-07-18T03:41:53.001Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-07-14T00:00:00.000Z",
         "electricityContract": {
