@@ -275,7 +275,8 @@
             ]
         },
         "displayName": "Next Assured Small Business AusNet Services  7 Day TOU (NEE17)",
-        "lastUpdated": "2023-06-30T06:47:40Z",
+        "effectiveTo": "2023-07-18T14:00:00Z",
+        "lastUpdated": "2023-07-19T05:54:10Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-06-30T14:00:00Z",
         "electricityContract": {

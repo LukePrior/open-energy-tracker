@@ -1,0 +1,234 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "simply-energy",
+        "planId": "SIM426331MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Simply Energy",
+        "geography": {
+            "distributors": [
+                "Citipower"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
+                "3011",
+                "3031",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3078",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
+            ]
+        },
+        "displayName": "VIC Simply Movie Perks 4% off Elec",
+        "effectiveTo": "2023-01-03T13:00:00Z",
+        "lastUpdated": "2023-01-03T13:32:45Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-10-12T13:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "rate": "0.36",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "You may be charged credit card fees in all channels (other than direct debit) of 0.36% for Mastercard."
+                },
+                {
+                    "rate": "0.42",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "You may be charged credit card fees in all channels (other than direct debit) of 0.42% for Visa."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "1.65",
+                    "description": "A $1.65 (inc. GST) charge will apply to paper bills sent in the post."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "0.20",
+                    "description": "As part of the VRewards program an additional daily fee of 0.20c (inclusive of GST) will be added to your invoice"
+                }
+            ],
+            "terms": "For further details on the information presented in this Plan Information Document, or for full terms and conditions, please visit www.simplyenergy.com.au or call Simply Energy on 13 88 08.",
+            "isFixed": false,
+            "termType": "OTHER",
+            "timeZone": "AEST",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "category": "OTHER",
+                    "description": "You'll receive a 4% Guaranteed Discount off our electricity usage and supply charges.",
+                    "displayName": "Guaranteed Discount",
+                    "methodUType": "percentOfBill",
+                    "percentOfBill": {
+                        "rate": "4"
+                    }
+                }
+            ],
+            "variation": "We may vary your rates and charges at any time, including if any underlying information is incorrect, you get a new meter or your distributor changes your tariff. We'll give you advance notice of any change, which may be on your bill.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Village Reward Plan",
+                    "displayName": "Village Reward Plan",
+                    "eligibility": "You'll receive 1000 VReward points per fuel every month during your energy plan. That's a maximum of 12,000 VReward points, per fuel, each year from your supply start date of this energy plan."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Offer only available to Vrewards members. If you're not a Vrewards member, we'll provide your personal information to Village Cinemas to register you for the Vrewards program. You'll be agreeing to the Village Terms, Privacy Policy and to receiving offers from Village"
+                }
+            ],
+            "pricingModel": "TIME_OF_USE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "Period",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "27.46"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "2100",
+                                    "startTime": "1500"
+                                }
+                            ],
+                            "displayName": "Peak"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "15.77"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "1500",
+                                    "startTime": "0000"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "2100"
+                                }
+                            ],
+                            "displayName": "Off-Peak"
+                        }
+                    ],
+                    "dailySupplyCharges": "105.66"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Current",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.20"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "PFIT",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "Ongoing energy plan until you or we end it. We may end this energy plan at any time by giving you 20 Business Days notice."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/simply-energy/cds-au/v1/energy/plans/SIM426331MR@VEC"
+    }
+}
