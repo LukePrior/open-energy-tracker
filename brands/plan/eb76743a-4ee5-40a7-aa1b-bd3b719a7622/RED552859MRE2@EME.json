@@ -211,7 +211,8 @@
             ]
         },
         "displayName": "Red EV Saver",
-        "lastUpdated": "2023-06-30T14:17:19.975Z",
+        "effectiveTo": "2023-07-25T00:00:00.000Z",
+        "lastUpdated": "2023-07-20T05:47:45.796Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-07-01T00:00:00.000Z",
         "meteringCharges": [
@@ -238,6 +239,13 @@
             "isFixed": false,
             "timeZone": "LOCAL",
             "variation": "We may vary your rates in line with our Customer Charter at any time by written notice to you (which may be after the variation date). If we increase your rates, we will provide written notice at least 10 business days prior to the variation.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Between 12pm and 2pm Saturday and Sunday, your electricity usage charges will be waived for any electricity consumed at your Supply Address. Excludes Service to Property charges and GreenPower charges (if applicable).",
+                    "displayName": "Free Electricity Use Period"
+                }
+            ],
             "meterTypes": [
                 "Type 4",
                 "Type 4a"
@@ -409,7 +417,8 @@
                     }
                 }
             ],
-            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us.",
+            "additionalInformation": "The fees and charges listed in the Fees and Charges section above apply to the standard move in and move out requests. For details on our additional fees and charges, please visit https://www.redenergy.com.au/additional-service-charges-qld or contact us on 131 806."
         }
     },
     "meta": {},

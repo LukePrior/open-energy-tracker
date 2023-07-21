@@ -1,0 +1,243 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "globird",
+        "planId": "GLO485741MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "GloBird Energy",
+        "geography": {
+            "distributors": [
+                "Citipower"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
+                "3011",
+                "3031",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3078",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
+            ]
+        },
+        "displayName": "GloBird  FREELUNCH Residential (Two Rate ) Citipower",
+        "effectiveTo": "2024-07-18T14:00:00Z",
+        "lastUpdated": "2023-07-20T06:11:25Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-07-19T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "12.00",
+                    "description": "This is smart meter remote re-connection fee. It assumes a smart meter being remotely connected during business hours when we have been given enough prior notice.  However the fee can vary depending on the type of meter, the location, and other factors."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "12.00",
+                    "description": "This is smart meter remote disconnection fee, however this fee can vary depending on your type of meter, the meter location, and other factors."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "2.50",
+                    "description": "Paper Bill. If you have opted to receive a paper bill by post"
+                },
+                {
+                    "rate": "0",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "OTHER",
+                    "description": "0 Credit Card Payment Processing Fee"
+                }
+            ],
+            "terms": "For further information about this offer call GloBird on 133456 or visit www.globirdenergy.com.au or see our full terms and conditions here: www.globirdenergy.com.au/legal/. See Time of Use Solar/Generation time period here https://www.globirdenergy.com.au/legal/flexible/. 4-9pm we pay 10.6c/kWh, 10am-2pm we pay 3.9c, other times pay 5.5c",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "discounts": [
+                {
+                    "type": "CONDITIONAL",
+                    "category": "PAY_ON_TIME",
+                    "description": "Discounts only apply when the condition is met. 2% when you pay the bill by the due date. And 1% when you pay the bill by the due date with direct debit.",
+                    "displayName": "PPD",
+                    "methodUType": "percentOfBill",
+                    "percentOfBill": {
+                        "rate": "3"
+                    }
+                }
+            ],
+            "variation": "We may update your rates from time to time, usually at the same time as the state Government reset the Victorian Default Offer, and review your solar feed-in when the minimum feed-in laws change. We'll always notify you in writing prior to any change",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Local call center and no credit card processing fees",
+                    "displayName": "Local call center and no credit card processing fees",
+                    "eligibility": "Traditional energy plan. Easy to understand. Local call center. No sneaky credit card processing fees. Just great value."
+                },
+                {
+                    "category": "OTHER",
+                    "description": "Perfect if you love free stuff",
+                    "displayName": "Perfect if you love free stuff",
+                    "eligibility": "$0.00 usage charge 12pm-2pm (Local Time)."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This product is for new Residential customers on flexible in Citipower area.Step 1 of 608.33kWh/month, calculated based on average daily allowance of 20.00kWh/day for the billing period. Example: 30 day bill has a step 1 of 600.00kWh, or a 31 day bill 620.00kWh. For eligibility criteria call 133456."
+                }
+            ],
+            "pricingModel": "TIME_OF_USE",
+            "tariffPeriod": [
+                {
+                    "endDate": "07-19",
+                    "startDate": "07-20",
+                    "displayName": "20/07/2023-19/07/2024",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "volume": 608,
+                                    "unitPrice": "20.40"
+                                },
+                                {
+                                    "unitPrice": "23.20"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "1400"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "1200",
+                                    "startTime": "0000"
+                                }
+                            ],
+                            "displayName": "Time of Use"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "0.0001"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "1400",
+                                    "startTime": "1200"
+                                }
+                            ],
+                            "displayName": "Time of Use"
+                        }
+                    ],
+                    "dailySupplyCharges": "90.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "4-9pm we pay 10.6c/kWh, 10am-2pm we pay 3.9c, other times we pay 5.5c",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "4.90"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "You can remain on the scheme until 31 December 2024",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discount percentage or rates."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/globird/cds-au/v1/energy/plans/GLO485741MR@VEC"
+    }
+}

@@ -211,7 +211,8 @@
             ]
         },
         "displayName": "Qantas Red Business Plus (6000)",
-        "lastUpdated": "2023-06-30T14:15:34.702Z",
+        "effectiveTo": "2023-07-25T00:00:00.000Z",
+        "lastUpdated": "2023-07-20T05:48:00.827Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-07-01T00:00:00.000Z",
         "meteringCharges": [
@@ -238,6 +239,13 @@
             "isFixed": false,
             "timeZone": "LOCAL",
             "variation": "We may vary your rates in line with our Customer Charter at any time by written notice to you (which may be after the variation date). If we increase your rates, we will provide written notice at least 10 business days prior to the variation.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "15,000 bonus Qantas Points are applied once Red Energy becomes responsible for the supply of your electricity and 3 Qantas Points per $1 on your electricity bill, when you pay in full. T&Cs at www.redenergy.com.au/qantas-business-terms-and-conditions",
+                    "displayName": "Qantas Points"
+                }
+            ],
             "meterTypes": [
                 "Type 4",
                 "Type 4a",
@@ -322,7 +330,8 @@
                     }
                 }
             ],
-            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us.",
+            "additionalInformation": "The fees and charges listed in the Fees and Charges section above apply to the standard move in and move out requests. For details on our additional fees and charges, please visit https://www.redenergy.com.au/additional-service-charges-qld or contact us on 131 806."
         }
     },
     "meta": {},

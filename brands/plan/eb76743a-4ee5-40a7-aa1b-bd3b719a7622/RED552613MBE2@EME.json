@@ -315,7 +315,8 @@
             ]
         },
         "displayName": "Qantas Red Business Saver",
-        "lastUpdated": "2023-06-30T14:15:47.942Z",
+        "effectiveTo": "2023-07-25T00:00:00.000Z",
+        "lastUpdated": "2023-07-20T05:48:24.572Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-07-01T00:00:00.000Z",
         "meteringCharges": [

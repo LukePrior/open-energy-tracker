@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Qantas Red Saver (Bundled)(TOU Transitional-EA011)",
-        "lastUpdated": "2023-06-30T14:10:57.430Z",
+        "effectiveTo": "2023-07-25T00:00:00.000Z",
+        "lastUpdated": "2023-07-20T05:48:19.069Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-07-01T00:00:00.000Z",
         "meteringCharges": [
@@ -266,6 +267,13 @@
             "isFixed": false,
             "timeZone": "LOCAL",
             "variation": "We may vary your rates in line with our Customer Charter at any time by written notice to you. Notice will be given at least 5 business day prior to the variation.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Get 10,000 bonus Qantas Points when Red Energy becomes responsible for the supply of your electricity and 3 Qantas Points per $1 on every elec bill, when you pay on time. For T&Cs see redenergy.com.au/terms",
+                    "displayName": "Qantas Points"
+                }
+            ],
             "meterTypes": [
                 "Type 4",
                 "Type 4a",
@@ -418,7 +426,8 @@
                     }
                 }
             ],
-            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us.",
+            "additionalInformation": "The fees and charges listed in the Fees and Charges section above apply to the standard move in and move out requests. For details on our additional fees and charges, please visit https://www.redenergy.com.au/additional-service-charges-nsw or contact us on 131 806."
         }
     },
     "meta": {},

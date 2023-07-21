@@ -39,7 +39,8 @@
             ]
         },
         "displayName": "Living Energy Saver",
-        "lastUpdated": "2023-06-30T14:08:34.102Z",
+        "effectiveTo": "2023-07-25T00:00:00.000Z",
+        "lastUpdated": "2023-07-20T05:47:49.941Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-07-01T00:00:00.000Z",
         "meteringCharges": [
@@ -234,7 +235,8 @@
                     }
                 }
             ],
-            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us.",
+            "additionalInformation": "The fees and charges listed in the Fees and Charges section above apply to the standard move in and move out requests. For details on our additional fees and charges, please visit https://www.redenergy.com.au/additional-service-charges-act or contact us on 131 806."
         }
     },
     "meta": {},

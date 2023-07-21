@@ -346,7 +346,8 @@
             ]
         },
         "displayName": "Red Business Saver (TOU Seasonal - SBTOU)",
-        "lastUpdated": "2023-06-30T14:13:51.884Z",
+        "effectiveTo": "2023-07-25T00:00:00.000Z",
+        "lastUpdated": "2023-07-20T05:48:18.941Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-07-01T00:00:00.000Z",
         "meteringCharges": [
@@ -548,7 +549,8 @@
                     }
                 }
             ],
-            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us.",
+            "additionalInformation": "The fees and charges listed in the Fees and Charges section above apply to the standard move in and move out requests. For details on our additional fees and charges, please visit https://www.redenergy.com.au/additional-service-charges-sa or contact us on 131 806."
         }
     },
     "meta": {},

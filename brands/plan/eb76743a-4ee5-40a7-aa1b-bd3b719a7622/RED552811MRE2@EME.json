@@ -169,7 +169,8 @@
             ]
         },
         "displayName": "Red Taronga Flex (Demand - N72, N73)",
-        "lastUpdated": "2023-06-30T14:17:11.692Z",
+        "effectiveTo": "2023-07-25T00:00:00.000Z",
+        "lastUpdated": "2023-07-20T05:47:45.173Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-07-01T00:00:00.000Z",
         "meteringCharges": [
@@ -196,6 +197,23 @@
             "isFixed": false,
             "timeZone": "LOCAL",
             "variation": "We may vary your rates in line with our Customer Charter at any time by written notice to you. Notice will be given at least 5 business day prior to the variation.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Receive a Taronga Family Flex Annual Membership, includes 1 Flex Adult Pass & Family Flex Kids Passes for kids under 16 years from one household on transferring your electricity to Red and a 2nd Membership on the 12 month anniversary of the transfer. An email address is required to receive annual memberships. Family Flex Membership is valid at Taronga's Zoos. Any nominated adult can use the Flex Adult Pass when accompanying the Flex Kids.  For Full T&Cs see redenergy.com.au/terms",
+                    "displayName": "Taronga Family Flex Membership"
+                },
+                {
+                    "category": "OTHER",
+                    "description": "You will receive one entry into each Ultimate Wildlife Competition draw held within 2 years of the transfer of your electricity when you pay all your bills on time during the corresponding draw period. For T&Cs see redenergy.com.au/termsandconditions.",
+                    "displayName": "Ultimate Wildlife Competition"
+                },
+                {
+                    "category": "OTHER",
+                    "description": "For every unit of electricity you buy from Red Energy, Snowy Hydro Limited will match it by generating one unit of electricity from a renewable source.",
+                    "displayName": "Renewable Matching Promise"
+                }
+            ],
             "meterTypes": [
                 "Type 4",
                 "Type 4a",
@@ -367,7 +385,8 @@
                     }
                 }
             ],
-            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us.",
+            "additionalInformation": "The fees and charges listed in the Fees and Charges section above apply to the standard move in and move out requests. For details on our additional fees and charges, please visit https://www.redenergy.com.au/additional-service-charges-nsw or contact us on 131 806."
         }
     },
     "meta": {},

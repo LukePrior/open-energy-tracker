@@ -211,7 +211,8 @@
             ]
         },
         "displayName": "Red Wildlife Saver",
-        "lastUpdated": "2023-06-30T14:16:24.679Z",
+        "effectiveTo": "2023-07-25T00:00:00.000Z",
+        "lastUpdated": "2023-07-20T05:48:12.627Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-07-01T00:00:00.000Z",
         "meteringCharges": [

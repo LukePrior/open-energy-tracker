@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Red Wildlife Saver (Demand - EA111, EA115, EA116)",
-        "lastUpdated": "2023-06-30T14:16:14.504Z",
+        "effectiveTo": "2023-07-25T00:00:00.000Z",
+        "lastUpdated": "2023-07-20T05:48:13.814Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-07-01T00:00:00.000Z",
         "meteringCharges": [
@@ -266,6 +267,18 @@
             "isFixed": false,
             "timeZone": "LOCAL",
             "variation": "We may vary your rates in line with our Customer Charter at any time by written notice to you. Notice will be given at least 5 business day prior to the variation.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Red will contribute $5 to Taronga Conservation Society Australia for each calendar month you are on the Red Wildlife Saver plan, starting from the date we become responsible for your electricity supply.",
+                    "displayName": "Supporting Taronga & Wildlife"
+                },
+                {
+                    "category": "OTHER",
+                    "description": "For every unit of electricity you buy from Red Energy, Snowy Hydro Limited will match it by generating one unit of electricity from a renewable source.",
+                    "displayName": "Renewable Matching Promise"
+                }
+            ],
             "meterTypes": [
                 "Type 4",
                 "Type 4a",
@@ -449,7 +462,8 @@
                     }
                 }
             ],
-            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us.",
+            "additionalInformation": "The fees and charges listed in the Fees and Charges section above apply to the standard move in and move out requests. For details on our additional fees and charges, please visit https://www.redenergy.com.au/additional-service-charges-nsw or contact us on 131 806."
         }
     },
     "meta": {},

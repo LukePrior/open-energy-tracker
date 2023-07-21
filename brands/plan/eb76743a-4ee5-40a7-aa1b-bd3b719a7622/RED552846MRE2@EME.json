@@ -39,7 +39,8 @@
             ]
         },
         "displayName": "Red EV Saver (010)",
-        "lastUpdated": "2023-06-30T14:10:15.041Z",
+        "effectiveTo": "2023-07-25T00:00:00.000Z",
+        "lastUpdated": "2023-07-20T05:47:49.863Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-07-01T00:00:00.000Z",
         "meteringCharges": [

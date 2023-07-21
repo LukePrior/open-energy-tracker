@@ -169,7 +169,8 @@
             ]
         },
         "displayName": "Red BCNA Saver (TOU Seasonal - N71)",
-        "lastUpdated": "2023-06-30T14:16:50.369Z",
+        "effectiveTo": "2023-07-25T00:00:00.000Z",
+        "lastUpdated": "2023-07-20T05:48:11.949Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-07-01T00:00:00.000Z",
         "meteringCharges": [

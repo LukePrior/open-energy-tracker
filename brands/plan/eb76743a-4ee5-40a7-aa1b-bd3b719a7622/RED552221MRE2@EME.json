@@ -315,7 +315,8 @@
             ]
         },
         "displayName": "Living Energy Saver (Demand - BLND1AR)",
-        "lastUpdated": "2023-06-30T14:14:55.785Z",
+        "effectiveTo": "2023-07-25T00:00:00.000Z",
+        "lastUpdated": "2023-07-20T05:48:07.463Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-07-01T00:00:00.000Z",
         "meteringCharges": [

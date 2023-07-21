@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Red Business Saver (Demand - EA302)",
-        "lastUpdated": "2023-06-30T14:14:40.743Z",
+        "effectiveTo": "2023-07-25T00:00:00.000Z",
+        "lastUpdated": "2023-07-20T05:47:57.625Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-07-01T00:00:00.000Z",
         "meteringCharges": [
