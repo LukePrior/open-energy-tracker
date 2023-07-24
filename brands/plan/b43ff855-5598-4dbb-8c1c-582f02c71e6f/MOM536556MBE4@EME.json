@@ -169,7 +169,8 @@
             ]
         },
         "displayName": "Bill Boss Electricity_N92",
-        "lastUpdated": "2023-06-30T14:13:32.114Z",
+        "effectiveTo": "2023-07-25T00:00:00.000Z",
+        "lastUpdated": "2023-07-24T00:48:34.484Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-07-01T00:00:00.000Z",
         "electricityContract": {
@@ -233,8 +234,8 @@
                                 "weekdays": false
                             },
                             "amount": "21.96",
-                            "endTime": "0000",
-                            "startTime": "0000",
+                            "endTime": "0",
+                            "startTime": "0",
                             "description": "November to March, Mon-Fri 4pm-8pm",
                             "displayName": "High Season Demand ($/kW/day)",
                             "chargePeriod": "TARIFF_PERIOD",
@@ -247,8 +248,8 @@
                                 "weekdays": false
                             },
                             "amount": "7.32",
-                            "endTime": "0000",
-                            "startTime": "0000",
+                            "endTime": "0",
+                            "startTime": "0",
                             "description": "April to October, Mon-Fri 4pm-8pm",
                             "displayName": "Low Season Demand ($/kW/day)",
                             "chargePeriod": "TARIFF_PERIOD",
@@ -296,7 +297,8 @@
                     }
                 }
             ],
-            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions."
+            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions.",
+            "additionalInformation": "For information on additional fees, a full schedule of charges is available from http://www.momentumenergy.com.au/fees"
         }
     },
     "meta": {},

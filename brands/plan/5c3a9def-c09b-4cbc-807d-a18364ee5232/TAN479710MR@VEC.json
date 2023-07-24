@@ -29,7 +29,7 @@
             ]
         },
         "displayName": "Home Select PLUS",
-        "effectiveTo": "2023-07-30T14:00:00Z",
+        "effectiveTo": "2023-07-23T14:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -166,7 +166,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Your gas rates (daily supply charge and usage rates) are fixed until at least 31st May 2024, subject to the above eligibility criteria. We will notify you about any variations to your prices in accordance with Energy Laws."
         },
-        "lastUpdated": "2023-06-26T06:06:10Z",
+        "lastUpdated": "2023-07-23T23:19:09Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-06-30T14:00:00Z"
     },
