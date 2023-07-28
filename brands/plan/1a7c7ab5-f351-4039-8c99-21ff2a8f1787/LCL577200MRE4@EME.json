@@ -346,7 +346,8 @@
             ]
         },
         "displayName": "IO Sustainable Home RES - RTOU",
-        "lastUpdated": "2023-07-04T14:05:51.900Z",
+        "effectiveTo": "2023-08-01T00:00:00.000Z",
+        "lastUpdated": "2023-07-27T22:29:50.999Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-07-05T00:00:00.000Z",
         "electricityContract": {
@@ -531,7 +532,8 @@
                     }
                 }
             ],
-            "onExpiryDescription": "No lock in contracts or exit fees."
+            "onExpiryDescription": "No lock in contracts or exit fees.",
+            "additionalInformation": "In some circumstances your distributor may charge fees for certain additional services such as a disconnection. For more information on these fees and other fees, please visit energylocals.com.au/fees"
         }
     },
     "meta": {},

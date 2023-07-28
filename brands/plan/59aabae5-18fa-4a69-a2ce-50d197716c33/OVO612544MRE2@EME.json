@@ -272,7 +272,8 @@
             ]
         },
         "displayName": "The One Plan",
-        "lastUpdated": "2023-07-06T02:17:10.541Z",
+        "effectiveTo": "2023-08-01T00:00:00.000Z",
+        "lastUpdated": "2023-07-27T05:11:01.901Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-07-06T00:00:00.000Z",
         "electricityContract": {

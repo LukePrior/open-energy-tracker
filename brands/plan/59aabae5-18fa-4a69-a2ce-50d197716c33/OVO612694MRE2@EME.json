@@ -346,7 +346,8 @@
             ]
         },
         "displayName": "The EV Plan",
-        "lastUpdated": "2023-07-06T02:16:11.009Z",
+        "effectiveTo": "2023-08-01T00:00:00.000Z",
+        "lastUpdated": "2023-07-27T05:10:22.556Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-07-06T00:00:00.000Z",
         "electricityContract": {

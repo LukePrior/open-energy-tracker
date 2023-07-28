@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "The EV Plan",
-        "lastUpdated": "2023-07-06T02:16:11.577Z",
+        "effectiveTo": "2023-08-01T00:00:00.000Z",
+        "lastUpdated": "2023-07-27T05:10:35.414Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-07-06T00:00:00.000Z",
         "electricityContract": {
@@ -276,6 +277,23 @@
                 }
             ],
             "variation": "OVO Energy may vary the rates at any time in accordance with the terms and conditions available at www.ovoenergy.com.au/terms.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Sign up between 01/07/23 - 31/08/23 to go in the draw to win a Tesla Model 3 and a $2,000 energy bill credit. Prize draw 07/09/23. Full T&Cs pages.ovoenergy.com.au/tesla-giveaway",
+                    "displayName": "Tesla Giveaway"
+                },
+                {
+                    "category": "OTHER",
+                    "description": "$0.08/kWh usage charge between midnight and 6am. For more information head to https://www.ovoenergy.com.au/electric-vehicles/",
+                    "displayName": "Electric Vehicle Off-Peak"
+                },
+                {
+                    "category": "OTHER",
+                    "description": "OVO pay 3% interest on credit balances (after all monthly charges are considered). This is prorated for the number of days since your last bill.",
+                    "displayName": "Interest Rewards"
+                }
+            ],
             "meterTypes": [
                 "Type 4",
                 "Type 4a"
@@ -630,7 +648,8 @@
                     }
                 }
             ],
-            "onExpiryDescription": "Ongoing contract with no contract term"
+            "onExpiryDescription": "Ongoing contract with no contract term",
+            "additionalInformation": "OVO Energy reserves the right to and will notify you if it changes or imposes additional fees or charges in relation to your energy supply. Please refer to www.ovoenergy.com.au/fees for more information."
         }
     },
     "meta": {},
