@@ -327,7 +327,8 @@
             ]
         },
         "displayName": "Online Member + Sign up Bonus",
-        "lastUpdated": "2023-06-29T06:10:19Z",
+        "effectiveTo": "2023-07-31T14:00:00Z",
+        "lastUpdated": "2023-07-31T22:15:38Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-05-16T14:00:00Z",
         "electricityContract": {

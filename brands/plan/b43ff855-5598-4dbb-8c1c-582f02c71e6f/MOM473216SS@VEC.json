@@ -1,0 +1,122 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "momentum",
+        "planId": "MOM473216SS@VEC",
+        "fuelType": "GAS",
+        "brandName": "Momentum Energy",
+        "geography": {
+            "distributors": [
+                "Multinet"
+            ],
+            "includedPostcodes": [
+                "3139",
+                "3775",
+                "3797",
+                "3799"
+            ]
+        },
+        "displayName": "Standing Offer Gas Multinet Yarra Valley",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "8.22",
+                    "description": "Move-In/Move Out Meter Read fee\nFor information on additional fees, a full schedule of charges is available from www.momentumenergy.com.au/fees"
+                }
+            ],
+            "terms": "Full terms and conditions can be obtained from www.momentumenergy.com.au/terms or by contacting our Customer Care Team on 1800 SWITCH.",
+            "isFixed": false,
+            "variation": "We will give you written notice of any variations to your rates & charges under your terms and conditions in accordance with applicable legal requirements.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Available with a Supply Address in Victoria in the Multinet Yarra Valley distribution area and is subject to having the necessary metering system configuration."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "10-31",
+                    "startDate": "05-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 250,
+                                "unitPrice": "4.2091"
+                            },
+                            {
+                                "volume": 750,
+                                "unitPrice": "3.9545"
+                            },
+                            {
+                                "volume": 500,
+                                "unitPrice": "3.7818"
+                            },
+                            {
+                                "volume": 3500,
+                                "unitPrice": "3.7182"
+                            },
+                            {
+                                "unitPrice": "3.6455"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "116.2636"
+                },
+                {
+                    "endDate": "04-30",
+                    "startDate": "11-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 250,
+                                "unitPrice": "4.2091"
+                            },
+                            {
+                                "volume": 750,
+                                "unitPrice": "3.9545"
+                            },
+                            {
+                                "volume": 500,
+                                "unitPrice": "3.7818"
+                            },
+                            {
+                                "volume": 3500,
+                                "unitPrice": "3.7182"
+                            },
+                            {
+                                "unitPrice": "3.6455"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Off-Peak"
+                    },
+                    "displayName": "Off-Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "116.2636"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions."
+        },
+        "lastUpdated": "2023-07-13T04:13:38Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2023-07-31T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/momentum/cds-au/v1/energy/plans/MOM473216SS@VEC"
+    }
+}

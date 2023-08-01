@@ -1,0 +1,244 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "reamped",
+        "planId": "REA392078MRE3@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "ReAmped Energy",
+        "geography": {
+            "distributors": [
+                "Essential Energy Far West"
+            ],
+            "includedPostcodes": [
+                "2648",
+                "2715",
+                "2717",
+                "2732",
+                "2733",
+                "2735",
+                "2736",
+                "2737",
+                "2738",
+                "2739",
+                "2790",
+                "2817",
+                "2818",
+                "2822",
+                "2826",
+                "2836",
+                "2838",
+                "2878",
+                "2879",
+                "2880"
+            ]
+        },
+        "displayName": "ReAmped Solar | Time of Use & CL1 & CL2",
+        "lastUpdated": "2023-07-31T14:05:56.844Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-08-01T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECT_MOVE_OUT",
+                    "description": "Standard Move Out-Read Fee. Includes GST. Actual charges may vary. See www.reampedenergy.com.au/fees for more information."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "Standard Move In-Read Fee. Includes GST. Actual charges may vary. See www.reampedenergy.com.au/fees for more information."
+                },
+                {
+                    "rate": "1",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A fee of 1% applies to payments made by credit or debit card."
+                }
+            ],
+            "terms": "See\ufffdwww.reampedenergy.com.au\ufffdfor full terms and conditions. Available only with e-billing and direct debit.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "We may vary the Charges (including their amount, nature and structure) by notice to you at any time. If we vary your plan, rates or our retail fees and charges, we will give you at least 5 business days prior notice of the variation",
+            "meterTypes": [
+                "Type 4",
+                "Type 5",
+                "Type 6"
+            ],
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "All Year",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "name": "Peak",
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "48.88"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "859",
+                                    "startTime": "700"
+                                },
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "1959",
+                                    "startTime": "1700"
+                                }
+                            ],
+                            "description": "Weekdays 7am-9am & 5pm-8pm"
+                        },
+                        {
+                            "name": "Shoulder",
+                            "type": "SHOULDER",
+                            "rates": [
+                                {
+                                    "unitPrice": "42.92"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "1659",
+                                    "startTime": "900"
+                                },
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "2159",
+                                    "startTime": "2000"
+                                }
+                            ],
+                            "description": "Weekdays 9am-5pm & 8pm-10pm"
+                        },
+                        {
+                            "name": "Off-peak",
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "32.74"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "659",
+                                    "startTime": "2200"
+                                },
+                                {
+                                    "days": [
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "2359",
+                                    "startTime": "0"
+                                }
+                            ],
+                            "description": "Weekdays 10pm-7am, Weekends 12am - 12pm"
+                        }
+                    ],
+                    "dailySupplyCharges": "141.21"
+                }
+            ],
+            "billFrequency": [
+                "P1M",
+                "P3M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "CREDIT_CARD"
+            ],
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "20.40"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                    "displayName": "Controlled Load 1"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "20.40"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                    "displayName": "Controlled Load 2"
+                }
+            ],
+            "coolingOffDays": "10",
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.01",
+                            "percentGreen": "25"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "25% GreenPower for 1 c/kWh (inc. GST)."
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.02",
+                            "percentGreen": "50"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "50% GreenPower for 2 c/kWh (inc. GST)."
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.03",
+                            "percentGreen": "75"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "75% GreenPower for 3 c/kWh (inc. GST)."
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.04",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "100% GreenPower for 4 c/kWh (inc. GST)."
+                }
+            ],
+            "additionalInformation": "Your distributor may impose fees on us in relation to services performed by your distributor (or anyone else) at your supply address. These costs will be passed on to you. For details on additional charges that may apply see www.reampedenergy.com.au/fees"
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/reamped/cds-au/v1/energy/plans/REA392078MRE3@EME"
+    }
+}

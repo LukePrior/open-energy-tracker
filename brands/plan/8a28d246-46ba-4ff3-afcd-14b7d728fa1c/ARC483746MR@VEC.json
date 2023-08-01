@@ -1,0 +1,228 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "arcline",
+        "planId": "ARC483746MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "ARCLINE by RACV",
+        "geography": {
+            "distributors": [
+                "Citipower"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
+                "3011",
+                "3031",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3078",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
+            ]
+        },
+        "displayName": "Energy Plan",
+        "lastUpdated": "2023-07-26T07:12:12Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-07-31T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "MEMBERSHIP",
+                    "amount": "155.88",
+                    "description": "Membership of $12.99 per month inc GST to access these wholesale rates\nAdditional fees may apply. For more information, please visit the retailers website at energy.arcline.com.au/fees"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "10.00",
+                    "description": "Charged when a direct debit payment has dishonoured or reversed. This charge is not subject to GST"
+                },
+                {
+                    "rate": "0.81",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "We accept Visa and Mastercard payments via pay.energylocals.com.au. Debit card transactions are subject to a 0.46% fee, and credit card payments incur a 0.81% fee. Credit and debit card processing fees are waived for Direct Debit payments."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "PAYMENT_PROCESSING",
+                    "amount": "2.00",
+                    "description": "Charged for providing a paper bill"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "44.85",
+                    "description": "May be charged when you move into a property or change retailer. Actual fee may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "45.52",
+                    "description": "May be charged when you move out and require a final meter read. Actual fee may vary."
+                }
+            ],
+            "terms": "Arcline by RACV is provided by Energy Locals PTY LTD. Each paper bill will incur a $2 fee. For more information in relation to Arcline by RACV and this offer, see our full terms and conditions at energy.arcline.com.au/terms.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "Due to changes in the market and economic conditions, we may update your tariff and/or fees. We will provide at least 5 business days' notice before the change takes place.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "8.8c/kWh Solar Export",
+                    "displayName": "8.8c/kWh Solar Export",
+                    "eligibility": "A feed-in tariff of 8.8c/kWh will apply to the first 10 kWh exported each day"
+                },
+                {
+                    "category": "OTHER",
+                    "description": "Refer a Friend Credit",
+                    "displayName": "Refer a Friend Credit",
+                    "eligibility": "Receive a $50 account credit if you mention an existing Arcline customer when you join. The friend also gets $50 credit. T&Cs apply - Visit Arcline Terms and Conditions page for more information: https://energy.arcline.com.au/terms/"
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Available to customers in Citipower distribution region Residential Time of Use Rate on network tariff(s) CRTOU. Feed-In Tariffs are only valid if applicable."
+                }
+            ],
+            "pricingModel": "TIME_OF_USE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "Year-round",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "32.272727"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "2100",
+                                    "startTime": "1500"
+                                }
+                            ],
+                            "displayName": "Peak"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "20.909091"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "1500",
+                                    "startTime": "0000"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "2100"
+                                }
+                            ],
+                            "displayName": "Off Peak"
+                        }
+                    ],
+                    "dailySupplyCharges": "53.636364"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Retailer feed-in tariff (incl. GST, if any).",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.20"
+                    }
+                }
+            ],
+            "onExpiryDescription": "Open contract with no exit fees."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/arcline/cds-au/v1/energy/plans/ARC483746MR@VEC"
+    }
+}

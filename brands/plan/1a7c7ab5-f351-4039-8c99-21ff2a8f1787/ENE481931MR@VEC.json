@@ -327,7 +327,8 @@
             ]
         },
         "displayName": "Online Member - Limited time offer",
-        "lastUpdated": "2023-07-03T06:32:11Z",
+        "effectiveTo": "2023-07-31T14:00:00Z",
+        "lastUpdated": "2023-07-31T22:13:36Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-06-15T14:00:00Z",
         "electricityContract": {

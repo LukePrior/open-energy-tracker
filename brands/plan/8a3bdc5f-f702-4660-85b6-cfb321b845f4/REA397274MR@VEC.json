@@ -112,7 +112,8 @@
             ]
         },
         "displayName": "ReAmped Handshake | Anytime & CL1",
-        "lastUpdated": "2022-06-16T14:45:23Z",
+        "effectiveTo": "2023-07-31T14:00:00Z",
+        "lastUpdated": "2023-07-31T21:26:03Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-31T14:00:00Z",
         "electricityContract": {

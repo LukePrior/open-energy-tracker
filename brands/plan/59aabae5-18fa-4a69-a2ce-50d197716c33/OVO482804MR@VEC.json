@@ -275,7 +275,8 @@
             ]
         },
         "displayName": "The Basic Solar Plan Tesla Giveaway",
-        "lastUpdated": "2023-07-06T02:53:46Z",
+        "effectiveTo": "2023-07-30T14:00:00Z",
+        "lastUpdated": "2023-07-31T11:25:44Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-06-30T14:00:00Z",
         "electricityContract": {

@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "Business Member EL",
-        "lastUpdated": "2023-05-17T02:33:44Z",
+        "effectiveTo": "2023-07-31T14:00:00Z",
+        "lastUpdated": "2023-07-31T22:11:51Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-05-16T14:00:00Z",
         "electricityContract": {

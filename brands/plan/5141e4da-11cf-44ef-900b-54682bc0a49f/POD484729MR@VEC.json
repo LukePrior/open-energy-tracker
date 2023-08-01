@@ -1,0 +1,203 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "powershop",
+        "planId": "POD484729MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Powershop",
+        "geography": {
+            "distributors": [
+                "Jemena"
+            ],
+            "includedPostcodes": [
+                "3011",
+                "3012",
+                "3013",
+                "3015",
+                "3016",
+                "3019",
+                "3020",
+                "3023",
+                "3025",
+                "3031",
+                "3032",
+                "3033",
+                "3034",
+                "3036",
+                "3037",
+                "3038",
+                "3039",
+                "3040",
+                "3041",
+                "3042",
+                "3043",
+                "3044",
+                "3045",
+                "3046",
+                "3047",
+                "3048",
+                "3049",
+                "3051",
+                "3052",
+                "3058",
+                "3059",
+                "3060",
+                "3061",
+                "3062",
+                "3063",
+                "3064",
+                "3068",
+                "3070",
+                "3072",
+                "3073",
+                "3074",
+                "3076",
+                "3078",
+                "3079",
+                "3081",
+                "3083",
+                "3084",
+                "3085",
+                "3086",
+                "3087",
+                "3335",
+                "3336",
+                "3337",
+                "3340",
+                "3427",
+                "3428",
+                "3429",
+                "3430",
+                "3431",
+                "3437",
+                "3750",
+                "3753"
+            ]
+        },
+        "displayName": "Powershop 100% Carbon Neutral",
+        "lastUpdated": "2023-07-18T05:43:33Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-07-31T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "EXIT",
+                    "amount": "0.00",
+                    "description": "This Powershop offer has no exit fees\nIn addition to the applicable prices, you may incur other fees, including disconnection fees. Information regarding fees is set out on our fees page powershop.com.au/fees"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CC_PROCESSING",
+                    "amount": "0.00",
+                    "description": "Powershop do not charge credit card fees."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "88.25",
+                    "description": "Disconnection fees may apply to manually de-energise a property. The fee will be passed on from your distributor and may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "0.00",
+                    "description": "Disconnection fees may apply to remotely de-energise a property. The fee will be passed on from your distributor and may vary."
+                }
+            ],
+            "terms": "We do not issue paper bills and require a credit card or bank details. For more information in relation to Powershop and this offer, see full terms and conditions at: www.powershop.com.au/terms-and-conditions",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "We may vary your prices in accordance with our regulatory requirements. If we vary your prices we\u2019ll give you advance notice, usually by email.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Eligibility criteria may apply, contact Powershop for details."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "26.9556"
+                            }
+                        ],
+                        "description": "All times of the day",
+                        "displayName": "Anytime Usage"
+                    },
+                    "displayName": "Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "110.9125"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "OTHER"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "19.6946"
+                            }
+                        ],
+                        "description": "Time switch controlled hotwater services, space heaters and other dedicated loads, generally controlled between 11pm and 7am.",
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Controlled Load Usage",
+                    "rateBlockUType": "singleRate"
+                }
+            ],
+            "coolingOffDays": 10,
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.055",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "100% GreenPower for 5.5c/kWh inc. GST (no discounts apply to GreenPower charges)",
+                    "displayName": "GreenPower 100"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "FiT",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.20"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "Premium FiT (PFiT)",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "66.70"
+                    }
+                }
+            ],
+            "onExpiryDescription": "This Powershop offer is an ongoing contract (until you or we end it) with no exit fees."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1/energy/plans/POD484729MR@VEC"
+    }
+}

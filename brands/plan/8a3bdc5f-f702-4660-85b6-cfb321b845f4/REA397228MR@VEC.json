@@ -60,7 +60,8 @@
             ]
         },
         "displayName": "ReAmped Handshake | Time of Use",
-        "lastUpdated": "2022-06-16T04:45:20Z",
+        "effectiveTo": "2023-07-31T14:00:00Z",
+        "lastUpdated": "2023-07-31T21:26:01Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-31T14:00:00Z",
         "electricityContract": {

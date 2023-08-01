@@ -60,7 +60,8 @@
             ]
         },
         "displayName": "The One Plan Tesla Giveaway",
-        "lastUpdated": "2023-07-06T02:53:48Z",
+        "effectiveTo": "2023-07-30T14:00:00Z",
+        "lastUpdated": "2023-07-31T11:25:46Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-06-30T14:00:00Z",
         "electricityContract": {

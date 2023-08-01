@@ -1,0 +1,213 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "alinta",
+        "planId": "ALI486640MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Alinta",
+        "geography": {
+            "distributors": [
+                "Jemena"
+            ],
+            "includedPostcodes": [
+                "3011",
+                "3012",
+                "3013",
+                "3015",
+                "3016",
+                "3019",
+                "3020",
+                "3023",
+                "3025",
+                "3031",
+                "3032",
+                "3033",
+                "3034",
+                "3036",
+                "3037",
+                "3038",
+                "3039",
+                "3040",
+                "3041",
+                "3042",
+                "3043",
+                "3044",
+                "3045",
+                "3046",
+                "3047",
+                "3048",
+                "3049",
+                "3051",
+                "3052",
+                "3058",
+                "3059",
+                "3060",
+                "3061",
+                "3062",
+                "3063",
+                "3064",
+                "3068",
+                "3070",
+                "3072",
+                "3073",
+                "3074",
+                "3076",
+                "3078",
+                "3079",
+                "3081",
+                "3083",
+                "3084",
+                "3085",
+                "3086",
+                "3087",
+                "3335",
+                "3336",
+                "3337",
+                "3340",
+                "3427",
+                "3428",
+                "3429",
+                "3430",
+                "3431",
+                "3437",
+                "3750",
+                "3753"
+            ]
+        },
+        "displayName": "Carbon Balance - Demand Single Rate + CL",
+        "lastUpdated": "2023-07-21T04:32:16Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-07-31T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "88.25",
+                    "description": "Disconnection - On site. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee.\nWe reserve the right to and will notify you if we change or impose additional fees or charges in relation to your energy supply."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "0.00",
+                    "description": "Disconnection - Remote. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "61.55",
+                    "description": "Reconnection - On site. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "0.00",
+                    "description": "Reconnection - Remote. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+                }
+            ],
+            "terms": "This plan is only available to residential customers in Victoria. Eligibility criteria applies. Terms and conditions can be accessed at alintaenergy.com.au or by calling 13 37 02.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "Tariffs and charges may only be increased one month after your distribution network costs are finalised, but may be decreased at any time. We will give you at least 5 business days notice prior to any variation or in accordance with applicable laws.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Available to residential customers who meet the eligibility criteria with an applicable network tariff."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "27.46"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Anytime"
+                    },
+                    "displayName": "Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "107.35"
+                },
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "Demand period",
+                    "demandCharges": [
+                        {
+                            "days": [
+                                "MON",
+                                "TUE",
+                                "WED",
+                                "THU",
+                                "FRI",
+                                "SAT",
+                                "SUN"
+                            ],
+                            "amount": "17.69",
+                            "endTime": "0000",
+                            "startTime": "0000",
+                            "description": "Capacity Demand Charge",
+                            "displayName": "Demand",
+                            "chargePeriod": "DAY",
+                            "measurementPeriod": "DAY"
+                        }
+                    ],
+                    "rateBlockUType": "demandCharges"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "26.48"
+                            }
+                        ],
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "",
+                    "rateBlockUType": "singleRate"
+                }
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Current FIT",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "4.90"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "PFIT",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "This offer has no contract term."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/alinta/cds-au/v1/energy/plans/ALI486640MR@VEC"
+    }
+}
