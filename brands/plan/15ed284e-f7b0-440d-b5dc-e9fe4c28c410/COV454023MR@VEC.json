@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "Super Saver Online Residential Single",
-        "lastUpdated": "2023-04-03T04:28:29Z",
+        "effectiveTo": "2023-07-31T14:00:00Z",
+        "lastUpdated": "2023-08-01T04:50:10Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-04-03T14:00:00Z",
         "electricityContract": {

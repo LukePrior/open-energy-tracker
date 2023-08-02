@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "Powershop 100% Carbon Neutral",
-        "lastUpdated": "2023-06-21T06:32:33Z",
+        "effectiveTo": "2023-07-31T14:00:00Z",
+        "lastUpdated": "2023-08-01T04:04:39Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-06-30T14:00:00Z",
         "electricityContract": {

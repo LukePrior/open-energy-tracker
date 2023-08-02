@@ -60,6 +60,7 @@
             ]
         },
         "displayName": "Residential Market - AusNet Services Central 1",
+        "effectiveTo": "2023-07-31T14:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -178,7 +179,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "No Term Contracts apply in line with our Energy Market Terms and Conditions."
         },
-        "lastUpdated": "2023-06-28T02:02:28Z",
+        "lastUpdated": "2023-08-01T13:39:06Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-07-01T14:00:00Z"
     },

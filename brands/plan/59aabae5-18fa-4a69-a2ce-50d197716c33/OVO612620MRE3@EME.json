@@ -346,7 +346,8 @@
             ]
         },
         "displayName": "The Solar Plan",
-        "lastUpdated": "2023-07-31T14:06:06.248Z",
+        "effectiveTo": "2023-08-03T00:00:00.000Z",
+        "lastUpdated": "2023-08-02T00:54:51.596Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-08-01T00:00:00.000Z",
         "electricityContract": {

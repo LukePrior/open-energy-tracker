@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "The One Plan",
-        "lastUpdated": "2023-07-31T14:07:09.346Z",
+        "effectiveTo": "2023-08-03T00:00:00.000Z",
+        "lastUpdated": "2023-08-02T00:55:07.139Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-08-01T00:00:00.000Z",
         "electricityContract": {
@@ -276,18 +277,6 @@
                 }
             ],
             "variation": "OVO Energy may vary the rates at any time in accordance with the terms and conditions available at www.ovoenergy.com.au/terms.",
-            "incentives": [
-                {
-                    "category": "OTHER",
-                    "description": "Sign up between 01/07/23 - 31/08/23 to go in the draw to win a Tesla Model 3 and a $2,000 energy bill credit. Prize draw 07/09/23. Full T&Cs pages.ovoenergy.com.au/tesla-giveaway",
-                    "displayName": "Tesla Giveaway"
-                },
-                {
-                    "category": "OTHER",
-                    "description": "OVO pay 3% interest on credit balances (after all monthly charges are considered). This is prorated for the number of days since your last bill.",
-                    "displayName": "Interest Rewards"
-                }
-            ],
             "meterTypes": [
                 "Type 5",
                 "Type 4",
@@ -619,8 +608,7 @@
                     }
                 }
             ],
-            "onExpiryDescription": "Ongoing contract with no contract term",
-            "additionalInformation": "OVO Energy reserves the right to and will notify you if it changes or imposes additional fees or charges in relation to your energy supply. Please refer to www.ovoenergy.com.au/fees for more information."
+            "onExpiryDescription": "Ongoing contract with no contract term"
         }
     },
     "meta": {},

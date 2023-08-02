@@ -1,0 +1,202 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "alinta",
+        "planId": "ALI447707MS@VEC",
+        "fuelType": "GAS",
+        "brandName": "Alinta",
+        "geography": {
+            "distributors": [
+                "Multinet"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3004",
+                "3006",
+                "3008",
+                "3097",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3105",
+                "3106",
+                "3107",
+                "3108",
+                "3109",
+                "3111",
+                "3113",
+                "3114",
+                "3115",
+                "3116",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3128",
+                "3129",
+                "3130",
+                "3131",
+                "3132",
+                "3133",
+                "3134",
+                "3135",
+                "3136",
+                "3137",
+                "3138",
+                "3140",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3145",
+                "3146",
+                "3147",
+                "3148",
+                "3149",
+                "3151",
+                "3153",
+                "3154",
+                "3155",
+                "3159",
+                "3175",
+                "3181",
+                "3765",
+                "3766",
+                "3767",
+                "3770",
+                "3781",
+                "3782",
+                "3783",
+                "3787",
+                "3788",
+                "3789",
+                "3791",
+                "3792",
+                "3793",
+                "3795",
+                "3796",
+                "3804"
+            ]
+        },
+        "displayName": "BusinessDeal Qantas Gas - Multinet 1",
+        "effectiveTo": "2023-06-30T14:00:00Z",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "62.07",
+                    "description": "This fee is set by your distributor and may vary. Please visit your distributor's website to find out the current fee.\nWe reserve the right to and will notify you if we change or impose additional fees or charges in relation to your energy supply."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "52.33",
+                    "description": "Next business day reconnection fee. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+                }
+            ],
+            "terms": "This plan is only available to small business customers (excluding SOHO customers) signing up a new or existing supply address in Victoria. Eligibility criteria applies. Full terms and conditions available at alintaenergy.com.au/qbrbusinessdeal or by calling 13 39 08.",
+            "isFixed": false,
+            "variation": "Tariffs and charges may only be increased one month after your distribution network costs are finalised, but may be decreased at any time. We will give you at least 5 business days notice prior to any variation or in accordance with applicable laws.",
+            "incentives": [
+                {
+                    "category": "GIFT",
+                    "description": "QANTAS Points",
+                    "displayName": "QANTAS Points",
+                    "eligibility": "After 90 days, customers get 1 Qantas Point (QP) per $1 of every fully paid bill. Bonus QP offers may apply from time to time. Full T&Cs: alintaenergy.com.au/qbrbusinessdeal and qantas.com/qbr/terms"
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Offer only available to small business customers (excluding SOHO customers) signing up a new or existing supply address who have a Qantas Business Rewards membership, an active ABN, and are within the Multinet Network Distribution zone. Creditworthiness eligibility applies."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "10-31",
+                    "startDate": "05-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 250,
+                                "unitPrice": "3.38"
+                            },
+                            {
+                                "volume": 750,
+                                "unitPrice": "2.76"
+                            },
+                            {
+                                "volume": 500,
+                                "unitPrice": "2.57"
+                            },
+                            {
+                                "volume": 3500,
+                                "unitPrice": "2.43"
+                            },
+                            {
+                                "unitPrice": "2.27"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "124.09"
+                },
+                {
+                    "endDate": "04-30",
+                    "startDate": "11-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 250,
+                                "unitPrice": "3.26"
+                            },
+                            {
+                                "volume": 750,
+                                "unitPrice": "2.74"
+                            },
+                            {
+                                "volume": 500,
+                                "unitPrice": "2.53"
+                            },
+                            {
+                                "volume": 3500,
+                                "unitPrice": "2.41"
+                            },
+                            {
+                                "unitPrice": "2.27"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Off Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "124.09"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "This offer has no contract term."
+        },
+        "lastUpdated": "2023-06-30T20:40:22Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2023-03-01T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/alinta/cds-au/v1/energy/plans/ALI447707MS@VEC"
+    }
+}

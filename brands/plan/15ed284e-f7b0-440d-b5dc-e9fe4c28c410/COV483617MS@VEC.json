@@ -48,6 +48,7 @@
             ]
         },
         "displayName": "Super Saver Online Business Gas AGN",
+        "effectiveTo": "2023-07-31T14:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -162,7 +163,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with our Market Retail Terms &Conditions"
         },
-        "lastUpdated": "2023-07-10T05:28:39Z",
+        "lastUpdated": "2023-08-01T05:04:32Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-06-30T14:00:00Z"
     },
