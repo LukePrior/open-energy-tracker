@@ -211,7 +211,8 @@
             ]
         },
         "displayName": "Thrifty Business_85009000",
-        "lastUpdated": "2023-06-30T14:15:12.118Z",
+        "effectiveTo": "2023-08-07T00:00:00.000Z",
+        "lastUpdated": "2023-08-03T23:19:57.761Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-07-01T00:00:00.000Z",
         "electricityContract": {
@@ -331,7 +332,8 @@
                     }
                 }
             ],
-            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions."
+            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions.",
+            "additionalInformation": "For information on additional fees, a full schedule of charges is available from http://www.momentumenergy.com.au/fees"
         }
     },
     "meta": {},

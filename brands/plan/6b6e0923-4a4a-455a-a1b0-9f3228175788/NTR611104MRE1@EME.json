@@ -315,7 +315,8 @@
             ]
         },
         "displayName": "Nectr 100% Clean + Controlled Load 1",
-        "lastUpdated": "2023-06-30T14:16:42.069Z",
+        "effectiveTo": "2023-08-07T00:00:00.000Z",
+        "lastUpdated": "2023-08-03T23:43:52.100Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-07-01T00:00:00.000Z",
         "electricityContract": {

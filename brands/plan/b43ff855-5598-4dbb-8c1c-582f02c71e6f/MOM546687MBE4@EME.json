@@ -211,7 +211,8 @@
             ]
         },
         "displayName": "Thrifty Business_3870",
-        "lastUpdated": "2023-06-30T14:14:27.373Z",
+        "effectiveTo": "2023-08-07T00:00:00.000Z",
+        "lastUpdated": "2023-08-03T23:19:55.783Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-07-01T00:00:00.000Z",
         "electricityContract": {
@@ -275,8 +276,8 @@
                                 "weekdays": false
                             },
                             "amount": "407.70",
-                            "endTime": "0000",
-                            "startTime": "0000",
+                            "endTime": "0",
+                            "startTime": "0",
                             "description": "Peak Demand: 4pm-9pm Mon-Fri (including government public holidays).",
                             "displayName": "Peak Demand ($/kW/month)",
                             "chargePeriod": "TARIFF_PERIOD",
@@ -334,7 +335,8 @@
                     }
                 }
             ],
-            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions."
+            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions.",
+            "additionalInformation": "For information on additional fees, a full schedule of charges is available from http://www.momentumenergy.com.au/fees"
         }
     },
     "meta": {},

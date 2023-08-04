@@ -315,7 +315,8 @@
             ]
         },
         "displayName": "Bill Boss Electricity_BLND1AB",
-        "lastUpdated": "2023-07-24T14:06:23.650Z",
+        "effectiveTo": "2023-08-15T00:00:00.000Z",
+        "lastUpdated": "2023-08-03T23:51:00.017Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-07-25T00:00:00.000Z",
         "electricityContract": {

@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Nothing Fancy Electricity_EA010",
-        "lastUpdated": "2023-06-30T14:14:31.702Z",
+        "effectiveTo": "2023-08-07T00:00:00.000Z",
+        "lastUpdated": "2023-08-03T23:19:56.109Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-07-01T00:00:00.000Z",
         "electricityContract": {
@@ -328,7 +329,8 @@
                     }
                 }
             ],
-            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions."
+            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions.",
+            "additionalInformation": "For information on additional fees, a full schedule of charges is available from http://www.momentumenergy.com.au/fees"
         }
     },
     "meta": {},

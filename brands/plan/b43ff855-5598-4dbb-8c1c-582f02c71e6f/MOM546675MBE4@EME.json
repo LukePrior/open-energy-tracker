@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Thrifty Business_EA302EA040",
-        "lastUpdated": "2023-06-30T14:13:39.928Z",
+        "effectiveTo": "2023-08-07T00:00:00.000Z",
+        "lastUpdated": "2023-08-03T23:19:56.175Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2023-07-01T00:00:00.000Z",
         "electricityContract": {
@@ -292,8 +293,8 @@
                                 "weekdays": false
                             },
                             "amount": "33.74",
-                            "endTime": "0000",
-                            "startTime": "0000",
+                            "endTime": "0",
+                            "startTime": "0",
                             "description": "It is based on a customer's maximum demand usage recorded on weekdays, in any half hour period between 2pm and 8pm over the twelve months preceding the end of the current billing month",
                             "displayName": "Capacity Charge ($/kW/day)",
                             "chargePeriod": "TARIFF_PERIOD",
@@ -428,7 +429,8 @@
                     }
                 }
             ],
-            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions."
+            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions.",
+            "additionalInformation": "For information on additional fees, a full schedule of charges is available from http://www.momentumenergy.com.au/fees"
         }
     },
     "meta": {},
