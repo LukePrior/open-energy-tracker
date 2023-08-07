@@ -275,7 +275,8 @@
             ]
         },
         "displayName": "Nothing Fancy Electricity_NAST13",
-        "lastUpdated": "2023-06-15T03:51:45Z",
+        "effectiveTo": "2023-08-06T14:00:00Z",
+        "lastUpdated": "2023-08-06T22:56:00Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-06-30T14:00:00Z",
         "electricityContract": {

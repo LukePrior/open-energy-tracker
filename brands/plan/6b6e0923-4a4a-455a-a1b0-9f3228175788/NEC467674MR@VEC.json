@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "Nectr 100% Clean + Controlled Load - Jemena",
-        "lastUpdated": "2023-06-29T01:00:38Z",
+        "effectiveTo": "2023-08-06T14:00:00Z",
+        "lastUpdated": "2023-08-07T00:01:19Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-06-30T14:00:00Z",
         "electricityContract": {

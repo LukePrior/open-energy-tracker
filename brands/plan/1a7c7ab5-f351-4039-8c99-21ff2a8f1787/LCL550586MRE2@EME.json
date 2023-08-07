@@ -1,0 +1,170 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "energy-locals",
+        "planId": "LCL550586MRE2@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Energy Locals",
+        "geography": {
+            "distributors": [
+                "Evoenergy"
+            ],
+            "includedPostcodes": [
+                "2600",
+                "2601",
+                "2602",
+                "2603",
+                "2604",
+                "2605",
+                "2606",
+                "2607",
+                "2609",
+                "2611",
+                "2612",
+                "2614",
+                "2615",
+                "2617",
+                "2618",
+                "2620",
+                "2900",
+                "2902",
+                "2903",
+                "2904",
+                "2905",
+                "2906",
+                "2911",
+                "2912",
+                "2913",
+                "2914"
+            ]
+        },
+        "displayName": "TEP - ToU 22 Pre Smart Meter + Powerwall Credit",
+        "lastUpdated": "2023-08-06T14:05:56.528Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-08-07T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "description": "A $13.00 fee applies for each bill that's paid after the due date. This fee is not subject to GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "Move-in connection fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "PAPER_BILL",
+                    "description": "Paper bill fee"
+                },
+                {
+                    "rate": "0.81",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "amount": "0.00",
+                    "description": "We accept Visa and Mastercard for payments via our secure Westpac payment portal at pay.energylocals.com.au. A credit card fee of 0.81% or a debit card processing fee of 0.46% will be applied when paying with these card types. Please note that processing fees for payments made via direct debit using a credit or debit card will be waived."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "description": "Direct debit dishonour payment fee. This fee is not subject to GST."
+                }
+            ],
+            "terms": "Available to residential customers with a Tesla Powerwall 2 at their premises. Your solar PV system must not exceed 15kW for each Powerwall at the premises the system is installed. You agree to have a smart meter installed if one is not already operating at your premises. Powerwall credit is available to offset electricity charges and may not be withdrawn or converted into cash. See\ufffdwww.energylocals.com.au/tesla-energy-plan-tou-terms-Evo.",
+            "isFixed": false,
+            "termType": "2_YEAR",
+            "timeZone": "LOCAL",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "description": "New Tesla Powerwall owners that choose the Tesla Energy Plan within 30 days of install are eligible to earn $1,000 (incl GST) in Powerwall Credits. Credits are available to offset electricity charges and may not be withdrawn or converted into cash. You can receive Credits worth $500 (incl GST) in months 3 and 13 after your transfer date. See plan terms for details.",
+                    "displayName": "Powerwall Credits",
+                    "fixedAmount": {
+                        "amount": "500.00"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "This plan may be repriced up to once per calendar year",
+            "meterTypes": [
+                "Type 5",
+                "Type 6"
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "description": "Must have Tesla Powerwall 2 connected to internet via Wi-Fi or Ethernet and must not have network supply voltages that exceed normal inverter operating limits.",
+                    "information": "You have a Tesla Powerwall 2."
+                },
+                {
+                    "type": "OTHER",
+                    "description": "If you do not currently have a smart meter installed, Energy Locals will install one at your home at no cost to you (unless additional electrical works are required). Until your smart meter is installed, Single Rate pricing will apply. See terms for details.",
+                    "information": "Plan requires a smart meter."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": null,
+                                "unitPrice": "28.00"
+                            }
+                        ],
+                        "period": "P1Y",
+                        "description": "Anytime",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Single Rate Tariff Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "100.00"
+                }
+            ],
+            "billFrequency": [
+                "P3M",
+                "P1M"
+            ],
+            "paymentOption": [
+                "CREDIT_CARD",
+                "DIRECT_DEBIT",
+                "BPAY",
+                "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "16.00"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Seperately metered usage",
+                    "displayName": "Controlled Load 1"
+                }
+            ],
+            "coolingOffDays": "10",
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Retailer Feed-in Tariff (inc. GST, if any)",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "3.00"
+                    }
+                }
+            ]
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/LCL550586MRE2@EME"
+    }
+}
