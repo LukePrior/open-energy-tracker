@@ -22,7 +22,7 @@
             ]
         },
         "displayName": "GloBird ULTRASAVE Residential(Murray)-Australian Gas Networks",
-        "effectiveTo": "2024-06-24T14:00:00Z",
+        "effectiveTo": "2023-08-06T14:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -131,7 +131,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discount percentage or rates."
         },
-        "lastUpdated": "2023-06-23T01:01:26Z",
+        "lastUpdated": "2023-08-07T07:30:34Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-06-25T14:00:00Z"
     },
