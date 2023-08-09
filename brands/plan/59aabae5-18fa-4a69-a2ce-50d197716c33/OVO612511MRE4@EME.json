@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "The One Plan",
-        "lastUpdated": "2023-08-02T14:05:55.702Z",
+        "effectiveTo": "2023-08-11T00:00:00.000Z",
+        "lastUpdated": "2023-08-08T04:43:18.789Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-08-03T00:00:00.000Z",
         "electricityContract": {
@@ -247,16 +248,19 @@
                 {
                     "term": "FIXED",
                     "type": "CONNECTION",
+                    "amount": "14.6",
                     "description": "Connection fee - Site Visit (inc GST). Fees may vary for some customers."
                 },
                 {
                     "term": "FIXED",
                     "type": "DISCONNECTION",
+                    "amount": "205.11",
                     "description": "A fee (inc GST) may be charged for disconnection when you move out of your property. Fees may vary for some customers."
                 },
                 {
                     "term": "FIXED",
                     "type": "OTHER",
+                    "amount": "0.00",
                     "description": "Other fees may apply. Please refer to www.ovoenergy.com.au/fees."
                 }
             ],
@@ -300,7 +304,11 @@
                             "timeOfUse": [
                                 {
                                     "days": [
-                                        "BUSINESS_DAYS"
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
                                     ],
                                     "endTime": "1959",
                                     "startTime": "1400"
@@ -319,22 +327,30 @@
                             "timeOfUse": [
                                 {
                                     "days": [
-                                        "BUSINESS_DAYS"
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
                                     ],
                                     "endTime": "1359",
                                     "startTime": "700"
                                 },
                                 {
                                     "days": [
-                                        "BUSINESS_DAYS"
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
                                     ],
                                     "endTime": "2159",
                                     "startTime": "2000"
                                 },
                                 {
                                     "days": [
-                                        "SATURDAY",
-                                        "SUNDAY"
+                                        "SAT",
+                                        "SUN"
                                     ],
                                     "endTime": "2159",
                                     "startTime": "700"
@@ -353,23 +369,27 @@
                             "timeOfUse": [
                                 {
                                     "days": [
-                                        "BUSINESS_DAYS"
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
                                     ],
                                     "endTime": "659",
                                     "startTime": "2200"
                                 },
                                 {
                                     "days": [
-                                        "SATURDAY",
-                                        "SUNDAY"
+                                        "SAT",
+                                        "SUN"
                                     ],
                                     "endTime": "659",
                                     "startTime": "0"
                                 },
                                 {
                                     "days": [
-                                        "SATURDAY",
-                                        "SUNDAY"
+                                        "SAT",
+                                        "SUN"
                                     ],
                                     "endTime": "2359",
                                     "startTime": "2200"
@@ -397,9 +417,13 @@
                             "timeOfUse": [
                                 {
                                     "days": [
-                                        "BUSINESS_DAYS",
-                                        "SATURDAY",
-                                        "SUNDAY"
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
                                     ],
                                     "endTime": "2159",
                                     "startTime": "700"
@@ -418,18 +442,26 @@
                             "timeOfUse": [
                                 {
                                     "days": [
-                                        "BUSINESS_DAYS",
-                                        "SATURDAY",
-                                        "SUNDAY"
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
                                     ],
                                     "endTime": "659",
                                     "startTime": "0"
                                 },
                                 {
                                     "days": [
-                                        "BUSINESS_DAYS",
-                                        "SATURDAY",
-                                        "SUNDAY"
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
                                     ],
                                     "endTime": "2359",
                                     "startTime": "2200"
@@ -457,7 +489,11 @@
                             "timeOfUse": [
                                 {
                                     "days": [
-                                        "BUSINESS_DAYS"
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
                                     ],
                                     "endTime": "2059",
                                     "startTime": "1700"
@@ -476,22 +512,30 @@
                             "timeOfUse": [
                                 {
                                     "days": [
-                                        "BUSINESS_DAYS"
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
                                     ],
                                     "endTime": "1659",
                                     "startTime": "700"
                                 },
                                 {
                                     "days": [
-                                        "BUSINESS_DAYS"
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
                                     ],
                                     "endTime": "2159",
                                     "startTime": "2100"
                                 },
                                 {
                                     "days": [
-                                        "SATURDAY",
-                                        "SUNDAY"
+                                        "SAT",
+                                        "SUN"
                                     ],
                                     "endTime": "2159",
                                     "startTime": "700"
@@ -510,9 +554,13 @@
                             "timeOfUse": [
                                 {
                                     "days": [
-                                        "BUSINESS_DAYS",
-                                        "SATURDAY",
-                                        "SUNDAY"
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
                                     ],
                                     "endTime": "659",
                                     "startTime": "2200"
@@ -540,9 +588,13 @@
                             "timeOfUse": [
                                 {
                                     "days": [
-                                        "BUSINESS_DAYS",
-                                        "SATURDAY",
-                                        "SUNDAY"
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
                                     ],
                                     "endTime": "2159",
                                     "startTime": "700"
@@ -561,9 +613,13 @@
                             "timeOfUse": [
                                 {
                                     "days": [
-                                        "BUSINESS_DAYS",
-                                        "SATURDAY",
-                                        "SUNDAY"
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
                                     ],
                                     "endTime": "659",
                                     "startTime": "2200"

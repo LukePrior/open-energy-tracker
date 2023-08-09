@@ -211,7 +211,8 @@
             ]
         },
         "displayName": "The One Plan",
-        "lastUpdated": "2023-08-02T14:05:59.399Z",
+        "effectiveTo": "2023-08-11T00:00:00.000Z",
+        "lastUpdated": "2023-08-08T04:43:08.008Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-08-03T00:00:00.000Z",
         "electricityContract": {
@@ -219,16 +220,19 @@
                 {
                     "term": "FIXED",
                     "type": "CONNECTION",
+                    "amount": "19.71",
                     "description": "Connection fee - Site Visit (inc GST). Fees may vary for some customers."
                 },
                 {
                     "term": "FIXED",
                     "type": "DISCONNECTION",
+                    "amount": "50.8",
                     "description": "A fee (inc GST) may be charged for disconnection when you move out of your property. Fees may vary for some customers."
                 },
                 {
                     "term": "FIXED",
                     "type": "OTHER",
+                    "amount": "0.00",
                     "description": "Other fees may apply. Please refer to www.ovoenergy.com.au/fees."
                 }
             ],
@@ -271,13 +275,13 @@
                             "timeOfUse": [
                                 {
                                     "days": [
-                                        "SUNDAY",
-                                        "MONDAY",
-                                        "TUESDAY",
-                                        "WEDNESDAY",
-                                        "THURSDAY",
-                                        "FRIDAY",
-                                        "SATURDAY"
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
                                     ],
                                     "endTime": "2059",
                                     "startTime": "1600"
@@ -296,26 +300,26 @@
                             "timeOfUse": [
                                 {
                                     "days": [
-                                        "SUNDAY",
-                                        "MONDAY",
-                                        "TUESDAY",
-                                        "WEDNESDAY",
-                                        "THURSDAY",
-                                        "FRIDAY",
-                                        "SATURDAY"
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
                                     ],
                                     "endTime": "859",
                                     "startTime": "0"
                                 },
                                 {
                                     "days": [
-                                        "SUNDAY",
-                                        "MONDAY",
-                                        "TUESDAY",
-                                        "WEDNESDAY",
-                                        "THURSDAY",
-                                        "FRIDAY",
-                                        "SATURDAY"
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
                                     ],
                                     "endTime": "2359",
                                     "startTime": "2100"
@@ -334,13 +338,13 @@
                             "timeOfUse": [
                                 {
                                     "days": [
-                                        "SUNDAY",
-                                        "MONDAY",
-                                        "TUESDAY",
-                                        "WEDNESDAY",
-                                        "THURSDAY",
-                                        "FRIDAY",
-                                        "SATURDAY"
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
                                     ],
                                     "endTime": "1559",
                                     "startTime": "900"
