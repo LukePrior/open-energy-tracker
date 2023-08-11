@@ -1,0 +1,246 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "ovo-energy",
+        "planId": "OVO496859MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "OVO Energy",
+        "geography": {
+            "distributors": [
+                "United Energy"
+            ],
+            "includedPostcodes": [
+                "3104",
+                "3105",
+                "3106",
+                "3107",
+                "3108",
+                "3109",
+                "3111",
+                "3114",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3127",
+                "3128",
+                "3129",
+                "3130",
+                "3131",
+                "3132",
+                "3133",
+                "3144",
+                "3145",
+                "3146",
+                "3147",
+                "3148",
+                "3149",
+                "3150",
+                "3151",
+                "3152",
+                "3161",
+                "3162",
+                "3163",
+                "3165",
+                "3166",
+                "3167",
+                "3168",
+                "3169",
+                "3170",
+                "3171",
+                "3172",
+                "3173",
+                "3174",
+                "3175",
+                "3177",
+                "3178",
+                "3179",
+                "3182",
+                "3183",
+                "3184",
+                "3185",
+                "3186",
+                "3187",
+                "3188",
+                "3189",
+                "3190",
+                "3191",
+                "3192",
+                "3193",
+                "3194",
+                "3195",
+                "3196",
+                "3197",
+                "3198",
+                "3199",
+                "3200",
+                "3201",
+                "3202",
+                "3204",
+                "3800",
+                "3802",
+                "3803",
+                "3910",
+                "3911",
+                "3912",
+                "3913",
+                "3915",
+                "3916",
+                "3918",
+                "3919",
+                "3920",
+                "3926",
+                "3927",
+                "3928",
+                "3929",
+                "3930",
+                "3931",
+                "3933",
+                "3934",
+                "3936",
+                "3937",
+                "3938",
+                "3939",
+                "3940",
+                "3941",
+                "3942",
+                "3943",
+                "3944",
+                "3975",
+                "3976",
+                "3977"
+            ]
+        },
+        "displayName": "The EV Plan",
+        "lastUpdated": "2023-08-08T05:25:34Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-08-10T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "93.81",
+                    "description": "This is a charge from your distribution company. OVO Energy will only ever pass the exact cost through to you. Site attendance - A fee (inc GST) may be charged for the re-energisation of power to the site.\nOVO Energy reserves the right to and will notify you if it changes or imposes additional fees or charges in relation to your energy supply. Please refer to ovoenergy.com.au/fees for more information."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "62.24",
+                    "description": "This is a charge from your distribution company. OVO Energy will only ever pass the exact cost through to you. Site attendance - A fee (inc GST) may be charged for disconnection when you move out of your property. Fees may vary for some customers."
+                }
+            ],
+            "terms": "OVO Energy's terms and conditions are available at www.ovoenergy.com.au/terms",
+            "isFixed": true,
+            "termType": "OTHER",
+            "timeZone": "AEST",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "category": "OTHER",
+                    "description": "The Welcome Credit is valid via OVO Energy's website, VEC and selected third party sales partners. OVO Energy will credit you $4.17 (inclusive of GST) a month as an offset against the charges on each of your monthly bills for the duration of your fixed term contract. Terms and Conditions apply.",
+                    "displayName": "Welcome Credit",
+                    "fixedAmount": {
+                        "amount": "45.4546"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "Your rates will not change during your contract, at the end of your contract, you will move to the Victorian Default Offer on a standard retail contract.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Electric Vehicle Off-Peak",
+                    "displayName": "Electric Vehicle Off-Peak",
+                    "eligibility": "$0.08/kWh usage charge between midnight and 6am. For more information head to https://www.ovoenergy.com.au/electric-vehicles/"
+                },
+                {
+                    "category": "OTHER",
+                    "description": "Interest Rewards",
+                    "displayName": "Interest Rewards",
+                    "eligibility": "OVO Energy pay 3% interest on credit balances (after all monthly charges are considered). This is prorated for the number of days since your last bill."
+                },
+                {
+                    "category": "OTHER",
+                    "description": "Tesla Giveaway",
+                    "displayName": "Tesla Giveaway",
+                    "eligibility": "Sign up between 01/07/23 - 31/08/23 to go in the draw to win a Tesla Model 3 and a $2,000 energy bill credit. Prize draw 07/09/23. Full T&Cs pages.ovoenergy.com.au/tesla-giveaway"
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer applies to residential customers with an electric vehicle and a communicating smart meter on an applicable network tariff."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "07-31",
+                    "startDate": "08-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "29.04"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Anytime"
+                    },
+                    "displayName": "All-year",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "89.40"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "OTHER"
+            ],
+            "coolingOffDays": 10,
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0495",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "100% GreenPower for 4.95 c/kWh inc. GST.",
+                    "displayName": "GreenPower 100"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "OVO Energy Retailer Feed-in-Tariff (exclusive of GST)",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "10.00"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "Premium Feed-in-Tariff (exclusive of GST)",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "Your contract will end on the 1st September 2024. On expiry of your fixed term contract, you will be placed on a standing offer unless you opt-in to another market contract before then."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/ovo-energy/cds-au/v1/energy/plans/OVO496859MR@VEC"
+    }
+}

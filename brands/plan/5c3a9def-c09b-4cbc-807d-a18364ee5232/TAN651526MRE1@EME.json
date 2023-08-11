@@ -1,0 +1,642 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "tango",
+        "planId": "TAN651526MRE1@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Tango Energy",
+        "geography": {
+            "distributors": [
+                "Ausgrid"
+            ],
+            "includedPostcodes": [
+                "2000",
+                "2007",
+                "2008",
+                "2009",
+                "2010",
+                "2011",
+                "2015",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021",
+                "2022",
+                "2023",
+                "2024",
+                "2025",
+                "2026",
+                "2027",
+                "2028",
+                "2029",
+                "2030",
+                "2031",
+                "2032",
+                "2033",
+                "2034",
+                "2035",
+                "2036",
+                "2037",
+                "2038",
+                "2039",
+                "2040",
+                "2041",
+                "2042",
+                "2043",
+                "2044",
+                "2045",
+                "2046",
+                "2047",
+                "2048",
+                "2049",
+                "2050",
+                "2060",
+                "2061",
+                "2062",
+                "2063",
+                "2064",
+                "2065",
+                "2066",
+                "2067",
+                "2068",
+                "2069",
+                "2070",
+                "2071",
+                "2072",
+                "2073",
+                "2074",
+                "2075",
+                "2076",
+                "2077",
+                "2079",
+                "2080",
+                "2081",
+                "2082",
+                "2083",
+                "2084",
+                "2085",
+                "2086",
+                "2087",
+                "2088",
+                "2089",
+                "2090",
+                "2092",
+                "2093",
+                "2094",
+                "2095",
+                "2096",
+                "2097",
+                "2099",
+                "2100",
+                "2101",
+                "2102",
+                "2103",
+                "2104",
+                "2105",
+                "2106",
+                "2107",
+                "2108",
+                "2110",
+                "2111",
+                "2112",
+                "2113",
+                "2114",
+                "2118",
+                "2119",
+                "2120",
+                "2121",
+                "2122",
+                "2125",
+                "2126",
+                "2127",
+                "2128",
+                "2130",
+                "2131",
+                "2132",
+                "2133",
+                "2134",
+                "2135",
+                "2136",
+                "2137",
+                "2138",
+                "2140",
+                "2141",
+                "2143",
+                "2144",
+                "2154",
+                "2158",
+                "2159",
+                "2162",
+                "2163",
+                "2172",
+                "2190",
+                "2191",
+                "2192",
+                "2193",
+                "2194",
+                "2195",
+                "2196",
+                "2197",
+                "2198",
+                "2199",
+                "2200",
+                "2203",
+                "2204",
+                "2205",
+                "2206",
+                "2207",
+                "2208",
+                "2209",
+                "2210",
+                "2211",
+                "2212",
+                "2213",
+                "2214",
+                "2216",
+                "2217",
+                "2218",
+                "2219",
+                "2220",
+                "2221",
+                "2222",
+                "2223",
+                "2224",
+                "2225",
+                "2226",
+                "2227",
+                "2228",
+                "2229",
+                "2230",
+                "2231",
+                "2232",
+                "2233",
+                "2234",
+                "2250",
+                "2251",
+                "2256",
+                "2257",
+                "2258",
+                "2259",
+                "2260",
+                "2261",
+                "2262",
+                "2263",
+                "2264",
+                "2265",
+                "2267",
+                "2278",
+                "2280",
+                "2281",
+                "2282",
+                "2283",
+                "2284",
+                "2285",
+                "2286",
+                "2287",
+                "2289",
+                "2290",
+                "2291",
+                "2292",
+                "2293",
+                "2294",
+                "2295",
+                "2296",
+                "2297",
+                "2298",
+                "2299",
+                "2300",
+                "2302",
+                "2303",
+                "2304",
+                "2305",
+                "2306",
+                "2307",
+                "2308",
+                "2315",
+                "2316",
+                "2317",
+                "2318",
+                "2319",
+                "2320",
+                "2321",
+                "2322",
+                "2323",
+                "2324",
+                "2325",
+                "2326",
+                "2327",
+                "2328",
+                "2329",
+                "2330",
+                "2333",
+                "2334",
+                "2335",
+                "2336",
+                "2337",
+                "2775"
+            ]
+        },
+        "displayName": "eSelect",
+        "lastUpdated": "2023-08-10T14:06:26.973Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-08-11T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "rate": "0.006",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "For payments made by MasterCard or Visa where we incur a merchant services fee. Not applicable to direct debit payments by credit card or debit card."
+                },
+                {
+                    "rate": "0.0075",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "For payments made by AMEX or any other payment where we incur a merchant services fee. Not applicable to direct debit payments by credit card or debit card."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "7.5",
+                    "description": "This fee will apply if a direct debit, credit card or cheque payment is dishonoured or reversed."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "52.349",
+                    "description": "Standard rates apply during business hours. Fees may vary and will be quoted on request. Applies to customers moving into premises with a basic meter with the power off. Does not apply to customers switching from another retailer at the same supply address."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "14.597",
+                    "description": "Standard rates apply during business hours. Fees may vary and will be quoted on request. Applies to customers moving out and disconnecting with a smart meter or a basic meter. Does not apply to customers switching to another retailer at the same supply address."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "14.597",
+                    "description": "Standard rates apply during business hours. Fees may vary and will be quoted on request. Applies to customers moving into premises with smart meter or basic meter with the power on. Does not apply to customers switching from another retailer at the same supply address."
+                }
+            ],
+            "terms": "Both electronic billing and direct debit are required. Available to customers residing in Ausgrid distribution area with an applicable network tariff. The contract is ongoing and may be terminated by you or us in accordance with the terms of our Market Agreement. Full terms and conditions applicable to this offer are available at http://tangoenergy.com/terms-and-conditions. For further information about this offer, our market terms or solar feed-in eligibility, call Tango Energy on 1800 010 648.",
+            "isFixed": false,
+            "timeZone": "AEST",
+            "variation": "Prices are variable and may be varied by notice to you. We will provide you with information about any variations to your prices in accordance with Energy Laws. A network tariff change may be required if you have a solar system installed.",
+            "meterTypes": [
+                "Type 4",
+                "Type 4a",
+                "Type 5",
+                "Type 6"
+            ],
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "05-31",
+                    "startDate": "04-01",
+                    "displayName": "Shoulder",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "name": "Off Peak",
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "24.4"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "659",
+                                    "startTime": "2200"
+                                }
+                            ],
+                            "description": "22:00 - 07:00"
+                        },
+                        {
+                            "name": "Shoulder",
+                            "type": "SHOULDER",
+                            "rates": [
+                                {
+                                    "unitPrice": "27.8"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "2159",
+                                    "startTime": "700"
+                                }
+                            ],
+                            "description": "Apr - May, 07:00 - 22:00"
+                        }
+                    ],
+                    "dailySupplyCharges": "115.00"
+                },
+                {
+                    "endDate": "08-31",
+                    "startDate": "06-01",
+                    "displayName": "Peak",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "name": "Peak",
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "52.9"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "2059",
+                                    "startTime": "1700"
+                                }
+                            ],
+                            "description": "Jun - Aug, Mon - Fri, 17:00 - 21:00"
+                        },
+                        {
+                            "name": "Off Peak",
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "24.4"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "659",
+                                    "startTime": "2200"
+                                }
+                            ],
+                            "description": "22:00 - 07:00"
+                        },
+                        {
+                            "name": "Shoulder",
+                            "type": "SHOULDER",
+                            "rates": [
+                                {
+                                    "unitPrice": "27.8"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "1659",
+                                    "startTime": "700"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "2159",
+                                    "startTime": "2100"
+                                },
+                                {
+                                    "days": [
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "2159",
+                                    "startTime": "700"
+                                }
+                            ],
+                            "description": "Jun - Aug, Mon - Fri, 07:00 - 17:00; Jun - Aug, Mon - Fri, 21:00 - 22:00; Jun - Aug, Sat - Sun, 07:00 - 22:00"
+                        }
+                    ],
+                    "dailySupplyCharges": "115.00"
+                },
+                {
+                    "endDate": "10-31",
+                    "startDate": "09-01",
+                    "displayName": "Shoulder",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "name": "Off Peak",
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "24.4"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "659",
+                                    "startTime": "2200"
+                                }
+                            ],
+                            "description": "22:00 - 07:00"
+                        },
+                        {
+                            "name": "Shoulder",
+                            "type": "SHOULDER",
+                            "rates": [
+                                {
+                                    "unitPrice": "27.8"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "2159",
+                                    "startTime": "700"
+                                }
+                            ],
+                            "description": "Sep - Oct, 07:00 - 22:00"
+                        }
+                    ],
+                    "dailySupplyCharges": "115.00"
+                },
+                {
+                    "endDate": "03-31",
+                    "startDate": "11-01",
+                    "displayName": "Peak",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "name": "Peak",
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "52.9"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "1959",
+                                    "startTime": "1400"
+                                }
+                            ],
+                            "description": "Nov - Mar, Mon - Fri, 14:00 - 20:00"
+                        },
+                        {
+                            "name": "Off Peak",
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "24.4"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "659",
+                                    "startTime": "2200"
+                                }
+                            ],
+                            "description": "22:00 - 07:00"
+                        },
+                        {
+                            "name": "Shoulder",
+                            "type": "SHOULDER",
+                            "rates": [
+                                {
+                                    "unitPrice": "27.8"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "1359",
+                                    "startTime": "700"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "2159",
+                                    "startTime": "2000"
+                                },
+                                {
+                                    "days": [
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "2159",
+                                    "startTime": "700"
+                                }
+                            ],
+                            "description": "Nov - Mar, Mon - Fri, 07:00 - 14:00; Nov - Mar, Mon - Fri, 20:00 - 22:00; Nov - Mar, Sat - Sun, 07:00 - 22:00"
+                        }
+                    ],
+                    "dailySupplyCharges": "115.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M",
+                "P3M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT"
+            ],
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "17.00"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Controlled Load",
+                    "displayName": "Controlled Load"
+                }
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Our market agreement is ongoing and may be ended by you or us in accordance with the terms of our agreement.",
+            "additionalInformation": "Usage aggregated according to Australian Eastern Standard Time (AEST). Your usage may be adjusted for local time (Australian Daylight Savings Time). Further information on our charges is available at: http://tangoenergy.com/additional-charges"
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/tango/cds-au/v1/energy/plans/TAN651526MRE1@EME"
+    }
+}

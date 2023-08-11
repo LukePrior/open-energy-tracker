@@ -346,7 +346,8 @@
             ]
         },
         "displayName": "ZEN Energy TOU + CL Standing Offer",
-        "lastUpdated": "2023-06-30T14:09:30.816Z",
+        "effectiveTo": "2024-07-01T00:00:00.000Z",
+        "lastUpdated": "2023-08-10T01:43:17.137Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2023-07-01T00:00:00.000Z",
         "electricityContract": {
@@ -354,16 +355,19 @@
                 {
                     "term": "FIXED",
                     "type": "DISCONNECT_MOVE_OUT",
+                    "amount": "19.35",
                     "description": "$19.35 (incl. GST) Standard move-out fee. This fee may apply when you move out and require a final meter read. This is a SAPN network charge, which ZEN passes through. Actual fee may vary."
                 },
                 {
                     "term": "FIXED",
                     "type": "RECONNECTION",
+                    "amount": "58.07",
                     "description": "$58.07 (incl. GST) This fee may apply when reconnecting power to your property where you have been disconnected due to non-payment. This is a SAPN network charge, which ZEN passes through. Actual fee may vary."
                 },
                 {
                     "term": "FIXED",
                     "type": "DISCONNECT_NON_PAY",
+                    "amount": "58.07",
                     "description": "$58.07 (incl.GST) This fee may be charged when disconnecting your power for non-payment. This is a SAPN network charge, which ZEN passes through. Actual fee may vary."
                 }
             ],
@@ -393,18 +397,26 @@
                             "timeOfUse": [
                                 {
                                     "days": [
-                                        "BUSINESS_DAYS",
-                                        "SATURDAY",
-                                        "SUNDAY"
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
                                     ],
                                     "endTime": "959",
                                     "startTime": "600"
                                 },
                                 {
                                     "days": [
-                                        "BUSINESS_DAYS",
-                                        "SATURDAY",
-                                        "SUNDAY"
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
                                     ],
                                     "endTime": "59",
                                     "startTime": "1500"
@@ -423,9 +435,13 @@
                             "timeOfUse": [
                                 {
                                     "days": [
-                                        "BUSINESS_DAYS",
-                                        "SATURDAY",
-                                        "SUNDAY"
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
                                     ],
                                     "endTime": "559",
                                     "startTime": "100"
@@ -444,9 +460,13 @@
                             "timeOfUse": [
                                 {
                                     "days": [
-                                        "BUSINESS_DAYS",
-                                        "SATURDAY",
-                                        "SUNDAY"
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
                                     ],
                                     "endTime": "1459",
                                     "startTime": "1000"
@@ -501,7 +521,8 @@
                     "description": "The hours of application are determined by your Distributor - Shoulder",
                     "displayName": "Shoulder Rate"
                 }
-            ]
+            ],
+            "additionalInformation": "Additional fees and charges may apply. For more information on additional fees and charges, please visit https://www.zenenergy.com.au/knowledge-base/reports-policies-manuals/"
         }
     },
     "meta": {},
