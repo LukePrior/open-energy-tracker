@@ -60,7 +60,8 @@
             ]
         },
         "displayName": "Balance Plan - Peak with Controlled Load - Third Party",
-        "lastUpdated": "2022-09-07T02:21:17Z",
+        "effectiveTo": "2022-10-11T13:00:00Z",
+        "lastUpdated": "2022-10-11T21:51:02Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-09-06T14:00:00Z",
         "electricityContract": {

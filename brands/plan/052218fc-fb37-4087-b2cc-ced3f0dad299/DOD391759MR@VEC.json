@@ -12,6 +12,8 @@
             "includedPostcodes": [
                 "3000",
                 "3008",
+                "3020",
+                "3072",
                 "3150",
                 "3152",
                 "3156",
@@ -61,13 +63,12 @@
                 "3785",
                 "3786",
                 "3802",
-                "3020",
-                "3072",
                 "3805",
                 "3936"
             ]
         },
         "displayName": "Residential Market - Multinet South",
+        "effectiveTo": "2023-02-27T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -192,7 +193,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "No Term Contracts apply in line with our Energy Market Terms and Conditions."
         },
-        "lastUpdated": "2022-06-03T04:40:55Z",
+        "lastUpdated": "2023-02-28T12:32:06Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-07T14:00:00Z"
     },

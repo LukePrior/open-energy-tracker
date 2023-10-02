@@ -1,0 +1,121 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "lumo",
+        "planId": "LU2426070MS@VEC",
+        "fuelType": "GAS",
+        "brandName": "Lumo Energy",
+        "geography": {
+            "distributors": [
+                "AusNet Services (gas)"
+            ],
+            "includedPostcodes": [
+                "3260",
+                "3284",
+                "3363",
+                "3431",
+                "3434",
+                "3435",
+                "3437",
+                "3438",
+                "3440",
+                "3442",
+                "3551"
+            ]
+        },
+        "displayName": "Lumo Value",
+        "effectiveTo": "2022-11-30T13:00:00Z",
+        "gasContract": {
+            "terms": "For full terms and conditions applicable to this offer, please visit https://www.lumoenergy.com.au/terms.",
+            "isFixed": true,
+            "termType": "OTHER",
+            "variation": "",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Fixed Rates until 31 December 2023",
+                    "displayName": "Fixed Rates until 31 December 2023",
+                    "eligibility": "Rates are fixed for the duration of the contract"
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is available to small business customers within the Ausnet Services Adjoining West distribution zone and is subject to the identification of the network tariff and metering requirements."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.617"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.587"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "2.373"
+                            },
+                            {
+                                "unitPrice": "2.25"
+                            }
+                        ],
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Off Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "92.34"
+                },
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "3.057"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "3.006"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "2.376"
+                            },
+                            {
+                                "unitPrice": "2.293"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "92.34"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Contract ends 31 December 2023. Before the end date, you will be notified that when your contract terminates we will continue to sell you energy under a Standard Retail Contract unless you enter into a new retail contract."
+        },
+        "lastUpdated": "2022-11-30T20:29:05Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-10-12T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/lumo/cds-au/v1/energy/plans/LU2426070MS@VEC"
+    }
+}

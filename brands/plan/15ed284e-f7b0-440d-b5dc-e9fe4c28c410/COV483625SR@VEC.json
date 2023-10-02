@@ -1,0 +1,112 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "covau",
+        "planId": "COV483625SR@VEC",
+        "fuelType": "GAS",
+        "brandName": "CovaU",
+        "geography": {
+            "distributors": [
+                "Australian Gas Networks"
+            ],
+            "includedPostcodes": [
+                "3636",
+                "3640",
+                "3641",
+                "3644",
+                "3646",
+                "3683",
+                "3685",
+                "3687",
+                "3730"
+            ]
+        },
+        "displayName": "CovaU Basics Residential Gas AGN",
+        "effectiveTo": "2024-06-29T14:00:00Z",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "126.50",
+                    "description": "$126.50 (inc. GST) fee may apply when your property is disconnected. This fee is passed through from your distributor and may vary.\nYou must pay us any charges your distributor imposes on us in relation to services performed by your distributor (or anyone else) at your supply address. For details on additional charges that may apply, visit www.covau.com.au/additionalfees"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "103.40",
+                    "description": "$103.40 (inc. GST) fee may apply when your property is reconnected. This fee is passed through from your distributor and may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "9.50",
+                    "description": "$9.50 (inc. GST) Direct debit dishonour payment fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CHEQUE_DISHONOUR",
+                    "amount": "9.50",
+                    "description": "$9.50 (inc. GST) Cheque dishonour payment fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "11.33",
+                    "description": "$11.33 (inc. GST) Special Meter Read fee. This fee is passed through from your distributor and may vary."
+                }
+            ],
+            "terms": "For full terms and conditions applicable to this energy offer, please visit www.covau.com.au/terms or contact CovaU on 1300 689 866.",
+            "isFixed": false,
+            "variation": "We may vary your rates in line with our Terms and Conditions at any time by written notice to you. Notice will be given at least 5 business days prior to the variation.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is available to business customers in the Australia Gas Network North zone. For more details about the eligibility criteria, please contact CovaU on 1300 689 866."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 27,
+                                "unitPrice": "4.84"
+                            },
+                            {
+                                "volume": 21,
+                                "unitPrice": "4.38"
+                            },
+                            {
+                                "unitPrice": "4.07"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "General Usage Rate"
+                    },
+                    "displayName": "General Usage Rate",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "93.00"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with our Market Retail Terms &Conditions"
+        },
+        "lastUpdated": "2023-07-10T05:28:39Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-06-30T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/covau/cds-au/v1/energy/plans/COV483625SR@VEC"
+    }
+}

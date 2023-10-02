@@ -48,6 +48,7 @@
             ]
         },
         "displayName": "Origin Advantage Variable ePlus - One Big Switch",
+        "effectiveTo": "2022-10-20T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -137,7 +138,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Ongoing contract which continues until you or we end it. The benefit period is 12 months."
         },
-        "lastUpdated": "2022-08-31T04:10:23Z",
+        "lastUpdated": "2022-10-21T01:19:12Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-31T14:00:00Z"
     },

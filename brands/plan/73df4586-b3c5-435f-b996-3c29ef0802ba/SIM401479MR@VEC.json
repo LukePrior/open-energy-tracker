@@ -57,6 +57,7 @@
             ]
         },
         "displayName": "VIC Simply VPP BYO gas",
+        "effectiveTo": "2022-11-30T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -181,7 +182,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "This contract is a 5-year fixed term contract. At the end of the contract we will write to you no later than 20 business days before the end date of the contract and discuss options available."
         },
-        "lastUpdated": "2022-06-28T06:45:23Z",
+        "lastUpdated": "2022-12-01T00:41:08Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-30T14:00:00Z"
     },

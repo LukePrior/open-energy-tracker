@@ -327,7 +327,8 @@
             ]
         },
         "displayName": "Origin Go Variable (Residential Demand)",
-        "lastUpdated": "2022-08-31T04:10:14Z",
+        "effectiveTo": "2022-11-02T13:00:00Z",
+        "lastUpdated": "2022-11-03T06:02:37Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {

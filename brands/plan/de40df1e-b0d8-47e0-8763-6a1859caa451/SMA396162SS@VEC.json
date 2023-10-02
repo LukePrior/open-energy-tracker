@@ -75,14 +75,15 @@
             ]
         },
         "displayName": "SmartestEnergy VDO - Jemena",
-        "lastUpdated": "2022-06-15T02:28:44Z",
+        "effectiveTo": "2023-07-05T14:00:00Z",
+        "lastUpdated": "2023-07-05T23:15:05Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {
             "terms": "Full terms and conditions can be accessed at www.smartestenergy.com",
             "isFixed": false,
             "timeZone": "LOCAL",
-            "variation": "We may vary these prices no more than once every 6 months. Weu2019ll publish variations via our website at least 10 business days prior and give you written notice at least 5 business days prior. Other charges may be varied with notice",
+            "variation": "We may vary these prices no more than once every 6 months. We\u2019ll publish variations via our website at least 10 business days prior and give you written notice at least 5 business days prior. Other charges may be varied with notice",
             "eligibility": [
                 {
                     "type": "OTHER",

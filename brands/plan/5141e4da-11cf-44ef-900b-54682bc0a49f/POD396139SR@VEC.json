@@ -60,7 +60,8 @@
             ]
         },
         "displayName": "Victorian Default Offer",
-        "lastUpdated": "2022-06-14T23:21:46Z",
+        "effectiveTo": "2023-02-28T13:00:00Z",
+        "lastUpdated": "2023-03-01T02:58:02Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {

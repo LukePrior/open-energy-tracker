@@ -1,0 +1,156 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "alinta",
+        "planId": "ALI476744SR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Alinta",
+        "geography": {
+            "distributors": [
+                "Multinet"
+            ],
+            "includedPostcodes": [
+                "3150",
+                "3152",
+                "3156",
+                "3158",
+                "3160",
+                "3161",
+                "3162",
+                "3163",
+                "3165",
+                "3166",
+                "3167",
+                "3168",
+                "3169",
+                "3170",
+                "3171",
+                "3172",
+                "3173",
+                "3174",
+                "3175",
+                "3177",
+                "3178",
+                "3179",
+                "3180",
+                "3182",
+                "3183",
+                "3184",
+                "3185",
+                "3186",
+                "3187",
+                "3188",
+                "3189",
+                "3190",
+                "3191",
+                "3192",
+                "3193",
+                "3194",
+                "3195",
+                "3196",
+                "3197",
+                "3202",
+                "3204",
+                "3205",
+                "3206",
+                "3207",
+                "3775",
+                "3785",
+                "3786",
+                "3802"
+            ]
+        },
+        "displayName": "Residential Standing Offer Gas - Multinet 2",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "64.16",
+                    "description": "This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee.\nWe reserve the right to and will notify you if we change or impose additional fees or charges in relation to your energy supply. Fees and charges charged by the distributor are published on the Multinet website and may change from time to time."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "54.09",
+                    "description": "Reconnection fee.This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+                }
+            ],
+            "terms": "If you would like further information or are interested in this offer please visit alintaenergy.com.au or call Alinta Energy on 133 702.",
+            "isFixed": false,
+            "variation": "Our Standing Tariffs may be varied in accordance with applicable laws and are published on our website.  If we change the tariffs, we will write to you giving you at least 5 business days notice prior to the variation.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is only available to residential customers within the Multinet distribution zone and is conditional upon you entering into a supply agreement to recieve both electricity and gas with Alinta Energy."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "10-31",
+                    "startDate": "05-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "4.00"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "3.54"
+                            },
+                            {
+                                "unitPrice": "2.77"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "70.87"
+                },
+                {
+                    "endDate": "04-30",
+                    "startDate": "11-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "3.84"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "3.38"
+                            },
+                            {
+                                "unitPrice": "2.77"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Off Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "70.87"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "This offer has no contract term."
+        },
+        "lastUpdated": "2023-06-22T06:56:10Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-07-01T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/alinta/cds-au/v1/energy/plans/ALI476744SR@VEC"
+    }
+}

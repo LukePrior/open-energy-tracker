@@ -60,7 +60,8 @@
             ]
         },
         "displayName": "VIC Citipower Business Two Rate CGTOU",
-        "lastUpdated": "2022-07-25T06:02:07Z",
+        "effectiveTo": "2022-10-23T13:00:00Z",
+        "lastUpdated": "2022-10-23T23:49:47Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-07-21T14:00:00Z",
         "electricityContract": {

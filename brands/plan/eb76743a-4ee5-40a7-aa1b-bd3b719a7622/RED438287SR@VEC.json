@@ -1,0 +1,113 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "red-energy",
+        "planId": "RED438287SR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Red Energy",
+        "geography": {
+            "distributors": [
+                "Multinet"
+            ],
+            "includedPostcodes": [
+                "3139",
+                "3775",
+                "3797",
+                "3799"
+            ]
+        },
+        "displayName": "Standing Offer",
+        "effectiveTo": "2023-01-01T13:00:00Z",
+        "gasContract": {
+            "terms": "For full terms and conditions applicable to this offer, please visit https://www.redenergy.com.au/termsandconditions",
+            "isFixed": false,
+            "variation": "We may vary our rates no more than once per 6 months. We will publish any variation in a newspaper and on our website at least 10 business days before it starts. We also notify you of the variation by no later than your next bill.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is available to residential customers within the Multinet Yarra Valley distribution zone. For more information contact 131806."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "04-30",
+                    "startDate": "11-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.784"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.654"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.465"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.365"
+                            },
+                            {
+                                "unitPrice": "2.315"
+                            }
+                        ],
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Summer",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "72.80"
+                },
+                {
+                    "endDate": "10-31",
+                    "startDate": "05-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.893"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.77"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.605"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.465"
+                            },
+                            {
+                                "unitPrice": "2.365"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Winter",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "72.80"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+        },
+        "lastUpdated": "2023-01-01T15:00:10Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-12-19T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1/energy/plans/RED438287SR@VEC"
+    }
+}

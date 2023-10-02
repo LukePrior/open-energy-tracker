@@ -346,7 +346,8 @@
             ]
         },
         "displayName": "Business Balance Plan 24 - Time of Use",
-        "lastUpdated": "2022-09-13T14:05:54.226Z",
+        "effectiveTo": "2023-03-17T00:00:00.000Z",
+        "lastUpdated": "2023-02-23T04:28:04.246Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-09-14T00:00:00.000Z",
         "electricityContract": {
@@ -419,7 +420,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "49.50"
+                                    "unitPrice": "49.502"
                                 }
                             ],
                             "timeOfUse": [
@@ -438,7 +439,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "28.73"
+                                    "unitPrice": "28.725"
                                 }
                             ],
                             "timeOfUse": [
@@ -480,7 +481,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "10"
                         }
                     ],
@@ -491,7 +492,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "25"
                         }
                     ],
@@ -502,7 +503,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "100"
                         }
                     ],

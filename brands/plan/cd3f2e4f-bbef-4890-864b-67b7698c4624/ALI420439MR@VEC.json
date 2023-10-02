@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "Sports Pack Electricity Plan - Two Period ToU + CL",
-        "lastUpdated": "2022-08-18T04:18:20Z",
+        "effectiveTo": "2023-04-20T14:00:00Z",
+        "lastUpdated": "2023-04-20T22:41:02Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {

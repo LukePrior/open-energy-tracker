@@ -211,7 +211,8 @@
             ]
         },
         "displayName": "Business Carbon Neutral Flexi Plan",
-        "lastUpdated": "2022-09-13T14:06:11.817Z",
+        "effectiveTo": "2023-03-17T00:00:00.000Z",
+        "lastUpdated": "2023-02-23T04:28:03.570Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-09-14T00:00:00.000Z",
         "electricityContract": {
@@ -282,7 +283,7 @@
                         "rates": [
                             {
                                 "volume": null,
-                                "unitPrice": "26.93"
+                                "unitPrice": "26.929"
                             }
                         ],
                         "period": "P1D",
@@ -310,7 +311,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "10"
                         }
                     ],
@@ -321,7 +322,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "25"
                         }
                     ],
@@ -332,7 +333,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "100"
                         }
                     ],

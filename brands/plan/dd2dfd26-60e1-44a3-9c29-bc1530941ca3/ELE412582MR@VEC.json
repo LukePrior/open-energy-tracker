@@ -327,7 +327,8 @@
             ]
         },
         "displayName": "VIC Powercor Residential Anytime CL D1 + DD1",
-        "lastUpdated": "2022-07-24T23:19:12Z",
+        "effectiveTo": "2022-10-23T13:00:00Z",
+        "lastUpdated": "2022-10-23T23:49:45Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-21T14:00:00Z",
         "electricityContract": {

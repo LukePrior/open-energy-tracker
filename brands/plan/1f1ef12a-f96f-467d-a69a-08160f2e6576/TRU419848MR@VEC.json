@@ -60,6 +60,7 @@
             ]
         },
         "displayName": "Solar Max - Peak with Controlled Load",
+        "effectiveTo": "2022-10-11T13:00:00Z",
         "lastUpdated": "2022-08-19T04:06:40Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-31T14:00:00Z",

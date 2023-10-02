@@ -10,8 +10,10 @@
                 "AusNet Services (gas)"
             ],
             "includedPostcodes": [
+                "3241",
                 "3260",
                 "3284",
+                "3352",
                 "3363",
                 "3364",
                 "3431",
@@ -22,14 +24,12 @@
                 "3440",
                 "3441",
                 "3442",
-                "3551",
-                "3352",
-                "3241",
-                "3467"
+                "3467",
+                "3551"
             ]
         },
         "displayName": "GloBird GAS STANDING OFFER Small Business(Adjoining West)-AusNet Services (gas)",
-        "effectiveTo": "2023-07-16T14:00:00Z",
+        "effectiveTo": "2023-07-18T14:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -75,6 +75,7 @@
                                 "unitPrice": "5.00"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Peak"
                     },
                     "displayName": "Peak Period - June to September",
@@ -94,6 +95,7 @@
                                 "unitPrice": "5.00"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Offpeak"
                     },
                     "displayName": "Offpeak Period - October to May",
@@ -110,7 +112,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discount percentage or rates."
         },
-        "lastUpdated": "2022-07-13T03:50:32Z",
+        "lastUpdated": "2023-07-18T16:00:03Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-07-17T14:00:00Z"
     },

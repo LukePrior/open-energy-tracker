@@ -1,0 +1,105 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "red-energy",
+        "planId": "RED438283SR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Red Energy",
+        "geography": {
+            "distributors": [
+                "Australian Gas Networks"
+            ],
+            "includedPostcodes": [
+                "3561",
+                "3564",
+                "3616",
+                "3618",
+                "3620",
+                "3621",
+                "3622",
+                "3623",
+                "3624",
+                "3629",
+                "3630",
+                "3631",
+                "3658",
+                "3659",
+                "3660",
+                "3662",
+                "3663",
+                "3664",
+                "3665",
+                "3666",
+                "3669",
+                "3672",
+                "3677",
+                "3678",
+                "3688",
+                "3690",
+                "3691",
+                "3694",
+                "3753",
+                "3756",
+                "3757",
+                "3758",
+                "3763",
+                "3764",
+                "3775"
+            ]
+        },
+        "displayName": "Standing Offer",
+        "effectiveTo": "2023-01-01T13:00:00Z",
+        "gasContract": {
+            "terms": "For full terms and conditions applicable to this offer, please visit https://www.redenergy.com.au/termsandconditions",
+            "isFixed": false,
+            "variation": "We may vary our rates no more than once per 6 months. We will publish any variation in a newspaper and on our website at least 10 business days before it starts. We also notify you of the variation by no later than your next bill.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is available to residential customers within the Australian Gas Network North distribution zone. For more information contact 131806."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 27,
+                                "unitPrice": "3.106"
+                            },
+                            {
+                                "volume": 21,
+                                "unitPrice": "2.93"
+                            },
+                            {
+                                "unitPrice": "2.215"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "72.80"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+        },
+        "lastUpdated": "2023-01-01T15:00:10Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-12-19T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1/energy/plans/RED438283SR@VEC"
+    }
+}

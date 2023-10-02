@@ -275,7 +275,8 @@
             ]
         },
         "displayName": "1st Saver Online, Residential - Anytime with Controlled Load",
-        "lastUpdated": "2022-09-27T04:13:55Z",
+        "effectiveTo": "2023-06-29T14:00:00Z",
+        "lastUpdated": "2023-06-30T11:19:20Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-09-27T14:00:00Z",
         "electricityContract": {
@@ -330,6 +331,7 @@
                                 "unitPrice": "27.80"
                             }
                         ],
+                        "period": "P1D",
                         "description": "Anytime",
                         "displayName": "Anytime"
                     },

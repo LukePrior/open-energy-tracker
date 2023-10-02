@@ -1,0 +1,133 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "next-business",
+        "planId": "NEX578485SBE1@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Next Business Energy",
+        "geography": {
+            "distributors": [
+                "Evoenergy"
+            ],
+            "includedPostcodes": [
+                "2600",
+                "2601",
+                "2602",
+                "2603",
+                "2604",
+                "2605",
+                "2606",
+                "2607",
+                "2609",
+                "2611",
+                "2612",
+                "2614",
+                "2615",
+                "2617",
+                "2618",
+                "2620",
+                "2900",
+                "2902",
+                "2903",
+                "2904",
+                "2905",
+                "2906",
+                "2911",
+                "2912",
+                "2913",
+                "2914"
+            ]
+        },
+        "displayName": "NBE Standing ACT ACTEWP Anytime + CL (040060)",
+        "lastUpdated": "2023-06-15T01:20:50.198Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2023-06-15T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "description": "This charge may vary, to confirm this charge and all other charges please refer to our website or contact us for details."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "This charge may vary, to confirm this charge and all other charges please refer to our website or contact us for details."
+                }
+            ],
+            "terms": "Pricing applies from 01/07/2023. This offer is only available to small customers where Next Business Energy is currently financially responsible for the premise. The sale of electricity to the Customer is subject to Next Business Energy's Standing Terms and Conditions, which are available on its website at www.nextbusinessenergy.com.au.",
+            "isFixed": false,
+            "variation": "Next Business Energy may vary the rates in accordance with applicable Energy Laws.",
+            "meterTypes": [
+                "Type 4",
+                "Type 4a",
+                "Type 5",
+                "Type 6"
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 330,
+                                "unitPrice": "34.25"
+                            },
+                            {
+                                "volume": null,
+                                "unitPrice": "34.25"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "Any time",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Single Rate Tariff Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "110.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M",
+                "P3M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY"
+            ],
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "17.00"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Controlled Load",
+                    "displayName": "Controlled Load"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "RFIT | All kWh/day",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "7.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "This Standing Offer Contract continues until you change to another electricity supplier or accept an offer from Next Business Energy."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/next-business/cds-au/v1/energy/plans/NEX578485SBE1@EME"
+    }
+}

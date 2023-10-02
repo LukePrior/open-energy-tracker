@@ -1,0 +1,111 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "lumo",
+        "planId": "LU2426087MR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Lumo Energy",
+        "geography": {
+            "distributors": [
+                "Australian Gas Networks"
+            ],
+            "includedPostcodes": [
+                "3636",
+                "3638",
+                "3640",
+                "3641",
+                "3644",
+                "3646",
+                "3685",
+                "3687",
+                "3730"
+            ]
+        },
+        "displayName": "Lumo Value",
+        "effectiveTo": "2022-11-30T13:00:00Z",
+        "gasContract": {
+            "terms": "For full terms and conditions applicable to this offer, please visit https://www.lumoenergy.com.au/terms",
+            "isFixed": true,
+            "termType": "OTHER",
+            "variation": "",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Fixed Rates until 31 December 2023",
+                    "displayName": "Fixed Rates until 31 December 2023",
+                    "eligibility": "Rates are fixed for the duration of the contract"
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is available to residential customers within the Australian Gas Network Murray distribution zone and is subject to the identification of the network tariff and metering requirements."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 27,
+                                "unitPrice": "3.137"
+                            },
+                            {
+                                "volume": 21,
+                                "unitPrice": "2.739"
+                            },
+                            {
+                                "unitPrice": "2.474"
+                            }
+                        ],
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Off Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "73.75"
+                },
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 27,
+                                "unitPrice": "3.137"
+                            },
+                            {
+                                "volume": 21,
+                                "unitPrice": "2.739"
+                            },
+                            {
+                                "unitPrice": "2.474"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "73.75"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Contract ends 31 December 2023. Before the end date, you will be notified that when your contract terminates we will continue to sell you energy under a Standard Retail Contract unless you enter into a new retail contract."
+        },
+        "lastUpdated": "2022-11-30T20:29:07Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-10-12T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/lumo/cds-au/v1/energy/plans/LU2426087MR@VEC"
+    }
+}

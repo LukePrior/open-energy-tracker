@@ -57,6 +57,7 @@
             ]
         },
         "displayName": "VIC Simply New VPP gas",
+        "effectiveTo": "2022-11-30T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -181,7 +182,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Ongoing energy plan until you or we end it. We may end this energy plan at any time by giving you 20 Business Days notice."
         },
-        "lastUpdated": "2022-06-28T06:45:23Z",
+        "lastUpdated": "2022-12-01T00:41:06Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-30T14:00:00Z"
     },

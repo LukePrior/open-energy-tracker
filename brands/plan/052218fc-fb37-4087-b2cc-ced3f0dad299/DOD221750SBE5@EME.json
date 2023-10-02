@@ -1,0 +1,366 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "dodo",
+        "planId": "DOD221750SBE5@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Dodo Power & Gas",
+        "geography": {
+            "distributors": [
+                "Endeavour"
+            ],
+            "includedPostcodes": [
+                "2113",
+                "2114",
+                "2115",
+                "2116",
+                "2117",
+                "2118",
+                "2119",
+                "2120",
+                "2121",
+                "2122",
+                "2125",
+                "2126",
+                "2142",
+                "2145",
+                "2146",
+                "2147",
+                "2148",
+                "2150",
+                "2151",
+                "2152",
+                "2153",
+                "2154",
+                "2155",
+                "2156",
+                "2157",
+                "2158",
+                "2159",
+                "2160",
+                "2161",
+                "2162",
+                "2163",
+                "2164",
+                "2165",
+                "2166",
+                "2167",
+                "2168",
+                "2170",
+                "2171",
+                "2172",
+                "2173",
+                "2174",
+                "2175",
+                "2176",
+                "2177",
+                "2178",
+                "2179",
+                "2198",
+                "2200",
+                "2213",
+                "2214",
+                "2233",
+                "2250",
+                "2257",
+                "2283",
+                "2304",
+                "2323",
+                "2325",
+                "2328",
+                "2329",
+                "2330",
+                "2500",
+                "2502",
+                "2505",
+                "2506",
+                "2508",
+                "2515",
+                "2516",
+                "2517",
+                "2518",
+                "2519",
+                "2525",
+                "2526",
+                "2527",
+                "2528",
+                "2529",
+                "2530",
+                "2533",
+                "2534",
+                "2535",
+                "2536",
+                "2537",
+                "2538",
+                "2539",
+                "2540",
+                "2541",
+                "2555",
+                "2556",
+                "2557",
+                "2558",
+                "2559",
+                "2560",
+                "2563",
+                "2564",
+                "2565",
+                "2566",
+                "2567",
+                "2568",
+                "2569",
+                "2570",
+                "2571",
+                "2572",
+                "2573",
+                "2574",
+                "2575",
+                "2576",
+                "2577",
+                "2578",
+                "2579",
+                "2580",
+                "2622",
+                "2745",
+                "2747",
+                "2748",
+                "2749",
+                "2750",
+                "2751",
+                "2752",
+                "2753",
+                "2754",
+                "2756",
+                "2757",
+                "2758",
+                "2759",
+                "2760",
+                "2761",
+                "2762",
+                "2763",
+                "2765",
+                "2766",
+                "2767",
+                "2768",
+                "2769",
+                "2770",
+                "2773",
+                "2774",
+                "2775",
+                "2776",
+                "2777",
+                "2778",
+                "2779",
+                "2780",
+                "2782",
+                "2783",
+                "2784",
+                "2785",
+                "2786",
+                "2787",
+                "2790",
+                "2795",
+                "2800",
+                "2845",
+                "2846",
+                "2847",
+                "2848",
+                "2849",
+                "2850"
+            ]
+        },
+        "displayName": "Business Standing",
+        "lastUpdated": "2023-06-30T14:11:16.297Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2023-07-01T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "description": "Dishonoured Payment fee of $9.50 (inc GST) may apply to payments we attempt that are subsequently declined."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "A $66.00 (inc GST) fee may apply each time we request to energise a property, or if you require a meter reading for any purpose."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "description": "A $66.00 (inc GST) fee may apply each time we request to de-energise a property, or if you require a meter reading for any purpose."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "description": "A $88.00 (inc GST) fee may apply each time you request a reconnection after disconnection for non-payment."
+                }
+            ],
+            "terms": "See our Standing terms and conditions at www.dodo.com/energy/terms-prices-and-regulatory-information.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "We may vary these prices no more than once every 6 months, and provide you notice of any changes at least 5 business days before the change is effective. We will publish variations on our website and in a newspaper at least 10 business days prior.",
+            "meterTypes": [
+                "Type 4",
+                "Type 4a",
+                "Type 5",
+                "Type 6"
+            ],
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "Time of Use Tariff Period",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "name": "Peak",
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "40.4741"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MONDAY",
+                                        "TUESDAY",
+                                        "WEDNESDAY",
+                                        "THURSDAY",
+                                        "FRIDAY"
+                                    ],
+                                    "endTime": "1959",
+                                    "startTime": "1300"
+                                }
+                            ],
+                            "description": "1pm to 8pm AEST business days"
+                        },
+                        {
+                            "name": "Off Peak",
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "33.6126"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MONDAY",
+                                        "TUESDAY",
+                                        "WEDNESDAY",
+                                        "THURSDAY",
+                                        "FRIDAY",
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "659",
+                                    "startTime": "2200"
+                                }
+                            ],
+                            "description": "All other times"
+                        },
+                        {
+                            "name": "Shoulder",
+                            "type": "SHOULDER",
+                            "rates": [
+                                {
+                                    "unitPrice": "34.2793"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MONDAY",
+                                        "TUESDAY",
+                                        "WEDNESDAY",
+                                        "THURSDAY",
+                                        "FRIDAY",
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "1259",
+                                    "startTime": "700"
+                                },
+                                {
+                                    "days": [
+                                        "MONDAY",
+                                        "TUESDAY",
+                                        "WEDNESDAY",
+                                        "THURSDAY",
+                                        "FRIDAY",
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "2159",
+                                    "startTime": "2000"
+                                },
+                                {
+                                    "days": [
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "1959",
+                                    "startTime": "1300"
+                                }
+                            ],
+                            "description": "7am to 1pm and 8pm to 10pm AEST business days"
+                        }
+                    ],
+                    "dailySupplyCharges": "269.14"
+                }
+            ],
+            "billFrequency": [
+                "P3M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY",
+                "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "24.39"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "6 hours usually between 10pm and 7am",
+                    "displayName": "Controlled Load 1"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "26.53"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Usually for a 16 hour period daily, including at least 6 hours between 8pm - 7am and at least 4 hours between 7am - 5pm",
+                    "displayName": "Controlled Load 2"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Retailer Feed-in Tariff (net & gross) - This plan is available to eligible small solar customers with a maximum 10kW panel size and an inverter system no greater than 10kW as part of an ongoing contract.",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "6.2"
+                    }
+                }
+            ],
+            "onExpiryDescription": "Standing contracts do not expire until you notify us in accordance with our Standing Contract Terms and Conditions."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/dodo/cds-au/v1/energy/plans/DOD221750SBE5@EME"
+    }
+}

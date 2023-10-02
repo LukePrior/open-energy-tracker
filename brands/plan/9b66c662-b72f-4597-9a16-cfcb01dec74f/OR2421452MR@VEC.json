@@ -327,7 +327,8 @@
             ]
         },
         "displayName": "Origin Home Assist Variable (2 Period TOU with Dedicated Circuit)",
-        "lastUpdated": "2022-08-31T04:10:20Z",
+        "effectiveTo": "2022-10-19T13:00:00Z",
+        "lastUpdated": "2022-10-20T00:17:51Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {

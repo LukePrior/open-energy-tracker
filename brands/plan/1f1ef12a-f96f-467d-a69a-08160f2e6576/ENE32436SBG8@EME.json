@@ -365,27 +365,27 @@
                         "rates": [
                             {
                                 "volume": 20.712,
-                                "unitPrice": "4.21"
+                                "unitPrice": "4.2103"
                             },
                             {
                                 "volume": 20.384,
-                                "unitPrice": "2.99"
+                                "unitPrice": "2.9909"
                             },
                             {
                                 "volume": 49.315,
-                                "unitPrice": "2.85"
+                                "unitPrice": "2.8463"
                             },
                             {
                                 "volume": 2654.79399,
-                                "unitPrice": "2.71"
+                                "unitPrice": "2.7122"
                             },
                             {
                                 "volume": 10964.38401,
-                                "unitPrice": "2.49"
+                                "unitPrice": "2.4937"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "2.40"
+                                "unitPrice": "2.3997"
                             }
                         ],
                         "period": "P1D",

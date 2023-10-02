@@ -39,7 +39,8 @@
             ]
         },
         "displayName": "ReAmped Business | Anytime",
-        "lastUpdated": "2022-06-22T14:07:17.169Z",
+        "effectiveTo": "2030-08-01T00:00:00.000Z",
+        "lastUpdated": "2023-07-19T01:38:57.515Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-06-23T00:00:00.000Z",
         "electricityContract": {
@@ -160,7 +161,8 @@
                         "amount": "0.00"
                     }
                 }
-            ]
+            ],
+            "additionalInformation": "Your distributor may impose fees on us in relation to services performed by your distributor (or anyone else) at your supply address. These costs will be passed on to you. For details on additional charges that may apply see www.reampedenergy.com.au/fees"
         }
     },
     "meta": {},

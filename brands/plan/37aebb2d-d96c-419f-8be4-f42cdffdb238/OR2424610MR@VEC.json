@@ -60,7 +60,8 @@
             ]
         },
         "displayName": "Origin Go (Single Rate with Dedicated Circuit)",
-        "lastUpdated": "2022-09-30T00:52:07Z",
+        "effectiveTo": "2022-11-01T13:00:00Z",
+        "lastUpdated": "2022-11-01T23:26:57Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-10-03T13:00:00Z",
         "electricityContract": {

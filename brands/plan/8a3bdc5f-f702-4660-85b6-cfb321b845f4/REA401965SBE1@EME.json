@@ -39,7 +39,8 @@
             ]
         },
         "displayName": "ReAmped Standard Business | Anytime & CL1 & CL2",
-        "lastUpdated": "2022-06-30T14:08:12.299Z",
+        "effectiveTo": "2030-12-31T00:00:00.000Z",
+        "lastUpdated": "2023-06-23T01:50:26.300Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-07-01T00:00:00.000Z",
         "electricityContract": {
@@ -91,17 +92,30 @@
                 "DIRECT_DEBIT",
                 "CREDIT_CARD"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "18.00"
-                    }
-                ],
-                "period": "P1Y",
-                "dailyCharge": "0.00",
-                "description": "Separately metered usage. The hours of application are determined by your Distributor.",
-                "displayName": "Controlled Load 1"
-            }
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "18.00"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                    "displayName": "Controlled Load 1"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "18.00"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                    "displayName": "Controlled Load 2"
+                }
+            ]
         }
     },
     "meta": {},

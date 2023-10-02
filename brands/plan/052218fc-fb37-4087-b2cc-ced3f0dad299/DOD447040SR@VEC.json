@@ -1,0 +1,249 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "dodo",
+        "planId": "DOD447040SR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Dodo",
+        "geography": {
+            "distributors": [
+                "Multinet"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3006",
+                "3008",
+                "3020",
+                "3072",
+                "3097",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3105",
+                "3106",
+                "3107",
+                "3108",
+                "3109",
+                "3111",
+                "3113",
+                "3114",
+                "3115",
+                "3116",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3128",
+                "3129",
+                "3130",
+                "3131",
+                "3132",
+                "3133",
+                "3134",
+                "3135",
+                "3136",
+                "3137",
+                "3138",
+                "3140",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3145",
+                "3146",
+                "3147",
+                "3148",
+                "3149",
+                "3150",
+                "3151",
+                "3152",
+                "3153",
+                "3154",
+                "3155",
+                "3156",
+                "3158",
+                "3159",
+                "3160",
+                "3161",
+                "3162",
+                "3163",
+                "3165",
+                "3166",
+                "3167",
+                "3168",
+                "3169",
+                "3170",
+                "3171",
+                "3172",
+                "3173",
+                "3174",
+                "3175",
+                "3177",
+                "3178",
+                "3179",
+                "3180",
+                "3181",
+                "3182",
+                "3183",
+                "3184",
+                "3185",
+                "3186",
+                "3187",
+                "3188",
+                "3189",
+                "3190",
+                "3191",
+                "3192",
+                "3193",
+                "3194",
+                "3195",
+                "3196",
+                "3197",
+                "3201",
+                "3202",
+                "3204",
+                "3205",
+                "3206",
+                "3207",
+                "3765",
+                "3766",
+                "3767",
+                "3770",
+                "3781",
+                "3782",
+                "3783",
+                "3785",
+                "3786",
+                "3787",
+                "3788",
+                "3789",
+                "3791",
+                "3792",
+                "3793",
+                "3795",
+                "3796",
+                "3802",
+                "3804",
+                "3805",
+                "3936"
+            ]
+        },
+        "displayName": "Residential Standing - Multinet South",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "19.00",
+                    "description": "A reconnection fee may apply each time we request to energise  a property, or if you require a meter reading for any purpose\nOther charges that may be applicable are specified in the Additional Retail Charges schedule which can be viewed on our website at www.dodo.com/energy/terms-prices-and-regulatory-information."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "19.00",
+                    "description": "A disconnection fee may apply each time we request to  de-energise a property, or if you require a meter reading for any purpose"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "9.50",
+                    "description": "A dishonoured payment fee may apply to payments we attempt that are subsequently declined."
+                }
+            ],
+            "terms": "Standing offer or Standard Retail contracts are electricity or gas contracts with terms and conditions that are prescribed by law and designed to protect your rights.  Standard Retail contracts start without you have to sign a document agreeing to terms and conditions.  See our Standard Retail terms and conditions at www.dodo.com/energy/terms-prices-and-regulatory-information.",
+            "isFixed": false,
+            "variation": "We may vary these prices no more than once every 6 months, and provide you notice of any changes at least 5 business days before the change is effective. We will publish variations on our website and in a newspaper at least 10 business days prior.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "The details presented in this Price Fact Sheet are for a Residential customer located in the Multinet gas distribution zone where Dodo Power and Gas is the designated retailer, and we are already responsible for the gas supplied to the premise."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "4.0792"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "3.5109"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.9409"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.8004"
+                            },
+                            {
+                                "unitPrice": "2.7294"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "84.416"
+                },
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "3.837"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "3.3473"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.863"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.7592"
+                            },
+                            {
+                                "unitPrice": "2.7013"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Off Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "84.416"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Standard contracts do not expire"
+        },
+        "lastUpdated": "2023-02-27T05:41:14Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-04-02T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/dodo/cds-au/v1/energy/plans/DOD447040SR@VEC"
+    }
+}

@@ -1,0 +1,171 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "reamped",
+        "planId": "REA391899MRE3@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "ReAmped Energy",
+        "geography": {
+            "distributors": [
+                "Essential Energy Far West"
+            ],
+            "includedPostcodes": [
+                "2648",
+                "2715",
+                "2717",
+                "2732",
+                "2733",
+                "2735",
+                "2736",
+                "2737",
+                "2738",
+                "2739",
+                "2790",
+                "2817",
+                "2818",
+                "2822",
+                "2826",
+                "2836",
+                "2838",
+                "2878",
+                "2879",
+                "2880"
+            ]
+        },
+        "displayName": "ReAmped Handshake | Anytime & CL1 & CL2",
+        "lastUpdated": "2023-07-31T14:09:01.592Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-08-01T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECT_MOVE_OUT",
+                    "description": "Standard Move Out-Read Fee. Includes GST. Actual charges may vary. See www.reampedenergy.com.au/fees for more information."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "Standard Move In-Read Fee. Includes GST. Actual charges may vary. See www.reampedenergy.com.au/fees for more information."
+                },
+                {
+                    "rate": "1",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A fee of 1% applies to payments made by credit or debit card."
+                }
+            ],
+            "terms": "Customers agree to a non-binding 1 year commitment and will be billed monthly. See\ufffdwww.reampedenergy.com.au\ufffdfor full terms and conditions. Available only with e-billing and direct debit.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "We may vary the Charges (including their amount, nature and structure) by notice to you at any time. If we vary your plan, rates or our retail fees and charges, we will give you at least 5 business days prior notice of the variation",
+            "meterTypes": [
+                "Type 4",
+                "Type 5",
+                "Type 6"
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": null,
+                                "unitPrice": "38.61"
+                            }
+                        ],
+                        "period": "P1Y",
+                        "displayName": "Single Rate Block"
+                    },
+                    "displayName": "Usage Charges",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "141.21"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "CREDIT_CARD"
+            ],
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "20.40"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                    "displayName": "Controlled Load 1"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "20.40"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                    "displayName": "Controlled Load 2"
+                }
+            ],
+            "coolingOffDays": "10",
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.01",
+                            "percentGreen": "25"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "25% GreenPower for 1 c/kWh (inc. GST)."
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.02",
+                            "percentGreen": "50"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "50% GreenPower for 2 c/kWh (inc. GST)."
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.03",
+                            "percentGreen": "75"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "75% GreenPower for 3 c/kWh (inc. GST)."
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.04",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "100% GreenPower for 4 c/kWh (inc. GST)."
+                }
+            ]
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/reamped/cds-au/v1/energy/plans/REA391899MRE3@EME"
+    }
+}

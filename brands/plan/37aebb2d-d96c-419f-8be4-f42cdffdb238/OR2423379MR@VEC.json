@@ -60,7 +60,8 @@
             ]
         },
         "displayName": "Origin Home Support (2 Period TOU with Dedicated Circuit)",
-        "lastUpdated": "2022-09-21T03:06:27Z",
+        "effectiveTo": "2022-10-19T13:00:00Z",
+        "lastUpdated": "2022-10-20T00:26:42Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-09-25T14:00:00Z",
         "electricityContract": {

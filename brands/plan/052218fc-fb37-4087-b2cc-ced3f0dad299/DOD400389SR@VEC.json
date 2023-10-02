@@ -327,7 +327,8 @@
             ]
         },
         "displayName": "Residential Standing - Single Rate",
-        "lastUpdated": "2022-06-23T02:54:36Z",
+        "effectiveTo": "2023-06-29T14:00:00Z",
+        "lastUpdated": "2023-06-30T10:07:13Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {
@@ -372,6 +373,7 @@
                                 "unitPrice": "21.209"
                             }
                         ],
+                        "period": "P1D",
                         "description": "for the personal use of the residents of the premises, all day, everyday",
                         "displayName": "Anytime"
                     },

@@ -15,6 +15,7 @@
             ]
         },
         "displayName": "Standing Offer, Residential",
+        "effectiveTo": "2022-12-31T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -74,7 +75,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Your contract continues until terminated by you or us in accordance with our terms and conditions."
         },
-        "lastUpdated": "2021-12-14T22:39:26Z",
+        "lastUpdated": "2023-01-01T02:43:52Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2021-12-31T13:00:00Z"
     },

@@ -60,6 +60,7 @@
             ]
         },
         "displayName": "Qantas Red Saver (Bundled)",
+        "effectiveTo": "2022-11-30T13:00:00Z",
         "gasContract": {
             "terms": "For full terms and conditions applicable to this offer, please visit https://www.redenergy.com.au/terms",
             "isFixed": false,
@@ -152,7 +153,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
         },
-        "lastUpdated": "2022-03-21T22:22:24Z",
+        "lastUpdated": "2022-11-30T20:20:14Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-03-30T13:00:00Z"
     },

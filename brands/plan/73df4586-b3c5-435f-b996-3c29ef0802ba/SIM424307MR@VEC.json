@@ -38,6 +38,7 @@
             ]
         },
         "displayName": "VIC - Simply Energy Solar gas",
+        "effectiveTo": "2023-01-03T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -174,7 +175,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Additional fees may apply. For information please contact us on 13 88 08."
         },
-        "lastUpdated": "2022-09-14T03:40:26Z",
+        "lastUpdated": "2023-01-03T13:38:15Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-09-15T14:00:00Z"
     },

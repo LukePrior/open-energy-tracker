@@ -1,0 +1,251 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "alinta",
+        "planId": "ALI476872MS@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Alinta",
+        "geography": {
+            "distributors": [
+                "Jemena"
+            ],
+            "includedPostcodes": [
+                "3011",
+                "3012",
+                "3013",
+                "3015",
+                "3016",
+                "3019",
+                "3020",
+                "3023",
+                "3025",
+                "3031",
+                "3032",
+                "3033",
+                "3034",
+                "3036",
+                "3037",
+                "3038",
+                "3039",
+                "3040",
+                "3041",
+                "3042",
+                "3043",
+                "3044",
+                "3045",
+                "3046",
+                "3047",
+                "3048",
+                "3049",
+                "3051",
+                "3052",
+                "3058",
+                "3059",
+                "3060",
+                "3061",
+                "3062",
+                "3063",
+                "3064",
+                "3068",
+                "3070",
+                "3072",
+                "3073",
+                "3074",
+                "3076",
+                "3078",
+                "3079",
+                "3081",
+                "3083",
+                "3084",
+                "3085",
+                "3086",
+                "3087",
+                "3335",
+                "3336",
+                "3337",
+                "3340",
+                "3427",
+                "3428",
+                "3429",
+                "3430",
+                "3431",
+                "3437",
+                "3750",
+                "3753"
+            ]
+        },
+        "displayName": "BusinessDeal Qantas - Demand TOU 5D Medium Opt Out + CL",
+        "lastUpdated": "2023-06-22T06:56:18Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2023-06-30T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "88.25",
+                    "description": "Disconnection - On site. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee.\nWe reserve the right to and will notify you if we change or impose additional fees or charges in relation to your energy supply."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "0.00",
+                    "description": "Disconnection - Remote. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "61.55",
+                    "description": "Reconnection - On site. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "0.00",
+                    "description": "Reconnection - Remote. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+                }
+            ],
+            "terms": "This plan is only available to small business customers (excluding SOHO customers) signing up a new or existing supply address in Victoria. Eligibility criteria applies. Full terms and conditions available at alintaenergy.com.au/qbrbusinessdeal or by calling 13 39 08.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "Tariffs and charges may only be increased one month after your distribution network costs are finalised, but may be decreased at any time. We will give you at least 5 business days notice prior to any variation or in accordance with applicable laws.",
+            "incentives": [
+                {
+                    "category": "GIFT",
+                    "description": "QANTAS Points",
+                    "displayName": "QANTAS Points",
+                    "eligibility": "Customers get the following Qantas Points (QPs) after 90 days: 20,000 QPs. Ongoing: 3 QPs per $1 of every fully paid bill. Full T&Cs: alintaenergy.com.au/qbrbusinessdeal and qantas.com/qbr/terms\u00a0"
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Offer only available to small business customers (excluding SOHO customers) signing up a new or existing supply address who have a Qantas Business Rewards membership, an active ABN, and an applicable network tariff. Refer to DELWP website at energy.vic.gov.au for Solar Feed-In Tariff scheme and eligibility. Creditworthiness eligibility applies."
+                }
+            ],
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "Period",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "45.07"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "2300",
+                                    "startTime": "0700"
+                                }
+                            ],
+                            "displayName": "Peak"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "33.02"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "0700",
+                                    "startTime": "0000"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "2300"
+                                },
+                                {
+                                    "days": [
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "0000"
+                                }
+                            ],
+                            "displayName": "Off Peak"
+                        }
+                    ],
+                    "dailySupplyCharges": "260.44"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "23.99"
+                            }
+                        ],
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Controlled Load",
+                    "rateBlockUType": "singleRate"
+                }
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Current FIT",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "4.90"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "PFIT",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "This offer has no contract term."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/alinta/cds-au/v1/energy/plans/ALI476872MS@VEC"
+    }
+}

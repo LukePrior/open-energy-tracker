@@ -1,0 +1,117 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "tas-gas",
+        "planId": "TAS455363SS@VEC",
+        "fuelType": "GAS",
+        "brandName": "Tas Gas",
+        "geography": {
+            "distributors": [
+                "Gas Networks Victoria"
+            ],
+            "includedPostcodes": [
+                "3264",
+                "3463",
+                "3515",
+                "3523",
+                "3549",
+                "3579",
+                "3585",
+                "3638",
+                "3888",
+                "3909"
+            ]
+        },
+        "displayName": "Commercial Standard Retail offer Jan 2023",
+        "effectiveTo": "2023-07-18T14:00:00Z",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "2400.00",
+                    "description": "* Standard new meter connection fee\nStandard Connection Fee of $2,400 (inc GST) will apply for a standard New Meter installations where a connection is up to 20m from the mains. Connections over 20 meters will be priced upon application:"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "275.00",
+                    "description": "Disconnection (After Hours)"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "110.00",
+                    "description": "Reconnection (Business Hours)"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "275.00",
+                    "description": "Reconnection (After Hours)"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "110.00",
+                    "description": "Technician Attendance Fee, Special Meter Read (Business Hours)"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "275.00",
+                    "description": "Technician Attendance Fee, Special Meter Read (After Hours)"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "0.00",
+                    "description": "Disconnection fees (Business Hours) are waived"
+                }
+            ],
+            "terms": "Full terms and conditions can be obtained from www.tasgas.com.au/vic or by contacting our Customer\nService Team on 1800 750 750.",
+            "isFixed": true,
+            "variation": "",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Available to commercial customers with a supply address in Victoria in the Gas Networks Victoria\ndistribution area. The following towns are eligible for this offer: 3579, 3549, 3585, 3638, 3888, 3909, 3463,\n3523, 3515, 3352 and 3264."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "5.76"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Consumption Tariff"
+                    },
+                    "displayName": "Daily Supply Charge",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "140.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "The agreement continues until terminated by you or us"
+        },
+        "lastUpdated": "2023-07-18T23:55:56Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-12-31T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/tas-gas/cds-au/v1/energy/plans/TAS455363SS@VEC"
+    }
+}

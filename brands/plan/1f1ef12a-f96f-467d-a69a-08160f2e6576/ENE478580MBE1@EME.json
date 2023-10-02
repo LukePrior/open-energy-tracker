@@ -169,7 +169,8 @@
             ]
         },
         "displayName": "Business Carbon Neutral Flexi Plan",
-        "lastUpdated": "2022-09-13T14:05:53.204Z",
+        "effectiveTo": "2023-03-17T00:00:00.000Z",
+        "lastUpdated": "2023-02-23T04:27:56.656Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-09-14T00:00:00.000Z",
         "electricityContract": {
@@ -240,7 +241,7 @@
                         "rates": [
                             {
                                 "volume": null,
-                                "unitPrice": "30.35"
+                                "unitPrice": "30.348"
                             }
                         ],
                         "period": "P1D",
@@ -262,24 +263,26 @@
                 "BPAY",
                 "CREDIT_CARD"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "17.09"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "0.00",
-                "description": "Separately metered usage. The hours of application are determined by your Distributor.",
-                "displayName": "Controlled Load 1"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "17.09"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                    "displayName": "Controlled Load 1"
+                }
+            ],
             "coolingOffDays": "10",
             "greenPowerCharges": [
                 {
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "10"
                         }
                     ],
@@ -290,7 +293,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "25"
                         }
                     ],
@@ -301,7 +304,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "100"
                         }
                     ],

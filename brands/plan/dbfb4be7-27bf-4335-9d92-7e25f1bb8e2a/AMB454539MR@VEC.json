@@ -1,0 +1,214 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "amber",
+        "planId": "AMB454539MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Amber Electric",
+        "geography": {
+            "distributors": [
+                "Jemena"
+            ],
+            "includedPostcodes": [
+                "3011",
+                "3012",
+                "3013",
+                "3015",
+                "3016",
+                "3019",
+                "3020",
+                "3023",
+                "3025",
+                "3031",
+                "3032",
+                "3033",
+                "3034",
+                "3036",
+                "3037",
+                "3038",
+                "3039",
+                "3040",
+                "3041",
+                "3042",
+                "3043",
+                "3044",
+                "3045",
+                "3046",
+                "3047",
+                "3048",
+                "3049",
+                "3051",
+                "3052",
+                "3058",
+                "3059",
+                "3060",
+                "3061",
+                "3062",
+                "3063",
+                "3064",
+                "3068",
+                "3070",
+                "3072",
+                "3073",
+                "3074",
+                "3076",
+                "3078",
+                "3079",
+                "3081",
+                "3083",
+                "3084",
+                "3085",
+                "3086",
+                "3087",
+                "3335",
+                "3336",
+                "3337",
+                "3340",
+                "3427",
+                "3428",
+                "3429",
+                "3430",
+                "3431",
+                "3437",
+                "3750",
+                "3753"
+            ]
+        },
+        "displayName": "Variable Wholesale Prices Plus CBA Welcome only (estimate only, based on last 4 months of data)",
+        "effectiveTo": "2023-05-02T14:00:00Z",
+        "lastUpdated": "2023-05-02T22:18:44Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-04-03T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "MEMBERSHIP",
+                    "amount": "180.00",
+                    "description": "Membership of $15 per month (inc. GST) to access these wholesale rates."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "56.727",
+                    "description": "Standard Connection Fee. Actual charges passed through from your distributor may vary, see www.amber.com.au/fees for more information"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "81.345",
+                    "description": "Standard Disconnection Fee. Actual charges passed through from your distributor may vary, see www.amber.com.au/fees for more information"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "11.00",
+                    "description": "An $11 (inc. GST) fee applies if payment is dishonoured or reversed."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "amount": "16.00",
+                    "description": "A $16 (inc. GST) fee applies if full payment has not been received by the invoice due date"
+                },
+                {
+                    "rate": "1",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A fee of 1% applies to payments made by credit or debit card"
+                }
+            ],
+            "terms": "This is not a fixed price plan. We charge the same wholesale prices charged to us, which change every 30 minutes. Our bill guarantee sets the maximum average rates we charge over a 12 month period. For General usage this is 24.98c/kWh for the first 21.92kWh per day, and 32.68c/kWh beyond that. Full terms and conditions at https://www.amber.com.au/terms.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "discounts": [
+                {
+                    "type": "CONDITIONAL",
+                    "category": "OTHER",
+                    "description": "Monthly subscription fee of $15 waived for the first 6 months. Offer available to new residential customers who are also customers of Commonwealth Bank of Australia (CBA) and link their CBA credit card or bank account as Amber account payment method. Customers are not eligible to receive any remaining subscription free months if they cancel their Amber account, switch their payment method to a non-CBA account, or their CBA card expires",
+                    "displayName": "Variable Wholesale Prices Plus CBA $90 Welcome only",
+                    "fixedAmount": {
+                        "amount": "81.818"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "This is not a fixed price plan. We charge the same wholesale prices charged to us, with prices changing every 30 minutes. The usage price here is an estimate based on an average of the last 4 months of wholesale prices. Visit www.amber.com.au/how-it-works",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Conditional offer to new residential customers (who are also customers of Commonwealth Bank of Australia) in Jemena's distribution region with flat rate tariff. For illustrative purposes, tariff A100 assumed. Feed-In Tariffs only valid if applicable"
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "19.747117"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "All day",
+                        "displayName": "Single Rate"
+                    },
+                    "displayName": "Year-round",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "42.920822"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "OTHER"
+            ],
+            "coolingOffDays": 10,
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0562",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "100% GreenPower for c/kWh.",
+                    "displayName": "GreenPower 100"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Solar FiT c/kWh exported (incl. GST if applicable)",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.20"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "Solar PFiT if eligible, c/kWh exported (inc. GST if applicable)",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "No lock in contracts or exit fees."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/amber/cds-au/v1/energy/plans/AMB454539MR@VEC"
+    }
+}

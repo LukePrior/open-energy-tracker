@@ -275,7 +275,8 @@
             ]
         },
         "displayName": "Sports Pack Demand Single Rate + CL",
-        "lastUpdated": "2022-08-18T04:18:26Z",
+        "effectiveTo": "2023-04-20T14:00:00Z",
+        "lastUpdated": "2023-04-20T22:41:03Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {
@@ -284,7 +285,7 @@
                     "term": "FIXED",
                     "type": "DISCONNECTION",
                     "amount": "39.89",
-                    "description": "Disconnection - On site. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee.\nWe reserve the right to and will notify you if we change or impose additional fees or charges in relation to your energy supply. Fees and charges charged by the distributor are published on your distributoru2019s website and may change from time to time."
+                    "description": "Disconnection - On site. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee.\nWe reserve the right to and will notify you if we change or impose additional fees or charges in relation to your energy supply. Fees and charges charged by the distributor are published on your distributor\u2019s website and may change from time to time."
                 },
                 {
                     "term": "FIXED",
@@ -326,6 +327,7 @@
                                 "unitPrice": "19.64"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Anytime"
                     },
                     "displayName": "Summer",
@@ -367,6 +369,7 @@
                                 "unitPrice": "19.64"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Anytime"
                     },
                     "displayName": "Non Summer",

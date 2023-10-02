@@ -1,0 +1,109 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "smartestenergy",
+        "planId": "SMA465769SS@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "SmartestEnergy",
+        "geography": {
+            "distributors": [
+                "Citipower"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
+                "3011",
+                "3031",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3078",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
+            ]
+        },
+        "displayName": "SmartestEnergy VDO - CitiPower",
+        "lastUpdated": "2023-05-30T02:49:47Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2023-06-30T14:00:00Z",
+        "electricityContract": {
+            "terms": "Full terms and conditions can be accessed at www.smartestenergy.com",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "We may vary these prices no more than once every 6 months. We\u2019ll publish variations via our website at least 10 business days prior and give you written notice at least 5 business days prior. Other charges may be varied with notice",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is only available to small business customers in the Citipower network area, where we have an obligation to supply. Eligible small business customers in Victoria must have an applicable network tariff, an ABN / ACN, use less than 40 MWh per year, and an interval meter."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "25.7636"
+                            }
+                        ],
+                        "displayName": "Rate"
+                    },
+                    "displayName": "Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "122.1273"
+                }
+            ],
+            "billFrequency": [
+                "P3M"
+            ],
+            "paymentOption": [
+                "OTHER"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "This contract is ongoing."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/smartestenergy/cds-au/v1/energy/plans/SMA465769SS@VEC"
+    }
+}

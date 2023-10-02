@@ -1,0 +1,206 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "covau",
+        "planId": "COV483638SS@VEC",
+        "fuelType": "GAS",
+        "brandName": "CovaU",
+        "geography": {
+            "distributors": [
+                "AusNet Services (gas)"
+            ],
+            "includedPostcodes": [
+                "3003",
+                "3008",
+                "3011",
+                "3012",
+                "3013",
+                "3015",
+                "3016",
+                "3018",
+                "3019",
+                "3020",
+                "3021",
+                "3022",
+                "3023",
+                "3024",
+                "3025",
+                "3026",
+                "3027",
+                "3028",
+                "3029",
+                "3030",
+                "3031",
+                "3032",
+                "3033",
+                "3034",
+                "3036",
+                "3037",
+                "3038",
+                "3039",
+                "3040",
+                "3041",
+                "3042",
+                "3043",
+                "3044",
+                "3045",
+                "3046",
+                "3047",
+                "3048",
+                "3049",
+                "3055",
+                "3058",
+                "3059",
+                "3060",
+                "3061",
+                "3062",
+                "3063",
+                "3064",
+                "3073",
+                "3211",
+                "3212",
+                "3213",
+                "3214",
+                "3215",
+                "3216",
+                "3217",
+                "3218",
+                "3219",
+                "3220",
+                "3221",
+                "3222",
+                "3223",
+                "3224",
+                "3225",
+                "3226",
+                "3228",
+                "3335",
+                "3336",
+                "3337",
+                "3338",
+                "3427",
+                "3428",
+                "3429"
+            ]
+        },
+        "displayName": "CovaU Basics Business Gas Ausnet",
+        "effectiveTo": "2024-06-29T14:00:00Z",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "70.40",
+                    "description": "$70.40 (inc. GST) fee may apply when your property is disconnected. This fee is passed through from your distributor and may vary.\nYou must pay us any charges your distributor imposes on us in relation to services performed by your distributor (or anyone else) at your supply address. For details on additional charges that may apply, visit www.covau.com.au/additionalfees"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "70.40",
+                    "description": "$70.40 (inc. GST) fee may apply when your property is reconnected. This fee is passed through from your distributor and may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "9.50",
+                    "description": "$9.50 (inc. GST) Direct debit dishonour payment fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CHEQUE_DISHONOUR",
+                    "amount": "9.50",
+                    "description": "$9.50 (inc. GST) Cheque dishonour payment fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "7.68",
+                    "description": "$7.68 (inc. GST) Special Meter Read fee. This fee is passed through from your distributor and may vary."
+                }
+            ],
+            "terms": "For full terms and conditions applicable to this energy offer, please visit www.covau.com.au/terms or contact CovaU on 1300 689 866.",
+            "isFixed": false,
+            "variation": "We may vary your rates in line with our Terms and Conditions at any time by written notice to you. Notice will be given at least 5 business days prior to the variation.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is available to business customers in the Australia Gas Network North zone. For more details about the eligibility criteria, please contact CovaU on 1300 689 866."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "4.39"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "4.38"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "4.37"
+                            },
+                            {
+                                "unitPrice": "4.34"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Non-Summer"
+                    },
+                    "displayName": "Non-Summer",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "108.00"
+                },
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "3.82"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "3.79"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "3.77"
+                            },
+                            {
+                                "unitPrice": "3.77"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Summer"
+                    },
+                    "displayName": "Summer",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "108.00"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with our Market Retail Terms &Conditions"
+        },
+        "lastUpdated": "2023-07-10T05:28:40Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2023-06-30T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/covau/cds-au/v1/energy/plans/COV483638SS@VEC"
+    }
+}

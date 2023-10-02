@@ -327,7 +327,8 @@
             ]
         },
         "displayName": "The Basic Plan Winter Welcome Credit",
-        "lastUpdated": "2022-08-11T06:08:07Z",
+        "effectiveTo": "2022-10-05T13:00:00Z",
+        "lastUpdated": "2022-10-05T22:09:21Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-15T14:00:00Z",
         "electricityContract": {

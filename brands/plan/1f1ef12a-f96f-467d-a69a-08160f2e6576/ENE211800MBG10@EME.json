@@ -315,6 +315,7 @@
             ]
         },
         "displayName": "Business Balance Plan 24",
+        "effectiveTo": "2023-03-17T00:00:00.000Z",
         "gasContract": {
             "fees": [
                 {
@@ -377,27 +378,27 @@
                         "rates": [
                             {
                                 "volume": 20.712,
-                                "unitPrice": "4.21"
+                                "unitPrice": "4.2103"
                             },
                             {
                                 "volume": 20.384,
-                                "unitPrice": "2.99"
+                                "unitPrice": "2.9909"
                             },
                             {
                                 "volume": 49.315,
-                                "unitPrice": "2.85"
+                                "unitPrice": "2.8463"
                             },
                             {
                                 "volume": 2654.79399,
-                                "unitPrice": "2.71"
+                                "unitPrice": "2.7122"
                             },
                             {
                                 "volume": 10964.38401,
-                                "unitPrice": "2.49"
+                                "unitPrice": "2.4937"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "2.40"
+                                "unitPrice": "2.3997"
                             }
                         ],
                         "period": "P1D",
@@ -422,7 +423,7 @@
             "coolingOffDays": "10",
             "onExpiryDescription": "The Benefit Period for this plan is 24 months. We will provide you with notice of your options prior to the end of the Benefit Period. Your contract will continue until it is ended by either party."
         },
-        "lastUpdated": "2022-09-13T14:05:55.266Z",
+        "lastUpdated": "2023-02-23T04:27:58.770Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-09-14T00:00:00.000Z"
     },

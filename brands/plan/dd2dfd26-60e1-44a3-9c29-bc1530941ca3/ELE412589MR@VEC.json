@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "VIC Jemena Residential Two Rate A120",
-        "lastUpdated": "2022-07-25T06:02:07Z",
+        "effectiveTo": "2022-10-23T13:00:00Z",
+        "lastUpdated": "2022-10-23T23:49:46Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-21T14:00:00Z",
         "electricityContract": {

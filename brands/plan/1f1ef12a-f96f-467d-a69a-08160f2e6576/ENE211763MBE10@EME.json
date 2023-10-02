@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Business Balance Plan 24",
-        "lastUpdated": "2022-09-13T14:05:54.515Z",
+        "effectiveTo": "2023-03-17T00:00:00.000Z",
+        "lastUpdated": "2023-02-23T04:28:03.819Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-09-14T00:00:00.000Z",
         "electricityContract": {
@@ -310,7 +311,7 @@
                         "rates": [
                             {
                                 "volume": null,
-                                "unitPrice": "32.87"
+                                "unitPrice": "32.865"
                             }
                         ],
                         "period": "P1D",
@@ -338,7 +339,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "10"
                         }
                     ],
@@ -349,7 +350,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "25"
                         }
                     ],
@@ -360,7 +361,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "100"
                         }
                     ],

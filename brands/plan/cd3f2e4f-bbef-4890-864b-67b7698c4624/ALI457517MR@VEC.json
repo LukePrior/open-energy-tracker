@@ -1,0 +1,181 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "alinta",
+        "planId": "ALI457517MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Alinta",
+        "geography": {
+            "distributors": [
+                "Citipower"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
+                "3011",
+                "3031",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3078",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
+            ]
+        },
+        "displayName": "Sports Pack - Single Rate + CL",
+        "effectiveTo": "2023-06-30T14:00:00Z",
+        "lastUpdated": "2023-06-30T20:40:24Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-04-20T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "41.95",
+                    "description": "Disconnection - On site. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee.\nWe reserve the right to and will notify you if we change or impose additional fees or charges in relation to your energy supply."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "0.00",
+                    "description": "Disconnection - Remote. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "41.34",
+                    "description": "Reconnection - On site. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "0.00",
+                    "description": "Reconnection - Remote. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+                }
+            ],
+            "terms": "This plan is only available to residential customers in Victoria. Eligibility criteria applies. Terms and conditions can be accessed at alintaenergy.com.au or by calling 13 37 02.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "Tariffs and charges may only be increased one month after your distribution network costs are finalised, but may be decreased at any time. We will give you at least 5 business days notice prior to any variation or in accordance with applicable laws.",
+            "incentives": [
+                {
+                    "category": "GIFT",
+                    "description": "Kayo Basic subscription",
+                    "displayName": "Kayo Basic subscription",
+                    "eligibility": "Access to a Kayo Basic Subscription for up to 12 months from redemption date. Cannot be used with other Kayo Sports offers or subscriptions billed through Apple. Data charges apply for use of Kayo. Conditions and eligibility criteria apply."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Available to residential customers who meet the eligibility criteria with an applicable network tariff. Kayo subscription eligibility includes but is not limited to: access to the internet that supports Kayo streaming; an active Alinta Energy Sports Pack Electricity plan; valid credit card and email."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "19.14"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Rate"
+                    },
+                    "displayName": "Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "102.49"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "13.81"
+                            }
+                        ],
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "",
+                    "rateBlockUType": "singleRate"
+                }
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Current FIT",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "6.70"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "PFIT",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "This offer has no contract term."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/alinta/cds-au/v1/energy/plans/ALI457517MR@VEC"
+    }
+}

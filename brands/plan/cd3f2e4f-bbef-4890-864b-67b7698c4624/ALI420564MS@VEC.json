@@ -60,7 +60,8 @@
             ]
         },
         "displayName": "BusinessDeal Qantas - Demand SR + CL",
-        "lastUpdated": "2022-08-18T04:18:29Z",
+        "effectiveTo": "2023-03-01T13:00:00Z",
+        "lastUpdated": "2023-03-01T19:03:41Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {

@@ -1,134 +1,142 @@
 {
     "data": [
         {
-            "interimId": "78943358-0f53-4518-ac7d-f6a1903e276d",
-            "brandName": "1st Energy Pty Ltd",
+            "dataHolderBrandId": "244d8a80-3828-ed11-a832-000d3a8830d6",
+            "interimId": "37aebb2d-d96c-419f-8be4-f42cdffdb238",
+            "brandName": "Origin Energy",
             "industries": [
                 "energy"
             ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/1st-energy",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "logoUri": "https://res.cloudinary.com/originenergy/image/upload/v1667947270/CDR/origin-energy-logo.png",
+            "publicBaseUri": "https://public.mydata.cdr.originenergy.com.au",
+            "abn": "30000051696",
+            "acn": "000051696",
+            "lastUpdated": "2023-07-01T00:00:15Z"
         },
         {
-            "interimId": "be9f78ea-d0cb-44a3-8318-09e41b2a0118",
-            "brandName": "ActewAGL Retail",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/actewagl",
-            "lastUpdated": "2022-09-30T06:20:47Z"
-        },
-        {
-            "interimId": "fb416e50-6dda-470e-a2aa-a108efd433b4",
-            "brandName": "Active Utilities Retail Pty Ltd",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/active-utilities",
-            "lastUpdated": "2022-09-30T06:20:47Z"
-        },
-        {
+            "dataHolderBrandId": "d177e382-b12d-ed11-a832-000d3a8830d6",
             "interimId": "a94e942b-6d39-4b4d-9b31-88e7cb65f6d1",
             "brandName": "AGL",
             "industries": [
                 "energy"
             ],
-            "logoUri": "https://www.agl.com.au/content/dam/digital/agl/icons/logo-secondary-color-small.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/agl",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "logoUri": "https://agl.com.au/content/dam/digital/agl/images/logos/agl/agl-vertical-gradient.svg",
+            "publicBaseUri": "https://public.cdr.agl.com.au",
+            "abn": "74115061375",
+            "lastUpdated": "2023-07-01T00:00:11Z"
         },
         {
-            "interimId": "1d6d8e16-afdb-4f1d-a506-66d690568bd8",
-            "brandName": "AGL Retail Energy Limited",
+            "dataHolderBrandId": "1cc7833a-b834-ed11-a832-000d3a8830d6",
+            "interimId": "1f1ef12a-f96f-467d-a69a-08160f2e6576",
+            "brandName": "EnergyAustralia",
             "industries": [
                 "energy"
             ],
-            "logoUri": "https://www.agl.com.au/content/dam/digital/agl/icons/logo-secondary-color-small.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/agl",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "logoUri": "https://www.energyaustralia.com.au/themes/custom/ea/assets/images/EA_logo.svg",
+            "publicBaseUri": "https://authncdr.energyaustralia.com.au",
+            "abn": "99086014968",
+            "acn": "086014968",
+            "lastUpdated": "2023-07-01T00:00:13Z"
         },
         {
-            "interimId": "fc3e9e1a-5613-4f64-a784-eea91ed65689",
-            "brandName": "AGL Sales Pty Ltd",
+            "interimId": "78943358-0f53-4518-ac7d-f6a1903e276d",
+            "brandName": "1st Energy",
             "industries": [
                 "energy"
             ],
-            "logoUri": "https://www.agl.com.au/content/dam/digital/agl/icons/logo-secondary-color-small.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/agl",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
+            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/1st-energy",
+            "lastUpdated": "2022-10-21T05:35:24Z"
+        },
+        {
+            "interimId": "be9f78ea-d0cb-44a3-8318-09e41b2a0118",
+            "brandName": "ActewAGL",
+            "industries": [
+                "energy"
+            ],
+            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
+            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/actewagl",
+            "lastUpdated": "2022-10-21T05:35:24Z"
+        },
+        {
+            "interimId": "fb416e50-6dda-470e-a2aa-a108efd433b4",
+            "brandName": "Active Utilities Retail",
+            "industries": [
+                "energy"
+            ],
+            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
+            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/active-utilities",
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "cd3f2e4f-bbef-4890-864b-67b7698c4624",
-            "brandName": "Alinta Energy Retail Sales Pty Ltd",
+            "brandName": "Alinta",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.alintaenergy.com.au/-/jssmedia/alinta-website/graphics/alintaenergy-logo.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/alinta",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "d4aa3c79-ef00-454c-b1f0-dbd01b25bcca",
-            "brandName": "Altogether Group Pty Ltd",
+            "brandName": "Altogether",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/altogether",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "dbfb4be7-27bf-4335-9d92-7e25f1bb8e2a",
-            "brandName": "Amber Electric Pty Ltd",
+            "brandName": "Amber Electric",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/amber",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "e48e8b94-ff6b-44cf-a572-0dff928cf056",
-            "brandName": "Ampol Energy (Retail) Pty Ltd",
+            "brandName": "Ampol Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/ampol",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "e7efef1f-22b8-4a15-826c-047f71aa2d20",
-            "brandName": "Arc Energy Corporation Pty Ltd",
+            "brandName": "Arc Energy Group",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/arc-energy",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "8a28d246-46ba-4ff3-afcd-14b7d728fa1c",
-            "brandName": "Energy Locals Pty Ltd",
+            "brandName": "ARCLINE by RACV",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/arcline",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "bd2863a7-8430-4656-88bf-56bb5c12663c",
-            "brandName": "Electricity in a Box Pty Ltd",
+            "brandName": "Arcstream",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/arcstream",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "d5693987-1937-4f43-bddc-9df57b1866b0",
@@ -138,377 +146,327 @@
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/aurora",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "ea94715b-96fa-4ed2-9a44-6a7f1f40676c",
-            "brandName": "EPC Technologies Pty Ltd",
+            "brandName": "Besy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/besy",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "f918026a-b02c-4dea-89a0-e3295b7e7812",
-            "brandName": "Blue NRG Pty Ltd",
+            "brandName": "Blue NRG",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/blue-nrg",
-            "lastUpdated": "2022-09-30T06:20:47Z"
-        },
-        {
-            "interimId": "0e60a93e-9544-4cc1-a552-4e1596089ee5",
-            "brandName": "Bright Spark Power Pty Ltd",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/bright-spark",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "736b2c27-aa4b-4554-987b-80101a93b728",
-            "brandName": "Brighte Energy Pty Ltd",
+            "brandName": "Brighte Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/brighte",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "040f7f80-c3b2-4a10-8e15-ebb9f324bad6",
-            "brandName": "Maximum Energy Retail Pty Ltd",
+            "brandName": "Circular Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/circular",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "40c3b4cd-2df1-4d55-843e-a7ff32aa9dc6",
-            "brandName": "CleanCo Queensland Limited",
+            "brandName": "CleanCo Queensland",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/cleanco",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "d2c959ec-e0d4-4fc4-bcb3-2faf8060cd18",
-            "brandName": "CleanPeak Energy Retail Pty Ltd",
+            "brandName": "CleanPeak Energy Retail",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/cleanpeak",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "db23f052-0bec-48ab-87fe-59290d142704",
-            "brandName": "Powershop Australia Pty Limited",
+            "brandName": "Coles Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/coles",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "bca9760e-667f-4176-b54b-baf0ed04c9ae",
-            "brandName": "Commander Power & Gas (M2 Energy Pty Ltd)",
+            "brandName": "Commander Power & Gas",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/commander",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "15ed284e-f7b0-440d-b5dc-e9fe4c28c410",
-            "brandName": "CovaU Pty Ltd",
+            "brandName": "CovaU",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/covau",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "46b1550c-fd41-40ff-8374-2af6d0cc7293",
-            "brandName": "CPE Mascot Pty Ltd",
+            "brandName": "CPE Mascot",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/cpe-mascot",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "3a767c2a-017c-44ac-b5c8-436689d397b6",
-            "brandName": "Diamond Energy Pty Ltd",
+            "brandName": "Diamond Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/diamond",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "89b94654-8f1b-4e49-bcdb-7ab5df451372",
-            "brandName": "Discover Energy Pty Ltd",
+            "brandName": "Discover Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/discover",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "052218fc-fb37-4087-b2cc-ced3f0dad299",
-            "brandName": "M2 Energy Pty Ltd",
+            "brandName": "Dodo",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/dodo",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "6dfc2033-f5ba-4e61-8119-1eac508e0ad1",
-            "brandName": "EA Connect Pty Ltd",
+            "brandName": "EA Connect",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/ea-connect",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "dd2dfd26-60e1-44a3-9c29-bc1530941ca3",
-            "brandName": "Electricity in a Box Pty Ltd",
+            "brandName": "Electricity in a Box",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/electricity-in-a-box",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-11-28T02:24:38Z"
         },
         {
             "interimId": "1a7c7ab5-f351-4039-8c99-21ff2a8f1787",
-            "brandName": "Energy Locals Pty Ltd",
+            "brandName": "Energy Locals",
             "industries": [
                 "energy"
             ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
+            "logoUri": "https://energylocals.com.au/app/themes/slate/dist/images/energy-locals-logo.svg",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/energy-locals",
-            "lastUpdated": "2022-09-30T06:20:47Z"
-        },
-        {
-            "interimId": "1f1ef12a-f96f-467d-a69a-08160f2e6576",
-            "brandName": "EnergyAustralia Pty Ltd",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://www.energyaustralia.com.au/themes/custom/ea/assets/images/EA_logo.svg",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/energyaustralia",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-12-18T22:19:25Z"
         },
         {
             "interimId": "3f85802e-1636-4e3a-9395-cba0062bfab9",
-            "brandName": "Ergon Energy Queensland Pty Ltd",
+            "brandName": "Ergon Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/ergon",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "2a5c40a1-2354-4847-93fb-d2d0bd1c1e32",
-            "brandName": "ERM Power Retail Pty Ltd",
+            "brandName": "ERM Power",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/erm-power",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "d433eba6-dfb2-4d88-94e2-771b1157dd62",
-            "brandName": "Evergy Pty Ltd",
+            "brandName": "Evergy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/evergy",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "ee434966-7168-4884-9b98-98d71bd3ef3c",
-            "brandName": "Progressive Green Pty Ltd",
+            "brandName": "Flow Power",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/flow-power",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "4f4e5544-4b5b-475d-bb1e-3ea51e60412b",
-            "brandName": "Flow Systems Pty Ltd",
+            "brandName": "Flow Systems",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/flow-systems",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "f112314b-b7f3-45a0-b586-49573f8953ce",
-            "brandName": "Online Power and Gas Pty Ltd",
+            "brandName": "Future X Power",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/future-x",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "a983ebe7-14b5-4c15-8d69-6d5aac7f47ef",
-            "brandName": "GEE Power & Gas Pty Ltd",
+            "brandName": "GEE Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/gee-energy",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "a259655d-31c2-4492-a5d9-2207f46c0713",
-            "brandName": "GloBird Energy Pty Ltd",
+            "brandName": "GloBird Energy",
             "industries": [
                 "energy"
             ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
+            "logoUri": "https://www.globirdenergy.com.au/wp-content/uploads/2017/09/GloBird_web_logo.svg",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/globird",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-11-30T05:51:07Z"
         },
         {
             "interimId": "6fd3819d-4c31-4525-82cc-bd6f445af3d2",
-            "brandName": "Energy Services Management Pty Ltd",
+            "brandName": "Glow Power",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/glow-power",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "126f03dc-3947-428b-99fd-685b94fe1363",
-            "brandName": "Humenergy Group Pty Ltd",
+            "brandName": "Humenergy Group",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/humenergy",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "3e2d5a2a-2fb4-4ef6-bf7f-86e2f68ef620",
-            "brandName": "iGENO Pty Limited",
+            "brandName": "iGENO",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/igeno",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "0ca1b95d-7f73-4bf9-99a3-fa428d26d733",
-            "brandName": "Powershop Australia Pty Ltd",
+            "brandName": "Kogan Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/kogan",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "d1c6becb-c00e-4e23-8117-227a4ecc03b0",
-            "brandName": "LPE",
+            "brandName": "Locality Planning Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/locality-planning",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "9f59f54f-aeec-44ff-b481-a7e10be6a28e",
-            "brandName": "Localvolts Pty Ltd",
+            "brandName": "Localvolts",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/localvolts",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "bc9c8ab7-5dc7-4b6b-ac48-2fe68fa781db",
-            "brandName": "Red Energy Pty Ltd",
+            "brandName": "Lumo Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/lumo",
-            "lastUpdated": "2022-09-30T06:20:47Z"
-        },
-        {
-            "interimId": "b146e24c-abbd-443c-a3fe-8cfa5c47ff8a",
-            "brandName": "Lumo Energy (NSW) Pty Ltd",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/lumo",
-            "lastUpdated": "2022-09-30T06:20:47Z"
-        },
-        {
-            "interimId": "6d5bea83-388d-40f9-ac29-a59a1bf56cca",
-            "brandName": "Lumo Energy (QLD) Pty Ltd",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/lumo",
-            "lastUpdated": "2022-09-30T06:20:47Z"
-        },
-        {
-            "interimId": "a8b3a112-24ff-4cc6-aaa4-1118ca58cc77",
-            "brandName": "Lumo Energy (SA) Pty Ltd",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/lumo",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "81e1f31b-c676-4f7b-8648-4a59b29be236",
-            "brandName": "Macquarie Bank Limited",
+            "brandName": "Macquarie",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/macquarie",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "cd90f1f3-a930-4674-9ce7-18a9dbc1eeb3",
@@ -518,237 +476,207 @@
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/metered-energy",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "db8a51cd-63f3-4979-8002-e410cb95a8f3",
-            "brandName": "Microgrid Power Pty Ltd",
+            "brandName": "Microgrid Power",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/microgrid",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "6bd58cb3-042a-4af5-b0bf-856589db4ae9",
-            "brandName": "Mojo Power Pty Ltd",
+            "brandName": "Mojo Power",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.mojopower.com.au/wp-content/uploads/2017/11/logo.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/mojo",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "b43ff855-5598-4dbb-8c1c-582f02c71e6f",
-            "brandName": "Momentum Energy Pty Ltd",
+            "brandName": "Momentum Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/momentum",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "6b6e0923-4a4a-455a-a1b0-9f3228175788",
-            "brandName": "Hanwha Energy Retail Australia Pty Ltd",
+            "brandName": "Nectr",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/nectr",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "97d5098f-d882-454b-979c-3c2b3cdbf44d",
-            "brandName": "Next Business Energy Pty Ltd",
+            "brandName": "Next Business Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/next-business",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "c5232022-a219-4892-a05d-01419c8a37cb",
-            "brandName": "EnergyAustralia Pty Ltd",
+            "brandName": "On by EnergyAustralia",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/on-by-energyaustralia",
-            "lastUpdated": "2022-09-30T06:20:47Z"
-        },
-        {
-            "interimId": "37aebb2d-d96c-419f-8be4-f42cdffdb238",
-            "brandName": "Origin Energy Electricity Limited",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/origin",
-            "lastUpdated": "2022-09-30T06:20:47Z"
-        },
-        {
-            "interimId": "0162fb99-9875-4e58-b180-86f26916231d",
-            "brandName": "Origin Energy LPG Limited",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/origin",
-            "lastUpdated": "2022-09-30T06:20:47Z"
-        },
-        {
-            "interimId": "9b66c662-b72f-4597-9a16-cfcb01dec74f",
-            "brandName": "Origin Energy Retail Limited",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/origin",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-11-28T02:24:38Z"
         },
         {
             "interimId": "59aabae5-18fa-4a69-a2ce-50d197716c33",
-            "brandName": "OVO Energy Pty Ltd",
+            "brandName": "OVO Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/ovo-energy",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "34ae9e94-158a-4d3e-9a0f-3682ab04dd15",
-            "brandName": "People Energy Pty Ltd",
+            "brandName": "People Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://peopleenergy.com.au/images/logo.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/people-energy",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "c43e786c-ce1f-48f2-b551-8a8e5c67cf47",
-            "brandName": "Powerdirect Pty Ltd",
+            "brandName": "Powerdirect",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/powerdirect",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "9a676d1f-6ec5-48a4-98af-5a2ab293d373",
-            "brandName": "PowerHub Pty Ltd",
+            "brandName": "PowerHub",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/powerhub",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "5141e4da-11cf-44ef-900b-54682bc0a49f",
-            "brandName": "Powershop Australia Pty Ltd",
+            "brandName": "Powershop",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/powershop",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-11-28T02:24:38Z"
         },
         {
             "interimId": "499d880c-ee78-44ba-9442-a275f9465290",
-            "brandName": "Powow Power Pty Ltd",
+            "brandName": "Powow Power",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://powowpower.com.au/wp-content/uploads/2022/02/logo-whitepowowpower.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/powow",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "68b37f24-aaad-4f54-8fcc-ad9be71c7553",
-            "brandName": "QEnergy Limited",
+            "brandName": "QEnergy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://cdn.qenergy.com.au/app/uploads/2022/02/logo.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/qenergy",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "4fd2ea8f-504b-4432-a5ca-d6d6a22fa5c8",
-            "brandName": "Radian Holdings Pty Ltd",
+            "brandName": "Radian Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/radian",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "a10b23c3-af4d-458a-a22b-7b91ba09e8d2",
-            "brandName": "Real Utilities Pty Ltd",
+            "brandName": "Real Utilities",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/real-utilities",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "8a3bdc5f-f702-4660-85b6-cfb321b845f4",
-            "brandName": "ReAmped Energy Pty Ltd",
+            "brandName": "ReAmped Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/reamped",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "eb76743a-4ee5-40a7-aa1b-bd3b719a7622",
-            "brandName": "Red Energy Pty Ltd",
+            "brandName": "Red Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/red-energy",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-11-28T02:24:38Z"
         },
         {
             "interimId": "7de5cab6-0d84-464e-8181-950e265f3f7a",
-            "brandName": "Sanctuary Energy Pty Ltd",
+            "brandName": "Sanctuary Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/sanctuary",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "3d4f1a26-66b6-4457-9877-5389818f1b75",
-            "brandName": "The Embedded Networks Company Pty Ltd",
+            "brandName": "seene",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/seene",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "baa3b594-2022-48ed-bf0d-9abeb74f4952",
-            "brandName": "Shell Energy Retail Pty Ltd",
+            "brandName": "Shell Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/shell-energy",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "73df4586-b3c5-435f-b996-3c29ef0802ba",
@@ -756,129 +684,139 @@
             "industries": [
                 "energy"
             ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
+            "logoUri": "https://www.simplyenergy.com.au/sites/default/files/2022-10/SEN0663_Simply%20Energy%20Backed%20By%20Engie_Lockup_RGB%402x.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/simply-energy",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "d3181009-82ca-4dde-8c30-a19db4412374",
-            "brandName": "Smart Energy Retail Pty Ltd",
+            "brandName": "Smart Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/smart-energy",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "de40df1e-b0d8-47e0-8763-6a1859caa451",
-            "brandName": "SmartestEnergy Australia Pty Ltd",
+            "brandName": "SmartestEnergy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/smartestenergy",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "0e510b9e-6c17-44e9-b2c4-b287ec2842fb",
-            "brandName": "Energy Locals Pty Ltd",
+            "brandName": "Sonnen",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/sonnen",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-11-28T02:24:38Z"
         },
         {
             "interimId": "58e05a48-1826-4adb-be5f-4d71af1494ca",
-            "brandName": "Stanwell Corporation Limited",
+            "brandName": "Stanwell Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/stanwell",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "d3146a7f-bcdd-4f60-9c03-e4cf47ad3e89",
-            "brandName": "Sumo Gas Pty Ltd",
+            "brandName": "Sumo",
             "industries": [
                 "energy"
             ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
+            "logoUri": "https://sumo-public-share.s3.ap-southeast-2.amazonaws.com/SumoIT/URI/Sumo_Logo.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/sumo-gas",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "ee2a4982-1616-4fe4-982a-8633293002ec",
-            "brandName": "Sumo Power Pty Ltd",
+            "brandName": "Sumo",
             "industries": [
                 "energy"
             ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
+            "logoUri": "https://sumo-public-share.s3.ap-southeast-2.amazonaws.com/SumoIT/URI/Sumo_Logo.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/sumo-power",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "5c3a9def-c09b-4cbc-807d-a18364ee5232",
-            "brandName": "Tango Energy Pty Ltd",
+            "brandName": "Tango Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/tango",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "ea345a5a-8b10-487f-af91-bfd48b0df577",
-            "brandName": "Tas Gas Retail Pty Ltd",
+            "brandName": "Tas Gas",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/tas-gas",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "d709dd2d-e1df-44ec-b427-90865c77b7bf",
-            "brandName": "Telstra Energy (Retail) Pty Ltd",
+            "brandName": "Telstra Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/telstra-energy",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "cfff6141-0d91-4c25-b708-eff75fa7de5e",
-            "brandName": "WINconnect Pty Ltd",
+            "brandName": "WinConnect",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/winconnect",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "d43e8fb4-b1a2-4cfd-bde4-ab91daec7399",
-            "brandName": "Y.E.S. Energy (SA) Pty Ltd",
+            "brandName": "YES Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/yes-energy",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "6cbf6fb7-f565-4f2e-9b65-903b0badb20c",
-            "brandName": "ZEN Energy Retail Pty Ltd",
+            "brandName": "ZEN Energy",
             "industries": [
                 "energy"
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/zen-energy",
-            "lastUpdated": "2022-09-30T06:20:47Z"
+            "lastUpdated": "2022-10-21T05:35:24Z"
+        },
+        {
+            "interimId": "a53e525f-5ca0-4764-9617-3d2c161d828c",
+            "brandName": "Pacific Blue Retail",
+            "industries": [
+                "energy"
+            ],
+            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
+            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/pacific-blue",
+            "lastUpdated": "2023-05-12T04:15:27Z"
         }
     ],
     "links": {

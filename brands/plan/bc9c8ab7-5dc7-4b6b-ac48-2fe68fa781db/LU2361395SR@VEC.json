@@ -15,6 +15,7 @@
             ]
         },
         "displayName": "Standing Offer",
+        "effectiveTo": "2022-12-12T13:00:00Z",
         "gasContract": {
             "terms": "For full terms and conditions applicable to this offer, please visit http://www.lumoenergy.com.au/help-centre/useful-docs.",
             "isFixed": false,
@@ -100,7 +101,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Contract ends 31 March 2022. Before the end date, you will be notified that when your contract terminates we will continue to sell you energy under a Standard Retail Contract unless you enter into a new retail contract."
         },
-        "lastUpdated": "2021-12-17T05:58:13Z",
+        "lastUpdated": "2022-12-12T23:01:41Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2021-12-31T13:00:00Z"
     },

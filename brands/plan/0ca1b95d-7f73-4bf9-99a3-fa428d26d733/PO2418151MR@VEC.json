@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "Kogan Energy for current Kogan First members",
-        "lastUpdated": "2022-08-05T00:21:17Z",
+        "effectiveTo": "2022-10-18T13:00:00Z",
+        "lastUpdated": "2022-10-19T00:38:27Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-17T14:00:00Z",
         "electricityContract": {

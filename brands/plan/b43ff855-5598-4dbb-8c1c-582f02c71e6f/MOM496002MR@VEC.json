@@ -1,0 +1,147 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "momentum",
+        "planId": "MOM496002MR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Momentum Energy",
+        "geography": {
+            "distributors": [
+                "AusNet Services (gas)"
+            ],
+            "includedPostcodes": [
+                "3249",
+                "3250",
+                "3266",
+                "3277",
+                "3280",
+                "3282",
+                "3300",
+                "3305",
+                "3340",
+                "3342",
+                "3350",
+                "3351",
+                "3352",
+                "3355",
+                "3356",
+                "3357",
+                "3358",
+                "3430",
+                "3437",
+                "3444",
+                "3450",
+                "3451",
+                "3460",
+                "3461",
+                "3464",
+                "3465",
+                "3550",
+                "3551",
+                "3555",
+                "3556"
+            ]
+        },
+        "displayName": "Nothing Fancy Gas Ausnet West",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "7.68",
+                    "description": "Move-In/Move Out Meter Read fee\nFor information on additional fees, a full schedule of charges is available from www.momentumenergy.com.au/fees"
+                },
+                {
+                    "rate": "0.53",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A 0.53% fee (GST Incl) will apply to payments made by any credit or debit card."
+                }
+            ],
+            "terms": "Full terms and conditions can be obtained from www.momentumenergy.com.au/terms or by contacting our Customer Care Team on 1800 SWITCH.",
+            "isFixed": false,
+            "variation": "We will give you written notice of any variations to your rates & charges under your terms and conditions in accordance with applicable legal requirements.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "To be eligible for this plan you must pay your bills by direct debit; communicate with us and receive your bills electronically. Available with a Supply Address in Victoria in the Ausnet West distribution area and is subject to having the necessary metering system configuration."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.30"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.30"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "2.10"
+                            },
+                            {
+                                "unitPrice": "2.10"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "126.90"
+                },
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.10"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.10"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "2.10"
+                            },
+                            {
+                                "unitPrice": "2.00"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Off-Peak"
+                    },
+                    "displayName": "Off-Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "126.90"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "OTHER"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions."
+        },
+        "lastUpdated": "2023-08-03T05:43:58Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-08-06T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/momentum/cds-au/v1/energy/plans/MOM496002MR@VEC"
+    }
+}

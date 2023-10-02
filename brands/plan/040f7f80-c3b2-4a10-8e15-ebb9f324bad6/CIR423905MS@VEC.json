@@ -275,7 +275,8 @@
             ]
         },
         "displayName": "Zero Member Fee Anytime Business",
-        "lastUpdated": "2022-09-13T23:16:02Z",
+        "effectiveTo": "2023-07-16T14:00:00Z",
+        "lastUpdated": "2023-07-16T21:40:55Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-07-03T14:00:00Z",
         "electricityContract": {
@@ -302,7 +303,7 @@
             "terms": "Full Terms & Conditions can be obtained from www.circularenergy.net.au or by contacting our Customer CareTeam on 1300 204 462.",
             "isFixed": true,
             "timeZone": "LOCAL",
-            "variation": "",
+            "variation": "-",
             "eligibility": [
                 {
                     "type": "OTHER",
@@ -324,6 +325,7 @@
                                 "unitPrice": "30.909"
                             }
                         ],
+                        "period": "P1D",
                         "description": "Up to 11kWk per day",
                         "displayName": "Rate 1"
                     },

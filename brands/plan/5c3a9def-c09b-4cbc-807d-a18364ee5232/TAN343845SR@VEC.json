@@ -10,6 +10,8 @@
                 "AusNet Services (gas)"
             ],
             "includedPostcodes": [
+                "3003",
+                "3008",
                 "3011",
                 "3012",
                 "3013",
@@ -54,8 +56,10 @@
                 "3062",
                 "3063",
                 "3064",
+                "3073",
                 "3211",
                 "3212",
+                "3213",
                 "3214",
                 "3215",
                 "3216",
@@ -71,19 +75,16 @@
                 "3226",
                 "3228",
                 "3335",
+                "3336",
                 "3337",
                 "3338",
                 "3427",
                 "3428",
-                "3429",
-                "3336",
-                "3003",
-                "3008",
-                "3073",
-                "3213"
+                "3429"
             ]
         },
         "displayName": "Standing Offer, AusNet Services (gas) Central",
+        "effectiveTo": "2023-01-31T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -207,7 +208,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "No fixed term"
         },
-        "lastUpdated": "2021-09-10T06:09:30Z",
+        "lastUpdated": "2023-01-31T22:05:31Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2021-09-12T14:00:00Z"
     },

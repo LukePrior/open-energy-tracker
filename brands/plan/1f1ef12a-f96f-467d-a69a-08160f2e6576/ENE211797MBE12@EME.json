@@ -211,7 +211,8 @@
             ]
         },
         "displayName": "Business Balance Plan 24",
-        "lastUpdated": "2022-09-13T14:05:55.860Z",
+        "effectiveTo": "2023-03-17T00:00:00.000Z",
+        "lastUpdated": "2023-02-23T04:28:03.495Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-09-14T00:00:00.000Z",
         "electricityContract": {
@@ -284,7 +285,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "33.11"
+                                    "unitPrice": "33.114"
                                 }
                             ],
                             "timeOfUse": [
@@ -303,7 +304,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "27.25"
+                                    "unitPrice": "27.252"
                                 }
                             ],
                             "timeOfUse": [
@@ -339,24 +340,26 @@
                 "BPAY",
                 "CREDIT_CARD"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "17.12"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "0.00",
-                "description": "Separately metered usage. The hours of application are determined by your Distributor.",
-                "displayName": "Super Economy Tariff 31"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "17.12"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                    "displayName": "Super Economy Tariff 31"
+                }
+            ],
             "coolingOffDays": "10",
             "greenPowerCharges": [
                 {
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "10"
                         }
                     ],
@@ -367,7 +370,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "25"
                         }
                     ],
@@ -378,7 +381,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "100"
                         }
                     ],

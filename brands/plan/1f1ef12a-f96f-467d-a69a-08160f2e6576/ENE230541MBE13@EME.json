@@ -239,7 +239,8 @@
             ]
         },
         "displayName": "Business Balance Plan 24 - Loadsmart",
-        "lastUpdated": "2022-09-13T14:05:57.768Z",
+        "effectiveTo": "2023-03-17T00:00:00.000Z",
+        "lastUpdated": "2023-02-23T04:28:03.986Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-09-14T00:00:00.000Z",
         "electricityContract": {
@@ -328,7 +329,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "36.66"
+                                    "unitPrice": "36.661"
                                 }
                             ],
                             "timeOfUse": [
@@ -347,7 +348,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "19.41"
+                                    "unitPrice": "19.413"
                                 }
                             ],
                             "timeOfUse": [
@@ -374,7 +375,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "29.70"
+                                    "unitPrice": "29.702"
                                 }
                             ],
                             "timeOfUse": [
@@ -425,7 +426,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "19.41"
+                                    "unitPrice": "19.413"
                                 }
                             ],
                             "timeOfUse": [
@@ -452,7 +453,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "29.70"
+                                    "unitPrice": "29.702"
                                 }
                             ],
                             "timeOfUse": [
@@ -496,7 +497,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "36.66"
+                                    "unitPrice": "36.661"
                                 }
                             ],
                             "timeOfUse": [
@@ -515,7 +516,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "19.41"
+                                    "unitPrice": "19.413"
                                 }
                             ],
                             "timeOfUse": [
@@ -542,7 +543,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "29.70"
+                                    "unitPrice": "29.702"
                                 }
                             ],
                             "timeOfUse": [
@@ -593,7 +594,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "19.41"
+                                    "unitPrice": "19.413"
                                 }
                             ],
                             "timeOfUse": [
@@ -620,7 +621,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "29.70"
+                                    "unitPrice": "29.702"
                                 }
                             ],
                             "timeOfUse": [
@@ -648,24 +649,37 @@
                 "BPAY",
                 "CREDIT_CARD"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "13.13"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "0.00",
-                "description": "Separately metered usage. The hours of application are determined by your Distributor.",
-                "displayName": "Controlled Load 1"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "13.13"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                    "displayName": "Controlled Load 1"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "14.54"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                    "displayName": "Controlled Load 2"
+                }
+            ],
             "coolingOffDays": "10",
             "greenPowerCharges": [
                 {
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "10"
                         }
                     ],
@@ -676,7 +690,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "25"
                         }
                     ],
@@ -687,7 +701,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "100"
                         }
                     ],

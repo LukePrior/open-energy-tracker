@@ -112,7 +112,8 @@
             ]
         },
         "displayName": "VIC - Simply Energy Solar elec",
-        "lastUpdated": "2022-09-15T04:56:10Z",
+        "effectiveTo": "2023-01-03T13:00:00Z",
+        "lastUpdated": "2023-01-03T13:38:17Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-09-15T14:00:00Z",
         "electricityContract": {

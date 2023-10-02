@@ -60,7 +60,8 @@
             ]
         },
         "displayName": "Blue Business Local C1G",
-        "lastUpdated": "2022-07-08T05:39:29Z",
+        "effectiveTo": "2022-10-17T13:00:00Z",
+        "lastUpdated": "2022-10-17T21:31:26Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {

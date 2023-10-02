@@ -275,7 +275,7 @@
             ]
         },
         "displayName": "Basic Business - Peak with Dedicated Circuit",
-        "lastUpdated": "2022-08-16T01:14:51Z",
+        "lastUpdated": "2022-08-16T11:14:51Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {
@@ -318,6 +318,7 @@
                                 "unitPrice": "33.30"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Rate"
                     },
                     "displayName": "Period",

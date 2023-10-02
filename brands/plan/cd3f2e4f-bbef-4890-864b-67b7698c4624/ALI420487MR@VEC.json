@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "HomeDeal - Demand Single Rate",
-        "lastUpdated": "2022-08-18T04:18:24Z",
+        "effectiveTo": "2023-06-30T14:00:00Z",
+        "lastUpdated": "2023-06-30T20:40:09Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {
@@ -126,6 +127,7 @@
                                 "unitPrice": "16.22"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Anytime"
                     },
                     "displayName": "Period",

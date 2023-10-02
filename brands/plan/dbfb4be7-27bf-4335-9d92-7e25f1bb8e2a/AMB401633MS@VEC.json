@@ -112,8 +112,8 @@
             ]
         },
         "displayName": "Amber Small Business Plan 15",
-        "effectiveTo": "2023-06-29T14:00:00Z",
-        "lastUpdated": "2022-06-27T05:48:21Z",
+        "effectiveTo": "2023-06-28T14:00:00Z",
+        "lastUpdated": "2023-06-29T05:42:32Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {
@@ -180,6 +180,7 @@
                                 "unitPrice": "28.0511"
                             }
                         ],
+                        "period": "P1D",
                         "description": "All day",
                         "displayName": "Single Rate"
                     },

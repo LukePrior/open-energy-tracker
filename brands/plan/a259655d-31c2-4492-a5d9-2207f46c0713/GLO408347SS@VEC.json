@@ -22,7 +22,7 @@
             ]
         },
         "displayName": "GloBird GAS STANDING OFFER Small Business(Murray)-Australian Gas Networks",
-        "effectiveTo": "2023-07-16T14:00:00Z",
+        "effectiveTo": "2023-07-18T14:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -74,6 +74,7 @@
                                 "unitPrice": "5.00"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Peak"
                     },
                     "displayName": "Peak Period - June to September",
@@ -93,6 +94,7 @@
                                 "unitPrice": "5.00"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Offpeak"
                     },
                     "displayName": "Offpeak Period - October to May",
@@ -109,7 +111,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discount percentage or rates."
         },
-        "lastUpdated": "2022-07-13T03:50:32Z",
+        "lastUpdated": "2023-07-18T16:00:03Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-07-17T14:00:00Z"
     },

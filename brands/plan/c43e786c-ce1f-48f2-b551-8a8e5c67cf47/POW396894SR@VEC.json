@@ -275,7 +275,8 @@
             ]
         },
         "displayName": "Powerdirect Residential Standing Offer",
-        "lastUpdated": "2022-06-29T05:32:16Z",
+        "effectiveTo": "2022-10-13T13:00:00Z",
+        "lastUpdated": "2022-10-14T10:41:48Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {

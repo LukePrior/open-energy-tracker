@@ -22,6 +22,7 @@
             ]
         },
         "displayName": "Home Select",
+        "effectiveTo": "2022-10-16T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -123,7 +124,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Our Market Contract is ongoing and may be ended by you or us in accordance with the terms of the contract."
         },
-        "lastUpdated": "2022-06-28T23:11:07Z",
+        "lastUpdated": "2022-10-16T22:53:30Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-30T14:00:00Z"
     },

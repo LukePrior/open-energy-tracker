@@ -17,6 +17,7 @@
             ]
         },
         "displayName": "Residential Standing - Multinet Yarra Valley",
+        "effectiveTo": "2023-04-01T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -74,6 +75,7 @@
                                 "unitPrice": "2.1781"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Peak"
                     },
                     "displayName": "Peak",
@@ -105,6 +107,7 @@
                                 "unitPrice": "2.1661"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Off Peak"
                     },
                     "displayName": "Off Peak",
@@ -121,7 +124,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Standard contracts do not expire"
         },
-        "lastUpdated": "2021-11-28T22:13:42Z",
+        "lastUpdated": "2023-04-02T11:00:50Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2021-12-31T13:00:00Z"
     },

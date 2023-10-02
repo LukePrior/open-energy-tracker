@@ -39,7 +39,8 @@
             ]
         },
         "displayName": "ReAmped Handshake | Time of Use & CL1",
-        "lastUpdated": "2022-06-22T14:06:42.939Z",
+        "effectiveTo": "2030-08-01T00:00:00.000Z",
+        "lastUpdated": "2023-07-19T01:38:59.794Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-23T00:00:00.000Z",
         "electricityContract": {
@@ -83,7 +84,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "49.10"
+                                    "unitPrice": "49.1"
                                 }
                             ],
                             "timeOfUse": [
@@ -170,17 +171,19 @@
                 "DIRECT_DEBIT",
                 "CREDIT_CARD"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "34.14"
-                    }
-                ],
-                "period": "P1Y",
-                "dailyCharge": "0.00",
-                "description": "Separately metered usage. The hours of application are determined by your Distributor.",
-                "displayName": "Controlled Load 1"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "34.14"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                    "displayName": "Controlled Load 1"
+                }
+            ],
             "coolingOffDays": "10",
             "greenPowerCharges": [
                 {
@@ -239,7 +242,8 @@
                         "amount": "0.00"
                     }
                 }
-            ]
+            ],
+            "additionalInformation": "Your distributor may impose fees on us in relation to services performed by your distributor (or anyone else) at your supply address. These costs will be passed on to you. For details on additional charges that may apply see www.reampedenergy.com.au/fees"
         }
     },
     "meta": {},

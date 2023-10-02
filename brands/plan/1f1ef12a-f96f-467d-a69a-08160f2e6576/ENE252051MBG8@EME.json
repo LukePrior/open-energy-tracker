@@ -130,6 +130,7 @@
             ]
         },
         "displayName": "Business Balance Plan 24",
+        "effectiveTo": "2023-03-17T00:00:00.000Z",
         "gasContract": {
             "fees": [
                 {
@@ -192,19 +193,19 @@
                         "rates": [
                             {
                                 "volume": 986.3,
-                                "unitPrice": "3.08"
+                                "unitPrice": "3.0765"
                             },
                             {
                                 "volume": 4274.000001,
-                                "unitPrice": "2.35"
+                                "unitPrice": "2.3484"
                             },
                             {
                                 "volume": 11177.9999,
-                                "unitPrice": "1.95"
+                                "unitPrice": "1.9489"
                             },
                             {
                                 "volume": null,
-                                "unitPrice": "1.87"
+                                "unitPrice": "1.8688"
                             }
                         ],
                         "period": "P1D",
@@ -229,7 +230,7 @@
             "coolingOffDays": "10",
             "onExpiryDescription": "The Benefit Period for this plan is 24 months. We will provide you with notice of your options prior to the end of the Benefit Period. Your contract will continue until it is ended by either party."
         },
-        "lastUpdated": "2022-09-13T14:05:57.330Z",
+        "lastUpdated": "2023-02-23T04:28:01.916Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-09-14T00:00:00.000Z"
     },

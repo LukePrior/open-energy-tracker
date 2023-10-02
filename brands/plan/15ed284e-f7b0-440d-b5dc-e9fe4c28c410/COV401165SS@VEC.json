@@ -275,8 +275,8 @@
             ]
         },
         "displayName": "Victorian Default Offer Business Ausnet TOU NAST12",
-        "effectiveTo": "2023-06-29T14:00:00Z",
-        "lastUpdated": "2022-06-24T06:06:23Z",
+        "effectiveTo": "2023-02-08T13:00:00Z",
+        "lastUpdated": "2023-02-09T03:25:17Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {
@@ -315,7 +315,7 @@
                     "term": "FIXED",
                     "type": "OTHER",
                     "amount": "3.00",
-                    "description": "Over the counter payment fee u2013 may apply for over the counter payments made at an Australia Post outlet."
+                    "description": "Over the counter payment fee \u2013 may apply for over the counter payments made at an Australia Post outlet."
                 },
                 {
                     "term": "FIXED",

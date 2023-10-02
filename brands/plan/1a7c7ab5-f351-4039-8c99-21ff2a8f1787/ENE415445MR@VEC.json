@@ -327,7 +327,8 @@
             ]
         },
         "displayName": "Online Member",
-        "lastUpdated": "2022-08-02T05:24:03Z",
+        "effectiveTo": "2022-11-21T13:00:00Z",
+        "lastUpdated": "2022-11-22T05:07:43Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-31T14:00:00Z",
         "electricityContract": {

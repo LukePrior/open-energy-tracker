@@ -415,7 +415,7 @@
                         "rates": [
                             {
                                 "volume": null,
-                                "unitPrice": "34.79"
+                                "unitPrice": "34.789"
                             }
                         ],
                         "period": "P1D",
@@ -443,7 +443,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "10"
                         }
                     ],
@@ -455,7 +455,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "20"
                         }
                     ],
@@ -467,7 +467,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "100"
                         }
                     ],

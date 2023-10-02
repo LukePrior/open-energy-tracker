@@ -112,7 +112,8 @@
             ]
         },
         "displayName": "Priority Business - SR Demand + CL",
-        "lastUpdated": "2022-08-18T04:18:07Z",
+        "effectiveTo": "2023-06-30T14:00:00Z",
+        "lastUpdated": "2023-06-30T20:40:03Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {
@@ -163,6 +164,7 @@
                                 "unitPrice": "16.37"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Anytime"
                     },
                     "displayName": "Summer",
@@ -205,6 +207,7 @@
                                 "unitPrice": "16.37"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Anytime"
                     },
                     "displayName": "Non Summer",

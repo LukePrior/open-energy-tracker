@@ -413,7 +413,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "41.02"
+                                    "unitPrice": "41.018"
                                 }
                             ],
                             "timeOfUse": [
@@ -452,7 +452,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "23.59"
+                                    "unitPrice": "23.585"
                                 }
                             ],
                             "timeOfUse": [
@@ -473,7 +473,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "13.02"
+                                    "unitPrice": "13.022"
                                 }
                             ],
                             "timeOfUse": [
@@ -503,24 +503,48 @@
                 "BPAY",
                 "CREDIT_CARD"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "41.02"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "0.00",
-                "description": "Separately metered usage. Between 6:30am and 9:30am, and 3:30pm to 11:30pm, Monday to Sunday. CST.",
-                "displayName": "Controlled Load Peak Usage"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "41.02"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. Between 6:30am and 9:30am, and 3:30pm to 11:30pm, Monday to Sunday. CST.",
+                    "displayName": "Controlled Load Peak Usage"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "23.59"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. Between 11:30pm to 6:30am, Monday to Sunday. CST.",
+                    "displayName": "Controlled Load Off-Peak Usage"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "13.02"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. Between 9:30am and 3:30pm, Monday to Sunday. CST.",
+                    "displayName": "Controlled Load Shoulder Usage"
+                }
+            ],
             "coolingOffDays": "10",
             "greenPowerCharges": [
                 {
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "10"
                         }
                     ],
@@ -532,7 +556,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "20"
                         }
                     ],
@@ -544,7 +568,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "100"
                         }
                     ],
@@ -561,7 +585,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "8.50"
+                        "amount": "8.5"
                     }
                 },
                 {

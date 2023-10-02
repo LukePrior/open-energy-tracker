@@ -1,0 +1,136 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "alinta",
+        "planId": "ALI476732MS@VEC",
+        "fuelType": "GAS",
+        "brandName": "Alinta",
+        "geography": {
+            "distributors": [
+                "Multinet"
+            ],
+            "includedPostcodes": [
+                "3139",
+                "3775",
+                "3797",
+                "3799"
+            ]
+        },
+        "displayName": "BusinessDeal Qantas Gas - Multinet Yarra Valley",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "64.16",
+                    "description": "This fee is set by your distributor and may vary. Please visit your distributor's website to find out the current fee.\nWe reserve the right to and will notify you if we change or impose additional fees or charges in relation to your energy supply."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "54.09",
+                    "description": "Next business day reconnection fee. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+                }
+            ],
+            "terms": "This plan is only available to small business customers (excluding SOHO customers) signing up a new or existing supply address in Victoria. Eligibility criteria applies. Full terms and conditions available at alintaenergy.com.au/qbrbusinessdeal or by calling 13 39 08.",
+            "isFixed": false,
+            "variation": "Tariffs and charges may only be increased one month after your distribution network costs are finalised, but may be decreased at any time. We will give you at least 5 business days notice prior to any variation or in accordance with applicable laws.",
+            "incentives": [
+                {
+                    "category": "GIFT",
+                    "description": "QANTAS Points",
+                    "displayName": "QANTAS Points",
+                    "eligibility": "After 90 days, customers get 1 Qantas Point (QP) per $1 of every fully paid bill. Bonus QP offers may apply from time to time. Full T&Cs: alintaenergy.com.au/qbrbusinessdeal and qantas.com/qbr/terms"
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Offer only available to small business customers (excluding SOHO customers) signing up a new or existing supply address who have a Qantas Business Rewards membership, an active ABN, and are within the Multinet Network Distribution zone. Creditworthiness eligibility applies."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "10-31",
+                    "startDate": "05-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 250,
+                                "unitPrice": "3.65"
+                            },
+                            {
+                                "volume": 750,
+                                "unitPrice": "3.41"
+                            },
+                            {
+                                "volume": 500,
+                                "unitPrice": "3.16"
+                            },
+                            {
+                                "volume": 3500,
+                                "unitPrice": "3.00"
+                            },
+                            {
+                                "unitPrice": "2.92"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "116.06"
+                },
+                {
+                    "endDate": "04-30",
+                    "startDate": "11-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 250,
+                                "unitPrice": "3.50"
+                            },
+                            {
+                                "volume": 750,
+                                "unitPrice": "3.31"
+                            },
+                            {
+                                "volume": 500,
+                                "unitPrice": "3.10"
+                            },
+                            {
+                                "volume": 3500,
+                                "unitPrice": "3.00"
+                            },
+                            {
+                                "unitPrice": "2.92"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Off Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "116.06"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "This offer has no contract term."
+        },
+        "lastUpdated": "2023-06-22T06:56:10Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2023-06-30T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/alinta/cds-au/v1/energy/plans/ALI476732MS@VEC"
+    }
+}

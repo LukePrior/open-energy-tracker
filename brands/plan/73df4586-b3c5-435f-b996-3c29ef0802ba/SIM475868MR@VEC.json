@@ -1,0 +1,149 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "simply-energy",
+        "planId": "SIM475868MR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Simply Energy",
+        "geography": {
+            "distributors": [
+                "Multinet"
+            ],
+            "includedPostcodes": [
+                "3139",
+                "3150",
+                "3152",
+                "3156",
+                "3158",
+                "3160",
+                "3161",
+                "3162",
+                "3163",
+                "3165",
+                "3166",
+                "3167",
+                "3168",
+                "3169",
+                "3170",
+                "3171",
+                "3172",
+                "3173",
+                "3174",
+                "3177",
+                "3178",
+                "3179",
+                "3180",
+                "3182",
+                "3183",
+                "3184",
+                "3185",
+                "3186",
+                "3187",
+                "3188",
+                "3189",
+                "3190",
+                "3191",
+                "3192",
+                "3193",
+                "3194",
+                "3195",
+                "3196",
+                "3197",
+                "3202",
+                "3204",
+                "3205",
+                "3206",
+                "3207",
+                "3775",
+                "3785",
+                "3786",
+                "3797",
+                "3799",
+                "3802"
+            ]
+        },
+        "displayName": "VIC -Simply VPP BYO gas",
+        "gasContract": {
+            "fees": [
+                {
+                    "rate": "0.42",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "You may be charged credit card fees in all channels (other than direct debit) of 0.42% for Visa."
+                },
+                {
+                    "rate": "0.36",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "You may be charged credit card fees in all channels (other than direct debit) of 0.36% for Mastercard."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "1.65",
+                    "description": "A $1.65 (inc. GST) charge will apply to paper bills sent in the post."
+                }
+            ],
+            "terms": "For further details, and terms and conditions, please visit www.simplyenergy.com.au/simply-vpp-byo or call Simply Energy on 1800 290 773",
+            "isFixed": false,
+            "termType": "OTHER",
+            "variation": "We may vary your rates and charges at any time, including if any underlying information is incorrect, you get a new meter or your distributor changes your tariff. We'll give you advance notice of any change, which may be on your bill.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "You must have an eligible battery installed, have a remotely read interval meter (smart meter), an available, continuous and reliable internet connection (excluding Satellite NBN and 3G/4G/5G internet connection), a solar system  that can export between 3kW and 10kW."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "3.66"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "3.28"
+                            },
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.83"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.57"
+                            },
+                            {
+                                "unitPrice": "2.51"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "81.88"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Ongoing energy plan until you or we end it. We may end this energy plan at any time by giving you 20 Business Days notice."
+        },
+        "lastUpdated": "2023-06-22T05:35:58Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-06-30T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/simply-energy/cds-au/v1/energy/plans/SIM475868MR@VEC"
+    }
+}

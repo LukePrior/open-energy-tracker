@@ -112,7 +112,8 @@
             ]
         },
         "displayName": "Red BCNA Saver",
-        "lastUpdated": "2022-07-07T04:42:26Z",
+        "effectiveTo": "2023-03-07T13:00:00Z",
+        "lastUpdated": "2023-03-08T00:28:05Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-10T14:00:00Z",
         "electricityContract": {

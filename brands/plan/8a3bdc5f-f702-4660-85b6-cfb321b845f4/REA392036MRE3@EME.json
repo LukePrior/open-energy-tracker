@@ -1,0 +1,476 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "reamped",
+        "planId": "REA392036MRE3@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "ReAmped Energy",
+        "geography": {
+            "distributors": [
+                "Essential Energy Standard"
+            ],
+            "includedPostcodes": [
+                "2311",
+                "2312",
+                "2320",
+                "2321",
+                "2324",
+                "2329",
+                "2337",
+                "2338",
+                "2339",
+                "2340",
+                "2341",
+                "2342",
+                "2343",
+                "2344",
+                "2345",
+                "2346",
+                "2347",
+                "2350",
+                "2352",
+                "2353",
+                "2354",
+                "2355",
+                "2356",
+                "2357",
+                "2358",
+                "2359",
+                "2360",
+                "2361",
+                "2365",
+                "2369",
+                "2370",
+                "2371",
+                "2372",
+                "2379",
+                "2380",
+                "2381",
+                "2382",
+                "2386",
+                "2387",
+                "2388",
+                "2390",
+                "2395",
+                "2396",
+                "2397",
+                "2398",
+                "2399",
+                "2400",
+                "2401",
+                "2402",
+                "2403",
+                "2404",
+                "2405",
+                "2406",
+                "2408",
+                "2409",
+                "2410",
+                "2411",
+                "2415",
+                "2420",
+                "2421",
+                "2422",
+                "2423",
+                "2424",
+                "2425",
+                "2426",
+                "2427",
+                "2428",
+                "2429",
+                "2430",
+                "2431",
+                "2439",
+                "2440",
+                "2441",
+                "2443",
+                "2444",
+                "2445",
+                "2446",
+                "2447",
+                "2448",
+                "2449",
+                "2450",
+                "2452",
+                "2453",
+                "2454",
+                "2455",
+                "2456",
+                "2460",
+                "2462",
+                "2463",
+                "2464",
+                "2465",
+                "2466",
+                "2469",
+                "2470",
+                "2471",
+                "2472",
+                "2473",
+                "2474",
+                "2475",
+                "2476",
+                "2477",
+                "2478",
+                "2479",
+                "2480",
+                "2481",
+                "2482",
+                "2483",
+                "2484",
+                "2485",
+                "2486",
+                "2487",
+                "2488",
+                "2489",
+                "2490",
+                "2536",
+                "2537",
+                "2539",
+                "2545",
+                "2546",
+                "2548",
+                "2549",
+                "2550",
+                "2551",
+                "2577",
+                "2579",
+                "2580",
+                "2581",
+                "2582",
+                "2583",
+                "2584",
+                "2585",
+                "2586",
+                "2587",
+                "2588",
+                "2590",
+                "2594",
+                "2611",
+                "2618",
+                "2619",
+                "2620",
+                "2621",
+                "2622",
+                "2623",
+                "2624",
+                "2625",
+                "2626",
+                "2627",
+                "2628",
+                "2629",
+                "2630",
+                "2631",
+                "2632",
+                "2633",
+                "2640",
+                "2641",
+                "2642",
+                "2643",
+                "2644",
+                "2645",
+                "2646",
+                "2647",
+                "2649",
+                "2650",
+                "2651",
+                "2652",
+                "2653",
+                "2655",
+                "2656",
+                "2658",
+                "2659",
+                "2660",
+                "2661",
+                "2663",
+                "2665",
+                "2666",
+                "2668",
+                "2669",
+                "2671",
+                "2672",
+                "2675",
+                "2678",
+                "2680",
+                "2681",
+                "2700",
+                "2701",
+                "2702",
+                "2703",
+                "2705",
+                "2706",
+                "2707",
+                "2710",
+                "2711",
+                "2712",
+                "2713",
+                "2714",
+                "2716",
+                "2720",
+                "2721",
+                "2722",
+                "2725",
+                "2726",
+                "2727",
+                "2729",
+                "2730",
+                "2731",
+                "2734",
+                "2787",
+                "2791",
+                "2792",
+                "2793",
+                "2794",
+                "2795",
+                "2797",
+                "2798",
+                "2799",
+                "2800",
+                "2803",
+                "2804",
+                "2805",
+                "2806",
+                "2807",
+                "2808",
+                "2809",
+                "2810",
+                "2820",
+                "2821",
+                "2823",
+                "2824",
+                "2825",
+                "2827",
+                "2828",
+                "2829",
+                "2830",
+                "2831",
+                "2832",
+                "2833",
+                "2834",
+                "2835",
+                "2839",
+                "2840",
+                "2842",
+                "2843",
+                "2844",
+                "2849",
+                "2850",
+                "2852",
+                "2864",
+                "2865",
+                "2866",
+                "2867",
+                "2868",
+                "2869",
+                "2870",
+                "2871",
+                "2873",
+                "2874",
+                "2875",
+                "2876",
+                "2877"
+            ]
+        },
+        "displayName": "ReAmped Advance | Time of Use & CL1 & CL2",
+        "lastUpdated": "2023-07-31T14:05:52.632Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-08-01T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECT_MOVE_OUT",
+                    "description": "Standard Move Out-Read Fee. Includes GST. Actual charges may vary. See www.reampedenergy.com.au/fees for more information."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "description": "Standard Move In-Read Fee. Includes GST. Actual charges may vary. See www.reampedenergy.com.au/fees for more information."
+                }
+            ],
+            "terms": "Customers will be billed on a fortnightly frequency. See\ufffdwww.reampedenergy.com.au\ufffdfor full terms and conditions. Available only with e-billing and direct debit.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "We may vary the Charges (including their amount, nature and structure) by notice to you at any time. If we vary your plan, rates or our retail fees and charges, we will give you at least 5 business days prior notice of the variation",
+            "meterTypes": [
+                "Type 4",
+                "Type 5",
+                "Type 6"
+            ],
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "All Year",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "name": "Peak",
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "48.88"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "859",
+                                    "startTime": "700"
+                                },
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "1959",
+                                    "startTime": "1700"
+                                }
+                            ],
+                            "description": "Weekdays 7am-9am & 5pm-8pm"
+                        },
+                        {
+                            "name": "Shoulder",
+                            "type": "SHOULDER",
+                            "rates": [
+                                {
+                                    "unitPrice": "42.92"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "1659",
+                                    "startTime": "900"
+                                },
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "2159",
+                                    "startTime": "2000"
+                                }
+                            ],
+                            "description": "Weekdays 9am-5pm & 8pm-10pm"
+                        },
+                        {
+                            "name": "Off-peak",
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "32.74"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "BUSINESS_DAYS"
+                                    ],
+                                    "endTime": "659",
+                                    "startTime": "2200"
+                                },
+                                {
+                                    "days": [
+                                        "SATURDAY",
+                                        "SUNDAY"
+                                    ],
+                                    "endTime": "2359",
+                                    "startTime": "0"
+                                }
+                            ],
+                            "description": "Weekdays 10pm-7am. Weekends 12am - 12pm"
+                        }
+                    ],
+                    "dailySupplyCharges": "141.21"
+                }
+            ],
+            "billFrequency": [
+                "P2W"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "CREDIT_CARD"
+            ],
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "20.40"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                    "displayName": "Controlled Load 1"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "20.40"
+                        }
+                    ],
+                    "period": "P1Y",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                    "displayName": "Controlled Load 2"
+                }
+            ],
+            "coolingOffDays": "10",
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.01",
+                            "percentGreen": "25"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "25% GreenPower for 1 c/kWh (inc. GST)."
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.02",
+                            "percentGreen": "50"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "50% GreenPower for 2 c/kWh (inc. GST)."
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.03",
+                            "percentGreen": "75"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "75% GreenPower for 3 c/kWh (inc. GST)."
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.04",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "100% GreenPower for 4 c/kWh (inc. GST)."
+                }
+            ],
+            "additionalInformation": "Your distributor may impose fees on us in relation to services performed by your distributor (or anyone else) at your supply address. These costs will be passed on to you. For details on additional charges that may apply see www.reampedenergy.com.au/fees"
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/reamped/cds-au/v1/energy/plans/REA392036MRE3@EME"
+    }
+}

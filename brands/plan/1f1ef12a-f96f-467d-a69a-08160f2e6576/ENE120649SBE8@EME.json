@@ -408,7 +408,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "57.28"
+                                    "unitPrice": "57.284"
                                 }
                             ],
                             "timeOfUse": [
@@ -435,7 +435,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "30.57"
+                                    "unitPrice": "30.569"
                                 }
                             ],
                             "timeOfUse": [
@@ -462,7 +462,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "37.06"
+                                    "unitPrice": "37.057"
                                 }
                             ],
                             "timeOfUse": [
@@ -490,7 +490,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "30.57"
+                                    "unitPrice": "30.569"
                                 }
                             ],
                             "timeOfUse": [
@@ -517,7 +517,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "37.06"
+                                    "unitPrice": "37.057"
                                 }
                             ],
                             "timeOfUse": [
@@ -549,7 +549,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "10"
                         }
                     ],
@@ -560,7 +560,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "25"
                         }
                     ],
@@ -571,7 +571,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "100"
                         }
                     ],

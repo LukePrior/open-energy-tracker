@@ -1,0 +1,259 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "blue-nrg",
+        "planId": "BLU426788MS@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Blue NRG",
+        "geography": {
+            "distributors": [
+                "Jemena"
+            ],
+            "includedPostcodes": [
+                "3011",
+                "3012",
+                "3013",
+                "3015",
+                "3016",
+                "3019",
+                "3020",
+                "3023",
+                "3025",
+                "3031",
+                "3032",
+                "3033",
+                "3034",
+                "3036",
+                "3037",
+                "3038",
+                "3039",
+                "3040",
+                "3041",
+                "3042",
+                "3043",
+                "3044",
+                "3045",
+                "3046",
+                "3047",
+                "3048",
+                "3049",
+                "3051",
+                "3052",
+                "3058",
+                "3059",
+                "3060",
+                "3061",
+                "3062",
+                "3063",
+                "3064",
+                "3068",
+                "3070",
+                "3072",
+                "3073",
+                "3074",
+                "3076",
+                "3078",
+                "3079",
+                "3081",
+                "3083",
+                "3084",
+                "3085",
+                "3086",
+                "3087",
+                "3335",
+                "3336",
+                "3337",
+                "3340",
+                "3427",
+                "3428",
+                "3429",
+                "3430",
+                "3431",
+                "3437",
+                "3750",
+                "3753"
+            ]
+        },
+        "displayName": "Blue Business Easy A210|A180",
+        "effectiveTo": "2023-02-15T13:00:00Z",
+        "lastUpdated": "2023-02-16T00:02:45Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2022-10-18T13:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CHEQUE_DISHONOUR",
+                    "amount": "11.979",
+                    "description": "Cheque dishonour payment fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "11.979",
+                    "description": "Direct debit dishonour payment fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "PAYMENT_PROCESSING",
+                    "amount": "5.50",
+                    "description": "Paper bill fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "692.516",
+                    "description": "Connection fee - new connection"
+                },
+                {
+                    "rate": "1.39",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit card payment processing fee - AMEX"
+                },
+                {
+                    "rate": "0.97",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit card payment processing fee - Visa/Mastercard"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "65.252",
+                    "description": "Disconnection fee"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "11.44",
+                    "description": "Remote Re-Energisation"
+                }
+            ],
+            "terms": "Full terms & conditions can be obtained from https://www.bluenrg.com.au/rates_and_pricing or by contacting us on 1300 599 888. This offer applies to business customers with an applicable network tariff. SOLAR: If you are GST-registered and provide your ABN, we will credit you an additional 10% on your FiT for GST for electricity exported to the distribution network (i.e. increase the FiT payable to you to cover GST payable on supply).",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "We may vary these prices if network prices change. We will notify you in advance if the variation affects you.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This product is only applicable to NMIs for Victorian business customers that consume less than or equal to 40MWh per annum in the Jemena distribution area. Offer subject to having the necessary metering system configuration. For solar feed-in tariffs and eligibility contact us on 1300 599 888."
+                }
+            ],
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "All-year",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "37.81"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "2100",
+                                    "startTime": "0900"
+                                }
+                            ],
+                            "displayName": "Peak"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "22.52"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "2100"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "0900",
+                                    "startTime": "0000"
+                                },
+                                {
+                                    "days": [
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "0000"
+                                }
+                            ],
+                            "displayName": "Off-Peak"
+                        }
+                    ],
+                    "dailySupplyCharges": "138.87"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "23.03"
+                            }
+                        ],
+                        "description": "Controlled load is electricity supplied to specific appliances, such as hot water systems.",
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Controlled Load",
+                    "rateBlockUType": "singleRate"
+                }
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Retailer Feed In Tariff",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.20"
+                    }
+                }
+            ],
+            "onExpiryDescription": "There is no defined benefit period. However, any individual customer site NMI must consume less than or equal to 40MWh per annum to remain on this product."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/blue-nrg/cds-au/v1/energy/plans/BLU426788MS@VEC"
+    }
+}

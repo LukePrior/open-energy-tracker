@@ -1,0 +1,175 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "simply-energy",
+        "planId": "SIM473701MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Simply Energy",
+        "geography": {
+            "distributors": [
+                "Jemena"
+            ],
+            "includedPostcodes": [
+                "3011",
+                "3012",
+                "3013",
+                "3015",
+                "3016",
+                "3019",
+                "3020",
+                "3023",
+                "3025",
+                "3031",
+                "3032",
+                "3033",
+                "3034",
+                "3036",
+                "3037",
+                "3038",
+                "3039",
+                "3040",
+                "3041",
+                "3042",
+                "3043",
+                "3044",
+                "3045",
+                "3046",
+                "3047",
+                "3048",
+                "3049",
+                "3051",
+                "3052",
+                "3058",
+                "3059",
+                "3060",
+                "3061",
+                "3062",
+                "3063",
+                "3064",
+                "3068",
+                "3070",
+                "3072",
+                "3073",
+                "3074",
+                "3076",
+                "3078",
+                "3079",
+                "3081",
+                "3083",
+                "3084",
+                "3085",
+                "3086",
+                "3087",
+                "3335",
+                "3336",
+                "3337",
+                "3340",
+                "3427",
+                "3428",
+                "3429",
+                "3430",
+                "3431",
+                "3437",
+                "3750",
+                "3753"
+            ]
+        },
+        "displayName": "VIC - Simply Seniors 10% off elec",
+        "lastUpdated": "2023-06-21T00:37:54Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-06-30T14:00:00Z",
+        "electricityContract": {
+            "terms": "For further details on the information presented in this Plan Information Document, or for full terms and conditions, please visit www.simplyenergy.com.au or call Simply Energy on 13 88 08.",
+            "isFixed": false,
+            "termType": "OTHER",
+            "timeZone": "AEST",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "category": "OTHER",
+                    "description": "You'll receive a 10% Guaranteed Discount off our electricity usage and supply charges.",
+                    "displayName": "Guaranteed Discount",
+                    "methodUType": "percentOfBill",
+                    "percentOfBill": {
+                        "rate": "10"
+                    }
+                }
+            ],
+            "variation": "We may vary your rates and charges at any time, including if any underlying information is incorrect, you get a new meter or your distributor changes your tariff. We'll give you advance notice of any change, which may be on your bill.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "To be eligible for this offer you must be a current Seniors Card member. If you are no longer eligible for this offer, we can end your energy  plan."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "29.56"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "Anytime",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "103.98"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "23.99"
+                            }
+                        ],
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Controlled Load",
+                    "rateBlockUType": "singleRate"
+                }
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Feed-In RES 2023- GST Exclusive",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "4.90"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "Solar Feed In 2021 Premium Residential",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "Ongoing energy plan until you or we end it. We may end this energy plan at any time by giving you 20 Business Days notice."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/simply-energy/cds-au/v1/energy/plans/SIM473701MR@VEC"
+    }
+}

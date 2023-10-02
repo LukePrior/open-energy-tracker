@@ -10,8 +10,10 @@
                 "AusNet Services (gas)"
             ],
             "includedPostcodes": [
+                "3241",
                 "3260",
                 "3284",
+                "3352",
                 "3363",
                 "3364",
                 "3431",
@@ -22,13 +24,12 @@
                 "3440",
                 "3441",
                 "3442",
-                "3551",
-                "3352",
-                "3241",
-                "3467"
+                "3467",
+                "3551"
             ]
         },
         "displayName": "VIC Simply for Good by ENGIE gas",
+        "effectiveTo": "2023-01-03T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -173,7 +174,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "Ongoing energy plan until you or we end it. We may end this energy plan at any time by giving you 20 Business Days notice."
         },
-        "lastUpdated": "2022-09-14T03:40:27Z",
+        "lastUpdated": "2023-01-03T13:36:19Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-09-15T14:00:00Z"
     },

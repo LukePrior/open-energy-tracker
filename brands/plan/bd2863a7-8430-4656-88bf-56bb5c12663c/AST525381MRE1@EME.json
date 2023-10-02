@@ -1,0 +1,243 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "arcstream",
+        "planId": "AST525381MRE1@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Arcstream",
+        "geography": {
+            "distributors": [
+                "TasNetworks"
+            ],
+            "includedPostcodes": [
+                "7000",
+                "7004",
+                "7005",
+                "7007",
+                "7008",
+                "7009",
+                "7010",
+                "7011",
+                "7012",
+                "7015",
+                "7016",
+                "7017",
+                "7018",
+                "7019",
+                "7020",
+                "7021",
+                "7022",
+                "7023",
+                "7024",
+                "7025",
+                "7026",
+                "7027",
+                "7030",
+                "7050",
+                "7052",
+                "7053",
+                "7054",
+                "7055",
+                "7109",
+                "7112",
+                "7113",
+                "7116",
+                "7117",
+                "7119",
+                "7120",
+                "7139",
+                "7140",
+                "7150",
+                "7155",
+                "7162",
+                "7163",
+                "7170",
+                "7171",
+                "7172",
+                "7173",
+                "7174",
+                "7175",
+                "7176",
+                "7177",
+                "7178",
+                "7179",
+                "7180",
+                "7182",
+                "7183",
+                "7184",
+                "7185",
+                "7186",
+                "7187",
+                "7190",
+                "7209",
+                "7210",
+                "7211",
+                "7212",
+                "7213",
+                "7214",
+                "7215",
+                "7216",
+                "7248",
+                "7249",
+                "7250",
+                "7252",
+                "7253",
+                "7254",
+                "7258",
+                "7259",
+                "7260",
+                "7261",
+                "7262",
+                "7263",
+                "7264",
+                "7265",
+                "7267",
+                "7268",
+                "7270",
+                "7275",
+                "7276",
+                "7277",
+                "7290",
+                "7291",
+                "7292",
+                "7300",
+                "7301",
+                "7302",
+                "7303",
+                "7304",
+                "7305",
+                "7306",
+                "7307",
+                "7310",
+                "7315",
+                "7316",
+                "7320",
+                "7321",
+                "7322",
+                "7325",
+                "7330",
+                "7331",
+                "7466",
+                "7467",
+                "7468",
+                "7469",
+                "7470"
+            ]
+        },
+        "displayName": "Shine  TAS97",
+        "lastUpdated": "2023-02-06T06:16:15.078Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-02-06T00:00:00.000Z",
+        "meteringCharges": [
+            {
+                "description": "Fees and charges charged by the distributor are published on the Distributors website and may change from time to time.",
+                "displayName": "Additional fees may apply. For more information, please refer to arcstream.solutions",
+                "minimumValue": "0.00"
+            },
+            {
+                "description": "Fees and charges charged by the distributor are published on the Distributors website and may change from time to time. For more information visit arcstream.solutions",
+                "displayName": "Additional fees may apply. For more information visit arcstream.solutions",
+                "minimumValue": "0.00"
+            }
+        ],
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECT_MOVE_OUT",
+                    "description": "Disconnection fee (inc. GST), only applies for move-out requests"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "description": "Direct debit dishonour payment fee (inc. GST)"
+                },
+                {
+                    "term": "MONTHLY",
+                    "type": "OTHER",
+                    "description": "Recurring monthly fee"
+                },
+                {
+                    "term": "MONTHLY",
+                    "type": "PAPER_BILL",
+                    "description": "Paper Bill Fee"
+                },
+                {
+                    "rate": "1.1",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "Credit Card Processing fee"
+                }
+            ],
+            "terms": "For further details on the terms and conditions of the offer, please visit arcstream.solutions or email us at enquiries@arcstream.solutions",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "description": "This is a guaranteed credit applied at $30 per month",
+                    "displayName": "Arcstream VPP Credit",
+                    "fixedAmount": {
+                        "amount": "360.00"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "Prices are variable and subject to change.  For further details on the terms and conditions of the offer, please visit arcstream.solutions or email us at enquiries@arcstream.solutions",
+            "meterTypes": [
+                "Type 4"
+            ],
+            "eligibility": [
+                {
+                    "type": "REQ_EQUIP_SUPPLIER",
+                    "description": "To be eligible you must have >5kW Solar PV and acquire a 5kW Inverter and >20kWh Battery. The battery must be a Qcells' Q.HOME battery.  For best outcomes we recommend you have a 6.6kW solar PV. For more information please refer to arcstream.solutions or email us at enquiries@arcstream.solutions",
+                    "information": "You have or acquire a Qcells' Q.HOME battery"
+                }
+            ],
+            "pricingModel": "QUOTA",
+            "tariffPeriod": [
+                {
+                    "endDate": "01-31",
+                    "startDate": "02-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 200,
+                                "unitPrice": "71.82"
+                            },
+                            {
+                                "volume": 1,
+                                "unitPrice": "0.27"
+                            },
+                            {
+                                "volume": null,
+                                "unitPrice": "27.272728"
+                            }
+                        ],
+                        "period": "P1M",
+                        "description": "Flat rate all times",
+                        "displayName": "All time flat rate",
+                        "generalUnitPrice": "27.27"
+                    },
+                    "displayName": "All Seasons",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "0.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL",
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY"
+            ],
+            "coolingOffDays": "10"
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/arcstream/cds-au/v1/energy/plans/AST525381MRE1@EME"
+    }
+}

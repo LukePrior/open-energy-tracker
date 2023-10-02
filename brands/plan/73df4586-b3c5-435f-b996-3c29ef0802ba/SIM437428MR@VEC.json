@@ -1,0 +1,212 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "simply-energy",
+        "planId": "SIM437428MR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Simply Energy",
+        "geography": {
+            "distributors": [
+                "Australian Gas Networks"
+            ],
+            "includedPostcodes": [
+                "3521",
+                "3522",
+                "3523",
+                "3561",
+                "3564",
+                "3607",
+                "3608",
+                "3614",
+                "3616",
+                "3618",
+                "3619",
+                "3620",
+                "3621",
+                "3622",
+                "3623",
+                "3624",
+                "3629",
+                "3630",
+                "3631",
+                "3633",
+                "3658",
+                "3659",
+                "3660",
+                "3662",
+                "3663",
+                "3664",
+                "3665",
+                "3666",
+                "3669",
+                "3672",
+                "3673",
+                "3675",
+                "3676",
+                "3677",
+                "3678",
+                "3682",
+                "3683",
+                "3688",
+                "3689",
+                "3690",
+                "3691",
+                "3694",
+                "3726",
+                "3747",
+                "3749",
+                "3753",
+                "3756",
+                "3757",
+                "3758",
+                "3763",
+                "3764",
+                "3775"
+            ]
+        },
+        "displayName": "VIC Simply Energy Movers 3% gas",
+        "effectiveTo": "2023-06-29T14:00:00Z",
+        "gasContract": {
+            "fees": [
+                {
+                    "rate": "0.36",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "You may be charged credit card fees in all channels (other than direct debit) of 0.36% for Mastercard."
+                },
+                {
+                    "rate": "0.42",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "You may be charged credit card fees in all channels (other than direct debit) of 0.42% for Visa."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "PAYMENT_PROCESSING",
+                    "amount": "1.65",
+                    "description": "A $1.65 (inc. GST) charge will apply to paper bills sent in the post."
+                }
+            ],
+            "terms": "For further details on the information presented in this Plan Information Document, or for full terms and conditions, please visit www.simplyenergy.com.au or call Simply Energy on 13 88 08.",
+            "isFixed": false,
+            "termType": "OTHER",
+            "discounts": [
+                {
+                    "type": "GUARANTEED",
+                    "category": "OTHER",
+                    "description": "You'll receive 3% off our gas usage and supply charges.",
+                    "displayName": "Guaranteed Discount",
+                    "methodUType": "percentOfBill",
+                    "percentOfBill": {
+                        "rate": "3"
+                    }
+                }
+            ],
+            "variation": "We may vary your rates and charges at any time, including if any underlying information is incorrect, you get a new meter or your distributor changes your tariff. We'll give you advance notice of any change, which may be on your bill.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Simply Incentives Reward Plan",
+                    "displayName": "Simply Incentives Reward Plan",
+                    "eligibility": "You can rely on us to have your gas for your new home switched to Simply Energy within 3 business days. Conditions apply."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "To be eligible for this offer you must be moving house within 60 days of this contract start."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "05-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 27,
+                                "unitPrice": "3.58"
+                            },
+                            {
+                                "volume": 22,
+                                "unitPrice": "3.07"
+                            },
+                            {
+                                "unitPrice": "2.62"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Summer",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "77.10"
+                },
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 27,
+                                "unitPrice": "3.58"
+                            },
+                            {
+                                "volume": 22,
+                                "unitPrice": "3.07"
+                            },
+                            {
+                                "unitPrice": "2.62"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Winter",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "77.10"
+                },
+                {
+                    "endDate": "12-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 27,
+                                "unitPrice": "3.58"
+                            },
+                            {
+                                "volume": 22,
+                                "unitPrice": "3.07"
+                            },
+                            {
+                                "unitPrice": "2.62"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Off Peak"
+                    },
+                    "displayName": "Summer",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "77.10"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Ongoing energy plan until you or we end it. We may end this energy plan at any time by giving you 20 Business Days notice."
+        },
+        "lastUpdated": "2023-06-30T13:36:34Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-01-03T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/simply-energy/cds-au/v1/energy/plans/SIM437428MR@VEC"
+    }
+}

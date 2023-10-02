@@ -48,7 +48,7 @@
             ]
         },
         "displayName": "Sumo Lite Gas",
-        "effectiveTo": "2023-08-15T14:00:00Z",
+        "effectiveTo": "2023-01-08T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -173,7 +173,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "No contract term."
         },
-        "lastUpdated": "2022-08-23T04:14:55Z",
+        "lastUpdated": "2023-01-08T14:30:26Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-23T14:00:00Z"
     },

@@ -21,6 +21,7 @@
             ]
         },
         "displayName": "Standing Offer Gas Australian Gas Networks Murray Valley",
+        "effectiveTo": "2022-10-27T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -103,7 +104,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "The agreement continues until terminated by your or us in accordance with your terms and conditions."
         },
-        "lastUpdated": "2021-12-21T04:19:10Z",
+        "lastUpdated": "2022-10-27T22:28:00Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2021-12-31T13:00:00Z"
     },

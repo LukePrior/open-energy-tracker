@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "BusinessDeal - Demand Single Rate + CL",
-        "lastUpdated": "2022-08-18T04:18:25Z",
+        "effectiveTo": "2023-06-30T14:00:00Z",
+        "lastUpdated": "2023-06-30T20:40:09Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {
@@ -126,6 +127,7 @@
                                 "unitPrice": "17.85"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Anytime"
                     },
                     "displayName": "Period",

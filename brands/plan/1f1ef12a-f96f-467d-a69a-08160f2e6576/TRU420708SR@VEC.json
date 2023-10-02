@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "Basic Home - Time of Use with Controlled Load",
-        "lastUpdated": "2022-08-19T04:06:48Z",
+        "effectiveTo": "2022-10-11T13:00:00Z",
+        "lastUpdated": "2022-10-11T21:50:28Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {

@@ -275,7 +275,8 @@
             ]
         },
         "displayName": "Origin Solar Boost Plus (2 Period TOU with Dedicated Circuit)",
-        "lastUpdated": "2022-07-29T02:48:48Z",
+        "effectiveTo": "2022-11-02T13:00:00Z",
+        "lastUpdated": "2022-11-03T06:01:47Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-31T14:00:00Z",
         "electricityContract": {

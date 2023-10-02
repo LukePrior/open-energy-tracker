@@ -1,0 +1,122 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "momentum",
+        "planId": "MOM427811SR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Momentum Energy",
+        "geography": {
+            "distributors": [
+                "AusNet Services (gas)"
+            ],
+            "includedPostcodes": [
+                "3241",
+                "3260",
+                "3284",
+                "3363",
+                "3364",
+                "3431",
+                "3434",
+                "3435",
+                "3438",
+                "3440",
+                "3441",
+                "3442",
+                "3551"
+            ]
+        },
+        "displayName": "Standing Offer Gas Ausnet Adjoining West",
+        "effectiveTo": "2023-01-02T13:00:00Z",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "10.69",
+                    "description": "Move-In/Move Out Meter Read fee\nFor information on additional fees, a full schedule of charges is available from www.momentumenergy.com.au/fees"
+                }
+            ],
+            "terms": "Full terms and conditions can be obtained from www.momentumenergy.com.au/terms or by contacting our Customer Care Team on 1800 SWITCH.",
+            "isFixed": false,
+            "variation": "We will give you written notice of any variations to your rates & charges under your terms and conditions in accordance with applicable legal requirements.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Available with a Supply Address in Victoria in the Ausnet Adjoining West distribution area and is subject to having the necessary metering system configuration."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.463"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.338"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "2.249"
+                            },
+                            {
+                                "unitPrice": "2.235"
+                            }
+                        ],
+                        "displayName": "Off-Peak"
+                    },
+                    "displayName": "Off-Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "104.06"
+                },
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "3.242"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "3.09"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "2.708"
+                            },
+                            {
+                                "unitPrice": "2.689"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "104.06"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with your terms and conditions."
+        },
+        "lastUpdated": "2023-01-02T22:50:17Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-10-27T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/momentum/cds-au/v1/energy/plans/MOM427811SR@VEC"
+    }
+}

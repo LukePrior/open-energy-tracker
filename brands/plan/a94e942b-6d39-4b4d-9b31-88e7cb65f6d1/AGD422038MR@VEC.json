@@ -112,7 +112,8 @@
             ]
         },
         "displayName": "Residential Basics - New AGL customers only",
-        "lastUpdated": "2022-09-05T23:42:20Z",
+        "effectiveTo": "2022-10-24T13:00:00Z",
+        "lastUpdated": "2022-10-25T00:19:19Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-09-07T14:00:00Z",
         "electricityContract": {

@@ -75,7 +75,8 @@
             ]
         },
         "displayName": "Blue VDO Single Rate (General Usage with Controlled Load)",
-        "lastUpdated": "2022-07-04T01:16:40Z",
+        "effectiveTo": "2023-06-30T14:00:00Z",
+        "lastUpdated": "2023-07-01T00:16:26Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {

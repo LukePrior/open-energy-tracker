@@ -327,7 +327,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "21.05"
+                                    "unitPrice": "21.046"
                                 }
                             ],
                             "timeOfUse": [
@@ -346,7 +346,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "21.05"
+                                    "unitPrice": "21.046"
                                 }
                             ],
                             "timeOfUse": [
@@ -367,7 +367,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "21.05"
+                                    "unitPrice": "21.046"
                                 }
                             ],
                             "timeOfUse": [
@@ -426,7 +426,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "21.05"
+                                    "unitPrice": "21.046"
                                 }
                             ],
                             "timeOfUse": [
@@ -447,7 +447,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "21.05"
+                                    "unitPrice": "21.046"
                                 }
                             ],
                             "timeOfUse": [
@@ -493,7 +493,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "21.05"
+                                    "unitPrice": "21.046"
                                 }
                             ],
                             "timeOfUse": [
@@ -512,7 +512,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "21.05"
+                                    "unitPrice": "21.046"
                                 }
                             ],
                             "timeOfUse": [
@@ -533,7 +533,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "21.05"
+                                    "unitPrice": "21.046"
                                 }
                             ],
                             "timeOfUse": [
@@ -576,7 +576,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "21.05"
+                                    "unitPrice": "21.046"
                                 }
                             ],
                             "timeOfUse": [
@@ -597,7 +597,7 @@
                             "type": "SHOULDER",
                             "rates": [
                                 {
-                                    "unitPrice": "21.05"
+                                    "unitPrice": "21.046"
                                 }
                             ],
                             "timeOfUse": [
@@ -627,24 +627,37 @@
                 "BPAY",
                 "CREDIT_CARD"
             ],
-            "controlledLoad": {
-                "rates": [
-                    {
-                        "unitPrice": "13.13"
-                    }
-                ],
-                "period": "P1D",
-                "dailyCharge": "0.00",
-                "description": "Separately metered usage. The hours of application are determined by your Distributor.",
-                "displayName": "Controlled Load 1"
-            },
+            "controlledLoad": [
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "13.13"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                    "displayName": "Controlled Load 1"
+                },
+                {
+                    "rates": [
+                        {
+                            "unitPrice": "14.54"
+                        }
+                    ],
+                    "period": "P1D",
+                    "dailyCharge": "0.00",
+                    "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                    "displayName": "Controlled Load 2"
+                }
+            ],
             "coolingOffDays": "10",
             "greenPowerCharges": [
                 {
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "10"
                         }
                     ],
@@ -656,7 +669,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "20"
                         }
                     ],
@@ -668,7 +681,7 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.05",
+                            "amount": "0.0495",
                             "percentGreen": "100"
                         }
                     ],
@@ -685,7 +698,7 @@
                     "displayName": "Single Rate Solar FiT",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "7.60"
+                        "amount": "7.6"
                     }
                 }
             ],

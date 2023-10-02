@@ -327,7 +327,8 @@
             ]
         },
         "displayName": "VIC Simply VPP BYO elec",
-        "lastUpdated": "2022-06-28T06:45:29Z",
+        "effectiveTo": "2022-11-30T13:00:00Z",
+        "lastUpdated": "2022-12-01T00:41:11Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {

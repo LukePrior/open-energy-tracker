@@ -60,7 +60,8 @@
             ]
         },
         "displayName": "Residential Value Saver (Westpac Regional customers) - New AGL customers only",
-        "lastUpdated": "2022-08-30T23:49:47Z",
+        "effectiveTo": "2022-10-24T13:00:00Z",
+        "lastUpdated": "2022-10-25T00:19:36Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {

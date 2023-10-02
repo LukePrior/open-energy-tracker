@@ -1,0 +1,206 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "next-business",
+        "planId": "NEX470154SS@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Next Business Energy",
+        "geography": {
+            "distributors": [
+                "Citipower"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
+                "3011",
+                "3031",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3078",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
+            ]
+        },
+        "displayName": "NBE Standing VIC Citipower 5 Day TOU (CMGBO)",
+        "lastUpdated": "2023-06-15T03:52:11Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2023-06-29T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "553.33",
+                    "description": "Fees quoted are the maximum applicable fee. This charge may vary, to confirm this charge and all other charges please refer to our website or contact us for details. Additional fees may also apply.\nAdditional service order and ancillary service fees may apply. For more information, please visit our  website at www.nextbusinessenergy.com.au."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "538.97",
+                    "description": "Fees quoted are the maximum applicable fee. This charge may vary, to confirm this charge and all other charges please refer to our website or contact us for details. Additional fees may also apply."
+                }
+            ],
+            "terms": "The sale of electricity is subject to Next Business Energy's Standing Terms and Conditions, which are available on its website at www.nextbusinessenergy.com.au.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "Next Business Energy may vary the rates in accordance with Victorian Default Offer variations and Energy Laws.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is only available to small customers where Next Business Energy is currently financially responsible for the premise."
+                }
+            ],
+            "pricingModel": "TIME_OF_USE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "Period",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "volume": 27,
+                                    "unitPrice": "40.625"
+                                },
+                                {
+                                    "unitPrice": "40.625"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "1800",
+                                    "startTime": "1000"
+                                }
+                            ],
+                            "displayName": "Peak"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "29.375"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "1000",
+                                    "startTime": "0000"
+                                },
+                                {
+                                    "days": [
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "0000"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "1800"
+                                }
+                            ],
+                            "displayName": "Off Peak"
+                        }
+                    ],
+                    "dailySupplyCharges": "605.13"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "Premium",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                },
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "RFIT",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "7.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "This Standing Offer Contract continues until you change to another electricity supplier or accept an offer from Next Business Energy"
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/next-business/cds-au/v1/energy/plans/NEX470154SS@VEC"
+    }
+}

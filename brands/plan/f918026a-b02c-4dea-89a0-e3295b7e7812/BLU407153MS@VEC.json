@@ -275,7 +275,8 @@
             ]
         },
         "displayName": "Blue Business Local NEE13",
-        "lastUpdated": "2022-07-08T05:39:29Z",
+        "effectiveTo": "2022-10-17T13:00:00Z",
+        "lastUpdated": "2022-10-17T21:31:25Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {

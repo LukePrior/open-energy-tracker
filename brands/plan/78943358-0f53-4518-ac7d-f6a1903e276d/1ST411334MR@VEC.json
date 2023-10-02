@@ -275,7 +275,8 @@
             ]
         },
         "displayName": "1st Saver, Residential - Time of Use with Controlled Load",
-        "lastUpdated": "2022-07-18T00:33:27Z",
+        "effectiveTo": "2022-12-18T13:00:00Z",
+        "lastUpdated": "2022-12-19T10:42:10Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-17T14:00:00Z",
         "electricityContract": {

@@ -327,7 +327,8 @@
             ]
         },
         "displayName": "ReAmped Standard| Anytime",
-        "lastUpdated": "2022-06-14T23:21:51Z",
+        "effectiveTo": "2023-07-12T14:00:00Z",
+        "lastUpdated": "2023-07-13T05:40:42Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-06-30T14:00:00Z",
         "electricityContract": {
@@ -354,7 +355,7 @@
             "terms": "Not available in all areas or property types. Residential customers only. Customers will be billed on a fortnightly basis. See www.reampedenergy.com.au for full terms and conditions.",
             "isFixed": false,
             "timeZone": "AEST",
-            "variation": "The rates for the Victorian Default Offer are regulated by the Essential Services Commission (ESC). The ESC will review these rates annually. Weu2019ll notify you before a rate change occurs.",
+            "variation": "The rates for the Victorian Default Offer are regulated by the Essential Services Commission (ESC). The ESC will review these rates annually. We\u2019ll notify you before a rate change occurs.",
             "eligibility": [
                 {
                     "type": "OTHER",

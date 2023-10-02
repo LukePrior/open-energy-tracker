@@ -10,20 +10,20 @@
                 "Gas Networks Victoria"
             ],
             "includedPostcodes": [
-                "3579",
+                "3264",
+                "3463",
+                "3515",
+                "3523",
                 "3549",
+                "3579",
                 "3585",
                 "3638",
                 "3888",
-                "3909",
-                "3463",
-                "3523",
-                "3515",
-                "3264"
+                "3909"
             ]
         },
         "displayName": "Commercial Standard Retail Offer",
-        "effectiveTo": "2022-12-30T13:00:00Z",
+        "effectiveTo": "2023-01-01T13:00:00Z",
         "gasContract": {
             "fees": [
                 {
@@ -77,7 +77,7 @@
             ],
             "terms": "Full terms and conditions can be obtained from www.tasgas.com.au/vic or by contacting our Customer Service Team on 1800 750 750.",
             "isFixed": true,
-            "variation": "",
+            "variation": "-",
             "eligibility": [
                 {
                     "type": "OTHER",
@@ -126,7 +126,7 @@
             "coolingOffDays": 10,
             "onExpiryDescription": "The agreement continues until terminated by you or us"
         },
-        "lastUpdated": "2021-12-06T05:51:31Z",
+        "lastUpdated": "2023-01-01T15:00:03Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2021-12-05T13:00:00Z"
     },

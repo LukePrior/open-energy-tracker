@@ -112,7 +112,8 @@
             ]
         },
         "displayName": "Origin Flexi Rate ePlus (TOU 5 Day with Dedicated Circuit)",
-        "lastUpdated": "2022-08-31T04:10:18Z",
+        "effectiveTo": "2022-11-01T13:00:00Z",
+        "lastUpdated": "2022-11-01T23:28:47Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {

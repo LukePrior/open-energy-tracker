@@ -1,0 +1,232 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "next-business",
+        "planId": "NEX481632MS@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Next Business Energy",
+        "geography": {
+            "distributors": [
+                "Citipower"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
+                "3011",
+                "3031",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3078",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
+            ]
+        },
+        "displayName": "Next Assured Small Business Citipower 7 Day TOU + CL",
+        "effectiveTo": "2023-07-18T14:00:00Z",
+        "lastUpdated": "2023-07-19T05:54:11Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2023-06-30T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "rate": "1.95",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "1.95% (GST exempt) AMEX credit card payment processing fee\nAdditional service order and ancillary service fees may apply. For more information, please visit our  website at www.nextbusinessenergy.com.au."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "553.33",
+                    "description": "Fees quoted are the maximum applicable fee. This charge may vary, to confirm this charge and all other charges please refer to our website or contact us for details. Additional fees may also apply."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "538.97",
+                    "description": "Fees quoted are the maximum applicable fee. This charge may vary, to confirm this charge and all other charges please refer to our website or contact us for details. Additional fees may also apply."
+                },
+                {
+                    "rate": "0.77",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "0.77% (GST exempt) Visa & Mastercard credit card payment processing fee"
+                }
+            ],
+            "terms": "The sale of electricity to the Customer is subject to Next Business Energy's Market Terms and Conditions, which are available on its website at www.nextbusinessenergy.com.au.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "Next Business Energy may vary the rates at any time in accordance with our terms and conditions.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is only available to small customers with an applicable network tariff."
+                }
+            ],
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "Period",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "volume": 27,
+                                    "unitPrice": "31.81"
+                                },
+                                {
+                                    "unitPrice": "31.81"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "2300",
+                                    "startTime": "0700"
+                                }
+                            ],
+                            "displayName": "Peak"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "19.71"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0700",
+                                    "startTime": "0000"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "2300"
+                                }
+                            ],
+                            "displayName": "Off Peak"
+                        }
+                    ],
+                    "dailySupplyCharges": "95.02"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "17.94"
+                            }
+                        ],
+                        "description": "Controlled Load",
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Controlled Load",
+                    "rateBlockUType": "singleRate"
+                }
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "Premium",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                },
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "RFIT",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "7.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "This contract continues for as long as you choose to remain on the plan."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/next-business/cds-au/v1/energy/plans/NEX481632MS@VEC"
+    }
+}

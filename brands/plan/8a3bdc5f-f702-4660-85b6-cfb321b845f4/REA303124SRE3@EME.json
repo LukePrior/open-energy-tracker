@@ -39,7 +39,8 @@
             ]
         },
         "displayName": "ReAmped Standard | Anytime",
-        "lastUpdated": "2022-06-30T14:08:13.488Z",
+        "effectiveTo": "2030-12-31T00:00:00.000Z",
+        "lastUpdated": "2023-06-23T01:50:26.281Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-07-01T00:00:00.000Z",
         "electricityContract": {

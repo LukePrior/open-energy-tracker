@@ -1,0 +1,177 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "pacific-blue",
+        "planId": "PA1457997MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Pacific Blue Retail",
+        "geography": {
+            "distributors": [
+                "Citipower"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
+                "3011",
+                "3031",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3078",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
+            ]
+        },
+        "displayName": "Blue Home",
+        "effectiveTo": "2023-05-31T14:00:00Z",
+        "lastUpdated": "2023-05-31T22:53:33Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-04-26T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "rate": "0.6",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "For payments made by MasterCard or Visa where we incur a merchant services fee. Not applicable to direct debit payments by credit card or debit card.\nUsage aggregated according to Australian Eastern Standard Time (AEST). Your usage may be adjusted for local time (Australian Daylight Savings Time). Further information on our charges is available at: http://pacificblue.com.au/additional-charges"
+                },
+                {
+                    "rate": "0.75",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "For payments made by AMEX or any other payment where we incur a merchant services fee. Not applicable to direct debit payments by credit card or debit card."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "0.00",
+                    "description": "There are no exit fees associated with this offer. We may vary the Charges and fees at any time by notice to you, including by message on your bill. Details about Charges and fees are set out under the terms and conditions of your Market Agreement."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "41.34",
+                    "description": "$41.34 (inc. GST) Standard rates apply during business hours. Fees may vary and will be quoted on request."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "41.95",
+                    "description": "$41.95 (inc. GST) Standard rates apply during business hours. Fees may vary and will be quoted on request."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "7.50",
+                    "description": "Dishonour fee. $7.50 (exc. GST) if your payment is dishonoured or reversed."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "3.30",
+                    "description": "Paper bill fee $3.30 (inc. GST) for each paper bill."
+                }
+            ],
+            "terms": "This contract is ongoing and may be terminated by you or us in accordance with the terms of our Market Agreement. The full terms and conditions applicable to this offer are available at https://pacificblue.com.au/terms-and-conditions. For further information about this offer, our market terms or solar feed-in eligibility, call Pacific Blue on 133 669.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "Prices are variable and may be varied by notice to you. We will provide you with information about any variations to your prices in accordance with Energy Laws. A network tariff change may be required if you have a solar system installed.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is only available to small customers with an applicable network tariff."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "19.15"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "100.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "PFiT",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                },
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "RFiT",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "5.20"
+                    }
+                }
+            ],
+            "onExpiryDescription": "Our market agreement is ongoing and may be ended by you or us in accordance with the terms of our agreement."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/pacific-blue/cds-au/v1/energy/plans/PA1457997MR@VEC"
+    }
+}

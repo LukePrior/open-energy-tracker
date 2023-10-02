@@ -112,7 +112,7 @@
             ]
         },
         "displayName": "Business Balance Plan 24 - Peak with Dedicated Circuit",
-        "lastUpdated": "2022-08-29T00:32:45Z",
+        "lastUpdated": "2022-08-29T10:32:45Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-09-13T14:00:00Z",
         "electricityContract": {
@@ -176,6 +176,7 @@
                                 "unitPrice": "20.7181"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Rate"
                     },
                     "displayName": "Period",

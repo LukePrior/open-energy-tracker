@@ -275,7 +275,8 @@
             ]
         },
         "displayName": "Origin Advantage Variable ePlus - FiftyUp Club (Single Rate)",
-        "lastUpdated": "2022-08-31T04:10:13Z",
+        "effectiveTo": "2022-10-20T13:00:00Z",
+        "lastUpdated": "2022-10-21T01:19:07Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2022-08-31T14:00:00Z",
         "electricityContract": {

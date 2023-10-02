@@ -1,0 +1,219 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "ovo-energy",
+        "planId": "OVO462812MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "OVO Energy",
+        "geography": {
+            "distributors": [
+                "Citipower"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
+                "3011",
+                "3031",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3078",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
+            ]
+        },
+        "displayName": "The Basic Solar Plan Welcome Credit",
+        "effectiveTo": "2023-06-29T14:00:00Z",
+        "lastUpdated": "2023-06-30T03:22:25Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-05-04T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "53.09",
+                    "description": "This is a charge from your distribution company. OVO Energy will only ever pass the exact cost through to you. Site attendance - A fee (inc GST) may be charged for the re-energisation of power to the site.\nOVO Energy reserves the right to and will notify you if it changes or imposes additional fees or charges in relation to your energy supply. Please refer to ovoenergy.com.au/fees for more information."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "41.95",
+                    "description": "This is a charge from your distribution company. OVO Energy will only ever pass the exact cost through to you. Site attendance - A fee (inc GST) may be charged for disconnection when you move out of your property. Fees may vary for some customers."
+                }
+            ],
+            "terms": "OVO Energy's terms and conditions are available at www.ovoenergy.com.au/terms",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "OVO Energy may vary the rates at any time in accordance with the terms and conditions available at www.ovoenergy.com.au/terms",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Welcome Credit",
+                    "displayName": "Welcome Credit",
+                    "eligibility": "The Welcome Credit is valid via OVO Energy's website, VEC and selected third party sales partners. OVO Energy will credit you $190 (inclusive of GST) applied in twelve monthly instalments of $15.84 on each of your monthly bills.Terms and Conditions apply."
+                },
+                {
+                    "category": "OTHER",
+                    "description": "Interest Rewards",
+                    "displayName": "Interest Rewards",
+                    "eligibility": "OVO Energy pay 3% interest on credit balances (after all monthly charges are considered). This is prorated for the number of days since your last bill."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer applies to residential customers with a domestic solar PV system on an applicable network tariff. A solar feed-in tariff amount of 12c/kWh will apply for the first 4000kWh exported per year. 7c/kWh will apply thereafter."
+                }
+            ],
+            "pricingModel": "TIME_OF_USE",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "displayName": "All-year",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "32.5307"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "2100",
+                                    "startTime": "1500"
+                                }
+                            ],
+                            "displayName": "Peak"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "18.6828"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "0000",
+                                    "startTime": "2100"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "1500",
+                                    "startTime": "0000"
+                                }
+                            ],
+                            "displayName": "Off Peak"
+                        }
+                    ],
+                    "dailySupplyCharges": "125.1586"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "OTHER"
+            ],
+            "coolingOffDays": 10,
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0495",
+                            "percentGreen": "100"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "100% GreenPower for 4.95 c/kWh inc. GST.",
+                    "displayName": "GreenPower 100"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "OVO Energy Retailer Feed-in-Tariff (exclusive of GST)",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "12.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "Ongoing contract with no contract term"
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/ovo-energy/cds-au/v1/energy/plans/OVO462812MR@VEC"
+    }
+}

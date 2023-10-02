@@ -275,7 +275,7 @@
             ]
         },
         "displayName": "Business Carbon Neutral Flexi Plan - Peak Only",
-        "lastUpdated": "2022-08-29T00:32:47Z",
+        "lastUpdated": "2022-08-29T10:32:47Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2022-09-13T14:00:00Z",
         "electricityContract": {
@@ -331,6 +331,7 @@
                                 "unitPrice": "33.30"
                             }
                         ],
+                        "period": "P1D",
                         "displayName": "Rate"
                     },
                     "displayName": "Period",

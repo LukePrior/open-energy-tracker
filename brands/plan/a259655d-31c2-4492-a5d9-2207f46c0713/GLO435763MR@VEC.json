@@ -1,0 +1,150 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "globird",
+        "planId": "GLO435763MR@VEC",
+        "fuelType": "GAS",
+        "brandName": "GloBird Energy",
+        "geography": {
+            "distributors": [
+                "Australian Gas Networks"
+            ],
+            "includedPostcodes": [
+                "3636",
+                "3640",
+                "3641",
+                "3644",
+                "3646",
+                "3683",
+                "3685",
+                "3687",
+                "3730"
+            ]
+        },
+        "displayName": "GloBird  ComboGLOSAVE Residential(Murray)-Australian Gas Networks",
+        "effectiveTo": "2022-12-29T13:00:00Z",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "22.00",
+                    "description": "For move-in customers to get a start read to establish your account, at least three business days\u2019 notice required and meter access required. Fee does not cover unplugging a plugged gas meter."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "22.00",
+                    "description": "Fee for final read when you Move-Out. At least three business days\u2019 notice required and meter access required. There is no fee if you simply switch to another retailer."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "2.50",
+                    "description": "Paper Bill. If you have opted to receive a paper bill by post"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "0.00",
+                    "description": "0 Credit Card Payment Processing Fee"
+                }
+            ],
+            "terms": "This contingent offer is for new residential customers when bundled with one of GloBird's eligible electricity plans. For further information about this offer call GloBird on 133456 or visit www.globirdenergy.com.au or see our full terms and conditions here: www.globirdenergy.com.au/legal/",
+            "isFixed": false,
+            "discounts": [
+                {
+                    "type": "CONDITIONAL",
+                    "category": "PAY_ON_TIME",
+                    "description": "Discounts only apply when the condition is met. 2% when you pay the bill by the due date. 2% when you have both an active gas and electricity account for the same premises on one account when you pay the bill by the due date, and 1% when you pay the bill by the due date with direct debit.",
+                    "displayName": "PPD",
+                    "methodUType": "percentOfBill",
+                    "percentOfBill": {
+                        "rate": "5"
+                    }
+                },
+                {
+                    "type": "CONDITIONAL",
+                    "category": "OTHER",
+                    "description": "Signup online to get a single $50 account credit applied on the 7th month after joining.",
+                    "displayName": "$50 Online Signup Bonus",
+                    "fixedAmount": {
+                        "amount": "45.45"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "We may update your rates from time to time. However we'll always notify you in writing prior to any change",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Local call center and no credit card processing fees",
+                    "displayName": "Local call center and no credit card processing fees",
+                    "eligibility": "Traditional energy plan. Easy to understand. Local call center. No sneaky credit card processing fees. Just great value."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This contingent product is only available to new customers in the Australian Gas Networks Murray distribution area."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.62"
+                            },
+                            {
+                                "unitPrice": "2.05"
+                            }
+                        ],
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak Period - June to September",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "58.00"
+                },
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 50,
+                                "unitPrice": "2.62"
+                            },
+                            {
+                                "unitPrice": "2.05"
+                            }
+                        ],
+                        "displayName": "Offpeak"
+                    },
+                    "displayName": "Offpeak Period - October to May",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "58.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discount percentage or rates."
+        },
+        "lastUpdated": "2022-12-30T06:34:56Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2022-12-11T13:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/globird/cds-au/v1/energy/plans/GLO435763MR@VEC"
+    }
+}

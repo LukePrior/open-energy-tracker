@@ -1,0 +1,176 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "covau",
+        "planId": "COV454470MR@VEC",
+        "fuelType": "GAS",
+        "brandName": "CovaU",
+        "geography": {
+            "distributors": [
+                "Australian Gas Networks"
+            ],
+            "includedPostcodes": [
+                "3561",
+                "3564",
+                "3616",
+                "3618",
+                "3620",
+                "3621",
+                "3622",
+                "3623",
+                "3624",
+                "3629",
+                "3630",
+                "3631",
+                "3658",
+                "3659",
+                "3660",
+                "3662",
+                "3663",
+                "3664",
+                "3665",
+                "3666",
+                "3669",
+                "3672",
+                "3677",
+                "3678",
+                "3688",
+                "3690",
+                "3691",
+                "3694",
+                "3753",
+                "3756",
+                "3757",
+                "3758",
+                "3763",
+                "3764",
+                "3775"
+            ]
+        },
+        "displayName": "Super Saver Online Residential Gas AGN",
+        "effectiveTo": "2023-07-11T14:00:00Z",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "25.00",
+                    "description": "$25.00 (inc. GST) Australia Post Dishonour Fee - Cheque dishonour and DD/CC Dishonour.\nYou must pay us any charges your distributor imposes on us in relation to services performed by your distributor (or anyone else) at your supply address. For details on additional charges that may apply, visit www.covau.com.au/additionalfees"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "85.80",
+                    "description": "$85.80 (inc. GST) when your property is disconnected (e.g. move out). Pass through & may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "100.10",
+                    "description": "$100.10 (inc. GST) fee may apply when your property is reconnected. This fee is passed through from your distributor and may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "9.50",
+                    "description": "NIL"
+                },
+                {
+                    "rate": "0.82",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A 0.82% (inc. GST) fee may apply to payments made by debit and credit cards."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CHEQUE_DISHONOUR",
+                    "amount": "9.50",
+                    "description": "NIL"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "PAYMENT_PROCESSING",
+                    "amount": "3.00",
+                    "description": "$3.00 (inc. GST) Over the counter payment fee \u2013 may apply for over the counter payments made at an Australia Post outlet."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "1.75",
+                    "description": "$1.75 (inc. GST) Paper Bill Fee."
+                },
+                {
+                    "rate": "0.8",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "PAYMENT_PROCESSING",
+                    "description": "A 0.803% (inc. GST) applies to credit card payments via Australia Post."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "11.00",
+                    "description": "$11.00 (inc. GST) Special Meter Read fee. This fee is passed through from your distributor and may vary."
+                }
+            ],
+            "terms": "For full terms and conditions applicable to this energy offer, please visit www.covau.com.au/terms or contact CovaU on 1300 689 866.",
+            "isFixed": false,
+            "variation": "We may vary your rates in line with our Terms and Conditions at any time by written notice to you. Notice will be given at least 5 business days prior to the variation.",
+            "incentives": [
+                {
+                    "category": "ACCOUNT_CREDIT",
+                    "description": "$50 Online Signup Bonus",
+                    "displayName": "$50 Online Signup Bonus",
+                    "eligibility": "$50 sign-up credits (including GST) will be applied on your first invoice after switching to CovaU. Offer is available to customers who sign up through CovaU's website only."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This offer is only available to residential customers in the stated distribution area with an eligible meter type. For more details about the eligibility criteria, please contact CovaU on 1300 689 866."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 27,
+                                "unitPrice": "3.07"
+                            },
+                            {
+                                "volume": 21,
+                                "unitPrice": "2.84"
+                            },
+                            {
+                                "unitPrice": "2.23"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "General Usage Rate"
+                    },
+                    "displayName": "General Usage Rate",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "70.46"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with our Market Retail Terms & Conditions"
+        },
+        "lastUpdated": "2023-07-11T23:37:20Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2023-04-03T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/covau/cds-au/v1/energy/plans/COV454470MR@VEC"
+    }
+}
