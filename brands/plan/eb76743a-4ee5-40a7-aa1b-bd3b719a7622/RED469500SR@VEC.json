@@ -1,79 +1,9 @@
 {
-    "data": {
-        "type": "STANDING",
-        "brand": "red-energy",
-        "planId": "RED469500SR@VEC",
-        "fuelType": "GAS",
-        "brandName": "Red Energy",
-        "geography": {
-            "distributors": [
-                "Australian Gas Networks"
-            ],
-            "includedPostcodes": [
-                "3636",
-                "3640",
-                "3641",
-                "3644",
-                "3646",
-                "3683",
-                "3685",
-                "3687",
-                "3730"
-            ]
-        },
-        "displayName": "Standing Offer",
-        "gasContract": {
-            "terms": "For full terms and conditions applicable to this offer, please visit https://www.redenergy.com.au/termsandconditions",
-            "isFixed": false,
-            "variation": "We may vary our rates no more than once per 6 months. We will publish any variation in a newspaper and on our website at least 10 business days before it starts. We also notify you of the variation by no later than your next bill.",
-            "eligibility": [
-                {
-                    "type": "OTHER",
-                    "information": "This offer is available to residential customers within the Australian Gas Network Murray distribution zone. For more information contact 131806."
-                }
-            ],
-            "pricingModel": "SINGLE_RATE",
-            "tariffPeriod": [
-                {
-                    "endDate": "12-31",
-                    "startDate": "01-01",
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "volume": 27,
-                                "unitPrice": "3.78"
-                            },
-                            {
-                                "volume": 21,
-                                "unitPrice": "3.29"
-                            },
-                            {
-                                "unitPrice": "3.07"
-                            }
-                        ],
-                        "period": "P1D",
-                        "displayName": "Peak"
-                    },
-                    "displayName": "Period",
-                    "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "87.60"
-                }
-            ],
-            "billFrequency": [
-                "P2M"
-            ],
-            "paymentOption": [
-                "PAPER_BILL"
-            ],
-            "coolingOffDays": 10,
-            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
-        },
-        "lastUpdated": "2023-06-21T00:37:20Z",
-        "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2023-06-30T14:00:00Z"
-    },
-    "meta": {},
-    "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1/energy/plans/RED469500SR@VEC"
-    }
+    "errors": [
+        {
+            "code": "urn:au-cds:error:cds-all:Header/UnsupportedVersion",
+            "title": "Unsupported Version",
+            "detail": "Header x-v greater than maximum supported [x-v=2, max=1]"
+        }
+    ]
 }

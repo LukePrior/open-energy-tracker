@@ -1,91 +1,9 @@
 {
-    "data": {
-        "type": "MARKET",
-        "brand": "red-energy",
-        "planId": "RED456210MR@VEC",
-        "fuelType": "GAS",
-        "brandName": "Red Energy",
-        "geography": {
-            "distributors": [
-                "Multinet"
-            ],
-            "includedPostcodes": [
-                "3950",
-                "3953",
-                "3984",
-                "3995",
-                "3996"
-            ]
-        },
-        "displayName": "Living Energy Saver",
-        "gasContract": {
-            "terms": "For full terms and conditions applicable to this offer, please visit https://www.redenergy.com.au/termsandconditions",
-            "isFixed": false,
-            "variation": "We may vary your rates in line with our Terms and Conditions and in accordance with the Relevant Laws. We will give you written notice of at least 5 business days prior to the variation.",
-            "incentives": [
-                {
-                    "category": "OTHER",
-                    "description": "Carbon Neutral Gas",
-                    "displayName": "Carbon Neutral Gas",
-                    "eligibility": "Carbon Neutral Gas is certified by Climate Active and is an optional add-on charged at an additional rate of 0.242 cents per MJ inc GST and may be varied or ended by notice under relevant laws. See www.redenergy.com.au/carbon-neutral-gas "
-                }
-            ],
-            "eligibility": [
-                {
-                    "type": "OTHER",
-                    "information": "This offer is available to residential customers within the Multinet Gippsland distribution zone. For more information contact 131806."
-                }
-            ],
-            "pricingModel": "SINGLE_RATE",
-            "tariffPeriod": [
-                {
-                    "endDate": "12-31",
-                    "startDate": "01-01",
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "volume": 50,
-                                "unitPrice": "3.38"
-                            },
-                            {
-                                "volume": 50,
-                                "unitPrice": "3.00"
-                            },
-                            {
-                                "volume": 50,
-                                "unitPrice": "2.65"
-                            },
-                            {
-                                "volume": 100,
-                                "unitPrice": "2.45"
-                            },
-                            {
-                                "unitPrice": "2.40"
-                            }
-                        ],
-                        "period": "P1D",
-                        "displayName": "Peak"
-                    },
-                    "displayName": "Period",
-                    "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "72.00"
-                }
-            ],
-            "billFrequency": [
-                "P2M"
-            ],
-            "paymentOption": [
-                "PAPER_BILL"
-            ],
-            "coolingOffDays": 10,
-            "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
-        },
-        "lastUpdated": "2023-04-12T04:31:44Z",
-        "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2023-04-18T14:00:00Z"
-    },
-    "meta": {},
-    "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1/energy/plans/RED456210MR@VEC"
-    }
+    "errors": [
+        {
+            "code": "urn:au-cds:error:cds-all:Header/UnsupportedVersion",
+            "title": "Unsupported Version",
+            "detail": "Header x-v greater than maximum supported [x-v=2, max=1]"
+        }
+    ]
 }

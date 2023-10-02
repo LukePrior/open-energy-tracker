@@ -1,85 +1,9 @@
 {
-    "data": {
-        "type": "STANDING",
-        "brand": "powershop",
-        "planId": "POD442365SR@VEC",
-        "fuelType": "GAS",
-        "brandName": "Powershop",
-        "geography": {
-            "distributors": [
-                "Australian Gas Networks"
-            ],
-            "includedPostcodes": [
-                "3636",
-                "3640",
-                "3641",
-                "3644",
-                "3646",
-                "3683",
-                "3685",
-                "3687",
-                "3730"
-            ]
-        },
-        "displayName": "Standing Offer",
-        "gasContract": {
-            "fees": [
-                {
-                    "term": "FIXED",
-                    "type": "OTHER",
-                    "amount": "0.00",
-                    "description": "In addition to the applicable prices, you may incur other fees, including disconnection fees. Information regarding fees is set out on our fees page powershop.com.au/fees"
-                },
-                {
-                    "term": "FIXED",
-                    "type": "DISCONNECTION",
-                    "amount": "85.80",
-                    "description": "Disconnection fees may apply to manually de-energise a property. The fee will be passed on from your distributor and may vary."
-                }
-            ],
-            "terms": "Powershop offer bi-monthly bills and do not issue paper bills. We require a credit card or bank details. For further information in relation to Powershop and this offer - see our full terms and conditions at: powershop.com.au/terms-and-conditions",
-            "isFixed": false,
-            "variation": "We may update your prices from time to time and no more than once every six months. We will always notify you of any price change",
-            "eligibility": [
-                {
-                    "type": "OTHER",
-                    "information": "This offer is available to customers within the Australian Gas Networks Murray distribution zone with the applicable network tariff and meter configuration, and where Powershop is the retailer responsible for gas supplied at the premises."
-                }
-            ],
-            "pricingModel": "SINGLE_RATE",
-            "tariffPeriod": [
-                {
-                    "endDate": "12-31",
-                    "startDate": "01-01",
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "unitPrice": "3.3515"
-                            }
-                        ],
-                        "displayName": "Rate"
-                    },
-                    "displayName": "Anytime",
-                    "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "103.924"
-                }
-            ],
-            "billFrequency": [
-                "P2M"
-            ],
-            "paymentOption": [
-                "DIRECT_DEBIT",
-                "OTHER"
-            ],
-            "coolingOffDays": 10,
-            "onExpiryDescription": "This Powershop offer is an ongoing contract (until you or we end it) with no exit fees."
-        },
-        "lastUpdated": "2023-01-20T01:14:28Z",
-        "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2023-02-15T13:00:00Z"
-    },
-    "meta": {},
-    "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1/energy/plans/POD442365SR@VEC"
-    }
+    "errors": [
+        {
+            "code": "urn:au-cds:error:cds-all:Header/UnsupportedVersion",
+            "title": "Unsupported Version",
+            "detail": "Header x-v greater than maximum supported [x-v=2, max=1]"
+        }
+    ]
 }
