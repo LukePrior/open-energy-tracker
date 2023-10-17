@@ -489,16 +489,6 @@
             "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
-            "interimId": "6bd58cb3-042a-4af5-b0bf-856589db4ae9",
-            "brandName": "Mojo Power",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://www.mojopower.com.au/wp-content/uploads/2017/11/logo.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/mojo",
-            "lastUpdated": "2022-10-21T05:35:24Z"
-        },
-        {
             "interimId": "b43ff855-5598-4dbb-8c1c-582f02c71e6f",
             "brandName": "Momentum Energy",
             "industries": [
@@ -596,16 +586,6 @@
             ],
             "logoUri": "https://powowpower.com.au/wp-content/uploads/2022/02/logo-whitepowowpower.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/powow",
-            "lastUpdated": "2022-10-21T05:35:24Z"
-        },
-        {
-            "interimId": "68b37f24-aaad-4f54-8fcc-ad9be71c7553",
-            "brandName": "QEnergy",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://cdn.qenergy.com.au/app/uploads/2022/02/logo.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/qenergy",
             "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
