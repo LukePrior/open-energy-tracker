@@ -39,6 +39,19 @@
             "lastUpdated": "2023-07-01T00:00:13Z"
         },
         {
+            "dataHolderBrandId": "b969898e-572f-ee11-a83d-000d3a8830d6",
+            "interimId": "ee2a4982-1616-4fe4-982a-8633293002ec",
+            "brandName": "Sumo Power",
+            "industries": [
+                "energy"
+            ],
+            "logoUri": "https://sumo-public-share.s3.ap-southeast-2.amazonaws.com/SumoIT/URI/Sumo_Logo.png",
+            "publicBaseUri": "https://public-cdr-sumo.bravecloud.com/m8k36eqyhrvhqxeeic/public",
+            "abn": "86601199151",
+            "acn": "601199151",
+            "lastUpdated": "2023-10-30T23:13:50Z"
+        },
+        {
             "dataHolderBrandId": "c12829c8-3a63-ee11-a81c-002248e31327",
             "interimId": "a259655d-31c2-4492-a5d9-2207f46c0713",
             "brandName": "GloBird Energy",
@@ -52,16 +65,6 @@
             "lastUpdated": "2023-10-29T23:17:00Z"
         },
         {
-            "interimId": "78943358-0f53-4518-ac7d-f6a1903e276d",
-            "brandName": "1st Energy",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/1st-energy",
-            "lastUpdated": "2022-10-21T05:35:24Z"
-        },
-        {
             "interimId": "be9f78ea-d0cb-44a3-8318-09e41b2a0118",
             "brandName": "ActewAGL",
             "industries": [
@@ -69,6 +72,36 @@
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/actewagl",
+            "lastUpdated": "2023-10-30T21:12:05Z"
+        },
+        {
+            "interimId": "052218fc-fb37-4087-b2cc-ced3f0dad299",
+            "brandName": "Dodo",
+            "industries": [
+                "energy"
+            ],
+            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
+            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/dodo",
+            "lastUpdated": "2023-10-30T21:14:57Z"
+        },
+        {
+            "interimId": "6b6e0923-4a4a-455a-a1b0-9f3228175788",
+            "brandName": "Nectr",
+            "industries": [
+                "energy"
+            ],
+            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
+            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/nectr",
+            "lastUpdated": "2023-10-30T21:18:09Z"
+        },
+        {
+            "interimId": "78943358-0f53-4518-ac7d-f6a1903e276d",
+            "brandName": "1st Energy",
+            "industries": [
+                "energy"
+            ],
+            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
+            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/1st-energy",
             "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
@@ -282,16 +315,6 @@
             "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
-            "interimId": "052218fc-fb37-4087-b2cc-ced3f0dad299",
-            "brandName": "Dodo",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/dodo",
-            "lastUpdated": "2022-10-21T05:35:24Z"
-        },
-        {
             "interimId": "6dfc2033-f5ba-4e61-8119-1eac508e0ad1",
             "brandName": "EA Connect",
             "industries": [
@@ -502,16 +525,6 @@
             "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
-            "interimId": "6b6e0923-4a4a-455a-a1b0-9f3228175788",
-            "brandName": "Nectr",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/nectr",
-            "lastUpdated": "2022-10-21T05:35:24Z"
-        },
-        {
             "interimId": "97d5098f-d882-454b-979c-3c2b3cdbf44d",
             "brandName": "Next Business Energy",
             "industries": [
@@ -719,16 +732,6 @@
             ],
             "logoUri": "https://sumo-public-share.s3.ap-southeast-2.amazonaws.com/SumoIT/URI/Sumo_Logo.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/sumo-gas",
-            "lastUpdated": "2022-10-21T05:35:24Z"
-        },
-        {
-            "interimId": "ee2a4982-1616-4fe4-982a-8633293002ec",
-            "brandName": "Sumo",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://sumo-public-share.s3.ap-southeast-2.amazonaws.com/SumoIT/URI/Sumo_Logo.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/sumo-power",
             "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
