@@ -61,7 +61,7 @@
             "publicBaseUri": "https://public.cdr.alintaenergy.com.au",
             "abn": "22149658300",
             "acn": "149658300",
-            "lastUpdated": "2023-10-31T23:34:30Z"
+            "lastUpdated": "2023-11-01T00:06:58Z"
         },
         {
             "dataHolderBrandId": "b969898e-572f-ee11-a83d-000d3a8830d6",
@@ -77,6 +77,32 @@
             "lastUpdated": "2023-10-30T23:13:50Z"
         },
         {
+            "dataHolderBrandId": "49298578-5132-ee11-a83d-000d3a8830d6",
+            "interimId": "0ca1b95d-7f73-4bf9-99a3-fa428d26d733",
+            "brandName": "Kogan Energy",
+            "industries": [
+                "energy"
+            ],
+            "logoUri": "https://s31177.pcdn.co/wp-content/uploads/2023/06/kogan-energy.png",
+            "publicBaseUri": "https://public.cdr.koganenergy.com.au",
+            "abn": "41154914075",
+            "acn": "154914075",
+            "lastUpdated": "2023-11-01T00:27:59Z"
+        },
+        {
+            "dataHolderBrandId": "6aaeaf9b-5132-ee11-a83d-000d3a8830d6",
+            "interimId": "5141e4da-11cf-44ef-900b-54682bc0a49f",
+            "brandName": "Powershop",
+            "industries": [
+                "energy"
+            ],
+            "logoUri": "https://media.powershop.com.au/20230605144238/powershop_logo.png",
+            "publicBaseUri": "https://public.cdr.powershop.com.au",
+            "abn": "41154914075",
+            "acn": "154914075",
+            "lastUpdated": "2023-11-01T00:27:59Z"
+        },
+        {
             "dataHolderBrandId": "de70398c-7e35-ee11-a83d-000d3a8830d6",
             "interimId": "be9f78ea-d0cb-44a3-8318-09e41b2a0118",
             "brandName": "ActewAGL",
@@ -87,6 +113,19 @@
             "publicBaseUri": "https://public.cdr.actewagl.com.au",
             "abn": "46221314841",
             "lastUpdated": "2023-10-31T04:09:09Z"
+        },
+        {
+            "dataHolderBrandId": "4f2f096c-5841-ee11-a81c-002248143709",
+            "interimId": "97d5098f-d882-454b-979c-3c2b3cdbf44d",
+            "brandName": "Next Business Energy",
+            "industries": [
+                "energy"
+            ],
+            "logoUri": "https://nextbusinessenergy.com.au/logo/nbe-logo.png",
+            "publicBaseUri": "https://public.cdr.nextbusinessenergy.com.au",
+            "abn": "91167937555",
+            "acn": "167937555",
+            "lastUpdated": "2023-11-01T03:07:56Z"
         },
         {
             "dataHolderBrandId": "47dd2161-c951-ee11-a81c-002248e31327",
@@ -129,6 +168,7 @@
         },
         {
             "dataHolderBrandId": "d37e16d2-dd5d-ee11-a81c-002248e31327",
+            "interimId": "a53e525f-5ca0-4764-9617-3d2c161d828c",
             "brandName": "Pacific Blue",
             "industries": [
                 "energy"
@@ -141,7 +181,7 @@
         },
         {
             "dataHolderBrandId": "8bbfb815-515e-ee11-a81c-002248e31327",
-            "interimId": "a53e525f-5ca0-4764-9617-3d2c161d828c",
+            "interimId": "5c3a9def-c09b-4cbc-807d-a18364ee5232",
             "brandName": "Tango Energy",
             "industries": [
                 "energy"
@@ -166,54 +206,30 @@
             "lastUpdated": "2023-10-29T23:17:00Z"
         },
         {
-            "interimId": "0ca1b95d-7f73-4bf9-99a3-fa428d26d733",
-            "brandName": "Kogan Energy",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/kogan",
-            "lastUpdated": "2023-10-31T03:38:03Z"
-        },
-        {
+            "dataHolderBrandId": "dc328d2c-a56c-ee11-a81c-002248e31327",
             "interimId": "bc9c8ab7-5dc7-4b6b-ac48-2fe68fa781db",
             "brandName": "Lumo Energy",
             "industries": [
                 "energy"
             ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/lumo",
-            "lastUpdated": "2023-10-31T03:38:03Z"
+            "logoUri": "https://www.lumoenergy.com.au/assets/images/logo--lumo.svg",
+            "publicBaseUri": "https://public.cdr.lumoenergy.com.au",
+            "abn": "69100528327",
+            "acn": "100528327",
+            "lastUpdated": "2023-11-01T02:02:57Z"
         },
         {
-            "interimId": "97d5098f-d882-454b-979c-3c2b3cdbf44d",
-            "brandName": "Next Business Energy",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/next-business",
-            "lastUpdated": "2023-10-31T03:38:03Z"
-        },
-        {
-            "interimId": "5141e4da-11cf-44ef-900b-54682bc0a49f",
-            "brandName": "Powershop",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/powershop",
-            "lastUpdated": "2023-10-31T03:38:03Z"
-        },
-        {
+            "dataHolderBrandId": "39230258-a56c-ee11-a81c-002248e31327",
             "interimId": "eb76743a-4ee5-40a7-aa1b-bd3b719a7622",
             "brandName": "Red Energy",
             "industries": [
                 "energy"
             ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/red-energy",
-            "lastUpdated": "2023-10-31T03:38:03Z"
+            "logoUri": "https://www.redenergy.com.au/assets/img/logo-red-energy.png",
+            "publicBaseUri": "https://public.cdr.redenergy.com.au",
+            "abn": "60107479372",
+            "acn": "107479372",
+            "lastUpdated": "2023-11-01T02:01:48Z"
         },
         {
             "interimId": "78943358-0f53-4518-ac7d-f6a1903e276d",
