@@ -86,6 +86,16 @@
         "lastUpdated": "2023-10-31T04:09:09Z",
         "abn": "46221314841"
     },
+    "32c3ea87-ce3b-ee11-a81c-002248143709": {
+        "dataHolderBrandId": "32c3ea87-ce3b-ee11-a81c-002248143709",
+        "interimId": "15ed284e-f7b0-440d-b5dc-e9fe4c28c410",
+        "brandName": "COVAU PTY LIMITED",
+        "logoUri": "https://covau.com.au/wp-content/uploads/2022/01/covau-logo-300.png",
+        "publicBaseUri": "https://public.cdr.covau.com.au",
+        "lastUpdated": "2023-11-21T23:07:13Z",
+        "abn": "54090117730",
+        "acn": "090117730"
+    },
     "4f2f096c-5841-ee11-a81c-002248143709": {
         "dataHolderBrandId": "4f2f096c-5841-ee11-a81c-002248143709",
         "interimId": "97d5098f-d882-454b-979c-3c2b3cdbf44d",
@@ -293,13 +303,6 @@
         "brandName": "Commander Power & Gas",
         "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
         "publicBaseUri": "https://cdr.energymadeeasy.gov.au/commander",
-        "lastUpdated": "2022-10-21T05:35:24Z"
-    },
-    "15ed284e-f7b0-440d-b5dc-e9fe4c28c410": {
-        "interimId": "15ed284e-f7b0-440d-b5dc-e9fe4c28c410",
-        "brandName": "CovaU",
-        "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-        "publicBaseUri": "https://cdr.energymadeeasy.gov.au/covau",
         "lastUpdated": "2022-10-21T05:35:24Z"
     },
     "46b1550c-fd41-40ff-8374-2af6d0cc7293": {
