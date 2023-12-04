@@ -115,6 +115,19 @@
             "lastUpdated": "2023-10-31T04:09:09Z"
         },
         {
+            "dataHolderBrandId": "40596bd5-f037-ee11-a83d-000d3a8830d6",
+            "interimId": "3a767c2a-017c-44ac-b5c8-436689d397b6",
+            "brandName": "Diamond Energy",
+            "industries": [
+                "energy"
+            ],
+            "logoUri": "https://diamondenergy.com.au/wp-content/uploads/2023/06/DE-logo-approved_your-pure-power-people.png",
+            "publicBaseUri": "https://cdr.diamondenergy.com.au:18101",
+            "abn": "97107516334",
+            "acn": "107516334",
+            "lastUpdated": "2023-12-04T00:01:31Z"
+        },
+        {
             "dataHolderBrandId": "32c3ea87-ce3b-ee11-a81c-002248143709",
             "interimId": "15ed284e-f7b0-440d-b5dc-e9fe4c28c410",
             "brandName": "COVAU PTY LIMITED",
@@ -422,16 +435,6 @@
             ],
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/cpe-mascot",
-            "lastUpdated": "2022-10-21T05:35:24Z"
-        },
-        {
-            "interimId": "3a767c2a-017c-44ac-b5c8-436689d397b6",
-            "brandName": "Diamond Energy",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/diamond",
             "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
