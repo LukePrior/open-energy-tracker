@@ -4,6 +4,64 @@
             {
                 "type": "STANDING",
                 "brand": "tas-gas",
+                "planId": "TAS518446SS@VEC",
+                "fuelType": "GAS",
+                "brandName": "Tas Gas",
+                "geography": {
+                    "distributors": [
+                        "Gas Networks Victoria"
+                    ],
+                    "includedPostcodes": [
+                        "3264",
+                        "3463",
+                        "3515",
+                        "3523",
+                        "3549",
+                        "3579",
+                        "3585",
+                        "3638",
+                        "3888",
+                        "3909"
+                    ]
+                },
+                "displayName": "Commercial Standard Retail offer 2023 - V4",
+                "effectiveTo": "2024-07-01T14:00:00Z",
+                "lastUpdated": "2023-12-11T04:47:48Z",
+                "customerType": "BUSINESS",
+                "effectiveFrom": "2023-12-09T13:00:00Z"
+            },
+            {
+                "type": "STANDING",
+                "brand": "tas-gas",
+                "planId": "TAS518447SR@VEC",
+                "fuelType": "GAS",
+                "brandName": "Tas Gas",
+                "geography": {
+                    "distributors": [
+                        "Gas Networks Victoria"
+                    ],
+                    "includedPostcodes": [
+                        "3264",
+                        "3463",
+                        "3515",
+                        "3523",
+                        "3549",
+                        "3579",
+                        "3585",
+                        "3638",
+                        "3888",
+                        "3909"
+                    ]
+                },
+                "displayName": "Residential Standard Retail offer  2023 - V4",
+                "effectiveTo": "2024-07-01T14:00:00Z",
+                "lastUpdated": "2023-12-11T04:47:48Z",
+                "customerType": "RESIDENTIAL",
+                "effectiveFrom": "2023-12-09T13:00:00Z"
+            },
+            {
+                "type": "STANDING",
+                "brand": "tas-gas",
                 "planId": "TAS466979SS@VEC",
                 "fuelType": "GAS",
                 "brandName": "Tas Gas",
