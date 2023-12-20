@@ -4,7 +4,7 @@
             {
                 "type": "MARKET",
                 "brand": "ampol",
-                "planId": "AMP522156MRE14@EME",
+                "planId": "AMP522154MRE14@EME",
                 "fuelType": "ELECTRICITY",
                 "brandName": "Ampol Energy",
                 "geography": {
@@ -212,8 +212,9 @@
                         "4581"
                     ]
                 },
-                "displayName": "Ampol Energy Powering On TOU with CL",
-                "lastUpdated": "2023-11-30T14:05:33.587Z",
+                "displayName": "Ampol Energy Powering On with CL",
+                "effectiveTo": "2023-12-21T00:00:00.000Z",
+                "lastUpdated": "2023-12-20T00:41:25.936Z",
                 "customerType": "RESIDENTIAL",
                 "effectiveFrom": "2023-12-01T00:00:00.000Z"
             },
@@ -429,7 +430,8 @@
                     ]
                 },
                 "displayName": "Ampol Energy Powering On TOU",
-                "lastUpdated": "2023-11-30T14:05:32.321Z",
+                "effectiveTo": "2023-12-21T00:00:00.000Z",
+                "lastUpdated": "2023-12-20T00:41:25.873Z",
                 "customerType": "RESIDENTIAL",
                 "effectiveFrom": "2023-12-01T00:00:00.000Z"
             },
@@ -645,14 +647,15 @@
                     ]
                 },
                 "displayName": "Ampol Energy Powering On",
-                "lastUpdated": "2023-11-30T14:05:31.909Z",
+                "effectiveTo": "2023-12-21T00:00:00.000Z",
+                "lastUpdated": "2023-12-20T00:41:25.812Z",
                 "customerType": "RESIDENTIAL",
                 "effectiveFrom": "2023-12-01T00:00:00.000Z"
             },
             {
                 "type": "MARKET",
                 "brand": "ampol",
-                "planId": "AMP522154MRE14@EME",
+                "planId": "AMP522156MRE14@EME",
                 "fuelType": "ELECTRICITY",
                 "brandName": "Ampol Energy",
                 "geography": {
@@ -860,8 +863,9 @@
                         "4581"
                     ]
                 },
-                "displayName": "Ampol Energy Powering On with CL",
-                "lastUpdated": "2023-11-30T14:05:31.565Z",
+                "displayName": "Ampol Energy Powering On TOU with CL",
+                "effectiveTo": "2023-12-21T00:00:00.000Z",
+                "lastUpdated": "2023-12-20T00:41:25.659Z",
                 "customerType": "RESIDENTIAL",
                 "effectiveFrom": "2023-12-01T00:00:00.000Z"
             }
