@@ -5,7 +5,7 @@
         "brandName": "Origin Energy",
         "logoUri": "https://res.cloudinary.com/originenergy/image/upload/v1667947270/CDR/origin-energy-logo.png",
         "publicBaseUri": "https://public.mydata.cdr.originenergy.com.au",
-        "lastUpdated": "2023-07-01T00:00:15Z",
+        "lastUpdated": "2024-01-01T11:02:26Z",
         "abn": "30000051696",
         "acn": "000051696"
     },
@@ -15,7 +15,7 @@
         "brandName": "AGL",
         "logoUri": "https://agl.com.au/content/dam/digital/agl/images/logos/agl/agl-vertical-gradient.svg",
         "publicBaseUri": "https://public.cdr.agl.com.au",
-        "lastUpdated": "2023-07-01T00:00:11Z",
+        "lastUpdated": "2024-01-01T11:02:24Z",
         "abn": "74115061375"
     },
     "1cc7833a-b834-ed11-a832-000d3a8830d6": {
@@ -24,7 +24,7 @@
         "brandName": "EnergyAustralia",
         "logoUri": "https://www.energyaustralia.com.au/themes/custom/ea/assets/images/EA_logo.svg",
         "publicBaseUri": "https://authncdr.energyaustralia.com.au",
-        "lastUpdated": "2023-07-01T00:00:13Z",
+        "lastUpdated": "2024-01-01T11:02:23Z",
         "abn": "99086014968",
         "acn": "086014968"
     },
@@ -34,7 +34,7 @@
         "brandName": "Simply Energy",
         "logoUri": "https://www.simplyenergy.com.au/themes/custom/simplyenergy/se-logo-primary.cfa0c223.svg",
         "publicBaseUri": "https://public.cdr.simplyenergy.com.au",
-        "lastUpdated": "2023-11-30T04:53:58Z",
+        "lastUpdated": "2024-01-01T11:02:35Z",
         "abn": "67269241237"
     },
     "8bd0fd93-9d26-ee11-a83d-000d3a8830d6": {
@@ -43,7 +43,7 @@
         "brandName": "Alinta Energy",
         "logoUri": "https://www.alintaenergy.com.au/-/jssmedia/alinta-website/data/media/img/alinta_default_logo.png",
         "publicBaseUri": "https://public.cdr.alintaenergy.com.au",
-        "lastUpdated": "2023-11-01T00:06:58Z",
+        "lastUpdated": "2024-01-01T11:02:37Z",
         "abn": "22149658300",
         "acn": "149658300"
     },
@@ -53,7 +53,7 @@
         "brandName": "Sumo Power",
         "logoUri": "https://sumo-public-share.s3.ap-southeast-2.amazonaws.com/SumoIT/URI/Sumo_Logo.png",
         "publicBaseUri": "https://public-cdr-sumo.bravecloud.com/m8k36eqyhrvhqxeeic/public",
-        "lastUpdated": "2023-10-30T23:13:50Z",
+        "lastUpdated": "2024-01-01T11:02:28Z",
         "abn": "86601199151",
         "acn": "601199151"
     },
@@ -63,7 +63,7 @@
         "brandName": "Kogan Energy",
         "logoUri": "https://s31177.pcdn.co/wp-content/uploads/2023/06/kogan-energy.png",
         "publicBaseUri": "https://public.cdr.koganenergy.com.au",
-        "lastUpdated": "2023-11-01T00:27:59Z",
+        "lastUpdated": "2024-01-01T11:02:29Z",
         "abn": "41154914075",
         "acn": "154914075"
     },
@@ -73,7 +73,7 @@
         "brandName": "Powershop",
         "logoUri": "https://media.powershop.com.au/20230605144238/powershop_logo.png",
         "publicBaseUri": "https://public.cdr.powershop.com.au",
-        "lastUpdated": "2023-11-01T00:27:59Z",
+        "lastUpdated": "2024-01-01T11:02:29Z",
         "abn": "41154914075",
         "acn": "154914075"
     },
@@ -83,7 +83,7 @@
         "brandName": "ActewAGL",
         "logoUri": "https://www.actewagl.com.au/-/media/project/actewagl/actewagldigital/logos/common/logo/brand-logo-actewagl-blue/actewagl_logo_green.png?h=172&w=1343&rev=b507a6379b2542b2afd10075d3318112&hash=640B0A9ED3B13973AEE5A7968C8AEB6A",
         "publicBaseUri": "https://public.cdr.actewagl.com.au",
-        "lastUpdated": "2023-10-31T04:09:09Z",
+        "lastUpdated": "2024-01-01T11:02:42Z",
         "abn": "46221314841"
     },
     "40596bd5-f037-ee11-a83d-000d3a8830d6": {
@@ -92,7 +92,7 @@
         "brandName": "Diamond Energy",
         "logoUri": "https://diamondenergy.com.au/wp-content/uploads/2023/06/DE-logo-approved_your-pure-power-people.png",
         "publicBaseUri": "https://cdr.diamondenergy.com.au:18101",
-        "lastUpdated": "2023-12-04T00:01:31Z",
+        "lastUpdated": "2024-01-01T11:02:33Z",
         "abn": "97107516334",
         "acn": "107516334"
     },
@@ -102,7 +102,7 @@
         "brandName": "COVAU PTY LIMITED",
         "logoUri": "https://covau.com.au/wp-content/uploads/2022/01/covau-logo-300.png",
         "publicBaseUri": "https://public.cdr.covau.com.au",
-        "lastUpdated": "2023-11-21T23:07:13Z",
+        "lastUpdated": "2024-01-01T11:02:34Z",
         "abn": "54090117730",
         "acn": "090117730"
     },
@@ -112,7 +112,7 @@
         "brandName": "Next Business Energy",
         "logoUri": "https://nextbusinessenergy.com.au/logo/nbe-logo.png",
         "publicBaseUri": "https://public.cdr.nextbusinessenergy.com.au",
-        "lastUpdated": "2023-11-01T03:07:56Z",
+        "lastUpdated": "2024-01-01T11:02:38Z",
         "abn": "91167937555",
         "acn": "167937555"
     },
@@ -122,7 +122,7 @@
         "brandName": "Nectr",
         "logoUri": "https://nectr.com.au/wp-content/uploads/2023/04/header-logo.svg",
         "publicBaseUri": "https://public.cdr.nectr.com.au",
-        "lastUpdated": "2023-10-31T01:07:05Z",
+        "lastUpdated": "2024-01-01T11:02:43Z",
         "abn": "82630397214",
         "acn": "630397214"
     },
@@ -132,7 +132,7 @@
         "brandName": "Dodo Power & Gas",
         "logoUri": "https://s0.2mdn.net/creatives/assets/4983616/Dodo_Logo_Aug23_V1.svg",
         "publicBaseUri": "https://public.cdr.dodo.com",
-        "lastUpdated": "2023-10-31T05:12:01Z",
+        "lastUpdated": "2024-01-01T11:02:44Z",
         "abn": "15123155840",
         "acn": "123155840"
     },
@@ -142,7 +142,7 @@
         "brandName": "Momentum Energy",
         "logoUri": "https://www.momentumenergy.com.au/assets/images/logo.svg",
         "publicBaseUri": "https://public.cdr.momentumenergy.com.au",
-        "lastUpdated": "2023-11-02T09:22:13Z",
+        "lastUpdated": "2024-01-01T11:02:32Z",
         "abn": "42100569159",
         "acn": "100569159"
     },
@@ -152,7 +152,7 @@
         "brandName": "Pacific Blue Retail",
         "logoUri": "https://www.pacificblue.com.au/sites/default/files/2023-04/Pacific_Blue_300px.png",
         "publicBaseUri": "https://public.cdr.pacificblue.com.au",
-        "lastUpdated": "2023-11-22T22:29:51Z",
+        "lastUpdated": "2024-01-01T11:02:41Z",
         "abn": "43155908839",
         "acn": "155908839"
     },
@@ -162,7 +162,7 @@
         "brandName": "Tango Energy",
         "logoUri": "https://www.tangoenergy.com/sites/default/files/2022-08/Default-Logo-Tango.png",
         "publicBaseUri": "https://public.cdr.tangoenergy.com",
-        "lastUpdated": "2023-11-22T22:29:51Z",
+        "lastUpdated": "2024-01-01T11:02:41Z",
         "abn": "43155908839",
         "acn": "155908839"
     },
@@ -172,7 +172,7 @@
         "brandName": "GloBird Energy",
         "logoUri": "https://www.globirdenergy.com.au/wp-content/uploads/2017/09/GloBird_web_logo.svg",
         "publicBaseUri": "https://publiccdr.globirdenergy.com.au",
-        "lastUpdated": "2023-11-08T03:23:38Z",
+        "lastUpdated": "2024-01-01T11:02:42Z",
         "abn": "68600285827",
         "acn": "600285827"
     },
@@ -182,7 +182,7 @@
         "brandName": "Lumo Energy",
         "logoUri": "https://www.lumoenergy.com.au/assets/images/logo--lumo.svg",
         "publicBaseUri": "https://public.cdr.lumoenergy.com.au",
-        "lastUpdated": "2023-11-01T02:02:57Z",
+        "lastUpdated": "2024-01-01T11:02:46Z",
         "abn": "69100528327",
         "acn": "100528327"
     },
@@ -192,7 +192,7 @@
         "brandName": "Red Energy",
         "logoUri": "https://www.redenergy.com.au/assets/img/logo-red-energy.png",
         "publicBaseUri": "https://public.cdr.redenergy.com.au",
-        "lastUpdated": "2023-11-01T02:01:48Z",
+        "lastUpdated": "2024-01-01T11:02:45Z",
         "abn": "60107479372",
         "acn": "107479372"
     },
