@@ -1,9 +1,0 @@
-{
-    "errors": [
-        {
-            "code": "urn:au-cds:error:cds-all:Header/UnsupportedVersion",
-            "title": "Unsupported Version",
-            "detail": "unsupported version, version must be between 1 and 1"
-        }
-    ]
-}
