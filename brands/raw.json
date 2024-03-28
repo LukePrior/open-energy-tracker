@@ -154,6 +154,19 @@
             "lastUpdated": "2024-01-01T11:02:38Z"
         },
         {
+            "dataHolderBrandId": "ee8b5d25-93ae-ee11-a81c-0022481494e2",
+            "interimId": "78943358-0f53-4518-ac7d-f6a1903e276d",
+            "brandName": "1st Energy",
+            "industries": [
+                "energy"
+            ],
+            "logoUri": "https://1stenergy.com.au/wp-content/uploads/2023/11/1stEnergy_colour_RGB.png",
+            "publicBaseUri": "https://public.cdr.1stenergy.com.au",
+            "abn": "71604999706",
+            "acn": "604999706",
+            "lastUpdated": "2024-03-27T03:53:58Z"
+        },
+        {
             "dataHolderBrandId": "47dd2161-c951-ee11-a81c-002248e31327",
             "interimId": "6b6e0923-4a4a-455a-a1b0-9f3228175788",
             "brandName": "Nectr",
@@ -256,16 +269,6 @@
             "abn": "60107479372",
             "acn": "107479372",
             "lastUpdated": "2024-01-01T11:02:45Z"
-        },
-        {
-            "interimId": "78943358-0f53-4518-ac7d-f6a1903e276d",
-            "brandName": "1st Energy",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/1st-energy",
-            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "fb416e50-6dda-470e-a2aa-a108efd433b4",
