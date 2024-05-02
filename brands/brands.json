@@ -34,7 +34,7 @@
         "brandName": "ENGIE",
         "logoUri": "https://www.engie.com.au/sites/default/files/icons/engie_logo.png",
         "publicBaseUri": "https://public.cdr.simplyenergy.com.au",
-        "lastUpdated": "2024-04-30T07:15:57Z",
+        "lastUpdated": "2024-05-01T04:52:02Z",
         "abn": "67269241237"
     },
     "8bd0fd93-9d26-ee11-a83d-000d3a8830d6": {
@@ -126,6 +126,16 @@
         "abn": "71604999706",
         "acn": "604999706"
     },
+    "f120a1b5-4c00-ef11-a73d-002248e1c726": {
+        "dataHolderBrandId": "f120a1b5-4c00-ef11-a73d-002248e1c726",
+        "interimId": "f918026a-b02c-4dea-89a0-e3295b7e7812",
+        "brandName": "Blue NRG",
+        "logoUri": "https://www.bluenrg.com.au/wp-content/uploads/2024/02/Blue-NRGLogo-Inverted-RGB-1200px-W-72ppi.png",
+        "publicBaseUri": "https://public.cdr.bluenrg.com.au",
+        "lastUpdated": "2024-05-01T01:32:03Z",
+        "abn": "30151014658",
+        "acn": "151014658"
+    },
     "47dd2161-c951-ee11-a81c-002248e31327": {
         "dataHolderBrandId": "47dd2161-c951-ee11-a81c-002248e31327",
         "interimId": "6b6e0923-4a4a-455a-a1b0-9f3228175788",
@@ -206,6 +216,14 @@
         "abn": "60107479372",
         "acn": "107479372"
     },
+    "40f826f2-3ed1-ee11-a73d-6045bd4001ae": {
+        "dataHolderBrandId": "40f826f2-3ed1-ee11-a73d-6045bd4001ae",
+        "brandName": "ENGIE large business",
+        "logoUri": "https://www.engie.com.au/sites/default/files/icons/engie_logo.png",
+        "publicBaseUri": "https://public-cdr-engie.bravecloud.com/b1swktl2zamng9xf/public",
+        "lastUpdated": "2024-05-01T04:52:02Z",
+        "abn": "67269241237"
+    },
     "fb416e50-6dda-470e-a2aa-a108efd433b4": {
         "interimId": "fb416e50-6dda-470e-a2aa-a108efd433b4",
         "brandName": "Active Utilities Retail",
@@ -267,13 +285,6 @@
         "brandName": "Besy",
         "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
         "publicBaseUri": "https://cdr.energymadeeasy.gov.au/besy",
-        "lastUpdated": "2022-10-21T05:35:24Z"
-    },
-    "f918026a-b02c-4dea-89a0-e3295b7e7812": {
-        "interimId": "f918026a-b02c-4dea-89a0-e3295b7e7812",
-        "brandName": "Blue NRG",
-        "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-        "publicBaseUri": "https://cdr.energymadeeasy.gov.au/blue-nrg",
         "lastUpdated": "2022-10-21T05:35:24Z"
     },
     "736b2c27-aa4b-4554-987b-80101a93b728": {
