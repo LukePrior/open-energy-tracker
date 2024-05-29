@@ -4,7 +4,7 @@
             {
                 "type": "MARKET",
                 "brand": "sumo-gas",
-                "planId": "SUM548202MR@VEC",
+                "planId": "SUM548210MR@VEC",
                 "fuelType": "GAS",
                 "brandName": "Sumo",
                 "geography": {
@@ -57,14 +57,14 @@
                     ]
                 },
                 "displayName": "Sumo Switch Gas",
-                "lastUpdated": "2024-05-27T22:13:21Z",
+                "lastUpdated": "2024-05-28T03:25:57Z",
                 "customerType": "RESIDENTIAL",
                 "effectiveFrom": "2024-05-26T14:00:00Z"
             },
             {
                 "type": "MARKET",
                 "brand": "sumo-gas",
-                "planId": "SUM548203MR@VEC",
+                "planId": "SUM548211MR@VEC",
                 "fuelType": "GAS",
                 "brandName": "Sumo",
                 "geography": {
@@ -101,14 +101,14 @@
                     ]
                 },
                 "displayName": "Sumo Switch Gas",
-                "lastUpdated": "2024-05-27T22:13:21Z",
+                "lastUpdated": "2024-05-28T03:25:57Z",
                 "customerType": "RESIDENTIAL",
                 "effectiveFrom": "2024-05-26T14:00:00Z"
             },
             {
                 "type": "MARKET",
                 "brand": "sumo-gas",
-                "planId": "SUM548207MR@VEC",
+                "planId": "SUM548215MR@VEC",
                 "fuelType": "GAS",
                 "brandName": "Sumo",
                 "geography": {
@@ -167,14 +167,14 @@
                     ]
                 },
                 "displayName": "Sumo Switch Gas",
-                "lastUpdated": "2024-05-27T22:13:21Z",
+                "lastUpdated": "2024-05-28T03:25:57Z",
                 "customerType": "RESIDENTIAL",
                 "effectiveFrom": "2024-05-26T14:00:00Z"
             },
             {
                 "type": "MARKET",
                 "brand": "sumo-gas",
-                "planId": "SUM548208MR@VEC",
+                "planId": "SUM548216MR@VEC",
                 "fuelType": "GAS",
                 "brandName": "Sumo",
                 "geography": {
@@ -255,14 +255,14 @@
                     ]
                 },
                 "displayName": "Sumo Switch Gas",
-                "lastUpdated": "2024-05-27T22:13:21Z",
+                "lastUpdated": "2024-05-28T03:25:57Z",
                 "customerType": "RESIDENTIAL",
                 "effectiveFrom": "2024-05-26T14:00:00Z"
             },
             {
                 "type": "MARKET",
                 "brand": "sumo-gas",
-                "planId": "SUM548209MR@VEC",
+                "planId": "SUM548217MR@VEC",
                 "fuelType": "GAS",
                 "brandName": "Sumo",
                 "geography": {
@@ -308,14 +308,14 @@
                     ]
                 },
                 "displayName": "Sumo Switch Gas",
-                "lastUpdated": "2024-05-27T22:13:21Z",
+                "lastUpdated": "2024-05-28T03:25:57Z",
                 "customerType": "RESIDENTIAL",
                 "effectiveFrom": "2024-05-26T14:00:00Z"
             },
             {
                 "type": "MARKET",
                 "brand": "sumo-gas",
-                "planId": "SUM548204MR@VEC",
+                "planId": "SUM548212MR@VEC",
                 "fuelType": "GAS",
                 "brandName": "Sumo",
                 "geography": {
@@ -364,14 +364,14 @@
                     ]
                 },
                 "displayName": "Sumo Switch Gas",
-                "lastUpdated": "2024-05-27T22:13:21Z",
+                "lastUpdated": "2024-05-28T03:25:57Z",
                 "customerType": "RESIDENTIAL",
                 "effectiveFrom": "2024-05-26T14:00:00Z"
             },
             {
                 "type": "MARKET",
                 "brand": "sumo-gas",
-                "planId": "SUM548205MR@VEC",
+                "planId": "SUM548213MR@VEC",
                 "fuelType": "GAS",
                 "brandName": "Sumo",
                 "geography": {
@@ -449,14 +449,14 @@
                     ]
                 },
                 "displayName": "Sumo Switch Gas",
-                "lastUpdated": "2024-05-27T22:13:21Z",
+                "lastUpdated": "2024-05-28T03:25:57Z",
                 "customerType": "RESIDENTIAL",
                 "effectiveFrom": "2024-05-26T14:00:00Z"
             },
             {
                 "type": "MARKET",
                 "brand": "sumo-gas",
-                "planId": "SUM548206MR@VEC",
+                "planId": "SUM548214MR@VEC",
                 "fuelType": "GAS",
                 "brandName": "Sumo",
                 "geography": {
@@ -517,7 +517,7 @@
                     ]
                 },
                 "displayName": "Sumo Switch Gas",
-                "lastUpdated": "2024-05-27T22:13:21Z",
+                "lastUpdated": "2024-05-28T03:25:57Z",
                 "customerType": "RESIDENTIAL",
                 "effectiveFrom": "2024-05-26T14:00:00Z"
             },
