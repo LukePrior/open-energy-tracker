@@ -167,6 +167,18 @@
             "lastUpdated": "2024-03-27T03:53:58Z"
         },
         {
+            "dataHolderBrandId": "098b7b04-de22-ef11-8ee7-00224814bfdf",
+            "brandName": "OVO Energy",
+            "industries": [
+                "energy"
+            ],
+            "logoUri": "https://email-assets.ovoenergy.com.au/ovo_energy_full_green_logo.png",
+            "publicBaseUri": "https://public.cdr.ovoenergy.com.au",
+            "abn": "99623475089",
+            "acn": "623475089",
+            "lastUpdated": "2024-06-26T23:50:43Z"
+        },
+        {
             "dataHolderBrandId": "f120a1b5-4c00-ef11-a73d-002248e1c726",
             "interimId": "f918026a-b02c-4dea-89a0-e3295b7e7812",
             "brandName": "Blue NRG",
