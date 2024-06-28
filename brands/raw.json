@@ -168,6 +168,7 @@
         },
         {
             "dataHolderBrandId": "098b7b04-de22-ef11-8ee7-00224814bfdf",
+            "interimId": "59aabae5-18fa-4a69-a2ce-50d197716c33",
             "brandName": "OVO Energy",
             "industries": [
                 "energy"
@@ -176,7 +177,7 @@
             "publicBaseUri": "https://public.cdr.ovoenergy.com.au",
             "abn": "99623475089",
             "acn": "623475089",
-            "lastUpdated": "2024-06-26T23:50:43Z"
+            "lastUpdated": "2024-06-27T01:42:22Z"
         },
         {
             "dataHolderBrandId": "f120a1b5-4c00-ef11-a73d-002248e1c726",
@@ -665,16 +666,6 @@
             "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/on-by-energyaustralia",
             "lastUpdated": "2022-11-28T02:24:38Z"
-        },
-        {
-            "interimId": "59aabae5-18fa-4a69-a2ce-50d197716c33",
-            "brandName": "OVO Energy",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/ovo-energy",
-            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "34ae9e94-158a-4d3e-9a0f-3682ab04dd15",
