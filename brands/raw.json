@@ -11,7 +11,7 @@
             "publicBaseUri": "https://public.mydata.cdr.originenergy.com.au",
             "abn": "30000051696",
             "acn": "000051696",
-            "lastUpdated": "2024-01-01T11:02:26Z"
+            "lastUpdated": "2024-07-01T12:03:24Z"
         },
         {
             "dataHolderBrandId": "d177e382-b12d-ed11-a832-000d3a8830d6",
@@ -23,7 +23,7 @@
             "logoUri": "https://agl.com.au/content/dam/digital/agl/images/logos/agl/agl-vertical-gradient.svg",
             "publicBaseUri": "https://public.cdr.agl.com.au",
             "abn": "74115061375",
-            "lastUpdated": "2024-01-01T11:02:24Z"
+            "lastUpdated": "2024-07-01T12:03:22Z"
         },
         {
             "dataHolderBrandId": "1cc7833a-b834-ed11-a832-000d3a8830d6",
@@ -36,7 +36,7 @@
             "publicBaseUri": "https://authncdr.energyaustralia.com.au",
             "abn": "99086014968",
             "acn": "086014968",
-            "lastUpdated": "2024-05-21T00:09:40Z"
+            "lastUpdated": "2024-07-01T12:03:21Z"
         },
         {
             "dataHolderBrandId": "40128cc1-56f8-ed11-a83b-000d3a8830d6",
@@ -48,7 +48,7 @@
             "logoUri": "https://www.engie.com.au/sites/default/files/icons/engie_logo.png",
             "publicBaseUri": "https://public.cdr.simplyenergy.com.au",
             "abn": "67269241237",
-            "lastUpdated": "2024-05-01T04:52:02Z"
+            "lastUpdated": "2024-07-01T12:03:33Z"
         },
         {
             "dataHolderBrandId": "8bd0fd93-9d26-ee11-a83d-000d3a8830d6",
@@ -61,7 +61,7 @@
             "publicBaseUri": "https://public.cdr.alintaenergy.com.au",
             "abn": "22149658300",
             "acn": "149658300",
-            "lastUpdated": "2024-01-01T11:02:37Z"
+            "lastUpdated": "2024-07-01T12:03:34Z"
         },
         {
             "dataHolderBrandId": "b969898e-572f-ee11-a83d-000d3a8830d6",
@@ -74,7 +74,7 @@
             "publicBaseUri": "https://public-cdr-sumo.bravecloud.com/m8k36eqyhrvhqxeeic/public",
             "abn": "86601199151",
             "acn": "601199151",
-            "lastUpdated": "2024-04-24T05:34:36Z"
+            "lastUpdated": "2024-07-01T12:03:27Z"
         },
         {
             "dataHolderBrandId": "49298578-5132-ee11-a83d-000d3a8830d6",
@@ -87,7 +87,7 @@
             "publicBaseUri": "https://public.cdr.koganenergy.com.au",
             "abn": "41154914075",
             "acn": "154914075",
-            "lastUpdated": "2024-05-07T02:32:32Z"
+            "lastUpdated": "2024-07-01T12:03:28Z"
         },
         {
             "dataHolderBrandId": "6aaeaf9b-5132-ee11-a83d-000d3a8830d6",
@@ -100,7 +100,7 @@
             "publicBaseUri": "https://public.cdr.powershop.com.au",
             "abn": "41154914075",
             "acn": "154914075",
-            "lastUpdated": "2024-05-07T02:32:32Z"
+            "lastUpdated": "2024-07-01T12:03:28Z"
         },
         {
             "dataHolderBrandId": "de70398c-7e35-ee11-a83d-000d3a8830d6",
@@ -112,7 +112,7 @@
             "logoUri": "https://www.actewagl.com.au/-/media/project/actewagl/actewagldigital/logos/common/logo/brand-logo-actewagl-blue/actewagl_logo_green.png?h=172&w=1343&rev=b507a6379b2542b2afd10075d3318112&hash=640B0A9ED3B13973AEE5A7968C8AEB6A",
             "publicBaseUri": "https://public.cdr.actewagl.com.au",
             "abn": "46221314841",
-            "lastUpdated": "2024-01-01T11:02:42Z"
+            "lastUpdated": "2024-07-01T12:03:39Z"
         },
         {
             "dataHolderBrandId": "40596bd5-f037-ee11-a83d-000d3a8830d6",
@@ -125,7 +125,7 @@
             "publicBaseUri": "https://cdr.diamondenergy.com.au:18101",
             "abn": "97107516334",
             "acn": "107516334",
-            "lastUpdated": "2024-01-01T11:02:33Z"
+            "lastUpdated": "2024-07-01T12:03:31Z"
         },
         {
             "dataHolderBrandId": "32c3ea87-ce3b-ee11-a81c-002248143709",
@@ -138,7 +138,7 @@
             "publicBaseUri": "https://public.cdr.covau.com.au",
             "abn": "54090117730",
             "acn": "090117730",
-            "lastUpdated": "2024-01-01T11:02:34Z"
+            "lastUpdated": "2024-07-01T12:03:32Z"
         },
         {
             "dataHolderBrandId": "4f2f096c-5841-ee11-a81c-002248143709",
@@ -151,7 +151,7 @@
             "publicBaseUri": "https://public.cdr.nextbusinessenergy.com.au",
             "abn": "91167937555",
             "acn": "167937555",
-            "lastUpdated": "2024-01-01T11:02:38Z"
+            "lastUpdated": "2024-07-01T12:03:36Z"
         },
         {
             "dataHolderBrandId": "ee8b5d25-93ae-ee11-a81c-0022481494e2",
@@ -164,7 +164,7 @@
             "publicBaseUri": "https://public.cdr.1stenergy.com.au",
             "abn": "71604999706",
             "acn": "604999706",
-            "lastUpdated": "2024-03-27T03:53:58Z"
+            "lastUpdated": "2024-07-01T12:03:29Z"
         },
         {
             "dataHolderBrandId": "098b7b04-de22-ef11-8ee7-00224814bfdf",
@@ -177,7 +177,7 @@
             "publicBaseUri": "https://public.cdr.ovoenergy.com.au",
             "abn": "99623475089",
             "acn": "623475089",
-            "lastUpdated": "2024-06-28T01:44:42Z"
+            "lastUpdated": "2024-07-01T12:03:37Z"
         },
         {
             "dataHolderBrandId": "f120a1b5-4c00-ef11-a73d-002248e1c726",
@@ -190,7 +190,7 @@
             "publicBaseUri": "https://public.cdr.bluenrg.com.au",
             "abn": "30151014658",
             "acn": "151014658",
-            "lastUpdated": "2024-05-01T01:32:03Z"
+            "lastUpdated": "2024-07-01T12:03:40Z"
         },
         {
             "dataHolderBrandId": "47dd2161-c951-ee11-a81c-002248e31327",
@@ -203,7 +203,7 @@
             "publicBaseUri": "https://public.cdr.nectr.com.au",
             "abn": "82630397214",
             "acn": "630397214",
-            "lastUpdated": "2024-01-01T11:02:43Z"
+            "lastUpdated": "2024-07-01T12:03:42Z"
         },
         {
             "dataHolderBrandId": "3b80d279-c455-ee11-a81c-002248e31327",
@@ -216,7 +216,7 @@
             "publicBaseUri": "https://public.cdr.dodo.com",
             "abn": "15123155840",
             "acn": "123155840",
-            "lastUpdated": "2024-01-01T11:02:44Z"
+            "lastUpdated": "2024-07-01T12:03:43Z"
         },
         {
             "dataHolderBrandId": "a18c6866-f45c-ee11-a81c-002248e31327",
@@ -229,7 +229,7 @@
             "publicBaseUri": "https://public.cdr.momentumenergy.com.au",
             "abn": "42100569159",
             "acn": "100569159",
-            "lastUpdated": "2024-01-01T11:02:32Z"
+            "lastUpdated": "2024-07-01T12:03:30Z"
         },
         {
             "dataHolderBrandId": "d37e16d2-dd5d-ee11-a81c-002248e31327",
@@ -242,7 +242,7 @@
             "publicBaseUri": "https://public.cdr.pacificblue.com.au",
             "abn": "43155908839",
             "acn": "155908839",
-            "lastUpdated": "2024-01-01T11:02:41Z"
+            "lastUpdated": "2024-07-01T12:03:38Z"
         },
         {
             "dataHolderBrandId": "8bbfb815-515e-ee11-a81c-002248e31327",
@@ -255,7 +255,7 @@
             "publicBaseUri": "https://public.cdr.tangoenergy.com",
             "abn": "43155908839",
             "acn": "155908839",
-            "lastUpdated": "2024-01-01T11:02:41Z"
+            "lastUpdated": "2024-07-01T12:03:38Z"
         },
         {
             "dataHolderBrandId": "c12829c8-3a63-ee11-a81c-002248e31327",
@@ -268,7 +268,7 @@
             "publicBaseUri": "https://publiccdr.globirdenergy.com.au",
             "abn": "68600285827",
             "acn": "600285827",
-            "lastUpdated": "2024-02-06T00:59:12Z"
+            "lastUpdated": "2024-07-01T12:03:41Z"
         },
         {
             "dataHolderBrandId": "dc328d2c-a56c-ee11-a81c-002248e31327",
@@ -281,7 +281,7 @@
             "publicBaseUri": "https://public.cdr.lumoenergy.com.au",
             "abn": "69100528327",
             "acn": "100528327",
-            "lastUpdated": "2024-05-03T01:55:36Z"
+            "lastUpdated": "2024-07-01T12:03:45Z"
         },
         {
             "dataHolderBrandId": "39230258-a56c-ee11-a81c-002248e31327",
@@ -294,7 +294,7 @@
             "publicBaseUri": "https://public.cdr.redenergy.com.au",
             "abn": "60107479372",
             "acn": "107479372",
-            "lastUpdated": "2024-01-01T11:02:45Z"
+            "lastUpdated": "2024-07-01T12:03:44Z"
         },
         {
             "dataHolderBrandId": "40f826f2-3ed1-ee11-a73d-6045bd4001ae",
@@ -305,7 +305,20 @@
             "logoUri": "https://www.engie.com.au/sites/default/files/icons/engie_logo.png",
             "publicBaseUri": "https://public-cdr-engie.bravecloud.com/b1swktl2zamng9xf/public",
             "abn": "67269241237",
-            "lastUpdated": "2024-05-01T04:52:02Z"
+            "lastUpdated": "2024-07-01T12:03:33Z"
+        },
+        {
+            "dataHolderBrandId": "3a732abd-b2e1-ee11-a73d-6045bd4001ae",
+            "interimId": "3f85802e-1636-4e3a-9395-cba0062bfab9",
+            "brandName": "Ergon Energy Retail",
+            "industries": [
+                "energy"
+            ],
+            "logoUri": "https://www.ergon.com.au/__data/assets/image/0013/210613/retail-logo.png",
+            "publicBaseUri": "https://public.cdr.ergonretail.com.au",
+            "abn": "11121177802",
+            "acn": "121177802",
+            "lastUpdated": "2024-07-01T02:25:44Z"
         },
         {
             "interimId": "fb416e50-6dda-470e-a2aa-a108efd433b4",
@@ -506,16 +519,6 @@
             "logoUri": "https://energylocals.com.au/app/themes/slate/dist/images/energy-locals-logo.svg",
             "publicBaseUri": "https://cdr.energymadeeasy.gov.au/energy-locals",
             "lastUpdated": "2022-12-18T22:19:25Z"
-        },
-        {
-            "interimId": "3f85802e-1636-4e3a-9395-cba0062bfab9",
-            "brandName": "Ergon Energy",
-            "industries": [
-                "energy"
-            ],
-            "logoUri": "https://www.cdr.gov.au/sites/default/files/2022-08/No-logo-available-2.png",
-            "publicBaseUri": "https://cdr.energymadeeasy.gov.au/ergon",
-            "lastUpdated": "2022-10-21T05:35:24Z"
         },
         {
             "interimId": "2a5c40a1-2354-4847-93fb-d2d0bd1c1e32",

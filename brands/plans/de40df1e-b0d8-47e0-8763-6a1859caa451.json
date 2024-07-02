@@ -4,7 +4,7 @@
             {
                 "type": "STANDING",
                 "brand": "smartestenergy",
-                "planId": "SMA465768SS@VEC",
+                "planId": "SMA548306SS@VEC",
                 "fuelType": "ELECTRICITY",
                 "brandName": "SmartestEnergy",
                 "geography": {
@@ -277,14 +277,14 @@
                     ]
                 },
                 "displayName": "SmartestEnergy VDO - AusNet",
-                "lastUpdated": "2023-05-30T02:49:47Z",
+                "lastUpdated": "2024-06-03T21:22:25Z",
                 "customerType": "BUSINESS",
-                "effectiveFrom": "2023-06-30T14:00:00Z"
+                "effectiveFrom": "2024-06-30T14:00:00Z"
             },
             {
                 "type": "STANDING",
                 "brand": "smartestenergy",
-                "planId": "SMA465769SS@VEC",
+                "planId": "SMA548307SS@VEC",
                 "fuelType": "ELECTRICITY",
                 "brandName": "SmartestEnergy",
                 "geography": {
@@ -342,14 +342,14 @@
                     ]
                 },
                 "displayName": "SmartestEnergy VDO - CitiPower",
-                "lastUpdated": "2023-05-30T02:49:47Z",
+                "lastUpdated": "2024-06-03T21:22:25Z",
                 "customerType": "BUSINESS",
-                "effectiveFrom": "2023-06-30T14:00:00Z"
+                "effectiveFrom": "2024-06-30T14:00:00Z"
             },
             {
                 "type": "STANDING",
                 "brand": "smartestenergy",
-                "planId": "SMA465770SS@VEC",
+                "planId": "SMA548308SS@VEC",
                 "fuelType": "ELECTRICITY",
                 "brandName": "SmartestEnergy",
                 "geography": {
@@ -422,14 +422,14 @@
                     ]
                 },
                 "displayName": "SmartestEnergy VDO - Jemena",
-                "lastUpdated": "2023-05-30T02:49:47Z",
+                "lastUpdated": "2024-06-03T21:22:25Z",
                 "customerType": "BUSINESS",
-                "effectiveFrom": "2023-06-30T14:00:00Z"
+                "effectiveFrom": "2024-06-30T14:00:00Z"
             },
             {
                 "type": "STANDING",
                 "brand": "smartestenergy",
-                "planId": "SMA465771SS@VEC",
+                "planId": "SMA548309SS@VEC",
                 "fuelType": "ELECTRICITY",
                 "brandName": "SmartestEnergy",
                 "geography": {
@@ -754,14 +754,14 @@
                     ]
                 },
                 "displayName": "SmartestEnergy VDO - Powercor",
-                "lastUpdated": "2023-05-30T02:49:47Z",
+                "lastUpdated": "2024-06-03T21:22:25Z",
                 "customerType": "BUSINESS",
-                "effectiveFrom": "2023-06-30T14:00:00Z"
+                "effectiveFrom": "2024-06-30T14:00:00Z"
             },
             {
                 "type": "STANDING",
                 "brand": "smartestenergy",
-                "planId": "SMA465772SS@VEC",
+                "planId": "SMA548310SS@VEC",
                 "fuelType": "ELECTRICITY",
                 "brandName": "SmartestEnergy",
                 "geography": {
@@ -871,9 +871,9 @@
                     ]
                 },
                 "displayName": "SmartestEnergy VDO - United Energy",
-                "lastUpdated": "2023-05-30T02:49:47Z",
+                "lastUpdated": "2024-06-03T21:22:25Z",
                 "customerType": "BUSINESS",
-                "effectiveFrom": "2023-06-30T14:00:00Z"
+                "effectiveFrom": "2024-06-30T14:00:00Z"
             }
         ]
     }
