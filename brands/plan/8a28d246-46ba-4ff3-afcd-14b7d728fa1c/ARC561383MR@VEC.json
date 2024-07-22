@@ -1,9 +1,162 @@
 {
-    "errors": [
-        {
-            "code": "urn:au-cds:error:cds-all:Header/UnsupportedVersion",
-            "title": "Unsupported Version",
-            "detail": "Header x-v greater than maximum supported [x-v=2, max=1]"
+    "data": {
+        "type": "MARKET",
+        "brand": "arcline",
+        "planId": "ARC561383MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Arcline by RACV - Energy",
+        "geography": {
+            "distributors": [
+                "Citipower"
+            ],
+            "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
+                "3011",
+                "3031",
+                "3051",
+                "3052",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
+                "3068",
+                "3070",
+                "3071",
+                "3078",
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
+            ]
+        },
+        "displayName": "Home Energy Plan",
+        "lastUpdated": "2024-07-01T02:28:24Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2024-06-30T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "10.00",
+                    "description": "Charged when a direct debit payment has dishonoured or reversed. This charge is not subject to GST.\nAdditional fees may apply. For more information, please visit the retailers website at energy.arcline.com.au/fees"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "2.00",
+                    "description": "Charged for providing a paper bill"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "47.00",
+                    "description": "May be charged when you move into a property or change retailer. Actual fee may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "47.71",
+                    "description": "May be charged when you move out and require a final meter read. Actual fee may vary."
+                },
+                {
+                    "rate": "0.0081",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "We accept Visa and Mastercard payments via pay.energylocals.com.au. Debit card transactions are subject to a 0.46% fee, and credit card payments incur a 0.81% fee. Credit and debit card processing fees are waived for Direct Debit payments."
+                }
+            ],
+            "terms": "Arcline by RACV is provided by Energy Locals PTY LTD. For more information in relation to Arcline by RACV and this offer, see our full terms and conditions at https://energy.arcline.com.au/terms/.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "Due to changes in the market and economic conditions, we may update your tariff and/or fees. We will provide at least 5 business days' notice before the change takes place.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Refer a Friend Credit",
+                    "displayName": "Refer a Friend Credit",
+                    "eligibility": "Receive a $50 account credit if you mention an existing Arcline customer when you join. The friend also gets $50 credit. T&Cs apply - Visit Arcline Terms and Conditions page for more information: https://energy.arcline.com.au/terms/"
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Available to Victorian residential customers only."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "22.00"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "All Day Charges"
+                    },
+                    "displayName": "All Day Charges",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "63.1652"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Solar feed-in tariff (incl. GST, if any).",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "4.10"
+                    }
+                }
+            ],
+            "onExpiryDescription": "Open contract with no exit fees."
         }
-    ]
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/arcline/cds-au/v1/energy/plans/ARC561383MR@VEC"
+    }
 }

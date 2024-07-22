@@ -1,9 +1,344 @@
 {
-    "errors": [
-        {
-            "code": "urn:au-cds:error:cds-all:Header/UnsupportedVersion",
-            "title": "Unsupported Version",
-            "detail": "Header x-v greater than maximum supported [x-v=2, max=1]"
+    "data": {
+        "type": "MARKET",
+        "brand": "amber",
+        "planId": "AMB561667MS@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Amber Electric",
+        "geography": {
+            "distributors": [
+                "United Energy"
+            ],
+            "includedPostcodes": [
+                "3104",
+                "3105",
+                "3106",
+                "3107",
+                "3108",
+                "3109",
+                "3111",
+                "3114",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3127",
+                "3128",
+                "3129",
+                "3130",
+                "3131",
+                "3132",
+                "3133",
+                "3144",
+                "3145",
+                "3146",
+                "3147",
+                "3148",
+                "3149",
+                "3150",
+                "3151",
+                "3152",
+                "3161",
+                "3162",
+                "3163",
+                "3165",
+                "3166",
+                "3167",
+                "3168",
+                "3169",
+                "3170",
+                "3171",
+                "3172",
+                "3173",
+                "3174",
+                "3175",
+                "3177",
+                "3178",
+                "3179",
+                "3182",
+                "3183",
+                "3184",
+                "3185",
+                "3186",
+                "3187",
+                "3188",
+                "3189",
+                "3190",
+                "3191",
+                "3192",
+                "3193",
+                "3194",
+                "3195",
+                "3196",
+                "3197",
+                "3198",
+                "3199",
+                "3200",
+                "3201",
+                "3202",
+                "3204",
+                "3800",
+                "3802",
+                "3803",
+                "3910",
+                "3911",
+                "3912",
+                "3913",
+                "3915",
+                "3916",
+                "3918",
+                "3919",
+                "3920",
+                "3926",
+                "3927",
+                "3928",
+                "3929",
+                "3930",
+                "3931",
+                "3933",
+                "3934",
+                "3936",
+                "3937",
+                "3938",
+                "3939",
+                "3940",
+                "3941",
+                "3942",
+                "3943",
+                "3944",
+                "3975",
+                "3976",
+                "3977"
+            ]
+        },
+        "displayName": "Amber Small Business Plan Demand",
+        "effectiveTo": "2025-06-29T14:00:00Z",
+        "lastUpdated": "2024-06-27T04:10:19Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2024-06-30T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "MEMBERSHIP",
+                    "amount": "264.00",
+                    "description": "Membership of $22 per month (inc. GST) to access these wholesale rates."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "98.33",
+                    "description": "Standard Connection Fee. Actual charges passed through from your distributor may vary, see www.amber.com.au/fees for more information"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "65.23",
+                    "description": "Standard Disconnection Fee. Actual charges passed through from your distributor may vary, see www.amber.com.au/fees for more information"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "3.00",
+                    "description": "An $3 (inc. GST) fee applies if payment is dishonoured or reversed."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "amount": "16.00",
+                    "description": "A $16 (inc. GST) fee applies if full payment has not been received by the invoice due date."
+                },
+                {
+                    "rate": "0.01",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A fee of 1% applies to payments made by credit or debit card"
+                }
+            ],
+            "terms": "Usage charged at the same wholesale electricity costs that are charged to us. If your average bill total over a financial year exceeds the c/kWh maximum annual rate listed below \u2018Peak consumption\u2019, then we reduce your bill so that the total does not exceed the maximum rate. You are also protected by Amber\u2019s quarterly price guarantee published on our website. Full terms and conditions at https://www.amber.com.au/terms",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "Prices are not fixed. All usage is charged at the same wholesale electricity costs that are charged to us. Prices are determined by a range of factors, including government rebates, network fees and wholesale market costs.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Available to small business customers in United Energy's distribution region with a demand tariff. For illustrative purposes, tariff LVMKW1R assumed. Feed-In Tariffs are only valid if applicable"
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "11-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "26.751168"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "All day",
+                        "displayName": "Single Rate"
+                    },
+                    "displayName": "Low Season Demand",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "56.0259"
+                },
+                {
+                    "endDate": "11-30",
+                    "startDate": "07-01",
+                    "displayName": "Low Season Demand",
+                    "demandCharges": [
+                        {
+                            "days": [
+                                "MON",
+                                "TUE",
+                                "WED",
+                                "THU",
+                                "FRI"
+                            ],
+                            "amount": "25.98",
+                            "endTime": "08:00:00+10:00",
+                            "startTime": "00:00:00+10:00",
+                            "description": "demand component will be billed based on the highest 30-minute KW reading in the maximum demand period for each month and is not based on a rolling 12-month period",
+                            "displayName": "Demand",
+                            "chargePeriod": "DAY",
+                            "measurementPeriod": "MONTH"
+                        }
+                    ],
+                    "rateBlockUType": "demandCharges"
+                },
+                {
+                    "endDate": "03-31",
+                    "startDate": "12-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "26.751168"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "All day",
+                        "displayName": "Single Rate"
+                    },
+                    "displayName": "High Season Demand",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "56.0259"
+                },
+                {
+                    "endDate": "03-31",
+                    "startDate": "12-01",
+                    "displayName": "High Season Demand",
+                    "demandCharges": [
+                        {
+                            "days": [
+                                "MON",
+                                "TUE",
+                                "WED",
+                                "THU",
+                                "FRI"
+                            ],
+                            "amount": "63.55",
+                            "endTime": "08:00:00+10:00",
+                            "startTime": "00:00:00+10:00",
+                            "description": "demand component will be billed based on the highest 30-minute KW reading in the maximum demand period for each month and is not based on a rolling 12-month period",
+                            "displayName": "Demand",
+                            "chargePeriod": "DAY",
+                            "measurementPeriod": "MONTH"
+                        }
+                    ],
+                    "rateBlockUType": "demandCharges"
+                },
+                {
+                    "endDate": "06-30",
+                    "startDate": "04-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "26.751168"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "All day",
+                        "displayName": "Single Rate"
+                    },
+                    "displayName": "Low Season Demand",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "56.0259"
+                },
+                {
+                    "endDate": "06-30",
+                    "startDate": "04-01",
+                    "displayName": "Low Season Demand",
+                    "demandCharges": [
+                        {
+                            "days": [
+                                "MON",
+                                "TUE",
+                                "WED",
+                                "THU",
+                                "FRI"
+                            ],
+                            "amount": "25.98",
+                            "endTime": "08:00:00+10:00",
+                            "startTime": "00:00:00+10:00",
+                            "description": "demand component will be billed based on the highest 30-minute KW reading in the maximum demand period for each month and is not based on a rolling 12-month period",
+                            "displayName": "Demand",
+                            "chargePeriod": "DAY",
+                            "measurementPeriod": "MONTH"
+                        }
+                    ],
+                    "rateBlockUType": "demandCharges"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "OTHER"
+            ],
+            "coolingOffDays": 10,
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0606",
+                            "percentGreen": "1"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "100% GreenPower for c/kWh.",
+                    "displayName": "GreenPower 100"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Solar FiT c/kWh exported (incl. GST if applicable)",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "3.30"
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "Solar PFiT if eligible, c/kWh exported (inc. GST if applicable)",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "amount": "60.00"
+                    }
+                }
+            ],
+            "onExpiryDescription": "No lock in contracts or exit fees."
         }
-    ]
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/amber/cds-au/v1/energy/plans/AMB561667MS@VEC"
+    }
 }

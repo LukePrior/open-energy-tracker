@@ -1,9 +1,273 @@
 {
-    "errors": [
-        {
-            "code": "urn:au-cds:error:cds-all:Header/UnsupportedVersion",
-            "title": "Unsupported Version",
-            "detail": "Header x-v greater than maximum supported [x-v=2, max=1]"
+    "data": {
+        "type": "MARKET",
+        "brand": "energy-locals",
+        "planId": "ENE566460MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Energy Locals",
+        "geography": {
+            "distributors": [
+                "United Energy"
+            ],
+            "includedPostcodes": [
+                "3104",
+                "3105",
+                "3106",
+                "3107",
+                "3108",
+                "3109",
+                "3111",
+                "3114",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3127",
+                "3128",
+                "3129",
+                "3130",
+                "3131",
+                "3132",
+                "3133",
+                "3144",
+                "3145",
+                "3146",
+                "3147",
+                "3148",
+                "3149",
+                "3150",
+                "3151",
+                "3152",
+                "3161",
+                "3162",
+                "3163",
+                "3165",
+                "3166",
+                "3167",
+                "3168",
+                "3169",
+                "3170",
+                "3171",
+                "3172",
+                "3173",
+                "3174",
+                "3175",
+                "3177",
+                "3178",
+                "3179",
+                "3182",
+                "3183",
+                "3184",
+                "3185",
+                "3186",
+                "3187",
+                "3188",
+                "3189",
+                "3190",
+                "3191",
+                "3192",
+                "3193",
+                "3194",
+                "3195",
+                "3196",
+                "3197",
+                "3198",
+                "3199",
+                "3200",
+                "3201",
+                "3202",
+                "3204",
+                "3800",
+                "3802",
+                "3803",
+                "3910",
+                "3911",
+                "3912",
+                "3913",
+                "3915",
+                "3916",
+                "3918",
+                "3919",
+                "3920",
+                "3926",
+                "3927",
+                "3928",
+                "3929",
+                "3930",
+                "3931",
+                "3933",
+                "3934",
+                "3936",
+                "3937",
+                "3938",
+                "3939",
+                "3940",
+                "3941",
+                "3942",
+                "3943",
+                "3944",
+                "3975",
+                "3976",
+                "3977"
+            ]
+        },
+        "displayName": "Online Member - $100 Special",
+        "lastUpdated": "2024-07-10T23:24:29Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2024-06-30T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "MEMBERSHIP",
+                    "amount": "167.88",
+                    "description": "Access wholesale energy rates with a $13.99/month membership fee.\nFor more information on these fees and other fees, please visit energylocals.com.au/fees"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "10.00",
+                    "description": "Charged when a direct debit payment has dishonoured or reversed. This charge is not subject to GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "2.00",
+                    "description": "Charged for providing a paper bill"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "65.23",
+                    "description": "May be charged when you move into a property or change retailer. Actual fee may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "65.23",
+                    "description": "May be charged when you move out and require a final meter read. Actual fee may vary."
+                },
+                {
+                    "rate": "0.0081",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "We accept Visa, Mastercard and AMEX payments via energylocals.com.au/pay-by-card. Debit card transactions are subject to a 0.46% fee, and credit card payments incur a 0.81% fee. Credit and debit card processing fees are waived for Direct Debit payments."
+                }
+            ],
+            "terms": "Energy Locals offers no lock in contracts or exit fees.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "discounts": [
+                {
+                    "type": "CONDITIONAL",
+                    "category": "OTHER",
+                    "description": "Must join by November 30, 2024, to be eligible for this offer. This deal is for new customers only, and they need to stay with us for 6 months to receive the $100 credit. Energy Locals reserve the right to end or extend this offer at any time.",
+                    "displayName": "$100 Special Discount",
+                    "fixedAmount": {
+                        "amount": "90.91"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "Due to changes in the market and economic conditions, we may update your tariff and/or fees. We will provide at least 5 business days' notice before the change takes place.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Refer a Friend Credit",
+                    "displayName": "Refer a Friend Credit",
+                    "eligibility": "Receive a $50 account credit if you mention an existing Energy Locals customer when you join. The friend also gets $50 credit. T&Cs apply: https://energylocals.com.au/terms-and-conditions-refer-a-friend. Energy Locals can withdraw this offer at any time."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Available to customers on eligible network tariffs. Feed-In Tariffs are only valid if applicable."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "22.2727"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Rate"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "57.2727"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "15.4545"
+                            }
+                        ],
+                        "description": "Seperately metered usage",
+                        "displayName": "Controlled Load"
+                    },
+                    "displayName": "Controlled Load 1",
+                    "rateBlockUType": "singleRate"
+                }
+            ],
+            "coolingOffDays": 10,
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0049",
+                            "percentGreen": "0.1"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "10% GreenPower option",
+                    "displayName": "GreenPower 10"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0243",
+                            "percentGreen": "0.5"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "50% GreenPower option",
+                    "displayName": "GreenPower 50"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0485",
+                            "percentGreen": "1"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "100% GreenPower option",
+                    "displayName": "GreenPower 100"
+                }
+            ],
+            "onExpiryDescription": "No fixed contract."
         }
-    ]
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/ENE566460MR@VEC"
+    }
 }

@@ -1,9 +1,140 @@
 {
-    "errors": [
-        {
-            "code": "urn:au-cds:error:cds-all:Header/UnsupportedVersion",
-            "title": "Unsupported Version",
-            "detail": "Header x-v greater than maximum supported [x-v=2, max=1]"
-        }
-    ]
+    "data": {
+        "type": "MARKET",
+        "brand": "sumo-gas",
+        "planId": "SUM548212MR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Sumo",
+        "geography": {
+            "distributors": [
+                "AusNet Services (gas)"
+            ],
+            "includedPostcodes": [
+                "3249",
+                "3250",
+                "3260",
+                "3266",
+                "3277",
+                "3280",
+                "3282",
+                "3284",
+                "3300",
+                "3305",
+                "3340",
+                "3342",
+                "3350",
+                "3355",
+                "3356",
+                "3357",
+                "3363",
+                "3364",
+                "3430",
+                "3431",
+                "3434",
+                "3435",
+                "3437",
+                "3438",
+                "3440",
+                "3441",
+                "3442",
+                "3444",
+                "3450",
+                "3451",
+                "3460",
+                "3461",
+                "3464",
+                "3465",
+                "3550",
+                "3551",
+                "3555",
+                "3556"
+            ]
+        },
+        "displayName": "Sumo Switch Gas",
+        "gasContract": {
+            "terms": "Please refer to our website https://www.sumo.com.au for full terms and conditions.",
+            "isFixed": false,
+            "variation": "We may vary your prices over time. You will be notified in writing if we do.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "You must be a residential customer with an applicable network tariff and must meet our credit and other requirements. Contingent on customers signing up for our Sumo Switch Elec product. For new Sumo customers only."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.25"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.10"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "2.05"
+                            },
+                            {
+                                "unitPrice": "1.95"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Rate"
+                    },
+                    "displayName": "Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "82.00"
+                },
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.20"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "2.05"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "2.00"
+                            },
+                            {
+                                "unitPrice": "1.90"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Rate"
+                    },
+                    "displayName": "Off Peak",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "82.00"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "Ongoing contract"
+        },
+        "lastUpdated": "2024-05-28T03:25:57Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2024-05-26T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/sumo-gas/cds-au/v1/energy/plans/SUM548212MR@VEC"
+    }
 }

@@ -1,9 +1,316 @@
 {
-    "errors": [
-        {
-            "code": "urn:au-cds:error:cds-all:Header/UnsupportedVersion",
-            "title": "Unsupported Version",
-            "detail": "Header x-v greater than maximum supported [x-v=2, max=1]"
+    "data": {
+        "type": "MARKET",
+        "brand": "amber",
+        "planId": "AMB772149MRE2@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Amber Electric",
+        "geography": {
+            "distributors": [
+                "Endeavour"
+            ],
+            "includedPostcodes": [
+                "2113",
+                "2114",
+                "2115",
+                "2116",
+                "2117",
+                "2118",
+                "2119",
+                "2120",
+                "2121",
+                "2122",
+                "2125",
+                "2126",
+                "2142",
+                "2145",
+                "2146",
+                "2147",
+                "2148",
+                "2150",
+                "2151",
+                "2152",
+                "2153",
+                "2154",
+                "2155",
+                "2156",
+                "2157",
+                "2158",
+                "2159",
+                "2160",
+                "2161",
+                "2162",
+                "2163",
+                "2164",
+                "2165",
+                "2166",
+                "2167",
+                "2168",
+                "2170",
+                "2171",
+                "2172",
+                "2173",
+                "2174",
+                "2175",
+                "2176",
+                "2177",
+                "2178",
+                "2179",
+                "2198",
+                "2200",
+                "2213",
+                "2214",
+                "2233",
+                "2250",
+                "2257",
+                "2283",
+                "2304",
+                "2323",
+                "2325",
+                "2328",
+                "2329",
+                "2330",
+                "2500",
+                "2502",
+                "2505",
+                "2506",
+                "2508",
+                "2515",
+                "2516",
+                "2517",
+                "2518",
+                "2519",
+                "2525",
+                "2526",
+                "2527",
+                "2528",
+                "2529",
+                "2530",
+                "2533",
+                "2534",
+                "2535",
+                "2536",
+                "2538",
+                "2539",
+                "2540",
+                "2541",
+                "2555",
+                "2556",
+                "2557",
+                "2558",
+                "2559",
+                "2560",
+                "2563",
+                "2564",
+                "2565",
+                "2566",
+                "2567",
+                "2568",
+                "2569",
+                "2570",
+                "2571",
+                "2572",
+                "2573",
+                "2574",
+                "2575",
+                "2576",
+                "2577",
+                "2578",
+                "2579",
+                "2580",
+                "2622",
+                "2745",
+                "2747",
+                "2748",
+                "2749",
+                "2750",
+                "2751",
+                "2752",
+                "2753",
+                "2754",
+                "2756",
+                "2757",
+                "2758",
+                "2759",
+                "2760",
+                "2761",
+                "2762",
+                "2763",
+                "2765",
+                "2766",
+                "2767",
+                "2768",
+                "2769",
+                "2770",
+                "2773",
+                "2774",
+                "2775",
+                "2776",
+                "2777",
+                "2778",
+                "2779",
+                "2780",
+                "2782",
+                "2783",
+                "2784",
+                "2785",
+                "2786",
+                "2787",
+                "2790",
+                "2795",
+                "2800",
+                "2845",
+                "2846",
+                "2847",
+                "2848",
+                "2849",
+                "2850"
+            ]
+        },
+        "displayName": "CL + CommBank Homeowner",
+        "lastUpdated": "2024-07-08T05:22:18.055Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2024-07-08T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "ANNUAL",
+                    "type": "MEMBERSHIP",
+                    "amount": "264.00",
+                    "description": "Membership of $22 per month (inc. GST) to access these wholesale rates."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "amount": "16.00",
+                    "description": "A $16 (inc. GST) fee applies if full payment has not been received by the invoice due date"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "3.00",
+                    "description": "A $3 (inc. GST) fee applies if payment is dishonoured or reversed."
+                },
+                {
+                    "rate": "0.01",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "A fee of 1% applies to payments made by credit or debit card."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "121.484",
+                    "description": "Standard Connection Fee. Actual charges passed through from your distributor may vary, see www.amber.com.au/fees for more information"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECT_MOVE_OUT",
+                    "amount": "121.484",
+                    "description": "Standard Disconnection Fee. Actual charges passed through from your distributor may vary, see www.amber.com.au/fees for more information"
+                }
+            ],
+            "terms": "For full terms and conditions, visit https://www.amber.com.au/terms. If you don\ufffdt have a smart meter we will install one for you. Available to residential customers in Endeavour Energy's distribution region with a flat rate tariff and controlled load. For illustrative purposes, tariff N70/N50 assumed. Feed-In Tariffs are only valid if applicable",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "discounts": [
+                {
+                    "type": "CONDITIONAL",
+                    "category": "OTHER",
+                    "description": "Welcome credit of $180 applied over 6 months. New residential customers only who are also customers of CommBank (CBA) in the Yello Homeowner segment and link their CBA credit card or bank account as Amber payment method. Customers ineligible to receive any remaining credit months if they cancel their Amber account, switch their payment method to a non-CBA account, or their CBA card expires. Additional eligibility requirements apply, see Amber website.",
+                    "displayName": "CommBank Homeowner Offer",
+                    "fixedAmount": {
+                        "amount": "180.00"
+                    },
+                    "methodUType": "fixedAmount"
+                }
+            ],
+            "variation": "Prices are not fixed. Usage is charged at the same wholesale electricity costs that are charged to us. Prices are determined by a range of factors, including government rebates, network fees and wholesale market costs. If your average bill total over a calendar quarter exceeds the c/kWh maximum rate listed in \ufffdGeneral usage\ufffd, we reduce your bill so that the total does not exceed the maximum rate.",
+            "meterTypes": [
+                "Type 0"
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "33.41809"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Single Rate Block"
+                    },
+                    "displayName": "Single Rate Tariff Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "92.99"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY",
+                "OTHER"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "22.92",
+                                "measureUnit": "KWH"
+                            }
+                        ],
+                        "description": "Seperately metered usage",
+                        "displayName": "Controlled load 1",
+                        "dailySupplyCharge": "9.60"
+                    },
+                    "displayName": "Controlled load 1",
+                    "rateBlockUType": "singleRate"
+                }
+            ],
+            "coolingOffDays": 10,
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.060588",
+                            "percentGreen": "1.0"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "100% GreenPower for 6.06 cents/kWh (inc. GST) option avaliable. See website for more information."
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Wholesale price with guaranteed min of 0c/kWh over a 12 month period.",
+                    "displayName": "Wholesale export price",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "rates": [
+                            {
+                                "unitPrice": "0.00",
+                                "measureUnit": "KWH"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "onExpiryDescription": "Amber Offers no lock in contracts or exit fees. Prices may vary in accordance with the terms and conditions.",
+            "additionalFeeInformation": "Standard fees are listed www.amber.com.au/fees, but additional service costs passed through from distributors may vary."
         }
-    ]
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/amber/cds-au/v1/energy/plans/AMB772149MRE2@EME"
+    }
 }

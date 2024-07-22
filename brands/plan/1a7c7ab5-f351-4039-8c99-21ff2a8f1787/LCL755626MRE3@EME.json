@@ -1,9 +1,349 @@
 {
-    "errors": [
-        {
-            "code": "urn:au-cds:error:cds-all:Header/UnsupportedVersion",
-            "title": "Unsupported Version",
-            "detail": "Header x-v greater than maximum supported [x-v=2, max=1]"
+    "data": {
+        "type": "MARKET",
+        "brand": "energy-locals",
+        "planId": "LCL755626MRE3@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Energy Locals",
+        "geography": {
+            "distributors": [
+                "TasNetworks"
+            ],
+            "includedPostcodes": [
+                "7000",
+                "7004",
+                "7005",
+                "7007",
+                "7008",
+                "7009",
+                "7010",
+                "7011",
+                "7012",
+                "7015",
+                "7016",
+                "7017",
+                "7018",
+                "7019",
+                "7020",
+                "7021",
+                "7022",
+                "7023",
+                "7024",
+                "7025",
+                "7026",
+                "7027",
+                "7030",
+                "7050",
+                "7052",
+                "7053",
+                "7054",
+                "7055",
+                "7109",
+                "7112",
+                "7113",
+                "7116",
+                "7117",
+                "7119",
+                "7120",
+                "7139",
+                "7140",
+                "7150",
+                "7155",
+                "7162",
+                "7163",
+                "7170",
+                "7171",
+                "7172",
+                "7173",
+                "7174",
+                "7175",
+                "7176",
+                "7177",
+                "7178",
+                "7179",
+                "7180",
+                "7182",
+                "7183",
+                "7184",
+                "7185",
+                "7186",
+                "7187",
+                "7190",
+                "7209",
+                "7210",
+                "7211",
+                "7212",
+                "7213",
+                "7214",
+                "7215",
+                "7216",
+                "7248",
+                "7249",
+                "7250",
+                "7252",
+                "7253",
+                "7254",
+                "7258",
+                "7259",
+                "7260",
+                "7261",
+                "7262",
+                "7263",
+                "7264",
+                "7265",
+                "7267",
+                "7268",
+                "7270",
+                "7275",
+                "7276",
+                "7277",
+                "7290",
+                "7291",
+                "7292",
+                "7300",
+                "7301",
+                "7302",
+                "7303",
+                "7304",
+                "7305",
+                "7306",
+                "7307",
+                "7310",
+                "7315",
+                "7316",
+                "7320",
+                "7321",
+                "7322",
+                "7325",
+                "7330",
+                "7331",
+                "7466",
+                "7467",
+                "7468",
+                "7469",
+                "7470"
+            ]
+        },
+        "displayName": "Online Member",
+        "lastUpdated": "2024-07-09T12:58:31.744Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2024-07-09T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "ANNUAL",
+                    "type": "MEMBERSHIP",
+                    "amount": "197.88",
+                    "description": "Access wholesale energy rates with a $16.49/month membership fee."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "amount": "16.00",
+                    "description": "Charged when full payment has not been received by the invoice due date. This charge is not subject to GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "10.00",
+                    "description": "Charged when a direct debit payment has dishonoured or reversed. This charge is not subject to GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "PAPER_BILL",
+                    "amount": "2.00",
+                    "description": "Charged for providing a paper bill"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "99.00",
+                    "description": "May be charged when you move into a property or change retailer. Actual fee may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECT_MOVE_OUT",
+                    "amount": "99.00",
+                    "description": "May be charged when you move out and require a final meter read. Actual fee may vary."
+                }
+            ],
+            "terms": "Energy Locals offers no lock in contracts or exit fees. Prices may vary in accordance with the terms and conditions. See energylocals.com.au/terms for full terms and conditions.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "Due to changes in the market and economic conditions, we may update your tariff and/or fees. We will provide at least 5 business days' notice before the change takes place.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "$50 credit on your and your friends accounts, if you sign up using a Refer a Friend link from an existing Energy Locals customer. T&Cs apply, refer to https://energylocals.com.au/terms-and-conditions-refer-a-friend. This offer can be withdrawn anytime at the discretion of Energy Locals.",
+                    "displayName": "Refer a Friend Credit"
+                }
+            ],
+            "meterTypes": [
+                "Type 4",
+                "Type 4a",
+                "Type 5",
+                "Type 6"
+            ],
+            "pricingModel": "TIME_OF_USE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "displayName": "Time of Use Tariff Period",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "28.1818"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "09:59",
+                                    "startTime": "07:00"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "20:59",
+                                    "startTime": "16:00"
+                                }
+                            ],
+                            "description": "Mon - Fri, 07:00 - 10:00; Mon - Fri, 16:00 - 21:00",
+                            "displayName": "Peak"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "14.5455"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "15:59",
+                                    "startTime": "10:00"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "06:59",
+                                    "startTime": "21:00"
+                                },
+                                {
+                                    "days": [
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "23:59",
+                                    "startTime": "0::00"
+                                }
+                            ],
+                            "description": "Mon - Fri, 10:00 - 16:00; Mon - Fri, 21:00 - 07:00; Sat - Sun",
+                            "displayName": "Off Peak"
+                        }
+                    ],
+                    "dailySupplyCharges": "109.09"
+                }
+            ],
+            "billFrequency": [
+                "P1M",
+                "P3M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY",
+                "OTHER"
+            ],
+            "coolingOffDays": 10,
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.00485",
+                            "percentGreen": "0.1"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "10% Greenpower option",
+                    "displayName": "10% GreenPower option"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.02425",
+                            "percentGreen": "0.5"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "50% Greenpower option",
+                    "displayName": "50% GreenPower option"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0485",
+                            "percentGreen": "1.0"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "100% Greenpower option",
+                    "displayName": "100% GreenPower option."
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Retailer Feed-in Tariff (inc. GST, if any)",
+                    "displayName": "Retailer Feed-in Tariff (inc. GST, if any)",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "rates": [
+                            {
+                                "unitPrice": "8.935",
+                                "measureUnit": "KWH"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "onExpiryDescription": "No fixed contract.",
+            "additionalFeeInformation": "For more information on these fees and other fees, please visit energylocals.com.au/fees"
         }
-    ]
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/LCL755626MRE3@EME"
+    }
 }

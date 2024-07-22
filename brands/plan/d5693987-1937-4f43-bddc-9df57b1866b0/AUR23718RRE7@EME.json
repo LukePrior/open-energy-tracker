@@ -1,9 +1,8 @@
 {
     "errors": [
         {
-            "code": "urn:au-cds:error:cds-all:Header/UnsupportedVersion",
-            "title": "Unsupported Version",
-            "detail": "Header x-v greater than maximum supported [x-v=2, max=1]"
+            "code": "urn:au-cds:error:cds-all:Resource/NotFound",
+            "title": "Resource Not Found"
         }
     ]
 }
