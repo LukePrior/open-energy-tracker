@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "ampol",
-        "planId": "AMP795966MRE1@EME",
+        "planId": "AMP795964MRE2@EME",
         "fuelType": "ELECTRICITY",
         "brandName": "Ampol Energy",
         "geography": {
@@ -238,10 +238,10 @@
                 "2775"
             ]
         },
-        "displayName": "Ampol Energy Powering On TOU",
-        "lastUpdated": "2024-07-16T01:30:11.286Z",
+        "displayName": "Ampol Energy Powering On TOU with CL",
+        "lastUpdated": "2024-07-25T03:11:39.666Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2024-07-16T00:00:00.000Z",
+        "effectiveFrom": "2024-07-25T00:00:00.000Z",
         "electricityContract": {
             "fees": [
                 {
@@ -284,7 +284,7 @@
             "meterTypes": [
                 "Type 4"
             ],
-            "pricingModel": "TIME_OF_USE",
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
             "tariffPeriod": [
                 {
                     "endDate": "03-31",
@@ -614,6 +614,42 @@
                 "PAPER_BILL",
                 "BPAY"
             ],
+            "controlledLoad": [
+                {
+                    "endDate": "2025-06-30",
+                    "startDate": "2024-07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "15.00",
+                                "measureUnit": "KWH"
+                            }
+                        ],
+                        "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                        "displayName": "Controlled Load 1",
+                        "dailySupplyCharge": "6.80"
+                    },
+                    "displayName": "Controlled Load 1",
+                    "rateBlockUType": "singleRate"
+                },
+                {
+                    "endDate": "2025-06-30",
+                    "startDate": "2024-07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "17.60",
+                                "measureUnit": "KWH"
+                            }
+                        ],
+                        "description": "Separately metered usage. The hours of application are determined by your Distributor.",
+                        "displayName": "Controlled Load 2",
+                        "dailySupplyCharge": "6.80"
+                    },
+                    "displayName": "Controlled Load 2",
+                    "rateBlockUType": "singleRate"
+                }
+            ],
             "coolingOffDays": 10,
             "solarFeedInTariff": [
                 {
@@ -627,7 +663,7 @@
                     "singleTariff": {
                         "rates": [
                             {
-                                "unitPrice": "5.00",
+                                "unitPrice": "7.00",
                                 "measureUnit": "KWH"
                             }
                         ]
@@ -656,6 +692,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/ampol/cds-au/v1/energy/plans/AMP795966MRE1@EME"
+        "self": "https://cdr.energymadeeasy.gov.au/ampol/cds-au/v1/energy/plans/AMP795964MRE2@EME"
     }
 }
