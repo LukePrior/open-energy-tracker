@@ -211,7 +211,8 @@
             ]
         },
         "displayName": "Ampol Energy Powering On with CL",
-        "lastUpdated": "2024-07-30T00:04:25.392Z",
+        "effectiveTo": "2024-08-29T00:00:00.000Z",
+        "lastUpdated": "2024-08-01T00:12:43.890Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2024-07-30T00:00:00.000Z",
         "electricityContract": {

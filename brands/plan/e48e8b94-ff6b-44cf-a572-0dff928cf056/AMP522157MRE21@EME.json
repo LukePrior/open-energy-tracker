@@ -211,7 +211,8 @@
             ]
         },
         "displayName": "Ampol Energy Powering On TOU",
-        "lastUpdated": "2024-07-30T00:04:25.331Z",
+        "effectiveTo": "2024-08-29T00:00:00.000Z",
+        "lastUpdated": "2024-08-01T00:12:43.828Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2024-07-30T00:00:00.000Z",
         "electricityContract": {
