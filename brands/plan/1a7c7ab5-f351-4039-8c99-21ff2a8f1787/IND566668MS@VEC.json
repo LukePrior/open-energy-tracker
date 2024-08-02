@@ -145,8 +145,8 @@
                                         "THU",
                                         "FRI"
                                     ],
-                                    "endTime": "13:00:00+10:00",
-                                    "startTime": "21:00:00+10:00"
+                                    "endTime": "23:00",
+                                    "startTime": "07:00"
                                 }
                             ],
                             "displayName": "Tariff 1"
@@ -167,16 +167,16 @@
                                         "THU",
                                         "FRI"
                                     ],
-                                    "endTime": "21:00:00+10:00",
-                                    "startTime": "14:00:00+10:00"
+                                    "endTime": "07:00",
+                                    "startTime": "00:00"
                                 },
                                 {
                                     "days": [
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "14:00:00+10:00",
-                                    "startTime": "14:00:00+10:00"
+                                    "endTime": "00:00",
+                                    "startTime": "00:00"
                                 },
                                 {
                                     "days": [
@@ -186,8 +186,8 @@
                                         "THU",
                                         "FRI"
                                     ],
-                                    "endTime": "14:00:00+10:00",
-                                    "startTime": "13:00:00+10:00"
+                                    "endTime": "00:00",
+                                    "startTime": "23:00"
                                 }
                             ],
                             "displayName": "Tariff 2"
@@ -209,8 +209,8 @@
                                 "FRI"
                             ],
                             "amount": "21.0701",
-                            "endTime": "13:00:00+10:00",
-                            "startTime": "21:00:00+10:00",
+                            "endTime": "23:00",
+                            "startTime": "07:00",
                             "description": "Peak Demand",
                             "displayName": "Demand",
                             "chargePeriod": "DAY",
@@ -273,7 +273,11 @@
                     "displayName": "Current FIT policy",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "4.00"
+                        "rates": [
+                            {
+                                "unitPrice": "4.00"
+                            }
+                        ]
                     }
                 }
             ],

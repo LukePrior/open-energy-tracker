@@ -413,8 +413,8 @@
                                 "FRI"
                             ],
                             "amount": "375.00",
-                            "endTime": "11:00:00+10:00",
-                            "startTime": "05:00:00+10:00",
+                            "endTime": "21:00",
+                            "startTime": "15:00",
                             "description": "demand component will be billed based on the highest 30-minute KW reading in the maximum demand period for each month and is not based on a rolling 12-month period",
                             "displayName": "Demand",
                             "chargePeriod": "MONTH",
@@ -454,8 +454,8 @@
                                 "FRI"
                             ],
                             "amount": "1247.00",
-                            "endTime": "11:00:00+10:00",
-                            "startTime": "05:00:00+10:00",
+                            "endTime": "21:00",
+                            "startTime": "15:00",
                             "description": "demand component will be billed based on the highest 30-minute KW reading in the maximum demand period for each month and is not based on a rolling 12-month period",
                             "displayName": "Demand",
                             "chargePeriod": "MONTH",
@@ -495,8 +495,8 @@
                                 "FRI"
                             ],
                             "amount": "375.00",
-                            "endTime": "11:00:00+10:00",
-                            "startTime": "05:00:00+10:00",
+                            "endTime": "21:00",
+                            "startTime": "15:00",
                             "description": "demand component will be billed based on the highest 30-minute KW reading in the maximum demand period for each month and is not based on a rolling 12-month period",
                             "displayName": "Demand",
                             "chargePeriod": "MONTH",
@@ -535,7 +535,11 @@
                     "displayName": "Current FIT policy",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "3.30"
+                        "rates": [
+                            {
+                                "unitPrice": "3.30"
+                            }
+                        ]
                     }
                 },
                 {
@@ -545,7 +549,11 @@
                     "displayName": "Premium FIT [closed]",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "60.00"
+                        "rates": [
+                            {
+                                "unitPrice": "60.00"
+                            }
+                        ]
                     }
                 }
             ],

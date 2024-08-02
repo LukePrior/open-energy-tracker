@@ -361,8 +361,8 @@
                                 "FRI"
                             ],
                             "amount": "284.12",
-                            "endTime": "11:00:00+10:00",
-                            "startTime": "05:00:00+10:00",
+                            "endTime": "21:00",
+                            "startTime": "15:00",
                             "description": "Demand charging window 3PM - 9PM workdays (local time); reset monthly. Prices may vary for summer and non-summer months",
                             "displayName": "Demand",
                             "chargePeriod": "MONTH",
@@ -402,8 +402,8 @@
                                 "FRI"
                             ],
                             "amount": "1138.85",
-                            "endTime": "11:00:00+10:00",
-                            "startTime": "05:00:00+10:00",
+                            "endTime": "21:00",
+                            "startTime": "15:00",
                             "description": "Demand charging window 3PM - 9PM workdays (local time); reset monthly. Prices may vary for summer and non-summer months",
                             "displayName": "Demand",
                             "chargePeriod": "MONTH",
@@ -443,8 +443,8 @@
                                 "FRI"
                             ],
                             "amount": "284.12",
-                            "endTime": "11:00:00+10:00",
-                            "startTime": "05:00:00+10:00",
+                            "endTime": "21:00",
+                            "startTime": "15:00",
                             "description": "Demand charging window 3PM - 9PM workdays (local time); reset monthly. Prices may vary for summer and non-summer months",
                             "displayName": "Demand",
                             "chargePeriod": "MONTH",
@@ -483,7 +483,11 @@
                     "displayName": "Current FIT policy",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "3.30"
+                        "rates": [
+                            {
+                                "unitPrice": "3.30"
+                            }
+                        ]
                     }
                 },
                 {
@@ -493,7 +497,11 @@
                     "displayName": "Premium FIT [closed]",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "60.00"
+                        "rates": [
+                            {
+                                "unitPrice": "60.00"
+                            }
+                        ]
                     }
                 }
             ],

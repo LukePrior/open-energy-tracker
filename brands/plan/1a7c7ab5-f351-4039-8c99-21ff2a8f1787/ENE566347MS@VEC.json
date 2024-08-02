@@ -161,8 +161,8 @@
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "13:00:00+10:00",
-                                    "startTime": "21:00:00+10:00"
+                                    "endTime": "23:00",
+                                    "startTime": "07:00"
                                 }
                             ],
                             "displayName": "Tariff 1"
@@ -185,8 +185,8 @@
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "21:00:00+10:00",
-                                    "startTime": "14:00:00+10:00"
+                                    "endTime": "07:00",
+                                    "startTime": "00:00"
                                 },
                                 {
                                     "days": [
@@ -198,8 +198,8 @@
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "14:00:00+10:00",
-                                    "startTime": "13:00:00+10:00"
+                                    "endTime": "00:00",
+                                    "startTime": "23:00"
                                 }
                             ],
                             "displayName": "Tariff 2"
@@ -223,8 +223,8 @@
                                 "SUN"
                             ],
                             "amount": "20.9091",
-                            "endTime": "14:00:00+10:00",
-                            "startTime": "14:00:00+10:00",
+                            "endTime": "00:00",
+                            "startTime": "00:00",
                             "description": "Anytime Demand",
                             "displayName": "Demand",
                             "chargePeriod": "DAY",

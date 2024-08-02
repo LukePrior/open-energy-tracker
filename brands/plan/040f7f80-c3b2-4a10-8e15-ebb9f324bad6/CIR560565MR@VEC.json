@@ -127,8 +127,8 @@
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "11:00:00+10:00",
-                                    "startTime": "05:00:00+10:00"
+                                    "endTime": "21:00",
+                                    "startTime": "15:00"
                                 }
                             ],
                             "displayName": "Peak"
@@ -151,8 +151,8 @@
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "14:00:00+10:00",
-                                    "startTime": "11:00:00+10:00"
+                                    "endTime": "00:00",
+                                    "startTime": "21:00"
                                 },
                                 {
                                     "days": [
@@ -164,8 +164,8 @@
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "05:00:00+10:00",
-                                    "startTime": "14:00:00+10:00"
+                                    "endTime": "15:00",
+                                    "startTime": "00:00"
                                 }
                             ],
                             "displayName": "Off-Peak"
@@ -189,7 +189,11 @@
                     "displayName": "Current FIT policy",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "5.00"
+                        "rates": [
+                            {
+                                "unitPrice": "5.00"
+                            }
+                        ]
                     }
                 }
             ],

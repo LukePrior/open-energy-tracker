@@ -367,8 +367,8 @@
                                 "FRI"
                             ],
                             "amount": "7.2727",
-                            "endTime": "11:00:00+10:00",
-                            "startTime": "05:00:00+10:00",
+                            "endTime": "21:00",
+                            "startTime": "15:00",
                             "description": "Non-Summer Demand",
                             "displayName": "Demand",
                             "chargePeriod": "DAY",
@@ -407,8 +407,8 @@
                                 "FRI"
                             ],
                             "amount": "30.00",
-                            "endTime": "11:00:00+10:00",
-                            "startTime": "05:00:00+10:00",
+                            "endTime": "21:00",
+                            "startTime": "15:00",
                             "description": "Summer Demand",
                             "displayName": "Demand",
                             "chargePeriod": "DAY",

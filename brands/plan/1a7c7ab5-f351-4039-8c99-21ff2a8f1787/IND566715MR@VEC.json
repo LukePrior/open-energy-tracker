@@ -153,8 +153,8 @@
                                 "FRI"
                             ],
                             "amount": "18.4532",
-                            "endTime": "11:00:00+10:00",
-                            "startTime": "05:00:00+10:00",
+                            "endTime": "21:00",
+                            "startTime": "15:00",
                             "description": "Year-round Demand",
                             "displayName": "Demand",
                             "chargePeriod": "DAY",
@@ -217,7 +217,11 @@
                     "displayName": "Current FIT policy",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "4.00"
+                        "rates": [
+                            {
+                                "unitPrice": "4.00"
+                            }
+                        ]
                     }
                 }
             ],

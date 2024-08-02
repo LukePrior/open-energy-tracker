@@ -190,8 +190,8 @@
                                 "FRI"
                             ],
                             "amount": "11.87",
-                            "endTime": "11:00:00+10:00",
-                            "startTime": "05:00:00+10:00",
+                            "endTime": "21:00",
+                            "startTime": "15:00",
                             "description": "Non-Summer Demand",
                             "displayName": "Demand",
                             "chargePeriod": "DAY",
@@ -230,8 +230,8 @@
                                 "FRI"
                             ],
                             "amount": "36.72",
-                            "endTime": "11:00:00+10:00",
-                            "startTime": "05:00:00+10:00",
+                            "endTime": "21:00",
+                            "startTime": "15:00",
                             "description": "Summer Demand",
                             "displayName": "Demand",
                             "chargePeriod": "DAY",
@@ -294,7 +294,11 @@
                     "displayName": "Current FIT policy",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "4.00"
+                        "rates": [
+                            {
+                                "unitPrice": "4.00"
+                            }
+                        ]
                     }
                 }
             ],

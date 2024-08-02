@@ -160,7 +160,11 @@
                     "displayName": "Premium FIT [closed]",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "63.30"
+                        "rates": [
+                            {
+                                "unitPrice": "63.30"
+                            }
+                        ]
                     }
                 },
                 {
@@ -170,7 +174,11 @@
                     "displayName": "Current FIT policy",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "3.30"
+                        "rates": [
+                            {
+                                "unitPrice": "3.30"
+                            }
+                        ]
                     }
                 }
             ],

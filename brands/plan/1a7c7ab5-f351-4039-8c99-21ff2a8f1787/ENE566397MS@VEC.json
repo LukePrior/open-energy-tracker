@@ -167,8 +167,8 @@
                                 "FRI"
                             ],
                             "amount": "20.9091",
-                            "endTime": "10:00:00+10:00",
-                            "startTime": "00:00:00+10:00",
+                            "endTime": "20:00",
+                            "startTime": "10:00",
                             "description": "Year-round Demand",
                             "displayName": "Demand",
                             "chargePeriod": "DAY",

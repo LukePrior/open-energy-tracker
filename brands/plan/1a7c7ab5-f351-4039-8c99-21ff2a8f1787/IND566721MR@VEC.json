@@ -245,7 +245,11 @@
                     "displayName": "Current FIT policy",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
-                        "amount": "4.00"
+                        "rates": [
+                            {
+                                "unitPrice": "4.00"
+                            }
+                        ]
                     }
                 }
             ],
