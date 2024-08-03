@@ -2,7 +2,7 @@
     "data": {
         "type": "REGULATED",
         "brand": "aurora",
-        "planId": "AUR775696RBE3@EME",
+        "planId": "AUR775684RBE7@EME",
         "fuelType": "ELECTRICITY",
         "brandName": "Aurora Energy",
         "geography": {
@@ -124,17 +124,17 @@
                 "7470"
             ]
         },
-        "displayName": "Monthly Demand Low Voltage",
-        "lastUpdated": "2024-07-05T05:00:34.179Z",
+        "displayName": "General Business, Hot Water and Off-Peak",
+        "lastUpdated": "2024-08-02T06:35:08.631Z",
         "customerType": "BUSINESS",
-        "effectiveFrom": "2024-07-05T00:00:00.000Z",
+        "effectiveFrom": "2024-08-02T00:00:00.000Z",
         "electricityContract": {
             "fees": [
                 {
                     "term": "FIXED",
                     "type": "CONNECTION",
                     "amount": "99.00",
-                    "description": "This fee includes GST and applies when moving into an existing premise"
+                    "description": "This fee includes GST and applies when moving into an existing premises"
                 },
                 {
                     "term": "FIXED",
@@ -156,7 +156,7 @@
                 {
                     "type": "CONDITIONAL",
                     "category": "DIRECT_DEBIT",
-                    "description": "Customers who pay by Direct Debit may be eligible to receive a Direct Debit discount of 5.5 cents per day inc. GST",
+                    "description": "Customers who pay by Direct Debit may be eligible to receive a Direct Debit Discount of 5.5 cents per day inc. GST",
                     "displayName": "Direct Debit Discount",
                     "fixedAmount": {
                         "amount": "20.00"
@@ -168,7 +168,14 @@
                 "Type 4",
                 "Type 6"
             ],
-            "pricingModel": "SINGLE_RATE",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "description": "This plan is only available to customers already on this plan or customers moving into a premises where the network tariff linked to this plan is already connected. Contact Aurora Energy to discuss if you are eligible for this plan.",
+                    "information": "Eligibility criteria applies"
+                }
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
             "tariffPeriod": [
                 {
                     "endDate": "06-30",
@@ -176,36 +183,46 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "16.04"
+                                "volume": 5.48,
+                                "unitPrice": "33.085"
+                            },
+                            {
+                                "unitPrice": "24.475"
                             }
                         ],
                         "period": "P1D",
                         "displayName": "Single Rate Block"
                     },
-                    "displayName": "Tariff 82 kVA demand",
-                    "demandCharges": [
-                        {
-                            "amount": "14858.66",
-                            "endTime": "00:00",
-                            "startTime": "00:00",
-                            "description": "$163.4452 per kVA per annum",
-                            "displayName": "All kVA",
-                            "chargePeriod": "TARIFF_PERIOD",
-                            "measurementPeriod": "TARIFF_PERIOD"
-                        }
-                    ],
+                    "displayName": "Tariff 22 General Business",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "357.38"
+                    "dailySupplyCharges": "106.17"
                 }
             ],
             "billFrequency": [
-                "P1M"
+                "P3M"
             ],
             "paymentOption": [
                 "PAPER_BILL",
                 "DIRECT_DEBIT",
                 "CREDIT_CARD",
                 "BPAY"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "15.67",
+                                "measureUnit": "KWH"
+                            }
+                        ],
+                        "description": "A controlled load tariff is designed for large appliances that consume a large amount of energy and are metered separately from the rest of your property. This tariff is commonly used for hot water systems, which can make up a substantial portion of your household's energy usage.",
+                        "displayName": "Controlled Load",
+                        "dailySupplyCharge": "20.44"
+                    },
+                    "displayName": "Tariff 43",
+                    "rateBlockUType": "singleRate"
+                }
             ],
             "solarFeedInTariff": [
                 {
@@ -230,6 +247,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/aurora/cds-au/v1/energy/plans/AUR775696RBE3@EME"
+        "self": "https://cdr.energymadeeasy.gov.au/aurora/cds-au/v1/energy/plans/AUR775684RBE7@EME"
     }
 }

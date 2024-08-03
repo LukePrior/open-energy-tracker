@@ -2,7 +2,7 @@
     "data": {
         "type": "REGULATED",
         "brand": "aurora",
-        "planId": "AUR775689RRE3@EME",
+        "planId": "AUR775685RBE7@EME",
         "fuelType": "ELECTRICITY",
         "brandName": "Aurora Energy",
         "geography": {
@@ -124,17 +124,17 @@
                 "7470"
             ]
         },
-        "displayName": "Residential Flat rate (Lights & Power) Off-Peak (Night)",
-        "lastUpdated": "2024-07-05T05:00:34.651Z",
-        "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2024-07-05T00:00:00.000Z",
+        "displayName": "General Business with Hot Water",
+        "lastUpdated": "2024-08-02T06:35:08.124Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2024-08-02T00:00:00.000Z",
         "electricityContract": {
             "fees": [
                 {
                     "term": "FIXED",
                     "type": "CONNECTION",
                     "amount": "99.00",
-                    "description": "This fee includes GST and applies when moving into an existing premise"
+                    "description": "This fee includes GST and applies when moving into an existing premises"
                 },
                 {
                     "term": "FIXED",
@@ -156,7 +156,7 @@
                 {
                     "type": "CONDITIONAL",
                     "category": "DIRECT_DEBIT",
-                    "description": "Customers who pay by Direct Debit may be eligible to receive a Direct Debit discount of 5.5 cents per day inc. GST",
+                    "description": "Customers who pay by Direct Debit may be eligible to receive a Direct Debit Discount of 5.5 cents per day inc. GST",
                     "displayName": "Direct Debit Discount",
                     "fixedAmount": {
                         "amount": "20.00"
@@ -168,6 +168,13 @@
                 "Type 4",
                 "Type 6"
             ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "description": "This plan is only available to customers already on this plan or customers moving into a premises where the network tariff linked to this plan is already connected. Contact Aurora Energy to discuss if you are eligible for this plan.",
+                    "information": "Eligibility criteria applies"
+                }
+            ],
             "pricingModel": "SINGLE_RATE_CONT_LOAD",
             "tariffPeriod": [
                 {
@@ -176,15 +183,19 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "26.952"
+                                "volume": 5.48,
+                                "unitPrice": "33.085"
+                            },
+                            {
+                                "unitPrice": "24.475"
                             }
                         ],
                         "period": "P1D",
                         "displayName": "Single Rate Block"
                     },
-                    "displayName": "Tariff 31",
+                    "displayName": "Tariff 22 General Business",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "110.46"
+                    "dailySupplyCharges": "106.17"
                 }
             ],
             "billFrequency": [
@@ -201,15 +212,15 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "0.13",
+                                "unitPrice": "15.67",
                                 "measureUnit": "KWH"
                             }
                         ],
-                        "description": "A controlled load tariff is designed for?large appliances that consume a large amount of energy?and are metered separately from the rest of your property. This tariff is commonly used for hot water systems, which can make up a substantial portion of your household's energy usage.",
+                        "description": "A controlled load tariff is designed for large appliances that consume a large amount of energy and are metered separately from the rest of your property. This tariff is commonly used for hot water systems, which can make up a substantial portion of your household's energy usage.",
                         "displayName": "Controlled Load",
-                        "dailySupplyCharge": "0.24"
+                        "dailySupplyCharge": "20.44"
                     },
-                    "displayName": "Tariff 62",
+                    "displayName": "Tariff 43",
                     "rateBlockUType": "singleRate"
                 }
             ],
@@ -236,6 +247,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/aurora/cds-au/v1/energy/plans/AUR775689RRE3@EME"
+        "self": "https://cdr.energymadeeasy.gov.au/aurora/cds-au/v1/energy/plans/AUR775685RBE7@EME"
     }
 }

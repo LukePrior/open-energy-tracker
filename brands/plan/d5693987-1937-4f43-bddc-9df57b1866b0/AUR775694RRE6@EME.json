@@ -2,7 +2,7 @@
     "data": {
         "type": "REGULATED",
         "brand": "aurora",
-        "planId": "AUR775681RRE3@EME",
+        "planId": "AUR775694RRE6@EME",
         "fuelType": "ELECTRICITY",
         "brandName": "Aurora Energy",
         "geography": {
@@ -124,17 +124,24 @@
                 "7470"
             ]
         },
-        "displayName": "Residential Flat Rate",
-        "lastUpdated": "2024-07-05T05:00:34.240Z",
+        "displayName": "aurora+ on Time of Use",
+        "lastUpdated": "2024-08-02T06:35:08.797Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2024-07-05T00:00:00.000Z",
+        "effectiveFrom": "2024-08-02T00:00:00.000Z",
+        "meteringCharges": [
+            {
+                "description": "In some cases you may be charged a meter reconfiguration fee to enable your tariff change. This fee varies. Please contact Aurora Energy to discuss if a fee is applicable.",
+                "displayName": "Tariff Change - Meter Reconfiguration",
+                "minimumValue": "0.00"
+            }
+        ],
         "electricityContract": {
             "fees": [
                 {
                     "term": "FIXED",
                     "type": "CONNECTION",
                     "amount": "99.00",
-                    "description": "This fee includes GST and applies when moving into an existing premise"
+                    "description": "This fee includes GST and applies when moving into an existing premises"
                 },
                 {
                     "term": "FIXED",
@@ -156,7 +163,7 @@
                 {
                     "type": "CONDITIONAL",
                     "category": "DIRECT_DEBIT",
-                    "description": "Customers who pay by Direct Debit may be eligible to receive a Direct Debit discount of 5.5 cents per day inc. GST",
+                    "description": "Customers who pay by Direct Debit may be eligible to receive a Direct Debit Discount of 5.5 cents per day inc. GST",
                     "displayName": "Direct Debit Discount",
                     "fixedAmount": {
                         "amount": "20.00"
@@ -165,53 +172,104 @@
                 }
             ],
             "meterTypes": [
-                "Type 4",
-                "Type 6"
+                "Type 4"
             ],
-            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "pricingModel": "TIME_OF_USE",
             "tariffPeriod": [
                 {
                     "endDate": "06-30",
                     "startDate": "07-01",
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "unitPrice": "26.952"
-                            }
-                        ],
-                        "period": "P1D",
-                        "displayName": "Single Rate Block"
-                    },
-                    "displayName": "Tariff 31",
-                    "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "110.46"
+                    "displayName": "Tariff 93",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "32.579"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "09:59",
+                                    "startTime": "07:00"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "20:59",
+                                    "startTime": "16:00"
+                                }
+                            ],
+                            "description": "7am to 10am Monday to Friday & 4pm to 9pm",
+                            "displayName": "Peak weekdays"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "15.169"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "15:59",
+                                    "startTime": "10:00"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "06:59",
+                                    "startTime": "21:00"
+                                },
+                                {
+                                    "days": [
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "23:59",
+                                    "startTime": "0::00"
+                                }
+                            ],
+                            "description": "10 am to 4 pm Monday to Friday & 9 pm to 7 am Monday to Friday Weekends",
+                            "displayName": "Off-Peak Weekdays"
+                        }
+                    ],
+                    "dailySupplyCharges": "122.71"
                 }
             ],
             "billFrequency": [
-                "P3M"
+                "P1M"
             ],
             "paymentOption": [
                 "PAPER_BILL",
                 "DIRECT_DEBIT",
                 "CREDIT_CARD",
                 "BPAY"
-            ],
-            "controlledLoad": [
-                {
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "unitPrice": "0.18",
-                                "measureUnit": "KWH"
-                            }
-                        ],
-                        "description": "A controlled load tariff is designed for?large appliances that consume a large amount of energy?and are metered separately from the rest of your property. This tariff is commonly used for hot water systems, which can make up a substantial portion of your household's energy usage.",
-                        "displayName": "Controlled Load",
-                        "dailySupplyCharge": "0.21"
-                    },
-                    "displayName": "Tariff 41",
-                    "rateBlockUType": "singleRate"
-                }
             ],
             "solarFeedInTariff": [
                 {
@@ -236,6 +294,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/aurora/cds-au/v1/energy/plans/AUR775681RRE3@EME"
+        "self": "https://cdr.energymadeeasy.gov.au/aurora/cds-au/v1/energy/plans/AUR775694RRE6@EME"
     }
 }

@@ -2,7 +2,7 @@
     "data": {
         "type": "REGULATED",
         "brand": "aurora",
-        "planId": "AUR775695RRE3@EME",
+        "planId": "AUR775695RRE6@EME",
         "fuelType": "ELECTRICITY",
         "brandName": "Aurora Energy",
         "geography": {
@@ -125,16 +125,23 @@
             ]
         },
         "displayName": "Residential Flat Rate Contract",
-        "lastUpdated": "2024-07-05T05:00:33.317Z",
+        "lastUpdated": "2024-08-02T06:35:07.907Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2024-07-05T00:00:00.000Z",
+        "effectiveFrom": "2024-08-02T00:00:00.000Z",
+        "meteringCharges": [
+            {
+                "description": "In some cases you may be charged a meter reconfiguration fee to enable your tariff change. This fee varies. Please contact Aurora Energy to discuss if a fee is applicable.",
+                "displayName": "Tariff Change - Meter Reconfiguration",
+                "minimumValue": "0.00"
+            }
+        ],
         "electricityContract": {
             "fees": [
                 {
                     "term": "FIXED",
                     "type": "CONNECTION",
                     "amount": "99.00",
-                    "description": "This fee includes GST and applies when moving into an existing premise"
+                    "description": "This fee includes GST and applies when moving into an existing premises"
                 },
                 {
                     "term": "FIXED",
@@ -156,7 +163,7 @@
                 {
                     "type": "CONDITIONAL",
                     "category": "DIRECT_DEBIT",
-                    "description": "Customers who pay by Direct Debit may be eligible to receive a Direct Debit discount of 5.5 cents per day inc. GST",
+                    "description": "Customers who pay by Direct Debit may be eligible to receive a Direct Debit Discount of 5.5 cents per day inc. GST",
                     "displayName": "Direct Debit Discount",
                     "fixedAmount": {
                         "amount": "20.00"
@@ -170,8 +177,8 @@
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "description": "Customers must have an interval meter, single-site, be on a non-grandfathered tariff and not currently on a market retail contract",
-                    "information": "OC"
+                    "description": "Customers must have an interval meter, single-site and be on a tariff that is not obsolete.",
+                    "information": "Eligibility criteria applies"
                 }
             ],
             "pricingModel": "SINGLE_RATE",
@@ -220,12 +227,12 @@
                     }
                 }
             ],
-            "onExpiryDescription": "This is a Market Retail Contract Offer",
+            "onExpiryDescription": "This is a Market Retail Contract Offer and does not have an expiry period",
             "additionalFeeInformation": "Interest Charged on Overdue Accounts is the 90-day Bank Accepted Bill rate (plus 6%), as set by the Reserve Bank of Australia."
         }
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/aurora/cds-au/v1/energy/plans/AUR775695RRE3@EME"
+        "self": "https://cdr.energymadeeasy.gov.au/aurora/cds-au/v1/energy/plans/AUR775695RRE6@EME"
     }
 }

@@ -2,7 +2,7 @@
     "data": {
         "type": "REGULATED",
         "brand": "aurora",
-        "planId": "AUR23717RBE11@EME",
+        "planId": "AUR23718RRE14@EME",
         "fuelType": "ELECTRICITY",
         "brandName": "Aurora Energy",
         "geography": {
@@ -124,17 +124,24 @@
                 "7470"
             ]
         },
-        "displayName": "Irrigation Time of Use",
-        "lastUpdated": "2024-07-05T05:00:34.061Z",
-        "customerType": "BUSINESS",
-        "effectiveFrom": "2024-07-05T00:00:00.000Z",
+        "displayName": "Residential Peak and Off-Peak",
+        "lastUpdated": "2024-08-02T06:35:08.801Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2024-08-02T00:00:00.000Z",
+        "meteringCharges": [
+            {
+                "description": "In some cases you may be charged a meter reconfiguration fee to enable your tariff change. This fee varies. Please contact Aurora Energy to discuss if a fee is applicable.",
+                "displayName": "Tariff Change - Meter Reconfiguration",
+                "minimumValue": "0.00"
+            }
+        ],
         "electricityContract": {
             "fees": [
                 {
                     "term": "FIXED",
                     "type": "CONNECTION",
                     "amount": "99.00",
-                    "description": "This fee includes GST and applies when moving into an existing premise"
+                    "description": "This fee includes GST and applies when moving into an existing premises"
                 },
                 {
                     "term": "FIXED",
@@ -156,7 +163,7 @@
                 {
                     "type": "CONDITIONAL",
                     "category": "DIRECT_DEBIT",
-                    "description": "Customers who pay by Direct Debit may be eligible to receive a Direct Debit discount of 5.5 cents per day inc. GST",
+                    "description": "Customers who pay by Direct Debit may be eligible to receive a Direct Debit Discount of 5.5 cents per day inc. GST",
                     "displayName": "Direct Debit Discount",
                     "fixedAmount": {
                         "amount": "20.00"
@@ -165,22 +172,21 @@
                 }
             ],
             "meterTypes": [
-                "Type 4",
-                "Type 6"
+                "Type 4"
             ],
             "pricingModel": "TIME_OF_USE",
             "tariffPeriod": [
                 {
-                    "endDate": "03-31",
-                    "startDate": "10-01",
-                    "displayName": "Tariff 75",
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "displayName": "Tariff 93",
                     "rateBlockUType": "timeOfUseRates",
                     "timeOfUseRates": [
                         {
-                            "type": "SHOULDER",
+                            "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "30.3183"
+                                    "unitPrice": "32.578"
                                 }
                             ],
                             "timeOfUse": [
@@ -192,21 +198,43 @@
                                         "THU",
                                         "FRI"
                                     ],
-                                    "endTime": "21:59",
+                                    "endTime": "09:59",
                                     "startTime": "07:00"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "20:59",
+                                    "startTime": "16:00"
                                 }
                             ],
-                            "description": "7am to 10 pm Monday to Friday",
-                            "displayName": "Summer Shoulder"
+                            "description": "7am to 10am Monday to Friday & 4pm to 9pm",
+                            "displayName": "Peak weekdays"
                         },
                         {
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "22.078"
+                                    "unitPrice": "15.169"
                                 }
                             ],
                             "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "15:59",
+                                    "startTime": "10:00"
+                                },
                                 {
                                     "days": [
                                         "MON",
@@ -216,7 +244,7 @@
                                         "FRI"
                                     ],
                                     "endTime": "06:59",
-                                    "startTime": "22:00"
+                                    "startTime": "21:00"
                                 },
                                 {
                                     "days": [
@@ -227,92 +255,15 @@
                                     "startTime": "0::00"
                                 }
                             ],
-                            "description": "10 pm to 7 am Monday to Sunday",
-                            "displayName": "Summer Off-Peak"
+                            "description": "10 am to 4 pm Monday to Friday & 9 pm to 7 am Monday to Friday Weekends",
+                            "displayName": "Off-Peak Weekdays"
                         }
                     ],
-                    "dailySupplyCharges": "319.33"
-                },
-                {
-                    "endDate": "09-30",
-                    "startDate": "04-01",
-                    "displayName": "Winter",
-                    "rateBlockUType": "timeOfUseRates",
-                    "timeOfUseRates": [
-                        {
-                            "type": "PEAK",
-                            "rates": [
-                                {
-                                    "unitPrice": "30.3183"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI"
-                                    ],
-                                    "endTime": "21:59",
-                                    "startTime": "07:00"
-                                }
-                            ],
-                            "description": "7am to 10 pm Monday to Friday",
-                            "displayName": "Winter Peak"
-                        },
-                        {
-                            "type": "SHOULDER",
-                            "rates": [
-                                {
-                                    "unitPrice": "22.078"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "21:59",
-                                    "startTime": "07:00"
-                                }
-                            ],
-                            "description": "7am to 10 pm Saturday to Sunday",
-                            "displayName": "Winter Shoulder"
-                        },
-                        {
-                            "type": "OFF_PEAK",
-                            "rates": [
-                                {
-                                    "unitPrice": "13.795"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI",
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "06:59",
-                                    "startTime": "22:00"
-                                }
-                            ],
-                            "description": "10 pm to 7 am Monday to Sunday",
-                            "displayName": "Winter Off-Peak"
-                        }
-                    ],
-                    "dailySupplyCharges": "319.33"
+                    "dailySupplyCharges": "122.71"
                 }
             ],
             "billFrequency": [
-                "P3M"
+                "P1M"
             ],
             "paymentOption": [
                 "PAPER_BILL",
@@ -325,7 +276,7 @@
                     "scheme": "OTHER",
                     "payerType": "RETAILER",
                     "description": "Feed-In Tariff",
-                    "displayName": "Solar Feed-in Tariff",
+                    "displayName": "Solar Feed-In Tariff",
                     "tariffUType": "singleTariff",
                     "singleTariff": {
                         "rates": [
@@ -343,6 +294,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/aurora/cds-au/v1/energy/plans/AUR23717RBE11@EME"
+        "self": "https://cdr.energymadeeasy.gov.au/aurora/cds-au/v1/energy/plans/AUR23718RRE14@EME"
     }
 }

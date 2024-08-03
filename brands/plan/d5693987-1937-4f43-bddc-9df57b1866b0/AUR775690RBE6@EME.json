@@ -2,7 +2,7 @@
     "data": {
         "type": "REGULATED",
         "brand": "aurora",
-        "planId": "AUR775697RBE3@EME",
+        "planId": "AUR775690RBE6@EME",
         "fuelType": "ELECTRICITY",
         "brandName": "Aurora Energy",
         "geography": {
@@ -124,17 +124,24 @@
                 "7470"
             ]
         },
-        "displayName": "Business Time of Use",
-        "lastUpdated": "2024-07-05T05:00:33.756Z",
+        "displayName": "General Business Flat Rate Contract",
+        "lastUpdated": "2024-08-02T06:35:07.707Z",
         "customerType": "BUSINESS",
-        "effectiveFrom": "2024-07-05T00:00:00.000Z",
+        "effectiveFrom": "2024-08-02T00:00:00.000Z",
+        "meteringCharges": [
+            {
+                "description": "In some cases you may be charged a meter reconfiguration fee to enable your tariff change. This fee varies. Please contact Aurora Energy to discuss if a fee is applicable.",
+                "displayName": "Tariff Change - Meter Reconfiguration",
+                "minimumValue": "0.00"
+            }
+        ],
         "electricityContract": {
             "fees": [
                 {
                     "term": "FIXED",
                     "type": "CONNECTION",
                     "amount": "99.00",
-                    "description": "This fee includes GST and applies when moving into an existing premise"
+                    "description": "This fee includes GST and applies when moving into an existing premises"
                 },
                 {
                     "term": "FIXED",
@@ -156,7 +163,7 @@
                 {
                     "type": "CONDITIONAL",
                     "category": "DIRECT_DEBIT",
-                    "description": "Customers who pay by Direct Debit may be eligible to receive a Direct Debit discount of 5.5 cents per day inc. GST",
+                    "description": "Customers who pay by Direct Debit may be eligible to receive a Direct Debit Discount of 5.5 cents per day inc. GST",
                     "displayName": "Direct Debit Discount",
                     "fixedAmount": {
                         "amount": "20.00"
@@ -165,91 +172,36 @@
                 }
             ],
             "meterTypes": [
-                "Type 4",
-                "Type 6"
+                "Type 4"
             ],
-            "pricingModel": "TIME_OF_USE",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "description": "Customers must have an interval meter, single-site and be on a tariff that is not obsolete.",
+                    "information": "Eligibility criteria applies"
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
             "tariffPeriod": [
                 {
                     "endDate": "06-30",
                     "startDate": "07-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "25.19"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Single Rate Block"
+                    },
                     "displayName": "Tariff 94",
-                    "rateBlockUType": "timeOfUseRates",
-                    "timeOfUseRates": [
-                        {
-                            "type": "PEAK",
-                            "rates": [
-                                {
-                                    "unitPrice": "27.226"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI"
-                                    ],
-                                    "endTime": "21:59",
-                                    "startTime": "07:00"
-                                }
-                            ],
-                            "description": "7am to 10 pm Monday to Friday",
-                            "displayName": "Tariff 94 Peak"
-                        },
-                        {
-                            "type": "SHOULDER",
-                            "rates": [
-                                {
-                                    "unitPrice": "19.678"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "21:59",
-                                    "startTime": "07:00"
-                                }
-                            ],
-                            "description": "7am to 10 pm Saturday to Sunday",
-                            "displayName": "Tariff 94 Shoulder"
-                        },
-                        {
-                            "type": "OFF_PEAK",
-                            "rates": [
-                                {
-                                    "unitPrice": "11.51"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI",
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "06:59",
-                                    "startTime": "22:00"
-                                }
-                            ],
-                            "description": "10 pm to 7 am Monday to Sunday",
-                            "displayName": "Tariff 94 Off-Peak"
-                        }
-                    ],
-                    "dailySupplyCharges": "123.47"
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "134.36"
                 }
             ],
             "billFrequency": [
-                "P3M"
+                "P1M"
             ],
             "paymentOption": [
                 "PAPER_BILL",
@@ -257,6 +209,7 @@
                 "CREDIT_CARD",
                 "BPAY"
             ],
+            "coolingOffDays": 10,
             "solarFeedInTariff": [
                 {
                     "scheme": "OTHER",
@@ -274,12 +227,12 @@
                     }
                 }
             ],
-            "onExpiryDescription": "This is a Regulated Offer and does not have an expiry period",
+            "onExpiryDescription": "This is a Market Retail Contract Offer and does not have an expiry period",
             "additionalFeeInformation": "Interest Charged on Overdue Accounts is the 90-day Bank Accepted Bill rate (plus 6%), as set by the Reserve Bank of Australia."
         }
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/aurora/cds-au/v1/energy/plans/AUR775697RBE3@EME"
+        "self": "https://cdr.energymadeeasy.gov.au/aurora/cds-au/v1/energy/plans/AUR775690RBE6@EME"
     }
 }
