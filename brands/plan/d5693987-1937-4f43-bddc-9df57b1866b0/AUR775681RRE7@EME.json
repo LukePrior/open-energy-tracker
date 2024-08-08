@@ -2,7 +2,7 @@
     "data": {
         "type": "REGULATED",
         "brand": "aurora",
-        "planId": "AUR775685RBE7@EME",
+        "planId": "AUR775681RRE7@EME",
         "fuelType": "ELECTRICITY",
         "brandName": "Aurora Energy",
         "geography": {
@@ -124,10 +124,10 @@
                 "7470"
             ]
         },
-        "displayName": "General Business with Hot Water",
-        "lastUpdated": "2024-08-02T06:35:08.124Z",
-        "customerType": "BUSINESS",
-        "effectiveFrom": "2024-08-02T00:00:00.000Z",
+        "displayName": "Residential Flat Rate",
+        "lastUpdated": "2024-08-07T04:57:02.411Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2024-08-07T00:00:00.000Z",
         "electricityContract": {
             "fees": [
                 {
@@ -183,19 +183,15 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "volume": 5.48,
-                                "unitPrice": "33.085"
-                            },
-                            {
-                                "unitPrice": "24.475"
+                                "unitPrice": "26.952"
                             }
                         ],
                         "period": "P1D",
                         "displayName": "Single Rate Block"
                     },
-                    "displayName": "Tariff 22 General Business",
+                    "displayName": "Tariff 31",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "106.17"
+                    "dailySupplyCharges": "110.46"
                 }
             ],
             "billFrequency": [
@@ -212,15 +208,15 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "15.67",
+                                "unitPrice": "17.50",
                                 "measureUnit": "KWH"
                             }
                         ],
                         "description": "A controlled load tariff is designed for large appliances that consume a large amount of energy and are metered separately from the rest of your property. This tariff is commonly used for hot water systems, which can make up a substantial portion of your household's energy usage.",
                         "displayName": "Controlled Load",
-                        "dailySupplyCharge": "20.44"
+                        "dailySupplyCharge": "20.60"
                     },
-                    "displayName": "Tariff 43",
+                    "displayName": "Tariff 41",
                     "rateBlockUType": "singleRate"
                 }
             ],
@@ -247,6 +243,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/aurora/cds-au/v1/energy/plans/AUR775685RBE7@EME"
+        "self": "https://cdr.energymadeeasy.gov.au/aurora/cds-au/v1/energy/plans/AUR775681RRE7@EME"
     }
 }

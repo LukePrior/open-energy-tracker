@@ -2,7 +2,7 @@
     "data": {
         "type": "REGULATED",
         "brand": "aurora",
-        "planId": "AUR775689RRE6@EME",
+        "planId": "AUR775686RRE7@EME",
         "fuelType": "ELECTRICITY",
         "brandName": "Aurora Energy",
         "geography": {
@@ -124,10 +124,10 @@
                 "7470"
             ]
         },
-        "displayName": "Residential Flat rate (Lights & Power) Off-Peak (Night)",
-        "lastUpdated": "2024-08-02T06:35:08.809Z",
+        "displayName": "Residential Flat rate (Lights & Power) Off-Peak option",
+        "lastUpdated": "2024-08-07T04:57:02.547Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2024-08-02T00:00:00.000Z",
+        "effectiveFrom": "2024-08-07T00:00:00.000Z",
         "electricityContract": {
             "fees": [
                 {
@@ -156,7 +156,7 @@
                 {
                     "type": "CONDITIONAL",
                     "category": "DIRECT_DEBIT",
-                    "description": "Customers who pay by Direct Debit may be eligible to receive a Direct Debit Discount of 5.5 cents per day inc. GST",
+                    "description": "Customers who pay by Direct Debit may be eligible to receive a Direct Debit discount of 5.5 cents per day inc. GST",
                     "displayName": "Direct Debit Discount",
                     "fixedAmount": {
                         "amount": "20.00"
@@ -208,15 +208,15 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "0.13",
+                                "unitPrice": "14.09",
                                 "measureUnit": "KWH"
                             }
                         ],
                         "description": "A controlled load tariff is designed for large appliances that consume a large amount of energy and are metered separately from the rest of your property. This tariff is commonly used for hot water systems, which can make up a substantial portion of your household's energy usage.",
                         "displayName": "Controlled Load",
-                        "dailySupplyCharge": "0.24"
+                        "dailySupplyCharge": "25.46"
                     },
-                    "displayName": "Tariff 62",
+                    "displayName": "Tariff 61",
                     "rateBlockUType": "singleRate"
                 }
             ],
@@ -243,6 +243,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/aurora/cds-au/v1/energy/plans/AUR775689RRE6@EME"
+        "self": "https://cdr.energymadeeasy.gov.au/aurora/cds-au/v1/energy/plans/AUR775686RRE7@EME"
     }
 }

@@ -2,7 +2,7 @@
     "data": {
         "type": "REGULATED",
         "brand": "aurora",
-        "planId": "AUR775697RBE6@EME",
+        "planId": "AUR775689RRE7@EME",
         "fuelType": "ELECTRICITY",
         "brandName": "Aurora Energy",
         "geography": {
@@ -124,17 +124,10 @@
                 "7470"
             ]
         },
-        "displayName": "Business Time of Use",
-        "lastUpdated": "2024-08-02T06:35:08.813Z",
-        "customerType": "BUSINESS",
-        "effectiveFrom": "2024-08-02T00:00:00.000Z",
-        "meteringCharges": [
-            {
-                "description": "In some cases you may be charged a meter reconfiguration fee to enable your tariff change. This fee varies. Please contact Aurora Energy to discuss if a fee is applicable.",
-                "displayName": "Tariff Change - Meter Reconfiguration",
-                "minimumValue": "0.00"
-            }
-        ],
+        "displayName": "Residential Flat rate (Lights & Power) Off-Peak (Night)",
+        "lastUpdated": "2024-08-07T04:57:01.974Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2024-08-07T00:00:00.000Z",
         "electricityContract": {
             "fees": [
                 {
@@ -172,96 +165,60 @@
                 }
             ],
             "meterTypes": [
-                "Type 4"
+                "Type 4",
+                "Type 6"
             ],
-            "pricingModel": "TIME_OF_USE",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "description": "This plan is only available to customers already on this plan or customers moving into a premises where the network tariff linked to this plan is already connected. Contact Aurora Energy to discuss if you are eligible for this plan.",
+                    "information": "Eligibility criteria applies"
+                }
+            ],
+            "pricingModel": "SINGLE_RATE_CONT_LOAD",
             "tariffPeriod": [
                 {
                     "endDate": "06-30",
                     "startDate": "07-01",
-                    "displayName": "Tariff 94",
-                    "rateBlockUType": "timeOfUseRates",
-                    "timeOfUseRates": [
-                        {
-                            "type": "PEAK",
-                            "rates": [
-                                {
-                                    "unitPrice": "27.226"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI"
-                                    ],
-                                    "endTime": "21:59",
-                                    "startTime": "07:00"
-                                }
-                            ],
-                            "description": "7am to 10 pm Monday to Friday",
-                            "displayName": "Tariff 94 Peak"
-                        },
-                        {
-                            "type": "SHOULDER",
-                            "rates": [
-                                {
-                                    "unitPrice": "19.678"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "21:59",
-                                    "startTime": "07:00"
-                                }
-                            ],
-                            "description": "7am to 10 pm Saturday to Sunday",
-                            "displayName": "Tariff 94 Shoulder"
-                        },
-                        {
-                            "type": "OFF_PEAK",
-                            "rates": [
-                                {
-                                    "unitPrice": "11.5103"
-                                }
-                            ],
-                            "timeOfUse": [
-                                {
-                                    "days": [
-                                        "MON",
-                                        "TUE",
-                                        "WED",
-                                        "THU",
-                                        "FRI",
-                                        "SAT",
-                                        "SUN"
-                                    ],
-                                    "endTime": "06:59",
-                                    "startTime": "22:00"
-                                }
-                            ],
-                            "description": "10 pm to 7 am Monday to Sunday",
-                            "displayName": "Tariff 94 Off-Peak"
-                        }
-                    ],
-                    "dailySupplyCharges": "123.47"
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "26.952"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Single Rate Block"
+                    },
+                    "displayName": "Tariff 31",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "110.46"
                 }
             ],
             "billFrequency": [
-                "P1M"
+                "P3M"
             ],
             "paymentOption": [
                 "PAPER_BILL",
                 "DIRECT_DEBIT",
                 "CREDIT_CARD",
                 "BPAY"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "13.27",
+                                "measureUnit": "KWH"
+                            }
+                        ],
+                        "description": "A controlled load tariff is designed for large appliances that consume a large amount of energy and are metered separately from the rest of your property. This tariff is commonly used for hot water systems, which can make up a substantial portion of your household's energy usage.",
+                        "displayName": "Controlled Load",
+                        "dailySupplyCharge": "24.33"
+                    },
+                    "displayName": "Tariff 62",
+                    "rateBlockUType": "singleRate"
+                }
             ],
             "solarFeedInTariff": [
                 {
@@ -286,6 +243,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/aurora/cds-au/v1/energy/plans/AUR775697RBE6@EME"
+        "self": "https://cdr.energymadeeasy.gov.au/aurora/cds-au/v1/energy/plans/AUR775689RRE7@EME"
     }
 }

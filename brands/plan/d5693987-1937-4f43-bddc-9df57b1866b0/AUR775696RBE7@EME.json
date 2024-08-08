@@ -2,7 +2,7 @@
     "data": {
         "type": "REGULATED",
         "brand": "aurora",
-        "planId": "AUR775692RBE6@EME",
+        "planId": "AUR775696RBE7@EME",
         "fuelType": "ELECTRICITY",
         "brandName": "Aurora Energy",
         "geography": {
@@ -124,10 +124,10 @@
                 "7470"
             ]
         },
-        "displayName": "aurora+ Business General Business",
-        "lastUpdated": "2024-08-02T06:35:08.651Z",
+        "displayName": "Monthly Demand Low Voltage",
+        "lastUpdated": "2024-08-07T04:57:01.785Z",
         "customerType": "BUSINESS",
-        "effectiveFrom": "2024-08-02T00:00:00.000Z",
+        "effectiveFrom": "2024-08-07T00:00:00.000Z",
         "electricityContract": {
             "fees": [
                 {
@@ -171,7 +171,7 @@
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "description": "This plan is only available to customers already on this plan or customers moving into a premises where the network tariff linked to this plan is already connected. Contact Aurora Energy to discuss if you are eligible for this plan.",
+                    "description": "This tariff is for low voltage installations that are not used wholly or principally as private residential dwellings or for large business customers whose demand is greater than 70kVA.",
                     "information": "Eligibility criteria applies"
                 }
             ],
@@ -183,23 +183,30 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "volume": 5.48,
-                                "unitPrice": "33.085"
-                            },
-                            {
-                                "unitPrice": "24.475"
+                                "unitPrice": "16.04"
                             }
                         ],
                         "period": "P1D",
                         "displayName": "Single Rate Block"
                     },
-                    "displayName": "Tariff 22 General Business",
+                    "displayName": "Tariff 82 kVA demand",
+                    "demandCharges": [
+                        {
+                            "amount": "14858.66",
+                            "endTime": "00:00",
+                            "startTime": "00:00",
+                            "description": "$163.4452 per kVA per annum",
+                            "displayName": "All kVA",
+                            "chargePeriod": "TARIFF_PERIOD",
+                            "measurementPeriod": "TARIFF_PERIOD"
+                        }
+                    ],
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "106.17"
+                    "dailySupplyCharges": "357.38"
                 }
             ],
             "billFrequency": [
-                "P3M"
+                "P1M"
             ],
             "paymentOption": [
                 "PAPER_BILL",
@@ -230,6 +237,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/aurora/cds-au/v1/energy/plans/AUR775692RBE6@EME"
+        "self": "https://cdr.energymadeeasy.gov.au/aurora/cds-au/v1/energy/plans/AUR775696RBE7@EME"
     }
 }
