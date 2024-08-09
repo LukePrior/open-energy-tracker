@@ -1,8 +1,8 @@
 {
     "errors": [
         {
-            "code": "urn:au-cds:error:cds-all:Resource/NotFound",
-            "title": "Resource Not Found"
+            "code": "urn:au-cds:error:cds-all:GeneralError/Unexpected",
+            "title": "Unexpected Error Encountered"
         }
     ]
 }
