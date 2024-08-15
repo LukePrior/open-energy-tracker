@@ -1,0 +1,510 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "energy-locals",
+        "planId": "IND820182MRE1@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Indigo Power",
+        "geography": {
+            "distributors": [
+                "Endeavour"
+            ],
+            "includedPostcodes": [
+                "2113",
+                "2114",
+                "2115",
+                "2116",
+                "2117",
+                "2118",
+                "2119",
+                "2120",
+                "2121",
+                "2122",
+                "2125",
+                "2126",
+                "2142",
+                "2145",
+                "2146",
+                "2147",
+                "2148",
+                "2150",
+                "2151",
+                "2152",
+                "2153",
+                "2154",
+                "2155",
+                "2156",
+                "2157",
+                "2158",
+                "2159",
+                "2160",
+                "2161",
+                "2162",
+                "2163",
+                "2164",
+                "2165",
+                "2166",
+                "2167",
+                "2168",
+                "2170",
+                "2171",
+                "2172",
+                "2173",
+                "2174",
+                "2175",
+                "2176",
+                "2177",
+                "2178",
+                "2179",
+                "2198",
+                "2200",
+                "2213",
+                "2214",
+                "2233",
+                "2250",
+                "2257",
+                "2283",
+                "2304",
+                "2323",
+                "2325",
+                "2328",
+                "2329",
+                "2330",
+                "2500",
+                "2502",
+                "2505",
+                "2506",
+                "2508",
+                "2515",
+                "2516",
+                "2517",
+                "2518",
+                "2519",
+                "2525",
+                "2526",
+                "2527",
+                "2528",
+                "2529",
+                "2530",
+                "2533",
+                "2534",
+                "2535",
+                "2536",
+                "2538",
+                "2539",
+                "2540",
+                "2541",
+                "2555",
+                "2556",
+                "2557",
+                "2558",
+                "2559",
+                "2560",
+                "2563",
+                "2564",
+                "2565",
+                "2566",
+                "2567",
+                "2568",
+                "2569",
+                "2570",
+                "2571",
+                "2572",
+                "2573",
+                "2574",
+                "2575",
+                "2576",
+                "2577",
+                "2578",
+                "2579",
+                "2580",
+                "2622",
+                "2745",
+                "2747",
+                "2748",
+                "2749",
+                "2750",
+                "2751",
+                "2752",
+                "2753",
+                "2754",
+                "2756",
+                "2757",
+                "2758",
+                "2759",
+                "2760",
+                "2761",
+                "2762",
+                "2763",
+                "2765",
+                "2766",
+                "2767",
+                "2768",
+                "2769",
+                "2770",
+                "2773",
+                "2774",
+                "2775",
+                "2776",
+                "2777",
+                "2778",
+                "2779",
+                "2780",
+                "2782",
+                "2783",
+                "2784",
+                "2785",
+                "2786",
+                "2787",
+                "2790",
+                "2795",
+                "2800",
+                "2845",
+                "2846",
+                "2847",
+                "2848",
+                "2849",
+                "2850"
+            ]
+        },
+        "displayName": "Community Energy hub plan",
+        "lastUpdated": "2024-08-14T09:04:50.947Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2024-08-14T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "10.00",
+                    "description": "Charged when a direct debit payment has dishonoured or reversed. This charge is not subject to GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "61.27",
+                    "description": "May be charged when you move into a property or change retailer. Actual fee may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECT_MOVE_OUT",
+                    "amount": "61.27",
+                    "description": "May be charged when you move out and require a final meter read. Actual fee may vary."
+                },
+                {
+                    "rate": "0.0081",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "We accept Visa, Mastercard and AMEX payments via energylocals.com.au/pay-by-card. Debit card transactions are subject to a 0.46% fee, and credit card payments incur a 0.81% fee. Credit and debit card processing fees are waived for Direct Debit payments."
+                }
+            ],
+            "terms": "For full terms and conditions, visit indigopower.com.au, or call Indigo Power on 1800 491 739.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "Our energy prices are determined by a range of factors, including government rebates, network fees, and wholesale market costs. In response to these changing, we may need to change the amount you are charged for energy. By entering into this Contract, you agree that we may vary the amounts we charge you. You will be notified of any price change in writing at least 5 business days before it comes into effect, or otherwise as required by the relevant energy laws.",
+            "meterTypes": [
+                "Type 4",
+                "Type 4a",
+                "Type 5",
+                "Type 6"
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "description": "Other Eligibility Criteria",
+                    "information": "Network tariff criteria met"
+                }
+            ],
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "tariffPeriod": [
+                {
+                    "endDate": "10-31",
+                    "startDate": "04-01",
+                    "displayName": "Winter Peak",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "31.7"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "19:59",
+                                    "startTime": "16:00"
+                                }
+                            ],
+                            "description": "Apr - Oct, Mon - Fri, 16:00 - 20:00",
+                            "displayName": "Winter Peak"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "28.5"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "09:59",
+                                    "startTime": "20:00"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "15:59",
+                                    "startTime": "14:00"
+                                },
+                                {
+                                    "days": [
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "09:59",
+                                    "startTime": "14:00"
+                                }
+                            ],
+                            "description": "Mon - Fri, 20:00 - 10:00; Mon - Fri, 14:00 - 16:00; Sat - Sun, 14:00 - 10:00",
+                            "displayName": "Off Peak"
+                        },
+                        {
+                            "type": "SHOULDER",
+                            "rates": [
+                                {
+                                    "unitPrice": "21.7"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "13:59",
+                                    "startTime": "10:00"
+                                }
+                            ],
+                            "description": "10:00 - 14:00",
+                            "displayName": "Shoulder"
+                        }
+                    ],
+                    "dailySupplyCharges": "140.89"
+                },
+                {
+                    "endDate": "03-31",
+                    "startDate": "11-01",
+                    "displayName": "Summer Peak",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "39.5"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "19:59",
+                                    "startTime": "16:00"
+                                }
+                            ],
+                            "description": "Nov - Mar, Mon - Fri, 16:00 - 20:00",
+                            "displayName": "Summer Peak"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "28.5"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "09:59",
+                                    "startTime": "20:00"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "15:59",
+                                    "startTime": "14:00"
+                                },
+                                {
+                                    "days": [
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "09:59",
+                                    "startTime": "14:00"
+                                }
+                            ],
+                            "description": "Mon - Fri, 20:00 - 10:00; Mon - Fri, 14:00 - 16:00; Sat - Sun, 14:00 - 10:00",
+                            "displayName": "Off Peak"
+                        },
+                        {
+                            "type": "SHOULDER",
+                            "rates": [
+                                {
+                                    "unitPrice": "21.7"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI",
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "13:59",
+                                    "startTime": "10:00"
+                                }
+                            ],
+                            "description": "10:00 - 14:00",
+                            "displayName": "Shoulder"
+                        }
+                    ],
+                    "dailySupplyCharges": "140.89"
+                }
+            ],
+            "billFrequency": [
+                "P1M",
+                "P3M"
+            ],
+            "paymentOption": [
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY",
+                "OTHER"
+            ],
+            "controlledLoad": [
+                {
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "22.00",
+                                "measureUnit": "KWH"
+                            }
+                        ],
+                        "description": "Seperately metered usage",
+                        "displayName": "Controlled Load 17",
+                        "dailySupplyCharge": "0.00"
+                    },
+                    "displayName": "Controlled Load 1",
+                    "rateBlockUType": "singleRate"
+                }
+            ],
+            "coolingOffDays": 10,
+            "greenPowerCharges": [
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.00485",
+                            "percentGreen": "0.1"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "10% GreenPower option",
+                    "displayName": "10% GreenPower option"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.02425",
+                            "percentGreen": "0.5"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "50% GreenPower option",
+                    "displayName": "50% GreenPower option"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0485",
+                            "percentGreen": "1.0"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "100% GreenPower option",
+                    "displayName": "100% GreenPower option"
+                }
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Retailer Feed-in Tariff (inc. GST, if any) | All kWh/day",
+                    "displayName": "Retailer Feed-in Tariff (inc. GST, if any) | All kWh/day",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "rates": [
+                            {
+                                "unitPrice": "6.00",
+                                "measureUnit": "KWH"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "onExpiryDescription": "No lock in contracts or exit fees.",
+            "additionalFeeInformation": "For more information on these fees and other fees, please visit energylocals.com.au/fees."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/IND820182MRE1@EME"
+    }
+}
