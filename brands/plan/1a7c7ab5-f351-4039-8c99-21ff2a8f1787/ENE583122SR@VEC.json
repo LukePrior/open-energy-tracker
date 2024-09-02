@@ -1,0 +1,150 @@
+{
+    "data": {
+        "type": "STANDING",
+        "brand": "energy-locals",
+        "planId": "ENE583122SR@VEC",
+        "fuelType": "GAS",
+        "brandName": "Energy Locals",
+        "geography": {
+            "distributors": [
+                "AusNet Services (gas)"
+            ],
+            "includedPostcodes": [
+                "3241",
+                "3260",
+                "3284",
+                "3352",
+                "3363",
+                "3364",
+                "3431",
+                "3434",
+                "3435",
+                "3437",
+                "3438",
+                "3440",
+                "3441",
+                "3442",
+                "3467",
+                "3551"
+            ]
+        },
+        "displayName": "VIC Gas Standing Offer",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "10.00",
+                    "description": "Charged when a direct debit payment has dishonoured or reversed. This charge is not subject to GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "2.00",
+                    "description": "Charged per paper bill"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "7.99",
+                    "description": "May be charged when you move into a property or change retailer. Actual fee may vary."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "7.99",
+                    "description": "May be charged when you move out and require a final meter read. Actual fee may vary."
+                },
+                {
+                    "rate": "0.0081",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "CC_PROCESSING",
+                    "description": "We accept Visa, Mastercard and AMEX payments via energylocals.com.au/pay-by-card. Debit card transactions are subject to a 0.46% fee, and credit card payments incur a 0.81% fee. Credit and debit card processing fees are waived for Direct Debit payments."
+                }
+            ],
+            "terms": "Energy Locals offers no lock in contracts or exit fees. Prices may vary in accordance with the terms and conditions. See energylocals.com.au/terms for full terms and conditions.",
+            "isFixed": false,
+            "variation": "Due to changes in the market and economic conditions, we may update your tariff and/or fees. We will provide at least 5 business days' notice before the change takes place.",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Eligible for all Residential customers on the Network"
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "08-31",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "3.6671"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "3.6671"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "3.6671"
+                            },
+                            {
+                                "unitPrice": "3.6671"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Rate"
+                    },
+                    "displayName": "Winter Usage",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "125.0479"
+                },
+                {
+                    "endDate": "05-31",
+                    "startDate": "09-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "3.279"
+                            },
+                            {
+                                "volume": 100,
+                                "unitPrice": "3.279"
+                            },
+                            {
+                                "volume": 1200,
+                                "unitPrice": "3.279"
+                            },
+                            {
+                                "unitPrice": "3.279"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Rate"
+                    },
+                    "displayName": "Non-Winter Usage",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "125.0479"
+                }
+            ],
+            "billFrequency": [
+                "P2M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "No fixed contract."
+        },
+        "lastUpdated": "2024-08-28T06:35:35Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2024-07-21T14:00:00Z"
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/ENE583122SR@VEC"
+    }
+}
