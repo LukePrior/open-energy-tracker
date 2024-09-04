@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "amber",
-        "planId": "AMB573857MR@VEC",
+        "planId": "AMB573867MR@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "Amber Electric",
         "geography": {
@@ -326,9 +326,9 @@
                 "3764"
             ]
         },
-        "displayName": "Amber Plan + CommBank Everyday: Variable Wholesale Prices (estimate only, based on last 12 months of data)",
+        "displayName": "Amber Plan + CommBank Everyday Plus: Variable Wholesale Prices (estimate only, based on last 12 months of data)",
         "effectiveTo": "2025-06-29T14:00:00Z",
-        "lastUpdated": "2024-08-01T23:34:17Z",
+        "lastUpdated": "2024-08-01T23:34:19Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2024-07-31T14:00:00Z",
         "electricityContract": {
@@ -377,10 +377,10 @@
                 {
                     "type": "CONDITIONAL",
                     "category": "OTHER",
-                    "description": "Welcome credit of $120 applied over 6 months. New residential customers only who are also customers of CommBank (CBA) in the Yello Everyday segment and link their CBA credit card or bank account as Amber payment method. Customers ineligible to receive any remaining credit months if they cancel their Amber account, switch their payment method to a non-CBA account, or their CBA card expires. Additional eligibility requirements apply, see Amber website.",
-                    "displayName": "Amber Plan + CommBank Everyday Offer",
+                    "description": "Welcome credit of $150 applied over 6 months. New residential customers only who are also customers of CommBank (CBA) in the Yello Everyday Plus segment. Must link CBA credit card or bank account as Amber payment method. Customers ineligible to receive any remaining credit months if they cancel their Amber account, switch their payment method to a non-CBA account, or their CBA card expires. Additional eligibility requirements apply, see Amber website.",
+                    "displayName": "Amber Plan + CommBank Everyday Plus Offer",
                     "fixedAmount": {
-                        "amount": "109.091"
+                        "amount": "136.364"
                     },
                     "methodUType": "fixedAmount"
                 }
@@ -468,6 +468,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/amber/cds-au/v1/energy/plans/AMB573857MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/amber/cds-au/v1/energy/plans/AMB573867MR@VEC"
     }
 }
