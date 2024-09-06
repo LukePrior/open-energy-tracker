@@ -2,68 +2,120 @@
     "data": {
         "type": "MARKET",
         "brand": "amber",
-        "planId": "AMB573850MR@VEC",
+        "planId": "AMB584077MR@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "Amber Electric",
         "geography": {
             "distributors": [
-                "Citipower"
+                "United Energy"
             ],
             "includedPostcodes": [
-                "3000",
-                "3002",
-                "3003",
-                "3004",
-                "3005",
-                "3006",
-                "3008",
-                "3010",
-                "3011",
-                "3031",
-                "3051",
-                "3052",
-                "3053",
-                "3054",
-                "3055",
-                "3056",
-                "3057",
-                "3065",
-                "3066",
-                "3067",
-                "3068",
-                "3070",
-                "3071",
-                "3078",
-                "3101",
-                "3102",
-                "3103",
                 "3104",
-                "3121",
+                "3105",
+                "3106",
+                "3107",
+                "3108",
+                "3109",
+                "3111",
+                "3114",
                 "3122",
                 "3123",
                 "3124",
                 "3125",
-                "3126",
                 "3127",
+                "3128",
                 "3129",
-                "3141",
-                "3142",
-                "3143",
+                "3130",
+                "3131",
+                "3132",
+                "3133",
                 "3144",
+                "3145",
+                "3146",
+                "3147",
+                "3148",
+                "3149",
+                "3150",
+                "3151",
+                "3152",
                 "3161",
-                "3181",
+                "3162",
+                "3163",
+                "3165",
+                "3166",
+                "3167",
+                "3168",
+                "3169",
+                "3170",
+                "3171",
+                "3172",
+                "3173",
+                "3174",
+                "3175",
+                "3177",
+                "3178",
+                "3179",
                 "3182",
                 "3183",
-                "3205",
-                "3206",
-                "3207"
+                "3184",
+                "3185",
+                "3186",
+                "3187",
+                "3188",
+                "3189",
+                "3190",
+                "3191",
+                "3192",
+                "3193",
+                "3194",
+                "3195",
+                "3196",
+                "3197",
+                "3198",
+                "3199",
+                "3200",
+                "3201",
+                "3202",
+                "3204",
+                "3800",
+                "3802",
+                "3803",
+                "3910",
+                "3911",
+                "3912",
+                "3913",
+                "3915",
+                "3916",
+                "3918",
+                "3919",
+                "3920",
+                "3926",
+                "3927",
+                "3928",
+                "3929",
+                "3930",
+                "3931",
+                "3933",
+                "3934",
+                "3936",
+                "3937",
+                "3938",
+                "3939",
+                "3940",
+                "3941",
+                "3942",
+                "3943",
+                "3944",
+                "3975",
+                "3976",
+                "3977"
             ]
         },
-        "displayName": "Amber Plan + CL + CommBank Welcome: Variable Wholesale Prices (estimate only, based on last 12 months of data)",
+        "displayName": "Amber Plan + CommBank Everyday Plus: Variable Wholesale Prices (estimate only, based on last 12 months of data)",
         "effectiveTo": "2025-06-29T14:00:00Z",
-        "lastUpdated": "2024-08-01T23:34:17Z",
+        "lastUpdated": "2024-09-05T03:39:28Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2024-07-31T14:00:00Z",
+        "effectiveFrom": "2024-03-08T13:00:00Z",
         "electricityContract": {
             "fees": [
                 {
@@ -75,13 +127,13 @@
                 {
                     "term": "FIXED",
                     "type": "CONNECTION",
-                    "amount": "47.00",
+                    "amount": "98.33",
                     "description": "Standard Connection Fee. Actual charges passed through from your distributor may vary, see www.amber.com.au/fees for more information"
                 },
                 {
                     "term": "FIXED",
                     "type": "DISCONNECTION",
-                    "amount": "47.71",
+                    "amount": "65.23",
                     "description": "Standard Disconnection Fee. Actual charges passed through from your distributor may vary, see www.amber.com.au/fees for more information"
                 },
                 {
@@ -103,17 +155,17 @@
                     "description": "A fee of 1% applies to payments made by credit or debit card"
                 }
             ],
-            "terms": "Prices are not fixed. All usage is charged at the same wholesale electricity costs charged to us. Our bill guarantee sets the maximum average rates we charge over a calendar quarter. For general usage this is 34.38c/kWh and for controlled load this is 24.96c/kWh. You are also protected by Amber\u2019s annual bill guarantee published on our website (including solar FIT if applicable). Full terms and conditions at https://www.amber.com.au/terms.",
+            "terms": "Prices are not fixed. All usage is charged at the same wholesale electricity costs charged to us. Our bill guarantee sets the maximum average rates we charge over a calendar quarter. For general usage this is 35.91c/kWh. You are also protected by Amber\u2019s annual bill guarantee published on our website (including solar FIT if applicable). Full terms and conditions at https://www.amber.com.au/terms.",
             "isFixed": false,
             "timeZone": "LOCAL",
             "discounts": [
                 {
                     "type": "CONDITIONAL",
                     "category": "OTHER",
-                    "description": "Welcome credit of $50 applied over 6 months. New residential customers only who are also customers of CommBank (CBA) and link their CBA credit card or bank account as Amber payment method. Customers ineligible to receive any remaining credit months if they cancel their Amber account, switch their payment method to a non-CBA account, or their CBA card expires. Additional eligibility requirements apply, see Amber website.",
-                    "displayName": "Amber Plan + CL + CommBank Welcome",
+                    "description": "Welcome credit of $150 applied over 6 months. New residential customers only who are also customers of CommBank (CBA) in the Yello Everyday Plus segment. Must link CBA credit card or bank account as Amber payment method. Customers ineligible to receive any remaining credit months if they cancel their Amber account, switch their payment method to a non-CBA account, or their CBA card expires. Additional eligibility requirements apply, see Amber website.",
+                    "displayName": "Amber Plan + CommBank Everyday Plus Offer",
                     "fixedAmount": {
-                        "amount": "45.455"
+                        "amount": "136.364"
                     },
                     "methodUType": "fixedAmount"
                 }
@@ -122,10 +174,10 @@
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "Conditional offer to new residential customers (who are also customers of Commonwealth Bank of Australia) in CitiPower's distribution region with flat rate, TOU or demand tariff and controlled load. For illustrative purposes, tariff C1R/CDS assumed. Feed-In Tariffs only valid if applicable"
+                    "information": "Conditional offer to new residential customers (who are also customers of Commonwealth Bank of Australia) in United Energy's distribution region with flat rate, TOU or demand tariff. For illustrative purposes, tariff LVS1R assumed. Feed-In Tariffs only valid if applicable"
                 }
             ],
-            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "pricingModel": "SINGLE_RATE",
             "tariffPeriod": [
                 {
                     "endDate": "12-31",
@@ -133,16 +185,16 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "23.135758"
+                                "unitPrice": "25.308264"
                             }
                         ],
                         "period": "P1D",
                         "description": "All day",
-                        "displayName": "Two rate: Single rate with controlled load"
+                        "displayName": "Single Rate"
                     },
                     "displayName": "Year-round",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "45.5295"
+                    "dailySupplyCharges": "39.5859"
                 }
             ],
             "billFrequency": [
@@ -150,20 +202,6 @@
             ],
             "paymentOption": [
                 "OTHER"
-            ],
-            "controlledLoad": [
-                {
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "unitPrice": "16.23552"
-                            }
-                        ],
-                        "displayName": "Controlled Load"
-                    },
-                    "displayName": "",
-                    "rateBlockUType": "singleRate"
-                }
             ],
             "coolingOffDays": 10,
             "greenPowerCharges": [
@@ -215,6 +253,6 @@
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/amber/cds-au/v1/energy/plans/AMB573850MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/amber/cds-au/v1/energy/plans/AMB584077MR@VEC"
     }
 }
