@@ -1,0 +1,127 @@
+{
+    "data": {
+        "type": "MARKET",
+        "brand": "amber",
+        "planId": "AMB549152MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Amber Electric",
+        "geography": {
+            "distributors": [
+                "Jemena"
+            ],
+            "includedPostcodes": [
+                "3011",
+                "3012",
+                "3013",
+                "3015",
+                "3016",
+                "3019",
+                "3020",
+                "3023",
+                "3025",
+                "3031",
+                "3032",
+                "3033",
+                "3034",
+                "3036",
+                "3037",
+                "3038",
+                "3039",
+                "3040",
+                "3041",
+                "3042",
+                "3043",
+                "3044",
+                "3045",
+                "3046",
+                "3047",
+                "3048",
+                "3049",
+                "3051",
+                "3052",
+                "3058",
+                "3059",
+                "3060",
+                "3061",
+                "3062",
+                "3063",
+                "3064",
+                "3068",
+                "3070",
+                "3072",
+                "3073",
+                "3074",
+                "3076",
+                "3078",
+                "3079",
+                "3081",
+                "3083",
+                "3084",
+                "3085",
+                "3086",
+                "3087",
+                "3335",
+                "3336",
+                "3337",
+                "3340",
+                "3427",
+                "3428",
+                "3429",
+                "3430",
+                "3431",
+                "3437",
+                "3750",
+                "3753"
+            ]
+        },
+        "displayName": "Amber Plan + CommBank Everyday: No Feed-In, Variable Wholesale Prices (estimate only, based on last 12 months of data)",
+        "effectiveTo": "2024-06-29T14:00:00Z",
+        "lastUpdated": "2024-06-03T02:57:53Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2024-06-02T14:00:00Z",
+        "electricityContract": {
+            "terms": "Prices are not fixed. All usage is charged at the same wholesale electricity costs charged to us. Our bill guarantee sets the maximum average rates we charge over a calendar quarter. For general usage this is 33.11c/kWh. You are also protected by Amber\u2019s annual bill guarantee published on our website. Full terms and conditions at https://www.amber.com.au/terms.",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "Prices are not fixed. The estimate usage price is based on the average wholesale prices paid in the last 12 months for the median, non solar, Amber customer in Jemena. Visit www.amber.com.au/how-it-works",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "Conditional offer to new residential customers (who are also customers of Commonwealth Bank of Australia) in Jemena's distribution region with flat rate, TOU or demand tariff. For illustrative purposes, tariff A100 assumed. This estimate has no Feed-In Tariffs."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "unitPrice": "21.293581"
+                            }
+                        ],
+                        "period": "P1D",
+                        "description": "All day",
+                        "displayName": "Single Rate"
+                    },
+                    "displayName": "Year-round",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "42.793325"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "OTHER"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "No lock in contracts or exit fees."
+        }
+    },
+    "meta": {},
+    "links": {
+        "self": "https://cdr.energymadeeasy.gov.au/amber/cds-au/v1/energy/plans/AMB549152MR@VEC"
+    }
+}
