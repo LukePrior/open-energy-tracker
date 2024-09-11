@@ -1,9 +1,216 @@
 {
-    "errors": [
-        {
-            "code": "urn:au-cds:error:cds-all:Header/UnsupportedVersion",
-            "title": "Unsupported Version",
-            "detail": "unsupported version, version must be between 1 and 1"
+    "data": {
+        "type": "MARKET",
+        "brand": "globird",
+        "planId": "GLO577856MR@VEC",
+        "fuelType": "ELECTRICITY",
+        "brandName": "GloBird Energy",
+        "geography": {
+            "distributors": [
+                "United Energy"
+            ],
+            "includedPostcodes": [
+                "3104",
+                "3105",
+                "3106",
+                "3107",
+                "3108",
+                "3109",
+                "3111",
+                "3114",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3127",
+                "3128",
+                "3129",
+                "3130",
+                "3131",
+                "3132",
+                "3133",
+                "3144",
+                "3145",
+                "3146",
+                "3147",
+                "3148",
+                "3149",
+                "3150",
+                "3151",
+                "3152",
+                "3161",
+                "3162",
+                "3163",
+                "3165",
+                "3166",
+                "3167",
+                "3168",
+                "3169",
+                "3170",
+                "3171",
+                "3172",
+                "3173",
+                "3174",
+                "3175",
+                "3177",
+                "3178",
+                "3179",
+                "3182",
+                "3183",
+                "3184",
+                "3185",
+                "3186",
+                "3187",
+                "3188",
+                "3189",
+                "3190",
+                "3191",
+                "3192",
+                "3193",
+                "3194",
+                "3195",
+                "3196",
+                "3197",
+                "3198",
+                "3199",
+                "3200",
+                "3201",
+                "3202",
+                "3204",
+                "3800",
+                "3802",
+                "3803",
+                "3910",
+                "3911",
+                "3912",
+                "3913",
+                "3915",
+                "3916",
+                "3918",
+                "3919",
+                "3920",
+                "3926",
+                "3927",
+                "3928",
+                "3929",
+                "3930",
+                "3931",
+                "3933",
+                "3934",
+                "3936",
+                "3937",
+                "3938",
+                "3939",
+                "3940",
+                "3941",
+                "3942",
+                "3943",
+                "3944",
+                "3975",
+                "3976",
+                "3977"
+            ]
+        },
+        "displayName": "GloBird  BOOST Residential (Flat Rate Without Controlled Load)-United Energy",
+        "lastUpdated": "2024-08-12T05:18:33Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2024-08-12T14:00:00Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "15.00",
+                    "description": "This is smart meter remote re-connection fee. It assumes a smart meter being remotely connected during business hours when we have been given enough prior notice.  However the fee can vary depending on the type of meter, the location, and other factors."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "15.00",
+                    "description": "This is smart meter remote disconnection fee, however this fee can vary depending on your type of meter, the meter location, and other factors."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "4.00",
+                    "description": "Paper Bill. If you have opted to receive a paper bill by post"
+                },
+                {
+                    "rate": "0",
+                    "term": "PERCENT_OF_BILL",
+                    "type": "OTHER",
+                    "description": "0 Credit Card Payment Processing Fee"
+                }
+            ],
+            "terms": "For further information about this offer call GloBird on 133456 or visit www.globirdenergy.com.au or see our full terms and conditions here: www.globirdenergy.com.au/legal/. See Time of Use Solar/Generation time period here https://www.globirdenergy.com.au/legal/flexible/. 4-9pm we pay 8.4c/kWh, 10am-2pm we pay 2.1c, other times we pay 4.1c",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "Prices are reviewed one calendar month after the effective date of the approval of your distributor\u2019s annual network tariffs by the regulator. Solar rates change from the ESC\u2019s annual minimum feed-in Tariff determination\u2019s effective date.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "Local call center and no credit card processing fees",
+                    "displayName": "Local call center and no credit card processing fees",
+                    "eligibility": "Traditional energy plan. Easy to understand. Local call center. No sneaky credit card processing fees. Just great value."
+                }
+            ],
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This product is for VIC Residential customers on single-rate in United Energy area.Step 1 of 1064.58kWh/month, calculated based on average daily allowance of 35.00kWh/day for the billing period. Example: 30 day bill has a step 1 of 1050.00kWh, or a 31 day bill 1085.00kWh. For eligibility criteria call 133456. Some reasonable conditions apply."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "12-31",
+                    "startDate": "01-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 1064.58,
+                                "unitPrice": "17.40"
+                            },
+                            {
+                                "unitPrice": "21.60"
+                            }
+                        ],
+                        "period": "P1M",
+                        "description": "First 1064.58 kWh/Month",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Period",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "81.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "solarFeedInTariff": [
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "You can remain on the scheme until 31 December 2024",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "rates": [
+                            {
+                                "unitPrice": "60.00"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discounts, prices or rates."
         }
-    ]
+    },
+    "links": {
+        "self": "https://publiccdr.globirdenergy.com.au/cds-au/v1/energy/plans/GLO577856MR@VEC"
+    }
 }

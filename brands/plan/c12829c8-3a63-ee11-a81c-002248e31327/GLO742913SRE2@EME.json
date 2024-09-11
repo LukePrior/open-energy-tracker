@@ -1,9 +1,459 @@
 {
-    "errors": [
-        {
-            "code": "urn:au-cds:error:cds-all:Header/UnsupportedVersion",
-            "title": "Unsupported Version",
-            "detail": "unsupported version, version must be between 1 and 1"
+    "data": {
+        "type": "STANDING",
+        "brand": "globird",
+        "planId": "GLO742913SRE2@EME",
+        "fuelType": "ELECTRICITY",
+        "brandName": "Globird Energy",
+        "geography": {
+            "distributors": [
+                "Essential Energy Standard"
+            ],
+            "includedPostcodes": [
+                "2311",
+                "2312",
+                "2320",
+                "2321",
+                "2324",
+                "2329",
+                "2337",
+                "2338",
+                "2339",
+                "2340",
+                "2341",
+                "2342",
+                "2343",
+                "2344",
+                "2345",
+                "2346",
+                "2347",
+                "2350",
+                "2352",
+                "2353",
+                "2354",
+                "2355",
+                "2356",
+                "2357",
+                "2358",
+                "2359",
+                "2360",
+                "2361",
+                "2365",
+                "2369",
+                "2370",
+                "2371",
+                "2372",
+                "2379",
+                "2380",
+                "2381",
+                "2382",
+                "2386",
+                "2387",
+                "2388",
+                "2390",
+                "2395",
+                "2396",
+                "2397",
+                "2398",
+                "2399",
+                "2400",
+                "2401",
+                "2402",
+                "2403",
+                "2404",
+                "2405",
+                "2406",
+                "2408",
+                "2409",
+                "2410",
+                "2411",
+                "2415",
+                "2420",
+                "2421",
+                "2422",
+                "2423",
+                "2424",
+                "2425",
+                "2426",
+                "2427",
+                "2428",
+                "2429",
+                "2430",
+                "2431",
+                "2439",
+                "2440",
+                "2441",
+                "2443",
+                "2444",
+                "2445",
+                "2446",
+                "2447",
+                "2448",
+                "2449",
+                "2450",
+                "2452",
+                "2453",
+                "2454",
+                "2455",
+                "2456",
+                "2460",
+                "2462",
+                "2463",
+                "2464",
+                "2465",
+                "2466",
+                "2469",
+                "2470",
+                "2471",
+                "2472",
+                "2473",
+                "2474",
+                "2475",
+                "2476",
+                "2477",
+                "2478",
+                "2479",
+                "2480",
+                "2481",
+                "2482",
+                "2483",
+                "2484",
+                "2485",
+                "2486",
+                "2487",
+                "2488",
+                "2489",
+                "2490",
+                "2536",
+                "2537",
+                "2539",
+                "2545",
+                "2546",
+                "2548",
+                "2549",
+                "2550",
+                "2551",
+                "2577",
+                "2579",
+                "2580",
+                "2581",
+                "2582",
+                "2583",
+                "2584",
+                "2585",
+                "2586",
+                "2587",
+                "2588",
+                "2590",
+                "2594",
+                "2611",
+                "2618",
+                "2619",
+                "2620",
+                "2621",
+                "2622",
+                "2623",
+                "2624",
+                "2625",
+                "2626",
+                "2627",
+                "2628",
+                "2629",
+                "2630",
+                "2631",
+                "2632",
+                "2633",
+                "2640",
+                "2641",
+                "2642",
+                "2643",
+                "2644",
+                "2645",
+                "2646",
+                "2647",
+                "2649",
+                "2650",
+                "2651",
+                "2652",
+                "2653",
+                "2655",
+                "2656",
+                "2658",
+                "2659",
+                "2660",
+                "2661",
+                "2663",
+                "2665",
+                "2666",
+                "2668",
+                "2669",
+                "2671",
+                "2672",
+                "2675",
+                "2678",
+                "2680",
+                "2681",
+                "2700",
+                "2701",
+                "2702",
+                "2703",
+                "2705",
+                "2706",
+                "2707",
+                "2710",
+                "2711",
+                "2712",
+                "2713",
+                "2714",
+                "2716",
+                "2720",
+                "2721",
+                "2722",
+                "2725",
+                "2726",
+                "2727",
+                "2729",
+                "2730",
+                "2731",
+                "2734",
+                "2787",
+                "2791",
+                "2792",
+                "2793",
+                "2794",
+                "2795",
+                "2797",
+                "2798",
+                "2799",
+                "2800",
+                "2803",
+                "2804",
+                "2805",
+                "2806",
+                "2807",
+                "2808",
+                "2809",
+                "2810",
+                "2820",
+                "2821",
+                "2823",
+                "2824",
+                "2825",
+                "2827",
+                "2828",
+                "2829",
+                "2830",
+                "2831",
+                "2832",
+                "2833",
+                "2834",
+                "2835",
+                "2839",
+                "2840",
+                "2842",
+                "2843",
+                "2844",
+                "2849",
+                "2850",
+                "2852",
+                "2864",
+                "2865",
+                "2866",
+                "2867",
+                "2868",
+                "2869",
+                "2870",
+                "2871",
+                "2873",
+                "2874",
+                "2875",
+                "2876",
+                "2877"
+            ]
+        },
+        "displayName": "Resi Standing Offer Prices (Flex Rate)-Essential",
+        "effectiveTo": "2025-06-30T00:00:00.000Z",
+        "lastUpdated": "2024-07-05T05:57:07.481Z",
+        "customerType": "RESIDENTIAL",
+        "effectiveFrom": "2024-07-05T00:00:00.000Z",
+        "electricityContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "CONNECTION",
+                    "amount": "38.00",
+                    "description": "Min connection fee $38 inc GST. Fees can vary for meter type, location or other factors. All fees here www.globirdenergy.com.au/fees"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECT_MOVE_OUT",
+                    "amount": "38.00",
+                    "description": "For move-out customer needs a final read only. Fees can vary for meter type, location or other factors. All fees here www.globirdenergy.com.au/fees"
+                }
+            ],
+            "terms": "For further information about this offer call GloBird on 133456 or visit www.globirdenergy.com.au or see our full terms and conditions here: www.globirdenergy.com.au/legal/",
+            "isFixed": false,
+            "timeZone": "LOCAL",
+            "variation": "We may update your solar feed-in, or your rates from time to time. We'll always notify you in writing prior to any change.",
+            "meterTypes": [
+                "Type 4",
+                "Type 5"
+            ],
+            "pricingModel": "TIME_OF_USE",
+            "tariffPeriod": [
+                {
+                    "endDate": "06-30",
+                    "startDate": "07-01",
+                    "displayName": "01/07/2024-30/06/2025",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "volume": 60.83,
+                                    "unitPrice": "46.1"
+                                },
+                                {
+                                    "unitPrice": "52.1"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "19:59",
+                                    "startTime": "17:00"
+                                }
+                            ],
+                            "description": "Peak Usage",
+                            "displayName": "Peak Usage"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "volume": 212.92,
+                                    "unitPrice": "31.6"
+                                },
+                                {
+                                    "unitPrice": "37.6"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "23:59",
+                                    "startTime": "22:00"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "06:59",
+                                    "startTime": "0::00"
+                                },
+                                {
+                                    "days": [
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "23:59",
+                                    "startTime": "0::00"
+                                }
+                            ],
+                            "description": "Off Peak Usage",
+                            "displayName": "Off Peak Usage"
+                        },
+                        {
+                            "type": "SHOULDER",
+                            "rates": [
+                                {
+                                    "volume": 152.08,
+                                    "unitPrice": "31.6"
+                                },
+                                {
+                                    "unitPrice": "37.6"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "16:59",
+                                    "startTime": "07:00"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "21:59",
+                                    "startTime": "20:00"
+                                }
+                            ],
+                            "description": "Shoulder Usage",
+                            "displayName": "Shoulder Usage"
+                        }
+                    ],
+                    "dailySupplyCharges": "206.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M",
+                "P3M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL",
+                "DIRECT_DEBIT",
+                "CREDIT_CARD",
+                "BPAY"
+            ],
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "GloBird currently pay 1.00 cents per kWh solar feed-in (inc. GST if any).",
+                    "displayName": "Single Rate Solar FiT",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "rates": [
+                            {
+                                "unitPrice": "1.00",
+                                "measureUnit": "KWH"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "onExpiryDescription": "You will be notified of a new plan 1 month before the expiry date",
+            "additionalFeeInformation": "Additional fees and charges may apply, please see: https://www.globirdenergy.com.au/legal/fees/"
         }
-    ]
+    },
+    "links": {
+        "self": "https://publiccdr.globirdenergy.com.au/cds-au/v1/energy/plans/GLO742913SRE2@EME"
+    }
 }

@@ -1,9 +1,108 @@
 {
-    "errors": [
-        {
-            "code": "urn:au-cds:error:cds-all:Header/UnsupportedVersion",
-            "title": "Unsupported Version",
-            "detail": "unsupported version, version must be between 1 and 1"
-        }
-    ]
+    "data": {
+        "type": "STANDING",
+        "brand": "globird",
+        "planId": "GLO562768SS@VEC",
+        "fuelType": "GAS",
+        "brandName": "GloBird Energy",
+        "geography": {
+            "distributors": [
+                "AusNet Services (gas)"
+            ],
+            "includedPostcodes": [
+                "3227",
+                "3331"
+            ]
+        },
+        "displayName": "GloBird GAS STANDING OFFER Small Business(Adjoining Central)-AusNet Services (gas)",
+        "effectiveTo": "2025-06-29T14:00:00Z",
+        "gasContract": {
+            "fees": [
+                {
+                    "term": "FIXED",
+                    "type": "RECONNECTION",
+                    "amount": "73.25",
+                    "description": "Standard rates apply during business hours. Fees are set by your distributor."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DISCONNECTION",
+                    "amount": "73.25",
+                    "description": "Standard rates apply during business hours. Fees are set by your distributor."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "7.99",
+                    "description": "Special Meter Read"
+                }
+            ],
+            "terms": "For further information about this offer call GloBird on 133456 or visit www.globirdenergy.com.au or see our full terms and conditions here: www.globirdenergy.com.au/legal/",
+            "isFixed": true,
+            "variation": "We may update your rates from time to time. However we'll always notify you in writing prior to any change",
+            "eligibility": [
+                {
+                    "type": "OTHER",
+                    "information": "This product is only available to Victorian customers in the AusNet Services (gas) Adjoining Central distribution area."
+                }
+            ],
+            "pricingModel": "SINGLE_RATE",
+            "tariffPeriod": [
+                {
+                    "endDate": "09-30",
+                    "startDate": "06-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "4.30"
+                            },
+                            {
+                                "unitPrice": "3.80"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Peak"
+                    },
+                    "displayName": "Peak Period - June to September",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "180.00"
+                },
+                {
+                    "endDate": "05-31",
+                    "startDate": "10-01",
+                    "singleRate": {
+                        "rates": [
+                            {
+                                "volume": 100,
+                                "unitPrice": "4.30"
+                            },
+                            {
+                                "unitPrice": "3.80"
+                            }
+                        ],
+                        "period": "P1D",
+                        "displayName": "Offpeak"
+                    },
+                    "displayName": "Offpeak Period - October to May",
+                    "rateBlockUType": "singleRate",
+                    "dailySupplyCharges": "180.00"
+                }
+            ],
+            "billFrequency": [
+                "P1M"
+            ],
+            "paymentOption": [
+                "PAPER_BILL"
+            ],
+            "coolingOffDays": 10,
+            "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discount percentage or rates."
+        },
+        "lastUpdated": "2024-07-01T02:28:55Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2024-06-30T14:00:00Z"
+    },
+    "links": {
+        "self": "https://publiccdr.globirdenergy.com.au/cds-au/v1/energy/plans/GLO562768SS@VEC"
+    }
 }
