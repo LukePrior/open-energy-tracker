@@ -1,10 +1,10 @@
 {
     "data": {
         "type": "MARKET",
-        "brand": "energy-locals",
-        "planId": "ENE577664MR@VEC",
+        "brand": "amber",
+        "planId": "AMB584073MR@VEC",
         "fuelType": "ELECTRICITY",
-        "brandName": "Energy Locals",
+        "brandName": "Amber Electric",
         "geography": {
             "distributors": [
                 "AusNet Services (electricity)"
@@ -274,161 +274,97 @@
                 "3996"
             ]
         },
-        "displayName": "Local Rewards",
-        "lastUpdated": "2024-08-12T05:18:20Z",
+        "displayName": "Amber Plan + CommBank Everyday Plus: Variable Wholesale Prices (estimate only, based on last 12 months of data)",
+        "effectiveTo": "2025-06-29T14:00:00Z",
+        "lastUpdated": "2024-09-05T03:39:27Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2024-06-30T14:00:00Z",
+        "effectiveFrom": "2024-03-08T13:00:00Z",
         "electricityContract": {
             "fees": [
                 {
                     "term": "FIXED",
                     "type": "MEMBERSHIP",
-                    "amount": "167.88",
-                    "description": "Access wholesale energy rates with a $13.99/month membership fee.\nFor more information on these fees and other fees, please visit energylocals.com.au/fees"
-                },
-                {
-                    "term": "FIXED",
-                    "type": "DD_DISHONOUR",
-                    "amount": "10.00",
-                    "description": "Charged when a direct debit payment has dishonoured or reversed. This charge is not subject to GST."
-                },
-                {
-                    "term": "FIXED",
-                    "type": "OTHER",
-                    "amount": "2.00",
-                    "description": "Charged per paper bill"
+                    "amount": "264.00",
+                    "description": "Membership of $22 per month (inc. GST) to access these wholesale rates."
                 },
                 {
                     "term": "FIXED",
                     "type": "CONNECTION",
                     "amount": "45.35",
-                    "description": "May be charged when you move into a property or change retailer. Actual fee may vary."
+                    "description": "Standard Connection Fee. Actual charges passed through from your distributor may vary, see www.amber.com.au/fees for more information"
                 },
                 {
                     "term": "FIXED",
                     "type": "DISCONNECTION",
                     "amount": "45.35",
-                    "description": "May be charged when you move out and require a final meter read. Actual fee may vary."
+                    "description": "Standard Disconnection Fee. Actual charges passed through from your distributor may vary, see www.amber.com.au/fees for more information"
                 },
                 {
-                    "rate": "0.0081",
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "3.00",
+                    "description": "An $3 (inc. GST) fee applies if payment is dishonoured or reversed."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "LATE_PAYMENT",
+                    "amount": "16.00",
+                    "description": "A $16 (inc. GST) fee applies if full payment has not been received by the invoice due date"
+                },
+                {
+                    "rate": "0.01",
                     "term": "PERCENT_OF_BILL",
                     "type": "CC_PROCESSING",
-                    "description": "We accept Visa, Mastercard and AMEX payments via energylocals.com.au/pay-by-card. Debit card transactions are subject to a 0.46% fee, and credit card payments incur a 0.81% fee. Credit and debit card processing fees are waived for Direct Debit payments."
+                    "description": "A fee of 1% applies to payments made by credit or debit card"
                 }
             ],
-            "terms": "Energy Locals offers no lock in contracts or exit fees. Prices may vary in accordance with the terms and conditions. See energylocals.com.au/terms for full terms and conditions. Our feed-in tariff includes GST, if any.",
+            "terms": "Prices are not fixed. All usage is charged at the same wholesale electricity costs charged to us. Our bill guarantee sets the maximum average rates we charge over a calendar quarter. For general usage this is 42.2c/kWh. You are also protected by Amber\u2019s annual bill guarantee published on our website (including solar FIT if applicable). Full terms and conditions at https://www.amber.com.au/terms.",
             "isFixed": false,
             "timeZone": "LOCAL",
-            "variation": "Due to changes in the market and economic conditions, we may update your tariff and/or fees. We will provide at least 5 business days' notice before the change takes place.",
-            "incentives": [
+            "discounts": [
                 {
+                    "type": "CONDITIONAL",
                     "category": "OTHER",
-                    "description": "Local Rewards",
-                    "displayName": "Local Rewards",
-                    "eligibility": "Enjoy a free 12-month membership to Entertainment (valued at $69.99), which provides you with access to a range of offers and discounts. T&Cs apply: https://energylocals.com.au/terms-and-conditions-local-rewards/"
-                },
-                {
-                    "category": "OTHER",
-                    "description": "Refer a Friend Credit",
-                    "displayName": "Refer a Friend Credit",
-                    "eligibility": "Receive a $50 account credit if you mention an existing Energy Locals customer when you join. The friend also gets $50 credit. T&Cs apply: https://energylocals.com.au/terms-and-conditions-refer-a-friend. Energy Locals can withdraw this offer at any time."
+                    "description": "Welcome credit of $150 applied over 6 months. New residential customers only who are also customers of CommBank (CBA) in the Yello Everyday Plus segment. Must link CBA credit card or bank account as Amber payment method. Customers ineligible to receive any remaining credit months if they cancel their Amber account, switch their payment method to a non-CBA account, or their CBA card expires. Additional eligibility requirements apply, see Amber website.",
+                    "displayName": "Amber Plan + CommBank Everyday Plus Offer",
+                    "fixedAmount": {
+                        "amount": "136.364"
+                    },
+                    "methodUType": "fixedAmount"
                 }
             ],
+            "variation": "Prices are not fixed. Amber passes through wholesale electricity prices directly at the cost to us. The usage price here is an estimate based on an average of the last 12 months of wholesale prices. Visit www.amber.com.au/how-it-works",
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "Available to all the customers in the tariff code."
+                    "information": "Conditional offer to new residential customers (who are also customers of Commonwealth Bank of Australia) in Ausnet's distribution region with flat rate, TOU or demand tariff. For illustrative purposes, tariff NEE11 assumed. Feed-In Tariffs only valid if applicable"
                 }
             ],
             "pricingModel": "SINGLE_RATE",
             "tariffPeriod": [
                 {
-                    "endDate": "11-30",
-                    "startDate": "04-01",
+                    "endDate": "12-31",
+                    "startDate": "01-01",
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "22.2727"
+                                "unitPrice": "30.003541"
                             }
                         ],
                         "period": "P1D",
-                        "displayName": "Rate"
+                        "description": "All day",
+                        "displayName": "Single Rate"
                     },
-                    "displayName": "Period 1",
+                    "displayName": "Year-round",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "76.3636"
-                },
-                {
-                    "endDate": "11-30",
-                    "startDate": "04-01",
-                    "displayName": "Demand period 1",
-                    "demandCharges": [
-                        {
-                            "days": [
-                                "MON",
-                                "TUE",
-                                "WED",
-                                "THU",
-                                "FRI"
-                            ],
-                            "amount": "8.6364",
-                            "endTime": "21:00",
-                            "startTime": "15:00",
-                            "description": "Non-Summer Demand",
-                            "displayName": "Demand",
-                            "chargePeriod": "DAY",
-                            "measurementPeriod": "DAY"
-                        }
-                    ],
-                    "rateBlockUType": "demandCharges"
-                },
-                {
-                    "endDate": "03-31",
-                    "startDate": "12-01",
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "unitPrice": "22.2727"
-                            }
-                        ],
-                        "period": "P1D",
-                        "displayName": "Rate"
-                    },
-                    "displayName": "Period 2",
-                    "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "76.3636"
-                },
-                {
-                    "endDate": "03-31",
-                    "startDate": "12-01",
-                    "displayName": "Demand period 2",
-                    "demandCharges": [
-                        {
-                            "days": [
-                                "MON",
-                                "TUE",
-                                "WED",
-                                "THU",
-                                "FRI"
-                            ],
-                            "amount": "35.00",
-                            "endTime": "21:00",
-                            "startTime": "15:00",
-                            "description": "Summer Demand",
-                            "displayName": "Demand",
-                            "chargePeriod": "DAY",
-                            "measurementPeriod": "DAY"
-                        }
-                    ],
-                    "rateBlockUType": "demandCharges"
+                    "dailySupplyCharges": "60.3391"
                 }
             ],
             "billFrequency": [
                 "P1M"
             ],
             "paymentOption": [
-                "PAPER_BILL"
+                "OTHER"
             ],
             "coolingOffDays": 10,
             "greenPowerCharges": [
@@ -436,44 +372,50 @@
                     "type": "FIXED_PER_UNIT",
                     "tiers": [
                         {
-                            "amount": "0.0049",
-                            "percentGreen": "0.1"
-                        }
-                    ],
-                    "scheme": "GREENPOWER",
-                    "description": "10% GreenPower option",
-                    "displayName": "GreenPower 10"
-                },
-                {
-                    "type": "FIXED_PER_UNIT",
-                    "tiers": [
-                        {
-                            "amount": "0.0243",
-                            "percentGreen": "0.5"
-                        }
-                    ],
-                    "scheme": "GREENPOWER",
-                    "description": "50% GreenPower option",
-                    "displayName": "GreenPower 50"
-                },
-                {
-                    "type": "FIXED_PER_UNIT",
-                    "tiers": [
-                        {
-                            "amount": "0.0485",
+                            "amount": "0.0606",
                             "percentGreen": "1"
                         }
                     ],
                     "scheme": "GREENPOWER",
-                    "description": "100% GreenPower option",
+                    "description": "100% GreenPower for c/kWh.",
                     "displayName": "GreenPower 100"
                 }
             ],
-            "onExpiryDescription": "No fixed contract."
+            "solarFeedInTariff": [
+                {
+                    "scheme": "OTHER",
+                    "payerType": "RETAILER",
+                    "description": "Solar FiT c/kWh exported (incl. GST if applicable)",
+                    "displayName": "Current FIT policy",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "rates": [
+                            {
+                                "unitPrice": "3.30"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "scheme": "PREMIUM",
+                    "payerType": "RETAILER",
+                    "description": "Solar PFiT if eligible, c/kWh exported (inc. GST if applicable)",
+                    "displayName": "Premium FIT [closed]",
+                    "tariffUType": "singleTariff",
+                    "singleTariff": {
+                        "rates": [
+                            {
+                                "unitPrice": "60.00"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "onExpiryDescription": "No lock in contracts or exit fees."
         }
     },
     "meta": {},
     "links": {
-        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/ENE577664MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/amber/cds-au/v1/energy/plans/AMB584073MR@VEC"
     }
 }

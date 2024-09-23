@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "globird",
-        "planId": "GLO578855MS@VEC",
+        "planId": "GLO578742MS@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "GloBird Energy",
         "geography": {
@@ -274,8 +274,8 @@
                 "3996"
             ]
         },
-        "displayName": "GloBird  BIZGREEN Small Business (Two Rate With CL 5 days) AusNet Services (electricity)",
-        "lastUpdated": "2024-08-20T01:12:22Z",
+        "displayName": "GloBird  BIZGREENMAX Small Business (Two Rate 5 days) AusNet Services (electricity)",
+        "lastUpdated": "2024-08-20T01:12:19Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2024-08-20T14:00:00Z",
         "electricityContract": {
@@ -330,9 +330,9 @@
                 },
                 {
                     "category": "OTHER",
-                    "description": "100% Carbon Offset",
-                    "displayName": "100% Carbon Offset",
-                    "eligibility": "100% of the carbon emissions associated with this plan will be offset so you can enjoy guilt free energy."
+                    "description": "100% Renewable Electricity",
+                    "displayName": "100% Renewable Electricity",
+                    "eligibility": "100% renewable electricity accredited by GreenPower."
                 }
             ],
             "eligibility": [
@@ -341,7 +341,7 @@
                     "information": "This product is for VIC Small Business customers on flexible in AusNet Services (electricity) area.For eligibility criteria call 133456. Some reasonable conditions apply."
                 }
             ],
-            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "pricingModel": "TIME_OF_USE",
             "tariffPeriod": [
                 {
                     "endDate": "12-31",
@@ -353,7 +353,7 @@
                             "type": "PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "37.70"
+                                    "unitPrice": "41.00"
                                 }
                             ],
                             "timeOfUse": [
@@ -375,7 +375,7 @@
                             "type": "OFF_PEAK",
                             "rates": [
                                 {
-                                    "unitPrice": "19.00"
+                                    "unitPrice": "22.30"
                                 }
                             ],
                             "timeOfUse": [
@@ -413,7 +413,7 @@
                             "displayName": "Time of Use"
                         }
                     ],
-                    "dailySupplyCharges": "108.00"
+                    "dailySupplyCharges": "105.00"
                 }
             ],
             "billFrequency": [
@@ -421,21 +421,6 @@
             ],
             "paymentOption": [
                 "PAPER_BILL"
-            ],
-            "controlledLoad": [
-                {
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "unitPrice": "26.20"
-                            }
-                        ],
-                        "description": "Time switch controlled hot water services, space heaters and other dedicated loads",
-                        "displayName": "Controlled Load"
-                    },
-                    "displayName": "Controlled Load",
-                    "rateBlockUType": "singleRate"
-                }
             ],
             "coolingOffDays": 10,
             "solarFeedInTariff": [
@@ -454,10 +439,13 @@
                     }
                 }
             ],
+            "intrinsicGreenPower": {
+                "greenPercentage": "1"
+            },
             "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discount percentage or rates."
         }
     },
     "links": {
-        "self": "https://publiccdr.globirdenergy.com.au/cds-au/v1/energy/plans/GLO578855MS@VEC"
+        "self": "https://publiccdr.globirdenergy.com.au/cds-au/v1/energy/plans/GLO578742MS@VEC"
     }
 }

@@ -440,8 +440,8 @@
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "59::0",
-                                    "startTime": "0::00"
+                                    "endTime": "00:59",
+                                    "startTime": "00:00"
                                 },
                                 {
                                     "days": [

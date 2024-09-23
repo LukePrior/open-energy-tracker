@@ -452,7 +452,7 @@
                                         "SUN"
                                     ],
                                     "endTime": "23:59",
-                                    "startTime": "0::00"
+                                    "startTime": "00:00"
                                 }
                             ],
                             "description": "Mon - Fri, 22:00 - 07:00; Sat - Sun",

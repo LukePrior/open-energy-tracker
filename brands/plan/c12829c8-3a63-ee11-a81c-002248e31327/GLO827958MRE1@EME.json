@@ -319,7 +319,7 @@
                                         "FRI"
                                     ],
                                     "endTime": "06:59",
-                                    "startTime": "0::00"
+                                    "startTime": "00:00"
                                 },
                                 {
                                     "days": [
@@ -335,7 +335,7 @@
                                         "SUN"
                                     ],
                                     "endTime": "06:59",
-                                    "startTime": "0::00"
+                                    "startTime": "00:00"
                                 }
                             ],
                             "description": "Off Peak Usage",

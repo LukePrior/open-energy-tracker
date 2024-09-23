@@ -315,8 +315,8 @@
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "20:59",
-                                    "startTime": "16:00"
+                                    "endTime": "20:59:00",
+                                    "startTime": "16:00:00"
                                 }
                             ],
                             "description": "16:00 - 21:00",
@@ -340,8 +340,8 @@
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "15:59",
-                                    "startTime": "09:00"
+                                    "endTime": "15:59:00",
+                                    "startTime": "09:00:00"
                                 }
                             ],
                             "description": "09:00 - 16:00",
@@ -365,8 +365,8 @@
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "08:59",
-                                    "startTime": "21:00"
+                                    "endTime": "08:59:00",
+                                    "startTime": "21:00:00"
                                 }
                             ],
                             "description": "21:00 - 09:00",

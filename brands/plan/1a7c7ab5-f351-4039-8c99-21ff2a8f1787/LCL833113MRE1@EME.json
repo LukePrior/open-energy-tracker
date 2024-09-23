@@ -437,8 +437,8 @@
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "09:59",
-                                    "startTime": "06:00"
+                                    "endTime": "09:59:00",
+                                    "startTime": "06:00:00"
                                 },
                                 {
                                     "days": [
@@ -450,8 +450,8 @@
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "59::0",
-                                    "startTime": "15:00"
+                                    "endTime": "59::00",
+                                    "startTime": "15:00:00"
                                 }
                             ],
                             "description": "06:00 - 10:00; 15:00 - 01:00",
@@ -475,8 +475,8 @@
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "05:59",
-                                    "startTime": "01:00"
+                                    "endTime": "05:59:00",
+                                    "startTime": "01:00:00"
                                 }
                             ],
                             "description": "01:00 - 06:00",
@@ -500,8 +500,8 @@
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "14:59",
-                                    "startTime": "10:00"
+                                    "endTime": "14:59:00",
+                                    "startTime": "10:00:00"
                                 }
                             ],
                             "description": "10:00 - 15:00",

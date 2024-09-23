@@ -1,10 +1,10 @@
 {
     "data": {
         "type": "MARKET",
-        "brand": "globird",
-        "planId": "GLO578678MR@VEC",
+        "brand": "energy-locals",
+        "planId": "ENE577634MS@VEC",
         "fuelType": "ELECTRICITY",
-        "brandName": "GloBird Energy",
+        "brandName": "Energy Locals",
         "geography": {
             "distributors": [
                 "Powercor"
@@ -326,74 +326,68 @@
                 "3764"
             ]
         },
-        "displayName": "GloBird  Combo GREENMAX Residential (Flat Rate With Controlled Load)-Powercor",
-        "lastUpdated": "2024-08-20T01:12:12Z",
-        "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2024-08-20T14:00:00Z",
+        "displayName": "Business Member",
+        "lastUpdated": "2024-08-12T05:18:17Z",
+        "customerType": "BUSINESS",
+        "effectiveFrom": "2024-06-30T14:00:00Z",
         "electricityContract": {
             "fees": [
                 {
                     "term": "FIXED",
+                    "type": "MEMBERSHIP",
+                    "amount": "239.88",
+                    "description": "Access wholesale energy rates with a $19.99/month membership fee.\nFor more information on these fees and other fees, please visit energylocals.com.au/fees"
+                },
+                {
+                    "term": "FIXED",
+                    "type": "DD_DISHONOUR",
+                    "amount": "10.00",
+                    "description": "Charged when a direct debit payment has dishonoured or reversed. This charge is not subject to GST."
+                },
+                {
+                    "term": "FIXED",
+                    "type": "OTHER",
+                    "amount": "2.00",
+                    "description": "Charged per paper bill"
+                },
+                {
+                    "term": "FIXED",
                     "type": "CONNECTION",
-                    "amount": "15.00",
-                    "description": "This is smart meter remote re-connection fee. It assumes a smart meter being remotely connected during business hours when we have been given enough prior notice.  However the fee can vary depending on the type of meter, the location, and other factors."
+                    "amount": "69.64",
+                    "description": "May be charged when you move into a property or change retailer. Actual fee may vary."
                 },
                 {
                     "term": "FIXED",
                     "type": "DISCONNECTION",
-                    "amount": "15.00",
-                    "description": "This is smart meter remote disconnection fee, however this fee can vary depending on your type of meter, the meter location, and other factors."
+                    "amount": "74.01",
+                    "description": "May be charged when you move out and require a final meter read. Actual fee may vary."
                 },
                 {
-                    "term": "FIXED",
-                    "type": "OTHER",
-                    "amount": "4.00",
-                    "description": "Paper Bill. If you have opted to receive a paper bill by post"
-                },
-                {
-                    "rate": "0",
+                    "rate": "0.0081",
                     "term": "PERCENT_OF_BILL",
-                    "type": "OTHER",
-                    "description": "0 Credit Card Payment Processing Fee"
+                    "type": "CC_PROCESSING",
+                    "description": "We accept Visa, Mastercard and AMEX payments via energylocals.com.au/pay-by-card. Debit card transactions are subject to a 0.46% fee, and credit card payments incur a 0.81% fee. Credit and debit card processing fees are waived for Direct Debit payments."
                 }
             ],
-            "terms": "This contingent offer is for VIC Residential customers when bundled with one of GloBird's eligible gas plans. For further information about this offer call GloBird on 133456 or visit www.globirdenergy.com.au or see our full terms and conditions here: www.globirdenergy.com.au/legal/. See Time of Use Solar/Generation time period here https://www.globirdenergy.com.au/legal/flexible/. 4-9pm we pay 8.4c/kWh, 10am-2pm we pay 2.1c, other times we pay 4.1c",
+            "terms": "Energy Locals offers no lock in contracts or exit fees. Prices may vary in accordance with the terms and conditions. See energylocals.com.au/terms for full terms and conditions. Our feed-in tariff includes GST, if any.",
             "isFixed": false,
             "timeZone": "LOCAL",
-            "discounts": [
-                {
-                    "type": "CONDITIONAL",
-                    "category": "PAY_ON_TIME",
-                    "description": "Discounts only apply when the condition is met. 2% when you pay the bill by the due date. 2% when you have both an active gas and electricity account for the same premises on one account when you pay the bill by the due date, and 1% when you pay the bill by the due date with direct debit.",
-                    "displayName": "PPD",
-                    "methodUType": "percentOfBill",
-                    "percentOfBill": {
-                        "rate": "0.05"
-                    }
-                }
-            ],
-            "variation": "Prices are reviewed one calendar month after the effective date of the approval of your distributor\u2019s annual network tariffs by the regulator. Solar rates change from the ESC\u2019s annual minimum feed-in Tariff determination\u2019s effective date.",
+            "variation": "Due to changes in the market and economic conditions, we may update your tariff and/or fees. We will provide at least 5 business days' notice before the change takes place.",
             "incentives": [
                 {
                     "category": "OTHER",
-                    "description": "Local call center and no credit card processing fees",
-                    "displayName": "Local call center and no credit card processing fees",
-                    "eligibility": "Traditional energy plan. Easy to understand. Local call center. No sneaky credit card processing fees. Just great value."
-                },
-                {
-                    "category": "OTHER",
-                    "description": "100% Renewable Electricity",
-                    "displayName": "100% Renewable Electricity",
-                    "eligibility": "100% renewable electricity accredited by GreenPower."
+                    "description": "Refer a Friend Credit",
+                    "displayName": "Refer a Friend Credit",
+                    "eligibility": "Receive a $50 account credit if you mention an existing Energy Locals customer when you join. The friend also gets $50 credit. T&Cs apply: https://energylocals.com.au/terms-and-conditions-refer-a-friend. Energy Locals can withdraw this offer at any time."
                 }
             ],
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "This contingent product is for VIC Residential customers on single-rate in Powercor area. Step 1 is calculated based on average daily allowance of 25kWh/day for the billing period. Eg: 30-day has a step 1 of 750 or 31-day 775kWh. Some reasonable conditions apply. For eligibility criteria call 133456."
+                    "information": "Available to customers on eligible network tariffs. Feed-In Tariffs are only valid if applicable."
                 }
             ],
-            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "pricingModel": "SINGLE_RATE",
             "tariffPeriod": [
                 {
                     "endDate": "12-31",
@@ -401,20 +395,15 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "volume": 760.42,
-                                "unitPrice": "24.50"
-                            },
-                            {
-                                "unitPrice": "28.80"
+                                "unitPrice": "24.5455"
                             }
                         ],
-                        "period": "P1M",
-                        "description": "First 760.42 kWh/Month",
-                        "displayName": "Peak"
+                        "period": "P1D",
+                        "displayName": "Rate"
                     },
-                    "displayName": "Period",
+                    "displayName": "Peak",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "101.00"
+                    "dailySupplyCharges": "86.3636"
                 }
             ],
             "billFrequency": [
@@ -423,45 +412,50 @@
             "paymentOption": [
                 "PAPER_BILL"
             ],
-            "controlledLoad": [
-                {
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "unitPrice": "21.80"
-                            }
-                        ],
-                        "description": "Time switch controlled hot water services, space heaters and other dedicated loads",
-                        "displayName": "Controlled Load"
-                    },
-                    "displayName": "Controlled Load",
-                    "rateBlockUType": "singleRate"
-                }
-            ],
             "coolingOffDays": 10,
-            "solarFeedInTariff": [
+            "greenPowerCharges": [
                 {
-                    "scheme": "PREMIUM",
-                    "payerType": "RETAILER",
-                    "description": "You can remain on the scheme until 31 December 2024",
-                    "displayName": "Premium FIT [closed]",
-                    "tariffUType": "singleTariff",
-                    "singleTariff": {
-                        "rates": [
-                            {
-                                "unitPrice": "60.00"
-                            }
-                        ]
-                    }
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0049",
+                            "percentGreen": "0.1"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "10% GreenPower option",
+                    "displayName": "GreenPower 10"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0243",
+                            "percentGreen": "0.5"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "50% GreenPower option",
+                    "displayName": "GreenPower 50"
+                },
+                {
+                    "type": "FIXED_PER_UNIT",
+                    "tiers": [
+                        {
+                            "amount": "0.0485",
+                            "percentGreen": "1"
+                        }
+                    ],
+                    "scheme": "GREENPOWER",
+                    "description": "100% GreenPower option",
+                    "displayName": "GreenPower 100"
                 }
             ],
-            "intrinsicGreenPower": {
-                "greenPercentage": "1"
-            },
-            "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discounts, prices or rates."
+            "onExpiryDescription": "No fixed contract."
         }
     },
+    "meta": {},
     "links": {
-        "self": "https://publiccdr.globirdenergy.com.au/cds-au/v1/energy/plans/GLO578678MR@VEC"
+        "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/ENE577634MS@VEC"
     }
 }

@@ -289,8 +289,8 @@
                     "demandCharges": [
                         {
                             "amount": "16.82",
-                            "endTime": "00:00",
-                            "startTime": "00:00",
+                            "endTime": "00:00:00",
+                            "startTime": "00:00:00",
                             "description": "Demand Charge  All kW (c/kW Daily). Uses the maximum kW consumption from the meter readings within the period 16:00 - 21:00.",
                             "displayName": "Peak Demand",
                             "chargePeriod": "TARIFF_PERIOD",

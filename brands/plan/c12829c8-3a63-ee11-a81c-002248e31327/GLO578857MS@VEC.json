@@ -2,80 +2,65 @@
     "data": {
         "type": "MARKET",
         "brand": "globird",
-        "planId": "GLO578735MS@VEC",
+        "planId": "GLO578857MS@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "GloBird Energy",
         "geography": {
             "distributors": [
-                "Jemena"
+                "Citipower"
             ],
             "includedPostcodes": [
+                "3000",
+                "3002",
+                "3003",
+                "3004",
+                "3005",
+                "3006",
+                "3008",
+                "3010",
                 "3011",
-                "3012",
-                "3013",
-                "3015",
-                "3016",
-                "3019",
-                "3020",
-                "3023",
-                "3025",
                 "3031",
-                "3032",
-                "3033",
-                "3034",
-                "3036",
-                "3037",
-                "3038",
-                "3039",
-                "3040",
-                "3041",
-                "3042",
-                "3043",
-                "3044",
-                "3045",
-                "3046",
-                "3047",
-                "3048",
-                "3049",
                 "3051",
                 "3052",
-                "3058",
-                "3059",
-                "3060",
-                "3061",
-                "3062",
-                "3063",
-                "3064",
+                "3053",
+                "3054",
+                "3055",
+                "3056",
+                "3057",
+                "3065",
+                "3066",
+                "3067",
                 "3068",
                 "3070",
-                "3072",
-                "3073",
-                "3074",
-                "3076",
+                "3071",
                 "3078",
-                "3079",
-                "3081",
-                "3083",
-                "3084",
-                "3085",
-                "3086",
-                "3087",
-                "3335",
-                "3336",
-                "3337",
-                "3340",
-                "3427",
-                "3428",
-                "3429",
-                "3430",
-                "3431",
-                "3437",
-                "3750",
-                "3753"
+                "3101",
+                "3102",
+                "3103",
+                "3104",
+                "3121",
+                "3122",
+                "3123",
+                "3124",
+                "3125",
+                "3126",
+                "3127",
+                "3129",
+                "3141",
+                "3142",
+                "3143",
+                "3144",
+                "3161",
+                "3181",
+                "3182",
+                "3183",
+                "3205",
+                "3206",
+                "3207"
             ]
         },
-        "displayName": "GloBird  BIZGREENMAX Small Business (Flat Rate With Controlled Load)-Jemena",
-        "lastUpdated": "2024-08-20T01:12:19Z",
+        "displayName": "GloBird  BIZGREEN Small Business (Two Rate  With CL 5 days) Citipower",
+        "lastUpdated": "2024-08-20T01:12:22Z",
         "customerType": "BUSINESS",
         "effectiveFrom": "2024-08-20T14:00:00Z",
         "electricityContract": {
@@ -130,38 +115,89 @@
                 },
                 {
                     "category": "OTHER",
-                    "description": "100% Renewable Electricity",
-                    "displayName": "100% Renewable Electricity",
-                    "eligibility": "100% renewable electricity accredited by GreenPower."
+                    "description": "100% Carbon Offset",
+                    "displayName": "100% Carbon Offset",
+                    "eligibility": "100% of the carbon emissions associated with this plan will be offset so you can enjoy guilt free energy."
                 }
             ],
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "This product is for VIC Small Business customers on single-rate in Jemena area.Step 1 of 912.50kWh/month, calculated based on average daily allowance of 30.00kWh/day for the billing period. Example: 30 day bill has a step 1 of 900.00kWh, or a 31 day bill 930.00kWh. For eligibility criteria call 133456. Some reasonable conditions apply."
+                    "information": "This product is for VIC Small Business customers on flexible in Citipower area.For eligibility criteria call 133456. Some reasonable conditions apply."
                 }
             ],
-            "pricingModel": "SINGLE_RATE_CONT_LOAD",
+            "pricingModel": "TIME_OF_USE_CONT_LOAD",
             "tariffPeriod": [
                 {
                     "endDate": "12-31",
                     "startDate": "01-01",
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "volume": 912.5,
-                                "unitPrice": "31.00"
-                            },
-                            {
-                                "unitPrice": "32.30"
-                            }
-                        ],
-                        "period": "P1M",
-                        "description": "First 912.50 kWh/Month",
-                        "displayName": "Peak"
-                    },
                     "displayName": "Period",
-                    "rateBlockUType": "singleRate",
+                    "rateBlockUType": "timeOfUseRates",
+                    "timeOfUseRates": [
+                        {
+                            "type": "PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "30.10"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "21:00",
+                                    "startTime": "09:00"
+                                }
+                            ],
+                            "displayName": "Time of Use"
+                        },
+                        {
+                            "type": "OFF_PEAK",
+                            "rates": [
+                                {
+                                    "unitPrice": "17.10"
+                                }
+                            ],
+                            "timeOfUse": [
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "00:00",
+                                    "startTime": "21:00"
+                                },
+                                {
+                                    "days": [
+                                        "MON",
+                                        "TUE",
+                                        "WED",
+                                        "THU",
+                                        "FRI"
+                                    ],
+                                    "endTime": "09:00",
+                                    "startTime": "00:00"
+                                },
+                                {
+                                    "days": [
+                                        "SAT",
+                                        "SUN"
+                                    ],
+                                    "endTime": "00:00",
+                                    "startTime": "00:00"
+                                }
+                            ],
+                            "displayName": "Time of Use"
+                        }
+                    ],
                     "dailySupplyCharges": "108.00"
                 }
             ],
@@ -176,7 +212,7 @@
                     "singleRate": {
                         "rates": [
                             {
-                                "unitPrice": "28.30"
+                                "unitPrice": "22.50"
                             }
                         ],
                         "description": "Time switch controlled hot water services, space heaters and other dedicated loads",
@@ -203,13 +239,10 @@
                     }
                 }
             ],
-            "intrinsicGreenPower": {
-                "greenPercentage": "1"
-            },
             "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discount percentage or rates."
         }
     },
     "links": {
-        "self": "https://publiccdr.globirdenergy.com.au/cds-au/v1/energy/plans/GLO578735MS@VEC"
+        "self": "https://publiccdr.globirdenergy.com.au/cds-au/v1/energy/plans/GLO578857MS@VEC"
     }
 }

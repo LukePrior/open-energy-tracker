@@ -424,7 +424,7 @@
                                         "SUN"
                                     ],
                                     "endTime": "23:59",
-                                    "startTime": "0::00"
+                                    "startTime": "00:00"
                                 }
                             ],
                             "description": "Jun - Aug, Mon - Fri, 21:00 - 15:00; Jun - Aug, Sat - Sun",
@@ -546,7 +546,7 @@
                                         "SUN"
                                     ],
                                     "endTime": "23:59",
-                                    "startTime": "0::00"
+                                    "startTime": "00:00"
                                 }
                             ],
                             "description": "Nov - Mar, Mon - Fri, 21:00 - 15:00; Nov - Mar, Sat - Sun",

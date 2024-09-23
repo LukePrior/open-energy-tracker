@@ -142,7 +142,8 @@
                         }
                     ],
                     "scheme": "GREENPOWER",
-                    "description": "100% GreenPower for 6.06 cents/kWh (inc. GST) option avaliable. See website for more information."
+                    "description": "100% GreenPower for 6.06 cents/kWh (inc. GST) option avaliable. See website for more information.",
+                    "displayName": "Green Power Charge"
                 }
             ],
             "solarFeedInTariff": [

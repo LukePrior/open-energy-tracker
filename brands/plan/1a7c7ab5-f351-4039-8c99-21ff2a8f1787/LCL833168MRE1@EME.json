@@ -306,8 +306,8 @@
                                         "THU",
                                         "FRI"
                                     ],
-                                    "endTime": "19:59",
-                                    "startTime": "16:00"
+                                    "endTime": "19:59:00",
+                                    "startTime": "16:00:00"
                                 }
                             ],
                             "description": "Mon - Fri, 16:00 - 20:00",
@@ -331,8 +331,8 @@
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "06:59",
-                                    "startTime": "22:00"
+                                    "endTime": "06:59:00",
+                                    "startTime": "22:00:00"
                                 }
                             ],
                             "description": "22:00 - 07:00",
@@ -354,8 +354,8 @@
                                         "THU",
                                         "FRI"
                                     ],
-                                    "endTime": "15:59",
-                                    "startTime": "07:00"
+                                    "endTime": "15:59:00",
+                                    "startTime": "07:00:00"
                                 },
                                 {
                                     "days": [
@@ -365,16 +365,16 @@
                                         "THU",
                                         "FRI"
                                     ],
-                                    "endTime": "21:59",
-                                    "startTime": "20:00"
+                                    "endTime": "21:59:00",
+                                    "startTime": "20:00:00"
                                 },
                                 {
                                     "days": [
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "21:59",
-                                    "startTime": "07:00"
+                                    "endTime": "21:59:00",
+                                    "startTime": "07:00:00"
                                 }
                             ],
                             "description": "Mon - Fri, 07:00 - 16:00; Mon - Fri, 20:00 - 22:00; Sat - Sun, 07:00 - 22:00",

@@ -418,8 +418,8 @@
                     "demandCharges": [
                         {
                             "amount": "83.18",
-                            "endTime": "00:00",
-                            "startTime": "00:00",
+                            "endTime": "00:00:00",
+                            "startTime": "00:00:00",
                             "description": "Demand Charge  All kW (c/kW Daily). Uses the maximum kW usage from the meter readings within the period Nov - Mar, 17:00 - 21:00.",
                             "displayName": "Summer Demand",
                             "chargePeriod": "TARIFF_PERIOD",
@@ -446,8 +446,8 @@
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "09:59",
-                                    "startTime": "06:00"
+                                    "endTime": "09:59:00",
+                                    "startTime": "06:00:00"
                                 },
                                 {
                                     "days": [
@@ -459,8 +459,8 @@
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "59::0",
-                                    "startTime": "15:00"
+                                    "endTime": "59::00",
+                                    "startTime": "15:00:00"
                                 }
                             ],
                             "description": "06:00 - 10:00; 15:00 - 01:00",
@@ -484,8 +484,8 @@
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "05:59",
-                                    "startTime": "01:00"
+                                    "endTime": "05:59:00",
+                                    "startTime": "01:00:00"
                                 }
                             ],
                             "description": "01:00 - 06:00",
@@ -509,8 +509,8 @@
                                         "SAT",
                                         "SUN"
                                     ],
-                                    "endTime": "14:59",
-                                    "startTime": "10:00"
+                                    "endTime": "14:59:00",
+                                    "startTime": "10:00:00"
                                 }
                             ],
                             "description": "10:00 - 15:00",
@@ -557,8 +557,8 @@
                                         "SUN",
                                         "PUBLIC_HOLIDAYS"
                                     ],
-                                    "endTime": "23:59",
-                                    "startTime": "00:00"
+                                    "endTime": "23:59:00",
+                                    "startTime": "00:00:00"
                                 }
                             ],
                             "description": "0630 to 0930 and 1530 to 2330 on all days",
@@ -593,8 +593,8 @@
                                         "SUN",
                                         "PUBLIC_HOLIDAYS"
                                     ],
-                                    "endTime": "23:59",
-                                    "startTime": "00:00"
+                                    "endTime": "23:59:00",
+                                    "startTime": "00:00:00"
                                 }
                             ],
                             "description": "2330 to 0630 on all days",
@@ -629,8 +629,8 @@
                                         "SUN",
                                         "PUBLIC_HOLIDAYS"
                                     ],
-                                    "endTime": "23:59",
-                                    "startTime": "00:00"
+                                    "endTime": "23:59:00",
+                                    "startTime": "00:00:00"
                                 }
                             ],
                             "description": "0930 to 1530 on all days",

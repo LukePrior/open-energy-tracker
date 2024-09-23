@@ -459,8 +459,8 @@
                                         "SUN",
                                         "PUBLIC_HOLIDAYS"
                                     ],
-                                    "endTime": "23:59",
-                                    "startTime": "00:00"
+                                    "endTime": "23:59:00",
+                                    "startTime": "00:00:00"
                                 }
                             ],
                             "description": "0630 to 0930 and 1530 to 2330 on all days",
@@ -495,8 +495,8 @@
                                         "SUN",
                                         "PUBLIC_HOLIDAYS"
                                     ],
-                                    "endTime": "23:59",
-                                    "startTime": "00:00"
+                                    "endTime": "23:59:00",
+                                    "startTime": "00:00:00"
                                 }
                             ],
                             "description": "2330 to 0630 on all days",
@@ -531,8 +531,8 @@
                                         "SUN",
                                         "PUBLIC_HOLIDAYS"
                                     ],
-                                    "endTime": "23:59",
-                                    "startTime": "00:00"
+                                    "endTime": "23:59:00",
+                                    "startTime": "00:00:00"
                                 }
                             ],
                             "description": "0930 to 1530 on all days",

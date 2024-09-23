@@ -163,7 +163,7 @@
                                         "FRI"
                                     ],
                                     "endTime": "06:59",
-                                    "startTime": "0::00"
+                                    "startTime": "00:00"
                                 },
                                 {
                                     "days": [
@@ -182,7 +182,7 @@
                                         "SUN"
                                     ],
                                     "endTime": "23:59",
-                                    "startTime": "0::00"
+                                    "startTime": "00:00"
                                 }
                             ],
                             "description": "Mon - Fri, 00:00 - 07:00; Mon - Fri, 22:00 - 24:00; Sat - Sun",
