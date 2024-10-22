@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "globird",
-        "planId": "GLO591534MR@VEC",
+        "planId": "GLO591535MR@VEC",
         "fuelType": "ELECTRICITY",
         "brandName": "GloBird Energy",
         "geography": {
@@ -111,7 +111,7 @@
                 "3977"
             ]
         },
-        "displayName": "GloBird  FREELUNCH Residential (Two Rate With CL) United Energy",
+        "displayName": "GloBird  Combo FREELUNCH Residential (Two Rate) United Energy",
         "lastUpdated": "2024-09-25T22:40:58Z",
         "customerType": "RESIDENTIAL",
         "effectiveFrom": "2024-09-29T14:00:00Z",
@@ -149,11 +149,11 @@
                 {
                     "type": "CONDITIONAL",
                     "category": "PAY_ON_TIME",
-                    "description": "Discounts only apply when the condition is met. 2% when you pay the bill by the due date. Further 1% when you pay the bill by the due date with direct debit. The discounts apply to both the supply and consumption charges and don't apply to solar credit.",
+                    "description": "Discounts only apply when the condition is met. 2% when you pay the bill by the due date. Further 2% when you have both an active gas and electricity account for the same premises on one account and you pay the bill by the due date, and a further 1% when you pay the bill by the due date with direct debit. The discounts apply to both the supply and consumption charges and don't apply to solar credit.",
                     "displayName": "Prompt Payment Discounts",
                     "methodUType": "percentOfBill",
                     "percentOfBill": {
-                        "rate": "0.03"
+                        "rate": "0.05"
                     }
                 }
             ],
@@ -175,10 +175,10 @@
             "eligibility": [
                 {
                     "type": "OTHER",
-                    "information": "This plan is available to residential customers with an eligible electricity smart meter. Other conditions apply - call 133456 to check if you are eligible."
+                    "information": "This contingent plan is available to residential customers with an eligible electricity smart meter and when bundled with one of GloBird's eligible gas plans for the same premise on one account. Other conditions apply - call 133456 to check if you are eligible."
                 }
             ],
-            "pricingModel": "TIME_OF_USE_CONT_LOAD",
+            "pricingModel": "TIME_OF_USE",
             "tariffPeriod": [
                 {
                     "endDate": "12-31",
@@ -261,21 +261,6 @@
             "paymentOption": [
                 "PAPER_BILL"
             ],
-            "controlledLoad": [
-                {
-                    "singleRate": {
-                        "rates": [
-                            {
-                                "unitPrice": "25.70"
-                            }
-                        ],
-                        "description": "Time switch controlled hot water services, space heaters and other dedicated loads",
-                        "displayName": "Controlled Load"
-                    },
-                    "displayName": "Controlled Load",
-                    "rateBlockUType": "singleRate"
-                }
-            ],
             "coolingOffDays": 10,
             "solarFeedInTariff": [
                 {
@@ -297,6 +282,6 @@
         }
     },
     "links": {
-        "self": "https://publiccdr.globirdenergy.com.au/cds-au/v1/energy/plans/GLO591534MR@VEC"
+        "self": "https://publiccdr.globirdenergy.com.au/cds-au/v1/energy/plans/GLO591535MR@VEC"
     }
 }

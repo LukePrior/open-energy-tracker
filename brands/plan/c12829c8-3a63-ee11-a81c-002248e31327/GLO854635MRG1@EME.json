@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "globird",
-        "planId": "GLO848160MRG1@EME",
+        "planId": "GLO854635MRG1@EME",
         "fuelType": "GAS",
         "brandName": "Globird Energy",
         "geography": {
@@ -314,7 +314,7 @@
                 "2786"
             ]
         },
-        "displayName": "BOOST Residential(Jemena)-Jemena Gas",
+        "displayName": "GLOGREEN Residential(Jemena)-Jemena Gas",
         "gasContract": {
             "fees": [
                 {
@@ -332,7 +332,36 @@
             ],
             "terms": "This offer is for NSW residential customers. Some reasonable conditions apply. For further information about this offer call GloBird on 133456 or visit www.globirdenergy.com.au or see our full terms and conditions here: www.globirdenergy.com.au/legal/",
             "isFixed": false,
+            "discounts": [
+                {
+                    "type": "CONDITIONAL",
+                    "category": "DIRECT_DEBIT",
+                    "description": "You will receive 1% discount off Usage & Supply charges when you pay your bill on-time by direct debit",
+                    "displayName": "Direct Debit Discount",
+                    "methodUType": "percentOfBill",
+                    "percentOfBill": {
+                        "rate": "0.01"
+                    }
+                },
+                {
+                    "type": "CONDITIONAL",
+                    "category": "PAY_ON_TIME",
+                    "description": "You will receive 2% discount off Usage & Supply charges when you pay your bill on-time",
+                    "displayName": "Pay-on-time Discount",
+                    "methodUType": "percentOfBill",
+                    "percentOfBill": {
+                        "rate": "0.02"
+                    }
+                }
+            ],
             "variation": "We may update your solar feed-in, or your rates from time to time. We'll always notify you in writing prior to any change.",
+            "incentives": [
+                {
+                    "category": "OTHER",
+                    "description": "100% of the carbon emissions associated with this plan will be offset so you can enjoy guilt free energy.",
+                    "displayName": "100% Carbon Offset"
+                }
+            ],
             "pricingModel": "SINGLE_RATE",
             "tariffPeriod": [
                 {
@@ -342,10 +371,10 @@
                         "rates": [
                             {
                                 "volume": 629,
-                                "unitPrice": "3.21"
+                                "unitPrice": "3.8"
                             },
                             {
-                                "unitPrice": "2.62"
+                                "unitPrice": "3.15"
                             }
                         ],
                         "period": "P1M",
@@ -363,10 +392,10 @@
                         "rates": [
                             {
                                 "volume": 629,
-                                "unitPrice": "3.21"
+                                "unitPrice": "3.8"
                             },
                             {
-                                "unitPrice": "2.62"
+                                "unitPrice": "3.15"
                             }
                         ],
                         "period": "P1M",
@@ -391,11 +420,11 @@
             "onExpiryDescription": "You will be notified of a new plan 1 month before the expiry date",
             "additionalFeeInformation": "Additional fees and charges may apply, please see: https://www.globirdenergy.com.au/legal/fees/"
         },
-        "lastUpdated": "2024-10-06T14:05:31.888Z",
+        "lastUpdated": "2024-10-21T14:05:20.404Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2024-10-07T00:00:00.000Z"
+        "effectiveFrom": "2024-10-22T00:00:00.000Z"
     },
     "links": {
-        "self": "https://publiccdr.globirdenergy.com.au/cds-au/v1/energy/plans/GLO848160MRG1@EME"
+        "self": "https://publiccdr.globirdenergy.com.au/cds-au/v1/energy/plans/GLO854635MRG1@EME"
     }
 }

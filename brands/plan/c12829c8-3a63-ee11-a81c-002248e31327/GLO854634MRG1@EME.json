@@ -2,7 +2,7 @@
     "data": {
         "type": "MARKET",
         "brand": "globird",
-        "planId": "GLO848163MRG1@EME",
+        "planId": "GLO854634MRG1@EME",
         "fuelType": "GAS",
         "brandName": "Globird Energy",
         "geography": {
@@ -314,7 +314,7 @@
                 "2786"
             ]
         },
-        "displayName": "ULTRA SAVE Residential(Jemena)-Jemena Gas",
+        "displayName": "GLOSAVE Residential(Jemena)-Jemena Gas",
         "gasContract": {
             "fees": [
                 {
@@ -364,10 +364,10 @@
                         "rates": [
                             {
                                 "volume": 629,
-                                "unitPrice": "3.42"
+                                "unitPrice": "3.7"
                             },
                             {
-                                "unitPrice": "3.00"
+                                "unitPrice": "3.05"
                             }
                         ],
                         "period": "P1M",
@@ -376,7 +376,7 @@
                     },
                     "displayName": "June to September",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "53.00"
+                    "dailySupplyCharges": "52.00"
                 },
                 {
                     "endDate": "05-31",
@@ -385,10 +385,10 @@
                         "rates": [
                             {
                                 "volume": 629,
-                                "unitPrice": "3.42"
+                                "unitPrice": "3.7"
                             },
                             {
-                                "unitPrice": "3.00"
+                                "unitPrice": "3.05"
                             }
                         ],
                         "period": "P1M",
@@ -397,11 +397,11 @@
                     },
                     "displayName": "October to May",
                     "rateBlockUType": "singleRate",
-                    "dailySupplyCharges": "53.00"
+                    "dailySupplyCharges": "52.00"
                 }
             ],
             "billFrequency": [
-                "P3M"
+                "P1M"
             ],
             "paymentOption": [
                 "PAPER_BILL",
@@ -413,11 +413,11 @@
             "onExpiryDescription": "You will be notified of a new plan 1 month before the expiry date",
             "additionalFeeInformation": "Additional fees and charges may apply, please see: https://www.globirdenergy.com.au/legal/fees/"
         },
-        "lastUpdated": "2024-10-06T14:05:32.744Z",
+        "lastUpdated": "2024-10-21T14:05:19.324Z",
         "customerType": "RESIDENTIAL",
-        "effectiveFrom": "2024-10-07T00:00:00.000Z"
+        "effectiveFrom": "2024-10-22T00:00:00.000Z"
     },
     "links": {
-        "self": "https://publiccdr.globirdenergy.com.au/cds-au/v1/energy/plans/GLO848163MRG1@EME"
+        "self": "https://publiccdr.globirdenergy.com.au/cds-au/v1/energy/plans/GLO854634MRG1@EME"
     }
 }
